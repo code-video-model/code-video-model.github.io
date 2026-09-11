@@ -1,0 +1,86 @@
+{
+  "case_id": "322",
+  "session": "First-Person Games",
+  "prompt": "Third-person aerial shot in an Attack on Titan-inspired city. A soldier swings in a sharp arc around a Titan's neck while steam erupts and rooftops blur below. Fast but readable ODM motion.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "574b265f28a42dcaa1b58f8828d762522b1e44b2ba00ccb2cd190d44a340ff30",
+  "entry": "runtime/case/index.html",
+  "sources": [
+    {
+      "path": "original/case/scene.js",
+      "name": "case/scene.js",
+      "sha256": "3a061b107041a7f0e6cefe6d34f4f12ced7033f6c48c68fa91057676a2cb2de5",
+      "functions": [
+        {
+          "name": "setShadows",
+          "line": 112
+        },
+        {
+          "name": "mesh",
+          "line": 122
+        },
+        {
+          "name": "deterministicNoise",
+          "line": 130
+        },
+        {
+          "name": "createBuilding",
+          "line": 142
+        },
+        {
+          "name": "dynamicLine",
+          "line": 312
+        },
+        {
+          "name": "smoothstep",
+          "line": 370
+        },
+        {
+          "name": "setLine",
+          "line": 392
+        },
+        {
+          "name": "updateSteam",
+          "line": 400
+        },
+        {
+          "name": "updateSpeedLines",
+          "line": 422
+        },
+        {
+          "name": "updateOrbitTrail",
+          "line": 438
+        },
+        {
+          "name": "updateSlashArc",
+          "line": 453
+        },
+        {
+          "name": "update",
+          "line": 470
+        },
+        {
+          "name": "animate",
+          "line": 540
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "case/scene.js",
+      "sha256": "3a061b107041a7f0e6cefe6d34f4f12ced7033f6c48c68fa91057676a2cb2de5"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/cinematic_video_prompts_1_400_threejs_h3_aligned/code/322",
+    "artifact_verified": true
+  }
+}

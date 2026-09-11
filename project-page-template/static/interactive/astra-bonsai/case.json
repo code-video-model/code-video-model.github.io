@@ -1,0 +1,70 @@
+{
+  "case_id": "astra-bonsai",
+  "session": "3D / 4D Reconstruction",
+  "prompt": "Create one continuous 10-second photoreal novel-view shot of the SAME STATIC physical scene. @Image1 is a real photograph, uniformly scaled and cropped, of the STARTING camera view. It is the authority for object identity, observed construction, materials, colors, lighting, and scene details. It is NOT a character sheet, flat backdrop, or frame to repeat. @Video1 is a procedural geometric reconstruction of that SAME scene. Follow its camera translation, local arc, framing progression, relative depth and changing occlusion. Replace its simplified CG surfaces with the real photographed appearance from @Image1; do not copy low-poly shading or transform the scene into a cartoon. Scene identity: A photographed manufactured brick-built bonsai sculpture: brown segmented plastic trunk and branches, pink and pale plastic blossoms, black rectangular planter with pebbles, and a brown slatted stand on draped purple textured cloth. A stationary red bicycle, dark furniture, keyboard and room objects sit behind it. Camera route: Continuous 360-degree counterclockwise bearing advance across all ten seconds. A sinusoidal velocity modulation never stops; a 17-percent-plus inward dolly and broad rear crane clear the bicycle while revealing the full inferred branch, planter, stand and fabric backs. No destination framing or endpoint hold.  KINETIC CAMERA CONTRACT: @Video1 has highest authority for continuous camera motion. @Image1 controls appearance only and must not anchor, slow, recenter or stop the camera. Camera intent: An energetic uninterrupted inspection of a rigid manufactured bonsai: peel apart blossom layers, skim the open tiled planter, rise across the inferred reverse branch sockets, then descend through the left-side cloth folds. All scene contents remain rigid and the complete orbit is reached only at ten seconds. Travel continuously through one 360-degree counterclockwise path over all ten seconds. Screen-space travel: Travel first around the sculpture's right side; the distant red bicycle slides screen-right behind the trunk as the planter's right rim opens. Cross the rear at mid-shot above the bicycle, continue around the left rim, and sweep back toward the source-facing side still moving. There is no destination framing and no final hold: every second must contain strong world-space camera displacement, parallax and changing occlusion. Required camera beats: (1) 0-2.5s: fast source-to-right reveal, advancing about a quarter turn as the red saddle and rear wheel separate behind the canopy and the right planter tiles become visible. (2) 2.5-5s: inward dolly and strong crane lift over the bicycle, exposing pebble depth, stand slats and rear-facing plastic branch sockets. (3) 5-7.5s: carry speed across the inferred rear-left face, reversing blossom overlaps and allowing the black keyboard casing and handlebar assembly to slide across the background. (4) 7.5-10s: descend and widen through the left planter rim and purple side folds, recover the bicycle's source layering without slowing to a final hold. Required changing-occlusion evidence: (1) From source to right side, the black planter's narrow right wall broadens while the red rear wheel and brown saddle slide away from the trunk. (2) Across the elevated rear, reverse blossom plates and socket backs face the lens; the stand's rear rail replaces its front rail and the bicycle becomes a foreground depth layer below the sculpture. (3) Through the left side, the upright keyboard's edge and the black equipment case move behind the manufactured branch rather than remaining glued to the source silhouette. (4) During the final quarter, the two spoke wheels spread back behind the purple cloth and the front planter wall returns, with camera travel continuing through the final frame. Never settle into a hero frame, pause for the action, reverse direction, rotate the subject as a turntable, or replace physical camera travel with digital zoom/pan. Begin at the photographed source composition, then reveal a coherent local novel view with clear foreground/background parallax. Only the camera moves; keep all physical objects and materials fixed. The subject is a rigid brick/plastic sculpture, not a living tree. Blossoms, trunk, planter, stand, cloth, and background bicycle remain static. Preserve the pink blossoms, brown trunk, black planter, purple cloth and red bicycle. The real photograph and proxy share the same centered 4:3 aspect-ratio crop. Preserve that crop without stretching, zooming past it, or inventing scene content outside the photographed crop. Complete newly revealed surfaces conservatively from the observed scene; Do not add, remove, morph, duplicate, rotate or animate objects. No cuts, camera jumps, turntable object motion, still-image sliding, text labels or rendered UI.",
+  "fps": 24.0,
+  "frames": 240,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "2a68faac10b722603a4f81bd11877c3cf42bf24ee25b262a5d9d7e7e73801312",
+  "entry": "runtime/case/index.html",
+  "sources": [
+    {
+      "path": "original/case/runtime.mjs",
+      "name": "case/runtime.mjs",
+      "sha256": "160d7b6c8446b9694f654e5f0fd4a2841d65af53d6da650034c24e0fad1fe3f2",
+      "functions": [
+        {
+          "name": "seek",
+          "line": 25
+        },
+        {
+          "name": "diagnostics",
+          "line": 42
+        }
+      ]
+    },
+    {
+      "path": "original/case/scene.mjs",
+      "name": "case/scene.mjs",
+      "sha256": "3ec335ff55193e8ddb8a7cac5baacb7b47fc5e2aa1c3fffcb7cc91da104ff378",
+      "functions": []
+    },
+    {
+      "path": "original/presentation-crop.mjs",
+      "name": "presentation-crop.mjs",
+      "sha256": "9594b486aa587f4b4a7582c9f7c325641814259f802f91f8ff67daedd02d2e05",
+      "functions": [],
+      "generated_adapter": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "case/runtime.mjs",
+      "sha256": "160d7b6c8446b9694f654e5f0fd4a2841d65af53d6da650034c24e0fad1fe3f2"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    },
+    {
+      "path": "case/scene.mjs",
+      "sha256": "3ec335ff55193e8ddb8a7cac5baacb7b47fc5e2aa1c3fffcb7cc91da104ff378"
+    },
+    {
+      "path": "spec.json",
+      "sha256": "75439664c490977f29e719dec0a87476d8a7f59483652ff0f89a023341629dbc"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/home/zhiyangliang/VideoCoder/exports/published-threejs-sources/2a68faac10b722603a4f81bd11877c3cf42bf24ee25b262a5d9d7e7e73801312",
+    "kind": "delivery-source-and-presentation-adapter",
+    "artifact_verified": false,
+    "input_video_sha256": "2a68faac10b722603a4f81bd11877c3cf42bf24ee25b262a5d9d7e7e73801312",
+    "original_proxy_sha256": "28bb6a05ed192596aec279ea37732ccb0ec38ad6e7cdec3dabad9d1d81086340",
+    "colored_preview": false,
+    "package": "astra-bonsai-10s-review-v1",
+    "note": "Exact delivery source, with reviewed material edits where selected and a centered crop adapter for the displayed video.",
+    "source_snapshot_verified": true
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "case_id": "625",
+  "session": "Product Cinematography",
+  "prompt": "A photorealistic premium product shot of a white performance sneaker on a clean pale circular pedestal in a bright neutral studio. Preserve its white laces, textured knit upper, sculpted heel counter and layered sole with dark inserts. Start far enough away to show the entire sneaker and its relationship to the pedestal. After a brief establishing beat, make a fast smooth curved orbit with a forward dolly and changing height, passing from the opening three-quarter view through an end-on view to the other side. Converge in the final portion on a close view of the upper texture, heel construction and outsole edge. Follow the supplied video's framing, product motion and camera timing in one continuous shot. Keep the shoe's shape stable; no cuts and no final pullback to a wide hero view.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "4ac4b8aea2fe15f11bbfcf7042ebb7a125bbcd118a842cfa2c41bd59425a448a",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "446eb310c5450f247f7ab49ea3d66eb92c6512870276a03ae11262f3c0cf230f",
+      "functions": [
+        {
+          "name": "material",
+          "line": 29
+        },
+        {
+          "name": "makeLoft",
+          "line": 56
+        },
+        {
+          "name": "roundedBox",
+          "line": 116
+        },
+        {
+          "name": "makeTube",
+          "line": 144
+        },
+        {
+          "name": "interpolateSections",
+          "line": 153
+        },
+        {
+          "name": "smoothstep",
+          "line": 443
+        },
+        {
+          "name": "updateCamera",
+          "line": 447
+        },
+        {
+          "name": "updateAt",
+          "line": 477
+        },
+        {
+          "name": "tick",
+          "line": 493
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "446eb310c5450f247f7ab49ea3d66eb92c6512870276a03ae11262f3c0cf230f"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/application_demo_product_cinematography_camera_v2/code/625",
+    "kind": "verified-code-artifact",
+    "source_artifact_sha256": "8c901fb9ecbcae197e5a0527fce92b26c19876514c76096dc0114880d3684ffc",
+    "source_snapshot_verified": true,
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

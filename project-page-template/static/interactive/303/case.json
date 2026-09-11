@@ -1,0 +1,119 @@
+{
+  "case_id": "303",
+  "session": "First-Person Games",
+  "prompt": "Wide adventure shot in a Zelda-inspired cliffside. A hero leaps from a tower and opens a paraglider over a bright valley, with the castle visible beyond rivers and forests. Clean iconic open-world reveal.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "f4fe2b13609bcbafc33c17745886d68a0dd8bd3fe432ed561ca9d44e58877285",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "485c20c90092a79801f1bd2256e5fa53c1c188565f0b4d858291d9ea97cc9525",
+      "functions": [
+        {
+          "name": "standard",
+          "line": 39
+        },
+        {
+          "name": "terrainHeight",
+          "line": 130
+        },
+        {
+          "name": "createTerrain",
+          "line": 138
+        },
+        {
+          "name": "riverCenter",
+          "line": 172
+        },
+        {
+          "name": "createRiver",
+          "line": 176
+        },
+        {
+          "name": "jaggedRock",
+          "line": 232
+        },
+        {
+          "name": "createCliffs",
+          "line": 246
+        },
+        {
+          "name": "createTower",
+          "line": 271
+        },
+        {
+          "name": "createTrees",
+          "line": 338
+        },
+        {
+          "name": "conicalRoof",
+          "line": 375
+        },
+        {
+          "name": "createCastle",
+          "line": 381
+        },
+        {
+          "name": "createMountains",
+          "line": 510
+        },
+        {
+          "name": "createClouds",
+          "line": 534
+        },
+        {
+          "name": "createHero",
+          "line": 561
+        },
+        {
+          "name": "createBirds",
+          "line": 737
+        },
+        {
+          "name": "updateHero",
+          "line": 771
+        },
+        {
+          "name": "updateCamera",
+          "line": 818
+        },
+        {
+          "name": "updateWorld",
+          "line": 853
+        },
+        {
+          "name": "renderAt",
+          "line": 884
+        },
+        {
+          "name": "animate",
+          "line": 890
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "485c20c90092a79801f1bd2256e5fa53c1c188565f0b4d858291d9ea97cc9525"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/home/zhiyangliang/VideoCoder/exports/published-threejs-sources/f4fe2b13609bcbafc33c17745886d68a0dd8bd3fe432ed561ca9d44e58877285",
+    "kind": "verified-cinematic400-artifact",
+    "artifact_verified": true,
+    "input_video_sha256": "f4fe2b13609bcbafc33c17745886d68a0dd8bd3fe432ed561ca9d44e58877285",
+    "artifact_sha256": "ea51675dc45306a50e74e9dbce8832cda13f9387ce58a666567d4e1f82a4c0c9",
+    "source_page": "https://replica-subscriber-venue-after.trycloudflare.com/cinematic400_group34.html?v=whitelist-20260905",
+    "source_snapshot_verified": true
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schema": "codevideo-nvs-case-v1",
+  "caseId": "astra-garden",
+  "description": "A stationary round wooden outdoor table with radial tabletop boards, upright legs and diagonal/cross bracing on paved ground. A weathered brown vase holds a dry fan-shaped leaf at its center. A green-and-black ball rests beneath it. Grass, layered plants, brick walls, a dark door, and distant roof shapes surround the scene.",
+  "cameraIntent": "Begin at the photographed view. Make a shallow lateral arc with a slight rise, showing table-leg/ball and table/background occlusion changes while keeping the table, vase and dry leaf inside the frame.",
+  "invariants": [
+    "The table, vase, dry fan leaf and green ball remain rigidly stationary.",
+    "Preserve the round tabletop, radial wood divisions, supports and ball position.",
+    "Do not replace the dry fan leaf with a living plant or add people."
+  ],
+  "target": {
+    "width": 960,
+    "height": 720,
+    "ratio": "4:3",
+    "fps": 30,
+    "frames": 300,
+    "duration": 10,
+    "codec": "h264",
+    "pixelFormat": "yuv420p"
+  },
+  "photo": {
+    "path": "input/original.jpg",
+    "sha256": "9dab83b11881c741f92293e35ce2fa452206237f0abf9376e9ce08b1c117f0a4",
+    "sourcePath": "/home/v-yanwenwang/CodeVideo/3d_real_image/garden.jpg"
+  },
+  "condition": {
+    "path": "input/reference-frame.png",
+    "sha256": "28b3b06d413cc57d96fb2455c14f4b517e04caf7855412c14f660d1e204b1cb0"
+  },
+  "normalization": {
+    "schema": "codevideo-photo-normalization-v1",
+    "operation": "EXIF orientation, centered uniform cover crop to exact aspect ratio; no stretching or generative editing",
+    "framing": "cover-crop",
+    "cropFocus": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      1297,
+      840
+    ],
+    "orientedSize": [
+      1297,
+      840
+    ],
+    "exifOrientation": null,
+    "outputSize": [
+      960,
+      720
+    ],
+    "scale": 0.8571428571428571,
+    "offset": [
+      -75.85714285714278,
+      -0.0
+    ],
+    "sourceToCanvas": [
+      0.8571428571428571,
+      0,
+      -75.85714285714278,
+      0,
+      0.8571428571428571,
+      -0.0,
+      0,
+      0,
+      1
+    ],
+    "viewport": [
+      0,
+      0,
+      960,
+      720
+    ],
+    "viewportRounding": "nearest-pixel extent, centered integer viewport",
+    "cropBoxSource": [
+      88.49999999999991,
+      0,
+      1208.4999999999998,
+      840
+    ],
+    "sourceSha256": "9dab83b11881c741f92293e35ce2fa452206237f0abf9376e9ce08b1c117f0a4",
+    "sourceFormat": "JPEG",
+    "normalizedSha256": "28b3b06d413cc57d96fb2455c14f4b517e04caf7855412c14f660d1e204b1cb0"
+  },
+  "cameraOrbitRange": [
+    358,
+    360
+  ],
+  "workflowProfile": "astra-fast-v1",
+  "reconstruction": {
+    "geometry": "procedural-3d-only",
+    "sceneMotion": "static",
+    "hiddenSurfaces": "inferred-not-ground-truth"
+  },
+  "specSha256": "381a1075cb09b7a085b7e196bb27aa7e0006fe335a8517643bbb538c655d74d9"
+}

@@ -1,0 +1,121 @@
+{
+  "schema": "codevideo-nvs-case-v1",
+  "caseId": "astra-cook-spinach",
+  "description": "A cook wearing glasses, dark shirt and apron stands behind a kitchen counter and stirs green spinach in a black pan with metal tongs. Window blinds, bottles, shelf, dog, dishes and countertop objects form the background.",
+  "cameraIntent": "Use a restrained 10-16 degree camera arc that retains the cook, pan and hands while revealing countertop parallax; hand/tong/spinach motion is primary.",
+  "invariants": [
+    "One cook performs the repeated pan-and-tongs action; background and countertop remain fixed.",
+    "Preserve glasses, dark apron, black pan, metal tongs, green spinach, blinds and shelf.",
+    "No flames are required in this scene."
+  ],
+  "target": {
+    "width": 960,
+    "height": 720,
+    "ratio": "4:3",
+    "fps": 30,
+    "frames": 300,
+    "duration": 10,
+    "codec": "h264",
+    "pixelFormat": "yuv420p"
+  },
+  "photo": {
+    "path": "input/original.jpg",
+    "sha256": "ef4a1bfdb75cb2a35762129d8964f0343861ed7d4ad7e56032fea4c9fa699610",
+    "sourcePath": "/home/v-yanwenwang/CodeVideo/real_data_v2/4D/dynerf/cook_spinach/reference_gt_0190.jpg"
+  },
+  "condition": {
+    "path": "input/reference-frame.png",
+    "sha256": "2220fed0fd9db289bafc64f9a576b7d756ec0e89e85915cc711c814d23158287"
+  },
+  "normalization": {
+    "schema": "codevideo-photo-normalization-v1",
+    "operation": "EXIF orientation, centered uniform cover crop to exact aspect ratio; no stretching or generative editing",
+    "framing": "cover-crop",
+    "cropFocus": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      2048,
+      1536
+    ],
+    "orientedSize": [
+      2048,
+      1536
+    ],
+    "exifOrientation": null,
+    "outputSize": [
+      960,
+      720
+    ],
+    "scale": 0.46875,
+    "offset": [
+      -0.0,
+      -0.0
+    ],
+    "sourceToCanvas": [
+      0.46875,
+      0,
+      -0.0,
+      0,
+      0.46875,
+      -0.0,
+      0,
+      0,
+      1
+    ],
+    "viewport": [
+      0,
+      0,
+      960,
+      720
+    ],
+    "viewportRounding": "nearest-pixel extent, centered integer viewport",
+    "cropBoxSource": [
+      0,
+      0,
+      2048,
+      1536
+    ],
+    "sourceSha256": "ef4a1bfdb75cb2a35762129d8964f0343861ed7d4ad7e56032fea4c9fa699610",
+    "sourceFormat": "JPEG",
+    "normalizedSha256": "2220fed0fd9db289bafc64f9a576b7d756ec0e89e85915cc711c814d23158287"
+  },
+  "cameraOrbitRange": [
+    358,
+    360
+  ],
+  "workflowProfile": "astra-fast-v1",
+  "reconstruction": {
+    "geometry": "procedural-3d-only",
+    "sceneMotion": "dynamic",
+    "hiddenSurfaces": "inferred-not-ground-truth"
+  },
+  "motionReference": {
+    "path": "input/motion-reference.mp4",
+    "sha256": "5e7534a86b8aa5d013cf43c33eca746c0c66aed062c32529bc77675d62ed4be9",
+    "sourcePath": "/home/v-yanwenwang/CodeVideo/real_data_v2/4D/dynerf/cook_spinach/reference_4dgs_render.mp4",
+    "role": "analysis-only-not-a-Seedance-condition"
+  },
+  "motionTimeline": [
+    {
+      "id": "stir-left",
+      "start": 0,
+      "end": 3.3,
+      "action": "The cook lowers tongs into the pan and stirs the green spinach toward screen-left."
+    },
+    {
+      "id": "lift-turn",
+      "start": 3.3,
+      "end": 6.7,
+      "action": "The tongs lift and turn part of the spinach while the other hand steadies near the pan."
+    },
+    {
+      "id": "stir-right",
+      "start": 6.7,
+      "end": 10,
+      "action": "The cook returns the spinach to the pan and completes another stir toward screen-right."
+    }
+  ],
+  "specSha256": "8ca251eb811396350a6465ca071aa06b3d5104b165be91a4e21f28a9007ff6c6"
+}

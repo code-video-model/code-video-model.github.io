@@ -1,0 +1,95 @@
+{
+  "schema": "codevideo-nvs-case-v1",
+  "caseId": "astra-room",
+  "description": "A furnished living room with a foreground wood-and-black coffee table holding glassware and a metal bowl, gray sofa and ottoman at left, blue armchair with a plush dog beneath curtains, slippers on a geometric rug, and a large television, speakers, subwoofer, console and cables at right.",
+  "cameraIntent": "Begin at the cropped room view and make a bold 30-36 degree translated camera arc around the coffee-table center, revealing table/armchair/slippers/speakers/television parallax while retaining the major room layout.",
+  "invariants": [
+    "All furniture, glassware, slippers, electronics, curtains and plush toy remain stationary.",
+    "Preserve coffee-table foreground, blue chair center-left and black television/speaker wall at right.",
+    "No people appear."
+  ],
+  "target": {
+    "width": 960,
+    "height": 720,
+    "ratio": "4:3",
+    "fps": 30,
+    "frames": 300,
+    "duration": 10,
+    "codec": "h264",
+    "pixelFormat": "yuv420p"
+  },
+  "photo": {
+    "path": "input/original.jpg",
+    "sha256": "2e0a24d3a515f29556e1777054b19520591d10f0c3c11c068b1dad31b4612cd5",
+    "sourcePath": "/home/v-yanwenwang/CodeVideo/real_data_v2/3D/mipnerf360/room/reference.jpg"
+  },
+  "condition": {
+    "path": "input/reference-frame.png",
+    "sha256": "78be203b9e92d2b02338e01f5a6abaecdd1d0164fe6884a659833a57e4794139"
+  },
+  "normalization": {
+    "schema": "codevideo-photo-normalization-v1",
+    "operation": "EXIF orientation, centered uniform cover crop to exact aspect ratio; no stretching or generative editing",
+    "framing": "cover-crop",
+    "cropFocus": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      1557,
+      1038
+    ],
+    "orientedSize": [
+      1557,
+      1038
+    ],
+    "exifOrientation": null,
+    "outputSize": [
+      960,
+      720
+    ],
+    "scale": 0.6936416184971098,
+    "offset": [
+      -60.0,
+      -0.0
+    ],
+    "sourceToCanvas": [
+      0.6936416184971098,
+      0,
+      -60.0,
+      0,
+      0.6936416184971098,
+      -0.0,
+      0,
+      0,
+      1
+    ],
+    "viewport": [
+      0,
+      0,
+      960,
+      720
+    ],
+    "viewportRounding": "nearest-pixel extent, centered integer viewport",
+    "cropBoxSource": [
+      86.5,
+      0,
+      1470.5,
+      1038
+    ],
+    "sourceSha256": "2e0a24d3a515f29556e1777054b19520591d10f0c3c11c068b1dad31b4612cd5",
+    "sourceFormat": "JPEG",
+    "normalizedSha256": "78be203b9e92d2b02338e01f5a6abaecdd1d0164fe6884a659833a57e4794139"
+  },
+  "cameraOrbitRange": [
+    358,
+    360
+  ],
+  "workflowProfile": "astra-fast-v1",
+  "reconstruction": {
+    "geometry": "procedural-3d-only",
+    "sceneMotion": "static",
+    "hiddenSurfaces": "inferred-not-ground-truth"
+  },
+  "specSha256": "aca60d12b30bddb53de6344e9fd3d737370898e189caa559aaa6379cc9174308"
+}

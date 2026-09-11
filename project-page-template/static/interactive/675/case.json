@@ -1,0 +1,75 @@
+{
+  "case_id": "675",
+  "session": "Scene / World Editing",
+  "prompt": "A photorealistic 5-second video of an underground parking garage with a blue car parked in the left parking bay. Keep the same blue car stationary in the left bay throughout the shot.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "9c2aeccd94f5ffaf8341683a6abbce02f51fe1b57bde54a257383b5ad3f5fac8",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "f4ad994ce2f15aa7522c7b8bd0800de3f9c67985072dafce9d71f53aceae39b3",
+      "functions": [
+        {
+          "name": "mesh",
+          "line": 59
+        },
+        {
+          "name": "sideWindowGeometry",
+          "line": 170
+        },
+        {
+          "name": "makeCar",
+          "line": 183
+        },
+        {
+          "name": "makeBayMarker",
+          "line": 379
+        },
+        {
+          "name": "smoothstep",
+          "line": 408
+        },
+        {
+          "name": "updateAtTime",
+          "line": 413
+        },
+        {
+          "name": "animate",
+          "line": 440
+        },
+        {
+          "name": "pause",
+          "line": 449
+        },
+        {
+          "name": "seek",
+          "line": 457
+        },
+        {
+          "name": "getCameraState",
+          "line": 462
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "f4ad994ce2f15aa7522c7b8bd0800de3f9c67985072dafce9d71f53aceae39b3"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/675/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

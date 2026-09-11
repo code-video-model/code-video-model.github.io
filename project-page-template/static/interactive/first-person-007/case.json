@@ -1,0 +1,115 @@
+{
+  "case_id": "first-person-007",
+  "session": "First-Person Games",
+  "prompt": "First-person POV in The Legend of Zelda: Breath of the Wild. I stand at the edge of an ancient Sheikah tower high above Hyrule, looking down at forests, rivers, distant mountains and Hyrule Castle. My hands leap forward and open a paraglider as I jump from the tower. The camera drops rapidly before the glider catches the wind, creating a sweeping first-person flight over the landscape. Bright adventurous atmosphere, clear blue sky, enormous sense of freedom.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "9222805101cb34d620046b59c5badf7eb259de790f48113253fcaa362f569196",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/main.js",
+      "name": "main.js",
+      "sha256": "2eda8eb2e3b0204da66a7db9905b112d03315a0a8d7a4565cd03a799528bb7ca",
+      "functions": [
+        {
+          "name": "terrainHeight",
+          "line": 50
+        },
+        {
+          "name": "riverX",
+          "line": 57
+        },
+        {
+          "name": "makeTerrain",
+          "line": 61
+        },
+        {
+          "name": "makeRibbon",
+          "line": 112
+        },
+        {
+          "name": "makeRiver",
+          "line": 143
+        },
+        {
+          "name": "makeForests",
+          "line": 165
+        },
+        {
+          "name": "makeRocks",
+          "line": 209
+        },
+        {
+          "name": "makeMountains",
+          "line": 234
+        },
+        {
+          "name": "addCastleTower",
+          "line": 271
+        },
+        {
+          "name": "makeCastle",
+          "line": 290
+        },
+        {
+          "name": "makeTower",
+          "line": 352
+        },
+        {
+          "name": "makeClouds",
+          "line": 412
+        },
+        {
+          "name": "makeTube",
+          "line": 447
+        },
+        {
+          "name": "setTube",
+          "line": 452
+        },
+        {
+          "name": "makeHand",
+          "line": 468
+        },
+        {
+          "name": "updateHand",
+          "line": 553
+        },
+        {
+          "name": "updateForeground",
+          "line": 594
+        },
+        {
+          "name": "updateCamera",
+          "line": 629
+        },
+        {
+          "name": "setSceneTime",
+          "line": 683
+        },
+        {
+          "name": "animate",
+          "line": 713
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "main.js",
+      "sha256": "2eda8eb2e3b0204da66a7db9905b112d03315a0a8d7a4565cd03a799528bb7ca"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/VideoDemo/work/first_person_game_film/7",
+    "artifact_verified": false,
+    "note": "Original first-person program; published video is frame-rate conformed."
+  }
+}

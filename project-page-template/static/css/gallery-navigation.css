@@ -1,0 +1,11 @@
+/* Both return actions share one visual control, with different destinations. */
+:is(.category-collapse,.fps-back){display:inline-flex;align-items:center;justify-content:center;gap:7px;box-sizing:border-box;min-height:36px;margin:0;padding:9px 14px;border:1px solid #ffffffb5;border-radius:22px;background:linear-gradient(135deg,#ffffffb8,#f1f5f280);color:#30483f;box-shadow:inset 0 1px #ffffffe6,0 2px 8px #253c4812;backdrop-filter:blur(12px);font:13px/1.35 Arial,sans-serif;letter-spacing:0;text-decoration:none;white-space:nowrap;cursor:pointer;transition:background .16s,box-shadow .16s;}
+:is(.category-collapse,.fps-back):hover{background:#ffffffe6;color:#233c31;box-shadow:inset 0 1px #fff,0 3px 10px #253c4820;}
+:is(.category-collapse,.fps-back):focus-visible{outline:3px solid #356e85;outline-offset:3px;}
+:is(.category-collapse,.fps-back):active{background:#e9f1ed;}
+.fps-error-detail{font:12px/1.5 Arial,sans-serif;color:#5a4141;margin-top:12px;}
+.fps-error-detail summary{cursor:pointer;}
+.fps-error-detail code{display:block;white-space:pre-wrap;overflow-wrap:anywhere;margin:8px 0;}
+.fps-error-detail[hidden]{display:none;}
+@media(max-width:850px){:is(.category-collapse,.fps-back){font-size:12px;padding:8px 12px;min-height:34px;}}
+@media(prefers-reduced-motion:reduce){:is(.category-collapse,.fps-back){transition:none;}}

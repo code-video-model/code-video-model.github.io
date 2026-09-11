@@ -1,0 +1,2940 @@
+{
+  "created_at": "2026-09-10T04:42:01.581463+00:00",
+  "gallery_sha256": "7bf5c30e0c9cd8ee9e60721666758c4a1b09d82bc84635a1aa9d61a41560dfdf",
+  "count": 83,
+  "counts": {
+    "new": 50,
+    "already": 18,
+    "reuse": 15
+  },
+  "cases": [
+    {
+      "section": "reconstruction-3d-4d",
+      "section_title": "3D / 4D Reconstruction",
+      "id": "442",
+      "selection": null,
+      "video": "code-video-model/reconstruction-3d-4d/case-442-direct.mp4",
+      "sha": "563852ff56b98efbf97ced42ccfd35257ca3d1827bd50712d18161ba74404581",
+      "title": "River Gallop",
+      "side": null,
+      "setting": "World Model Hero 431–480 / Direct Output",
+      "number": 1,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "563852ff56b98efbf97ced42ccfd35257ca3d1827bd50712d18161ba74404581",
+        "url": "static/current-upscale-comparison/media/563852ff56b98efbf97ced42ccfd35257ca3d1827bd50712d18161ba74404581.mp4",
+        "poster": "static/current-upscale-comparison/media/563852ff56b98efbf97ced42ccfd35257ca3d1827bd50712d18161ba74404581.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "3427b72c3e90021b51d39413ebcbfc18cfe6e3ce06174df87f2003d31b3978a5",
+        "url": "static/current-upscale-comparison/media/3427b72c3e90021b51d39413ebcbfc18cfe6e3ce06174df87f2003d31b3978a5.mp4",
+        "poster": "static/current-upscale-comparison/media/3427b72c3e90021b51d39413ebcbfc18cfe6e3ce06174df87f2003d31b3978a5.jpg"
+      },
+      "provenance": {
+        "source_sha256": "563852ff56b98efbf97ced42ccfd35257ca3d1827bd50712d18161ba74404581",
+        "output_sha256": "3427b72c3e90021b51d39413ebcbfc18cfe6e3ce06174df87f2003d31b3978a5",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "reconstruction-3d-4d",
+      "section_title": "3D / 4D Reconstruction",
+      "id": "astra-bicycle",
+      "selection": null,
+      "video": "code-video-model/reconstruction-3d-4d/astra-bicycle-25800f414cad.mp4",
+      "sha": "25800f414cad0ad64e8dbc577d49fd64bb5c4de1b480286d6938d4ec56d3f285",
+      "title": "Bicycle",
+      "side": null,
+      "setting": "Code Video delivery / astra-bicycle-10s-review-v1 / centered 960x540 24FPS",
+      "number": 2,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 540,
+        "fps": 24.0,
+        "frames": 241,
+        "sha256": "25800f414cad0ad64e8dbc577d49fd64bb5c4de1b480286d6938d4ec56d3f285",
+        "url": "static/current-upscale-comparison/media/25800f414cad0ad64e8dbc577d49fd64bb5c4de1b480286d6938d4ec56d3f285.mp4",
+        "poster": "static/current-upscale-comparison/media/25800f414cad0ad64e8dbc577d49fd64bb5c4de1b480286d6938d4ec56d3f285.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 24.0,
+        "frames": 241,
+        "sha256": "08192ae64b969f6d1b734f015faa32dfdb0d75a72eff5c9e39cfb809ff9da25a",
+        "url": "static/current-upscale-comparison/media/08192ae64b969f6d1b734f015faa32dfdb0d75a72eff5c9e39cfb809ff9da25a.mp4",
+        "poster": "static/current-upscale-comparison/media/08192ae64b969f6d1b734f015faa32dfdb0d75a72eff5c9e39cfb809ff9da25a.jpg"
+      },
+      "provenance": {
+        "source_sha256": "25800f414cad0ad64e8dbc577d49fd64bb5c4de1b480286d6938d4ec56d3f285",
+        "output_sha256": "08192ae64b969f6d1b734f015faa32dfdb0d75a72eff5c9e39cfb809ff9da25a",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "reconstruction-3d-4d",
+      "section_title": "3D / 4D Reconstruction",
+      "id": "astra-garden-gray",
+      "selection": null,
+      "video": "code-video-model/reconstruction-3d-4d/astra-garden-gray-37c8fe98a2c2.mp4",
+      "sha": "37c8fe98a2c230a97bad7b977a6e087fc3a971d77201756676143ebd9d78d18e",
+      "title": "Garden",
+      "side": null,
+      "setting": "Code Video delivery / astra-garden-gray-10s-review-v1 / centered 960x540 24FPS",
+      "number": 3,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 540,
+        "fps": 24.0,
+        "frames": 241,
+        "sha256": "37c8fe98a2c230a97bad7b977a6e087fc3a971d77201756676143ebd9d78d18e",
+        "url": "static/current-upscale-comparison/media/37c8fe98a2c230a97bad7b977a6e087fc3a971d77201756676143ebd9d78d18e.mp4",
+        "poster": "static/current-upscale-comparison/media/37c8fe98a2c230a97bad7b977a6e087fc3a971d77201756676143ebd9d78d18e.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 24.0,
+        "frames": 241,
+        "sha256": "ce480d39e507d7183713a21842b874eb4dd816fa3c0ac14aed1b8c70bcf60d0a",
+        "url": "static/current-upscale-comparison/media/ce480d39e507d7183713a21842b874eb4dd816fa3c0ac14aed1b8c70bcf60d0a.mp4",
+        "poster": "static/current-upscale-comparison/media/ce480d39e507d7183713a21842b874eb4dd816fa3c0ac14aed1b8c70bcf60d0a.jpg"
+      },
+      "provenance": {
+        "source_sha256": "37c8fe98a2c230a97bad7b977a6e087fc3a971d77201756676143ebd9d78d18e",
+        "output_sha256": "ce480d39e507d7183713a21842b874eb4dd816fa3c0ac14aed1b8c70bcf60d0a",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "reconstruction-3d-4d",
+      "section_title": "3D / 4D Reconstruction",
+      "id": "astra-bonsai",
+      "selection": null,
+      "video": "code-video-model/reconstruction-3d-4d/astra-bonsai-97aaf49bfd21.mp4",
+      "sha": "97aaf49bfd219b1ba9676761e3b56b3368f4d0fc418920ae26c09be6ce7f5d2d",
+      "title": "Bonsai",
+      "side": null,
+      "setting": "Code Video delivery / astra-bonsai-10s-review-v1 / centered 960x540 24FPS",
+      "number": 4,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 540,
+        "fps": 24.0,
+        "frames": 241,
+        "sha256": "97aaf49bfd219b1ba9676761e3b56b3368f4d0fc418920ae26c09be6ce7f5d2d",
+        "url": "static/current-upscale-comparison/media/97aaf49bfd219b1ba9676761e3b56b3368f4d0fc418920ae26c09be6ce7f5d2d.mp4",
+        "poster": "static/current-upscale-comparison/media/97aaf49bfd219b1ba9676761e3b56b3368f4d0fc418920ae26c09be6ce7f5d2d.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 24.0,
+        "frames": 241,
+        "sha256": "e4254fdede605864c0c8ab1c99c6c9de8214ddc05147346166c00f026ed220f3",
+        "url": "static/current-upscale-comparison/media/e4254fdede605864c0c8ab1c99c6c9de8214ddc05147346166c00f026ed220f3.mp4",
+        "poster": "static/current-upscale-comparison/media/e4254fdede605864c0c8ab1c99c6c9de8214ddc05147346166c00f026ed220f3.jpg"
+      },
+      "provenance": {
+        "source_sha256": "97aaf49bfd219b1ba9676761e3b56b3368f4d0fc418920ae26c09be6ce7f5d2d",
+        "output_sha256": "e4254fdede605864c0c8ab1c99c6c9de8214ddc05147346166c00f026ed220f3",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "reconstruction-3d-4d",
+      "section_title": "3D / 4D Reconstruction",
+      "id": "astra-room-gray",
+      "selection": null,
+      "video": "code-video-model/reconstruction-3d-4d/astra-room-gray-ad27b1433ae4.mp4",
+      "sha": "ad27b1433ae4dbd80ed60993e24b5d022175e3994c0f8e95685bb4c0481e223e",
+      "title": "Room",
+      "side": null,
+      "setting": "Code Video delivery / astra-room-gray-10s-review-v1 / centered 960x540 24FPS",
+      "number": 5,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 540,
+        "fps": 24.0,
+        "frames": 241,
+        "sha256": "ad27b1433ae4dbd80ed60993e24b5d022175e3994c0f8e95685bb4c0481e223e",
+        "url": "static/current-upscale-comparison/media/ad27b1433ae4dbd80ed60993e24b5d022175e3994c0f8e95685bb4c0481e223e.mp4",
+        "poster": "static/current-upscale-comparison/media/ad27b1433ae4dbd80ed60993e24b5d022175e3994c0f8e95685bb4c0481e223e.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 24.0,
+        "frames": 241,
+        "sha256": "6ad85e03e23e39131457a0e324b0d8738a216a39cb1337ec146668bd9b4a6be4",
+        "url": "static/current-upscale-comparison/media/6ad85e03e23e39131457a0e324b0d8738a216a39cb1337ec146668bd9b4a6be4.mp4",
+        "poster": "static/current-upscale-comparison/media/6ad85e03e23e39131457a0e324b0d8738a216a39cb1337ec146668bd9b4a6be4.jpg"
+      },
+      "provenance": {
+        "source_sha256": "ad27b1433ae4dbd80ed60993e24b5d022175e3994c0f8e95685bb4c0481e223e",
+        "output_sha256": "6ad85e03e23e39131457a0e324b0d8738a216a39cb1337ec146668bd9b4a6be4",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "reconstruction-3d-4d",
+      "section_title": "3D / 4D Reconstruction",
+      "id": "astra-truck",
+      "selection": null,
+      "video": "code-video-model/reconstruction-3d-4d/astra-truck-595dfff58f11.mp4",
+      "sha": "595dfff58f11e49d4ddc0762aeb89707dbef7ebbe090f27faa343d0e4b3ca6b8",
+      "title": "Truck",
+      "side": null,
+      "setting": "Code Video delivery / astra-truck-10s-review-v1 / centered 960x540 24FPS",
+      "number": 6,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 540,
+        "fps": 24.0,
+        "frames": 241,
+        "sha256": "595dfff58f11e49d4ddc0762aeb89707dbef7ebbe090f27faa343d0e4b3ca6b8",
+        "url": "static/current-upscale-comparison/media/595dfff58f11e49d4ddc0762aeb89707dbef7ebbe090f27faa343d0e4b3ca6b8.mp4",
+        "poster": "static/current-upscale-comparison/media/595dfff58f11e49d4ddc0762aeb89707dbef7ebbe090f27faa343d0e4b3ca6b8.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 24.0,
+        "frames": 241,
+        "sha256": "dd5e625d0dd6e612fd634e48ef3045f32f8218c7ab1ff41103bb025784d41d4c",
+        "url": "static/current-upscale-comparison/media/dd5e625d0dd6e612fd634e48ef3045f32f8218c7ab1ff41103bb025784d41d4c.mp4",
+        "poster": "static/current-upscale-comparison/media/dd5e625d0dd6e612fd634e48ef3045f32f8218c7ab1ff41103bb025784d41d4c.jpg"
+      },
+      "provenance": {
+        "source_sha256": "595dfff58f11e49d4ddc0762aeb89707dbef7ebbe090f27faa343d0e4b3ca6b8",
+        "output_sha256": "dd5e625d0dd6e612fd634e48ef3045f32f8218c7ab1ff41103bb025784d41d4c",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "reconstruction-3d-4d",
+      "section_title": "3D / 4D Reconstruction",
+      "id": "astra-kitchen",
+      "selection": null,
+      "video": "code-video-model/reconstruction-3d-4d/astra-kitchen-9389e1e2cba5.mp4",
+      "sha": "9389e1e2cba5e337ef1cf7cb31f11f298933981af1220e4acc1dcd3007bd8e8a",
+      "title": "Kitchen",
+      "side": null,
+      "setting": "Code Video delivery / astra-kitchen-10s-review-v1 / centered 960x540 24FPS",
+      "number": 7,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 540,
+        "fps": 24.0,
+        "frames": 241,
+        "sha256": "9389e1e2cba5e337ef1cf7cb31f11f298933981af1220e4acc1dcd3007bd8e8a",
+        "url": "static/current-upscale-comparison/media/9389e1e2cba5e337ef1cf7cb31f11f298933981af1220e4acc1dcd3007bd8e8a.mp4",
+        "poster": "static/current-upscale-comparison/media/9389e1e2cba5e337ef1cf7cb31f11f298933981af1220e4acc1dcd3007bd8e8a.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 24.0,
+        "frames": 241,
+        "sha256": "a8ddc543e110faef4c65ded732a7f8cb6ca6adf0f07d8787896c3d2d79b3c4cc",
+        "url": "static/current-upscale-comparison/media/a8ddc543e110faef4c65ded732a7f8cb6ca6adf0f07d8787896c3d2d79b3c4cc.mp4",
+        "poster": "static/current-upscale-comparison/media/a8ddc543e110faef4c65ded732a7f8cb6ca6adf0f07d8787896c3d2d79b3c4cc.jpg"
+      },
+      "provenance": {
+        "source_sha256": "9389e1e2cba5e337ef1cf7cb31f11f298933981af1220e4acc1dcd3007bd8e8a",
+        "output_sha256": "a8ddc543e110faef4c65ded732a7f8cb6ca6adf0f07d8787896c3d2d79b3c4cc",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "reconstruction-3d-4d",
+      "section_title": "3D / 4D Reconstruction",
+      "id": "astra-train",
+      "selection": null,
+      "video": "code-video-model/reconstruction-3d-4d/astra-train-785f39faf08a.mp4",
+      "sha": "785f39faf08a35165d22d6273140db8c7bc90ef7d68d7ecdd98cfbc2a1377a2e",
+      "title": "Train",
+      "side": null,
+      "setting": "Code Video delivery / astra-train-10s-review-v1 / centered 960x540 24FPS",
+      "number": 8,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 540,
+        "fps": 24.0,
+        "frames": 241,
+        "sha256": "785f39faf08a35165d22d6273140db8c7bc90ef7d68d7ecdd98cfbc2a1377a2e",
+        "url": "static/current-upscale-comparison/media/785f39faf08a35165d22d6273140db8c7bc90ef7d68d7ecdd98cfbc2a1377a2e.mp4",
+        "poster": "static/current-upscale-comparison/media/785f39faf08a35165d22d6273140db8c7bc90ef7d68d7ecdd98cfbc2a1377a2e.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 24.0,
+        "frames": 241,
+        "sha256": "5c0ef713643f975dc10cad0f6518874898423c49aee77097042f0e5bc2f6a2a1",
+        "url": "static/current-upscale-comparison/media/5c0ef713643f975dc10cad0f6518874898423c49aee77097042f0e5bc2f6a2a1.mp4",
+        "poster": "static/current-upscale-comparison/media/5c0ef713643f975dc10cad0f6518874898423c49aee77097042f0e5bc2f6a2a1.jpg"
+      },
+      "provenance": {
+        "source_sha256": "785f39faf08a35165d22d6273140db8c7bc90ef7d68d7ecdd98cfbc2a1377a2e",
+        "output_sha256": "5c0ef713643f975dc10cad0f6518874898423c49aee77097042f0e5bc2f6a2a1",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "long-horizon-style",
+      "section_title": "Bullet Time",
+      "id": "505",
+      "selection": null,
+      "video": "selected-0907-seedvr2-2x/bullet-time/case-505-1a69a681957e.mp4",
+      "sha": "1a69a681957e438bcfd826616f64eed85aa2361c484ebca23f02a6b68079b661",
+      "title": "Case 505",
+      "side": null,
+      "setting": "selected-0907 / visual_aligned_v2 / seedvr2-2x",
+      "number": 9,
+      "kind": "already",
+      "current": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "1a69a681957e438bcfd826616f64eed85aa2361c484ebca23f02a6b68079b661",
+        "url": "static/current-upscale-comparison/media/1a69a681957e438bcfd826616f64eed85aa2361c484ebca23f02a6b68079b661.mp4",
+        "poster": "static/current-upscale-comparison/media/1a69a681957e438bcfd826616f64eed85aa2361c484ebca23f02a6b68079b661.jpg"
+      },
+      "upscaled": null,
+      "provenance": {
+        "source_sha256": "1a69a681957e438bcfd826616f64eed85aa2361c484ebca23f02a6b68079b661",
+        "output_sha256": "1a69a681957e438bcfd826616f64eed85aa2361c484ebca23f02a6b68079b661",
+        "method": "Already displayed at upscale resolution",
+        "audio_preserved": null
+      }
+    },
+    {
+      "section": "long-horizon-style",
+      "section_title": "Bullet Time",
+      "id": "508",
+      "selection": null,
+      "video": "selected-0907-seedvr2-2x/bullet-time/case-508-d0a8579dcd22.mp4",
+      "sha": "d0a8579dcd22aab246f9c9108e4a4f75e70a1c75ce290600dedc42e1d10d2bf8",
+      "title": "Case 508",
+      "side": null,
+      "setting": "selected-0907 / fine_particles_707 / seedvr2-2x",
+      "number": 10,
+      "kind": "already",
+      "current": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "d0a8579dcd22aab246f9c9108e4a4f75e70a1c75ce290600dedc42e1d10d2bf8",
+        "url": "static/current-upscale-comparison/media/d0a8579dcd22aab246f9c9108e4a4f75e70a1c75ce290600dedc42e1d10d2bf8.mp4",
+        "poster": "static/current-upscale-comparison/media/d0a8579dcd22aab246f9c9108e4a4f75e70a1c75ce290600dedc42e1d10d2bf8.jpg"
+      },
+      "upscaled": null,
+      "provenance": {
+        "source_sha256": "d0a8579dcd22aab246f9c9108e4a4f75e70a1c75ce290600dedc42e1d10d2bf8",
+        "output_sha256": "d0a8579dcd22aab246f9c9108e4a4f75e70a1c75ce290600dedc42e1d10d2bf8",
+        "method": "Already displayed at upscale resolution",
+        "audio_preserved": null
+      }
+    },
+    {
+      "section": "long-horizon-style",
+      "section_title": "Bullet Time",
+      "id": "518",
+      "selection": null,
+      "video": "selected-0907-seedvr2-2x/bullet-time/case-518-18be11eaaca3.mp4",
+      "sha": "18be11eaaca31149160a15357db61a792a542c8c05cfa4bb760b574b6d8462ae",
+      "title": "Case 518",
+      "side": null,
+      "setting": "selected-0907 / hold_q20v8_seed606 / seedvr2-2x",
+      "number": 11,
+      "kind": "already",
+      "current": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "18be11eaaca31149160a15357db61a792a542c8c05cfa4bb760b574b6d8462ae",
+        "url": "static/current-upscale-comparison/media/18be11eaaca31149160a15357db61a792a542c8c05cfa4bb760b574b6d8462ae.mp4",
+        "poster": "static/current-upscale-comparison/media/18be11eaaca31149160a15357db61a792a542c8c05cfa4bb760b574b6d8462ae.jpg"
+      },
+      "upscaled": null,
+      "provenance": {
+        "source_sha256": "18be11eaaca31149160a15357db61a792a542c8c05cfa4bb760b574b6d8462ae",
+        "output_sha256": "18be11eaaca31149160a15357db61a792a542c8c05cfa4bb760b574b6d8462ae",
+        "method": "Already displayed at upscale resolution",
+        "audio_preserved": null
+      }
+    },
+    {
+      "section": "long-horizon-style",
+      "section_title": "Bullet Time",
+      "id": "504",
+      "selection": null,
+      "video": "code-video-model/bullet-time/case-504.mp4",
+      "sha": "15fd0dd0ed7de6c0340dda6e3e3b1f6c8754e280f42c8d162d6b490b0b7709ee",
+      "title": "Case 504",
+      "side": null,
+      "setting": "original",
+      "number": 12,
+      "kind": "already",
+      "current": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "15fd0dd0ed7de6c0340dda6e3e3b1f6c8754e280f42c8d162d6b490b0b7709ee",
+        "url": "static/current-upscale-comparison/media/15fd0dd0ed7de6c0340dda6e3e3b1f6c8754e280f42c8d162d6b490b0b7709ee.mp4",
+        "poster": "static/current-upscale-comparison/media/15fd0dd0ed7de6c0340dda6e3e3b1f6c8754e280f42c8d162d6b490b0b7709ee.jpg"
+      },
+      "upscaled": null,
+      "provenance": {
+        "source_sha256": "15fd0dd0ed7de6c0340dda6e3e3b1f6c8754e280f42c8d162d6b490b0b7709ee",
+        "output_sha256": "15fd0dd0ed7de6c0340dda6e3e3b1f6c8754e280f42c8d162d6b490b0b7709ee",
+        "method": "Already displayed at upscale resolution",
+        "audio_preserved": null
+      }
+    },
+    {
+      "section": "gallery",
+      "section_title": "Scene / World Editing",
+      "id": "583",
+      "selection": null,
+      "video": "experiment-group23-image-group23-4-v12/scene-world-editing/case-583-db0376ec4673.mp4",
+      "sha": "db0376ec4673e633f6e776b954b5de5525b7ad37c78c94b3fab186bb4b7e5376",
+      "title": "Case 583",
+      "side": "A",
+      "setting": "group23 / Image-Group23-4 / v12",
+      "number": 13,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "db0376ec4673e633f6e776b954b5de5525b7ad37c78c94b3fab186bb4b7e5376",
+        "url": "static/current-upscale-comparison/media/db0376ec4673e633f6e776b954b5de5525b7ad37c78c94b3fab186bb4b7e5376.mp4",
+        "poster": "static/current-upscale-comparison/media/db0376ec4673e633f6e776b954b5de5525b7ad37c78c94b3fab186bb4b7e5376.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "c146321345ed15f3a4e8c5d3aa5d27046149f121656a6b8af3769c449d1f2527",
+        "url": "static/current-upscale-comparison/media/c146321345ed15f3a4e8c5d3aa5d27046149f121656a6b8af3769c449d1f2527.mp4",
+        "poster": "static/current-upscale-comparison/media/c146321345ed15f3a4e8c5d3aa5d27046149f121656a6b8af3769c449d1f2527.jpg"
+      },
+      "provenance": {
+        "source_sha256": "db0376ec4673e633f6e776b954b5de5525b7ad37c78c94b3fab186bb4b7e5376",
+        "output_sha256": "c146321345ed15f3a4e8c5d3aa5d27046149f121656a6b8af3769c449d1f2527",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "gallery",
+      "section_title": "Scene / World Editing",
+      "id": "663",
+      "selection": null,
+      "video": "experiment-group23-image-group23-4-v12/scene-world-editing/case-663-61895e9bf688.mp4",
+      "sha": "61895e9bf688951035a89df3712fdec5f39279691027e31c67d7cc0c38bab6e3",
+      "title": "Case 583",
+      "side": "B",
+      "setting": "group23 / Image-Group23-4 / v12",
+      "number": 14,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "61895e9bf688951035a89df3712fdec5f39279691027e31c67d7cc0c38bab6e3",
+        "url": "static/current-upscale-comparison/media/61895e9bf688951035a89df3712fdec5f39279691027e31c67d7cc0c38bab6e3.mp4",
+        "poster": "static/current-upscale-comparison/media/61895e9bf688951035a89df3712fdec5f39279691027e31c67d7cc0c38bab6e3.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "f3d1426e95d7c628c129caaefc45089306f3a9a1be7a7bf7419adad4921b8e37",
+        "url": "static/current-upscale-comparison/media/f3d1426e95d7c628c129caaefc45089306f3a9a1be7a7bf7419adad4921b8e37.mp4",
+        "poster": "static/current-upscale-comparison/media/f3d1426e95d7c628c129caaefc45089306f3a9a1be7a7bf7419adad4921b8e37.jpg"
+      },
+      "provenance": {
+        "source_sha256": "61895e9bf688951035a89df3712fdec5f39279691027e31c67d7cc0c38bab6e3",
+        "output_sha256": "f3d1426e95d7c628c129caaefc45089306f3a9a1be7a7bf7419adad4921b8e37",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "gallery",
+      "section_title": "Scene / World Editing",
+      "id": "586",
+      "selection": null,
+      "video": "experiment-reference-updates-image-group18-4-v16/scene-world-editing/case-586-68dc67d3cd2d.mp4",
+      "sha": "68dc67d3cd2dfcc4a77569bf5b3cb11e2d1498e1a786db277fb9e24f8830d663",
+      "title": "Case 586",
+      "side": "A",
+      "setting": "reference-updates / Image-Group18-4 / v16",
+      "number": 15,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "68dc67d3cd2dfcc4a77569bf5b3cb11e2d1498e1a786db277fb9e24f8830d663",
+        "url": "static/current-upscale-comparison/media/68dc67d3cd2dfcc4a77569bf5b3cb11e2d1498e1a786db277fb9e24f8830d663.mp4",
+        "poster": "static/current-upscale-comparison/media/68dc67d3cd2dfcc4a77569bf5b3cb11e2d1498e1a786db277fb9e24f8830d663.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "41b1bde1fe6c158ff9b51648dbd701e311427d6df55238f054ce8f71e17579d8",
+        "url": "static/current-upscale-comparison/media/41b1bde1fe6c158ff9b51648dbd701e311427d6df55238f054ce8f71e17579d8.mp4",
+        "poster": "static/current-upscale-comparison/media/41b1bde1fe6c158ff9b51648dbd701e311427d6df55238f054ce8f71e17579d8.jpg"
+      },
+      "provenance": {
+        "source_sha256": "68dc67d3cd2dfcc4a77569bf5b3cb11e2d1498e1a786db277fb9e24f8830d663",
+        "output_sha256": "41b1bde1fe6c158ff9b51648dbd701e311427d6df55238f054ce8f71e17579d8",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "gallery",
+      "section_title": "Scene / World Editing",
+      "id": "666",
+      "selection": null,
+      "video": "experiment-reference-updates-image-group18-4-v16/scene-world-editing/case-666-50bb22530358.mp4",
+      "sha": "50bb225303588ece33f752f6987de5ea90e6c5672cf16a1c86aacb4a2559b699",
+      "title": "Case 586",
+      "side": "B",
+      "setting": "reference-updates / Image-Group18-4 / v16",
+      "number": 16,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "50bb225303588ece33f752f6987de5ea90e6c5672cf16a1c86aacb4a2559b699",
+        "url": "static/current-upscale-comparison/media/50bb225303588ece33f752f6987de5ea90e6c5672cf16a1c86aacb4a2559b699.mp4",
+        "poster": "static/current-upscale-comparison/media/50bb225303588ece33f752f6987de5ea90e6c5672cf16a1c86aacb4a2559b699.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "c8b5f37b7afb4cf3a980207a6c0d57b7200f4cb49186fdb6331bdfd20f9b8154",
+        "url": "static/current-upscale-comparison/media/c8b5f37b7afb4cf3a980207a6c0d57b7200f4cb49186fdb6331bdfd20f9b8154.mp4",
+        "poster": "static/current-upscale-comparison/media/c8b5f37b7afb4cf3a980207a6c0d57b7200f4cb49186fdb6331bdfd20f9b8154.jpg"
+      },
+      "provenance": {
+        "source_sha256": "50bb225303588ece33f752f6987de5ea90e6c5672cf16a1c86aacb4a2559b699",
+        "output_sha256": "c8b5f37b7afb4cf3a980207a6c0d57b7200f4cb49186fdb6331bdfd20f9b8154",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "gallery",
+      "section_title": "Scene / World Editing",
+      "id": "601",
+      "selection": null,
+      "video": "experiment-group23-image-group23-4-v15/scene-world-editing/case-601-5337cc70270f.mp4",
+      "sha": "5337cc70270fd4ff1a7277fccd979020d0a544f0f6042e8c329a4fe0dbef2361",
+      "title": "Case 601",
+      "side": "A",
+      "setting": "group23 / Image-Group23-4 / v15",
+      "number": 17,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "5337cc70270fd4ff1a7277fccd979020d0a544f0f6042e8c329a4fe0dbef2361",
+        "url": "static/current-upscale-comparison/media/5337cc70270fd4ff1a7277fccd979020d0a544f0f6042e8c329a4fe0dbef2361.mp4",
+        "poster": "static/current-upscale-comparison/media/5337cc70270fd4ff1a7277fccd979020d0a544f0f6042e8c329a4fe0dbef2361.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "e607d62145701c51683e858b48a641564b34a330d10575f5c040886cb30649d8",
+        "url": "static/current-upscale-comparison/media/e607d62145701c51683e858b48a641564b34a330d10575f5c040886cb30649d8.mp4",
+        "poster": "static/current-upscale-comparison/media/e607d62145701c51683e858b48a641564b34a330d10575f5c040886cb30649d8.jpg"
+      },
+      "provenance": {
+        "source_sha256": "5337cc70270fd4ff1a7277fccd979020d0a544f0f6042e8c329a4fe0dbef2361",
+        "output_sha256": "e607d62145701c51683e858b48a641564b34a330d10575f5c040886cb30649d8",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "gallery",
+      "section_title": "Scene / World Editing",
+      "id": "681",
+      "selection": null,
+      "video": "experiment-group23-image-group23-4-v15/scene-world-editing/case-681-6efcee80e93d.mp4",
+      "sha": "6efcee80e93deef270abbdd5bc927b44df54911af9a53396910a5537b79c406a",
+      "title": "Case 601",
+      "side": "B",
+      "setting": "group23 / Image-Group23-4 / v15",
+      "number": 18,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "6efcee80e93deef270abbdd5bc927b44df54911af9a53396910a5537b79c406a",
+        "url": "static/current-upscale-comparison/media/6efcee80e93deef270abbdd5bc927b44df54911af9a53396910a5537b79c406a.mp4",
+        "poster": "static/current-upscale-comparison/media/6efcee80e93deef270abbdd5bc927b44df54911af9a53396910a5537b79c406a.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "dc10754ebf753e8a4745777ce92c7a852c96067b86ec75ae942c26369250be73",
+        "url": "static/current-upscale-comparison/media/dc10754ebf753e8a4745777ce92c7a852c96067b86ec75ae942c26369250be73.mp4",
+        "poster": "static/current-upscale-comparison/media/dc10754ebf753e8a4745777ce92c7a852c96067b86ec75ae942c26369250be73.jpg"
+      },
+      "provenance": {
+        "source_sha256": "6efcee80e93deef270abbdd5bc927b44df54911af9a53396910a5537b79c406a",
+        "output_sha256": "dc10754ebf753e8a4745777ce92c7a852c96067b86ec75ae942c26369250be73",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "gallery",
+      "section_title": "Scene / World Editing",
+      "id": "590",
+      "selection": null,
+      "video": "code-video-model-v2/scene-world-editing/case-590.mp4",
+      "sha": "cecf6e5b15e3507c43beab2126198ab83b4fb1ecb21571bc230b425c9baedc9c",
+      "title": "Case 590",
+      "side": "A",
+      "setting": "image-group10-2",
+      "number": 19,
+      "kind": "reuse",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "cecf6e5b15e3507c43beab2126198ab83b4fb1ecb21571bc230b425c9baedc9c",
+        "url": "static/current-upscale-comparison/media/cecf6e5b15e3507c43beab2126198ab83b4fb1ecb21571bc230b425c9baedc9c.mp4",
+        "poster": "static/current-upscale-comparison/media/cecf6e5b15e3507c43beab2126198ab83b4fb1ecb21571bc230b425c9baedc9c.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "09ece5459b15b94f403a69304ed23b23b728e60e8e1b5a0cc32ca0d268d7a362",
+        "url": "static/current-upscale-comparison/media/09ece5459b15b94f403a69304ed23b23b728e60e8e1b5a0cc32ca0d268d7a362.mp4",
+        "poster": "static/current-upscale-comparison/media/09ece5459b15b94f403a69304ed23b23b728e60e8e1b5a0cc32ca0d268d7a362.jpg"
+      },
+      "provenance": {
+        "source_sha256": "cecf6e5b15e3507c43beab2126198ab83b4fb1ecb21571bc230b425c9baedc9c",
+        "output_sha256": "09ece5459b15b94f403a69304ed23b23b728e60e8e1b5a0cc32ca0d268d7a362",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "gallery",
+      "section_title": "Scene / World Editing",
+      "id": "670",
+      "selection": null,
+      "video": "code-video-model-v2/scene-world-editing/case-670.mp4",
+      "sha": "97a35d65b374d0dd00d3c58f8b55403907c0fb7b09d09607b2755f045a775dc2",
+      "title": "Case 590",
+      "side": "B",
+      "setting": "image-group10-2",
+      "number": 20,
+      "kind": "reuse",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "97a35d65b374d0dd00d3c58f8b55403907c0fb7b09d09607b2755f045a775dc2",
+        "url": "static/current-upscale-comparison/media/97a35d65b374d0dd00d3c58f8b55403907c0fb7b09d09607b2755f045a775dc2.mp4",
+        "poster": "static/current-upscale-comparison/media/97a35d65b374d0dd00d3c58f8b55403907c0fb7b09d09607b2755f045a775dc2.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "0848cf8bffd6e3f880355a41fd655e7e0b4bde958ec83dfc45f272f586e74e5d",
+        "url": "static/current-upscale-comparison/media/0848cf8bffd6e3f880355a41fd655e7e0b4bde958ec83dfc45f272f586e74e5d.mp4",
+        "poster": "static/current-upscale-comparison/media/0848cf8bffd6e3f880355a41fd655e7e0b4bde958ec83dfc45f272f586e74e5d.jpg"
+      },
+      "provenance": {
+        "source_sha256": "97a35d65b374d0dd00d3c58f8b55403907c0fb7b09d09607b2755f045a775dc2",
+        "output_sha256": "0848cf8bffd6e3f880355a41fd655e7e0b4bde958ec83dfc45f272f586e74e5d",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "gallery",
+      "section_title": "Scene / World Editing",
+      "id": "595",
+      "selection": null,
+      "video": "experiment-group23-image-group23-2-v16/scene-world-editing/case-595-983c7bc50367.mp4",
+      "sha": "983c7bc50367dc7a4ad64a4f575ec4067b1cbccf8c232098a372acafdaf7717c",
+      "title": "Case 595",
+      "side": "A",
+      "setting": "group23 / Image-Group23-2 / v16",
+      "number": 21,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "983c7bc50367dc7a4ad64a4f575ec4067b1cbccf8c232098a372acafdaf7717c",
+        "url": "static/current-upscale-comparison/media/983c7bc50367dc7a4ad64a4f575ec4067b1cbccf8c232098a372acafdaf7717c.mp4",
+        "poster": "static/current-upscale-comparison/media/983c7bc50367dc7a4ad64a4f575ec4067b1cbccf8c232098a372acafdaf7717c.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "aa19edd2adc5f81093b5c3916d634c6f9e94fcbe7ea8df8d06400dd11120b098",
+        "url": "static/current-upscale-comparison/media/aa19edd2adc5f81093b5c3916d634c6f9e94fcbe7ea8df8d06400dd11120b098.mp4",
+        "poster": "static/current-upscale-comparison/media/aa19edd2adc5f81093b5c3916d634c6f9e94fcbe7ea8df8d06400dd11120b098.jpg"
+      },
+      "provenance": {
+        "source_sha256": "983c7bc50367dc7a4ad64a4f575ec4067b1cbccf8c232098a372acafdaf7717c",
+        "output_sha256": "aa19edd2adc5f81093b5c3916d634c6f9e94fcbe7ea8df8d06400dd11120b098",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "gallery",
+      "section_title": "Scene / World Editing",
+      "id": "675",
+      "selection": null,
+      "video": "experiment-group23-image-group23-2-v16/scene-world-editing/case-675-699c9ca824b6.mp4",
+      "sha": "699c9ca824b69421cc98fdd33b7472b7bd75412b1035b99071bea97341472511",
+      "title": "Case 595",
+      "side": "B",
+      "setting": "group23 / Image-Group23-2 / v16",
+      "number": 22,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "699c9ca824b69421cc98fdd33b7472b7bd75412b1035b99071bea97341472511",
+        "url": "static/current-upscale-comparison/media/699c9ca824b69421cc98fdd33b7472b7bd75412b1035b99071bea97341472511.mp4",
+        "poster": "static/current-upscale-comparison/media/699c9ca824b69421cc98fdd33b7472b7bd75412b1035b99071bea97341472511.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "e6bc6d485054224e819be337292153dbfdedf72dd3ecb620f3a3d58c4e9a07cf",
+        "url": "static/current-upscale-comparison/media/e6bc6d485054224e819be337292153dbfdedf72dd3ecb620f3a3d58c4e9a07cf.mp4",
+        "poster": "static/current-upscale-comparison/media/e6bc6d485054224e819be337292153dbfdedf72dd3ecb620f3a3d58c4e9a07cf.jpg"
+      },
+      "provenance": {
+        "source_sha256": "699c9ca824b69421cc98fdd33b7472b7bd75412b1035b99071bea97341472511",
+        "output_sha256": "e6bc6d485054224e819be337292153dbfdedf72dd3ecb620f3a3d58c4e9a07cf",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "gallery",
+      "section_title": "Scene / World Editing",
+      "id": "591",
+      "selection": null,
+      "video": "experiment-reference-updates-image-group18-4-v16/scene-world-editing/case-591-2294ab7a31c1.mp4",
+      "sha": "2294ab7a31c18b23bc92b2d53bbb7b93a419deebf90330a37c733ac523aebd42",
+      "title": "Case 591",
+      "side": "A",
+      "setting": "reference-updates / Image-Group18-4 / v16",
+      "number": 23,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "2294ab7a31c18b23bc92b2d53bbb7b93a419deebf90330a37c733ac523aebd42",
+        "url": "static/current-upscale-comparison/media/2294ab7a31c18b23bc92b2d53bbb7b93a419deebf90330a37c733ac523aebd42.mp4",
+        "poster": "static/current-upscale-comparison/media/2294ab7a31c18b23bc92b2d53bbb7b93a419deebf90330a37c733ac523aebd42.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "a0a925c42c697a3c03276c35a0c28cc13f3e2afae17edb4ba92b700a5a694310",
+        "url": "static/current-upscale-comparison/media/a0a925c42c697a3c03276c35a0c28cc13f3e2afae17edb4ba92b700a5a694310.mp4",
+        "poster": "static/current-upscale-comparison/media/a0a925c42c697a3c03276c35a0c28cc13f3e2afae17edb4ba92b700a5a694310.jpg"
+      },
+      "provenance": {
+        "source_sha256": "2294ab7a31c18b23bc92b2d53bbb7b93a419deebf90330a37c733ac523aebd42",
+        "output_sha256": "a0a925c42c697a3c03276c35a0c28cc13f3e2afae17edb4ba92b700a5a694310",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "gallery",
+      "section_title": "Scene / World Editing",
+      "id": "671",
+      "selection": null,
+      "video": "experiment-reference-updates-image-group18-4-v16/scene-world-editing/case-671-8b9dfbc475c8.mp4",
+      "sha": "8b9dfbc475c8300145a155525c48ba0aca145d08dd999f64dea9e01fc3a0cfea",
+      "title": "Case 591",
+      "side": "B",
+      "setting": "reference-updates / Image-Group18-4 / v16",
+      "number": 24,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "8b9dfbc475c8300145a155525c48ba0aca145d08dd999f64dea9e01fc3a0cfea",
+        "url": "static/current-upscale-comparison/media/8b9dfbc475c8300145a155525c48ba0aca145d08dd999f64dea9e01fc3a0cfea.mp4",
+        "poster": "static/current-upscale-comparison/media/8b9dfbc475c8300145a155525c48ba0aca145d08dd999f64dea9e01fc3a0cfea.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "5de35a7a7f29bd9a8c8a10b0488f0d73c0da252aa7957b5dae89d204adb4d2c9",
+        "url": "static/current-upscale-comparison/media/5de35a7a7f29bd9a8c8a10b0488f0d73c0da252aa7957b5dae89d204adb4d2c9.mp4",
+        "poster": "static/current-upscale-comparison/media/5de35a7a7f29bd9a8c8a10b0488f0d73c0da252aa7957b5dae89d204adb4d2c9.jpg"
+      },
+      "provenance": {
+        "source_sha256": "8b9dfbc475c8300145a155525c48ba0aca145d08dd999f64dea9e01fc3a0cfea",
+        "output_sha256": "5de35a7a7f29bd9a8c8a10b0488f0d73c0da252aa7957b5dae89d204adb4d2c9",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "control-world-states",
+      "section_title": "First-Person Games",
+      "id": "first-person-009",
+      "selection": null,
+      "video": "code-video-model/first-person-games/first-person-009.mp4",
+      "sha": "b69d906b9391af134db118074f42097c944fe2fd733b1202b004a0ba523e0779",
+      "title": "Hyrule Ride",
+      "side": null,
+      "setting": "original",
+      "number": 25,
+      "kind": "already",
+      "current": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "b69d906b9391af134db118074f42097c944fe2fd733b1202b004a0ba523e0779",
+        "url": "static/current-upscale-comparison/media/b69d906b9391af134db118074f42097c944fe2fd733b1202b004a0ba523e0779.mp4",
+        "poster": "static/current-upscale-comparison/media/b69d906b9391af134db118074f42097c944fe2fd733b1202b004a0ba523e0779.jpg"
+      },
+      "upscaled": null,
+      "provenance": {
+        "source_sha256": "b69d906b9391af134db118074f42097c944fe2fd733b1202b004a0ba523e0779",
+        "output_sha256": "b69d906b9391af134db118074f42097c944fe2fd733b1202b004a0ba523e0779",
+        "method": "Already displayed at upscale resolution",
+        "audio_preserved": null
+      }
+    },
+    {
+      "section": "control-world-states",
+      "section_title": "First-Person Games",
+      "id": "first-person-007",
+      "selection": null,
+      "video": "code-video-model/first-person-games/first-person-007.mp4",
+      "sha": "67cb38babb346426bb3d83c92e0ed1bddbf55056f413b101511120cfc4bd0e3d",
+      "title": "Tower Glide",
+      "side": null,
+      "setting": "original",
+      "number": 26,
+      "kind": "already",
+      "current": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "67cb38babb346426bb3d83c92e0ed1bddbf55056f413b101511120cfc4bd0e3d",
+        "url": "static/current-upscale-comparison/media/67cb38babb346426bb3d83c92e0ed1bddbf55056f413b101511120cfc4bd0e3d.mp4",
+        "poster": "static/current-upscale-comparison/media/67cb38babb346426bb3d83c92e0ed1bddbf55056f413b101511120cfc4bd0e3d.jpg"
+      },
+      "upscaled": null,
+      "provenance": {
+        "source_sha256": "67cb38babb346426bb3d83c92e0ed1bddbf55056f413b101511120cfc4bd0e3d",
+        "output_sha256": "67cb38babb346426bb3d83c92e0ed1bddbf55056f413b101511120cfc4bd0e3d",
+        "method": "Already displayed at upscale resolution",
+        "audio_preserved": null
+      }
+    },
+    {
+      "section": "control-world-states",
+      "section_title": "First-Person Games",
+      "id": "first-person-014",
+      "selection": null,
+      "video": "code-video-model/first-person-games/first-person-014.mp4",
+      "sha": "a35cfcbc66c0518683c34028d9d2f265746d6e7b971675ea491ae880aa1b67c2",
+      "title": "Balrog Bridge",
+      "side": null,
+      "setting": "original",
+      "number": 27,
+      "kind": "already",
+      "current": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "a35cfcbc66c0518683c34028d9d2f265746d6e7b971675ea491ae880aa1b67c2",
+        "url": "static/current-upscale-comparison/media/a35cfcbc66c0518683c34028d9d2f265746d6e7b971675ea491ae880aa1b67c2.mp4",
+        "poster": "static/current-upscale-comparison/media/a35cfcbc66c0518683c34028d9d2f265746d6e7b971675ea491ae880aa1b67c2.jpg"
+      },
+      "upscaled": null,
+      "provenance": {
+        "source_sha256": "a35cfcbc66c0518683c34028d9d2f265746d6e7b971675ea491ae880aa1b67c2",
+        "output_sha256": "a35cfcbc66c0518683c34028d9d2f265746d6e7b971675ea491ae880aa1b67c2",
+        "method": "Already displayed at upscale resolution",
+        "audio_preserved": null
+      }
+    },
+    {
+      "section": "control-world-states",
+      "section_title": "First-Person Games",
+      "id": "first-person-030",
+      "selection": null,
+      "video": "code-video-model/first-person-games/first-person-030.mp4",
+      "sha": "0c5f036db8d244d75ea1c974f493c7ce31fab388d00424668ef3e90794944956",
+      "title": "Forest Spirit",
+      "side": null,
+      "setting": "original",
+      "number": 28,
+      "kind": "already",
+      "current": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "0c5f036db8d244d75ea1c974f493c7ce31fab388d00424668ef3e90794944956",
+        "url": "static/current-upscale-comparison/media/0c5f036db8d244d75ea1c974f493c7ce31fab388d00424668ef3e90794944956.mp4",
+        "poster": "static/current-upscale-comparison/media/0c5f036db8d244d75ea1c974f493c7ce31fab388d00424668ef3e90794944956.jpg"
+      },
+      "upscaled": null,
+      "provenance": {
+        "source_sha256": "0c5f036db8d244d75ea1c974f493c7ce31fab388d00424668ef3e90794944956",
+        "output_sha256": "0c5f036db8d244d75ea1c974f493c7ce31fab388d00424668ef3e90794944956",
+        "method": "Already displayed at upscale resolution",
+        "audio_preserved": null
+      }
+    },
+    {
+      "section": "control-world-states",
+      "section_title": "First-Person Games",
+      "id": "121",
+      "selection": null,
+      "video": "code-video-model/first-person-games/case-121.mp4",
+      "sha": "7609726a096fde350dfe102ca60f1c46c08198303cb6c4034e4f4923f47608fe",
+      "title": "Halo Boarding",
+      "side": null,
+      "setting": "original",
+      "number": 29,
+      "kind": "already",
+      "current": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "7609726a096fde350dfe102ca60f1c46c08198303cb6c4034e4f4923f47608fe",
+        "url": "static/current-upscale-comparison/media/7609726a096fde350dfe102ca60f1c46c08198303cb6c4034e4f4923f47608fe.mp4",
+        "poster": "static/current-upscale-comparison/media/7609726a096fde350dfe102ca60f1c46c08198303cb6c4034e4f4923f47608fe.jpg"
+      },
+      "upscaled": null,
+      "provenance": {
+        "source_sha256": "7609726a096fde350dfe102ca60f1c46c08198303cb6c4034e4f4923f47608fe",
+        "output_sha256": "7609726a096fde350dfe102ca60f1c46c08198303cb6c4034e4f4923f47608fe",
+        "method": "Already displayed at upscale resolution",
+        "audio_preserved": null
+      }
+    },
+    {
+      "section": "control-world-states",
+      "section_title": "First-Person Games",
+      "id": "132",
+      "selection": null,
+      "video": "code-video-model/first-person-games/case-132.mp4",
+      "sha": "0b6aee762784635fa937200215a434d7259c86341c466ac3a187e9f4bfdaaa94",
+      "title": "Jurassic Encounter",
+      "side": null,
+      "setting": "original",
+      "number": 30,
+      "kind": "already",
+      "current": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "0b6aee762784635fa937200215a434d7259c86341c466ac3a187e9f4bfdaaa94",
+        "url": "static/current-upscale-comparison/media/0b6aee762784635fa937200215a434d7259c86341c466ac3a187e9f4bfdaaa94.mp4",
+        "poster": "static/current-upscale-comparison/media/0b6aee762784635fa937200215a434d7259c86341c466ac3a187e9f4bfdaaa94.jpg"
+      },
+      "upscaled": null,
+      "provenance": {
+        "source_sha256": "0b6aee762784635fa937200215a434d7259c86341c466ac3a187e9f4bfdaaa94",
+        "output_sha256": "0b6aee762784635fa937200215a434d7259c86341c466ac3a187e9f4bfdaaa94",
+        "method": "Already displayed at upscale resolution",
+        "audio_preserved": null
+      }
+    },
+    {
+      "section": "control-world-states",
+      "section_title": "First-Person Games",
+      "id": "322",
+      "selection": null,
+      "video": "code-video-model/first-person-games/case-322.mp4",
+      "sha": "31a478d7cbcd296688cbf7abc3b6053c7d581f204d7950233d2d0326b8cabc69",
+      "title": "Titan Swing",
+      "side": null,
+      "setting": "image-group3-4",
+      "number": 31,
+      "kind": "reuse",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "31a478d7cbcd296688cbf7abc3b6053c7d581f204d7950233d2d0326b8cabc69",
+        "url": "static/current-upscale-comparison/media/31a478d7cbcd296688cbf7abc3b6053c7d581f204d7950233d2d0326b8cabc69.mp4",
+        "poster": "static/current-upscale-comparison/media/31a478d7cbcd296688cbf7abc3b6053c7d581f204d7950233d2d0326b8cabc69.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "61459b88a7fb10287c7909bb71a728ac9235516e063945e1af3d2d9b15f19965",
+        "url": "static/current-upscale-comparison/media/61459b88a7fb10287c7909bb71a728ac9235516e063945e1af3d2d9b15f19965.mp4",
+        "poster": "static/current-upscale-comparison/media/61459b88a7fb10287c7909bb71a728ac9235516e063945e1af3d2d9b15f19965.jpg"
+      },
+      "provenance": {
+        "source_sha256": "31a478d7cbcd296688cbf7abc3b6053c7d581f204d7950233d2d0326b8cabc69",
+        "output_sha256": "61459b88a7fb10287c7909bb71a728ac9235516e063945e1af3d2d9b15f19965",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "control-world-states",
+      "section_title": "First-Person Games",
+      "id": "93",
+      "selection": null,
+      "video": "code-video-model/first-person-games/case-93.mp4",
+      "sha": "b75a600fed59dabe090a588f78cbc20910ccb86f05705a4f85f2c87765b6621a",
+      "title": "City Webs",
+      "side": null,
+      "setting": "image-group3-4",
+      "number": 32,
+      "kind": "reuse",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 192,
+        "sha256": "b75a600fed59dabe090a588f78cbc20910ccb86f05705a4f85f2c87765b6621a",
+        "url": "static/current-upscale-comparison/media/b75a600fed59dabe090a588f78cbc20910ccb86f05705a4f85f2c87765b6621a.mp4",
+        "poster": "static/current-upscale-comparison/media/b75a600fed59dabe090a588f78cbc20910ccb86f05705a4f85f2c87765b6621a.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 192,
+        "sha256": "09e8e0053939bb8b4e44201aedf6e9032d00450ad65200411fee40190d8b55c6",
+        "url": "static/current-upscale-comparison/media/09e8e0053939bb8b4e44201aedf6e9032d00450ad65200411fee40190d8b55c6.mp4",
+        "poster": "static/current-upscale-comparison/media/09e8e0053939bb8b4e44201aedf6e9032d00450ad65200411fee40190d8b55c6.jpg"
+      },
+      "provenance": {
+        "source_sha256": "b75a600fed59dabe090a588f78cbc20910ccb86f05705a4f85f2c87765b6621a",
+        "output_sha256": "09e8e0053939bb8b4e44201aedf6e9032d00450ad65200411fee40190d8b55c6",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "control-world-states",
+      "section_title": "First-Person Games",
+      "id": "cs2-active-duel",
+      "selection": null,
+      "video": "code-video-model/control-world-states/cs2-active-duel-c0b0b9a780cb.mp4",
+      "sha": "c0b0b9a780cb1925b7031d0b33bc7acfe45484205f1d94eb6c20cbd428987061",
+      "title": "CS2 Active Duel",
+      "side": null,
+      "setting": "Code Video delivery / cs2-active-duel-5s-review-v1 / centered 960x540 24FPS",
+      "number": 33,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 540,
+        "fps": 24.0,
+        "frames": 121,
+        "sha256": "c0b0b9a780cb1925b7031d0b33bc7acfe45484205f1d94eb6c20cbd428987061",
+        "url": "static/current-upscale-comparison/media/c0b0b9a780cb1925b7031d0b33bc7acfe45484205f1d94eb6c20cbd428987061.mp4",
+        "poster": "static/current-upscale-comparison/media/c0b0b9a780cb1925b7031d0b33bc7acfe45484205f1d94eb6c20cbd428987061.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 24.0,
+        "frames": 121,
+        "sha256": "e576b02f99b93fdd3bfe8c68ac4fa6421dc92d8d7f211dae58647099142bd11f",
+        "url": "static/current-upscale-comparison/media/e576b02f99b93fdd3bfe8c68ac4fa6421dc92d8d7f211dae58647099142bd11f.mp4",
+        "poster": "static/current-upscale-comparison/media/e576b02f99b93fdd3bfe8c68ac4fa6421dc92d8d7f211dae58647099142bd11f.jpg"
+      },
+      "provenance": {
+        "source_sha256": "c0b0b9a780cb1925b7031d0b33bc7acfe45484205f1d94eb6c20cbd428987061",
+        "output_sha256": "e576b02f99b93fdd3bfe8c68ac4fa6421dc92d8d7f211dae58647099142bd11f",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "control-world-states",
+      "section_title": "First-Person Games",
+      "id": "wyvern-siege-fpv",
+      "selection": null,
+      "video": "code-video-model/control-world-states/wyvern-siege-fpv-55c7a2538efb.mp4",
+      "sha": "55c7a2538efbb45b54ecc244ee6a2e08d07033f669f769247f0efa6542398b02",
+      "title": "Wyvern Siege FPV",
+      "side": null,
+      "setting": "Code Video delivery / wyvern-siege-fpv-10s-rev3 / centered 960x540 24FPS",
+      "number": 34,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 540,
+        "fps": 24.0,
+        "frames": 241,
+        "sha256": "55c7a2538efbb45b54ecc244ee6a2e08d07033f669f769247f0efa6542398b02",
+        "url": "static/current-upscale-comparison/media/55c7a2538efbb45b54ecc244ee6a2e08d07033f669f769247f0efa6542398b02.mp4",
+        "poster": "static/current-upscale-comparison/media/55c7a2538efbb45b54ecc244ee6a2e08d07033f669f769247f0efa6542398b02.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 24.0,
+        "frames": 241,
+        "sha256": "af8cd92a603b1a17f076cc2cb3974c4b596cc0fc55b9231d30fc9b4468d5e35e",
+        "url": "static/current-upscale-comparison/media/af8cd92a603b1a17f076cc2cb3974c4b596cc0fc55b9231d30fc9b4468d5e35e.mp4",
+        "poster": "static/current-upscale-comparison/media/af8cd92a603b1a17f076cc2cb3974c4b596cc0fc55b9231d30fc9b4468d5e35e.jpg"
+      },
+      "provenance": {
+        "source_sha256": "55c7a2538efbb45b54ecc244ee6a2e08d07033f669f769247f0efa6542398b02",
+        "output_sha256": "af8cd92a603b1a17f076cc2cb3974c4b596cc0fc55b9231d30fc9b4468d5e35e",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "control-world-states",
+      "section_title": "First-Person Games",
+      "id": "303",
+      "selection": null,
+      "video": "code-video-model/first-person-games/case-303-direct.mp4",
+      "sha": "df42b8791526c98067c96b132fe8395ee9d613f9528a58f9b74def0feb957f4b",
+      "title": "Cliffside Flight",
+      "published_to_project_page": true,
+      "side": null,
+      "setting": "Cinematic400 / Direct Output",
+      "number": 35,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "df42b8791526c98067c96b132fe8395ee9d613f9528a58f9b74def0feb957f4b",
+        "url": "static/current-upscale-comparison/media/df42b8791526c98067c96b132fe8395ee9d613f9528a58f9b74def0feb957f4b.mp4",
+        "poster": "static/current-upscale-comparison/media/df42b8791526c98067c96b132fe8395ee9d613f9528a58f9b74def0feb957f4b.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "76fe4ae628f3195c1c3040d09dccea5699010e85c7bb0fcc4017a33721617524",
+        "url": "static/current-upscale-comparison/media/76fe4ae628f3195c1c3040d09dccea5699010e85c7bb0fcc4017a33721617524.mp4",
+        "poster": "static/current-upscale-comparison/media/76fe4ae628f3195c1c3040d09dccea5699010e85c7bb0fcc4017a33721617524.jpg"
+      },
+      "provenance": {
+        "source_sha256": "df42b8791526c98067c96b132fe8395ee9d613f9528a58f9b74def0feb957f4b",
+        "output_sha256": "76fe4ae628f3195c1c3040d09dccea5699010e85c7bb0fcc4017a33721617524",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "563",
+      "selection": null,
+      "video": "code-video-model-v2/robotics-simulation/case-563.mp4",
+      "sha": "d4fd21d6d1119cf56e5ad4ad21248fd8bac8cb2d1de51993cd89a930311588b1",
+      "title": "Case 563",
+      "side": "A",
+      "setting": "image-group11-2",
+      "number": 36,
+      "kind": "reuse",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "d4fd21d6d1119cf56e5ad4ad21248fd8bac8cb2d1de51993cd89a930311588b1",
+        "url": "static/current-upscale-comparison/media/d4fd21d6d1119cf56e5ad4ad21248fd8bac8cb2d1de51993cd89a930311588b1.mp4",
+        "poster": "static/current-upscale-comparison/media/d4fd21d6d1119cf56e5ad4ad21248fd8bac8cb2d1de51993cd89a930311588b1.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "2cec4e4f46b7bd6d02d9a4730cf6f8a9699dd22d1d27a6882eea5d670f1c7652",
+        "url": "static/current-upscale-comparison/media/2cec4e4f46b7bd6d02d9a4730cf6f8a9699dd22d1d27a6882eea5d670f1c7652.mp4",
+        "poster": "static/current-upscale-comparison/media/2cec4e4f46b7bd6d02d9a4730cf6f8a9699dd22d1d27a6882eea5d670f1c7652.jpg"
+      },
+      "provenance": {
+        "source_sha256": "d4fd21d6d1119cf56e5ad4ad21248fd8bac8cb2d1de51993cd89a930311588b1",
+        "output_sha256": "2cec4e4f46b7bd6d02d9a4730cf6f8a9699dd22d1d27a6882eea5d670f1c7652",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "564",
+      "selection": null,
+      "video": "code-video-model-v2/robotics-simulation/case-564.mp4",
+      "sha": "96e78b1bdfbaefce118218789a3145524130975b1d42f6842681cd25c1e64b4a",
+      "title": "Case 563",
+      "side": "B",
+      "setting": "image-group11-2",
+      "number": 37,
+      "kind": "reuse",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "96e78b1bdfbaefce118218789a3145524130975b1d42f6842681cd25c1e64b4a",
+        "url": "static/current-upscale-comparison/media/96e78b1bdfbaefce118218789a3145524130975b1d42f6842681cd25c1e64b4a.mp4",
+        "poster": "static/current-upscale-comparison/media/96e78b1bdfbaefce118218789a3145524130975b1d42f6842681cd25c1e64b4a.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "4a3d8edec7d578f1237824f7e5da9d0478c16085cf5eb8fd8bf4a9a2a6b803f4",
+        "url": "static/current-upscale-comparison/media/4a3d8edec7d578f1237824f7e5da9d0478c16085cf5eb8fd8bf4a9a2a6b803f4.mp4",
+        "poster": "static/current-upscale-comparison/media/4a3d8edec7d578f1237824f7e5da9d0478c16085cf5eb8fd8bf4a9a2a6b803f4.jpg"
+      },
+      "provenance": {
+        "source_sha256": "96e78b1bdfbaefce118218789a3145524130975b1d42f6842681cd25c1e64b4a",
+        "output_sha256": "4a3d8edec7d578f1237824f7e5da9d0478c16085cf5eb8fd8bf4a9a2a6b803f4",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "567",
+      "selection": null,
+      "video": "code-video-model-v2/robotics-simulation/case-567.mp4",
+      "sha": "5c9bd42a7b161dff8b13e3a1b8514d97ed01fb463dc024a938564a769d1179ba",
+      "title": "Case 567",
+      "side": "A",
+      "setting": "image-group11-2",
+      "number": 38,
+      "kind": "reuse",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "5c9bd42a7b161dff8b13e3a1b8514d97ed01fb463dc024a938564a769d1179ba",
+        "url": "static/current-upscale-comparison/media/5c9bd42a7b161dff8b13e3a1b8514d97ed01fb463dc024a938564a769d1179ba.mp4",
+        "poster": "static/current-upscale-comparison/media/5c9bd42a7b161dff8b13e3a1b8514d97ed01fb463dc024a938564a769d1179ba.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "81feb51a29b4283cf1a50a2e004b0be4cf3adcdeff3b4e23416589a54f3a57c3",
+        "url": "static/current-upscale-comparison/media/81feb51a29b4283cf1a50a2e004b0be4cf3adcdeff3b4e23416589a54f3a57c3.mp4",
+        "poster": "static/current-upscale-comparison/media/81feb51a29b4283cf1a50a2e004b0be4cf3adcdeff3b4e23416589a54f3a57c3.jpg"
+      },
+      "provenance": {
+        "source_sha256": "5c9bd42a7b161dff8b13e3a1b8514d97ed01fb463dc024a938564a769d1179ba",
+        "output_sha256": "81feb51a29b4283cf1a50a2e004b0be4cf3adcdeff3b4e23416589a54f3a57c3",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "568",
+      "selection": null,
+      "video": "code-video-model-v2/robotics-simulation/case-568.mp4",
+      "sha": "3d5e64aa24f8d159bb68cafbcc437f53c404ca19af75a1a81f281a589a5f327b",
+      "title": "Case 567",
+      "side": "B",
+      "setting": "image-group11-2",
+      "number": 39,
+      "kind": "reuse",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "3d5e64aa24f8d159bb68cafbcc437f53c404ca19af75a1a81f281a589a5f327b",
+        "url": "static/current-upscale-comparison/media/3d5e64aa24f8d159bb68cafbcc437f53c404ca19af75a1a81f281a589a5f327b.mp4",
+        "poster": "static/current-upscale-comparison/media/3d5e64aa24f8d159bb68cafbcc437f53c404ca19af75a1a81f281a589a5f327b.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "79cb4ca312ffbd89f35a38347fbf57ece4b95069d7d4770400ff81c5a3b363df",
+        "url": "static/current-upscale-comparison/media/79cb4ca312ffbd89f35a38347fbf57ece4b95069d7d4770400ff81c5a3b363df.mp4",
+        "poster": "static/current-upscale-comparison/media/79cb4ca312ffbd89f35a38347fbf57ece4b95069d7d4770400ff81c5a3b363df.jpg"
+      },
+      "provenance": {
+        "source_sha256": "3d5e64aa24f8d159bb68cafbcc437f53c404ca19af75a1a81f281a589a5f327b",
+        "output_sha256": "79cb4ca312ffbd89f35a38347fbf57ece4b95069d7d4770400ff81c5a3b363df",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "571",
+      "selection": null,
+      "video": "code-video-model-v2/robotics-simulation/case-571.mp4",
+      "sha": "8efffb59d27ac7b9c2f9d7244cb06abdcaf0a0d62bab424b25a9414d4c0a74f1",
+      "title": "Case 571",
+      "side": "A",
+      "setting": "image-group12-4",
+      "number": 40,
+      "kind": "reuse",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "8efffb59d27ac7b9c2f9d7244cb06abdcaf0a0d62bab424b25a9414d4c0a74f1",
+        "url": "static/current-upscale-comparison/media/8efffb59d27ac7b9c2f9d7244cb06abdcaf0a0d62bab424b25a9414d4c0a74f1.mp4",
+        "poster": "static/current-upscale-comparison/media/8efffb59d27ac7b9c2f9d7244cb06abdcaf0a0d62bab424b25a9414d4c0a74f1.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "a46a0fdd3787bdddddf4b800b31545b0748fe51c36fa49da52d2b789773c5904",
+        "url": "static/current-upscale-comparison/media/a46a0fdd3787bdddddf4b800b31545b0748fe51c36fa49da52d2b789773c5904.mp4",
+        "poster": "static/current-upscale-comparison/media/a46a0fdd3787bdddddf4b800b31545b0748fe51c36fa49da52d2b789773c5904.jpg"
+      },
+      "provenance": {
+        "source_sha256": "8efffb59d27ac7b9c2f9d7244cb06abdcaf0a0d62bab424b25a9414d4c0a74f1",
+        "output_sha256": "a46a0fdd3787bdddddf4b800b31545b0748fe51c36fa49da52d2b789773c5904",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "572",
+      "selection": null,
+      "video": "code-video-model-v2/robotics-simulation/case-572.mp4",
+      "sha": "c99aa2ace8bf95050f2cf9cd60ead2f34b71c0bd003b0e3782e35f30e3a1663d",
+      "title": "Case 571",
+      "side": "B",
+      "setting": "image-group12-4",
+      "number": 41,
+      "kind": "reuse",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "c99aa2ace8bf95050f2cf9cd60ead2f34b71c0bd003b0e3782e35f30e3a1663d",
+        "url": "static/current-upscale-comparison/media/c99aa2ace8bf95050f2cf9cd60ead2f34b71c0bd003b0e3782e35f30e3a1663d.mp4",
+        "poster": "static/current-upscale-comparison/media/c99aa2ace8bf95050f2cf9cd60ead2f34b71c0bd003b0e3782e35f30e3a1663d.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "c94c50066f617eb83e2e050709a1263dbde5010ed7901dd490645d9f3f230949",
+        "url": "static/current-upscale-comparison/media/c94c50066f617eb83e2e050709a1263dbde5010ed7901dd490645d9f3f230949.mp4",
+        "poster": "static/current-upscale-comparison/media/c94c50066f617eb83e2e050709a1263dbde5010ed7901dd490645d9f3f230949.jpg"
+      },
+      "provenance": {
+        "source_sha256": "c99aa2ace8bf95050f2cf9cd60ead2f34b71c0bd003b0e3782e35f30e3a1663d",
+        "output_sha256": "c94c50066f617eb83e2e050709a1263dbde5010ed7901dd490645d9f3f230949",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "564",
+      "selection": "robotics-group23-564-563-image-group23-4-v12",
+      "video": "experiment-pairs/robotics-group23-564-563-image-group23-4-v12/case-564-4b534ae51bce.mp4",
+      "sha": "4b534ae51bced51b4ae6a724d6666565747540fb3eeee47db8d33309565ea788",
+      "title": "Cases 564 and 563 / Image-Group23-4 / v12",
+      "side": "A",
+      "setting": "robotics-group23-564-563-image-group23-4-v12",
+      "number": 42,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "4b534ae51bced51b4ae6a724d6666565747540fb3eeee47db8d33309565ea788",
+        "url": "static/current-upscale-comparison/media/4b534ae51bced51b4ae6a724d6666565747540fb3eeee47db8d33309565ea788.mp4",
+        "poster": "static/current-upscale-comparison/media/4b534ae51bced51b4ae6a724d6666565747540fb3eeee47db8d33309565ea788.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "aa4e62c280c15d8f6a7c97a9f96fec1df64e5bd1be5b21210eed129c1e05bb4d",
+        "url": "static/current-upscale-comparison/media/aa4e62c280c15d8f6a7c97a9f96fec1df64e5bd1be5b21210eed129c1e05bb4d.mp4",
+        "poster": "static/current-upscale-comparison/media/aa4e62c280c15d8f6a7c97a9f96fec1df64e5bd1be5b21210eed129c1e05bb4d.jpg"
+      },
+      "provenance": {
+        "source_sha256": "4b534ae51bced51b4ae6a724d6666565747540fb3eeee47db8d33309565ea788",
+        "output_sha256": "aa4e62c280c15d8f6a7c97a9f96fec1df64e5bd1be5b21210eed129c1e05bb4d",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "563",
+      "selection": "robotics-group23-564-563-image-group23-4-v12",
+      "video": "experiment-pairs/robotics-group23-564-563-image-group23-4-v12/case-563-29c8d446b453.mp4",
+      "sha": "29c8d446b453157c8e32a216dda60526aa8508983e163071faf593a5bcd37579",
+      "title": "Cases 564 and 563 / Image-Group23-4 / v12",
+      "side": "B",
+      "setting": "robotics-group23-564-563-image-group23-4-v12",
+      "number": 43,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "29c8d446b453157c8e32a216dda60526aa8508983e163071faf593a5bcd37579",
+        "url": "static/current-upscale-comparison/media/29c8d446b453157c8e32a216dda60526aa8508983e163071faf593a5bcd37579.mp4",
+        "poster": "static/current-upscale-comparison/media/29c8d446b453157c8e32a216dda60526aa8508983e163071faf593a5bcd37579.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "f5bc43111cc69a611f9141cb3857a0d86556f0e137106a3e7083f11275798139",
+        "url": "static/current-upscale-comparison/media/f5bc43111cc69a611f9141cb3857a0d86556f0e137106a3e7083f11275798139.mp4",
+        "poster": "static/current-upscale-comparison/media/f5bc43111cc69a611f9141cb3857a0d86556f0e137106a3e7083f11275798139.jpg"
+      },
+      "provenance": {
+        "source_sha256": "29c8d446b453157c8e32a216dda60526aa8508983e163071faf593a5bcd37579",
+        "output_sha256": "f5bc43111cc69a611f9141cb3857a0d86556f0e137106a3e7083f11275798139",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "564",
+      "selection": "robotics-group23-564-563-image-group23-2-v13",
+      "video": "experiment-pairs/robotics-group23-564-563-image-group23-2-v13/case-564-2bdfbe4b1b13.mp4",
+      "sha": "2bdfbe4b1b132f43b80f6e8e31334b610d562e6c7f8f8883af5a4e4de156223b",
+      "title": "Cases 564 and 563 / Image-Group23-2 / v13",
+      "side": "A",
+      "setting": "robotics-group23-564-563-image-group23-2-v13",
+      "number": 44,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "2bdfbe4b1b132f43b80f6e8e31334b610d562e6c7f8f8883af5a4e4de156223b",
+        "url": "static/current-upscale-comparison/media/2bdfbe4b1b132f43b80f6e8e31334b610d562e6c7f8f8883af5a4e4de156223b.mp4",
+        "poster": "static/current-upscale-comparison/media/2bdfbe4b1b132f43b80f6e8e31334b610d562e6c7f8f8883af5a4e4de156223b.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "deec1cf0e73cb29c001bea92d4339c28dd9a00e029c82f10ee0d4dcb33acd011",
+        "url": "static/current-upscale-comparison/media/deec1cf0e73cb29c001bea92d4339c28dd9a00e029c82f10ee0d4dcb33acd011.mp4",
+        "poster": "static/current-upscale-comparison/media/deec1cf0e73cb29c001bea92d4339c28dd9a00e029c82f10ee0d4dcb33acd011.jpg"
+      },
+      "provenance": {
+        "source_sha256": "2bdfbe4b1b132f43b80f6e8e31334b610d562e6c7f8f8883af5a4e4de156223b",
+        "output_sha256": "deec1cf0e73cb29c001bea92d4339c28dd9a00e029c82f10ee0d4dcb33acd011",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "563",
+      "selection": "robotics-group23-564-563-image-group23-2-v13",
+      "video": "experiment-pairs/robotics-group23-564-563-image-group23-2-v13/case-563-b8a23ca6efc4.mp4",
+      "sha": "b8a23ca6efc40aba5df94e9a9601af1897044f2edb1a1d8edd76383d053d8d76",
+      "title": "Cases 564 and 563 / Image-Group23-2 / v13",
+      "side": "B",
+      "setting": "robotics-group23-564-563-image-group23-2-v13",
+      "number": 45,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "b8a23ca6efc40aba5df94e9a9601af1897044f2edb1a1d8edd76383d053d8d76",
+        "url": "static/current-upscale-comparison/media/b8a23ca6efc40aba5df94e9a9601af1897044f2edb1a1d8edd76383d053d8d76.mp4",
+        "poster": "static/current-upscale-comparison/media/b8a23ca6efc40aba5df94e9a9601af1897044f2edb1a1d8edd76383d053d8d76.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "972997bd68b4858b07eb4fb6d9b6fd39bd5adedc0fc361c4857f4c25cef0634c",
+        "url": "static/current-upscale-comparison/media/972997bd68b4858b07eb4fb6d9b6fd39bd5adedc0fc361c4857f4c25cef0634c.mp4",
+        "poster": "static/current-upscale-comparison/media/972997bd68b4858b07eb4fb6d9b6fd39bd5adedc0fc361c4857f4c25cef0634c.jpg"
+      },
+      "provenance": {
+        "source_sha256": "b8a23ca6efc40aba5df94e9a9601af1897044f2edb1a1d8edd76383d053d8d76",
+        "output_sha256": "972997bd68b4858b07eb4fb6d9b6fd39bd5adedc0fc361c4857f4c25cef0634c",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "564",
+      "selection": "robotics-group23-564-563-image-group23-4-v15",
+      "video": "experiment-pairs/robotics-group23-564-563-image-group23-4-v15/case-564-026f839ca680.mp4",
+      "sha": "026f839ca680b6b8c2b7127fae6c1b67e414ad16537bc7a3827b98934dc4fda8",
+      "title": "Cases 564 and 563 / Image-Group23-4 / v15",
+      "side": "A",
+      "setting": "robotics-group23-564-563-image-group23-4-v15",
+      "number": 46,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "026f839ca680b6b8c2b7127fae6c1b67e414ad16537bc7a3827b98934dc4fda8",
+        "url": "static/current-upscale-comparison/media/026f839ca680b6b8c2b7127fae6c1b67e414ad16537bc7a3827b98934dc4fda8.mp4",
+        "poster": "static/current-upscale-comparison/media/026f839ca680b6b8c2b7127fae6c1b67e414ad16537bc7a3827b98934dc4fda8.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "baa9733f647ad417f62b4ce44d53d4fe0ca01c72516b473ee342ee222b42bff3",
+        "url": "static/current-upscale-comparison/media/baa9733f647ad417f62b4ce44d53d4fe0ca01c72516b473ee342ee222b42bff3.mp4",
+        "poster": "static/current-upscale-comparison/media/baa9733f647ad417f62b4ce44d53d4fe0ca01c72516b473ee342ee222b42bff3.jpg"
+      },
+      "provenance": {
+        "source_sha256": "026f839ca680b6b8c2b7127fae6c1b67e414ad16537bc7a3827b98934dc4fda8",
+        "output_sha256": "baa9733f647ad417f62b4ce44d53d4fe0ca01c72516b473ee342ee222b42bff3",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "563",
+      "selection": "robotics-group23-564-563-image-group23-4-v15",
+      "video": "experiment-pairs/robotics-group23-564-563-image-group23-4-v15/case-563-92bae22b754e.mp4",
+      "sha": "92bae22b754e29042b62f54aeead8a1ce9a4d7a30249a73336499c21a0395269",
+      "title": "Cases 564 and 563 / Image-Group23-4 / v15",
+      "side": "B",
+      "setting": "robotics-group23-564-563-image-group23-4-v15",
+      "number": 47,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "92bae22b754e29042b62f54aeead8a1ce9a4d7a30249a73336499c21a0395269",
+        "url": "static/current-upscale-comparison/media/92bae22b754e29042b62f54aeead8a1ce9a4d7a30249a73336499c21a0395269.mp4",
+        "poster": "static/current-upscale-comparison/media/92bae22b754e29042b62f54aeead8a1ce9a4d7a30249a73336499c21a0395269.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "8232db71c5e58341abc6ab5dee2f70fbec4fba8c7461e26c12c94e2545b67f9f",
+        "url": "static/current-upscale-comparison/media/8232db71c5e58341abc6ab5dee2f70fbec4fba8c7461e26c12c94e2545b67f9f.mp4",
+        "poster": "static/current-upscale-comparison/media/8232db71c5e58341abc6ab5dee2f70fbec4fba8c7461e26c12c94e2545b67f9f.jpg"
+      },
+      "provenance": {
+        "source_sha256": "92bae22b754e29042b62f54aeead8a1ce9a4d7a30249a73336499c21a0395269",
+        "output_sha256": "8232db71c5e58341abc6ab5dee2f70fbec4fba8c7461e26c12c94e2545b67f9f",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "564",
+      "selection": "robotics-group23-564-563-image-group23-2-v20",
+      "video": "experiment-pairs/robotics-group23-564-563-image-group23-2-v20/case-564-648c311cd6c6.mp4",
+      "sha": "648c311cd6c63dd18c55782a8f053236b9ed7c058ce4f3b978f43eed821d1bd1",
+      "title": "Cases 564 and 563 / Image-Group23-2 / v20",
+      "side": "A",
+      "setting": "robotics-group23-564-563-image-group23-2-v20",
+      "number": 48,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "648c311cd6c63dd18c55782a8f053236b9ed7c058ce4f3b978f43eed821d1bd1",
+        "url": "static/current-upscale-comparison/media/648c311cd6c63dd18c55782a8f053236b9ed7c058ce4f3b978f43eed821d1bd1.mp4",
+        "poster": "static/current-upscale-comparison/media/648c311cd6c63dd18c55782a8f053236b9ed7c058ce4f3b978f43eed821d1bd1.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "e634f35b8f26a9a88ffbffabaf21ec56bac3930c58a7df17fffe1b95acee96cb",
+        "url": "static/current-upscale-comparison/media/e634f35b8f26a9a88ffbffabaf21ec56bac3930c58a7df17fffe1b95acee96cb.mp4",
+        "poster": "static/current-upscale-comparison/media/e634f35b8f26a9a88ffbffabaf21ec56bac3930c58a7df17fffe1b95acee96cb.jpg"
+      },
+      "provenance": {
+        "source_sha256": "648c311cd6c63dd18c55782a8f053236b9ed7c058ce4f3b978f43eed821d1bd1",
+        "output_sha256": "e634f35b8f26a9a88ffbffabaf21ec56bac3930c58a7df17fffe1b95acee96cb",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "563",
+      "selection": "robotics-group23-564-563-image-group23-2-v20",
+      "video": "experiment-pairs/robotics-group23-564-563-image-group23-2-v20/case-563-15b4e2c232ff.mp4",
+      "sha": "15b4e2c232ff4c5e3fdedbad6a914fb50d20d992247de6f8d591b4cfe27e167f",
+      "title": "Cases 564 and 563 / Image-Group23-2 / v20",
+      "side": "B",
+      "setting": "robotics-group23-564-563-image-group23-2-v20",
+      "number": 49,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "15b4e2c232ff4c5e3fdedbad6a914fb50d20d992247de6f8d591b4cfe27e167f",
+        "url": "static/current-upscale-comparison/media/15b4e2c232ff4c5e3fdedbad6a914fb50d20d992247de6f8d591b4cfe27e167f.mp4",
+        "poster": "static/current-upscale-comparison/media/15b4e2c232ff4c5e3fdedbad6a914fb50d20d992247de6f8d591b4cfe27e167f.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "01432d9429a5ad8f5e2c4b386a805453760d714385fcbcc9a9f9efcad24f68c9",
+        "url": "static/current-upscale-comparison/media/01432d9429a5ad8f5e2c4b386a805453760d714385fcbcc9a9f9efcad24f68c9.mp4",
+        "poster": "static/current-upscale-comparison/media/01432d9429a5ad8f5e2c4b386a805453760d714385fcbcc9a9f9efcad24f68c9.jpg"
+      },
+      "provenance": {
+        "source_sha256": "15b4e2c232ff4c5e3fdedbad6a914fb50d20d992247de6f8d591b4cfe27e167f",
+        "output_sha256": "01432d9429a5ad8f5e2c4b386a805453760d714385fcbcc9a9f9efcad24f68c9",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "568",
+      "selection": "robotics-group23-568-567-image-group23-2-v12",
+      "video": "experiment-pairs/robotics-group23-568-567-image-group23-2-v12/case-568-dff10f50afb1.mp4",
+      "sha": "dff10f50afb143ce7d9d7a486db333a3cdc7865cbbc3d11698a725dc1d06f2e5",
+      "title": "Cases 568 and 567 / Image-Group23-2 / v12",
+      "side": "A",
+      "setting": "robotics-group23-568-567-image-group23-2-v12",
+      "number": 50,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "dff10f50afb143ce7d9d7a486db333a3cdc7865cbbc3d11698a725dc1d06f2e5",
+        "url": "static/current-upscale-comparison/media/dff10f50afb143ce7d9d7a486db333a3cdc7865cbbc3d11698a725dc1d06f2e5.mp4",
+        "poster": "static/current-upscale-comparison/media/dff10f50afb143ce7d9d7a486db333a3cdc7865cbbc3d11698a725dc1d06f2e5.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "cdf708a24b161331a5090448e5cd7e677eaacf87438603b627a1f1a570ce32aa",
+        "url": "static/current-upscale-comparison/media/cdf708a24b161331a5090448e5cd7e677eaacf87438603b627a1f1a570ce32aa.mp4",
+        "poster": "static/current-upscale-comparison/media/cdf708a24b161331a5090448e5cd7e677eaacf87438603b627a1f1a570ce32aa.jpg"
+      },
+      "provenance": {
+        "source_sha256": "dff10f50afb143ce7d9d7a486db333a3cdc7865cbbc3d11698a725dc1d06f2e5",
+        "output_sha256": "cdf708a24b161331a5090448e5cd7e677eaacf87438603b627a1f1a570ce32aa",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "567",
+      "selection": "robotics-group23-568-567-image-group23-2-v12",
+      "video": "experiment-pairs/robotics-group23-568-567-image-group23-2-v12/case-567-210a217ca785.mp4",
+      "sha": "210a217ca7856cd2d81129bf5577f87a9b580b95f48aa2c42c8eba6c66ddc0d3",
+      "title": "Cases 568 and 567 / Image-Group23-2 / v12",
+      "side": "B",
+      "setting": "robotics-group23-568-567-image-group23-2-v12",
+      "number": 51,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "210a217ca7856cd2d81129bf5577f87a9b580b95f48aa2c42c8eba6c66ddc0d3",
+        "url": "static/current-upscale-comparison/media/210a217ca7856cd2d81129bf5577f87a9b580b95f48aa2c42c8eba6c66ddc0d3.mp4",
+        "poster": "static/current-upscale-comparison/media/210a217ca7856cd2d81129bf5577f87a9b580b95f48aa2c42c8eba6c66ddc0d3.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "af4eae3c958632ba8ee6d2a6395283ae3073635bb4b2931db9e0b50cbc2e27a5",
+        "url": "static/current-upscale-comparison/media/af4eae3c958632ba8ee6d2a6395283ae3073635bb4b2931db9e0b50cbc2e27a5.mp4",
+        "poster": "static/current-upscale-comparison/media/af4eae3c958632ba8ee6d2a6395283ae3073635bb4b2931db9e0b50cbc2e27a5.jpg"
+      },
+      "provenance": {
+        "source_sha256": "210a217ca7856cd2d81129bf5577f87a9b580b95f48aa2c42c8eba6c66ddc0d3",
+        "output_sha256": "af4eae3c958632ba8ee6d2a6395283ae3073635bb4b2931db9e0b50cbc2e27a5",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "568",
+      "selection": "robotics-group23-568-567-image-group23-2-v13",
+      "video": "experiment-pairs/robotics-group23-568-567-image-group23-2-v13/case-568-c2fcd67d8b7b.mp4",
+      "sha": "c2fcd67d8b7b56b26662c1c802a6cdde6bb1a1719c39c1c50dc30c72ca1fe05b",
+      "title": "Cases 568 and 567 / Image-Group23-2 / v13",
+      "side": "A",
+      "setting": "robotics-group23-568-567-image-group23-2-v13",
+      "number": 52,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "c2fcd67d8b7b56b26662c1c802a6cdde6bb1a1719c39c1c50dc30c72ca1fe05b",
+        "url": "static/current-upscale-comparison/media/c2fcd67d8b7b56b26662c1c802a6cdde6bb1a1719c39c1c50dc30c72ca1fe05b.mp4",
+        "poster": "static/current-upscale-comparison/media/c2fcd67d8b7b56b26662c1c802a6cdde6bb1a1719c39c1c50dc30c72ca1fe05b.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "719e4df186f95b5426f2981c3820a92e764d40d1ab401e6410e5daaa1a05fb4e",
+        "url": "static/current-upscale-comparison/media/719e4df186f95b5426f2981c3820a92e764d40d1ab401e6410e5daaa1a05fb4e.mp4",
+        "poster": "static/current-upscale-comparison/media/719e4df186f95b5426f2981c3820a92e764d40d1ab401e6410e5daaa1a05fb4e.jpg"
+      },
+      "provenance": {
+        "source_sha256": "c2fcd67d8b7b56b26662c1c802a6cdde6bb1a1719c39c1c50dc30c72ca1fe05b",
+        "output_sha256": "719e4df186f95b5426f2981c3820a92e764d40d1ab401e6410e5daaa1a05fb4e",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "567",
+      "selection": "robotics-group23-568-567-image-group23-2-v13",
+      "video": "experiment-pairs/robotics-group23-568-567-image-group23-2-v13/case-567-2766c374768b.mp4",
+      "sha": "2766c374768bb4cc6ea4a619f7e15faa6ef3e7927c277e77c3b3407369f74d15",
+      "title": "Cases 568 and 567 / Image-Group23-2 / v13",
+      "side": "B",
+      "setting": "robotics-group23-568-567-image-group23-2-v13",
+      "number": 53,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "2766c374768bb4cc6ea4a619f7e15faa6ef3e7927c277e77c3b3407369f74d15",
+        "url": "static/current-upscale-comparison/media/2766c374768bb4cc6ea4a619f7e15faa6ef3e7927c277e77c3b3407369f74d15.mp4",
+        "poster": "static/current-upscale-comparison/media/2766c374768bb4cc6ea4a619f7e15faa6ef3e7927c277e77c3b3407369f74d15.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "25b7ba1e2195c704761b3c59f1136e1dd533fd1a46b157a6ffd49c5e20f28b45",
+        "url": "static/current-upscale-comparison/media/25b7ba1e2195c704761b3c59f1136e1dd533fd1a46b157a6ffd49c5e20f28b45.mp4",
+        "poster": "static/current-upscale-comparison/media/25b7ba1e2195c704761b3c59f1136e1dd533fd1a46b157a6ffd49c5e20f28b45.jpg"
+      },
+      "provenance": {
+        "source_sha256": "2766c374768bb4cc6ea4a619f7e15faa6ef3e7927c277e77c3b3407369f74d15",
+        "output_sha256": "25b7ba1e2195c704761b3c59f1136e1dd533fd1a46b157a6ffd49c5e20f28b45",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "568",
+      "selection": "robotics-group23-568-567-image-group23-2-v15",
+      "video": "experiment-pairs/robotics-group23-568-567-image-group23-2-v15/case-568-002e1aa8527b.mp4",
+      "sha": "002e1aa8527b357468714d114474f191f064c149b9108f7e874ec3166e3a91ef",
+      "title": "Cases 568 and 567 / Image-Group23-2 / v15",
+      "side": "A",
+      "setting": "robotics-group23-568-567-image-group23-2-v15",
+      "number": 54,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "002e1aa8527b357468714d114474f191f064c149b9108f7e874ec3166e3a91ef",
+        "url": "static/current-upscale-comparison/media/002e1aa8527b357468714d114474f191f064c149b9108f7e874ec3166e3a91ef.mp4",
+        "poster": "static/current-upscale-comparison/media/002e1aa8527b357468714d114474f191f064c149b9108f7e874ec3166e3a91ef.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "543a58abc88edd610ebdbf27597e26f19e871ae278787e5fd25245db5210b4cc",
+        "url": "static/current-upscale-comparison/media/543a58abc88edd610ebdbf27597e26f19e871ae278787e5fd25245db5210b4cc.mp4",
+        "poster": "static/current-upscale-comparison/media/543a58abc88edd610ebdbf27597e26f19e871ae278787e5fd25245db5210b4cc.jpg"
+      },
+      "provenance": {
+        "source_sha256": "002e1aa8527b357468714d114474f191f064c149b9108f7e874ec3166e3a91ef",
+        "output_sha256": "543a58abc88edd610ebdbf27597e26f19e871ae278787e5fd25245db5210b4cc",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "567",
+      "selection": "robotics-group23-568-567-image-group23-2-v15",
+      "video": "experiment-pairs/robotics-group23-568-567-image-group23-2-v15/case-567-3f245483f214.mp4",
+      "sha": "3f245483f214a43da63b4e50dee46c482adfca7f77620966be2d5dc33df59387",
+      "title": "Cases 568 and 567 / Image-Group23-2 / v15",
+      "side": "B",
+      "setting": "robotics-group23-568-567-image-group23-2-v15",
+      "number": 55,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "3f245483f214a43da63b4e50dee46c482adfca7f77620966be2d5dc33df59387",
+        "url": "static/current-upscale-comparison/media/3f245483f214a43da63b4e50dee46c482adfca7f77620966be2d5dc33df59387.mp4",
+        "poster": "static/current-upscale-comparison/media/3f245483f214a43da63b4e50dee46c482adfca7f77620966be2d5dc33df59387.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "e999b6492469d4cf07bdda52e2344cc3c0d7e0976cbfc2196b7e7138da6c7c13",
+        "url": "static/current-upscale-comparison/media/e999b6492469d4cf07bdda52e2344cc3c0d7e0976cbfc2196b7e7138da6c7c13.mp4",
+        "poster": "static/current-upscale-comparison/media/e999b6492469d4cf07bdda52e2344cc3c0d7e0976cbfc2196b7e7138da6c7c13.jpg"
+      },
+      "provenance": {
+        "source_sha256": "3f245483f214a43da63b4e50dee46c482adfca7f77620966be2d5dc33df59387",
+        "output_sha256": "e999b6492469d4cf07bdda52e2344cc3c0d7e0976cbfc2196b7e7138da6c7c13",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "572",
+      "selection": "robotics-group23-572-571-image-group23-4-v12",
+      "video": "experiment-pairs/robotics-group23-572-571-image-group23-4-v12/case-572-70dbb5527fa2.mp4",
+      "sha": "70dbb5527fa2515798521d4f8cdbc61b4c2b536ebc1676722ce684a7c7b1107b",
+      "title": "Cases 572 and 571 / Image-Group23-4 / v12",
+      "side": "A",
+      "setting": "robotics-group23-572-571-image-group23-4-v12",
+      "number": 56,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "70dbb5527fa2515798521d4f8cdbc61b4c2b536ebc1676722ce684a7c7b1107b",
+        "url": "static/current-upscale-comparison/media/70dbb5527fa2515798521d4f8cdbc61b4c2b536ebc1676722ce684a7c7b1107b.mp4",
+        "poster": "static/current-upscale-comparison/media/70dbb5527fa2515798521d4f8cdbc61b4c2b536ebc1676722ce684a7c7b1107b.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "c9e2211f24576b817f3e950be106f8bda932afc27bc35f871a73ad0922e7d200",
+        "url": "static/current-upscale-comparison/media/c9e2211f24576b817f3e950be106f8bda932afc27bc35f871a73ad0922e7d200.mp4",
+        "poster": "static/current-upscale-comparison/media/c9e2211f24576b817f3e950be106f8bda932afc27bc35f871a73ad0922e7d200.jpg"
+      },
+      "provenance": {
+        "source_sha256": "70dbb5527fa2515798521d4f8cdbc61b4c2b536ebc1676722ce684a7c7b1107b",
+        "output_sha256": "c9e2211f24576b817f3e950be106f8bda932afc27bc35f871a73ad0922e7d200",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "571",
+      "selection": "robotics-group23-572-571-image-group23-4-v12",
+      "video": "experiment-pairs/robotics-group23-572-571-image-group23-4-v12/case-571-272d59d472fe.mp4",
+      "sha": "272d59d472fe0ab2e423f1c6249c4e11185cac7bbd77928022d6316591dc4026",
+      "title": "Cases 572 and 571 / Image-Group23-4 / v12",
+      "side": "B",
+      "setting": "robotics-group23-572-571-image-group23-4-v12",
+      "number": 57,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "272d59d472fe0ab2e423f1c6249c4e11185cac7bbd77928022d6316591dc4026",
+        "url": "static/current-upscale-comparison/media/272d59d472fe0ab2e423f1c6249c4e11185cac7bbd77928022d6316591dc4026.mp4",
+        "poster": "static/current-upscale-comparison/media/272d59d472fe0ab2e423f1c6249c4e11185cac7bbd77928022d6316591dc4026.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "e1509455d816a6eb99581e43f4ed07099520ec543eb70d95afd09073c0fb9493",
+        "url": "static/current-upscale-comparison/media/e1509455d816a6eb99581e43f4ed07099520ec543eb70d95afd09073c0fb9493.mp4",
+        "poster": "static/current-upscale-comparison/media/e1509455d816a6eb99581e43f4ed07099520ec543eb70d95afd09073c0fb9493.jpg"
+      },
+      "provenance": {
+        "source_sha256": "272d59d472fe0ab2e423f1c6249c4e11185cac7bbd77928022d6316591dc4026",
+        "output_sha256": "e1509455d816a6eb99581e43f4ed07099520ec543eb70d95afd09073c0fb9493",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "572",
+      "selection": "robotics-group23-572-571-image-group23-2-v13",
+      "video": "experiment-pairs/robotics-group23-572-571-image-group23-2-v13/case-572-b33fc0fb9f2c.mp4",
+      "sha": "b33fc0fb9f2c105976b42432b0cff8a1003342df9c9ff62080a6322add4a5a0a",
+      "title": "Cases 572 and 571 / Image-Group23-2 / v13",
+      "side": "A",
+      "setting": "robotics-group23-572-571-image-group23-2-v13",
+      "number": 58,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "b33fc0fb9f2c105976b42432b0cff8a1003342df9c9ff62080a6322add4a5a0a",
+        "url": "static/current-upscale-comparison/media/b33fc0fb9f2c105976b42432b0cff8a1003342df9c9ff62080a6322add4a5a0a.mp4",
+        "poster": "static/current-upscale-comparison/media/b33fc0fb9f2c105976b42432b0cff8a1003342df9c9ff62080a6322add4a5a0a.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "fd50f9c18c5ce42e00babb9915aba1543bf0e1914cd691cbba4a0328fc970144",
+        "url": "static/current-upscale-comparison/media/fd50f9c18c5ce42e00babb9915aba1543bf0e1914cd691cbba4a0328fc970144.mp4",
+        "poster": "static/current-upscale-comparison/media/fd50f9c18c5ce42e00babb9915aba1543bf0e1914cd691cbba4a0328fc970144.jpg"
+      },
+      "provenance": {
+        "source_sha256": "b33fc0fb9f2c105976b42432b0cff8a1003342df9c9ff62080a6322add4a5a0a",
+        "output_sha256": "fd50f9c18c5ce42e00babb9915aba1543bf0e1914cd691cbba4a0328fc970144",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "robotics-simulation",
+      "section_title": "Robotics Simulation",
+      "id": "571",
+      "selection": "robotics-group23-572-571-image-group23-2-v13",
+      "video": "experiment-pairs/robotics-group23-572-571-image-group23-2-v13/case-571-8157e7238605.mp4",
+      "sha": "8157e72386054f20aaa8ebdfa9822ffcd798b5a2681f20e7b4f1dbd646937bd2",
+      "title": "Cases 572 and 571 / Image-Group23-2 / v13",
+      "side": "B",
+      "setting": "robotics-group23-572-571-image-group23-2-v13",
+      "number": 59,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "8157e72386054f20aaa8ebdfa9822ffcd798b5a2681f20e7b4f1dbd646937bd2",
+        "url": "static/current-upscale-comparison/media/8157e72386054f20aaa8ebdfa9822ffcd798b5a2681f20e7b4f1dbd646937bd2.mp4",
+        "poster": "static/current-upscale-comparison/media/8157e72386054f20aaa8ebdfa9822ffcd798b5a2681f20e7b4f1dbd646937bd2.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "aa6599533391fe18b7d7ecc2712b77aa8fd566f3ef299bccf66c3e524cfaa6ae",
+        "url": "static/current-upscale-comparison/media/aa6599533391fe18b7d7ecc2712b77aa8fd566f3ef299bccf66c3e524cfaa6ae.mp4",
+        "poster": "static/current-upscale-comparison/media/aa6599533391fe18b7d7ecc2712b77aa8fd566f3ef299bccf66c3e524cfaa6ae.jpg"
+      },
+      "provenance": {
+        "source_sha256": "8157e72386054f20aaa8ebdfa9822ffcd798b5a2681f20e7b4f1dbd646937bd2",
+        "output_sha256": "aa6599533391fe18b7d7ecc2712b77aa8fd566f3ef299bccf66c3e524cfaa6ae",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "trajectory-variation",
+      "section_title": "Trajectory Variation",
+      "id": "581",
+      "selection": "trajectory-group23-581-582-image-group23-4-v12",
+      "video": "experiment-pairs/trajectory-group23-581-582-image-group23-4-v12/case-581-6febd6c6ab29.mp4",
+      "sha": "6febd6c6ab2935a79d67f7a39ad763534ffaa6240dd53e92c7aee723a9bb827c",
+      "title": "Cases 581 and 582 / Image-Group23-4 / v12",
+      "side": "A",
+      "setting": "trajectory-group23-581-582-image-group23-4-v12",
+      "number": 60,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "6febd6c6ab2935a79d67f7a39ad763534ffaa6240dd53e92c7aee723a9bb827c",
+        "url": "static/current-upscale-comparison/media/6febd6c6ab2935a79d67f7a39ad763534ffaa6240dd53e92c7aee723a9bb827c.mp4",
+        "poster": "static/current-upscale-comparison/media/6febd6c6ab2935a79d67f7a39ad763534ffaa6240dd53e92c7aee723a9bb827c.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "9ee20e74e77a04441c5b2131cb0bd8b1b7c9e0405065a94175c8a6ce1888b528",
+        "url": "static/current-upscale-comparison/media/9ee20e74e77a04441c5b2131cb0bd8b1b7c9e0405065a94175c8a6ce1888b528.mp4",
+        "poster": "static/current-upscale-comparison/media/9ee20e74e77a04441c5b2131cb0bd8b1b7c9e0405065a94175c8a6ce1888b528.jpg"
+      },
+      "provenance": {
+        "source_sha256": "6febd6c6ab2935a79d67f7a39ad763534ffaa6240dd53e92c7aee723a9bb827c",
+        "output_sha256": "9ee20e74e77a04441c5b2131cb0bd8b1b7c9e0405065a94175c8a6ce1888b528",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "trajectory-variation",
+      "section_title": "Trajectory Variation",
+      "id": "582",
+      "selection": "trajectory-group23-581-582-image-group23-4-v12",
+      "video": "experiment-pairs/trajectory-group23-581-582-image-group23-4-v12/case-582-48104471a323.mp4",
+      "sha": "48104471a323ca6cf6de4a4a7f4343c40cdb5af9d2d2d133f7f48d5b6cc6c122",
+      "title": "Cases 581 and 582 / Image-Group23-4 / v12",
+      "side": "B",
+      "setting": "trajectory-group23-581-582-image-group23-4-v12",
+      "number": 61,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "48104471a323ca6cf6de4a4a7f4343c40cdb5af9d2d2d133f7f48d5b6cc6c122",
+        "url": "static/current-upscale-comparison/media/48104471a323ca6cf6de4a4a7f4343c40cdb5af9d2d2d133f7f48d5b6cc6c122.mp4",
+        "poster": "static/current-upscale-comparison/media/48104471a323ca6cf6de4a4a7f4343c40cdb5af9d2d2d133f7f48d5b6cc6c122.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "e1ebd92a78847d2125aaee65d559c75781df83dbd183de4a2aaf676fa66ff25c",
+        "url": "static/current-upscale-comparison/media/e1ebd92a78847d2125aaee65d559c75781df83dbd183de4a2aaf676fa66ff25c.mp4",
+        "poster": "static/current-upscale-comparison/media/e1ebd92a78847d2125aaee65d559c75781df83dbd183de4a2aaf676fa66ff25c.jpg"
+      },
+      "provenance": {
+        "source_sha256": "48104471a323ca6cf6de4a4a7f4343c40cdb5af9d2d2d133f7f48d5b6cc6c122",
+        "output_sha256": "e1ebd92a78847d2125aaee65d559c75781df83dbd183de4a2aaf676fa66ff25c",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "trajectory-variation",
+      "section_title": "Trajectory Variation",
+      "id": "581",
+      "selection": null,
+      "video": "code-video-model/trajectory-variation/case-581.mp4",
+      "sha": "cc3e4a21fe66dd89dac244ae6dfbef826ac48d86134f43a619662300edcdfccd",
+      "title": "Case 581",
+      "side": "A",
+      "setting": "original",
+      "number": 62,
+      "kind": "already",
+      "current": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "cc3e4a21fe66dd89dac244ae6dfbef826ac48d86134f43a619662300edcdfccd",
+        "url": "static/current-upscale-comparison/media/cc3e4a21fe66dd89dac244ae6dfbef826ac48d86134f43a619662300edcdfccd.mp4",
+        "poster": "static/current-upscale-comparison/media/cc3e4a21fe66dd89dac244ae6dfbef826ac48d86134f43a619662300edcdfccd.jpg"
+      },
+      "upscaled": null,
+      "provenance": {
+        "source_sha256": "cc3e4a21fe66dd89dac244ae6dfbef826ac48d86134f43a619662300edcdfccd",
+        "output_sha256": "cc3e4a21fe66dd89dac244ae6dfbef826ac48d86134f43a619662300edcdfccd",
+        "method": "Already displayed at upscale resolution",
+        "audio_preserved": null
+      }
+    },
+    {
+      "section": "trajectory-variation",
+      "section_title": "Trajectory Variation",
+      "id": "582",
+      "selection": null,
+      "video": "code-video-model/trajectory-variation/case-582.mp4",
+      "sha": "56ed83843a26a23012b086619601f7d130f2d184fc53ec676902b89761fff15d",
+      "title": "Case 581",
+      "side": "B",
+      "setting": "original",
+      "number": 63,
+      "kind": "already",
+      "current": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "56ed83843a26a23012b086619601f7d130f2d184fc53ec676902b89761fff15d",
+        "url": "static/current-upscale-comparison/media/56ed83843a26a23012b086619601f7d130f2d184fc53ec676902b89761fff15d.mp4",
+        "poster": "static/current-upscale-comparison/media/56ed83843a26a23012b086619601f7d130f2d184fc53ec676902b89761fff15d.jpg"
+      },
+      "upscaled": null,
+      "provenance": {
+        "source_sha256": "56ed83843a26a23012b086619601f7d130f2d184fc53ec676902b89761fff15d",
+        "output_sha256": "56ed83843a26a23012b086619601f7d130f2d184fc53ec676902b89761fff15d",
+        "method": "Already displayed at upscale resolution",
+        "audio_preserved": null
+      }
+    },
+    {
+      "section": "trajectory-variation",
+      "section_title": "Trajectory Variation",
+      "id": "577",
+      "selection": "trajectory-group23-577-578-image-group23-2-v16",
+      "video": "experiment-pairs/trajectory-group23-577-578-image-group23-2-v16/case-577-00f9b4ff3594.mp4",
+      "sha": "00f9b4ff3594e24b728931fdbdfd19119fbedfdf34444a159fddc5bbc9868eab",
+      "title": "Cases 577 and 578 / Image-Group23-2 / v16",
+      "side": "A",
+      "setting": "trajectory-group23-577-578-image-group23-2-v16",
+      "number": 64,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "00f9b4ff3594e24b728931fdbdfd19119fbedfdf34444a159fddc5bbc9868eab",
+        "url": "static/current-upscale-comparison/media/00f9b4ff3594e24b728931fdbdfd19119fbedfdf34444a159fddc5bbc9868eab.mp4",
+        "poster": "static/current-upscale-comparison/media/00f9b4ff3594e24b728931fdbdfd19119fbedfdf34444a159fddc5bbc9868eab.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "b752af854beffcc6845be81acf379753fa755a1c0563d5698c30ff3062a89c28",
+        "url": "static/current-upscale-comparison/media/b752af854beffcc6845be81acf379753fa755a1c0563d5698c30ff3062a89c28.mp4",
+        "poster": "static/current-upscale-comparison/media/b752af854beffcc6845be81acf379753fa755a1c0563d5698c30ff3062a89c28.jpg"
+      },
+      "provenance": {
+        "source_sha256": "00f9b4ff3594e24b728931fdbdfd19119fbedfdf34444a159fddc5bbc9868eab",
+        "output_sha256": "b752af854beffcc6845be81acf379753fa755a1c0563d5698c30ff3062a89c28",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "trajectory-variation",
+      "section_title": "Trajectory Variation",
+      "id": "578",
+      "selection": "trajectory-group23-577-578-image-group23-2-v16",
+      "video": "experiment-pairs/trajectory-group23-577-578-image-group23-2-v16/case-578-78ca34159d0f.mp4",
+      "sha": "78ca34159d0fe9fb93b78205efa8a2d4034b88fdd25724fb25cee5eff0af5765",
+      "title": "Cases 577 and 578 / Image-Group23-2 / v16",
+      "side": "B",
+      "setting": "trajectory-group23-577-578-image-group23-2-v16",
+      "number": 65,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "78ca34159d0fe9fb93b78205efa8a2d4034b88fdd25724fb25cee5eff0af5765",
+        "url": "static/current-upscale-comparison/media/78ca34159d0fe9fb93b78205efa8a2d4034b88fdd25724fb25cee5eff0af5765.mp4",
+        "poster": "static/current-upscale-comparison/media/78ca34159d0fe9fb93b78205efa8a2d4034b88fdd25724fb25cee5eff0af5765.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "1939ca8508cb14628a3419c3a7ec868456768f000b0cd6181075565d9be0c501",
+        "url": "static/current-upscale-comparison/media/1939ca8508cb14628a3419c3a7ec868456768f000b0cd6181075565d9be0c501.mp4",
+        "poster": "static/current-upscale-comparison/media/1939ca8508cb14628a3419c3a7ec868456768f000b0cd6181075565d9be0c501.jpg"
+      },
+      "provenance": {
+        "source_sha256": "78ca34159d0fe9fb93b78205efa8a2d4034b88fdd25724fb25cee5eff0af5765",
+        "output_sha256": "1939ca8508cb14628a3419c3a7ec868456768f000b0cd6181075565d9be0c501",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "product-cinematography",
+      "section_title": "Product Cinematography",
+      "id": "624",
+      "selection": null,
+      "video": "experiment-threejs-v2-image-group19-4-v17/product-cinematography/case-624-730d98dd2301.mp4",
+      "sha": "730d98dd23014052636859be60494399b33634f9173f55405fe9435ed07acad5",
+      "title": "Case 624",
+      "side": null,
+      "setting": "threejs-v2 / Image-Group19-4 / v17",
+      "number": 66,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "730d98dd23014052636859be60494399b33634f9173f55405fe9435ed07acad5",
+        "url": "static/current-upscale-comparison/media/730d98dd23014052636859be60494399b33634f9173f55405fe9435ed07acad5.mp4",
+        "poster": "static/current-upscale-comparison/media/730d98dd23014052636859be60494399b33634f9173f55405fe9435ed07acad5.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "0d56789ab5314d91c226b39dba78008147bd930a1552c574e220ab3945b43b7e",
+        "url": "static/current-upscale-comparison/media/0d56789ab5314d91c226b39dba78008147bd930a1552c574e220ab3945b43b7e.mp4",
+        "poster": "static/current-upscale-comparison/media/0d56789ab5314d91c226b39dba78008147bd930a1552c574e220ab3945b43b7e.jpg"
+      },
+      "provenance": {
+        "source_sha256": "730d98dd23014052636859be60494399b33634f9173f55405fe9435ed07acad5",
+        "output_sha256": "0d56789ab5314d91c226b39dba78008147bd930a1552c574e220ab3945b43b7e",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "product-cinematography",
+      "section_title": "Product Cinematography",
+      "id": "625",
+      "selection": null,
+      "video": "experiment-threejs-v2-image-group19-4-v17/product-cinematography/case-625-ffd4dd366d95.mp4",
+      "sha": "ffd4dd366d95f07b71a44fe9ea6a5553a8c8f415fa97450be5b5fd8f63d8f633",
+      "title": "Case 625",
+      "side": null,
+      "setting": "threejs-v2 / Image-Group19-4 / v17",
+      "number": 67,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "ffd4dd366d95f07b71a44fe9ea6a5553a8c8f415fa97450be5b5fd8f63d8f633",
+        "url": "static/current-upscale-comparison/media/ffd4dd366d95f07b71a44fe9ea6a5553a8c8f415fa97450be5b5fd8f63d8f633.mp4",
+        "poster": "static/current-upscale-comparison/media/ffd4dd366d95f07b71a44fe9ea6a5553a8c8f415fa97450be5b5fd8f63d8f633.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "2333e3f3832a81dc9e37a02cc60d468bbb2d4bff81d21d92e10dc85ccf45ae5e",
+        "url": "static/current-upscale-comparison/media/2333e3f3832a81dc9e37a02cc60d468bbb2d4bff81d21d92e10dc85ccf45ae5e.mp4",
+        "poster": "static/current-upscale-comparison/media/2333e3f3832a81dc9e37a02cc60d468bbb2d4bff81d21d92e10dc85ccf45ae5e.jpg"
+      },
+      "provenance": {
+        "source_sha256": "ffd4dd366d95f07b71a44fe9ea6a5553a8c8f415fa97450be5b5fd8f63d8f633",
+        "output_sha256": "2333e3f3832a81dc9e37a02cc60d468bbb2d4bff81d21d92e10dc85ccf45ae5e",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "product-cinematography",
+      "section_title": "Product Cinematography",
+      "id": "636",
+      "selection": null,
+      "video": "experiment-threejs-v2-image-group19-4-v17/product-cinematography/case-636-d17af4bae3de.mp4",
+      "sha": "d17af4bae3de18e182fc5af036cd5868d7031dc37e61cc1f8a0231d788ddf8eb",
+      "title": "Case 636",
+      "side": null,
+      "setting": "threejs-v2 / Image-Group19-4 / v17",
+      "number": 68,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "d17af4bae3de18e182fc5af036cd5868d7031dc37e61cc1f8a0231d788ddf8eb",
+        "url": "static/current-upscale-comparison/media/d17af4bae3de18e182fc5af036cd5868d7031dc37e61cc1f8a0231d788ddf8eb.mp4",
+        "poster": "static/current-upscale-comparison/media/d17af4bae3de18e182fc5af036cd5868d7031dc37e61cc1f8a0231d788ddf8eb.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "ee9be226e9cdba06b169ff94236c54187ddaea8520a4629c3d5a8fff052c182c",
+        "url": "static/current-upscale-comparison/media/ee9be226e9cdba06b169ff94236c54187ddaea8520a4629c3d5a8fff052c182c.mp4",
+        "poster": "static/current-upscale-comparison/media/ee9be226e9cdba06b169ff94236c54187ddaea8520a4629c3d5a8fff052c182c.jpg"
+      },
+      "provenance": {
+        "source_sha256": "d17af4bae3de18e182fc5af036cd5868d7031dc37e61cc1f8a0231d788ddf8eb",
+        "output_sha256": "ee9be226e9cdba06b169ff94236c54187ddaea8520a4629c3d5a8fff052c182c",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "product-cinematography",
+      "section_title": "Product Cinematography",
+      "id": "640",
+      "selection": null,
+      "video": "code-video-model/product-cinematography/case-640.mp4",
+      "sha": "fc760f0d2737e70c28f0f826a11b55fb84f22e5a6a2dc01e64531be6e443e517",
+      "title": "Case 640",
+      "side": null,
+      "setting": "original",
+      "number": 69,
+      "kind": "already",
+      "current": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "fc760f0d2737e70c28f0f826a11b55fb84f22e5a6a2dc01e64531be6e443e517",
+        "url": "static/current-upscale-comparison/media/fc760f0d2737e70c28f0f826a11b55fb84f22e5a6a2dc01e64531be6e443e517.mp4",
+        "poster": "static/current-upscale-comparison/media/fc760f0d2737e70c28f0f826a11b55fb84f22e5a6a2dc01e64531be6e443e517.jpg"
+      },
+      "upscaled": null,
+      "provenance": {
+        "source_sha256": "fc760f0d2737e70c28f0f826a11b55fb84f22e5a6a2dc01e64531be6e443e517",
+        "output_sha256": "fc760f0d2737e70c28f0f826a11b55fb84f22e5a6a2dc01e64531be6e443e517",
+        "method": "Already displayed at upscale resolution",
+        "audio_preserved": null
+      }
+    },
+    {
+      "section": "architectural-cinematics",
+      "section_title": "Architectural Cinematics",
+      "id": "643",
+      "selection": null,
+      "video": "selected-0907-seedvr2-2x/architectural-cinematics/case-643-5bc5de70220a.mp4",
+      "sha": "5bc5de70220a0c8030441da669c9ac85989847365171a5541e77b21fc2064b32",
+      "title": "Case 643",
+      "side": null,
+      "setting": "selected-0907 / baseline / seedvr2-2x",
+      "number": 70,
+      "kind": "already",
+      "current": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "5bc5de70220a0c8030441da669c9ac85989847365171a5541e77b21fc2064b32",
+        "url": "static/current-upscale-comparison/media/5bc5de70220a0c8030441da669c9ac85989847365171a5541e77b21fc2064b32.mp4",
+        "poster": "static/current-upscale-comparison/media/5bc5de70220a0c8030441da669c9ac85989847365171a5541e77b21fc2064b32.jpg"
+      },
+      "upscaled": null,
+      "provenance": {
+        "source_sha256": "5bc5de70220a0c8030441da669c9ac85989847365171a5541e77b21fc2064b32",
+        "output_sha256": "5bc5de70220a0c8030441da669c9ac85989847365171a5541e77b21fc2064b32",
+        "method": "Already displayed at upscale resolution",
+        "audio_preserved": null
+      }
+    },
+    {
+      "section": "architectural-cinematics",
+      "section_title": "Architectural Cinematics",
+      "id": "656",
+      "selection": null,
+      "video": "selected-0907-seedvr2-2x/architectural-cinematics/case-656-9a2ef3b0a941.mp4",
+      "sha": "9a2ef3b0a9416296f586d53c9d331c999ceb45c3634429de3c3e640639fa693f",
+      "title": "Case 656",
+      "side": null,
+      "setting": "selected-0907 / baseline / seedvr2-2x",
+      "number": 71,
+      "kind": "already",
+      "current": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "9a2ef3b0a9416296f586d53c9d331c999ceb45c3634429de3c3e640639fa693f",
+        "url": "static/current-upscale-comparison/media/9a2ef3b0a9416296f586d53c9d331c999ceb45c3634429de3c3e640639fa693f.mp4",
+        "poster": "static/current-upscale-comparison/media/9a2ef3b0a9416296f586d53c9d331c999ceb45c3634429de3c3e640639fa693f.jpg"
+      },
+      "upscaled": null,
+      "provenance": {
+        "source_sha256": "9a2ef3b0a9416296f586d53c9d331c999ceb45c3634429de3c3e640639fa693f",
+        "output_sha256": "9a2ef3b0a9416296f586d53c9d331c999ceb45c3634429de3c3e640639fa693f",
+        "method": "Already displayed at upscale resolution",
+        "audio_preserved": null
+      }
+    },
+    {
+      "section": "architectural-cinematics",
+      "section_title": "Architectural Cinematics",
+      "id": "657",
+      "selection": null,
+      "video": "code-video-model-v2/architectural-cinematics/case-657.mp4",
+      "sha": "0fa87b83f67c6f4d77d57ae8722288481062cec997e5523b78bcb11ca26ba5ba",
+      "title": "Case 657",
+      "side": null,
+      "setting": "image-group12-4",
+      "number": 72,
+      "kind": "reuse",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "0fa87b83f67c6f4d77d57ae8722288481062cec997e5523b78bcb11ca26ba5ba",
+        "url": "static/current-upscale-comparison/media/0fa87b83f67c6f4d77d57ae8722288481062cec997e5523b78bcb11ca26ba5ba.mp4",
+        "poster": "static/current-upscale-comparison/media/0fa87b83f67c6f4d77d57ae8722288481062cec997e5523b78bcb11ca26ba5ba.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "8909a21e9f60f44cba095de9f3a238409460e971a942a428f41e3fc46d346ab2",
+        "url": "static/current-upscale-comparison/media/8909a21e9f60f44cba095de9f3a238409460e971a942a428f41e3fc46d346ab2.mp4",
+        "poster": "static/current-upscale-comparison/media/8909a21e9f60f44cba095de9f3a238409460e971a942a428f41e3fc46d346ab2.jpg"
+      },
+      "provenance": {
+        "source_sha256": "0fa87b83f67c6f4d77d57ae8722288481062cec997e5523b78bcb11ca26ba5ba",
+        "output_sha256": "8909a21e9f60f44cba095de9f3a238409460e971a942a428f41e3fc46d346ab2",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "architectural-cinematics",
+      "section_title": "Architectural Cinematics",
+      "id": "649",
+      "selection": null,
+      "video": "selected-0907-seedvr2-2x/architectural-cinematics/case-649-ae0312112795.mp4",
+      "sha": "ae0312112795b5cbcf291cd2c4b2ee66d629bb3a3bf52e6dd75bd5e7f19a1042",
+      "title": "Case 649",
+      "side": null,
+      "setting": "selected-0907 / visual_aligned_v2 / seedvr2-2x",
+      "number": 73,
+      "kind": "already",
+      "current": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "ae0312112795b5cbcf291cd2c4b2ee66d629bb3a3bf52e6dd75bd5e7f19a1042",
+        "url": "static/current-upscale-comparison/media/ae0312112795b5cbcf291cd2c4b2ee66d629bb3a3bf52e6dd75bd5e7f19a1042.mp4",
+        "poster": "static/current-upscale-comparison/media/ae0312112795b5cbcf291cd2c4b2ee66d629bb3a3bf52e6dd75bd5e7f19a1042.jpg"
+      },
+      "upscaled": null,
+      "provenance": {
+        "source_sha256": "ae0312112795b5cbcf291cd2c4b2ee66d629bb3a3bf52e6dd75bd5e7f19a1042",
+        "output_sha256": "ae0312112795b5cbcf291cd2c4b2ee66d629bb3a3bf52e6dd75bd5e7f19a1042",
+        "method": "Already displayed at upscale resolution",
+        "audio_preserved": null
+      }
+    },
+    {
+      "section": "architectural-cinematics",
+      "section_title": "Architectural Cinematics",
+      "id": "646",
+      "selection": null,
+      "video": "selected-0907-video-diffusion-baseline/architectural-cinematics/case-646-48fddc881c93.mp4",
+      "sha": "48fddc881c93898c2ffab0a9583f811993fd80086d8cdb5fff2a4ccb64ac7fbb",
+      "title": "Case 646",
+      "side": null,
+      "setting": "selected-0907 / baseline / video-diffusion-baseline",
+      "number": 74,
+      "kind": "reuse",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "48fddc881c93898c2ffab0a9583f811993fd80086d8cdb5fff2a4ccb64ac7fbb",
+        "url": "static/current-upscale-comparison/media/48fddc881c93898c2ffab0a9583f811993fd80086d8cdb5fff2a4ccb64ac7fbb.mp4",
+        "poster": "static/current-upscale-comparison/media/48fddc881c93898c2ffab0a9583f811993fd80086d8cdb5fff2a4ccb64ac7fbb.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "120add9b49e58627d9f47a0054f7ee1893a1471d551ec213f0b2fb0d924080f7",
+        "url": "static/current-upscale-comparison/media/120add9b49e58627d9f47a0054f7ee1893a1471d551ec213f0b2fb0d924080f7.mp4",
+        "poster": "static/current-upscale-comparison/media/120add9b49e58627d9f47a0054f7ee1893a1471d551ec213f0b2fb0d924080f7.jpg"
+      },
+      "provenance": {
+        "source_sha256": "48fddc881c93898c2ffab0a9583f811993fd80086d8cdb5fff2a4ccb64ac7fbb",
+        "output_sha256": "120add9b49e58627d9f47a0054f7ee1893a1471d551ec213f0b2fb0d924080f7",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "architectural-cinematics",
+      "section_title": "Architectural Cinematics",
+      "id": "481",
+      "selection": null,
+      "video": "selected-0907-video-diffusion-seed202/cinematic-camera-intelligence/case-481-4ebee82cec97.mp4",
+      "sha": "4ebee82cec9717dc3b3a26a838eb289c18ae805598f6c3e500bbf0510306ead9",
+      "title": "Case 481",
+      "side": null,
+      "setting": "selected-0907 / seed202 / video-diffusion-seed202",
+      "number": 75,
+      "kind": "reuse",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "4ebee82cec9717dc3b3a26a838eb289c18ae805598f6c3e500bbf0510306ead9",
+        "url": "static/current-upscale-comparison/media/4ebee82cec9717dc3b3a26a838eb289c18ae805598f6c3e500bbf0510306ead9.mp4",
+        "poster": "static/current-upscale-comparison/media/4ebee82cec9717dc3b3a26a838eb289c18ae805598f6c3e500bbf0510306ead9.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "55d19c502a3bda45ec0e1a6e6e10ad0b5df0a11f3dc0a32f5b2e13cebb9190f8",
+        "url": "static/current-upscale-comparison/media/55d19c502a3bda45ec0e1a6e6e10ad0b5df0a11f3dc0a32f5b2e13cebb9190f8.mp4",
+        "poster": "static/current-upscale-comparison/media/55d19c502a3bda45ec0e1a6e6e10ad0b5df0a11f3dc0a32f5b2e13cebb9190f8.jpg"
+      },
+      "provenance": {
+        "source_sha256": "4ebee82cec9717dc3b3a26a838eb289c18ae805598f6c3e500bbf0510306ead9",
+        "output_sha256": "55d19c502a3bda45ec0e1a6e6e10ad0b5df0a11f3dc0a32f5b2e13cebb9190f8",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "architectural-cinematics",
+      "section_title": "Architectural Cinematics",
+      "id": "659",
+      "selection": null,
+      "video": "code-video-model-v2/architectural-cinematics/case-659.mp4",
+      "sha": "c7d405b69c30e861360f6886cf1c5ffd29b3d8eca8eaadf01381c0dbbd405b0e",
+      "title": "Case 659",
+      "side": null,
+      "setting": "image-group9-2",
+      "number": 76,
+      "kind": "reuse",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "c7d405b69c30e861360f6886cf1c5ffd29b3d8eca8eaadf01381c0dbbd405b0e",
+        "url": "static/current-upscale-comparison/media/c7d405b69c30e861360f6886cf1c5ffd29b3d8eca8eaadf01381c0dbbd405b0e.mp4",
+        "poster": "static/current-upscale-comparison/media/c7d405b69c30e861360f6886cf1c5ffd29b3d8eca8eaadf01381c0dbbd405b0e.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "cfd8ea5e88296721e5dba7cd88af92aa7de4141dbd51e938142a04f248efbaec",
+        "url": "static/current-upscale-comparison/media/cfd8ea5e88296721e5dba7cd88af92aa7de4141dbd51e938142a04f248efbaec.mp4",
+        "poster": "static/current-upscale-comparison/media/cfd8ea5e88296721e5dba7cd88af92aa7de4141dbd51e938142a04f248efbaec.jpg"
+      },
+      "provenance": {
+        "source_sha256": "c7d405b69c30e861360f6886cf1c5ffd29b3d8eca8eaadf01381c0dbbd405b0e",
+        "output_sha256": "cfd8ea5e88296721e5dba7cd88af92aa7de4141dbd51e938142a04f248efbaec",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "architectural-cinematics",
+      "section_title": "Architectural Cinematics",
+      "id": "434",
+      "selection": null,
+      "video": "code-video-model/architectural-cinematics/case-434-group32.mp4",
+      "sha": "97098a4cb4b98f4abf547209e9852b5a65e69f7f2e2a7057bbff387ac8c7f52f",
+      "title": "Courtyard Passage",
+      "side": null,
+      "setting": "World Model Hero 431–480 / Image-Group3-2 Output",
+      "number": 77,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "97098a4cb4b98f4abf547209e9852b5a65e69f7f2e2a7057bbff387ac8c7f52f",
+        "url": "static/current-upscale-comparison/media/97098a4cb4b98f4abf547209e9852b5a65e69f7f2e2a7057bbff387ac8c7f52f.mp4",
+        "poster": "static/current-upscale-comparison/media/97098a4cb4b98f4abf547209e9852b5a65e69f7f2e2a7057bbff387ac8c7f52f.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "eac32caf1b281b1a84fda18b971c27ec1e1f072064d1c4ef1ba04243c1857950",
+        "url": "static/current-upscale-comparison/media/eac32caf1b281b1a84fda18b971c27ec1e1f072064d1c4ef1ba04243c1857950.mp4",
+        "poster": "static/current-upscale-comparison/media/eac32caf1b281b1a84fda18b971c27ec1e1f072064d1c4ef1ba04243c1857950.jpg"
+      },
+      "provenance": {
+        "source_sha256": "97098a4cb4b98f4abf547209e9852b5a65e69f7f2e2a7057bbff387ac8c7f52f",
+        "output_sha256": "eac32caf1b281b1a84fda18b971c27ec1e1f072064d1c4ef1ba04243c1857950",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "scientific-visualization",
+      "section_title": "Scientific Visualization",
+      "id": "black-hole-background-grade",
+      "selection": null,
+      "video": "code-video-model/scientific-visualization/black-hole-background-grade-f31cf2c446e5.mp4",
+      "sha": "f31cf2c446e52c43e92043cbcb469005b7f1608b8d33506e193ee377683ac23e",
+      "title": "Black Hole",
+      "side": null,
+      "setting": "Code Video delivery / black-hole-kerr-like-8s-background-grade-review-v1 / centered 960x540 24FPS",
+      "number": 78,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 540,
+        "fps": 24.0,
+        "frames": 193,
+        "sha256": "f31cf2c446e52c43e92043cbcb469005b7f1608b8d33506e193ee377683ac23e",
+        "url": "static/current-upscale-comparison/media/f31cf2c446e52c43e92043cbcb469005b7f1608b8d33506e193ee377683ac23e.mp4",
+        "poster": "static/current-upscale-comparison/media/f31cf2c446e52c43e92043cbcb469005b7f1608b8d33506e193ee377683ac23e.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 24.0,
+        "frames": 193,
+        "sha256": "b3d7bf418c1f60e8d8d7dda595e1c70e0c7d767c66650a18d8cdc292861f6ac4",
+        "url": "static/current-upscale-comparison/media/b3d7bf418c1f60e8d8d7dda595e1c70e0c7d767c66650a18d8cdc292861f6ac4.mp4",
+        "poster": "static/current-upscale-comparison/media/b3d7bf418c1f60e8d8d7dda595e1c70e0c7d767c66650a18d8cdc292861f6ac4.jpg"
+      },
+      "provenance": {
+        "source_sha256": "f31cf2c446e52c43e92043cbcb469005b7f1608b8d33506e193ee377683ac23e",
+        "output_sha256": "b3d7bf418c1f60e8d8d7dda595e1c70e0c7d767c66650a18d8cdc292861f6ac4",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "scientific-visualization",
+      "section_title": "Scientific Visualization",
+      "id": "stable-mass-transfer-binary",
+      "selection": null,
+      "video": "code-video-model/scientific-visualization/stable-mass-transfer-binary-6a32d4681560.mp4",
+      "sha": "6a32d4681560c00654bf65436b57552f1d68e4f3a7114d996deb31dfd2dce0a0",
+      "title": "Binary Mass Transfer",
+      "side": null,
+      "setting": "Code Video delivery / stable-mass-transfer-binary-8s-review-v4 / centered 960x540 24FPS",
+      "number": 79,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 540,
+        "fps": 24.0,
+        "frames": 193,
+        "sha256": "6a32d4681560c00654bf65436b57552f1d68e4f3a7114d996deb31dfd2dce0a0",
+        "url": "static/current-upscale-comparison/media/6a32d4681560c00654bf65436b57552f1d68e4f3a7114d996deb31dfd2dce0a0.mp4",
+        "poster": "static/current-upscale-comparison/media/6a32d4681560c00654bf65436b57552f1d68e4f3a7114d996deb31dfd2dce0a0.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1080,
+        "fps": 24.0,
+        "frames": 193,
+        "sha256": "a13ea42e5cae19e3e6e68dc396807cc9b3e4e3d69ef7362b7938e84353327627",
+        "url": "static/current-upscale-comparison/media/a13ea42e5cae19e3e6e68dc396807cc9b3e4e3d69ef7362b7938e84353327627.mp4",
+        "poster": "static/current-upscale-comparison/media/a13ea42e5cae19e3e6e68dc396807cc9b3e4e3d69ef7362b7938e84353327627.jpg"
+      },
+      "provenance": {
+        "source_sha256": "6a32d4681560c00654bf65436b57552f1d68e4f3a7114d996deb31dfd2dce0a0",
+        "output_sha256": "a13ea42e5cae19e3e6e68dc396807cc9b3e4e3d69ef7362b7938e84353327627",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "scientific-visualization",
+      "section_title": "Scientific Visualization",
+      "id": "524",
+      "selection": null,
+      "video": "experiment-threejs-v2-image-group20-4-v18/scientific-visualization/case-524-91b29f372d92.mp4",
+      "sha": "91b29f372d92667be411e51685a7544911472f4eecdaf8cb70c2070877b46057",
+      "title": "Case 524",
+      "side": null,
+      "setting": "threejs-v2 / Image-Group20-4 / v18",
+      "number": 80,
+      "kind": "new",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "91b29f372d92667be411e51685a7544911472f4eecdaf8cb70c2070877b46057",
+        "url": "static/current-upscale-comparison/media/91b29f372d92667be411e51685a7544911472f4eecdaf8cb70c2070877b46057.mp4",
+        "poster": "static/current-upscale-comparison/media/91b29f372d92667be411e51685a7544911472f4eecdaf8cb70c2070877b46057.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "4a666027f7f18ca255692b79e554c75061487f4b56bf543f0a43d21d904d3266",
+        "url": "static/current-upscale-comparison/media/4a666027f7f18ca255692b79e554c75061487f4b56bf543f0a43d21d904d3266.mp4",
+        "poster": "static/current-upscale-comparison/media/4a666027f7f18ca255692b79e554c75061487f4b56bf543f0a43d21d904d3266.jpg"
+      },
+      "provenance": {
+        "source_sha256": "91b29f372d92667be411e51685a7544911472f4eecdaf8cb70c2070877b46057",
+        "output_sha256": "4a666027f7f18ca255692b79e554c75061487f4b56bf543f0a43d21d904d3266",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "scientific-visualization",
+      "section_title": "Scientific Visualization",
+      "id": "528",
+      "selection": null,
+      "video": "code-video-model/scientific-visualization/case-528.mp4",
+      "sha": "38fc643a2b5b0b9b717ecfebc76a99b94d68c80a3f00825e4ae4cafb652a4832",
+      "title": "Case 528",
+      "side": null,
+      "setting": "original",
+      "number": 81,
+      "kind": "already",
+      "current": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "38fc643a2b5b0b9b717ecfebc76a99b94d68c80a3f00825e4ae4cafb652a4832",
+        "url": "static/current-upscale-comparison/media/38fc643a2b5b0b9b717ecfebc76a99b94d68c80a3f00825e4ae4cafb652a4832.mp4",
+        "poster": "static/current-upscale-comparison/media/38fc643a2b5b0b9b717ecfebc76a99b94d68c80a3f00825e4ae4cafb652a4832.jpg"
+      },
+      "upscaled": null,
+      "provenance": {
+        "source_sha256": "38fc643a2b5b0b9b717ecfebc76a99b94d68c80a3f00825e4ae4cafb652a4832",
+        "output_sha256": "38fc643a2b5b0b9b717ecfebc76a99b94d68c80a3f00825e4ae4cafb652a4832",
+        "method": "Already displayed at upscale resolution",
+        "audio_preserved": null
+      }
+    },
+    {
+      "section": "scientific-visualization",
+      "section_title": "Scientific Visualization",
+      "id": "531",
+      "selection": null,
+      "video": "code-video-model-v2/scientific-visualization/case-531.mp4",
+      "sha": "f437b76b0b54a3e864cb1218666970c2d705b776b49ea38727635e5b7e14ee8c",
+      "title": "Case 531",
+      "side": null,
+      "setting": "image-group7-2",
+      "number": 82,
+      "kind": "reuse",
+      "current": {
+        "width": 960,
+        "height": 544,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "f437b76b0b54a3e864cb1218666970c2d705b776b49ea38727635e5b7e14ee8c",
+        "url": "static/current-upscale-comparison/media/f437b76b0b54a3e864cb1218666970c2d705b776b49ea38727635e5b7e14ee8c.mp4",
+        "poster": "static/current-upscale-comparison/media/f437b76b0b54a3e864cb1218666970c2d705b776b49ea38727635e5b7e14ee8c.jpg"
+      },
+      "upscaled": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "c76f71c81859512f38770309902c6ff5e19e5a795e9deef95356046b46c08091",
+        "url": "static/current-upscale-comparison/media/c76f71c81859512f38770309902c6ff5e19e5a795e9deef95356046b46c08091.mp4",
+        "poster": "static/current-upscale-comparison/media/c76f71c81859512f38770309902c6ff5e19e5a795e9deef95356046b46c08091.jpg"
+      },
+      "provenance": {
+        "source_sha256": "f437b76b0b54a3e864cb1218666970c2d705b776b49ea38727635e5b7e14ee8c",
+        "output_sha256": "c76f71c81859512f38770309902c6ff5e19e5a795e9deef95356046b46c08091",
+        "method": "seedvr2-3b",
+        "audio_preserved": true
+      }
+    },
+    {
+      "section": "scientific-visualization",
+      "section_title": "Scientific Visualization",
+      "id": "620",
+      "selection": null,
+      "video": "code-video-model/scientific-visualization/case-620.mp4",
+      "sha": "cc337fff6ce8bb9901b2f4e2ee9e5b4b8f34298b99be22cf9c8b59e54d217d02",
+      "title": "Case 620",
+      "side": null,
+      "setting": "original",
+      "number": 83,
+      "kind": "already",
+      "current": {
+        "width": 1920,
+        "height": 1088,
+        "fps": 24.0,
+        "frames": 124,
+        "sha256": "cc337fff6ce8bb9901b2f4e2ee9e5b4b8f34298b99be22cf9c8b59e54d217d02",
+        "url": "static/current-upscale-comparison/media/cc337fff6ce8bb9901b2f4e2ee9e5b4b8f34298b99be22cf9c8b59e54d217d02.mp4",
+        "poster": "static/current-upscale-comparison/media/cc337fff6ce8bb9901b2f4e2ee9e5b4b8f34298b99be22cf9c8b59e54d217d02.jpg"
+      },
+      "upscaled": null,
+      "provenance": {
+        "source_sha256": "cc337fff6ce8bb9901b2f4e2ee9e5b4b8f34298b99be22cf9c8b59e54d217d02",
+        "output_sha256": "cc337fff6ce8bb9901b2f4e2ee9e5b4b8f34298b99be22cf9c8b59e54d217d02",
+        "method": "Already displayed at upscale resolution",
+        "audio_preserved": null
+      }
+    }
+  ]
+}

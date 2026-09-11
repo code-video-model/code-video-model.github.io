@@ -1,0 +1,25 @@
+{
+  "turns": 400,
+  "flux_linkage_max_Wb_turn": 0.015,
+  "flux_center_m": -0.025,
+  "flux_length_scale_m": 0.045,
+  "outside_position_m": -0.1,
+  "inside_position_m": 0.035,
+  "coil_resistance_ohm": 70,
+  "meter_resistance_ohm": 930,
+  "total_inductance_H": 0.12,
+  "torque_constant_Nm_per_A": 4.2e-05,
+  "spring_constant_Nm_per_rad": 3e-09,
+  "inertia_kg_m2": 3e-11,
+  "viscous_damping_Nm_s_per_rad": 5.7e-10,
+  "sample_interval_s": 0.001,
+  "duration_s": 5,
+  "insertion_interval_s": [
+    0.55,
+    1.65
+  ],
+  "withdrawal_interval_s": [
+    3.15,
+    4.25
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "case_id": "563",
+  "session": "Robotics Simulation",
+  "prompt": "A photorealistic continuous shot. Use the supplied reference image for scene appearance, subject identity, colors, materials and lighting. Use the supplied video for camera viewpoint, motion, relative positions, timing and occlusion. A robotics laboratory contains the workbenches, stools, instruments and glass exit shown in the reference. From the opening onward, show a single articulated quadruped robot dog with the design and proportions in its own reference image. The robot follows the supplied S-shaped navigation route around the main workbench and stools toward the glass exit. Use coordinated four-leg stepping with planted support feet and raised swing feet, matching the video's speed, heading and contact timing. Preserve the environment and all other subjects. Do not morph or replace the robot within the clip. Preserve the supplied video's continuous camera movement and framing; do not introduce a new dramatic orbit, cut or independent subject-following move. Preserve the supplied video's complete duration and continuous motion. No jump cuts, teleportation, split-screen or added text overlays. Do not add route graphics or objects that are absent from the supplied inputs.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "d2e835d8a7099ac34a06c1c95cd3ff21ea763d4a561bac516f1e26baa3c5229d",
+  "entry": "runtime/case/index.html",
+  "sources": [
+    {
+      "path": "original/case/main.js",
+      "name": "case/main.js",
+      "sha256": "39484d2314b514b869db1db9397ff7ec3cae55c521283f38e9b8babb59187747",
+      "functions": [
+        {
+          "name": "rng",
+          "line": 21
+        },
+        {
+          "name": "generatedTexture",
+          "line": 25
+        },
+        {
+          "name": "group",
+          "line": 77
+        },
+        {
+          "name": "mesh",
+          "line": 80
+        },
+        {
+          "name": "box",
+          "line": 84
+        },
+        {
+          "name": "ball",
+          "line": 88
+        },
+        {
+          "name": "cylinder",
+          "line": 92
+        },
+        {
+          "name": "rod",
+          "line": 99
+        },
+        {
+          "name": "cable",
+          "line": 106
+        },
+        {
+          "name": "shell",
+          "line": 110
+        },
+        {
+          "name": "bolts",
+          "line": 122
+        },
+        {
+          "name": "drawers",
+          "line": 165
+        },
+        {
+          "name": "components",
+          "line": 193
+        },
+        {
+          "name": "stool",
+          "line": 256
+        },
+        {
+          "name": "contactShadow",
+          "line": 373
+        },
+        {
+          "name": "actuator",
+          "line": 381
+        },
+        {
+          "name": "limb",
+          "line": 424
+        },
+        {
+          "name": "navAt",
+          "line": 496
+        },
+        {
+          "name": "footContact",
+          "line": 503
+        },
+        {
+          "name": "setLink",
+          "line": 519
+        },
+        {
+          "name": "solveLeg",
+          "line": 523
+        },
+        {
+          "name": "supportedHipHeight",
+          "line": 533
+        },
+        {
+          "name": "animateHuman",
+          "line": 543
+        },
+        {
+          "name": "animateDog",
+          "line": 575
+        },
+        {
+          "name": "cameraAt",
+          "line": 602
+        },
+        {
+          "name": "seek",
+          "line": 611
+        },
+        {
+          "name": "getCameraState",
+          "line": 622
+        },
+        {
+          "name": "definition",
+          "line": 626
+        },
+        {
+          "name": "objectState",
+          "line": 630
+        }
+      ]
+    },
+    {
+      "path": "original/selection-adapter.mjs",
+      "name": "selection-adapter.mjs",
+      "sha256": "d601eefc6b39c799c6a5ae2f819aa81b7078447825b0996dac08d08597a8a7ba",
+      "functions": [],
+      "generated_adapter": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "case/main.js",
+      "sha256": "39484d2314b514b869db1db9397ff7ec3cae55c521283f38e9b8babb59187747"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/home/zhiyangliang/VideoCoder/manual-work/v15-robotics-pair/code/564",
+    "kind": "verified-paired-code-artifact",
+    "source_artifact_sha256": "47195721af948229d935e0b718f4992d6b813aa13f031f3b836360ad28871a23",
+    "input_video_sha256": "d2e835d8a7099ac34a06c1c95cd3ff21ea763d4a561bac516f1e26baa3c5229d",
+    "source_pair_key": "v15-robotics-pair",
+    "source_snapshot_verified": true,
+    "artifact_verified": true,
+    "selected_variant": "563"
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

@@ -1,0 +1,12 @@
+body[data-editing="true"] .workbench{max-width:1000px;}
+body[data-editing="true"] .panels{grid-template-columns:1fr;}
+.editing-comparison-panel .comparison-frame{position:relative;aspect-ratio:16/9;border-radius:16px;overflow:hidden;background:#142630;isolation:isolate;touch-action:pan-y;}
+.editing-comparison-panel .application-video-pair,.editing-comparison-panel figure{position:absolute;inset:0;margin:0;}
+.editing-comparison-panel figure:first-child{z-index:2;}
+.editing-comparison-panel .video-stage{width:100%;height:100%;border-radius:0;}
+.editing-comparison-panel .comparison-divider{position:absolute;inset:0;width:100%;height:100%;z-index:3;pointer-events:none;filter:drop-shadow(0 0 3px #0008);}
+.editing-comparison-panel .comparison-divider line{stroke:#ffffffe6;stroke-width:2;}
+.editing-comparison-panel .comparison-handle{position:absolute;top:50%;transform:translate(-50%,-50%);z-index:4;display:grid;place-items:center;width:42px;height:42px;border-radius:50%;border:1px solid white;background:#ffffffe6;color:#30443f;font:22px/1 system-ui;cursor:ew-resize;box-shadow:0 3px 15px #0002;}
+.editing-detail-tools{display:flex;flex-wrap:wrap;justify-content:space-between;gap:0 20px;}
+.editing-detail-tools>details[open]{flex-basis:100%;}
+@media(max-width:640px){body[data-editing="true"] .panel{padding:10px;}.editing-comparison-panel .comparison-handle{width:34px;height:34px;font-size:18px;}}

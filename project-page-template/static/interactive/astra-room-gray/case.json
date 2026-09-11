@@ -1,0 +1,70 @@
+{
+  "case_id": "astra-room-gray",
+  "session": "3D / 4D Reconstruction",
+  "prompt": "Create one continuous 10-second photoreal novel-view shot of the SAME STATIC physical scene. @Image1 is a real photograph, uniformly scaled and cropped, of the STARTING camera view. It is the authority for object identity, observed construction, materials, colors, lighting, and scene details. It is NOT a character sheet, flat backdrop, or frame to repeat. @Video1 is a procedural geometric reconstruction of that SAME scene. Follow its camera translation, local arc, framing progression, relative depth and changing occlusion. Replace its simplified CG surfaces with the real photographed appearance from @Image1; do not copy low-poly shading or transform the scene into a cartoon. Scene identity: A furnished living room with a foreground wood-and-black coffee table holding glassware and a metal bowl, gray sofa and ottoman at left, blue armchair with a plush dog beneath curtains, slippers on a geometric rug, and a large television, speakers, subwoofer, console and cables at right. Camera route: Constant 35.9 degrees of bearing change per second around the moving room-composition target, from t=0 through t=10. Radius draws in from 5.172 to 2.28 units while the target travels into the rug center; crane from 2.05 to 2.94 units clears fixed furniture. Radius opens to 3 units during the sofa-side descent. Secondary components use continuous-tangent cubic interpolation between whole-second knots; angular velocity remains nonzero even at all knots and the endpoint.  KINETIC CAMERA CONTRACT: @Video1 has highest authority for continuous camera motion. @Image1 controls appearance only and must not anchor, slow, recenter or stop the camera. Camera intent: An uninterrupted 359-degree indoor room survey over the full ten seconds. Glide above the seating and around the table/rug grouping, showing continuous front, television-side, window-side and sofa-side depth changes without a cut, room rotation, vanishing wall or destination hold. For conditioning, the neutral gray model has no valid appearance information: only the real photograph supplies materials, colors and photographic lighting. Travel continuously through one 359-degree counterclockwise path over all ten seconds. Screen-space travel: Initially travel toward the viewer-right television side; the table slips left in front of the stationary ottoman. Continue around toward the window, looking back across the rug toward the previously unseen entrance; then sweep above the sofa side and curve back toward the original side, still moving at the final frame. There is no destination framing and no final hold: every second must contain strong world-space camera displacement, parallax and changing occlusion. Required camera beats: (1) 0-2.5s: fast rightward table-to-media glide, drawing inward and rising while bowl/carafe and television layers separate. (2) 2.5-5s: elevated television-side sweep, widening the lens and passing outside the subwoofer volume; chair and window emerge beyond the rug. (3) 5-7.5s: window-side crane crest over the fixed recliner, revealing the closed rear wall, framed pictures, bookcase and actual doorway beyond the opposite table edge. (4) 7.5-10s: descending sofa-side arc, opening the radius to recover table/glassware foreground depth; keep turning through 359 degrees at ten seconds with no endpoint hold. Required changing-occlusion evidence: (1) The bowl and carafe exchange their overlaps with the ottoman as the tabletop's steel legs separate and its rear edge becomes visible. (2) The television shifts from a dominant black screen into an oblique screen-and-bezel view while the stand-mounted speaker separates from its subwoofer; the wall prevents travel behind the television. (3) The blue recliner first overlaps the curtains, then its padded side, arm depth and feet pass close to the frame edge while the opposite wall is revealed beyond the room. (4) The rug slippers move behind the table in screen space during the window-side beat but never change their floor contact. (5) The previously unseen entry opening and bookcase are uncovered beyond the sofa, then slide away behind the furniture on the continuing return arc. Never settle into a hero frame, pause for the action, reverse direction, rotate the subject as a turntable, or replace physical camera travel with digital zoom/pan.  GRAY MODEL VIDEO ENCODING: @Video1 is a neutral gray shaded model with no valid color, texture or material identity. Use its continuous surface volume, normals, silhouette, camera, perspective, support and occlusion as strict geometry guidance. @Image1 is the appearance authority. Replace all gray surfaces with authentic photographic materials and lighting; never output gray clay, CGI, miniature or viewport-render appearance. Begin at the photographed source composition, then reveal a coherent local novel view with clear foreground/background parallax. Only the camera moves; keep all physical objects and materials fixed. All furniture, glassware, slippers, electronics, curtains and plush toy remain stationary. Preserve coffee-table foreground, blue chair center-left and black television/speaker wall at right. No people appear. The real photograph and proxy share the same centered 4:3 aspect-ratio crop. Preserve that crop without stretching, zooming past it, or inventing scene content outside the photographed crop. Complete newly revealed surfaces conservatively from the observed scene; Do not add, remove, morph, duplicate, rotate or animate objects. No cuts, camera jumps, turntable object motion, still-image sliding, text labels or rendered UI.",
+  "fps": 24.0,
+  "frames": 240,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "9f71da94fbcf0ad1aedcf911d710734bab34ad496ac67253b271bcdb60e6708a",
+  "entry": "runtime/case/index.html",
+  "sources": [
+    {
+      "path": "original/case/runtime.mjs",
+      "name": "case/runtime.mjs",
+      "sha256": "ba05221cb5ca6fcdaaef37edb3c872f4b23674797396735d6e1e45e10f9fe708",
+      "functions": [
+        {
+          "name": "seek",
+          "line": 37
+        },
+        {
+          "name": "diagnostics",
+          "line": 54
+        }
+      ]
+    },
+    {
+      "path": "original/case/scene.mjs",
+      "name": "case/scene.mjs",
+      "sha256": "7f21e6db9429b38a0225f9d77b5941886fba6f19d4e022e9b67fe5cefdd4c68e",
+      "functions": []
+    },
+    {
+      "path": "original/presentation-crop.mjs",
+      "name": "presentation-crop.mjs",
+      "sha256": "9594b486aa587f4b4a7582c9f7c325641814259f802f91f8ff67daedd02d2e05",
+      "functions": [],
+      "generated_adapter": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "case/runtime.mjs",
+      "sha256": "ba05221cb5ca6fcdaaef37edb3c872f4b23674797396735d6e1e45e10f9fe708"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    },
+    {
+      "path": "case/scene.mjs",
+      "sha256": "7f21e6db9429b38a0225f9d77b5941886fba6f19d4e022e9b67fe5cefdd4c68e"
+    },
+    {
+      "path": "spec.json",
+      "sha256": "4ec2711db4fba4c3d5e6baa9176cd7181155f37cb85688236129bc2bd5aa2e8c"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/home/zhiyangliang/VideoCoder/exports/published-threejs-sources/9f71da94fbcf0ad1aedcf911d710734bab34ad496ac67253b271bcdb60e6708a",
+    "kind": "delivery-source-and-presentation-adapter",
+    "artifact_verified": false,
+    "input_video_sha256": "9f71da94fbcf0ad1aedcf911d710734bab34ad496ac67253b271bcdb60e6708a",
+    "original_proxy_sha256": "b48d0cbb5f8e8e8fef50a8c1cb237a2291ff453678bb42cb5b11caa94d51e7b9",
+    "colored_preview": true,
+    "package": "astra-room-gray-10s-review-v1",
+    "note": "Exact delivery source, with reviewed material edits where selected and a centered crop adapter for the displayed video.",
+    "source_snapshot_verified": true
+  }
+}

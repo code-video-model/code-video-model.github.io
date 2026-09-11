@@ -1,0 +1,88 @@
+{
+  "case_id": "636",
+  "session": "Product Cinematography",
+  "prompt": "A photorealistic premium laptop product shot on a dark desk in a dim studio. Begin with the entire thin silver-grey laptop visible and its lid closed. The lid opens smoothly during the camera move, revealing a dark keyboard, broad trackpad and illuminated blue-purple screen graphics at the same times as in the supplied video. The camera makes one continuous sweeping orbit and forward dolly, moving across the front and side without stopping and restarting. Progress from the complete closed device to closer views of the open hinge, keyboard, trackpad and thin front edge, ending in a tight oblique detail composition. Keep the laptop body stable and the lid attached correctly. Match the supplied camera and opening timing; no cuts, abrupt speed changes or late pullback to a wide reveal.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "71b43ebba4e404afb2c6840905d96a49fd8f5901c25168a5dae42b3ea257037a",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "2db7c1d17f2d700feac0c080b352d97694171c9b7ef89b87cfe19adf2c1d3dd8",
+      "functions": [
+        {
+          "name": "roundedRectShape",
+          "line": 39
+        },
+        {
+          "name": "roundedPrism",
+          "line": 55
+        },
+        {
+          "name": "planeMaterial",
+          "line": 75
+        },
+        {
+          "name": "addKey",
+          "line": 234
+        },
+        {
+          "name": "addScreenLayer",
+          "line": 341
+        },
+        {
+          "name": "createPchipTrack",
+          "line": 509
+        },
+        {
+          "name": "updateScene",
+          "line": 565
+        },
+        {
+          "name": "tick",
+          "line": 603
+        },
+        {
+          "name": "pause",
+          "line": 616
+        },
+        {
+          "name": "seek",
+          "line": 625
+        },
+        {
+          "name": "play",
+          "line": 630
+        },
+        {
+          "name": "getCameraState",
+          "line": 638
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "2db7c1d17f2d700feac0c080b352d97694171c9b7ef89b87cfe19adf2c1d3dd8"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/application_demo_product_cinematography_camera_v2/code/636",
+    "kind": "corrected-result-record",
+    "input_video_sha256": "71b43ebba4e404afb2c6840905d96a49fd8f5901c25168a5dae42b3ea257037a",
+    "final_review_sha256": "1cb0f602acfa4501037f7355a0d37cc93af411f48dc7da5616cc8e607385baac",
+    "results_manifest_sha256": "10d16099f311772a0d756d682e8c25d0beb99efd0a8bc4f9fd515a1fe7341b6d",
+    "source_snapshot_verified": true,
+    "artifact_verified": false
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

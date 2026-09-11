@@ -1,0 +1,91 @@
+{
+  "case_id": "531",
+  "session": "Scientific Visualization",
+  "prompt": "A photorealistic 5-second programmable-physics showcase. A rolling bowling ball hits a standing plank, which tips onto a seesaw, launches a small ball upward, and rings a hanging bell. One short, readable Rube Goldberg chain with strict cause and effect. The event should look like a real physical experiment rather than an abstract animation, with stable geometry, believable material response and clearly readable causality.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "7f56c74674b91361596081e62b8415ebbbbd00a0c7bbe57e042b5ba05dcdb44d",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "8a17f980d71841da77ad5b2ab801eb2233461eb260c012c588d074e92e1b43d4",
+      "functions": [
+        {
+          "name": "addMesh",
+          "line": 122
+        },
+        {
+          "name": "addBox",
+          "line": 130
+        },
+        {
+          "name": "addCylinder",
+          "line": 136
+        },
+        {
+          "name": "seesawAngleAt",
+          "line": 354
+        },
+        {
+          "name": "attachedBallPosition",
+          "line": 363
+        },
+        {
+          "name": "updateSmallBall",
+          "line": 381
+        },
+        {
+          "name": "updateCamera",
+          "line": 415
+        },
+        {
+          "name": "updateScene",
+          "line": 432
+        },
+        {
+          "name": "getCameraState",
+          "line": 471
+        },
+        {
+          "name": "getSceneState",
+          "line": 479
+        },
+        {
+          "name": "pause",
+          "line": 498
+        },
+        {
+          "name": "seek",
+          "line": 503
+        },
+        {
+          "name": "play",
+          "line": 509
+        },
+        {
+          "name": "animate",
+          "line": 523
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "8a17f980d71841da77ad5b2ab801eb2233461eb260c012c588d074e92e1b43d4"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/531/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

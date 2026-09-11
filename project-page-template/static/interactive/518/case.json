@@ -1,0 +1,99 @@
+{
+  "case_id": "518",
+  "session": "Bullet Time",
+  "prompt": "A realistic 5-second frozen-time reframing demo. A dog leaps horizontally to catch a red frisbee in a sunny park. Freeze the exact instant before the mouth reaches the frisbee. Reframe from a normal sideline shot to a low angle beneath the dog, then to a rear view aligned with the frisbee path before resuming. Preserve the exact same world state while only the virtual viewpoint changes; physically coherent geometry and premium VFX realism.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "7e04bb89ac784889affc3f3d04221a232a373cd4cf19f2ae2856d2dd150fc4fb",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "060e34b64081a9fc1284b0bbb15801ef52bafd8c4c105593e027550977388b78",
+      "functions": [
+        {
+          "name": "shadowed",
+          "line": 85
+        },
+        {
+          "name": "mesh",
+          "line": 91
+        },
+        {
+          "name": "material",
+          "line": 95
+        },
+        {
+          "name": "smoothstep",
+          "line": 99
+        },
+        {
+          "name": "lerpVector",
+          "line": 104
+        },
+        {
+          "name": "seeded",
+          "line": 108
+        },
+        {
+          "name": "roundedLimb",
+          "line": 113
+        },
+        {
+          "name": "createTree",
+          "line": 125
+        },
+        {
+          "name": "createCloud",
+          "line": 157
+        },
+        {
+          "name": "addLeg",
+          "line": 371
+        },
+        {
+          "name": "eventTimeAt",
+          "line": 481
+        },
+        {
+          "name": "dogHeight",
+          "line": 487
+        },
+        {
+          "name": "updateWorld",
+          "line": 492
+        },
+        {
+          "name": "updateCamera",
+          "line": 551
+        },
+        {
+          "name": "renderAt",
+          "line": 603
+        },
+        {
+          "name": "animate",
+          "line": 610
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "060e34b64081a9fc1284b0bbb15801ef52bafd8c4c105593e027550977388b78"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/518/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

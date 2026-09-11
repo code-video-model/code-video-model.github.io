@@ -1,0 +1,15 @@
+{
+  "case_id": "505",
+  "title": "Samurai sword clash",
+  "fps": 24,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "source_sha256": "f110f91d072ef836549543dfa045da78517247ce3278d2974d9c1042b4fde2d6",
+  "threejs_sha256": "0e212923ff47c6a551cf4cc664f8ce0f390e813cda18d295caa94d2227dc4165",
+  "source": "source.js",
+  "runtime": "runtime.js",
+  "trajectory": "camera_trajectory.json",
+  "prompt": "A premium photorealistic 5-second bullet-time demo. Two samurai swords collide in heavy rain and sparks burst between the fighters. At the peak action moment, time freezes almost completely: bodies, debris, droplets and secondary motion remain perfectly suspended. The camera perform a fast 220-degree orbit through suspended raindrops and sparks. In the final beat, normal time snaps back and the action resolves naturally. Same-moment 4D consistency, impossible viewpoint and crisp cinematic detail.",
+  "code_mapping": "Authored time-to-source mapping, not an execution trace"
+}

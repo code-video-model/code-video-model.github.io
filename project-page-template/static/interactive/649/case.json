@@ -1,0 +1,91 @@
+{
+  "case_id": "649",
+  "session": "Architectural Cinematics",
+  "prompt": "A photorealistic 5-second architectural visualization. A bright museum atrium with multiple levels, bridges and a central installation. Camera starts beside the installation, passes under a bridge and spirals upward to reveal all floors in one continuous shot. Emphasize stable 3D layout, correct perspective, realistic materials, strong parallax and smooth executable camera motion.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "f0b1a8e47e9a00f6dae282f9ff56bca0318d6e4a540b7baed8ba43f631807004",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "ef2300ebd1800cf78851c54193d9838dd213234a0d298ab3f0fdbd4fd7d48a5d",
+      "functions": [
+        {
+          "name": "makeStoneTexture",
+          "line": 35
+        },
+        {
+          "name": "meshBox",
+          "line": 166
+        },
+        {
+          "name": "addRailSegment",
+          "line": 176
+        },
+        {
+          "name": "addLevel",
+          "line": 203
+        },
+        {
+          "name": "makeHelix",
+          "line": 330
+        },
+        {
+          "name": "addBench",
+          "line": 392
+        },
+        {
+          "name": "addPlanter",
+          "line": 414
+        },
+        {
+          "name": "addPerson",
+          "line": 452
+        },
+        {
+          "name": "smoothstep",
+          "line": 551
+        },
+        {
+          "name": "setCamera",
+          "line": 556
+        },
+        {
+          "name": "updateScene",
+          "line": 574
+        },
+        {
+          "name": "renderAt",
+          "line": 598
+        },
+        {
+          "name": "tick",
+          "line": 604
+        },
+        {
+          "name": "cameraState",
+          "line": 613
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "ef2300ebd1800cf78851c54193d9838dd213234a0d298ab3f0fdbd4fd7d48a5d"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/649/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

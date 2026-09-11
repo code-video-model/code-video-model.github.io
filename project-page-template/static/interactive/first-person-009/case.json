@@ -1,0 +1,91 @@
+{
+  "case_id": "first-person-009",
+  "session": "First-Person Games",
+  "prompt": "First-person POV riding a horse at full speed across the plains of Hyrule at sunset. My hands hold the reins in front of the camera while tall grass rushes past on both sides. A herd of wild animals suddenly crosses the path and the horse veers around them. Hyrule Castle sits far on the horizon beneath pink and orange clouds, peaceful adventurous feeling, fluid first-person riding motion.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "15c86002055c541ae038b6ef250c87123749dde71fc0ade341e024bb32077a66",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "ad45aec6472f2846091fcbcb8a275104b0de73ac63960ccb5fc638d17e9091ef",
+      "functions": [
+        {
+          "name": "mulberry32",
+          "line": 81
+        },
+        {
+          "name": "makeBladeGeometry",
+          "line": 92
+        },
+        {
+          "name": "createHill",
+          "line": 139
+        },
+        {
+          "name": "createSky",
+          "line": 156
+        },
+        {
+          "name": "createCloud",
+          "line": 198
+        },
+        {
+          "name": "cylinderBetween",
+          "line": 234
+        },
+        {
+          "name": "createCastle",
+          "line": 246
+        },
+        {
+          "name": "createRock",
+          "line": 315
+        },
+        {
+          "name": "createDeer",
+          "line": 335
+        },
+        {
+          "name": "makeTube",
+          "line": 438
+        },
+        {
+          "name": "smoothstep",
+          "line": 553
+        },
+        {
+          "name": "horsePathX",
+          "line": 558
+        },
+        {
+          "name": "horsePathDx",
+          "line": 562
+        },
+        {
+          "name": "update",
+          "line": 570
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "ad45aec6472f2846091fcbcb8a275104b0de73ac63960ccb5fc638d17e9091ef"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/VideoDemo/work/first_person_game_film/9",
+    "artifact_verified": false,
+    "note": "Original first-person program; published video is frame-rate conformed."
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "case_id": "572",
+  "session": "Robotics Simulation",
+  "prompt": "An outdoor robotics test yard with painted concrete lanes, two traffic cones, a shallow ramp and a metal gate. The agent follows the marked lane between the cones, travels up and down the shallow ramp, then continues to the gate. Fixed front-side tracking camera and identical route. The moving agent is a realistic bipedal humanoid robot with natural articulated walking. Generate a photorealistic 5-second robotics-simulation video.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "3cf36794fbe7cd42e5e446b5803cf712fe3cdc6b77d133dd284e68e504261829",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "501bbaa9b591273892405bf0b2ae4d28a490067c5174c1978e47716d4db66b87",
+      "functions": [
+        {
+          "name": "mesh",
+          "line": 69
+        },
+        {
+          "name": "box",
+          "line": 77
+        },
+        {
+          "name": "cylinder",
+          "line": 83
+        },
+        {
+          "name": "roundedPanel",
+          "line": 89
+        },
+        {
+          "name": "addLaneStripe",
+          "line": 114
+        },
+        {
+          "name": "addLaneArrow",
+          "line": 128
+        },
+        {
+          "name": "createCone",
+          "line": 158
+        },
+        {
+          "name": "rampHeight",
+          "line": 172
+        },
+        {
+          "name": "rampSlope",
+          "line": 179
+        },
+        {
+          "name": "createGatePanel",
+          "line": 208
+        },
+        {
+          "name": "fenceSection",
+          "line": 240
+        },
+        {
+          "name": "createHumanoidLeg",
+          "line": 266
+        },
+        {
+          "name": "createHumanoidArm",
+          "line": 300
+        },
+        {
+          "name": "createHumanoid",
+          "line": 330
+        },
+        {
+          "name": "smootherstep",
+          "line": 407
+        },
+        {
+          "name": "routePosition",
+          "line": 412
+        },
+        {
+          "name": "updateRobot",
+          "line": 417
+        },
+        {
+          "name": "updateCamera",
+          "line": 460
+        },
+        {
+          "name": "renderAt",
+          "line": 467
+        },
+        {
+          "name": "tick",
+          "line": 481
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "501bbaa9b591273892405bf0b2ae4d28a490067c5174c1978e47716d4db66b87"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/572/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

@@ -1,0 +1,74 @@
+{
+  "case_id": "624",
+  "session": "Product Cinematography",
+  "prompt": "A photorealistic premium automotive commercial shot of a glossy black sports car in a dark studio, with carefully controlled highlights, dark wheels and visible red brake accents. Begin with the complete car in a moderately wide three-quarter hero composition. After a brief establishing beat, accelerate smoothly into a fast, broad curved orbit around the car, combining a substantial forward dolly, lateral travel and a descent toward body height. Let the changing reflections and parallax reveal the body shape as the view sweeps toward the side. During the final portion, move into a tight low view of the wheel, brake detail and lower side bodywork. Preserve the supplied video's product identity, light-sweep timing and continuous camera motion. Do not reverse the progression into a final wide reveal, drive the car or introduce a cut.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/app.js",
+      "name": "app.js",
+      "sha256": "2632c327164208461e7cd8fe069221731958abf9059e1220c8f3115a824c4065",
+      "functions": [
+        {
+          "name": "createLoft",
+          "line": 190
+        },
+        {
+          "name": "makeQuad",
+          "line": 236
+        },
+        {
+          "name": "makeLine",
+          "line": 247
+        },
+        {
+          "name": "smootherStep",
+          "line": 519
+        },
+        {
+          "name": "sampleCameraProgress",
+          "line": 544
+        },
+        {
+          "name": "sampleCamera",
+          "line": 560
+        },
+        {
+          "name": "updateAtTime",
+          "line": 576
+        },
+        {
+          "name": "animate",
+          "line": 605
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "app.js",
+      "sha256": "2632c327164208461e7cd8fe069221731958abf9059e1220c8f3115a824c4065"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/home/zhiyangliang/VideoCoder/manual-work/case624-threejs-v3/case",
+    "kind": "verified-code-artifact",
+    "source_artifact_sha256": "f5b53e77966994c54bf174fe314c19335c4e650182b783f13cf514460a22cb6e",
+    "input_video_sha256": "0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b",
+    "parent_video_sha256": "e597e7c037ddde8ec2f67d6d144565380eeb7344c3427f792b001371d66565af",
+    "revision": "threejs-v3",
+    "user_approved": true,
+    "source_snapshot_verified": true,
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

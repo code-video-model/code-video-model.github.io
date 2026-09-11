@@ -1,0 +1,18 @@
+/* Results first; implementation and technical controls disclose on demand. */
+body[data-embed="bubbles"] .panels{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start;}
+body[data-embed="bubbles"] .panel,body[data-embed="bubbles"] .timeline{background:#ffffffd9;background-image:none;border:1px solid #ffffffc9;box-shadow:0 6px 24px -20px #14334a50;border-radius:18px;padding:16px;}
+.workbench h2 small,.workbench .note:not(#frustum-info):not(#code-note),.workbench .timeline-heading strong,.workbench #frame-label{display:none;}
+.workbench h2{font-size:13px;font-weight:500;color:#304957;}
+.workbench .video-stage{border-radius:10px;}
+.workbench details{font-size:12px;margin-top:14px;}
+.workbench summary{cursor:pointer;color:#365366;list-style-position:inside;padding:7px 0;}
+.code-disclosure{background:#ffffffa8;border:1px solid #ffffffbd;border-radius:14px;padding:4px 16px;}
+.workbench .code-disclosure .source-panel{border:0;background:none;box-shadow:none;padding:8px 0 16px;}
+.code-disclosure:not([open])>.source-panel{display:none!important;}
+.inspector-disclosure:not([open])>:not(summary),.state-disclosure:not([open])>:not(summary){display:none!important;}
+body[data-embed="bubbles"] .timeline{margin-top:12px;padding:12px 16px;}
+.timeline .timeline-heading{justify-content:flex-end;}
+.transport button{border-radius:20px;padding:7px 14px;}
+.workbench .inspector-options{gap:12px;}
+.workbench #code-note{font-size:11px;}
+@media(max-width:640px){body[data-embed="bubbles"] .panels{grid-template-columns:1fr;}body[data-embed="bubbles"] .panel{padding:12px;}.workbench .transport{gap:6px;}.transport button{padding:7px 10px;}}

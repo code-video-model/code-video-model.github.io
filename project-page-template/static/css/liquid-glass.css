@@ -1,0 +1,27 @@
+/* Refractive-looking edges and transmitted page color; media stays untouched. */
+body[data-embed="bubbles"] :is(.panels>.panel:not(.source-panel),.timeline,.code-disclosure){
+ --tint-a:var(--glass-a,var(--atmosphere-a,205,225,239));
+ --tint-b:var(--glass-b,var(--atmosphere-b,210,231,223));
+ --tint-c:var(--glass-c,var(--atmosphere-c,230,223,236));
+ position:relative;isolation:isolate;
+ background:linear-gradient(125deg,#ffffff42,transparent 40%,#ffffff12),
+   radial-gradient(ellipse at 12% 0%,rgba(var(--tint-a),.42),transparent 72%),
+   linear-gradient(155deg,rgba(var(--tint-b),.24),rgba(var(--tint-c),.36));
+ border:1px solid #ffffff85;border-radius:23px;
+ backdrop-filter:blur(18px) saturate(1.35);-webkit-backdrop-filter:blur(18px) saturate(1.35);
+ box-shadow:inset 0 1px 0 #fffffff0,inset 1px 0 0 #ffffff65,inset 0 -1px 0 #ffffff75,
+   inset 0 0 16px #ffffff22,0 12px 30px -20px #21354d55,0 2px 5px #203a4b08;
+}
+body[data-embed="bubbles"] :is(.panels>.panel:not(.source-panel),.timeline,.code-disclosure)::before{
+ content:'';position:absolute;inset:1px;border-radius:inherit;pointer-events:none;z-index:-1;
+ background:radial-gradient(ellipse at 0% 0%,#ffffff75,transparent 48%),radial-gradient(ellipse at 100% 100%,#ffffff32,transparent 52%);
+}
+body[data-embed="bubbles"] .code-disclosure{border-radius:17px;}
+body[data-embed="bubbles"] .workbench :is(h2,summary){color:#203e50;}
+body[data-embed="bubbles"] .transport button{background:#ffffff46;border:1px solid #ffffffb5;color:#23485f;box-shadow:inset 0 1px #ffffffb0,0 2px 6px #203a4b09;}
+body[data-embed="bubbles"] .transport button:hover{background:#ffffff85;border-color:#fff;}
+body[data-embed="bubbles"] .source-toolbar select{background:#ffffffc9;}
+body[data-embed="bubbles"] #source-code{background:#f7fafdeb;}
+@media(prefers-reduced-transparency:reduce),(prefers-contrast:more){
+ body[data-embed="bubbles"] :is(.panels>.panel:not(.source-panel),.timeline,.code-disclosure){background:#f6f9fd;backdrop-filter:none;-webkit-backdrop-filter:none;border-color:#8097a7;}
+}

@@ -1,0 +1,2133 @@
+{
+  "section_order": {
+    "trajectory-variation": [
+      "trajectory-group23-581-582-image-group23-4-v12",
+      "581",
+      "trajectory-group23-577-578-image-group23-2-v16"
+    ]
+  },
+  "hidden_pairs": [
+    "robotics-563-564-image-group14-4-v13",
+    "robotics-563-564-image-group18-4-v16",
+    "robotics-567-568-image-group13-4-v12",
+    "robotics-567-568-image-group14-4-v13",
+    "robotics-567-568-image-group17-4-v15",
+    "robotics-571-572-image-group14-4-v13"
+  ],
+  "pairs": [
+    {
+      "id": "robotics-563-564-image-group14-4-v13",
+      "section_id": "robotics-simulation",
+      "section": "Robotics Simulation",
+      "a": "563",
+      "b": "564",
+      "batch": "reference-updates",
+      "group": "image-group14-4",
+      "version": "v13",
+      "label": "Image-Group14-4 / v13",
+      "edit_label": "Use Humanoid Robot",
+      "assets": {
+        "563": {
+          "video": "experiment-pairs/robotics-563-564-image-group14-4-v13/case-563-6a43d3ed7374.mp4",
+          "sha256": "6a43d3ed737492a80a1e75af8d470df460022d6fa427440a0f6c403002faf7f6",
+          "threejs_sha256": "e3cb54fe28183e0ebc5c92bfc32453afdce31c9dc48c75cbd42b39050c1eb401",
+          "origin": "reference-updated",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "source_video": "static/refresh-results/media/6a43d3ed737492a80a1e75af8d470df460022d6fa427440a0f6c403002faf7f6.mp4",
+          "interactive_source": "563/",
+          "provenance": null
+        },
+        "564": {
+          "video": "experiment-pairs/robotics-563-564-image-group14-4-v13/case-564-6cdf214f9ba8.mp4",
+          "sha256": "6cdf214f9ba87c06d0508f6057b94d8ffc3e040812b60ec6fa278594ee295a4a",
+          "threejs_sha256": "efe5c2e31750622240c52cf43cf4fa784159092f0a56e260862773f808d1cfd6",
+          "origin": "original-experiment",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "source_video": "static/refresh-results/media/6cdf214f9ba87c06d0508f6057b94d8ffc3e040812b60ec6fa278594ee295a4a.mp4",
+          "interactive_source": "564/",
+          "provenance": {
+            "origin": "original-experiment",
+            "paired_updated_case": "563",
+            "paired_updated_video_sha256": "6a43d3ed737492a80a1e75af8d470df460022d6fa427440a0f6c403002faf7f6",
+            "source_video_sha256": "efe5c2e31750622240c52cf43cf4fa784159092f0a56e260862773f808d1cfd6",
+            "effective_prompt_sha256": "87d82e64b4a443aad0a66cbbda9eafe3d78c5b896d42b055c4632781ac9263ea",
+            "model_checkpoint_sha256": "feb17eb5187f04828dc8bf5910da4644e1b0439e20f6adc4e547c4380715b4ca",
+            "generation_seed": "4738974570618061307",
+            "algorithm_revision": "minimax-h3-image-groups-2026-09-06-r8",
+            "updated_algorithm_revision": "minimax-h3-image-groups-2026-09-06-r10",
+            "manifest_sha256": "9702e2d41b40e34b1fc113443cc28de9a821e7c2a1cdc872698d80958092ae9b",
+            "updated_manifest_sha256": "6437e77963015b051387b49370597ae6a4a9eceb02081e508750d773a24be1d5",
+            "original_run": "project-page-48-image-group14-4-960x544/564/image-group14-4"
+          }
+        }
+      },
+      "cover": {
+        "case_id": "563",
+        "name": "Case 563",
+        "session": "Robotics Simulation",
+        "source_rgb": [
+          119,
+          122,
+          122
+        ],
+        "source_palette": [
+          [
+            97,
+            101,
+            102
+          ],
+          [
+            130,
+            133,
+            133
+          ],
+          [
+            203,
+            202,
+            202
+          ],
+          [
+            44,
+            48,
+            48
+          ]
+        ],
+        "rgb": [
+          119,
+          122,
+          122
+        ],
+        "palette": [
+          [
+            97,
+            101,
+            102
+          ],
+          [
+            130,
+            133,
+            133
+          ],
+          [
+            203,
+            202,
+            202
+          ],
+          [
+            44,
+            48,
+            48
+          ]
+        ],
+        "source_kind": "displayed-code-video-model",
+        "first_frame": "static/images/first-person-bubbles/563-6a43d3ed7374.png",
+        "source_video": "experiment-pairs/robotics-563-564-image-group14-4-v13/case-563-6a43d3ed7374.mp4",
+        "source_sha256": "6a43d3ed737492a80a1e75af8d470df460022d6fa427440a0f6c403002faf7f6",
+        "frame": 0,
+        "alpha": 0.5
+      }
+    },
+    {
+      "id": "robotics-563-564-image-group18-4-v16",
+      "section_id": "robotics-simulation",
+      "section": "Robotics Simulation",
+      "a": "563",
+      "b": "564",
+      "batch": "reference-updates",
+      "group": "image-group18-4",
+      "version": "v16",
+      "label": "Image-Group18-4 / v16",
+      "edit_label": "Use Humanoid Robot",
+      "assets": {
+        "563": {
+          "video": "experiment-pairs/robotics-563-564-image-group18-4-v16/case-563-3564adf1a1c7.mp4",
+          "sha256": "3564adf1a1c707ccd55ae063403c92e8e4f67f4bf88508868998fa9e3f6e200f",
+          "threejs_sha256": "e3cb54fe28183e0ebc5c92bfc32453afdce31c9dc48c75cbd42b39050c1eb401",
+          "origin": "reference-updated",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "source_video": "static/refresh-results/media/3564adf1a1c707ccd55ae063403c92e8e4f67f4bf88508868998fa9e3f6e200f.mp4",
+          "interactive_source": "563/",
+          "provenance": null
+        },
+        "564": {
+          "video": "experiment-pairs/robotics-563-564-image-group18-4-v16/case-564-982e8ff4e132.mp4",
+          "sha256": "982e8ff4e132ea0401b7f332e5f4b2eac4508e2fd07de499becff3344e406105",
+          "threejs_sha256": "efe5c2e31750622240c52cf43cf4fa784159092f0a56e260862773f808d1cfd6",
+          "origin": "original-experiment",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "source_video": "static/refresh-results/media/982e8ff4e132ea0401b7f332e5f4b2eac4508e2fd07de499becff3344e406105.mp4",
+          "interactive_source": "564/",
+          "provenance": {
+            "origin": "original-experiment",
+            "paired_updated_case": "563",
+            "paired_updated_video_sha256": "3564adf1a1c707ccd55ae063403c92e8e4f67f4bf88508868998fa9e3f6e200f",
+            "source_video_sha256": "efe5c2e31750622240c52cf43cf4fa784159092f0a56e260862773f808d1cfd6",
+            "effective_prompt_sha256": "87d82e64b4a443aad0a66cbbda9eafe3d78c5b896d42b055c4632781ac9263ea",
+            "model_checkpoint_sha256": "feb17eb5187f04828dc8bf5910da4644e1b0439e20f6adc4e547c4380715b4ca",
+            "generation_seed": "4738974570618061307",
+            "algorithm_revision": "minimax-h3-image-groups-2026-09-06-r10",
+            "updated_algorithm_revision": "minimax-h3-image-groups-2026-09-06-r10",
+            "manifest_sha256": "b0b1c81a0a7c7cf45a796b8dd8ca4cd32025bd507a46bce19a3283182f7fe53a",
+            "updated_manifest_sha256": "45f31e6a428e186b5d9190cdff130e2ab47580a8ff5cd1b03f71ac1adc7b0066",
+            "original_run": "project-page-48-image-group18-4-960x544/564/image-group18-4"
+          }
+        }
+      },
+      "cover": {
+        "case_id": "563",
+        "name": "Case 563",
+        "session": "Robotics Simulation",
+        "source_rgb": [
+          82,
+          83,
+          76
+        ],
+        "source_palette": [
+          [
+            101,
+            100,
+            92
+          ],
+          [
+            61,
+            61,
+            51
+          ],
+          [
+            20,
+            22,
+            16
+          ],
+          [
+            143,
+            148,
+            143
+          ]
+        ],
+        "rgb": [
+          82,
+          83,
+          76
+        ],
+        "palette": [
+          [
+            101,
+            100,
+            92
+          ],
+          [
+            61,
+            61,
+            51
+          ],
+          [
+            20,
+            22,
+            16
+          ],
+          [
+            143,
+            148,
+            143
+          ]
+        ],
+        "source_kind": "displayed-code-video-model",
+        "first_frame": "static/images/first-person-bubbles/563-3564adf1a1c7.png",
+        "source_video": "experiment-pairs/robotics-563-564-image-group18-4-v16/case-563-3564adf1a1c7.mp4",
+        "source_sha256": "3564adf1a1c707ccd55ae063403c92e8e4f67f4bf88508868998fa9e3f6e200f",
+        "frame": 0,
+        "alpha": 0.5
+      }
+    },
+    {
+      "id": "robotics-567-568-image-group13-4-v12",
+      "section_id": "robotics-simulation",
+      "section": "Robotics Simulation",
+      "a": "567",
+      "b": "568",
+      "batch": "reference-updates",
+      "group": "image-group13-4",
+      "version": "v12",
+      "label": "Image-Group13-4 / v12",
+      "edit_label": "Use Humanoid Robot",
+      "assets": {
+        "567": {
+          "video": "experiment-pairs/robotics-567-568-image-group13-4-v12/case-567-24e3c32843fc.mp4",
+          "sha256": "24e3c32843fcf45fcc32f4cddcd3fa55f0da1aaf48b567c0259a3cbc42303256",
+          "threejs_sha256": "fff9ff3e4699e19d51198f2a6ff7bc74daf77f96b5bf5ca882659387681805c6",
+          "origin": "reference-updated",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "source_video": "static/refresh-results/media/24e3c32843fcf45fcc32f4cddcd3fa55f0da1aaf48b567c0259a3cbc42303256.mp4",
+          "interactive_source": "567/",
+          "provenance": null
+        },
+        "568": {
+          "video": "experiment-pairs/robotics-567-568-image-group13-4-v12/case-568-4ae6a93add64.mp4",
+          "sha256": "4ae6a93add642bf9af172fd4a40bdfa74a41358260f0f9109374e39fe3708bdd",
+          "threejs_sha256": "eb438ab702b62c1566d07cf9c8a3b6cf66ab15195d100900b5eaf6daeaf7d1d7",
+          "origin": "original-experiment",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "source_video": "static/refresh-results/media/4ae6a93add642bf9af172fd4a40bdfa74a41358260f0f9109374e39fe3708bdd.mp4",
+          "interactive_source": "568/",
+          "provenance": {
+            "origin": "original-experiment",
+            "paired_updated_case": "567",
+            "paired_updated_video_sha256": "24e3c32843fcf45fcc32f4cddcd3fa55f0da1aaf48b567c0259a3cbc42303256",
+            "source_video_sha256": "eb438ab702b62c1566d07cf9c8a3b6cf66ab15195d100900b5eaf6daeaf7d1d7",
+            "effective_prompt_sha256": "6c41a965f02379f25487c2ed8780b8f3900e2316611a35e3c3053a247a885470",
+            "model_checkpoint_sha256": "feb17eb5187f04828dc8bf5910da4644e1b0439e20f6adc4e547c4380715b4ca",
+            "generation_seed": "4738974570618061307",
+            "algorithm_revision": "minimax-h3-image-groups-2026-09-06-r8",
+            "updated_algorithm_revision": "minimax-h3-image-groups-2026-09-06-r10",
+            "manifest_sha256": "e554352eb046a0435d7ab58ed65d27d9721f3c6d7f9f9a39654fda198dd51a89",
+            "updated_manifest_sha256": "43d0365ffece5968cbd758dc3e2fbfc40317a2aa46a62e743e74f70b177f5b99",
+            "original_run": "project-page-48-image-group13-4-960x544/568/image-group13-4"
+          }
+        }
+      },
+      "cover": {
+        "case_id": "567",
+        "name": "Case 567",
+        "session": "Robotics Simulation",
+        "source_rgb": [
+          109,
+          104,
+          90
+        ],
+        "source_palette": [
+          [
+            126,
+            117,
+            96
+          ],
+          [
+            89,
+            85,
+            71
+          ],
+          [
+            45,
+            45,
+            35
+          ],
+          [
+            173,
+            166,
+            153
+          ]
+        ],
+        "rgb": [
+          109,
+          104,
+          90
+        ],
+        "palette": [
+          [
+            126,
+            117,
+            96
+          ],
+          [
+            89,
+            85,
+            71
+          ],
+          [
+            45,
+            45,
+            35
+          ],
+          [
+            173,
+            166,
+            153
+          ]
+        ],
+        "source_kind": "displayed-code-video-model",
+        "first_frame": "static/images/first-person-bubbles/567-24e3c32843fc.png",
+        "source_video": "experiment-pairs/robotics-567-568-image-group13-4-v12/case-567-24e3c32843fc.mp4",
+        "source_sha256": "24e3c32843fcf45fcc32f4cddcd3fa55f0da1aaf48b567c0259a3cbc42303256",
+        "frame": 0,
+        "alpha": 0.5
+      }
+    },
+    {
+      "id": "robotics-567-568-image-group14-4-v13",
+      "section_id": "robotics-simulation",
+      "section": "Robotics Simulation",
+      "a": "567",
+      "b": "568",
+      "batch": "reference-updates",
+      "group": "image-group14-4",
+      "version": "v13",
+      "label": "Image-Group14-4 / v13",
+      "edit_label": "Use Humanoid Robot",
+      "assets": {
+        "567": {
+          "video": "experiment-pairs/robotics-567-568-image-group14-4-v13/case-567-fa6a0b83ab9b.mp4",
+          "sha256": "fa6a0b83ab9bdb78c40979fc3b701283df157e7fde8120a04f58922e1303c647",
+          "threejs_sha256": "fff9ff3e4699e19d51198f2a6ff7bc74daf77f96b5bf5ca882659387681805c6",
+          "origin": "reference-updated",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "source_video": "static/refresh-results/media/fa6a0b83ab9bdb78c40979fc3b701283df157e7fde8120a04f58922e1303c647.mp4",
+          "interactive_source": "567/",
+          "provenance": null
+        },
+        "568": {
+          "video": "experiment-pairs/robotics-567-568-image-group14-4-v13/case-568-ec5247205622.mp4",
+          "sha256": "ec524720562223bf262c851f9259cb4fd9219379e418b8491a81725f3056bbc6",
+          "threejs_sha256": "eb438ab702b62c1566d07cf9c8a3b6cf66ab15195d100900b5eaf6daeaf7d1d7",
+          "origin": "original-experiment",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "source_video": "static/refresh-results/media/ec524720562223bf262c851f9259cb4fd9219379e418b8491a81725f3056bbc6.mp4",
+          "interactive_source": "568/",
+          "provenance": {
+            "origin": "original-experiment",
+            "paired_updated_case": "567",
+            "paired_updated_video_sha256": "fa6a0b83ab9bdb78c40979fc3b701283df157e7fde8120a04f58922e1303c647",
+            "source_video_sha256": "eb438ab702b62c1566d07cf9c8a3b6cf66ab15195d100900b5eaf6daeaf7d1d7",
+            "effective_prompt_sha256": "6c41a965f02379f25487c2ed8780b8f3900e2316611a35e3c3053a247a885470",
+            "model_checkpoint_sha256": "feb17eb5187f04828dc8bf5910da4644e1b0439e20f6adc4e547c4380715b4ca",
+            "generation_seed": "4738974570618061307",
+            "algorithm_revision": "minimax-h3-image-groups-2026-09-06-r8",
+            "updated_algorithm_revision": "minimax-h3-image-groups-2026-09-06-r10",
+            "manifest_sha256": "555c6f880ce27d13a9fd8ea6af9b1a9180b2500ad613cd22f1a6f1692b6c8d1a",
+            "updated_manifest_sha256": "73fc010697563daf6a40c809786eaea9da8b036edc47c1afab403b76ed5f6869",
+            "original_run": "project-page-48-image-group14-4-960x544/568/image-group14-4"
+          }
+        }
+      },
+      "cover": {
+        "case_id": "567",
+        "name": "Case 567",
+        "session": "Robotics Simulation",
+        "source_rgb": [
+          116,
+          104,
+          92
+        ],
+        "source_palette": [
+          [
+            133,
+            119,
+            105
+          ],
+          [
+            107,
+            93,
+            79
+          ],
+          [
+            170,
+            159,
+            147
+          ],
+          [
+            51,
+            43,
+            36
+          ]
+        ],
+        "rgb": [
+          116,
+          104,
+          92
+        ],
+        "palette": [
+          [
+            133,
+            119,
+            105
+          ],
+          [
+            107,
+            93,
+            79
+          ],
+          [
+            170,
+            159,
+            147
+          ],
+          [
+            51,
+            43,
+            36
+          ]
+        ],
+        "source_kind": "displayed-code-video-model",
+        "first_frame": "static/images/first-person-bubbles/567-fa6a0b83ab9b.png",
+        "source_video": "experiment-pairs/robotics-567-568-image-group14-4-v13/case-567-fa6a0b83ab9b.mp4",
+        "source_sha256": "fa6a0b83ab9bdb78c40979fc3b701283df157e7fde8120a04f58922e1303c647",
+        "frame": 0,
+        "alpha": 0.5
+      }
+    },
+    {
+      "id": "robotics-567-568-image-group17-4-v15",
+      "section_id": "robotics-simulation",
+      "section": "Robotics Simulation",
+      "a": "567",
+      "b": "568",
+      "batch": "reference-updates",
+      "group": "image-group17-4",
+      "version": "v15",
+      "label": "Image-Group17-4 / v15",
+      "edit_label": "Use Humanoid Robot",
+      "assets": {
+        "567": {
+          "video": "experiment-pairs/robotics-567-568-image-group17-4-v15/case-567-6e5bbf7e7535.mp4",
+          "sha256": "6e5bbf7e753555fae1140fd024bfb630e9f09d00ec154eda52525f9dd6fa5e25",
+          "threejs_sha256": "fff9ff3e4699e19d51198f2a6ff7bc74daf77f96b5bf5ca882659387681805c6",
+          "origin": "reference-updated",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "source_video": "static/refresh-results/media/6e5bbf7e753555fae1140fd024bfb630e9f09d00ec154eda52525f9dd6fa5e25.mp4",
+          "interactive_source": "567/",
+          "provenance": null
+        },
+        "568": {
+          "video": "experiment-pairs/robotics-567-568-image-group17-4-v15/case-568-eaca1bd121a8.mp4",
+          "sha256": "eaca1bd121a83314b3d00acbd9a7b4dc287c539f1c5e7c867836ec4bc8bf0959",
+          "threejs_sha256": "eb438ab702b62c1566d07cf9c8a3b6cf66ab15195d100900b5eaf6daeaf7d1d7",
+          "origin": "original-experiment",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "source_video": "static/refresh-results/media/eaca1bd121a83314b3d00acbd9a7b4dc287c539f1c5e7c867836ec4bc8bf0959.mp4",
+          "interactive_source": "568/",
+          "provenance": {
+            "origin": "original-experiment",
+            "paired_updated_case": "567",
+            "paired_updated_video_sha256": "6e5bbf7e753555fae1140fd024bfb630e9f09d00ec154eda52525f9dd6fa5e25",
+            "source_video_sha256": "eb438ab702b62c1566d07cf9c8a3b6cf66ab15195d100900b5eaf6daeaf7d1d7",
+            "effective_prompt_sha256": "6c41a965f02379f25487c2ed8780b8f3900e2316611a35e3c3053a247a885470",
+            "model_checkpoint_sha256": "feb17eb5187f04828dc8bf5910da4644e1b0439e20f6adc4e547c4380715b4ca",
+            "generation_seed": "4738974570618061307",
+            "algorithm_revision": "minimax-h3-image-groups-2026-09-06-r10",
+            "updated_algorithm_revision": "minimax-h3-image-groups-2026-09-06-r10",
+            "manifest_sha256": "9ee5094e8406cd63cbc2cbf3272fdd7c9ae179c679bc88ac971e82bfaea4acd6",
+            "updated_manifest_sha256": "41ab42fae96cb1285691bf891492e89b35ba275cfe9a47adddce92fcc7af3fb9",
+            "original_run": "project-page-48-image-group17-4-960x544/568/image-group17-4"
+          }
+        }
+      },
+      "cover": {
+        "case_id": "567",
+        "name": "Case 567",
+        "session": "Robotics Simulation",
+        "source_rgb": [
+          110,
+          104,
+          101
+        ],
+        "source_palette": [
+          [
+            101,
+            96,
+            93
+          ],
+          [
+            121,
+            115,
+            113
+          ],
+          [
+            146,
+            142,
+            141
+          ],
+          [
+            71,
+            61,
+            55
+          ]
+        ],
+        "rgb": [
+          110,
+          104,
+          101
+        ],
+        "palette": [
+          [
+            101,
+            96,
+            93
+          ],
+          [
+            121,
+            115,
+            113
+          ],
+          [
+            146,
+            142,
+            141
+          ],
+          [
+            71,
+            61,
+            55
+          ]
+        ],
+        "source_kind": "displayed-code-video-model",
+        "first_frame": "static/images/first-person-bubbles/567-6e5bbf7e7535.png",
+        "source_video": "experiment-pairs/robotics-567-568-image-group17-4-v15/case-567-6e5bbf7e7535.mp4",
+        "source_sha256": "6e5bbf7e753555fae1140fd024bfb630e9f09d00ec154eda52525f9dd6fa5e25",
+        "frame": 0,
+        "alpha": 0.5
+      }
+    },
+    {
+      "id": "robotics-571-572-image-group14-4-v13",
+      "section_id": "robotics-simulation",
+      "section": "Robotics Simulation",
+      "a": "571",
+      "b": "572",
+      "batch": "reference-updates",
+      "group": "image-group14-4",
+      "version": "v13",
+      "label": "Image-Group14-4 / v13",
+      "edit_label": "Use Humanoid Robot",
+      "assets": {
+        "571": {
+          "video": "experiment-pairs/robotics-571-572-image-group14-4-v13/case-571-683c51c1780a.mp4",
+          "sha256": "683c51c1780ac45e4f3e3fa5c0f9e87db0ecc9c17ab6d41dd61f9823781b1c85",
+          "threejs_sha256": "7bd4be6fabf77b7d23b871f6bfd53edaed15e3123191d8e93d2fab3c4300b5f2",
+          "origin": "reference-updated",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "source_video": "static/refresh-results/media/683c51c1780ac45e4f3e3fa5c0f9e87db0ecc9c17ab6d41dd61f9823781b1c85.mp4",
+          "interactive_source": "571/",
+          "provenance": null
+        },
+        "572": {
+          "video": "experiment-pairs/robotics-571-572-image-group14-4-v13/case-572-a3f977235652.mp4",
+          "sha256": "a3f977235652be817906fa35b283aae2225ee2809a3ad8aab76da4d48646a1fe",
+          "threejs_sha256": "3cf36794fbe7cd42e5e446b5803cf712fe3cdc6b77d133dd284e68e504261829",
+          "origin": "original-experiment",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "source_video": "static/refresh-results/media/a3f977235652be817906fa35b283aae2225ee2809a3ad8aab76da4d48646a1fe.mp4",
+          "interactive_source": "572/",
+          "provenance": {
+            "origin": "original-experiment",
+            "paired_updated_case": "571",
+            "paired_updated_video_sha256": "683c51c1780ac45e4f3e3fa5c0f9e87db0ecc9c17ab6d41dd61f9823781b1c85",
+            "source_video_sha256": "3cf36794fbe7cd42e5e446b5803cf712fe3cdc6b77d133dd284e68e504261829",
+            "effective_prompt_sha256": "ebe4ccda3f255696c8fab512465b05827906bacc721e6a30cef7caad5949f80c",
+            "model_checkpoint_sha256": "feb17eb5187f04828dc8bf5910da4644e1b0439e20f6adc4e547c4380715b4ca",
+            "generation_seed": "4738974570618061307",
+            "algorithm_revision": "minimax-h3-image-groups-2026-09-06-r8",
+            "updated_algorithm_revision": "minimax-h3-image-groups-2026-09-06-r10",
+            "manifest_sha256": "2ef60f5d8f67b5d910af9fc78a498250b81b2acdea3c221845af79320bac134f",
+            "updated_manifest_sha256": "a347a07a9e3f4a395367de0fa7e31fb269399759c052b0b4d4bb5de78502b357",
+            "original_run": "project-page-48-image-group14-4-960x544/572/image-group14-4"
+          }
+        }
+      },
+      "cover": {
+        "case_id": "571",
+        "name": "Case 571",
+        "session": "Robotics Simulation",
+        "source_rgb": [
+          127,
+          120,
+          112
+        ],
+        "source_palette": [
+          [
+            144,
+            138,
+            130
+          ],
+          [
+            115,
+            110,
+            99
+          ],
+          [
+            74,
+            62,
+            54
+          ],
+          [
+            171,
+            167,
+            160
+          ]
+        ],
+        "rgb": [
+          127,
+          120,
+          112
+        ],
+        "palette": [
+          [
+            144,
+            138,
+            130
+          ],
+          [
+            115,
+            110,
+            99
+          ],
+          [
+            74,
+            62,
+            54
+          ],
+          [
+            171,
+            167,
+            160
+          ]
+        ],
+        "source_kind": "displayed-code-video-model",
+        "first_frame": "static/images/first-person-bubbles/571-683c51c1780a.png",
+        "source_video": "experiment-pairs/robotics-571-572-image-group14-4-v13/case-571-683c51c1780a.mp4",
+        "source_sha256": "683c51c1780ac45e4f3e3fa5c0f9e87db0ecc9c17ab6d41dd61f9823781b1c85",
+        "frame": 0,
+        "alpha": 0.5
+      }
+    },
+    {
+      "id": "robotics-group23-564-563-image-group23-4-v12",
+      "section_id": "robotics-simulation",
+      "section": "Robotics Simulation",
+      "a": "564",
+      "b": "563",
+      "batch": "group23",
+      "group": "image-group23-4",
+      "version": "v12",
+      "label": "Image-Group23-4 / v12",
+      "edit_label": "Use Quadruped Robot",
+      "assets": {
+        "564": {
+          "video": "experiment-pairs/robotics-group23-564-563-image-group23-4-v12/case-564-4b534ae51bce.mp4",
+          "sha256": "4b534ae51bced51b4ae6a724d6666565747540fb3eeee47db8d33309565ea788",
+          "threejs_video": "experiment-inputs/098346195094583822f75de8cd45c39c20f7adef01f3f487506468d1d02b8380/threejs.mp4",
+          "threejs_sha256": "098346195094583822f75de8cd45c39c20f7adef01f3f487506468d1d02b8380",
+          "interactive_source": "revisions/098346195094583822f75de8cd45c39c20f7adef01f3f487506468d1d02b8380/564/",
+          "reference_image": "experiment-inputs/098346195094583822f75de8cd45c39c20f7adef01f3f487506468d1d02b8380/reference-77db31738200752b24e801a778f5e7f4bf741519fbaa614a9108a45dd54b4b12.png",
+          "reference_sha256": "77db31738200752b24e801a778f5e7f4bf741519fbaa614a9108a45dd54b4b12",
+          "source_case_id": "v12-564",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v12-564-563",
+            "role": "anchor",
+            "group": "image-group23-4",
+            "version": "v12",
+            "source_video": "static/group23-pairs/media/4b534ae51bced51b4ae6a724d6666565747540fb3eeee47db8d33309565ea788.mp4",
+            "threejs_source": "static/group23-pairs/media/098346195094583822f75de8cd45c39c20f7adef01f3f487506468d1d02b8380.mp4"
+          }
+        },
+        "563": {
+          "video": "experiment-pairs/robotics-group23-564-563-image-group23-4-v12/case-563-29c8d446b453.mp4",
+          "sha256": "29c8d446b453157c8e32a216dda60526aa8508983e163071faf593a5bcd37579",
+          "threejs_video": "experiment-inputs/637ce1b4a67869e60549e578c390303da720c903f9e27ddb797ea0e39a720a15/threejs.mp4",
+          "threejs_sha256": "637ce1b4a67869e60549e578c390303da720c903f9e27ddb797ea0e39a720a15",
+          "interactive_source": "revisions/637ce1b4a67869e60549e578c390303da720c903f9e27ddb797ea0e39a720a15/563/",
+          "reference_image": "experiment-inputs/637ce1b4a67869e60549e578c390303da720c903f9e27ddb797ea0e39a720a15/reference-b77cf0c9e8bb19f771a1bc1ec90787787b8c5e003687c00c9141b6fcb6951594.png",
+          "reference_sha256": "b77cf0c9e8bb19f771a1bc1ec90787787b8c5e003687c00c9141b6fcb6951594",
+          "source_case_id": "v12-563",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v12-564-563",
+            "role": "variant",
+            "group": "image-group23-4",
+            "version": "v12",
+            "source_video": "static/group23-pairs/media/29c8d446b453157c8e32a216dda60526aa8508983e163071faf593a5bcd37579.mp4",
+            "threejs_source": "static/group23-pairs/media/637ce1b4a67869e60549e578c390303da720c903f9e27ddb797ea0e39a720a15.mp4"
+          }
+        }
+      },
+      "cover": {
+        "case_id": "564",
+        "name": "Case 564",
+        "session": "Robotics Simulation",
+        "source_rgb": [
+          125,
+          118,
+          103
+        ],
+        "source_palette": [
+          [
+            138,
+            129,
+            111
+          ],
+          [
+            118,
+            108,
+            88
+          ],
+          [
+            178,
+            172,
+            160
+          ],
+          [
+            63,
+            60,
+            47
+          ]
+        ],
+        "rgb": [
+          125,
+          118,
+          103
+        ],
+        "palette": [
+          [
+            138,
+            129,
+            111
+          ],
+          [
+            118,
+            108,
+            88
+          ],
+          [
+            178,
+            172,
+            160
+          ],
+          [
+            63,
+            60,
+            47
+          ]
+        ],
+        "source_kind": "displayed-code-video-model",
+        "first_frame": "static/images/first-person-bubbles/564-4b534ae51bce.png",
+        "source_video": "experiment-pairs/robotics-group23-564-563-image-group23-4-v12/case-564-4b534ae51bce.mp4",
+        "source_sha256": "4b534ae51bced51b4ae6a724d6666565747540fb3eeee47db8d33309565ea788",
+        "frame": 0,
+        "alpha": 0.5
+      }
+    },
+    {
+      "id": "robotics-group23-564-563-image-group23-2-v13",
+      "section_id": "robotics-simulation",
+      "section": "Robotics Simulation",
+      "a": "564",
+      "b": "563",
+      "batch": "group23",
+      "group": "image-group23-2",
+      "version": "v13",
+      "label": "Image-Group23-2 / v13",
+      "edit_label": "Use Quadruped Robot",
+      "assets": {
+        "564": {
+          "video": "experiment-pairs/robotics-group23-564-563-image-group23-2-v13/case-564-2bdfbe4b1b13.mp4",
+          "sha256": "2bdfbe4b1b132f43b80f6e8e31334b610d562e6c7f8f8883af5a4e4de156223b",
+          "threejs_video": "experiment-inputs/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834/threejs.mp4",
+          "threejs_sha256": "a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834",
+          "interactive_source": "revisions/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834/564/",
+          "reference_image": "experiment-inputs/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834/reference-b6c4108b2a930e24a9f09ec91f9b42eca74e38fbad48ef415aae24c98f903ae9.png",
+          "reference_sha256": "b6c4108b2a930e24a9f09ec91f9b42eca74e38fbad48ef415aae24c98f903ae9",
+          "source_case_id": "v13-564",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v13-564-563",
+            "role": "anchor",
+            "group": "image-group23-2",
+            "version": "v13",
+            "source_video": "static/group23-pairs/media/2bdfbe4b1b132f43b80f6e8e31334b610d562e6c7f8f8883af5a4e4de156223b.mp4",
+            "threejs_source": "static/group23-pairs/media/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834.mp4"
+          }
+        },
+        "563": {
+          "video": "experiment-pairs/robotics-group23-564-563-image-group23-2-v13/case-563-b8a23ca6efc4.mp4",
+          "sha256": "b8a23ca6efc40aba5df94e9a9601af1897044f2edb1a1d8edd76383d053d8d76",
+          "threejs_video": "experiment-inputs/254888291a343e47b34f855af274a89850641ef2aeb01e65f742e73f9fbedf3a/threejs.mp4",
+          "threejs_sha256": "254888291a343e47b34f855af274a89850641ef2aeb01e65f742e73f9fbedf3a",
+          "interactive_source": "revisions/254888291a343e47b34f855af274a89850641ef2aeb01e65f742e73f9fbedf3a/563/",
+          "reference_image": "experiment-inputs/254888291a343e47b34f855af274a89850641ef2aeb01e65f742e73f9fbedf3a/reference-8537c76bf1ba2acc8274be93b9180ed4785377ebdd98da8d4ab9f6b6034e9470.png",
+          "reference_sha256": "8537c76bf1ba2acc8274be93b9180ed4785377ebdd98da8d4ab9f6b6034e9470",
+          "source_case_id": "v13-563",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v13-564-563",
+            "role": "variant",
+            "group": "image-group23-2",
+            "version": "v13",
+            "source_video": "static/group23-pairs/media/b8a23ca6efc40aba5df94e9a9601af1897044f2edb1a1d8edd76383d053d8d76.mp4",
+            "threejs_source": "static/group23-pairs/media/254888291a343e47b34f855af274a89850641ef2aeb01e65f742e73f9fbedf3a.mp4"
+          }
+        }
+      },
+      "cover": {
+        "case_id": "564",
+        "name": "Case 564",
+        "session": "Robotics Simulation",
+        "source_rgb": [
+          113,
+          113,
+          105
+        ],
+        "source_palette": [
+          [
+            90,
+            90,
+            81
+          ],
+          [
+            141,
+            139,
+            128
+          ],
+          [
+            198,
+            195,
+            186
+          ],
+          [
+            24,
+            28,
+            25
+          ]
+        ],
+        "rgb": [
+          113,
+          113,
+          105
+        ],
+        "palette": [
+          [
+            90,
+            90,
+            81
+          ],
+          [
+            141,
+            139,
+            128
+          ],
+          [
+            198,
+            195,
+            186
+          ],
+          [
+            24,
+            28,
+            25
+          ]
+        ],
+        "source_kind": "displayed-code-video-model",
+        "first_frame": "static/images/first-person-bubbles/564-2bdfbe4b1b13.png",
+        "source_video": "experiment-pairs/robotics-group23-564-563-image-group23-2-v13/case-564-2bdfbe4b1b13.mp4",
+        "source_sha256": "2bdfbe4b1b132f43b80f6e8e31334b610d562e6c7f8f8883af5a4e4de156223b",
+        "frame": 0,
+        "alpha": 0.5
+      }
+    },
+    {
+      "id": "robotics-group23-564-563-image-group23-4-v15",
+      "section_id": "robotics-simulation",
+      "section": "Robotics Simulation",
+      "a": "564",
+      "b": "563",
+      "batch": "group23",
+      "group": "image-group23-4",
+      "version": "v15",
+      "label": "Image-Group23-4 / v15",
+      "edit_label": "Use Quadruped Robot",
+      "assets": {
+        "564": {
+          "video": "experiment-pairs/robotics-group23-564-563-image-group23-4-v15/case-564-026f839ca680.mp4",
+          "sha256": "026f839ca680b6b8c2b7127fae6c1b67e414ad16537bc7a3827b98934dc4fda8",
+          "threejs_video": "experiment-inputs/91213a937c33a618f4db842215170e326c1c7d15606fe5626a6fb3c4863712bb/threejs.mp4",
+          "threejs_sha256": "91213a937c33a618f4db842215170e326c1c7d15606fe5626a6fb3c4863712bb",
+          "interactive_source": "revisions/91213a937c33a618f4db842215170e326c1c7d15606fe5626a6fb3c4863712bb/564/",
+          "reference_image": "experiment-inputs/91213a937c33a618f4db842215170e326c1c7d15606fe5626a6fb3c4863712bb/reference-b9249ae09caca8ee15d3c28621b40589874eac541162e08c83af6a1c1610ab36.png",
+          "reference_sha256": "b9249ae09caca8ee15d3c28621b40589874eac541162e08c83af6a1c1610ab36",
+          "source_case_id": "v15-564",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v15-564-563",
+            "role": "anchor",
+            "group": "image-group23-4",
+            "version": "v15",
+            "source_video": "static/group23-pairs/media/026f839ca680b6b8c2b7127fae6c1b67e414ad16537bc7a3827b98934dc4fda8.mp4",
+            "threejs_source": "static/group23-pairs/media/91213a937c33a618f4db842215170e326c1c7d15606fe5626a6fb3c4863712bb.mp4"
+          }
+        },
+        "563": {
+          "video": "experiment-pairs/robotics-group23-564-563-image-group23-4-v15/case-563-92bae22b754e.mp4",
+          "sha256": "92bae22b754e29042b62f54aeead8a1ce9a4d7a30249a73336499c21a0395269",
+          "threejs_video": "experiment-inputs/d2e835d8a7099ac34a06c1c95cd3ff21ea763d4a561bac516f1e26baa3c5229d/threejs.mp4",
+          "threejs_sha256": "d2e835d8a7099ac34a06c1c95cd3ff21ea763d4a561bac516f1e26baa3c5229d",
+          "interactive_source": "revisions/d2e835d8a7099ac34a06c1c95cd3ff21ea763d4a561bac516f1e26baa3c5229d/563/",
+          "reference_image": "experiment-inputs/d2e835d8a7099ac34a06c1c95cd3ff21ea763d4a561bac516f1e26baa3c5229d/reference-83e1d512dffdb8fa3b027262a68bc184db9a32c2a5e7ebebdffc840045b97da8.png",
+          "reference_sha256": "83e1d512dffdb8fa3b027262a68bc184db9a32c2a5e7ebebdffc840045b97da8",
+          "source_case_id": "v15-563",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v15-564-563",
+            "role": "variant",
+            "group": "image-group23-4",
+            "version": "v15",
+            "source_video": "static/group23-pairs/media/92bae22b754e29042b62f54aeead8a1ce9a4d7a30249a73336499c21a0395269.mp4",
+            "threejs_source": "static/group23-pairs/media/d2e835d8a7099ac34a06c1c95cd3ff21ea763d4a561bac516f1e26baa3c5229d.mp4"
+          }
+        }
+      },
+      "cover": {
+        "case_id": "564",
+        "name": "Case 564",
+        "session": "Robotics Simulation",
+        "source_rgb": [
+          78,
+          78,
+          76
+        ],
+        "source_palette": [
+          [
+            95,
+            91,
+            84
+          ],
+          [
+            69,
+            64,
+            58
+          ],
+          [
+            14,
+            14,
+            14
+          ],
+          [
+            132,
+            140,
+            144
+          ]
+        ],
+        "rgb": [
+          78,
+          78,
+          76
+        ],
+        "palette": [
+          [
+            95,
+            91,
+            84
+          ],
+          [
+            69,
+            64,
+            58
+          ],
+          [
+            14,
+            14,
+            14
+          ],
+          [
+            132,
+            140,
+            144
+          ]
+        ],
+        "source_kind": "displayed-code-video-model",
+        "first_frame": "static/images/first-person-bubbles/564-026f839ca680.png",
+        "source_video": "experiment-pairs/robotics-group23-564-563-image-group23-4-v15/case-564-026f839ca680.mp4",
+        "source_sha256": "026f839ca680b6b8c2b7127fae6c1b67e414ad16537bc7a3827b98934dc4fda8",
+        "frame": 0,
+        "alpha": 0.5
+      }
+    },
+    {
+      "id": "robotics-group23-564-563-image-group23-2-v20",
+      "section_id": "robotics-simulation",
+      "section": "Robotics Simulation",
+      "a": "564",
+      "b": "563",
+      "batch": "group23",
+      "group": "image-group23-2",
+      "version": "v20",
+      "label": "Image-Group23-2 / v20",
+      "edit_label": "Use Quadruped Robot",
+      "assets": {
+        "564": {
+          "video": "experiment-pairs/robotics-group23-564-563-image-group23-2-v20/case-564-648c311cd6c6.mp4",
+          "sha256": "648c311cd6c63dd18c55782a8f053236b9ed7c058ce4f3b978f43eed821d1bd1",
+          "threejs_video": "experiment-inputs/15a6833f45f19768dcb71c97d56dbd56bdc19a4048efb2e3f97d563e4a70b3c8/threejs.mp4",
+          "threejs_sha256": "15a6833f45f19768dcb71c97d56dbd56bdc19a4048efb2e3f97d563e4a70b3c8",
+          "interactive_source": "revisions/15a6833f45f19768dcb71c97d56dbd56bdc19a4048efb2e3f97d563e4a70b3c8/564/",
+          "reference_image": "experiment-inputs/15a6833f45f19768dcb71c97d56dbd56bdc19a4048efb2e3f97d563e4a70b3c8/reference-1581693fad5ede7e1f3367353b2c1628c970e988e6a7509573a32d881dc5fff6.png",
+          "reference_sha256": "1581693fad5ede7e1f3367353b2c1628c970e988e6a7509573a32d881dc5fff6",
+          "source_case_id": "v20-564",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v20-564-563",
+            "role": "anchor",
+            "group": "image-group23-2",
+            "version": "v20",
+            "source_video": "static/group23-pairs/media/648c311cd6c63dd18c55782a8f053236b9ed7c058ce4f3b978f43eed821d1bd1.mp4",
+            "threejs_source": "static/group23-pairs/media/15a6833f45f19768dcb71c97d56dbd56bdc19a4048efb2e3f97d563e4a70b3c8.mp4"
+          }
+        },
+        "563": {
+          "video": "experiment-pairs/robotics-group23-564-563-image-group23-2-v20/case-563-15b4e2c232ff.mp4",
+          "sha256": "15b4e2c232ff4c5e3fdedbad6a914fb50d20d992247de6f8d591b4cfe27e167f",
+          "threejs_video": "experiment-inputs/edad884840c7cbe1c5d5918add8b6bca659263aa3e5111e036386b1fb55079ee/threejs.mp4",
+          "threejs_sha256": "edad884840c7cbe1c5d5918add8b6bca659263aa3e5111e036386b1fb55079ee",
+          "interactive_source": "revisions/edad884840c7cbe1c5d5918add8b6bca659263aa3e5111e036386b1fb55079ee/563/",
+          "reference_image": "experiment-inputs/edad884840c7cbe1c5d5918add8b6bca659263aa3e5111e036386b1fb55079ee/reference-48290b3f0d0ec895074c073379a6b7e9fb610e29b5e8e197f7bbb9fc841904c7.png",
+          "reference_sha256": "48290b3f0d0ec895074c073379a6b7e9fb610e29b5e8e197f7bbb9fc841904c7",
+          "source_case_id": "v20-563",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v20-564-563",
+            "role": "variant",
+            "group": "image-group23-2",
+            "version": "v20",
+            "source_video": "static/group23-pairs/media/15b4e2c232ff4c5e3fdedbad6a914fb50d20d992247de6f8d591b4cfe27e167f.mp4",
+            "threejs_source": "static/group23-pairs/media/edad884840c7cbe1c5d5918add8b6bca659263aa3e5111e036386b1fb55079ee.mp4"
+          }
+        }
+      },
+      "cover": {
+        "case_id": "564",
+        "name": "Case 564",
+        "session": "Robotics Simulation",
+        "source_rgb": [
+          84,
+          86,
+          90
+        ],
+        "source_palette": [
+          [
+            105,
+            106,
+            110
+          ],
+          [
+            63,
+            63,
+            66
+          ],
+          [
+            14,
+            15,
+            19
+          ],
+          [
+            154,
+            157,
+            162
+          ]
+        ],
+        "rgb": [
+          84,
+          86,
+          90
+        ],
+        "palette": [
+          [
+            105,
+            106,
+            110
+          ],
+          [
+            63,
+            63,
+            66
+          ],
+          [
+            14,
+            15,
+            19
+          ],
+          [
+            154,
+            157,
+            162
+          ]
+        ],
+        "source_kind": "displayed-code-video-model",
+        "first_frame": "static/images/first-person-bubbles/564-648c311cd6c6.png",
+        "source_video": "experiment-pairs/robotics-group23-564-563-image-group23-2-v20/case-564-648c311cd6c6.mp4",
+        "source_sha256": "648c311cd6c63dd18c55782a8f053236b9ed7c058ce4f3b978f43eed821d1bd1",
+        "frame": 0,
+        "alpha": 0.5
+      }
+    },
+    {
+      "id": "robotics-group23-568-567-image-group23-2-v12",
+      "section_id": "robotics-simulation",
+      "section": "Robotics Simulation",
+      "a": "568",
+      "b": "567",
+      "batch": "group23",
+      "group": "image-group23-2",
+      "version": "v12",
+      "label": "Image-Group23-2 / v12",
+      "edit_label": "Use Quadruped Robot",
+      "assets": {
+        "568": {
+          "video": "experiment-pairs/robotics-group23-568-567-image-group23-2-v12/case-568-dff10f50afb1.mp4",
+          "sha256": "dff10f50afb143ce7d9d7a486db333a3cdc7865cbbc3d11698a725dc1d06f2e5",
+          "threejs_video": "experiment-inputs/7bdc5ecf7f9e00dc577b47572a29131adc084e905d30420b0850104c46f0cc32/threejs.mp4",
+          "threejs_sha256": "7bdc5ecf7f9e00dc577b47572a29131adc084e905d30420b0850104c46f0cc32",
+          "interactive_source": "revisions/7bdc5ecf7f9e00dc577b47572a29131adc084e905d30420b0850104c46f0cc32/568/",
+          "reference_image": "experiment-inputs/7bdc5ecf7f9e00dc577b47572a29131adc084e905d30420b0850104c46f0cc32/reference-d36acf3aa5a21e6d88b02017373a78edac6c43e2c19ca068318230d390efcacc.png",
+          "reference_sha256": "d36acf3aa5a21e6d88b02017373a78edac6c43e2c19ca068318230d390efcacc",
+          "source_case_id": "v12-568",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v12-568-567",
+            "role": "anchor",
+            "group": "image-group23-2",
+            "version": "v12",
+            "source_video": "static/group23-pairs/media/dff10f50afb143ce7d9d7a486db333a3cdc7865cbbc3d11698a725dc1d06f2e5.mp4",
+            "threejs_source": "static/group23-pairs/media/7bdc5ecf7f9e00dc577b47572a29131adc084e905d30420b0850104c46f0cc32.mp4"
+          }
+        },
+        "567": {
+          "video": "experiment-pairs/robotics-group23-568-567-image-group23-2-v12/case-567-210a217ca785.mp4",
+          "sha256": "210a217ca7856cd2d81129bf5577f87a9b580b95f48aa2c42c8eba6c66ddc0d3",
+          "threejs_video": "experiment-inputs/8963c62714302b074d6a566ab5fa36348107a0919b64c5cef88ab4f7b60dbe3f/threejs.mp4",
+          "threejs_sha256": "8963c62714302b074d6a566ab5fa36348107a0919b64c5cef88ab4f7b60dbe3f",
+          "interactive_source": "revisions/8963c62714302b074d6a566ab5fa36348107a0919b64c5cef88ab4f7b60dbe3f/567/",
+          "reference_image": "experiment-inputs/8963c62714302b074d6a566ab5fa36348107a0919b64c5cef88ab4f7b60dbe3f/reference-86e3c9dcd12e1052a0345d9a02c4bdfa64a7e749d92727a057175f65789ffab7.png",
+          "reference_sha256": "86e3c9dcd12e1052a0345d9a02c4bdfa64a7e749d92727a057175f65789ffab7",
+          "source_case_id": "v12-567",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v12-568-567",
+            "role": "variant",
+            "group": "image-group23-2",
+            "version": "v12",
+            "source_video": "static/group23-pairs/media/210a217ca7856cd2d81129bf5577f87a9b580b95f48aa2c42c8eba6c66ddc0d3.mp4",
+            "threejs_source": "static/group23-pairs/media/8963c62714302b074d6a566ab5fa36348107a0919b64c5cef88ab4f7b60dbe3f.mp4"
+          }
+        }
+      },
+      "cover": {
+        "case_id": "568",
+        "name": "Case 568",
+        "session": "Robotics Simulation",
+        "source_rgb": [
+          105,
+          103,
+          93
+        ],
+        "source_palette": [
+          [
+            82,
+            83,
+            72
+          ],
+          [
+            116,
+            113,
+            100
+          ],
+          [
+            180,
+            175,
+            164
+          ],
+          [
+            39,
+            39,
+            32
+          ]
+        ],
+        "rgb": [
+          105,
+          103,
+          93
+        ],
+        "palette": [
+          [
+            82,
+            83,
+            72
+          ],
+          [
+            116,
+            113,
+            100
+          ],
+          [
+            180,
+            175,
+            164
+          ],
+          [
+            39,
+            39,
+            32
+          ]
+        ],
+        "source_kind": "displayed-code-video-model",
+        "first_frame": "static/images/first-person-bubbles/568-dff10f50afb1.png",
+        "source_video": "experiment-pairs/robotics-group23-568-567-image-group23-2-v12/case-568-dff10f50afb1.mp4",
+        "source_sha256": "dff10f50afb143ce7d9d7a486db333a3cdc7865cbbc3d11698a725dc1d06f2e5",
+        "frame": 0,
+        "alpha": 0.5
+      }
+    },
+    {
+      "id": "robotics-group23-568-567-image-group23-2-v13",
+      "section_id": "robotics-simulation",
+      "section": "Robotics Simulation",
+      "a": "568",
+      "b": "567",
+      "batch": "group23",
+      "group": "image-group23-2",
+      "version": "v13",
+      "label": "Image-Group23-2 / v13",
+      "edit_label": "Use Quadruped Robot",
+      "assets": {
+        "568": {
+          "video": "experiment-pairs/robotics-group23-568-567-image-group23-2-v13/case-568-c2fcd67d8b7b.mp4",
+          "sha256": "c2fcd67d8b7b56b26662c1c802a6cdde6bb1a1719c39c1c50dc30c72ca1fe05b",
+          "threejs_video": "experiment-inputs/9bcd426f43f9d06446e0d4ad1652f4c634bb664a7378f7bd71e2bdf06b1af026/threejs.mp4",
+          "threejs_sha256": "9bcd426f43f9d06446e0d4ad1652f4c634bb664a7378f7bd71e2bdf06b1af026",
+          "interactive_source": "revisions/9bcd426f43f9d06446e0d4ad1652f4c634bb664a7378f7bd71e2bdf06b1af026/568/",
+          "reference_image": "experiment-inputs/9bcd426f43f9d06446e0d4ad1652f4c634bb664a7378f7bd71e2bdf06b1af026/reference-0fa076e460770ce61d0d8c104d5819321b53a6289247d2481304010ca3bb0340.png",
+          "reference_sha256": "0fa076e460770ce61d0d8c104d5819321b53a6289247d2481304010ca3bb0340",
+          "source_case_id": "v13-568",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v13-568-567",
+            "role": "anchor",
+            "group": "image-group23-2",
+            "version": "v13",
+            "source_video": "static/group23-pairs/media/c2fcd67d8b7b56b26662c1c802a6cdde6bb1a1719c39c1c50dc30c72ca1fe05b.mp4",
+            "threejs_source": "static/group23-pairs/media/9bcd426f43f9d06446e0d4ad1652f4c634bb664a7378f7bd71e2bdf06b1af026.mp4"
+          }
+        },
+        "567": {
+          "video": "experiment-pairs/robotics-group23-568-567-image-group23-2-v13/case-567-2766c374768b.mp4",
+          "sha256": "2766c374768bb4cc6ea4a619f7e15faa6ef3e7927c277e77c3b3407369f74d15",
+          "threejs_video": "experiment-inputs/49208e17f26dd189d65937431dbfc4ea0cff9a32ed388128df59b203c87fd2d5/threejs.mp4",
+          "threejs_sha256": "49208e17f26dd189d65937431dbfc4ea0cff9a32ed388128df59b203c87fd2d5",
+          "interactive_source": "revisions/49208e17f26dd189d65937431dbfc4ea0cff9a32ed388128df59b203c87fd2d5/567/",
+          "reference_image": "experiment-inputs/49208e17f26dd189d65937431dbfc4ea0cff9a32ed388128df59b203c87fd2d5/reference-17153e25f3cee4d8b1bc102852517ef6aca9cc94eb406b31e4af7c6a4ac9380f.png",
+          "reference_sha256": "17153e25f3cee4d8b1bc102852517ef6aca9cc94eb406b31e4af7c6a4ac9380f",
+          "source_case_id": "v13-567",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v13-568-567",
+            "role": "variant",
+            "group": "image-group23-2",
+            "version": "v13",
+            "source_video": "static/group23-pairs/media/2766c374768bb4cc6ea4a619f7e15faa6ef3e7927c277e77c3b3407369f74d15.mp4",
+            "threejs_source": "static/group23-pairs/media/49208e17f26dd189d65937431dbfc4ea0cff9a32ed388128df59b203c87fd2d5.mp4"
+          }
+        }
+      },
+      "cover": {
+        "case_id": "568",
+        "name": "Case 568",
+        "session": "Robotics Simulation",
+        "source_rgb": [
+          117,
+          105,
+          92
+        ],
+        "source_palette": [
+          [
+            133,
+            118,
+            103
+          ],
+          [
+            107,
+            93,
+            79
+          ],
+          [
+            52,
+            45,
+            37
+          ],
+          [
+            170,
+            158,
+            145
+          ]
+        ],
+        "rgb": [
+          117,
+          105,
+          92
+        ],
+        "palette": [
+          [
+            133,
+            118,
+            103
+          ],
+          [
+            107,
+            93,
+            79
+          ],
+          [
+            52,
+            45,
+            37
+          ],
+          [
+            170,
+            158,
+            145
+          ]
+        ],
+        "source_kind": "displayed-code-video-model",
+        "first_frame": "static/images/first-person-bubbles/568-c2fcd67d8b7b.png",
+        "source_video": "experiment-pairs/robotics-group23-568-567-image-group23-2-v13/case-568-c2fcd67d8b7b.mp4",
+        "source_sha256": "c2fcd67d8b7b56b26662c1c802a6cdde6bb1a1719c39c1c50dc30c72ca1fe05b",
+        "frame": 0,
+        "alpha": 0.5
+      }
+    },
+    {
+      "id": "robotics-group23-568-567-image-group23-2-v15",
+      "section_id": "robotics-simulation",
+      "section": "Robotics Simulation",
+      "a": "568",
+      "b": "567",
+      "batch": "group23",
+      "group": "image-group23-2",
+      "version": "v15",
+      "label": "Image-Group23-2 / v15",
+      "edit_label": "Use Quadruped Robot",
+      "assets": {
+        "568": {
+          "video": "experiment-pairs/robotics-group23-568-567-image-group23-2-v15/case-568-002e1aa8527b.mp4",
+          "sha256": "002e1aa8527b357468714d114474f191f064c149b9108f7e874ec3166e3a91ef",
+          "threejs_video": "experiment-inputs/71d8b38135cac130e0d092a2fc943a3c4816a6660eb6acdb5aa3cfe5ecd98ecc/threejs.mp4",
+          "threejs_sha256": "71d8b38135cac130e0d092a2fc943a3c4816a6660eb6acdb5aa3cfe5ecd98ecc",
+          "interactive_source": "revisions/71d8b38135cac130e0d092a2fc943a3c4816a6660eb6acdb5aa3cfe5ecd98ecc/568/",
+          "reference_image": "experiment-inputs/71d8b38135cac130e0d092a2fc943a3c4816a6660eb6acdb5aa3cfe5ecd98ecc/reference-da71b58d5386a78c20baab7ea60faf65efdc09cc868f13415c4b4f7ad96a02d5.png",
+          "reference_sha256": "da71b58d5386a78c20baab7ea60faf65efdc09cc868f13415c4b4f7ad96a02d5",
+          "source_case_id": "v15-568",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v15-568-567",
+            "role": "anchor",
+            "group": "image-group23-2",
+            "version": "v15",
+            "source_video": "static/group23-pairs/media/002e1aa8527b357468714d114474f191f064c149b9108f7e874ec3166e3a91ef.mp4",
+            "threejs_source": "static/group23-pairs/media/71d8b38135cac130e0d092a2fc943a3c4816a6660eb6acdb5aa3cfe5ecd98ecc.mp4"
+          }
+        },
+        "567": {
+          "video": "experiment-pairs/robotics-group23-568-567-image-group23-2-v15/case-567-3f245483f214.mp4",
+          "sha256": "3f245483f214a43da63b4e50dee46c482adfca7f77620966be2d5dc33df59387",
+          "threejs_video": "experiment-inputs/8423cfc14b1fce709f18228afcf7a8918f815832d58196d97f67ecedb0cea8e3/threejs.mp4",
+          "threejs_sha256": "8423cfc14b1fce709f18228afcf7a8918f815832d58196d97f67ecedb0cea8e3",
+          "interactive_source": "revisions/8423cfc14b1fce709f18228afcf7a8918f815832d58196d97f67ecedb0cea8e3/567/",
+          "reference_image": "experiment-inputs/8423cfc14b1fce709f18228afcf7a8918f815832d58196d97f67ecedb0cea8e3/reference-5fdb8e320639bca135e63dbad6ac95b480ed7147d842326170bf25dae6695228.png",
+          "reference_sha256": "5fdb8e320639bca135e63dbad6ac95b480ed7147d842326170bf25dae6695228",
+          "source_case_id": "v15-567",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v15-568-567",
+            "role": "variant",
+            "group": "image-group23-2",
+            "version": "v15",
+            "source_video": "static/group23-pairs/media/3f245483f214a43da63b4e50dee46c482adfca7f77620966be2d5dc33df59387.mp4",
+            "threejs_source": "static/group23-pairs/media/8423cfc14b1fce709f18228afcf7a8918f815832d58196d97f67ecedb0cea8e3.mp4"
+          }
+        }
+      },
+      "cover": {
+        "case_id": "568",
+        "name": "Case 568",
+        "session": "Robotics Simulation",
+        "source_rgb": [
+          110,
+          105,
+          102
+        ],
+        "source_palette": [
+          [
+            102,
+            97,
+            94
+          ],
+          [
+            123,
+            117,
+            114
+          ],
+          [
+            146,
+            143,
+            142
+          ],
+          [
+            70,
+            61,
+            57
+          ]
+        ],
+        "rgb": [
+          110,
+          105,
+          102
+        ],
+        "palette": [
+          [
+            102,
+            97,
+            94
+          ],
+          [
+            123,
+            117,
+            114
+          ],
+          [
+            146,
+            143,
+            142
+          ],
+          [
+            70,
+            61,
+            57
+          ]
+        ],
+        "source_kind": "displayed-code-video-model",
+        "first_frame": "static/images/first-person-bubbles/568-002e1aa8527b.png",
+        "source_video": "experiment-pairs/robotics-group23-568-567-image-group23-2-v15/case-568-002e1aa8527b.mp4",
+        "source_sha256": "002e1aa8527b357468714d114474f191f064c149b9108f7e874ec3166e3a91ef",
+        "frame": 0,
+        "alpha": 0.5
+      }
+    },
+    {
+      "id": "robotics-group23-572-571-image-group23-4-v12",
+      "section_id": "robotics-simulation",
+      "section": "Robotics Simulation",
+      "a": "572",
+      "b": "571",
+      "batch": "group23",
+      "group": "image-group23-4",
+      "version": "v12",
+      "label": "Image-Group23-4 / v12",
+      "edit_label": "Use Quadruped Robot",
+      "assets": {
+        "572": {
+          "video": "experiment-pairs/robotics-group23-572-571-image-group23-4-v12/case-572-70dbb5527fa2.mp4",
+          "sha256": "70dbb5527fa2515798521d4f8cdbc61b4c2b536ebc1676722ce684a7c7b1107b",
+          "threejs_video": "experiment-inputs/576e100df58e9c4e2c25680fa3c90e1fb25c40138832259b385c0c56eef46a1a/threejs.mp4",
+          "threejs_sha256": "576e100df58e9c4e2c25680fa3c90e1fb25c40138832259b385c0c56eef46a1a",
+          "interactive_source": "revisions/576e100df58e9c4e2c25680fa3c90e1fb25c40138832259b385c0c56eef46a1a/572/",
+          "reference_image": "experiment-inputs/576e100df58e9c4e2c25680fa3c90e1fb25c40138832259b385c0c56eef46a1a/reference-d69b7f5bb78ea771525ee5393ecfa18e92c538009a51ed5107b6a3ff3a0134d9.png",
+          "reference_sha256": "d69b7f5bb78ea771525ee5393ecfa18e92c538009a51ed5107b6a3ff3a0134d9",
+          "source_case_id": "v12-572",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v12-572-571",
+            "role": "anchor",
+            "group": "image-group23-4",
+            "version": "v12",
+            "source_video": "static/group23-pairs/media/70dbb5527fa2515798521d4f8cdbc61b4c2b536ebc1676722ce684a7c7b1107b.mp4",
+            "threejs_source": "static/group23-pairs/media/576e100df58e9c4e2c25680fa3c90e1fb25c40138832259b385c0c56eef46a1a.mp4"
+          }
+        },
+        "571": {
+          "video": "experiment-pairs/robotics-group23-572-571-image-group23-4-v12/case-571-272d59d472fe.mp4",
+          "sha256": "272d59d472fe0ab2e423f1c6249c4e11185cac7bbd77928022d6316591dc4026",
+          "threejs_video": "experiment-inputs/bba48b0e5518442cc46cdd51f15ce77b467cb32254c251fa39240dbe94d4a8a1/threejs.mp4",
+          "threejs_sha256": "bba48b0e5518442cc46cdd51f15ce77b467cb32254c251fa39240dbe94d4a8a1",
+          "interactive_source": "revisions/bba48b0e5518442cc46cdd51f15ce77b467cb32254c251fa39240dbe94d4a8a1/571/",
+          "reference_image": "experiment-inputs/bba48b0e5518442cc46cdd51f15ce77b467cb32254c251fa39240dbe94d4a8a1/reference-e8e85b650c3e3b6773749fff6fb9dfadcebc536e546c1f6ba6e5d6f5ff62802e.png",
+          "reference_sha256": "e8e85b650c3e3b6773749fff6fb9dfadcebc536e546c1f6ba6e5d6f5ff62802e",
+          "source_case_id": "v12-571",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v12-572-571",
+            "role": "variant",
+            "group": "image-group23-4",
+            "version": "v12",
+            "source_video": "static/group23-pairs/media/272d59d472fe0ab2e423f1c6249c4e11185cac7bbd77928022d6316591dc4026.mp4",
+            "threejs_source": "static/group23-pairs/media/bba48b0e5518442cc46cdd51f15ce77b467cb32254c251fa39240dbe94d4a8a1.mp4"
+          }
+        }
+      },
+      "cover": {
+        "case_id": "572",
+        "name": "Case 572",
+        "session": "Robotics Simulation",
+        "source_rgb": [
+          127,
+          119,
+          108
+        ],
+        "source_palette": [
+          [
+            155,
+            147,
+            135
+          ],
+          [
+            186,
+            177,
+            162
+          ],
+          [
+            109,
+            105,
+            97
+          ],
+          [
+            53,
+            47,
+            37
+          ]
+        ],
+        "rgb": [
+          127,
+          119,
+          108
+        ],
+        "palette": [
+          [
+            155,
+            147,
+            135
+          ],
+          [
+            186,
+            177,
+            162
+          ],
+          [
+            109,
+            105,
+            97
+          ],
+          [
+            53,
+            47,
+            37
+          ]
+        ],
+        "source_kind": "displayed-code-video-model",
+        "first_frame": "static/images/first-person-bubbles/572-70dbb5527fa2.png",
+        "source_video": "experiment-pairs/robotics-group23-572-571-image-group23-4-v12/case-572-70dbb5527fa2.mp4",
+        "source_sha256": "70dbb5527fa2515798521d4f8cdbc61b4c2b536ebc1676722ce684a7c7b1107b",
+        "frame": 0,
+        "alpha": 0.5
+      }
+    },
+    {
+      "id": "robotics-group23-572-571-image-group23-2-v13",
+      "section_id": "robotics-simulation",
+      "section": "Robotics Simulation",
+      "a": "572",
+      "b": "571",
+      "batch": "group23",
+      "group": "image-group23-2",
+      "version": "v13",
+      "label": "Image-Group23-2 / v13",
+      "edit_label": "Use Quadruped Robot",
+      "assets": {
+        "572": {
+          "video": "experiment-pairs/robotics-group23-572-571-image-group23-2-v13/case-572-b33fc0fb9f2c.mp4",
+          "sha256": "b33fc0fb9f2c105976b42432b0cff8a1003342df9c9ff62080a6322add4a5a0a",
+          "threejs_video": "experiment-inputs/ca91df2135ebab42023e96ccc3f739f6ecaa5879b5f3ea582fdd5871eb72e9f8/threejs.mp4",
+          "threejs_sha256": "ca91df2135ebab42023e96ccc3f739f6ecaa5879b5f3ea582fdd5871eb72e9f8",
+          "interactive_source": "revisions/ca91df2135ebab42023e96ccc3f739f6ecaa5879b5f3ea582fdd5871eb72e9f8/572/",
+          "reference_image": "experiment-inputs/ca91df2135ebab42023e96ccc3f739f6ecaa5879b5f3ea582fdd5871eb72e9f8/reference-8aec90c19a5e777f0c8f73946eb72070765ef78f91536c22d2afdd7a61756ae0.png",
+          "reference_sha256": "8aec90c19a5e777f0c8f73946eb72070765ef78f91536c22d2afdd7a61756ae0",
+          "source_case_id": "v13-572",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v13-572-571",
+            "role": "anchor",
+            "group": "image-group23-2",
+            "version": "v13",
+            "source_video": "static/group23-pairs/media/b33fc0fb9f2c105976b42432b0cff8a1003342df9c9ff62080a6322add4a5a0a.mp4",
+            "threejs_source": "static/group23-pairs/media/ca91df2135ebab42023e96ccc3f739f6ecaa5879b5f3ea582fdd5871eb72e9f8.mp4"
+          }
+        },
+        "571": {
+          "video": "experiment-pairs/robotics-group23-572-571-image-group23-2-v13/case-571-8157e7238605.mp4",
+          "sha256": "8157e72386054f20aaa8ebdfa9822ffcd798b5a2681f20e7b4f1dbd646937bd2",
+          "threejs_video": "experiment-inputs/1faea047a911948e0770c8fd7ac088e23c38e4e20835ee9890cf6d3b17bc4d4d/threejs.mp4",
+          "threejs_sha256": "1faea047a911948e0770c8fd7ac088e23c38e4e20835ee9890cf6d3b17bc4d4d",
+          "interactive_source": "revisions/1faea047a911948e0770c8fd7ac088e23c38e4e20835ee9890cf6d3b17bc4d4d/571/",
+          "reference_image": "experiment-inputs/1faea047a911948e0770c8fd7ac088e23c38e4e20835ee9890cf6d3b17bc4d4d/reference-8f1bf0f50971894ecdc96d3427437898f4edbbda9f359fe2e202de559bcb793b.png",
+          "reference_sha256": "8f1bf0f50971894ecdc96d3427437898f4edbbda9f359fe2e202de559bcb793b",
+          "source_case_id": "v13-571",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v13-572-571",
+            "role": "variant",
+            "group": "image-group23-2",
+            "version": "v13",
+            "source_video": "static/group23-pairs/media/8157e72386054f20aaa8ebdfa9822ffcd798b5a2681f20e7b4f1dbd646937bd2.mp4",
+            "threejs_source": "static/group23-pairs/media/1faea047a911948e0770c8fd7ac088e23c38e4e20835ee9890cf6d3b17bc4d4d.mp4"
+          }
+        }
+      },
+      "cover": {
+        "case_id": "572",
+        "name": "Case 572",
+        "session": "Robotics Simulation",
+        "source_rgb": [
+          132,
+          126,
+          117
+        ],
+        "source_palette": [
+          [
+            155,
+            147,
+            134
+          ],
+          [
+            65,
+            56,
+            49
+          ],
+          [
+            114,
+            109,
+            98
+          ],
+          [
+            189,
+            187,
+            183
+          ]
+        ],
+        "rgb": [
+          132,
+          126,
+          117
+        ],
+        "palette": [
+          [
+            155,
+            147,
+            134
+          ],
+          [
+            65,
+            56,
+            49
+          ],
+          [
+            114,
+            109,
+            98
+          ],
+          [
+            189,
+            187,
+            183
+          ]
+        ],
+        "source_kind": "displayed-code-video-model",
+        "first_frame": "static/images/first-person-bubbles/572-b33fc0fb9f2c.png",
+        "source_video": "experiment-pairs/robotics-group23-572-571-image-group23-2-v13/case-572-b33fc0fb9f2c.mp4",
+        "source_sha256": "b33fc0fb9f2c105976b42432b0cff8a1003342df9c9ff62080a6322add4a5a0a",
+        "frame": 0,
+        "alpha": 0.5
+      }
+    },
+    {
+      "id": "trajectory-group23-577-578-image-group23-2-v16",
+      "section_id": "trajectory-variation",
+      "section": "Trajectory Variation",
+      "a": "577",
+      "b": "578",
+      "batch": "group23",
+      "group": "image-group23-2",
+      "version": "v16",
+      "label": "Image-Group23-2 / v16",
+      "edit_label": "Take Right Route",
+      "assets": {
+        "577": {
+          "video": "experiment-pairs/trajectory-group23-577-578-image-group23-2-v16/case-577-00f9b4ff3594.mp4",
+          "sha256": "00f9b4ff3594e24b728931fdbdfd19119fbedfdf34444a159fddc5bbc9868eab",
+          "threejs_video": "experiment-inputs/7120de68c82dfb598f995ba280cecf19bcc945b59280269ba18d60c937215053/threejs.mp4",
+          "threejs_sha256": "7120de68c82dfb598f995ba280cecf19bcc945b59280269ba18d60c937215053",
+          "interactive_source": "revisions/7120de68c82dfb598f995ba280cecf19bcc945b59280269ba18d60c937215053/577/",
+          "reference_image": "experiment-inputs/7120de68c82dfb598f995ba280cecf19bcc945b59280269ba18d60c937215053/reference-956444311c7e41cbfdb248a453813512b1b3a83617b006da2ce5facbf6b252c8.png",
+          "reference_sha256": "956444311c7e41cbfdb248a453813512b1b3a83617b006da2ce5facbf6b252c8",
+          "source_case_id": "v16-577",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v16-577-578",
+            "role": "anchor",
+            "group": "image-group23-2",
+            "version": "v16",
+            "source_video": "static/group23-pairs/media/00f9b4ff3594e24b728931fdbdfd19119fbedfdf34444a159fddc5bbc9868eab.mp4",
+            "threejs_source": "static/group23-pairs/media/7120de68c82dfb598f995ba280cecf19bcc945b59280269ba18d60c937215053.mp4"
+          }
+        },
+        "578": {
+          "video": "experiment-pairs/trajectory-group23-577-578-image-group23-2-v16/case-578-78ca34159d0f.mp4",
+          "sha256": "78ca34159d0fe9fb93b78205efa8a2d4034b88fdd25724fb25cee5eff0af5765",
+          "threejs_video": "experiment-inputs/2da6f461b2637565543a354f1f5f723c0a78b96fcc3255b623ed7c6e5de15322/threejs.mp4",
+          "threejs_sha256": "2da6f461b2637565543a354f1f5f723c0a78b96fcc3255b623ed7c6e5de15322",
+          "interactive_source": "revisions/2da6f461b2637565543a354f1f5f723c0a78b96fcc3255b623ed7c6e5de15322/578/",
+          "reference_image": "experiment-inputs/2da6f461b2637565543a354f1f5f723c0a78b96fcc3255b623ed7c6e5de15322/reference-1a8ad6e1c946386725d20f13cbf1f788900f1431feb8f94c77c797346c79d668.png",
+          "reference_sha256": "1a8ad6e1c946386725d20f13cbf1f788900f1431feb8f94c77c797346c79d668",
+          "source_case_id": "v16-578",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v16-577-578",
+            "role": "variant",
+            "group": "image-group23-2",
+            "version": "v16",
+            "source_video": "static/group23-pairs/media/78ca34159d0fe9fb93b78205efa8a2d4034b88fdd25724fb25cee5eff0af5765.mp4",
+            "threejs_source": "static/group23-pairs/media/2da6f461b2637565543a354f1f5f723c0a78b96fcc3255b623ed7c6e5de15322.mp4"
+          }
+        }
+      },
+      "cover": {
+        "case_id": "577",
+        "name": "Case 577",
+        "session": "Trajectory Variation",
+        "source_rgb": [
+          107,
+          106,
+          96
+        ],
+        "source_palette": [
+          [
+            89,
+            89,
+            81
+          ],
+          [
+            118,
+            117,
+            107
+          ],
+          [
+            170,
+            167,
+            154
+          ],
+          [
+            49,
+            49,
+            39
+          ]
+        ],
+        "rgb": [
+          107,
+          106,
+          96
+        ],
+        "palette": [
+          [
+            89,
+            89,
+            81
+          ],
+          [
+            118,
+            117,
+            107
+          ],
+          [
+            170,
+            167,
+            154
+          ],
+          [
+            49,
+            49,
+            39
+          ]
+        ],
+        "source_kind": "displayed-code-video-model",
+        "first_frame": "static/images/first-person-bubbles/577-00f9b4ff3594.png",
+        "source_video": "experiment-pairs/trajectory-group23-577-578-image-group23-2-v16/case-577-00f9b4ff3594.mp4",
+        "source_sha256": "00f9b4ff3594e24b728931fdbdfd19119fbedfdf34444a159fddc5bbc9868eab",
+        "frame": 0,
+        "alpha": 0.5
+      }
+    },
+    {
+      "id": "trajectory-group23-581-582-image-group23-4-v12",
+      "section_id": "trajectory-variation",
+      "section": "Trajectory Variation",
+      "a": "581",
+      "b": "582",
+      "batch": "group23",
+      "group": "image-group23-4",
+      "version": "v12",
+      "label": "Image-Group23-4 / v12",
+      "edit_label": "Follow Perimeter Path",
+      "assets": {
+        "581": {
+          "video": "experiment-pairs/trajectory-group23-581-582-image-group23-4-v12/case-581-6febd6c6ab29.mp4",
+          "sha256": "6febd6c6ab2935a79d67f7a39ad763534ffaa6240dd53e92c7aee723a9bb827c",
+          "threejs_video": "experiment-inputs/aca55a19e47438786ce263cca4a09f3f8e19886f9cd687327b559a0f531c9181/threejs.mp4",
+          "threejs_sha256": "aca55a19e47438786ce263cca4a09f3f8e19886f9cd687327b559a0f531c9181",
+          "interactive_source": "revisions/aca55a19e47438786ce263cca4a09f3f8e19886f9cd687327b559a0f531c9181/581/",
+          "reference_image": "experiment-inputs/aca55a19e47438786ce263cca4a09f3f8e19886f9cd687327b559a0f531c9181/reference-8c72112b781ebb2325df1972530f7c28db33c8bceb3352ba731db792d54fc875.png",
+          "reference_sha256": "8c72112b781ebb2325df1972530f7c28db33c8bceb3352ba731db792d54fc875",
+          "source_case_id": "v12-581",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v12-581-582",
+            "role": "anchor",
+            "group": "image-group23-4",
+            "version": "v12",
+            "source_video": "static/group23-pairs/media/6febd6c6ab2935a79d67f7a39ad763534ffaa6240dd53e92c7aee723a9bb827c.mp4",
+            "threejs_source": "static/group23-pairs/media/aca55a19e47438786ce263cca4a09f3f8e19886f9cd687327b559a0f531c9181.mp4"
+          }
+        },
+        "582": {
+          "video": "experiment-pairs/trajectory-group23-581-582-image-group23-4-v12/case-582-48104471a323.mp4",
+          "sha256": "48104471a323ca6cf6de4a4a7f4343c40cdb5af9d2d2d133f7f48d5b6cc6c122",
+          "threejs_video": "experiment-inputs/bf824224a5e3a876c575997c3dd48f794e6d98848f86d21c634fd1de2bd4a99b/threejs.mp4",
+          "threejs_sha256": "bf824224a5e3a876c575997c3dd48f794e6d98848f86d21c634fd1de2bd4a99b",
+          "interactive_source": "revisions/bf824224a5e3a876c575997c3dd48f794e6d98848f86d21c634fd1de2bd4a99b/582/",
+          "reference_image": "experiment-inputs/bf824224a5e3a876c575997c3dd48f794e6d98848f86d21c634fd1de2bd4a99b/reference-8c72112b781ebb2325df1972530f7c28db33c8bceb3352ba731db792d54fc875.png",
+          "reference_sha256": "8c72112b781ebb2325df1972530f7c28db33c8bceb3352ba731db792d54fc875",
+          "source_case_id": "v12-582",
+          "origin": "group23",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "batch": "group23",
+            "pair_id": "v12-581-582",
+            "role": "variant",
+            "group": "image-group23-4",
+            "version": "v12",
+            "source_video": "static/group23-pairs/media/48104471a323ca6cf6de4a4a7f4343c40cdb5af9d2d2d133f7f48d5b6cc6c122.mp4",
+            "threejs_source": "static/group23-pairs/media/bf824224a5e3a876c575997c3dd48f794e6d98848f86d21c634fd1de2bd4a99b.mp4"
+          }
+        }
+      },
+      "cover": {
+        "case_id": "581",
+        "name": "Case 581",
+        "session": "Trajectory Variation",
+        "source_rgb": [
+          128,
+          126,
+          122
+        ],
+        "source_palette": [
+          [
+            144,
+            143,
+            140
+          ],
+          [
+            110,
+            104,
+            96
+          ],
+          [
+            191,
+            195,
+            197
+          ],
+          [
+            63,
+            59,
+            54
+          ]
+        ],
+        "rgb": [
+          128,
+          126,
+          122
+        ],
+        "palette": [
+          [
+            144,
+            143,
+            140
+          ],
+          [
+            110,
+            104,
+            96
+          ],
+          [
+            191,
+            195,
+            197
+          ],
+          [
+            63,
+            59,
+            54
+          ]
+        ],
+        "source_kind": "displayed-code-video-model",
+        "first_frame": "static/images/first-person-bubbles/581-6febd6c6ab29.png",
+        "source_video": "experiment-pairs/trajectory-group23-581-582-image-group23-4-v12/case-581-6febd6c6ab29.mp4",
+        "source_sha256": "6febd6c6ab2935a79d67f7a39ad763534ffaa6240dd53e92c7aee723a9bb827c",
+        "frame": 0,
+        "alpha": 0.5
+      }
+    }
+  ],
+  "count": 17,
+  "hidden_default_cases": {
+    "trajectory-variation": [
+      "577"
+    ]
+  },
+  "homepage_selections": {
+    "robotics-simulation": "robotics-group23-564-563-image-group23-2-v13"
+  }
+}

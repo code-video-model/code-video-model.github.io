@@ -1,0 +1,120 @@
+{
+  "case_id": "wyvern-siege-fpv",
+  "session": "First-Person Games",
+  "prompt": "Prompt text was not included in the supplied delivery package.",
+  "fps": 24.0,
+  "frames": 240,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "8248e495191fbff636fafe683f504378354733b9607201bb889dc6c4b2a92715",
+  "entry": "runtime/case/index.html",
+  "sources": [
+    {
+      "path": "original/case/scene.js",
+      "name": "case/scene.js",
+      "sha256": "fb055f282ca128fcf9013b25cd60e1ee74e499a71b687a193d480585d3b51c22",
+      "functions": [
+        {
+          "name": "box",
+          "line": 38
+        },
+        {
+          "name": "ball",
+          "line": 39
+        },
+        {
+          "name": "rod",
+          "line": 40
+        },
+        {
+          "name": "setRod",
+          "line": 45
+        },
+        {
+          "name": "cone",
+          "line": 50
+        },
+        {
+          "name": "lineCurve",
+          "line": 51
+        },
+        {
+          "name": "crenels",
+          "line": 54
+        },
+        {
+          "name": "house",
+          "line": 136
+        },
+        {
+          "name": "soldier",
+          "line": 160
+        },
+        {
+          "name": "wheels",
+          "line": 192
+        },
+        {
+          "name": "catapult",
+          "line": 199
+        },
+        {
+          "name": "stoneAt",
+          "line": 233
+        },
+        {
+          "name": "flameGeometry",
+          "line": 321
+        },
+        {
+          "name": "updateFlame",
+          "line": 331
+        },
+        {
+          "name": "samplePath",
+          "line": 354
+        },
+        {
+          "name": "sweepX",
+          "line": 361
+        },
+        {
+          "name": "contactTime",
+          "line": 362
+        },
+        {
+          "name": "seek",
+          "line": 375
+        }
+      ]
+    },
+    {
+      "path": "original/presentation-crop.mjs",
+      "name": "presentation-crop.mjs",
+      "sha256": "a6d8f68876e294b0e999f561d0fcf08e2b4688c5ad5106d52e0b261f54c049b1",
+      "functions": [],
+      "generated_adapter": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "case/scene.js",
+      "sha256": "fb055f282ca128fcf9013b25cd60e1ee74e499a71b687a193d480585d3b51c22"
+    },
+    {
+      "path": "case/vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/home/zhiyangliang/VideoCoder/exports/published-threejs-sources/8248e495191fbff636fafe683f504378354733b9607201bb889dc6c4b2a92715",
+    "kind": "delivery-source-and-presentation-adapter",
+    "artifact_verified": false,
+    "input_video_sha256": "8248e495191fbff636fafe683f504378354733b9607201bb889dc6c4b2a92715",
+    "original_proxy_sha256": "ef8c9ff84106994e5537fb15fb327ac9a1e222f8cf0588b3c431c755e0d32dc8",
+    "colored_preview": false,
+    "package": "wyvern-siege-fpv-10s-rev3",
+    "note": "Verified delivery source with explicit presentation adaptation; original generation inputs retained separately.",
+    "source_snapshot_verified": true
+  }
+}

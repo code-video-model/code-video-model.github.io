@@ -1,0 +1,119 @@
+{
+  "case_id": "657",
+  "session": "Architectural Cinematics",
+  "prompt": "A photorealistic 5-second architectural visualization. An industrial warehouse converted into a loft with steel trusses and suspended lights. Camera enters beneath a low beam, tracks through furniture clusters and cranes upward to reveal the roof structure. Emphasize stable 3D layout, correct perspective, realistic materials, strong parallax and smooth executable camera motion.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "3f59d9d72456f9bd44520d9b9ab96be4b14bbe66e45f665b546fb2b79141d34f",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "30e50e20289dc4e769939656d19145925b0fa3b1db736c99bda989f909c2356d",
+      "functions": [
+        {
+          "name": "box",
+          "line": 92
+        },
+        {
+          "name": "cylinder",
+          "line": 103
+        },
+        {
+          "name": "beamBetween",
+          "line": 117
+        },
+        {
+          "name": "addIBeam",
+          "line": 132
+        },
+        {
+          "name": "addWindowWall",
+          "line": 157
+        },
+        {
+          "name": "addRoofAndTrusses",
+          "line": 203
+        },
+        {
+          "name": "addIndustrialDuct",
+          "line": 252
+        },
+        {
+          "name": "addPendant",
+          "line": 276
+        },
+        {
+          "name": "addLighting",
+          "line": 300
+        },
+        {
+          "name": "addFloor",
+          "line": 340
+        },
+        {
+          "name": "addSofa",
+          "line": 358
+        },
+        {
+          "name": "addRoundTable",
+          "line": 391
+        },
+        {
+          "name": "addDiningCluster",
+          "line": 396
+        },
+        {
+          "name": "addLoungeCluster",
+          "line": 425
+        },
+        {
+          "name": "addKitchenAndShelves",
+          "line": 442
+        },
+        {
+          "name": "addPlant",
+          "line": 475
+        },
+        {
+          "name": "addMezzanine",
+          "line": 499
+        },
+        {
+          "name": "addEntranceBeam",
+          "line": 538
+        },
+        {
+          "name": "addCeilingFans",
+          "line": 547
+        },
+        {
+          "name": "addAtmosphere",
+          "line": 573
+        },
+        {
+          "name": "updateAtTime",
+          "line": 651
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "30e50e20289dc4e769939656d19145925b0fa3b1db736c99bda989f909c2356d"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/657/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

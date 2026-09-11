@@ -1,0 +1,94 @@
+{
+  "case_id": "121",
+  "session": "First-Person Games",
+  "prompt": "First-person POV in Halo. I leap from a dropship onto a moving alien tank, grab the hull as plasma bolts streak overhead, climb to the turret, and rip open the hatch while the battlefield races beneath me. Epic military sci-fi scale, strong vehicle momentum.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "cfd7f8a0c8bbd056b8b6f4c60bdffafafd14871cd9f254725eac05227ae8ab7a",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "41f4f55713df16a7cb2b14aeda31ba0ff4e456ec7f0089e8eb24e083fcec07ba",
+      "functions": [
+        {
+          "name": "mesh",
+          "line": 72
+        },
+        {
+          "name": "box",
+          "line": 82
+        },
+        {
+          "name": "cylinder",
+          "line": 86
+        },
+        {
+          "name": "smooth01",
+          "line": 96
+        },
+        {
+          "name": "easeOutCubic",
+          "line": 101
+        },
+        {
+          "name": "createArm",
+          "line": 351
+        },
+        {
+          "name": "alignSegment",
+          "line": 389
+        },
+        {
+          "name": "setArmPose",
+          "line": 397
+        },
+        {
+          "name": "tankLocal",
+          "line": 408
+        },
+        {
+          "name": "updateTank",
+          "line": 418
+        },
+        {
+          "name": "updateCamera",
+          "line": 438
+        },
+        {
+          "name": "updateArms",
+          "line": 488
+        },
+        {
+          "name": "updateEffects",
+          "line": 524
+        },
+        {
+          "name": "renderAt",
+          "line": 576
+        },
+        {
+          "name": "animate",
+          "line": 590
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "41f4f55713df16a7cb2b14aeda31ba0ff4e456ec7f0089e8eb24e083fcec07ba"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/cinematic_video_prompts_1_400_threejs_h3_aligned/code/121",
+    "artifact_verified": true
+  }
+}

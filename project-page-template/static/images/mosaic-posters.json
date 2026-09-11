@@ -1,0 +1,317 @@
+{
+  "reconstruction-3d-4d|442||": {
+    "src": "static/images/first-frames-native/563852ff56b98efbf97ced42ccfd35257ca3d1827bd50712d18161ba74404581.webp",
+    "video": "static/project-page-cases/code-video-model/reconstruction-3d-4d/case-442-direct.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "reconstruction-3d-4d|astra-bicycle||": {
+    "src": "static/images/first-frames-native/25800f414cad0ad64e8dbc577d49fd64bb5c4de1b480286d6938d4ec56d3f285.webp",
+    "video": "static/project-page-cases/code-video-model/reconstruction-3d-4d/astra-bicycle-25800f414cad.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      540
+    ]
+  },
+  "reconstruction-3d-4d|astra-garden-gray||": {
+    "src": "static/images/first-frames-native/37c8fe98a2c230a97bad7b977a6e087fc3a971d77201756676143ebd9d78d18e.webp",
+    "video": "static/project-page-cases/code-video-model/reconstruction-3d-4d/astra-garden-gray-37c8fe98a2c2.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      540
+    ]
+  },
+  "reconstruction-3d-4d|astra-bonsai||": {
+    "src": "static/images/first-frames-native/97aaf49bfd219b1ba9676761e3b56b3368f4d0fc418920ae26c09be6ce7f5d2d.webp",
+    "video": "static/project-page-cases/code-video-model/reconstruction-3d-4d/astra-bonsai-97aaf49bfd21.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      540
+    ]
+  },
+  "long-horizon-style|505||": {
+    "src": "static/images/first-frames-native/1a69a681957e438bcfd826616f64eed85aa2361c484ebca23f02a6b68079b661.webp",
+    "video": "static/project-page-cases/selected-0907-seedvr2-2x/bullet-time/case-505-1a69a681957e.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      1920,
+      1088
+    ]
+  },
+  "long-horizon-style|518||": {
+    "src": "static/images/first-frames-native/18be11eaaca31149160a15357db61a792a542c8c05cfa4bb760b574b6d8462ae.webp",
+    "video": "static/project-page-cases/selected-0907-seedvr2-2x/bullet-time/case-518-18be11eaaca3.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      1920,
+      1088
+    ]
+  },
+  "long-horizon-style|504||": {
+    "src": "static/images/first-frames-native/15fd0dd0ed7de6c0340dda6e3e3b1f6c8754e280f42c8d162d6b490b0b7709ee.webp",
+    "video": "static/project-page-cases/code-video-model/bullet-time/case-504.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      1920,
+      1088
+    ]
+  },
+  "gallery|586|666|": {
+    "src": "static/images/first-frames-native/68dc67d3cd2dfcc4a77569bf5b3cb11e2d1498e1a786db277fb9e24f8830d663.webp",
+    "video": "static/project-page-cases/experiment-reference-updates-image-group18-4-v16/scene-world-editing/case-586-68dc67d3cd2d.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "gallery|601|681|": {
+    "src": "static/images/first-frames-native/5337cc70270fd4ff1a7277fccd979020d0a544f0f6042e8c329a4fe0dbef2361.webp",
+    "video": "static/project-page-cases/experiment-group23-image-group23-4-v15/scene-world-editing/case-601-5337cc70270f.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "gallery|590|670|": {
+    "src": "static/images/first-frames-native/cecf6e5b15e3507c43beab2126198ab83b4fb1ecb21571bc230b425c9baedc9c.webp",
+    "video": "static/project-page-cases/code-video-model-v2/scene-world-editing/case-590.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "gallery|595|675|": {
+    "src": "static/images/first-frames-native/983c7bc50367dc7a4ad64a4f575ec4067b1cbccf8c232098a372acafdaf7717c.webp",
+    "video": "static/project-page-cases/experiment-group23-image-group23-2-v16/scene-world-editing/case-595-983c7bc50367.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "trajectory-variation|581|582|trajectory-group23-581-582-image-group23-4-v12": {
+    "src": "static/images/first-frames-native/6febd6c6ab2935a79d67f7a39ad763534ffaa6240dd53e92c7aee723a9bb827c.webp",
+    "video": "static/project-page-cases/experiment-pairs/trajectory-group23-581-582-image-group23-4-v12/case-581-6febd6c6ab29.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "trajectory-variation|581|582|": {
+    "src": "static/images/first-frames-native/cc3e4a21fe66dd89dac244ae6dfbef826ac48d86134f43a619662300edcdfccd.webp",
+    "video": "static/project-page-cases/code-video-model/trajectory-variation/case-581.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      1920,
+      1088
+    ]
+  },
+  "architectural-cinematics|643||": {
+    "src": "static/images/first-frames-native/5bc5de70220a0c8030441da669c9ac85989847365171a5541e77b21fc2064b32.webp",
+    "video": "static/project-page-cases/selected-0907-seedvr2-2x/architectural-cinematics/case-643-5bc5de70220a.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      1920,
+      1088
+    ]
+  },
+  "architectural-cinematics|657||": {
+    "src": "static/images/first-frames-native/0fa87b83f67c6f4d77d57ae8722288481062cec997e5523b78bcb11ca26ba5ba.webp",
+    "video": "static/project-page-cases/code-video-model-v2/architectural-cinematics/case-657.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "architectural-cinematics|649||": {
+    "src": "static/images/first-frames-native/ae0312112795b5cbcf291cd2c4b2ee66d629bb3a3bf52e6dd75bd5e7f19a1042.webp",
+    "video": "static/project-page-cases/selected-0907-seedvr2-2x/architectural-cinematics/case-649-ae0312112795.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      1920,
+      1088
+    ]
+  },
+  "architectural-cinematics|646||": {
+    "src": "static/images/first-frames-native/48fddc881c93898c2ffab0a9583f811993fd80086d8cdb5fff2a4ccb64ac7fbb.webp",
+    "video": "static/project-page-cases/selected-0907-video-diffusion-baseline/architectural-cinematics/case-646-48fddc881c93.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "product-cinematography|625||": {
+    "src": "static/images/first-frames-native/ffd4dd366d95f07b71a44fe9ea6a5553a8c8f415fa97450be5b5fd8f63d8f633.webp",
+    "video": "static/project-page-cases/experiment-threejs-v2-image-group19-4-v17/product-cinematography/case-625-ffd4dd366d95.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "product-cinematography|636||": {
+    "src": "static/images/first-frames-native/d17af4bae3de18e182fc5af036cd5868d7031dc37e61cc1f8a0231d788ddf8eb.webp",
+    "video": "static/project-page-cases/experiment-threejs-v2-image-group19-4-v17/product-cinematography/case-636-d17af4bae3de.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "product-cinematography|640||": {
+    "src": "static/images/first-frames-native/fc760f0d2737e70c28f0f826a11b55fb84f22e5a6a2dc01e64531be6e443e517.webp",
+    "video": "static/project-page-cases/code-video-model/product-cinematography/case-640.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      1920,
+      1088
+    ]
+  },
+  "scientific-visualization|stable-mass-transfer-binary||": {
+    "src": "static/images/first-frames-native/6a32d4681560c00654bf65436b57552f1d68e4f3a7114d996deb31dfd2dce0a0.webp",
+    "video": "static/project-page-cases/code-video-model/scientific-visualization/stable-mass-transfer-binary-6a32d4681560.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      540
+    ]
+  },
+  "scientific-visualization|524||": {
+    "src": "static/images/first-frames-native/91b29f372d92667be411e51685a7544911472f4eecdaf8cb70c2070877b46057.webp",
+    "video": "static/project-page-cases/experiment-threejs-v2-image-group20-4-v18/scientific-visualization/case-524-91b29f372d92.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "scientific-visualization|528||": {
+    "src": "static/images/first-frames-native/38fc643a2b5b0b9b717ecfebc76a99b94d68c80a3f00825e4ae4cafb652a4832.webp",
+    "video": "static/project-page-cases/code-video-model/scientific-visualization/case-528.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      1920,
+      1088
+    ]
+  },
+  "scientific-visualization|531||": {
+    "src": "static/images/first-frames-native/f437b76b0b54a3e864cb1218666970c2d705b776b49ea38727635e5b7e14ee8c.webp",
+    "video": "static/project-page-cases/code-video-model-v2/scientific-visualization/case-531.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "physical-grounding|physical-isochronous||": {
+    "src": "static/images/first-frames-native/21eb15899b0e6050292bd0ac32cd09405c13e77dd018033df486922d94a073a8-frame000024.webp",
+    "video": "static/project-page-cases/code-video-model/physical-grounding/physical-isochronous.mp4",
+    "frame_index": 24,
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  "physical-grounding|physical-prism||": {
+    "src": "static/images/first-frames-native/2dd849216f31f3bfcd930cf4dfee3af99d41f4ef6de2be8319ddbb5c21291285-frame000072.webp",
+    "video": "static/project-page-cases/code-video-model/physical-grounding/physical-prism.mp4",
+    "frame_index": 72,
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  "physical-grounding|physical-pendulum||": {
+    "src": "static/images/first-frames-native/4c0bc875cd2b7de54424746d6ef4049e33adf34df9f8e41d95aae6102661aca7-frame000024.webp",
+    "video": "static/project-page-cases/code-video-model/physical-grounding/physical-pendulum.mp4",
+    "frame_index": 24,
+    "dimensions": [
+      1280,
+      720
+    ]
+  },
+  "robotics-simulation|563|564|": {
+    "src": "static/images/first-frames-native/d4fd21d6d1119cf56e5ad4ad21248fd8bac8cb2d1de51993cd89a930311588b1.webp",
+    "video": "static/project-page-cases/code-video-model-v2/robotics-simulation/case-563.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "robotics-simulation|567|568|": {
+    "src": "static/images/first-frames-native/5c9bd42a7b161dff8b13e3a1b8514d97ed01fb463dc024a938564a769d1179ba.webp",
+    "video": "static/project-page-cases/code-video-model-v2/robotics-simulation/case-567.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "robotics-simulation|571|572|": {
+    "src": "static/images/first-frames-native/8efffb59d27ac7b9c2f9d7244cb06abdcaf0a0d62bab424b25a9414d4c0a74f1.webp",
+    "video": "static/project-page-cases/code-video-model-v2/robotics-simulation/case-571.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "robotics-simulation|564|563|robotics-group23-564-563-image-group23-4-v12": {
+    "src": "static/images/first-frames-native/4b534ae51bced51b4ae6a724d6666565747540fb3eeee47db8d33309565ea788.webp",
+    "video": "static/project-page-cases/experiment-pairs/robotics-group23-564-563-image-group23-4-v12/case-564-4b534ae51bce.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "control-world-states|first-person-009||": {
+    "src": "static/images/first-frames-native/b69d906b9391af134db118074f42097c944fe2fd733b1202b004a0ba523e0779.webp",
+    "video": "static/project-page-cases/code-video-model/first-person-games/first-person-009.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      1920,
+      1088
+    ]
+  },
+  "control-world-states|first-person-007||": {
+    "src": "static/images/first-frames-native/67cb38babb346426bb3d83c92e0ed1bddbf55056f413b101511120cfc4bd0e3d.webp",
+    "video": "static/project-page-cases/code-video-model/first-person-games/first-person-007.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      1920,
+      1088
+    ]
+  },
+  "control-world-states|first-person-014||": {
+    "src": "static/images/first-frames-native/a35cfcbc66c0518683c34028d9d2f265746d6e7b971675ea491ae880aa1b67c2.webp",
+    "video": "static/project-page-cases/code-video-model/first-person-games/first-person-014.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      1920,
+      1088
+    ]
+  },
+  "control-world-states|first-person-030||": {
+    "src": "static/images/first-frames-native/0c5f036db8d244d75ea1c974f493c7ce31fab388d00424668ef3e90794944956.webp",
+    "video": "static/project-page-cases/code-video-model/first-person-games/first-person-030.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      1920,
+      1088
+    ]
+  }
+}

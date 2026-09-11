@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en" data-workbench-state="loading">
+<head>
+  <meta charset="utf-8">
+  <base href="../../">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>World Inspector | Code Video Model</title>
+  <style>
+    html:not([data-workbench-state="ready"]) .workbench{opacity:0;pointer-events:none}
+    .workbench-boot{position:absolute;inset:0;margin:0;padding:32px;box-sizing:border-box;min-height:320px;border-radius:22px;background:linear-gradient(135deg,#e5f0f0bb,#e8e9f3aa);color:#365366;font:14px/1.5 Arial,sans-serif}
+    html[data-workbench-state="ready"] .workbench-boot{display:none}
+    html[data-workbench-state="ready"] .workbench{animation:workbench-enter .22s ease-out both}
+    @keyframes workbench-enter{from{opacity:0}to{opacity:1}}
+    @media(prefers-reduced-motion:reduce){html[data-workbench-state="ready"] .workbench{animation:none}}
+  </style>
+  <script src="static/js/behind-frame-entry.js?v=delivery-composites-11"></script>
+  <link rel="stylesheet" href="static/css/behind-frame.css?v=timeline-chapters-4">
+  <link rel="stylesheet" href="static/css/section-atmospheres.css?v=8">
+  <link rel="stylesheet" href="static/css/workbench-refined.css?v=1">
+  <link rel="stylesheet" href="static/css/liquid-glass.css?v=1">
+  <link rel="stylesheet" href="static/css/editable-workbench.css?v=1">
+</head>
+<body>
+  <p class="workbench-boot" role="status">Preparing view…</p>
+  <main class="workbench" inert aria-hidden="true">
+    <header>
+      <a href="./" class="back-link">Back to Project Page</a>
+      <p class="eyebrow" id="case-heading">CODE VIDEO MODEL / INTERACTIVE CASE</p>
+      <h1>Behind the Frame</h1>
+      <p class="lede">A program you can read. A world you can inspect. One shared timeline.</p>
+      <label class="case-picker">Case <select id="case-picker" aria-label="Choose an interactive case"></select></label>
+      <p id="status" role="status">Loading the original scene and selected video...</p>
+    </header>
+    <div class="panels">
+      <section class="panel source-panel" aria-labelledby="source-heading">
+        <h2 id="source-heading"><span>01 / Scene program</span><small>ORIGINAL SOURCE</small></h2>
+        <div class="source-tabs" role="group" aria-label="Source sections">
+          <button data-section="camera" aria-pressed="true">Camera &amp; timing</button>
+          <button data-section="actor" aria-pressed="false">Objects &amp; actors</button>
+          <button data-section="lighting" aria-pressed="false">Lighting &amp; effects</button>
+        </div>
+        <div class="source-toolbar">
+          <select id="source-file" aria-label="Source file"></select>
+          <label><input id="follow-code" type="checkbox" checked> Follow time</label>
+        </div>
+        <pre id="source-code" tabindex="0" aria-label="Original Three.js source code"></pre>
+        <p id="code-note" class="note">Highlights indicate named functions called by the original seek routine. Tabs navigate the original source; no synthetic execution animation.</p>
+      </section>
+      <section class="panel" aria-labelledby="proxy-heading">
+        <h2 id="proxy-heading"><span>02 / Three.js</span><small>LIVE WEBGL</small></h2>
+        <div id="proxy-stage" class="video-stage" aria-label="Original Three.js camera view"></div>
+        <div class="inspector-heading"><h3>World Inspector</h3><button id="reset-view">Reset view</button></div>
+        <div id="world-stage" tabindex="0" aria-label="World inspector: drag to orbit, scroll to zoom, arrow keys to rotate"></div>
+        <div class="inspector-fov-control">
+          <label for="inspector-width">View width (horizontal FOV)</label>
+          <output id="inspector-width-value" for="inspector-width">65°</output>
+          <input id="inspector-width" type="range" min="40" max="85" step="1" value="65" disabled>
+        </div>
+        <div class="inspector-options">
+          <label><input id="show-frustum" type="checkbox" checked> Frustum</label>
+          <label><input id="show-path" type="checkbox" checked> Camera path</label>
+          <label><input id="show-grid" type="checkbox" checked> Grid</label>
+          <label><input id="cutaway" type="checkbox"> Cutaway</label>
+        </div>
+        <p id="frustum-info" class="note"></p>
+        <details>
+          <summary>Inspector camera (independent view)</summary>
+          <dl class="program-state">
+            <dt>Horizontal / vertical FOV</dt><dd id="inspector-fov">—</dd>
+            <dt>Aspect ratio</dt><dd id="inspector-aspect">—</dd>
+            <dt>Zoom</dt><dd id="inspector-zoom">—</dd>
+            <dt>Near / far (scene units)</dt><dd id="inspector-clip">—</dd>
+          </dl>
+        </details>
+        <p class="note">Drag to orbit · Scroll to zoom · Arrow keys to rotate. Inspection-only fill light and shortened frustum. Cutaway reveals enclosed interiors. The filming camera is unchanged.</p>
+      </section>
+      <section class="panel" aria-labelledby="result-heading">
+        <h2 id="result-heading"><span>03 / Code Video Model</span><small>GENERATED VIDEO</small></h2>
+        <div class="video-stage">
+          <video id="result-video" muted playsinline preload="auto" aria-label="Selected Code Video Model result"></video>
+        </div>
+        <h3>Program state</h3>
+        <dl class="program-state">
+          <dt>Phase</dt><dd id="state-phase">—</dd>
+          <dt>Filming camera position</dt><dd id="state-camera">—</dd>
+          <dt>Filming vertical FOV</dt><dd id="state-fov">—</dd>
+          <dt>Scene time</dt><dd id="state-world">—</dd>
+          <dt>Filming camera rotation</dt><dd id="state-rotation">—</dd>
+        </dl>
+        <details>
+          <summary>Filming camera intrinsics (original source)</summary>
+          <dl class="program-state">
+            <dt>Horizontal FOV</dt><dd id="filming-hfov">—</dd>
+            <dt>Aspect ratio</dt><dd id="filming-aspect">—</dd>
+            <dt>Zoom</dt><dd id="filming-zoom">—</dd>
+            <dt>Near / far (scene units)</dt><dd id="filming-clip">—</dd>
+            <dt>Render resolution</dt><dd id="filming-size">—</dd>
+            <dt>Focal length fx / fy</dt><dd id="filming-focal">—</dd>
+            <dt>Principal point cx / cy</dt><dd id="filming-center">—</dd>
+          </dl>
+        </details>
+      </section>
+    </div>
+    <section class="timeline" aria-label="Shared timeline">
+      <div class="timeline-heading"><strong>ONE CLOCK / THREE VIEWS</strong><output id="time-label">0.000 s / 5.167 s</output></div>
+      <div class="phases" role="group" aria-label="Animation phases" hidden></div>
+      <input id="timeline" type="range" min="0" max="123" step="1" value="0" aria-label="Frame" disabled>
+      <div class="transport">
+        <button id="previous" disabled aria-label="Previous frame">−1 frame</button>
+        <button id="play" disabled>Play</button>
+        <button id="next" disabled aria-label="Next frame">+1 frame</button>
+        <button id="sound" disabled aria-pressed="false">Sound off</button>
+        <output id="frame-label">Frame 0 / 123</output>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

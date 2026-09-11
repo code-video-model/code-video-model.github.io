@@ -1,0 +1,83 @@
+{
+  "case_id": "490",
+  "session": "Cinematic Camera Intelligence",
+  "prompt": "A realistic passenger jet cruising above clouds during sunset. Begin inside the cabin aisle, glide toward a window, pass seamlessly through the glass to the exterior wing, skim along the wing surface toward the engine, then pull far outside into a cinematic wide shot of the entire aircraft. No cut, consistent aircraft structure and lighting across the interior-to-exterior transition. Premium photorealistic cinematography, designed as a 5-second showcase of explicitly programmed camera motion.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "9df7cf35a4750dad2b01e549bd4d55f1f2ed08df645214a6084f7b7e0986b832",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "c2293877f025054d6ef69c625a26e86601d96462a130dc095c226dc02e3bd718",
+      "functions": [
+        {
+          "name": "box",
+          "line": 47
+        },
+        {
+          "name": "roundedRectShape",
+          "line": 57
+        },
+        {
+          "name": "prismXZ",
+          "line": 73
+        },
+        {
+          "name": "seededRandom",
+          "line": 107
+        },
+        {
+          "name": "createWinglet",
+          "line": 384
+        },
+        {
+          "name": "createEngine",
+          "line": 436
+        },
+        {
+          "name": "setCamera",
+          "line": 634
+        },
+        {
+          "name": "updateScene",
+          "line": 665
+        },
+        {
+          "name": "pause",
+          "line": 679
+        },
+        {
+          "name": "seek",
+          "line": 684
+        },
+        {
+          "name": "getCameraState",
+          "line": 689
+        },
+        {
+          "name": "idleRender",
+          "line": 705
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "c2293877f025054d6ef69c625a26e86601d96462a130dc095c226dc02e3bd718"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/490/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

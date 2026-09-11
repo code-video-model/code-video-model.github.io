@@ -1,0 +1,438 @@
+{
+  "familyCount": 5,
+  "pairCount": 10,
+  "videoCount": 20,
+  "scope": "camera-only",
+  "pairs": [
+    {
+      "id": "camera-v13-601-681-take1",
+      "family": "camera-v13-601-681",
+      "version": "v13",
+      "take": 1,
+      "title": "展厅",
+      "refinementPasses": 4,
+      "note": "保留原场景。",
+      "videos": [
+        {
+          "caseId": "601",
+          "filename": "camera-v13-601-681-take1-601.mp4",
+          "sha256": "84b99af800cc0fe0063491e2df300f8896f3857e589ba77f61b1750b71bf3002",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v13-601-681-take1-601.mp4",
+          "poster": "static/paired-camera/posters/camera-v13-601-681-take1-601.jpg"
+        },
+        {
+          "caseId": "681",
+          "filename": "camera-v13-601-681-take1-681.mp4",
+          "sha256": "560598b3d5218fcff510f322e1981edd2791d346ab54c6e6aafebdce88d89a35",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v13-601-681-take1-681.mp4",
+          "poster": "static/paired-camera/posters/camera-v13-601-681-take1-681.jpg"
+        }
+      ]
+    },
+    {
+      "id": "camera-v13-601-681-take2",
+      "family": "camera-v13-601-681",
+      "version": "v13",
+      "take": 2,
+      "title": "展厅",
+      "refinementPasses": 4,
+      "note": "保留原场景。",
+      "videos": [
+        {
+          "caseId": "601",
+          "filename": "camera-v13-601-681-take2-601.mp4",
+          "sha256": "3e1d04a1a522c5ff4ed80b0a6bca27557072614c63b8530d4ba62a02d59de5c2",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v13-601-681-take2-601.mp4",
+          "poster": "static/paired-camera/posters/camera-v13-601-681-take2-601.jpg"
+        },
+        {
+          "caseId": "681",
+          "filename": "camera-v13-601-681-take2-681.mp4",
+          "sha256": "170a535925ffead3920b7631f567cd8504fd9bb76794ed4df839ad5c84af269d",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v13-601-681-take2-681.mp4",
+          "poster": "static/paired-camera/posters/camera-v13-601-681-take2-681.jpg"
+        }
+      ]
+    },
+    {
+      "id": "camera-v15-601-681-take1",
+      "family": "camera-v15-601-681",
+      "version": "v15",
+      "take": 1,
+      "title": "展厅",
+      "refinementPasses": 4,
+      "note": "保留原场景。",
+      "videos": [
+        {
+          "caseId": "601",
+          "filename": "camera-v15-601-681-take1-601.mp4",
+          "sha256": "5e825427ef80bb37d274166ed187ea8a46f9386753c7b826bc31526a0d7593d1",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v15-601-681-take1-601.mp4",
+          "poster": "static/paired-camera/posters/camera-v15-601-681-take1-601.jpg"
+        },
+        {
+          "caseId": "681",
+          "filename": "camera-v15-601-681-take1-681.mp4",
+          "sha256": "80228d63321856bdd194901fc74ca97ca9871acee71d916019dadf96519ca75a",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v15-601-681-take1-681.mp4",
+          "poster": "static/paired-camera/posters/camera-v15-601-681-take1-681.jpg"
+        }
+      ]
+    },
+    {
+      "id": "camera-v15-601-681-take2",
+      "family": "camera-v15-601-681",
+      "version": "v15",
+      "take": 2,
+      "title": "展厅",
+      "refinementPasses": 4,
+      "note": "保留原场景。",
+      "videos": [
+        {
+          "caseId": "601",
+          "filename": "camera-v15-601-681-take2-601.mp4",
+          "sha256": "757ab7411f2894f16c01388cb7c450be79badc431fd3463bbf383e80ba06a80b",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v15-601-681-take2-601.mp4",
+          "poster": "static/paired-camera/posters/camera-v15-601-681-take2-601.jpg"
+        },
+        {
+          "caseId": "681",
+          "filename": "camera-v15-601-681-take2-681.mp4",
+          "sha256": "8098e49ecefd151accf4aca38518e127af3b2c8d6cfad914ab14adef5764a2d1",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v15-601-681-take2-681.mp4",
+          "poster": "static/paired-camera/posters/camera-v15-601-681-take2-681.jpg"
+        }
+      ]
+    },
+    {
+      "id": "camera-v13-590-670-take1",
+      "family": "camera-v13-590-670",
+      "version": "v13",
+      "take": 1,
+      "title": "仓库",
+      "refinementPasses": 5,
+      "note": "保留原场景；抗锯齿采用 SSAA，边缘观感与原 MSAA 略有区别。",
+      "videos": [
+        {
+          "caseId": "590",
+          "filename": "camera-v13-590-670-take1-590.mp4",
+          "sha256": "31c8d07f647cdb228815b36a2ab3dbd9a4e14ba414462be105e825b8b7ef3610",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v13-590-670-take1-590.mp4",
+          "poster": "static/paired-camera/posters/camera-v13-590-670-take1-590.jpg"
+        },
+        {
+          "caseId": "670",
+          "filename": "camera-v13-590-670-take1-670.mp4",
+          "sha256": "9d75d61ee2ee0dc7fcf61fb4723147316fba9d5a402c602ad503f4930336e3da",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v13-590-670-take1-670.mp4",
+          "poster": "static/paired-camera/posters/camera-v13-590-670-take1-670.jpg"
+        }
+      ]
+    },
+    {
+      "id": "camera-v13-590-670-take2",
+      "family": "camera-v13-590-670",
+      "version": "v13",
+      "take": 2,
+      "title": "仓库",
+      "refinementPasses": 5,
+      "note": "保留原场景；抗锯齿采用 SSAA，边缘观感与原 MSAA 略有区别。",
+      "videos": [
+        {
+          "caseId": "590",
+          "filename": "camera-v13-590-670-take2-590.mp4",
+          "sha256": "feaba62964c3b3a90caed7ada21c24477662254001420a4fcab1460fc5d68c81",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v13-590-670-take2-590.mp4",
+          "poster": "static/paired-camera/posters/camera-v13-590-670-take2-590.jpg"
+        },
+        {
+          "caseId": "670",
+          "filename": "camera-v13-590-670-take2-670.mp4",
+          "sha256": "27c780ae90f566831583350716172af1c2cbf3cd9ae2419f05bfe6ae91b8aef7",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v13-590-670-take2-670.mp4",
+          "poster": "static/paired-camera/posters/camera-v13-590-670-take2-670.jpg"
+        }
+      ]
+    },
+    {
+      "id": "camera-v13-591-671-take1",
+      "family": "camera-v13-591-671",
+      "version": "v13",
+      "take": 1,
+      "title": "走廊",
+      "refinementPasses": 5,
+      "note": "保留原场景；抗锯齿采用 SSAA，边缘观感与原 MSAA 略有区别。",
+      "videos": [
+        {
+          "caseId": "591",
+          "filename": "camera-v13-591-671-take1-591.mp4",
+          "sha256": "843e1d62696ea66ed01cdd0f6969c54fa8a31a9102bda3cd8994b30fe457e742",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v13-591-671-take1-591.mp4",
+          "poster": "static/paired-camera/posters/camera-v13-591-671-take1-591.jpg"
+        },
+        {
+          "caseId": "671",
+          "filename": "camera-v13-591-671-take1-671.mp4",
+          "sha256": "1ac89bc3c01ec50f46b10df6d38faa6a1715ff2170b7a49d8232235811662630",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v13-591-671-take1-671.mp4",
+          "poster": "static/paired-camera/posters/camera-v13-591-671-take1-671.jpg"
+        }
+      ]
+    },
+    {
+      "id": "camera-v13-591-671-take2",
+      "family": "camera-v13-591-671",
+      "version": "v13",
+      "take": 2,
+      "title": "走廊",
+      "refinementPasses": 5,
+      "note": "保留原场景；抗锯齿采用 SSAA，边缘观感与原 MSAA 略有区别。",
+      "videos": [
+        {
+          "caseId": "591",
+          "filename": "camera-v13-591-671-take2-591.mp4",
+          "sha256": "da27caed77d869d2737c52ccdd8a1bb534539ebe5b92e693e9ae372b0c7f9a38",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v13-591-671-take2-591.mp4",
+          "poster": "static/paired-camera/posters/camera-v13-591-671-take2-591.jpg"
+        },
+        {
+          "caseId": "671",
+          "filename": "camera-v13-591-671-take2-671.mp4",
+          "sha256": "ceb25e7119cc2abb44ad342f276babf6e62311e0cd96fee359fe69886ff0982d",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v13-591-671-take2-671.mp4",
+          "poster": "static/paired-camera/posters/camera-v13-591-671-take2-671.jpg"
+        }
+      ]
+    },
+    {
+      "id": "camera-v19-591-671-take1",
+      "family": "camera-v19-591-671",
+      "version": "v19",
+      "take": 1,
+      "title": "走廊",
+      "refinementPasses": 5,
+      "note": "保留原场景；抗锯齿采用 SSAA，边缘观感与原 MSAA 略有区别。",
+      "videos": [
+        {
+          "caseId": "591",
+          "filename": "camera-v19-591-671-take1-591.mp4",
+          "sha256": "54e5ab209beca7f179ed0f77ed821f0fae0b59ec9a5d53545519b845a1d18715",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v19-591-671-take1-591.mp4",
+          "poster": "static/paired-camera/posters/camera-v19-591-671-take1-591.jpg"
+        },
+        {
+          "caseId": "671",
+          "filename": "camera-v19-591-671-take1-671.mp4",
+          "sha256": "3e6b72d1d3dddb870b1287e3b72feb05712b4711bdf6247dc1f2bb932c15788c",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v19-591-671-take1-671.mp4",
+          "poster": "static/paired-camera/posters/camera-v19-591-671-take1-671.jpg"
+        }
+      ]
+    },
+    {
+      "id": "camera-v19-591-671-take2",
+      "family": "camera-v19-591-671",
+      "version": "v19",
+      "take": 2,
+      "title": "走廊",
+      "refinementPasses": 5,
+      "note": "保留原场景；抗锯齿采用 SSAA，边缘观感与原 MSAA 略有区别。",
+      "videos": [
+        {
+          "caseId": "591",
+          "filename": "camera-v19-591-671-take2-591.mp4",
+          "sha256": "7321b6f61c9ffa1cc591bb7c5db3cf6c0ee7332c2da5cc9eb4aa9cd608a95428",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v19-591-671-take2-591.mp4",
+          "poster": "static/paired-camera/posters/camera-v19-591-671-take2-591.jpg"
+        },
+        {
+          "caseId": "671",
+          "filename": "camera-v19-591-671-take2-671.mp4",
+          "sha256": "afc2c280969ea1d9fc7592ce62d29e81081d15f23913ec2807606fdabd03b247",
+          "metadata": {
+            "width": 960,
+            "height": 540,
+            "fps": "24",
+            "frames": 124,
+            "duration": 5.166667,
+            "codec": "h264",
+            "pixelFormat": "yuv420p"
+          },
+          "url": "static/paired-camera/videos/camera-v19-591-671-take2-671.mp4",
+          "poster": "static/paired-camera/posters/camera-v19-591-671-take2-671.jpg"
+        }
+      ]
+    }
+  ]
+}

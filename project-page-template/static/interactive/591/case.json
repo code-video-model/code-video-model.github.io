@@ -1,0 +1,79 @@
+{
+  "case_id": "591",
+  "session": "Scene / World Editing",
+  "prompt": "A photorealistic 5-second video of a clean laboratory corridor with a sealed double door at the far end. Both sealed door leaves open outward during the shot, revealing the bright robotics room beyond. Use a smooth stable camera trajectory, coherent geometry, and consistent lighting throughout the shot.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "a56a1bad7dcd21c1d7231b72d71048e1666382c5d41b1e5e8f7056b98578b9e8",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "9cda895a53a41a19d0f7299d396591e8f98ea6c2c5f32c3e7fcf566df8d146e5",
+      "functions": [
+        {
+          "name": "box",
+          "line": 49
+        },
+        {
+          "name": "cylinder",
+          "line": 59
+        },
+        {
+          "name": "addCeilingLight",
+          "line": 69
+        },
+        {
+          "name": "createRobotArm",
+          "line": 166
+        },
+        {
+          "name": "createDoor",
+          "line": 211
+        },
+        {
+          "name": "clamp01",
+          "line": 276
+        },
+        {
+          "name": "smoothstep",
+          "line": 280
+        },
+        {
+          "name": "update",
+          "line": 285
+        },
+        {
+          "name": "pause",
+          "line": 319
+        },
+        {
+          "name": "seek",
+          "line": 326
+        },
+        {
+          "name": "getCameraState",
+          "line": 331
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "9cda895a53a41a19d0f7299d396591e8f98ea6c2c5f32c3e7fcf566df8d146e5"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/591/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

@@ -1,0 +1,107 @@
+{
+  "case_id": "666",
+  "session": "Scene / World Editing",
+  "prompt": "A photorealistic 5-second video of a small restaurant with four dining tables and a central aisle. The second table on the left remains present in its normal position.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "b7ae4c1515b11a4358b9fb2871406d9eefb9b500dc2685c64853354a25d5cfb8",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "bda446684f8f80b677d66a8eac04adb1f9a2657c39efad074778248f16baebf6",
+      "functions": [
+        {
+          "name": "material",
+          "line": 34
+        },
+        {
+          "name": "setShadow",
+          "line": 57
+        },
+        {
+          "name": "box",
+          "line": 67
+        },
+        {
+          "name": "cylinder",
+          "line": 77
+        },
+        {
+          "name": "makeFloor",
+          "line": 90
+        },
+        {
+          "name": "makeDiningBayInlay",
+          "line": 129
+        },
+        {
+          "name": "makeArchitecture",
+          "line": 137
+        },
+        {
+          "name": "makeWindows",
+          "line": 160
+        },
+        {
+          "name": "makeWallFrames",
+          "line": 188
+        },
+        {
+          "name": "makeBackBar",
+          "line": 202
+        },
+        {
+          "name": "makePendant",
+          "line": 223
+        },
+        {
+          "name": "makeChair",
+          "line": 264
+        },
+        {
+          "name": "makePlaceSetting",
+          "line": 288
+        },
+        {
+          "name": "makeTableSet",
+          "line": 316
+        },
+        {
+          "name": "makePlant",
+          "line": 363
+        },
+        {
+          "name": "makeLights",
+          "line": 390
+        },
+        {
+          "name": "smootherStep",
+          "line": 439
+        },
+        {
+          "name": "updateAtTime",
+          "line": 444
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "bda446684f8f80b677d66a8eac04adb1f9a2657c39efad074778248f16baebf6"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/666/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

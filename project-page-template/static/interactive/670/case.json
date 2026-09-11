@@ -1,0 +1,67 @@
+{
+  "case_id": "670",
+  "session": "Scene / World Editing",
+  "prompt": "A photorealistic 5-second video of an industrial warehouse interior with a large rolling loading door fully closed. The loading door remains closed throughout the shot.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "3b4064e8bb85b60bb1d51440fe29f08ad6568104e331e724c491e3cd5733f074",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "e75c1db898831b3b7e7c0cfd8c87f938c20d9f1ab6f0737e8e8169e5413d6b73",
+      "functions": [
+        {
+          "name": "box",
+          "line": 65
+        },
+        {
+          "name": "cylinder",
+          "line": 75
+        },
+        {
+          "name": "beamBetween",
+          "line": 88
+        },
+        {
+          "name": "addHazardStrip",
+          "line": 97
+        },
+        {
+          "name": "makePalletStack",
+          "line": 115
+        },
+        {
+          "name": "makeDrum",
+          "line": 145
+        },
+        {
+          "name": "smootherstep",
+          "line": 367
+        },
+        {
+          "name": "update",
+          "line": 372
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "e75c1db898831b3b7e7c0cfd8c87f938c20d9f1ab6f0737e8e8169e5413d6b73"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/670/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

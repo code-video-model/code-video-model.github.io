@@ -1,0 +1,73 @@
+MODEL AND REPRODUCTION
+Run: PYTHONDONTWRITEBYTECODE=1 python simulate.py
+Then: PYTHONDONTWRITEBYTECODE=1 python validate.py
+All numerical parameters are fixed in simulate.py and exported to simulation/parameters.json.
+Dense endpoint-inclusive data: 5001 rows at 1 ms in simulation/series.csv and series.json.
+
+LAW AND SIGN CONVENTION
+Faraday: EMF = -d(lambda_ext)/dt = -(d(lambda_ext)/dx) v, lambda_ext = N Phi_ext.
+Lenz: the winding current creates flux opposing the change of external flux.
+Reference: OpenStax University Physics Volume 2, sections 13.1 and 13.2:
+https://openstax.org/books/university-physics-volume-2/pages/13-1-faradays-law
+https://openstax.org/books/university-physics-volume-2/pages/13-2-lenzs-law
+These sources establish the law; the following numerical model is an authored illustrative
+model, not a fitted measurement or a claim about the generated appearance photograph.
+
+x increases rightwards with insertion. The blue S pole leads; the red N pole stays left.
+The winding's positive normal is -world-X, toward the approaching S pole.
+Positive meter current corresponds to positive coil self-flux along that normal.
+Conventional positive loop current runs from the coil's left/black end through
+the winding to its right/red end, into the meter red terminal, through the meter,
+then back along the black lead. The visible helix has y=r cos(a), z=r sin(a),
+with a decreasing as x increases: its positive-current normal is therefore -X.
+External flux linkage is positive and increases with insertion, giving negative EMF,
+negative current, and negative pointer angle: LEFT on the signed center-zero dial.
+Withdrawal reverses d(lambda)/dt, yielding positive current and RIGHT deflection.
+The leads, polarities and winding do not reverse during the shot.
+
+PRESCRIBED MECHANICS AND EXTERNAL FLUX
+Hold outside x=-0.100 m from 0 to 0.55 s.
+Insert to x=+0.035 m from 0.55 to 1.65 s.
+Hold exactly that position from 1.65 to 3.15 s.
+Withdraw from 3.15 to 4.25 s, then hold outside through 5.00 s.
+Each move uses s(u)=10u^3-15u^4+6u^5. Position, velocity and acceleration
+are continuous at the piecewise boundaries; there are no instantaneous velocity jumps.
+lambda_ext(x)=0.015 [1+tanh((x+0.025)/0.045)]/2 Wb-turn.
+N=400 gives a maximum mean per-turn flux 37.5 microWb.
+For a representative 3 cm bore radius this is an order-10 mT linked mean field.
+The saturating overlap function approximates a finite magnet entering a finite coil.
+It is not a point-dipole singularity or a full spatial magnetic-field solution.
+Only the range where linkage grows monotonically is traversed; no far-side pass-through.
+The prescribed hand motion supplies the magnetic work; reaction force does not alter x(t).
+
+EXPLICIT ELECTRICAL AND INSTRUMENT MODEL
+L di/dt + R i + K omega = EMF_ext.
+R=70 ohm coil + 930 ohm meter (including its series winding resistance); L=0.12 H.
+The small K omega term is reciprocal moving-coil back EMF, not a separate external field.
+J d(omega)/dt = K i - c omega - k theta; d(theta)/dt=omega.
+K=4.2e-5 Nm/A, k=3e-9 Nm/rad, J=3e-11 kg m^2, c=5.7e-10 Nm s/rad.
+Natural angular frequency sqrt(k/J)=10 rad/s; mechanical damping ratio 0.95.
+DC sensitivity K/k=14000 rad/A, giving 40.1 degrees at 50 microA.
+The inertia is representative of a lightweight moving-coil pointer assembly.
+The full passive coupled model contains damping and electrical energy storage.
+EMF_ext is EXACTLY zero while stationary; electrical current becomes very small
+but may retain a tiny, short-lived back-EMF component while the pointer settles.
+It is physically incorrect to claim exact instantaneous zero current in a finite-L meter.
+
+NUMERICS / CAUSAL AUTHORITY
+SciPy Radau solves the coupled stiff RL and second-order mechanical system from rest,
+rtol=1e-9; component absolute tolerances [1e-13 A, 1e-11 rad, 1e-11 rad/s].
+Maximum internal step 5 ms, with output every 1 ms.
+An independent tighter run checks convergence. Absolute-time browser sampling uses
+linear interpolation in the SAVED series: magnet X reads column 1 and needle rotation
+reads column 6 independently. There is no theta(x), sine-from-position, or appearance-
+image-derived motion. Out-of-order browser seek tests compare actual rendered pixels.
+
+VISUAL MODEL LIMITS
+The Three.js scene is a readable structural RGB conditioning proxy, not photographic
+final footage. Visible copper winding geometry is simplified relative to 400 real turns.
+The approved photo supplies wood/copper/red-blue/black-meter appearance ONLY: its
+vertical coil and horizontal magnet are not an actionable insertion alignment.
+The proxy corrects this by mounting the coil horizontally on a rigid insulating support.
+Its axis and the magnet axis are collinear. A rigid sliding laboratory holder grips the
+trailing red end; a visible sleeve/hand operates the holder. Nothing rotates the magnet.

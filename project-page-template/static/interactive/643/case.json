@@ -1,0 +1,59 @@
+{
+  "case_id": "643",
+  "session": "Architectural Cinematics",
+  "prompt": "A photorealistic 5-second architectural visualization. A double-height modern loft with exposed concrete, large windows and a floating staircase. Camera enters at floor level, curves around the sofa, rises beside the staircase and ends with a wide reveal of the mezzanine. Emphasize stable 3D layout, correct perspective, realistic materials, strong parallax and smooth executable camera motion.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "2a282ae58fdab6a9cbae26cc486361404f9961582c1ab77a09f7d163085838c1",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "c367393308a535b9d6443b0a2d4cf81a812157b4791bc830950ecc7ec3d41a11",
+      "functions": [
+        {
+          "name": "box",
+          "line": 126
+        },
+        {
+          "name": "cylinder",
+          "line": 136
+        },
+        {
+          "name": "roundedBox",
+          "line": 162
+        },
+        {
+          "name": "addLine",
+          "line": 200
+        },
+        {
+          "name": "smootherstep",
+          "line": 499
+        },
+        {
+          "name": "updateAtTime",
+          "line": 504
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "c367393308a535b9d6443b0a2d4cf81a812157b4791bc830950ecc7ec3d41a11"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/643/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

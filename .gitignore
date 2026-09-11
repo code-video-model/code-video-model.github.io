@@ -1,0 +1,15 @@
+node_modules/
+.local-sync/
+.local-import/
+.local-tools/
+.local-tunnel/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+test-results/
+playwright-report/
+*.log
+.DS_Store
+Thumbs.db

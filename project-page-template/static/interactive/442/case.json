@@ -1,0 +1,83 @@
+{
+  "case_id": "442",
+  "session": "3D / 4D Reconstruction",
+  "prompt": "A 5-second 4D reconstruction showcase of a galloping horse crossing a shallow river at sunset. The camera tracks alongside, then slightly arcs toward the front as the horse splashes through water, mane and tail flowing dynamically. Emphasize temporally coherent non-rigid motion, convincing limb motion, water interaction and stable natural scenery.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "5087841c9063eeb5ccf58e213de3a61c41fd17eb1c10e755a73352969d0ab7d7",
+  "entry": "runtime/case/index.html",
+  "sources": [
+    {
+      "path": "original/case/main.js",
+      "name": "case/main.js",
+      "sha256": "b36ba2d2c98feb38f63b05dcc58344afa5a77a200a997f6606180c2ca049f1da",
+      "functions": [
+        {
+          "name": "addHorseMesh",
+          "line": 332
+        },
+        {
+          "name": "alignSegment",
+          "line": 522
+        },
+        {
+          "name": "gaitFoot",
+          "line": 530
+        },
+        {
+          "name": "updateLeg",
+          "line": 549
+        },
+        {
+          "name": "updateTail",
+          "line": 603
+        },
+        {
+          "name": "horseXAt",
+          "line": 628
+        },
+        {
+          "name": "updateSplash",
+          "line": 632
+        },
+        {
+          "name": "updateWater",
+          "line": 671
+        },
+        {
+          "name": "updateCamera",
+          "line": 690
+        },
+        {
+          "name": "updateScene",
+          "line": 705
+        },
+        {
+          "name": "animate",
+          "line": 750
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "case/main.js",
+      "sha256": "b36ba2d2c98feb38f63b05dcc58344afa5a77a200a997f6606180c2ca049f1da"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/home/zhiyangliang/VideoCoder/exports/published-threejs-sources/5087841c9063eeb5ccf58e213de3a61c41fd17eb1c10e755a73352969d0ab7d7",
+    "kind": "source-directory-and-video-hash-match",
+    "artifact_verified": false,
+    "input_video_sha256": "5087841c9063eeb5ccf58e213de3a61c41fd17eb1c10e755a73352969d0ab7d7",
+    "source_page": "https://replica-subscriber-venue-after.trycloudflare.com/world_model_hero_431_480.html",
+    "note": "Local reconstruction video and result record match the selected source page; source files are snapshotted.",
+    "source_snapshot_verified": true
+  }
+}

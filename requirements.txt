@@ -1,0 +1,2 @@
+# Only needed to regenerate gallery covers and homepage previews.
+Pillow>=10,<12

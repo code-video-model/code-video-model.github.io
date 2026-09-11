@@ -1,0 +1,111 @@
+{
+  "case_id": "568",
+  "session": "Robotics Simulation",
+  "prompt": "A modern hospital corridor with a nurse station, two doorways and a ninety-degree right turn. The agent moves straight past the nurse station, turns right at the junction and stops beside the second doorway. Fixed ceiling-corner cinematic camera. The moving agent is a realistic bipedal humanoid robot with natural articulated walking. Generate a photorealistic 5-second robotics-simulation video.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "eb438ab702b62c1566d07cf9c8a3b6cf66ab15195d100900b5eaf6daeaf7d1d7",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/main.js",
+      "name": "main.js",
+      "sha256": "d5f4c9a25e9036941633f554e3a5095cd5903f3770cb630c489fa019b61a8d96",
+      "functions": [
+        {
+          "name": "mesh",
+          "line": 83
+        },
+        {
+          "name": "box",
+          "line": 92
+        },
+        {
+          "name": "makeTextTexture",
+          "line": 96
+        },
+        {
+          "name": "sign",
+          "line": 119
+        },
+        {
+          "name": "cylinder",
+          "line": 130
+        },
+        {
+          "name": "addFloorTiles",
+          "line": 138
+        },
+        {
+          "name": "addWallPanelX",
+          "line": 148
+        },
+        {
+          "name": "addDoorOne",
+          "line": 154
+        },
+        {
+          "name": "addDoorTwo",
+          "line": 173
+        },
+        {
+          "name": "addNurseStation",
+          "line": 192
+        },
+        {
+          "name": "addBench",
+          "line": 213
+        },
+        {
+          "name": "addHospitalEnvironment",
+          "line": 238
+        },
+        {
+          "name": "makeLimb",
+          "line": 318
+        },
+        {
+          "name": "pointLimb",
+          "line": 325
+        },
+        {
+          "name": "addHumanoidRobot",
+          "line": 332
+        },
+        {
+          "name": "routeAt",
+          "line": 478
+        },
+        {
+          "name": "updateHumanoid",
+          "line": 538
+        },
+        {
+          "name": "renderAt",
+          "line": 605
+        },
+        {
+          "name": "tick",
+          "line": 610
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "main.js",
+      "sha256": "d5f4c9a25e9036941633f554e3a5095cd5903f3770cb630c489fa019b61a8d96"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/568/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

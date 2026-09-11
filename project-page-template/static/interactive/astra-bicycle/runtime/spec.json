@@ -1,0 +1,95 @@
+{
+  "schema": "codevideo-nvs-case-v1",
+  "caseId": "astra-bicycle",
+  "description": "A stationary white bicycle with two spoked wheels, black tires, a white diamond frame, black saddle and handlebar grips, leaning by a black slatted bench. Grass and a path occupy the foreground; dense shrubs, trees and distant buildings establish layered depth.",
+  "cameraIntent": "Begin at the photographed broadside view. Make a shallow continuous arc toward the front-wheel side with a small lift. Keep the complete bicycle in view and expose clear bicycle/bench/background parallax.",
+  "invariants": [
+    "The bicycle and both wheels remain completely still.",
+    "Preserve the white frame topology, two wheels, handlebars, saddle, and black bench.",
+    "No rider or other people appear."
+  ],
+  "target": {
+    "width": 960,
+    "height": 720,
+    "ratio": "4:3",
+    "fps": 30,
+    "frames": 300,
+    "duration": 10,
+    "codec": "h264",
+    "pixelFormat": "yuv420p"
+  },
+  "photo": {
+    "path": "input/original.jpg",
+    "sha256": "94e5c3edf30fc1f4612249c0c9ab3f65646b66b1f7307b565510ca7f42bb524f",
+    "sourcePath": "/home/v-yanwenwang/CodeVideo/3d_real_image/bicycle.jpg"
+  },
+  "condition": {
+    "path": "input/reference-frame.png",
+    "sha256": "ea57c44dc703405084655ad57836baaf43bd6e1ebdee019300a025feb110903d"
+  },
+  "normalization": {
+    "schema": "codevideo-photo-normalization-v1",
+    "operation": "EXIF orientation, centered uniform cover crop to exact aspect ratio; no stretching or generative editing",
+    "framing": "cover-crop",
+    "cropFocus": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      1237,
+      822
+    ],
+    "orientedSize": [
+      1237,
+      822
+    ],
+    "exifOrientation": null,
+    "outputSize": [
+      960,
+      720
+    ],
+    "scale": 0.8759124087591241,
+    "offset": [
+      -61.75182481751824,
+      -0.0
+    ],
+    "sourceToCanvas": [
+      0.8759124087591241,
+      0,
+      -61.75182481751824,
+      0,
+      0.8759124087591241,
+      -0.0,
+      0,
+      0,
+      1
+    ],
+    "viewport": [
+      0,
+      0,
+      960,
+      720
+    ],
+    "viewportRounding": "nearest-pixel extent, centered integer viewport",
+    "cropBoxSource": [
+      70.49999999999999,
+      0,
+      1166.5,
+      822
+    ],
+    "sourceSha256": "94e5c3edf30fc1f4612249c0c9ab3f65646b66b1f7307b565510ca7f42bb524f",
+    "sourceFormat": "JPEG",
+    "normalizedSha256": "ea57c44dc703405084655ad57836baaf43bd6e1ebdee019300a025feb110903d"
+  },
+  "cameraOrbitRange": [
+    358,
+    360
+  ],
+  "workflowProfile": "astra-fast-v1",
+  "reconstruction": {
+    "geometry": "procedural-3d-only",
+    "sceneMotion": "static",
+    "hiddenSurfaces": "inferred-not-ground-truth"
+  },
+  "specSha256": "e957693c98800a1b91e4005cd5cfe7b83db4095048cc75ef779258d5a8aa3c93"
+}

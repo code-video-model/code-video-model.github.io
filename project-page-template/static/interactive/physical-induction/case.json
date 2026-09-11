@@ -1,0 +1,100 @@
+{
+  "case_id": "physical-induction",
+  "session": "Physical Grounding",
+  "prompt": "Electromagnetic Induction",
+  "fps": 24.0,
+  "frames": 113,
+  "width": 1920,
+  "height": 1080,
+  "threejs_sha256": "1666ca5176859f4422caaacce90b2ed5fb1a1a18042203d35bbffc420aa7089d",
+  "entry": "runtime/threejs/case/index.html",
+  "sources": [
+    {
+      "path": "original/threejs/case/scene.js",
+      "name": "threejs/case/scene.js",
+      "sha256": "ee6c5f0850d933f12e569ebf2e19301153b1312467b12d2d9247618f56f69e41",
+      "functions": [
+        {
+          "name": "box",
+          "line": 28
+        },
+        {
+          "name": "ball",
+          "line": 32
+        },
+        {
+          "name": "tube",
+          "line": 36
+        },
+        {
+          "name": "textPlane",
+          "line": 41
+        },
+        {
+          "name": "namedBall",
+          "line": 131
+        },
+        {
+          "name": "taperedSegment",
+          "line": 135
+        },
+        {
+          "name": "palmBody",
+          "line": 145
+        },
+        {
+          "name": "digit",
+          "line": 180
+        },
+        {
+          "name": "objectBounds",
+          "line": 217
+        },
+        {
+          "name": "handDiagnostics",
+          "line": 228
+        },
+        {
+          "name": "sample",
+          "line": 247
+        },
+        {
+          "name": "seek",
+          "line": 253
+        }
+      ]
+    },
+    {
+      "path": "original/physics/physics-model.txt",
+      "name": "physics/physics-model.txt",
+      "sha256": "c0c39a216cd0ca7fa15078fdb5fd3699ba6ea55179df5b23b6fd37f27f00dd18",
+      "functions": []
+    },
+    {
+      "path": "original/physics/simulate.py",
+      "name": "physics/simulate.py",
+      "sha256": "e0b31f897eba345ac98e3c96235c308085668af65910baa08d86d13be391ad4b",
+      "functions": []
+    }
+  ],
+  "provenance": {
+    "archive": "electromagnetic-induction-classroom-5s-review-v1.tar.gz",
+    "delivery_status": "awaiting_final_review",
+    "result_sha256": "a7d30e093cc311eb014e577d16da086f1b6edbb5f84883c888446712c5a1f616",
+    "input_metadata": {
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "30/1",
+      "duration": "5.000000",
+      "nb_frames": "150"
+    },
+    "output_metadata": {
+      "width": 1920,
+      "height": 1080,
+      "r_frame_rate": "24/1",
+      "duration": "4.708333",
+      "nb_frames": "113"
+    },
+    "timeline": "Output frame clock in seconds; source files and media are unchanged."
+  }
+}

@@ -1,0 +1,22 @@
+const {chromium}=require('playwright');const assert=require('node:assert/strict');
+(async()=>{const b=await chromium.launch({channel:'chrome'});try{
+const p=await b.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});const errors=[];p.on('pageerror',e=>errors.push(e.message));
+let attempts=0;const resource='**/case-583-db0376ec4673.mp4';
+await p.route(resource,r=>{attempts++;return attempts===1?r.abort('connectionreset'):r.continue();});
+const base='http://127.0.0.1:8795/';await p.goto(base+'?case=583&review=0');
+await p.waitForFunction(()=>document.querySelector('#gallery iframe')?.contentDocument?.documentElement?.dataset.workbenchState==='ready',null,{timeout:120000,polling:100});
+assert.equal(attempts,2);assert.equal(await p.locator('#gallery .fps-retry').isVisible(),false);
+const properties=['font','padding','border','borderRadius','backgroundImage','color','minHeight'];
+const styles=await p.locator('#gallery .fps-back,#gallery .category-collapse').evaluateAll((ns,props)=>ns.map(n=>Object.fromEntries(props.map(k=>[k,getComputedStyle(n)[k]]))),properties);
+assert.deepEqual(styles[0],styles[1]);await p.locator('#gallery .category-results-header').screenshot({path:'test-results/return-overview.png'});await p.locator('#gallery .fps-expanded-heading').screenshot({path:'test-results/return-results.png'});
+await p.locator('#gallery .fps-back').click();await p.unroute(resource);
+await p.route(resource,r=>r.abort('connectionreset'));
+await p.locator('#gallery .fps-case-bubble[data-case="583"]').click();await p.locator('#gallery .fps-retry').waitFor({timeout:90000});
+assert.ok((await p.locator('#gallery .fps-load-status').textContent()).includes('result video'));
+await p.locator('#gallery .fps-error-detail summary').click();assert.ok((await p.locator('#gallery .fps-error-detail code').textContent()).includes('case-583-db0376ec4673.mp4'));
+await p.unroute(resource);await p.locator('#gallery .fps-retry').click();
+await p.waitForFunction(()=>document.querySelector('#gallery iframe')?.contentDocument?.documentElement?.dataset.workbenchState==='ready',null,{timeout:120000,polling:100});
+assert.equal(await p.locator('#gallery .fps-error-detail').isVisible(),false);
+await p.setViewportSize({width:390,height:844});const mobileStyles=await p.locator('#gallery .fps-back,#gallery .category-collapse').evaluateAll((ns,props)=>ns.map(n=>Object.fromEntries(props.map(k=>[k,getComputedStyle(n)[k]]))),properties);assert.deepEqual(mobileStyles[0],mobileStyles[1]);
+assert.deepEqual(errors,[]);console.log('PASS transient connection reset auto-recovers, persistent failure details + retry, matching return buttons desktop/mobile');
+}finally{await b.close()}})().catch(e=>{console.error(e);process.exitCode=1;});

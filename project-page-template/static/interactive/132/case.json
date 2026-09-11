@@ -1,0 +1,70 @@
+{
+  "case_id": "132",
+  "session": "First-Person Games",
+  "prompt": "First-person POV in Jurassic Park. I crouch beside a stalled jeep in heavy rain as a T. rex steps into the road. Lightning reveals its full body; it lowers its head toward the camera and roars, shaking rainwater from its teeth. Minimal movement, maximum scale and suspense.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "35de95026515a7c20b3067439683656def07b5cc1fe2845f0828cdce37389a34",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "579bab01436622593e9af503a468f6cbdee5713d90a6d535ac522c7e0152d788",
+      "functions": [
+        {
+          "name": "mulberry32",
+          "line": 18
+        },
+        {
+          "name": "addBox",
+          "line": 243
+        },
+        {
+          "name": "taperedBox",
+          "line": 253
+        },
+        {
+          "name": "ellipsoid",
+          "line": 405
+        },
+        {
+          "name": "makeLimb",
+          "line": 419
+        },
+        {
+          "name": "placeBetween",
+          "line": 430
+        },
+        {
+          "name": "updateLegs",
+          "line": 687
+        },
+        {
+          "name": "updateRain",
+          "line": 726
+        },
+        {
+          "name": "updateScene",
+          "line": 748
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "579bab01436622593e9af503a468f6cbdee5713d90a6d535ac522c7e0152d788"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/cinematic_video_prompts_1_400_threejs_h3_aligned/code/132",
+    "artifact_verified": true
+  }
+}

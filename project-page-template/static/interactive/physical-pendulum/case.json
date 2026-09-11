@@ -1,0 +1,66 @@
+{
+  "case_id": "physical-pendulum",
+  "session": "Physical Grounding",
+  "prompt": "Double Pendulum",
+  "fps": 24.0,
+  "frames": 121,
+  "width": 1280,
+  "height": 720,
+  "threejs_sha256": "14610905e9be25e606c37881082cd40152a25c599912e85a02cdcb6b6ed3803e",
+  "entry": "runtime/threejs/case/index.html",
+  "sources": [
+    {
+      "path": "original/threejs/case/main.js",
+      "name": "threejs/case/main.js",
+      "sha256": "72380f16803ebb7c2c7e2427ab4fdc74581cc85af80277afc44f1321a8eca74b",
+      "functions": [
+        {
+          "name": "box",
+          "line": 68
+        },
+        {
+          "name": "placeRod",
+          "line": 104
+        },
+        {
+          "name": "stateAt",
+          "line": 112
+        },
+        {
+          "name": "draw",
+          "line": 131
+        },
+        {
+          "name": "diagnostics",
+          "line": 143
+        }
+      ]
+    },
+    {
+      "path": "original/physics/integrate_double_pendulum.py",
+      "name": "physics/integrate_double_pendulum.py",
+      "sha256": "daf2ee2094575ec037d2526b0b15a95457ee1b05c6c56362b52c81acd2697240",
+      "functions": []
+    }
+  ],
+  "provenance": {
+    "archive": "double-pendulum-classroom-5s-final-v1.tar.gz",
+    "delivery_status": "accepted",
+    "result_sha256": "4c0bc875cd2b7de54424746d6ef4049e33adf34df9f8e41d95aae6102661aca7",
+    "input_metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "30/1",
+      "duration": "5.000000",
+      "nb_frames": "150"
+    },
+    "output_metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "5.041667",
+      "nb_frames": "121"
+    },
+    "timeline": "Output frame clock in seconds; source files and media are unchanged."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "equal-time-circle-metal-v2-geometry-contract-v1",
+  "caseId": "case-c2aa17de",
+  "radiusMeters": 2.4525,
+  "gravityMetersPerSecondSquared": 9.81,
+  "releaseSeconds": 1.0,
+  "arrivalSeconds": 2.0,
+  "anglesDegrees": [15, 30, 45, 60],
+  "moduleCentersX": [-12.0, -4.0, 4.0, 12.0],
+  "moduleDepths": [0.0, 1.5, 3.0, 4.5],
+  "requirements": {
+    "modules": 4,
+    "railsPerModule": 1,
+    "rodsPerRail": 2,
+    "carriagesPerModule": 1,
+    "catchersPerModule": 1,
+    "sharedReleaseShafts": 1,
+    "separateParallelPlanes": true,
+    "noSharedEndpoint": true
+  },
+  "clearanceDesignMeters": {
+    "moduleEnvelopeGap": 1.9,
+    "movingCarriageSphereGap": 6.8,
+    "carriageToOwnRailRadialClearance": 0.205,
+    "catcherGap": 6.8
+  }
+}

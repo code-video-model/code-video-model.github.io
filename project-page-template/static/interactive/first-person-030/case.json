@@ -1,0 +1,83 @@
+{
+  "case_id": "first-person-030",
+  "session": "First-Person Games",
+  "prompt": "First-person POV riding through an ancient cedar forest at dawn. My hands hold the reins while enormous moss-covered trees rise overhead. Tiny white forest spirits slowly turn their heads toward the camera from the branches. The horse suddenly stops. Through the mist ahead, the enormous Forest Spirit silently steps between the trees while animals gather around it. Quiet supernatural awe, painterly Japanese fantasy landscape.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "1c03ca919eefbf4392d6c4fe8d9b940c398b6facade3c3b0b0d0eaa853939120",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "a321a46d450abb5cf98345af5e1be066699a366f3301cc180e0430af1c5e3143",
+      "functions": [
+        {
+          "name": "shadow",
+          "line": 117
+        },
+        {
+          "name": "mesh",
+          "line": 123
+        },
+        {
+          "name": "cylinderBetween",
+          "line": 129
+        },
+        {
+          "name": "smoothstep",
+          "line": 141
+        },
+        {
+          "name": "dampedJolt",
+          "line": 146
+        },
+        {
+          "name": "addCedar",
+          "line": 199
+        },
+        {
+          "name": "addSmallSpirit",
+          "line": 263
+        },
+        {
+          "name": "addDeer",
+          "line": 410
+        },
+        {
+          "name": "addRabbit",
+          "line": 443
+        },
+        {
+          "name": "cameraZAt",
+          "line": 546
+        },
+        {
+          "name": "update",
+          "line": 559
+        },
+        {
+          "name": "animate",
+          "line": 653
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "a321a46d450abb5cf98345af5e1be066699a366f3301cc180e0430af1c5e3143"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/VideoDemo/work/first_person_game_film/30",
+    "artifact_verified": false,
+    "note": "Original first-person program; published video is frame-rate conformed."
+  }
+}

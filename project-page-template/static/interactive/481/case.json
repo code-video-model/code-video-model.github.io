@@ -1,0 +1,87 @@
+{
+  "case_id": "481",
+  "session": "Architectural Cinematics",
+  "prompt": "A realistic modern art museum with a lone visitor walking through the main atrium. Begin inches above the polished floor behind a sculpture, accelerate between two pedestals, rise smoothly to shoulder height beside the visitor, perform a 180-degree orbit around them, then crane upward to reveal the full atrium from the mezzanine. One continuous 5-second shot, strong parallax, stable architecture and precise spatial continuity. Premium photorealistic cinematography, designed as a 5-second showcase of explicitly programmed camera motion.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "ee266c47f0bb8587cd6c095d3ad4fa53f64e99b0d16f6037ac9fae581cd57ffb",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "2bdce650df689cf2f12a88d7d1d21578681f7d157bbe7432e6f2095933c2c021",
+      "functions": [
+        {
+          "name": "mesh",
+          "line": 79
+        },
+        {
+          "name": "addBox",
+          "line": 89
+        },
+        {
+          "name": "addCylinder",
+          "line": 100
+        },
+        {
+          "name": "addRail",
+          "line": 113
+        },
+        {
+          "name": "addRelief",
+          "line": 178
+        },
+        {
+          "name": "createPedestal",
+          "line": 197
+        },
+        {
+          "name": "makeArm",
+          "line": 339
+        },
+        {
+          "name": "makeLeg",
+          "line": 355
+        },
+        {
+          "name": "quadraticBezier",
+          "line": 460
+        },
+        {
+          "name": "updateVisitor",
+          "line": 469
+        },
+        {
+          "name": "updateCamera",
+          "line": 492
+        },
+        {
+          "name": "updateScene",
+          "line": 521
+        },
+        {
+          "name": "animate",
+          "line": 534
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "2bdce650df689cf2f12a88d7d1d21578681f7d157bbe7432e6f2095933c2c021"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/481/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

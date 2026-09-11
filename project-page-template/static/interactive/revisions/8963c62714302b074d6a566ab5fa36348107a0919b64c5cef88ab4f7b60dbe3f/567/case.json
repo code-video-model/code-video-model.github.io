@@ -1,0 +1,180 @@
+{
+  "case_id": "567",
+  "session": "Robotics Simulation",
+  "prompt": "A photorealistic continuous shot. Use the supplied reference image for scene appearance, subject identity, colors, materials and lighting. Use the supplied video for camera viewpoint, motion, relative positions, timing and occlusion. A hospital corridor and junction contain the nurse station, doors, people and clinical equipment shown in the reference. From the opening onward, show a single articulated quadruped robot dog with the design and proportions in its own reference image. The robot passes the nurse station, follows the corridor through its right-hand turn and approaches the designated second doorway. Use coordinated four-leg stepping with planted support feet and raised swing feet, matching the video's speed, heading and contact timing. Preserve the environment and all other subjects. Do not morph or replace the robot within the clip. Preserve the supplied video's continuous camera movement and framing; do not introduce a new dramatic orbit, cut or independent subject-following move. Preserve the supplied video's complete duration and continuous motion. No jump cuts, teleportation, split-screen or added text overlays. Do not add route graphics or objects that are absent from the supplied inputs.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "8963c62714302b074d6a566ab5fa36348107a0919b64c5cef88ab4f7b60dbe3f",
+  "entry": "runtime/case/index.html",
+  "sources": [
+    {
+      "path": "original/case/main.js",
+      "name": "case/main.js",
+      "sha256": "65ae956f1e7fe9f4c63005fd3c57afc862383b600d04283f3995d37fcffd3916",
+      "functions": [
+        {
+          "name": "roundGeometry",
+          "line": 34
+        },
+        {
+          "name": "mesh",
+          "line": 51
+        },
+        {
+          "name": "box",
+          "line": 60
+        },
+        {
+          "name": "ball",
+          "line": 63
+        },
+        {
+          "name": "cyl",
+          "line": 68
+        },
+        {
+          "name": "rod",
+          "line": 71
+        },
+        {
+          "name": "group",
+          "line": 78
+        },
+        {
+          "name": "label",
+          "line": 82
+        },
+        {
+          "name": "floorTexture",
+          "line": 98
+        },
+        {
+          "name": "windowFrame",
+          "line": 176
+        },
+        {
+          "name": "poster",
+          "line": 205
+        },
+        {
+          "name": "sanitizer",
+          "line": 216
+        },
+        {
+          "name": "officeChair",
+          "line": 261
+        },
+        {
+          "name": "person",
+          "line": 278
+        },
+        {
+          "name": "trolley",
+          "line": 324
+        },
+        {
+          "name": "medicalStand",
+          "line": 342
+        },
+        {
+          "name": "extinguisher",
+          "line": 358
+        },
+        {
+          "name": "joint",
+          "line": 427
+        },
+        {
+          "name": "shellSegment",
+          "line": 437
+        },
+        {
+          "name": "cameraHead",
+          "line": 446
+        },
+        {
+          "name": "contactShadow",
+          "line": 522
+        },
+        {
+          "name": "pathAtDistance",
+          "line": 545
+        },
+        {
+          "name": "distanceAtTime",
+          "line": 555
+        },
+        {
+          "name": "groundOffset",
+          "line": 567
+        },
+        {
+          "name": "footTarget",
+          "line": 571
+        },
+        {
+          "name": "scheduledFoot",
+          "line": 587
+        },
+        {
+          "name": "solveLeg",
+          "line": 599
+        },
+        {
+          "name": "animateRobots",
+          "line": 621
+        },
+        {
+          "name": "cameraState",
+          "line": 647
+        },
+        {
+          "name": "seek",
+          "line": 650
+        },
+        {
+          "name": "transformState",
+          "line": 664
+        },
+        {
+          "name": "materialState",
+          "line": 667
+        },
+        {
+          "name": "serializeTree",
+          "line": 679
+        }
+      ]
+    },
+    {
+      "path": "original/selection-adapter.mjs",
+      "name": "selection-adapter.mjs",
+      "sha256": "2587f7610a07c39ef7e22b74eb0cafba729c39356c623f96e05fa5ece67229a1",
+      "functions": [],
+      "generated_adapter": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "case/main.js",
+      "sha256": "65ae956f1e7fe9f4c63005fd3c57afc862383b600d04283f3995d37fcffd3916"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/home/zhiyangliang/VideoCoder/manual-work/v12-hospital-robotics-pair/code/568",
+    "kind": "verified-paired-code-artifact",
+    "source_artifact_sha256": "d4e3be859a701cb03de27cb6e20afee482d5f73a65855a59e0b74710d45f7aa8",
+    "input_video_sha256": "8963c62714302b074d6a566ab5fa36348107a0919b64c5cef88ab4f7b60dbe3f",
+    "source_pair_key": "v12-hospital-robotics-pair",
+    "source_snapshot_verified": true,
+    "artifact_verified": true,
+    "selected_variant": "567"
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

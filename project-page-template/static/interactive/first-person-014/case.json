@@ -1,0 +1,67 @@
+{
+  "case_id": "first-person-014",
+  "session": "First-Person Games",
+  "prompt": "First-person POV running across the crumbling Bridge of Khazad-dûm with the Fellowship. My hands grab the stone railing as the bridge shakes violently. Gandalf stands ahead facing the enormous Balrog emerging from fire and darkness. The creature spreads its flaming wings and cracks a fiery whip across the cavern, sending sparks and debris toward the camera. Terrifying scale, dramatic orange fire against deep black shadows.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "4b50a8a8f0f1aa81d7949a2b3680bbad3e1058e98981856ccf45b649dfa8cd42",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "dec8fed21fa8d50f3c840c5ba5ea1ca20a84d9ff2d4fa5bbf35534d336968f45",
+      "functions": [
+        {
+          "name": "makeBox",
+          "line": 75
+        },
+        {
+          "name": "makeSphere",
+          "line": 83
+        },
+        {
+          "name": "makeCylinder",
+          "line": 91
+        },
+        {
+          "name": "createHumanoid",
+          "line": 215
+        },
+        {
+          "name": "makeWing",
+          "line": 510
+        },
+        {
+          "name": "placeBetween",
+          "line": 596
+        },
+        {
+          "name": "updateScene",
+          "line": 832
+        },
+        {
+          "name": "animate",
+          "line": 1021
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "dec8fed21fa8d50f3c840c5ba5ea1ca20a84d9ff2d4fa5bbf35534d336968f45"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/VideoDemo/work/first_person_game_film/14",
+    "artifact_verified": false,
+    "note": "Original first-person program; published video is frame-rate conformed."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schema": "codevideo-nvs-case-v1",
+  "caseId": "astra-bonsai",
+  "description": "A photographed manufactured brick-built bonsai sculpture: brown segmented plastic trunk and branches, pink and pale plastic blossoms, black rectangular planter with pebbles, and a brown slatted stand on draped purple textured cloth. A stationary red bicycle, dark furniture, keyboard and room objects sit behind it.",
+  "cameraIntent": "Begin at the photographed view. Make a restrained close arc with a slight lift, revealing the branch and planter depth while preserving the entire sculpture and the layered indoor background.",
+  "invariants": [
+    "The subject is a rigid brick/plastic sculpture, not a living tree.",
+    "Blossoms, trunk, planter, stand, cloth, and background bicycle remain static.",
+    "Preserve the pink blossoms, brown trunk, black planter, purple cloth and red bicycle."
+  ],
+  "target": {
+    "width": 960,
+    "height": 720,
+    "ratio": "4:3",
+    "fps": 30,
+    "frames": 300,
+    "duration": 10,
+    "codec": "h264",
+    "pixelFormat": "yuv420p"
+  },
+  "photo": {
+    "path": "input/original.jpg",
+    "sha256": "78cc33c4002108cc825ccc63d513dbcce5d9cc34b3c141d20a063eb1e59d238c",
+    "sourcePath": "/home/v-yanwenwang/CodeVideo/3d_real_image/bonsai.jpg"
+  },
+  "condition": {
+    "path": "input/reference-frame.png",
+    "sha256": "b7712f0d5bcca3d2c146410a81e3c96f19c1eaed749ecdd493701d1721a2ee74"
+  },
+  "normalization": {
+    "schema": "codevideo-photo-normalization-v1",
+    "operation": "EXIF orientation, centered uniform cover crop to exact aspect ratio; no stretching or generative editing",
+    "framing": "cover-crop",
+    "cropFocus": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      1559,
+      1039
+    ],
+    "orientedSize": [
+      1559,
+      1039
+    ],
+    "exifOrientation": null,
+    "outputSize": [
+      960,
+      720
+    ],
+    "scale": 0.6929740134744947,
+    "offset": [
+      -60.17324350336867,
+      -0.0
+    ],
+    "sourceToCanvas": [
+      0.6929740134744947,
+      0,
+      -60.17324350336867,
+      0,
+      0.6929740134744947,
+      -0.0,
+      0,
+      0,
+      1
+    ],
+    "viewport": [
+      0,
+      0,
+      960,
+      720
+    ],
+    "viewportRounding": "nearest-pixel extent, centered integer viewport",
+    "cropBoxSource": [
+      86.8333333333334,
+      0,
+      1472.1666666666667,
+      1039
+    ],
+    "sourceSha256": "78cc33c4002108cc825ccc63d513dbcce5d9cc34b3c141d20a063eb1e59d238c",
+    "sourceFormat": "JPEG",
+    "normalizedSha256": "b7712f0d5bcca3d2c146410a81e3c96f19c1eaed749ecdd493701d1721a2ee74"
+  },
+  "cameraOrbitRange": [
+    358,
+    360
+  ],
+  "workflowProfile": "astra-fast-v1",
+  "reconstruction": {
+    "geometry": "procedural-3d-only",
+    "sceneMotion": "static",
+    "hiddenSurfaces": "inferred-not-ground-truth"
+  },
+  "specSha256": "a19edcb1f2226d06fb9a629e12c5daef41ac679c35ac788ffbb5db9b7bc055e6"
+}

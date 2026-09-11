@@ -1,0 +1,118 @@
+.publication-hero {
+  padding-bottom: 64px;
+}
+
+.publication-hero .intro-video[hidden] { display: none; }
+
+@media (max-width: 640px) {
+  .publication-hero { padding-bottom: 32px; }
+}
+
+:is(.gallery-section, .opening-atmosphere) {
+  --atmosphere-base: #fbfaf7;
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  background: var(--atmosphere-base);
+  border-top: 0;
+}
+
+#control-world-states, .opening-atmosphere { --atmosphere-a: 167, 211, 250; --atmosphere-b: 176, 234, 211; --atmosphere-c: 217, 235, 250; }
+#long-horizon-style { --atmosphere-a: 182, 223, 245; --atmosphere-b: 159, 218, 214; --atmosphere-c: 207, 235, 237; }
+#gallery { --atmosphere-a: 182, 232, 205; --atmosphere-b: 191, 200, 241; --atmosphere-c: 205, 229, 237; }
+#robotics-simulation { --atmosphere-a: 182, 204, 231; --atmosphere-b: 211, 188, 238; --atmosphere-c: 221, 226, 244; }
+#trajectory-variation { --atmosphere-a: 204, 182, 241; --atmosphere-b: 247, 195, 220; --atmosphere-c: 232, 218, 250; }
+#cinematic-camera-intelligence { --atmosphere-a: 248, 210, 172; --atmosphere-b: 245, 185, 174; --atmosphere-c: 251, 229, 209; }
+#product-cinematography { --atmosphere-a: 235, 209, 162; --atmosphere-b: 248, 237, 207; --atmosphere-c: 244, 226, 208; }
+#scientific-visualization { --atmosphere-a: 231, 213, 187; --atmosphere-b: 191, 214, 184; --atmosphere-c: 226, 229, 210; }
+#physical-grounding { --atmosphere-a: 205, 227, 230; --atmosphere-b: 229, 217, 191; --atmosphere-c: 213, 221, 240; }
+#architectural-cinematics { --atmosphere-a: 180, 232, 226; --atmosphere-b: 240, 235, 166; --atmosphere-c: 226, 242, 201; }
+#reconstruction-3d-4d { --atmosphere-a: 205, 216, 245; --atmosphere-b: 242, 206, 190; --atmosphere-c: 231, 223, 242; }
+
+:is(.gallery-section, .opening-atmosphere)::before,
+:is(.gallery-section, .opening-atmosphere)::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+:is(.gallery-section, .opening-atmosphere)::before {
+  z-index: -2;
+  inset: -6%;
+  background:
+    radial-gradient(ellipse 30% 43% at 8% 28%, rgba(var(--atmosphere-b), .85), rgba(var(--atmosphere-b), 0) 80%),
+    radial-gradient(ellipse 26% 38% at 42% 31%, rgba(var(--atmosphere-a), .95), rgba(var(--atmosphere-a), 0) 80%),
+    radial-gradient(ellipse 32% 36% at 78% 26%, rgba(var(--atmosphere-b), .9), rgba(var(--atmosphere-b), 0) 80%),
+    radial-gradient(ellipse 27% 45% at 98% 59%, rgba(var(--atmosphere-a), .9), rgba(var(--atmosphere-a), 0) 80%),
+    radial-gradient(ellipse 34% 28% at 60% 56%, rgba(var(--atmosphere-c), .9), rgba(var(--atmosphere-c), 0) 85%),
+    radial-gradient(ellipse 28% 40% at 24% 63%, rgba(var(--atmosphere-b), .95), rgba(var(--atmosphere-b), 0) 85%),
+    radial-gradient(ellipse 32% 38% at 49% 86%, rgba(var(--atmosphere-a), .9), rgba(var(--atmosphere-a), 0) 85%),
+    radial-gradient(ellipse 27% 32% at 82% 78%, rgba(var(--atmosphere-b), .85), rgba(var(--atmosphere-b), 0) 80%),
+    linear-gradient(115deg, rgba(var(--atmosphere-a), .65), rgba(var(--atmosphere-c), .5) 28%,
+      rgba(var(--atmosphere-b), .65) 49%, rgba(var(--atmosphere-a), .6) 73%, rgba(var(--atmosphere-c), .5));
+  background-blend-mode: soft-light, multiply, soft-light, multiply, soft-light, multiply, soft-light, multiply, normal;
+  animation: atmosphere-drift 38s ease-in-out infinite alternate;
+  transition: opacity .6s ease;
+}
+
+.gallery-section:nth-of-type(even)::before { animation-delay: -19s; animation-direction: alternate-reverse; }
+:is(.gallery-section, .opening-atmosphere):has(.fps-bubbles-host.is-open)::before { opacity: .55; animation-play-state: paused; }
+:is(.gallery-section, .opening-atmosphere):has(.fps-bubble-grid.is-offscreen)::before { animation-play-state: paused; }
+
+.opening-atmosphere > .publication-hero,
+.opening-atmosphere > #control-world-states { background: transparent; }
+.opening-atmosphere > .publication-hero::before,
+.opening-atmosphere > .publication-hero::after,
+.opening-atmosphere > #control-world-states::before,
+.opening-atmosphere > #control-world-states::after { content: none; }
+
+@keyframes atmosphere-drift {
+  from { transform: translate(-1.5%, -1%) scale(1); }
+  to { transform: translate(1.5%, 1%) scale(1.035); }
+}
+
+.has-page-atmosphere {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  background: #fbfaf7;
+}
+.has-page-atmosphere::before {
+  content: "";
+  position: absolute;
+  inset: -12px;
+  z-index: -1;
+  pointer-events: none;
+  background-image: var(--page-atmosphere-image);
+  background-size: 100% 100%;
+  animation: page-atmosphere-drift 38s ease-in-out infinite alternate;
+}
+.has-page-atmosphere :is(.gallery-section, .opening-atmosphere) { background: transparent; }
+.has-page-atmosphere :is(.gallery-section, .opening-atmosphere)::before,
+.has-page-atmosphere :is(.gallery-section, .opening-atmosphere)::after { content: none; }
+.has-page-atmosphere:is(.is-atmosphere-paused, :has(.fps-bubbles-host.is-open))::before { animation-play-state: paused; }
+@keyframes page-atmosphere-drift {
+  from { transform: translate(-5px, -5px); }
+  to { transform: translate(5px, 5px); }
+}
+
+body[data-embed="bubbles"] .panel,
+body[data-embed="bubbles"] .timeline,
+.fps-transition-panel {
+  --panel-a: color-mix(in srgb, rgb(var(--atmosphere-a, 167, 211, 250)) 88%, #202633);
+  --panel-b: color-mix(in srgb, rgb(var(--atmosphere-b, 176, 234, 211)) 88%, #202633);
+  --panel-c: color-mix(in srgb, rgb(var(--atmosphere-c, 217, 235, 250)) 88%, #202633);
+  background-color: rgb(var(--atmosphere-a, 167, 211, 250));
+  background-image:
+    radial-gradient(ellipse at 12% 18%, var(--panel-b), transparent 64%),
+    radial-gradient(ellipse at 85% 40%, var(--panel-a), transparent 68%),
+    radial-gradient(ellipse at 25% 86%, var(--panel-a), transparent 62%),
+    linear-gradient(145deg, var(--panel-a), var(--panel-c) 40%, var(--panel-b) 72%, var(--panel-c));
+  border-color: rgba(255, 255, 255, .6);
+  box-shadow: inset 0 1px 0 #ffffff80, 0 12px 28px -22px #1d355a66;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :is(.gallery-section, .opening-atmosphere)::before { animation: none; transition: none; }
+  .has-page-atmosphere::before { animation: none; }
+}

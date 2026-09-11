@@ -1,0 +1,79 @@
+{
+  "case_id": "671",
+  "session": "Scene / World Editing",
+  "prompt": "A photorealistic 5-second video of a clean laboratory corridor with a sealed double door at the far end. Both door leaves remain fully closed throughout the shot.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "5c47d716f64f589437c2516b2a6e63cd31da86e5385dadd7f2ced931e41bbf04",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "701790a78c1aa4f938912255c39461c69bb33c0fc6d8a38b2f6dcaf0d2f33004",
+      "functions": [
+        {
+          "name": "box",
+          "line": 49
+        },
+        {
+          "name": "cylinder",
+          "line": 59
+        },
+        {
+          "name": "addCeilingLight",
+          "line": 69
+        },
+        {
+          "name": "createRobotArm",
+          "line": 166
+        },
+        {
+          "name": "createDoor",
+          "line": 211
+        },
+        {
+          "name": "clamp01",
+          "line": 276
+        },
+        {
+          "name": "smoothstep",
+          "line": 280
+        },
+        {
+          "name": "update",
+          "line": 285
+        },
+        {
+          "name": "pause",
+          "line": 315
+        },
+        {
+          "name": "seek",
+          "line": 322
+        },
+        {
+          "name": "getCameraState",
+          "line": 327
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "701790a78c1aa4f938912255c39461c69bb33c0fc6d8a38b2f6dcaf0d2f33004"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/671/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

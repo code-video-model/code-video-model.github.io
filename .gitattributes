@@ -1,0 +1,8 @@
+# Preserve exported source/media bytes and their recorded provenance hashes.
+* -text
+*.mp4 binary
+*.webm binary
+*.png binary
+*.jpg binary
+*.webp binary
+*.pdf binary

@@ -1,0 +1,95 @@
+{
+  "schema": "codevideo-nvs-case-v1",
+  "caseId": "astra-train",
+  "description": "A stationary, weathered green-and-orange diesel locomotive numbered 713, seen from a low front-left three-quarter view. Its long hood, cab, vents, handrails, steps, bogies and coupler lead into attached rail cars on gravel tracks. A traffic cone, yard containers, hills, trees, blue sky and a parked white pickup establish depth.",
+  "cameraIntent": "Begin at the photographed low front-left view. Orbit roughly 19 degrees toward the locomotive nose while translating slightly along the track and lifting modestly, preserving the full engine and revealing handrail, hood, bogie and rail-car parallax.",
+  "invariants": [
+    "The locomotive and all rail cars remain stationary.",
+    "Preserve the green/orange 713 engine, long hood, rails, bogies, coupler and track alignment.",
+    "No driver, passenger or other person appears."
+  ],
+  "target": {
+    "width": 1280,
+    "height": 720,
+    "ratio": "16:9",
+    "fps": 30,
+    "frames": 300,
+    "duration": 10,
+    "codec": "h264",
+    "pixelFormat": "yuv420p"
+  },
+  "photo": {
+    "path": "input/original.jpg",
+    "sha256": "a6c64d45e8d3c7c87864c52e761944d0c080258654ad8ec4b740650d9ae6e6b4",
+    "sourcePath": "/home/v-yanwenwang/CodeVideo/real_data_v2/3D/tanksandtemples/train/reference.jpg"
+  },
+  "condition": {
+    "path": "input/reference-frame.png",
+    "sha256": "25ac2be33c48c39fda878d7c40e29f8099f528fe100bd1a4ce351f4e7903094e"
+  },
+  "normalization": {
+    "schema": "codevideo-photo-normalization-v1",
+    "operation": "EXIF orientation, centered uniform cover crop to exact aspect ratio; no stretching or generative editing",
+    "framing": "cover-crop",
+    "cropFocus": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      980,
+      545
+    ],
+    "orientedSize": [
+      980,
+      545
+    ],
+    "exifOrientation": null,
+    "outputSize": [
+      1280,
+      720
+    ],
+    "scale": 1.3211009174311927,
+    "offset": [
+      -7.339449541284466,
+      -0.0
+    ],
+    "sourceToCanvas": [
+      1.3211009174311927,
+      0,
+      -7.339449541284466,
+      0,
+      1.3211009174311927,
+      -0.0,
+      0,
+      0,
+      1
+    ],
+    "viewport": [
+      0,
+      0,
+      1280,
+      720
+    ],
+    "viewportRounding": "nearest-pixel extent, centered integer viewport",
+    "cropBoxSource": [
+      5.555555555555602,
+      0,
+      974.4444444444445,
+      545
+    ],
+    "sourceSha256": "a6c64d45e8d3c7c87864c52e761944d0c080258654ad8ec4b740650d9ae6e6b4",
+    "sourceFormat": "JPEG",
+    "normalizedSha256": "25ac2be33c48c39fda878d7c40e29f8099f528fe100bd1a4ce351f4e7903094e"
+  },
+  "cameraOrbitRange": [
+    358,
+    360
+  ],
+  "workflowProfile": "astra-fast-v1",
+  "reconstruction": {
+    "geometry": "procedural-3d-only",
+    "sceneMotion": "static",
+    "hiddenSurfaces": "inferred-not-ground-truth"
+  },
+  "specSha256": "d00c06be43814a83d8ce45917c00dfb16e2634137e2ebfbb00c51d2d801b6a90"
+}

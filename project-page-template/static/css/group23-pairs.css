@@ -1,0 +1,10 @@
+.group23-page .pair-row > .pair-columns > .reference { display: block; padding: 12px; background: #ffffffb8; border-radius: 12px; }
+.group23-page .pair-row > .pair-columns > .reference img { width: 100%; height: auto; max-height: 240px; object-fit: contain; }
+.group23-page .pair-case-heading > h4 { font-size: 17px; }
+.group23-page .pair-missing { display: grid; align-content: center; min-height: 160px; text-align: center; }
+.group23-page .case-pair > .case-heading { position: sticky; top: 0; z-index: 2; background: #edf3f8f5; padding: 10px; border-radius: 10px; }
+@media (max-width: 620px) {
+  .group23-page .pair-row > .pair-columns > .reference { padding: 6px; }
+  .group23-page .pair-case-heading > h4 { font-size: 12px; }
+  .group23-page .case-pair > .case-heading { position: static; }
+}

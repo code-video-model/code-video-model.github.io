@@ -1,0 +1,95 @@
+{
+  "schema": "codevideo-nvs-case-v1",
+  "caseId": "astra-kitchen",
+  "description": "A stationary yellow brick-built tracked loader/bulldozer sits on a wooden dining table and woven mats. It has black caterpillar tracks, gray wheels/gears, a yellow cab frame, articulated-looking black linkages and a large yellow front bucket. Chairs, dense green plants, windows and red/black bags form the background.",
+  "cameraIntent": "Begin at the photographed front-left side and make a bold 30-36 degree orbit toward the bucket/front, with a slight lift and approach that reveals track, cab, linkage, bucket and table/background parallax.",
+  "invariants": [
+    "The brick vehicle, tracks, gears, bucket and all room objects remain stationary.",
+    "Preserve the yellow Technic-like construction, black tracks, gray hubs/linkages and large bucket.",
+    "No operator or person appears."
+  ],
+  "target": {
+    "width": 960,
+    "height": 720,
+    "ratio": "4:3",
+    "fps": 30,
+    "frames": 300,
+    "duration": 10,
+    "codec": "h264",
+    "pixelFormat": "yuv420p"
+  },
+  "photo": {
+    "path": "input/original.jpg",
+    "sha256": "8d1df20fe03e8d6bd10969eb3a7fb0b8436d9ef56107efc260c5ad569c50cc90",
+    "sourcePath": "/home/v-yanwenwang/CodeVideo/real_data_v2/3D/mipnerf360/kitchen/reference.jpg"
+  },
+  "condition": {
+    "path": "input/reference-frame.png",
+    "sha256": "56daa8c4e1edb9a80f8001b26cbb3b96918e655665f49087182f7e8ee6558cb0"
+  },
+  "normalization": {
+    "schema": "codevideo-photo-normalization-v1",
+    "operation": "EXIF orientation, centered uniform cover crop to exact aspect ratio; no stretching or generative editing",
+    "framing": "cover-crop",
+    "cropFocus": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      1558,
+      1039
+    ],
+    "orientedSize": [
+      1558,
+      1039
+    ],
+    "exifOrientation": null,
+    "outputSize": [
+      960,
+      720
+    ],
+    "scale": 0.6929740134744947,
+    "offset": [
+      -59.82675649663133,
+      -0.0
+    ],
+    "sourceToCanvas": [
+      0.6929740134744947,
+      0,
+      -59.82675649663133,
+      0,
+      0.6929740134744947,
+      -0.0,
+      0,
+      0,
+      1
+    ],
+    "viewport": [
+      0,
+      0,
+      960,
+      720
+    ],
+    "viewportRounding": "nearest-pixel extent, centered integer viewport",
+    "cropBoxSource": [
+      86.33333333333327,
+      0,
+      1471.6666666666665,
+      1039
+    ],
+    "sourceSha256": "8d1df20fe03e8d6bd10969eb3a7fb0b8436d9ef56107efc260c5ad569c50cc90",
+    "sourceFormat": "JPEG",
+    "normalizedSha256": "56daa8c4e1edb9a80f8001b26cbb3b96918e655665f49087182f7e8ee6558cb0"
+  },
+  "cameraOrbitRange": [
+    358,
+    360
+  ],
+  "workflowProfile": "astra-fast-v1",
+  "reconstruction": {
+    "geometry": "procedural-3d-only",
+    "sceneMotion": "static",
+    "hiddenSurfaces": "inferred-not-ground-truth"
+  },
+  "specSha256": "050421427e8bf6ea6d4e16b825d20ef4d49fee21a43a88c6eca9e0101e58a029"
+}

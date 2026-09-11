@@ -1,0 +1,99 @@
+{
+  "case_id": "cs2-active-duel",
+  "session": "First-Person Games",
+  "prompt": "Perform a surgical character-anatomy edit of the FIRST supplied image. Preserve every pixel-level scene decision outside the single distant counter-terror opponent as closely as possible: identical first-person camera, crop, perspective, walls, arch, cable, windows, paving, crates, lighting, shadows, AK-pattern viewmodel, hands and empty-space layout. The SECOND supplied proxy frame confirms the opponent's exact world position and active counter-strafe pose. Do not move, enlarge toward the camera or replace the opponent with a different character.\n\nCorrect only the single opponent so they have believable Counter-Strike-style in-game human proportions rather than a short toy-like tactical figure. Use an adult athletic human body approximately 7.5 heads tall. Make the helmeted head visibly smaller relative to the body; lengthen the neck slightly; give the torso a natural ribcage-to-pelvis length; use moderately broad shoulders with a narrower waist and hips; place elbows near the lower ribcage; make forearms and upper arms anatomically matched; make thighs and lower legs longer and correctly jointed; place knees at natural height; keep boots proportional rather than oversized. Both feet remain planted in a compact lateral counter-strafe stance with flexed knees and balanced weight.\n\nThe equipment must follow the corrected anatomy instead of creating bulk everywhere: fitted dark navy/blue-gray combat uniform, realistically sized plate carrier, compact pouches, knee pads aligned over the actual knees, gloves, normal-sized boots, helmet and restrained visor/goggles. Keep a shouldered compact rifle with the stock seated at the shoulder, cheek near the stock, support hand on the fore-end, firing hand on the grip and muzzle aimed toward the player. Arms must not merge into the chest or float away from the weapon. The pose should resemble an alert competitive FPS player actively trying to counter-strafe back into crate cover.\n\nMaintain the current high-end real-time PC game rendering and exact material realism. The character must remain clearly computer-game rendered, not live-action photography, cosplay, a movie actor, promotional key art, a superhero, a bulky sci-fi soldier or a stylized toy. No proprietary logos or copied character skin.\n\nNo changes to the AK viewmodel or player's hands. No HUD, crosshair, minimap, text, digits, muzzle flash, blood, smoke, extra enemy, extra limbs, duplicated weapon, depth of field or motion blur.\n",
+  "fps": 24.0,
+  "frames": 120,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "876cbbbc6ff37cd76cd3f4fbcbaf5a91ead4d45de67cb2d4412579f2c98694ba",
+  "entry": "runtime/case/index.html",
+  "sources": [
+    {
+      "path": "original/case/runtime.mjs",
+      "name": "case/runtime.mjs",
+      "sha256": "67ffcce067288cb1fe31c94382720ddd11a16c181ba58d859b4ce4102a5bf933",
+      "functions": [
+        {
+          "name": "hud",
+          "line": 16
+        },
+        {
+          "name": "seek",
+          "line": 47
+        },
+        {
+          "name": "pause",
+          "line": 55
+        },
+        {
+          "name": "play",
+          "line": 56
+        },
+        {
+          "name": "animate",
+          "line": 61
+        },
+        {
+          "name": "diagnostics",
+          "line": 68
+        }
+      ]
+    },
+    {
+      "path": "original/case/scene.mjs",
+      "name": "case/scene.mjs",
+      "sha256": "bdb71b246660fd35a2a38be447b8e027e22d3cb9b319bbf77c8c30b499881e3c",
+      "functions": [
+        {
+          "name": "random",
+          "line": 8
+        },
+        {
+          "name": "proceduralTexture",
+          "line": 10
+        }
+      ]
+    },
+    {
+      "path": "original/composite-presentation.mjs",
+      "name": "composite-presentation.mjs",
+      "sha256": "b39dba37daf49314dcafbaa260004a04e609150ebd06f956aa2a197abf561f72",
+      "functions": [],
+      "generated_adapter": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "case/runtime.mjs",
+      "sha256": "67ffcce067288cb1fe31c94382720ddd11a16c181ba58d859b4ce4102a5bf933"
+    },
+    {
+      "path": "case/vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    },
+    {
+      "path": "case/scene.mjs",
+      "sha256": "bdb71b246660fd35a2a38be447b8e027e22d3cb9b319bbf77c8c30b499881e3c"
+    },
+    {
+      "path": "case/timeline.json",
+      "sha256": "02cd647f136d9134d378c62d462afb8a6b38037104b478b26d37d47e325985fd"
+    },
+    {
+      "path": "case/audio.wav",
+      "sha256": "e5259cae02337e4dc44981920bee95004935f9cffca4ea92024abc55b19497b7"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/home/zhiyangliang/VideoCoder/exports/published-threejs-sources/876cbbbc6ff37cd76cd3f4fbcbaf5a91ead4d45de67cb2d4412579f2c98694ba",
+    "kind": "delivery-source-and-presentation-adapter",
+    "artifact_verified": false,
+    "input_video_sha256": "876cbbbc6ff37cd76cd3f4fbcbaf5a91ead4d45de67cb2d4412579f2c98694ba",
+    "original_proxy_sha256": "3f78b93e823b224d62b2155a6744bf74d9693c444fbe8f2d994bdce6500c9043",
+    "colored_preview": false,
+    "package": "cs2-active-duel-5s-review-v1",
+    "note": "Verified delivery source with explicit presentation adaptation; original generation inputs retained separately.",
+    "source_snapshot_verified": true
+  }
+}

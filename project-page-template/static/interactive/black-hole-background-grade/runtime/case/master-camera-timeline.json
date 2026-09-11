@@ -1,0 +1,28 @@
+{
+  "schema": "codevideo-master-camera-timeline-v1",
+  "duration": 8,
+  "fps": 30,
+  "frames": 240,
+  "width": 1280,
+  "height": 720,
+  "frameConvention": "Frame i samples absolute time i/30, i=0..239; interval endpoint 8.0 is preserved as an extra pose, not a 241st movie frame.",
+  "coordinateSystem": {"up": "+Y", "diskPlane": "XZ at Y=0", "blackHoleCenter": [0, 0, 0], "units": "uncalibrated proxy units"},
+  "interpolation": "Piecewise cubic Hermite; all knot derivatives are shared by their adjoining segments. Angles in degrees, rates in degrees/second. Target uses the same interpolation.",
+  "fieldOfViewDegrees": 42,
+  "near": 0.025,
+  "far": 4000,
+  "knots": [
+    {"t": 0, "radius": 15.5, "radiusRate": -0.28, "azimuth": -9, "azimuthRate": 0.15, "elevation": 14, "elevationRate": 0.35, "target": [0.10, 0.060, 0.00], "targetRate": [0.010, 0.000, 0.005]},
+    {"t": 2, "radius": 14.7, "radiusRate": -0.50, "azimuth": -8, "azimuthRate": 2.0, "elevation": 15, "elevationRate": 0.70, "target": [0.13, 0.060, 0.02], "targetRate": [0.018, -0.003, 0.008]},
+    {"t": 5, "radius": 11.4, "radiusRate": -2.10, "azimuth": 22, "azimuthRate": 4.0, "elevation": 18, "elevationRate": 1.40, "target": [0.18, 0.040, 0.04], "targetRate": [0.040, -0.001, 0.006]},
+    {"t": 7, "radius": 4.25, "radiusRate": -2.50, "azimuth": 27, "azimuthRate": 0.8, "elevation": 23, "elevationRate": 1.30, "target": [0.30, 0.040, 0.05], "targetRate": [0.050, 0.000, 0.008]},
+    {"t": 8, "radius": 2.55, "radiusRate": -0.95, "azimuth": 27.5, "azimuthRate": 0.3, "elevation": 24, "elevationRate": 0.70, "target": [0.34, 0.040, 0.06], "targetRate": [0.025, 0.000, 0.010]}
+  ],
+  "beats": [
+    {"start": 0, "end": 2, "role": "slow inclined establishing approach"},
+    {"start": 2, "end": 5, "role": "exact 30-degree short orbit, gentle climb and approach"},
+    {"start": 5, "end": 7, "role": "continuous accelerated inward passage above the disk"},
+    {"start": 7, "end": 8, "role": "shadow-dominated endpoint; no represented horizon crossing"}
+  ],
+  "conditioningContract": "Reuse this exact timeline, frame count, field of view, camera samples and keyframe times for later final-video conditioning. Do not retime, independently regenerate the preview camera, or claim that a generative provider hard-locks these poses."
+}

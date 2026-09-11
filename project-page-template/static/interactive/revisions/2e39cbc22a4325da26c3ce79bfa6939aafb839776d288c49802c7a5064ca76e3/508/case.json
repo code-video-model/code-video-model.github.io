@@ -1,0 +1,83 @@
+{
+  "case_id": "508",
+  "session": "Bullet Time",
+  "prompt": "subject_definitions:\n<Video 1> is the authoritative revised camera, geometry and physical-time control.\n<Picture 1> supplies realistic appearance and the unchanged opening-frame identity.\n\nsummary:\n[reference generation] A blue motorcycle and crouched helmeted rider freeze completely in mid-drift while the camera orbits the same suspended instant.\n\nretention_analysis:\n<Video 1> (applies to [Shot 1]): strong_reference - Preserve the revised opening, camera trajectory, world-relative object positions and the exact 0.75-4.70 second frozen interval. Distinguish CAMERA time from PHYSICAL time: the viewpoint continues moving while every subject and particle is held at one physical instant. No slow-motion substitute.\n<Picture 1> (applies to [Shot 1]): appearance_reference - Transfer realistic identity, materials, texture and illumination without changing object count, geometry, camera start, pose or timing. Never freeze the camera to the image.\n\ndetailed_description:\n[Shot 1] Keep the existing low front three-quarter opening composition exactly. One rider in dark protective leathers and a white full-face helmet is deeply crouched on one banked blue motorcycle on a wet empty multilane city road. Preserve the road markings, directional arrows, guardrails, building layout, blue fairings, both wheels and the rider's identity. From 0.00 to 0.75 seconds, the short drift entry reaches its peak. At exactly 0.75 seconds physical time stops. From 0.75 through 4.70 seconds the motorcycle and rider are absolutely stationary in WORLD coordinates, not merely moving slowly or staying centered in frame. Both wheels remain over the same patches of asphalt; there is no forward travel, sideways sliding, progressive yaw, wheel rotation, changing lean, rider adjustment, or suspension bounce. Every fine water droplet and tiny hot spark is fixed in the same spatial constellation during that interval. ONLY the camera moves: follow the supplied front-to-side-to-rear orbit, revealing the same frozen machine and suspended spray through genuine viewpoint parallax. Road markings and background structures are fixed world landmarks, not a road scrolling behind a moving vehicle. Apparent screen motion is caused exclusively by the moving viewpoint. At 4.70 seconds physical time resumes for the brief final beat: the bike continues its drift and the suspended particles disperse. Keep this resumption out of the preceding frozen interval. Use the still reference only for realistic blue bodywork, rubber, metal, helmet, wet-road surfaces and illumination; do not turn the shot into a static-camera image. Render one coherent live-action-style bullet-time shot.\n\nParticle appearance correction only: the coarse reference effect marks the envelope and frozen world positions of wet-road spray, NOT a collection of literal game-engine particles. Within that envelope render optically natural, irregular fine water spray: tiny near-colorless transparent droplets, sparse slender liquid filaments and faint broken mist, with restrained highlights that match the overcast daylight. Do not reproduce opaque white oval beads, gray cuboids, polygon chips, pebbles, plastic pellets, confetti or large glass marbles. Avoid uniform particle sizes, hard sprite edges, faceted shading and oversized blobs. Foot-peg sparks are a few very small hot metal flecks or thin warm glints, not flat orange polygons or a solid flame plume. Keep enough fine suspended spray to read as bullet time, but let the motorcycle remain the hero. Keep the spray envelope and its physical time frozen from 0.75 through 4.70 seconds; the camera reveals that same suspended instant rather than advancing or regenerating the particles. After 4.70 seconds the fine spray resumes naturally with the original action. Do not blur or soften the whole shot to hide the particles. Preserve the approved motorcycle, rider, white helmet, posture, camera trajectory, opening composition, road layout, daylight appearance and existing freeze timing; only the effect's apparent shape, scale, transparency and material realism are being refined.\n\noverall_soundscape:\nN/A\n\nnon_diegetic_music:\nN/A\n\nfirst_frame_reference_guidance: The provided image condition is the first frame of the target video. Use it as the exact opening-frame reference for identity, appearance, composition, lighting, and scene continuity.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "2e39cbc22a4325da26c3ce79bfa6939aafb839776d288c49802c7a5064ca76e3",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "cc93c1010f25fad9b626cb6089b6d71a4a53d71531752788f1dafad1274f1cf8",
+      "functions": [
+        {
+          "name": "mesh",
+          "line": 88
+        },
+        {
+          "name": "cylinderBetween",
+          "line": 99
+        },
+        {
+          "name": "makeWheel",
+          "line": 113
+        },
+        {
+          "name": "makeMotorcycle",
+          "line": 141
+        },
+        {
+          "name": "eventTime",
+          "line": 451
+        },
+        {
+          "name": "sprayAmountForTime",
+          "line": 457
+        },
+        {
+          "name": "sparkAmountForTime",
+          "line": 462
+        },
+        {
+          "name": "updateInstances",
+          "line": 467
+        },
+        {
+          "name": "updateCamera",
+          "line": 542
+        },
+        {
+          "name": "update",
+          "line": 559
+        },
+        {
+          "name": "animate",
+          "line": 585
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "cc93c1010f25fad9b626cb6089b6d71a4a53d71531752788f1dafad1274f1cf8"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/home/zhiyangliang/VideoCoder/exports/published-threejs-sources/2e39cbc22a4325da26c3ce79bfa6939aafb839776d288c49802c7a5064ca76e3",
+    "kind": "verified-selected-0907-archive",
+    "archive_sha256": "1c36faed0649aed01853a4d2b723b0aba6b6532df6b97f8c5ece21f677583173",
+    "input_video_sha256": "2e39cbc22a4325da26c3ce79bfa6939aafb839776d288c49802c7a5064ca76e3",
+    "source_snapshot_verified": true,
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

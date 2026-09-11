@@ -1,0 +1,41 @@
+const {chromium}=require('playwright');const assert=require('node:assert/strict');const path=require('node:path');
+(async()=>{const browser=await chromium.launch({channel:'chrome'});try{
+ const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ const base='http://127.0.0.1:8795/';await page.goto(base+'?review=0');await page.waitForFunction(()=>window.homeGalleryReady);
+ const order=await page.locator('.category-shell').evaluateAll(ns=>ns.map(n=>n.id));assert.equal(order.indexOf('trajectory-variation'),order.indexOf('gallery')+1);
+ assert.equal(await page.locator('.application-variant-toggle').count(),3);assert.equal(await page.locator('.application-edit,.application-restore,.application-version').count(),0);
+ for(const id of ['gallery','trajectory-variation','robotics-simulation']){
+  const card=page.locator(`#${id} .application-preview`),button=card.locator('.application-variant-toggle'),frame=card.locator('.comparison-frame');
+  await frame.scrollIntoViewIfNeeded();
+  const [a,b]=await Promise.all([frame.boundingBox(),button.boundingBox()]);assert.ok(Math.abs(a.x+a.width/2-b.x-b.width/2)<1);assert.ok(b.y-a.y>=0&&b.y-a.y<25);
+  const label=await button.textContent();await button.click();
+  await card.locator('.preview-code-diff[data-diff-ready="true"]').waitFor();
+  assert.equal(await button.isDisabled(),true);assert.equal(await card.getAttribute('data-variant'),'a');
+  const before=await card.locator('.preview-code-diff').evaluate(n=>({from:n.dataset.fromCase,to:n.dataset.toCase,add:[...n.querySelectorAll('.add')].map(r=>r.dataset.sourceText),remove:[...n.querySelectorAll('.remove')].map(r=>r.dataset.sourceText)}));
+  assert.ok(before.add.length&&before.remove.length);
+  assert.equal(await card.locator('.preview-code-diff').getAttribute('data-diff-mode'),'semantic');
+  assert.equal(before.add.length,2);assert.equal(before.remove.length,2);
+  assert.ok(!before.add.join('').includes('setVariant'));
+  const expected={gallery:'chair.position.set', 'trajectory-variation':'path.points[', 'robotics-simulation':'humanoid.visible'}[id];
+  assert.ok(before.add.join('').includes(expected));
+  await button.evaluate(n=>n.click());assert.equal(await card.locator('.preview-code-diff').count(),1);
+  if(id==='gallery')await frame.screenshot({path:path.resolve(__dirname,'../test-results/edit-diff-forward.png')});
+  await page.waitForFunction(id=>{const n=document.querySelector(`#${id} .application-preview`);return n.dataset.variant==='b'&&n.getAttribute('aria-busy')==='false';},id,{timeout:65000});
+  assert.equal(await button.textContent(),'Restore original');assert.equal(await card.locator('.preview-code-diff,.preview-edit-freeze').count(),0);
+  await button.click();await card.locator('.preview-code-diff[data-diff-ready="true"]').waitFor();
+  const reverse=await card.locator('.preview-code-diff').evaluate(n=>({from:n.dataset.fromCase,to:n.dataset.toCase,add:[...n.querySelectorAll('.add')].map(r=>r.dataset.sourceText),remove:[...n.querySelectorAll('.remove')].map(r=>r.dataset.sourceText)}));
+  assert.equal(reverse.from,before.to);assert.equal(reverse.to,before.from);assert.deepEqual(reverse.add.sort(),before.remove.sort());assert.deepEqual(reverse.remove.sort(),before.add.sort());
+  if(id==='gallery')await frame.screenshot({path:path.resolve(__dirname,'../test-results/edit-diff-reverse.png')});
+  await page.waitForFunction(id=>{const n=document.querySelector(`#${id} .application-preview`);return n.dataset.variant==='a'&&n.getAttribute('aria-busy')==='false';},id,{timeout:65000});
+  assert.equal(await button.textContent(),label);console.log('PASS bidirectional toggle and actual inverse diff:',id);
+ }
+ const scene=page.locator('#gallery .application-preview'),toggle=scene.locator('.application-variant-toggle');
+ await toggle.click();await scene.locator('.preview-code-diff[data-diff-ready="true"]').waitFor();
+ await scene.locator('h2 a').click();await page.waitForTimeout(250);
+ assert.equal(await scene.getAttribute('data-variant'),'a');assert.equal(await scene.locator('.preview-code-diff,.preview-edit-freeze').count(),0);
+ await page.locator('#gallery .category-collapse').click();await page.waitForTimeout(750);
+ await page.setViewportSize({width:390,height:844});await toggle.click();await scene.locator('.preview-code-diff[data-diff-ready="true"]').waitFor();
+ await scene.locator('.comparison-frame').screenshot({path:path.resolve(__dirname,'../test-results/edit-diff-mobile.png')});
+ await scene.locator('h2 a').click();assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ assert.deepEqual(errors,[]);console.log('PASS adjacency, generic three-category controls, no state caption, lock/cancel, snapshots, real forward/reverse source rows and mobile.');
+}finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

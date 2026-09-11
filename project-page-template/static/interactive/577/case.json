@@ -1,0 +1,107 @@
+{
+  "case_id": "577",
+  "session": "Trajectory Variation",
+  "prompt": "A hospital lobby with a central seating island and a quadruped robot dog moving from the entrance to the elevator doors. Curve left around the seating island, pass the reception desk and approach the elevator from the left. Photorealistic 5-second video.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "a17ffc89e0bcae29c88ff70b821de562825ac1bbef3c699e62442bdb26f9ec51",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "69cd77ae48f8e4c1501b5eff540c3e379b30c24fef62efd6d5e8cec0e3025710",
+      "functions": [
+        {
+          "name": "addMesh",
+          "line": 69
+        },
+        {
+          "name": "addBox",
+          "line": 78
+        },
+        {
+          "name": "textTexture",
+          "line": 84
+        },
+        {
+          "name": "addSign",
+          "line": 102
+        },
+        {
+          "name": "addPlant",
+          "line": 112
+        },
+        {
+          "name": "createPerson",
+          "line": 134
+        },
+        {
+          "name": "buildArchitecture",
+          "line": 161
+        },
+        {
+          "name": "buildSeatingIsland",
+          "line": 245
+        },
+        {
+          "name": "buildRouteGuide",
+          "line": 289
+        },
+        {
+          "name": "createRobot",
+          "line": 326
+        },
+        {
+          "name": "clamp01",
+          "line": 408
+        },
+        {
+          "name": "smootherstep",
+          "line": 412
+        },
+        {
+          "name": "updateAt",
+          "line": 417
+        },
+        {
+          "name": "pause",
+          "line": 458
+        },
+        {
+          "name": "tick",
+          "line": 466
+        },
+        {
+          "name": "play",
+          "line": 472
+        },
+        {
+          "name": "seek",
+          "line": 479
+        },
+        {
+          "name": "getCameraState",
+          "line": 484
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "69cd77ae48f8e4c1501b5eff540c3e379b30c24fef62efd6d5e8cec0e3025710"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/577/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

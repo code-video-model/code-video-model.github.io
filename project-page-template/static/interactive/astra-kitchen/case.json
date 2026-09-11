@@ -1,0 +1,95 @@
+{
+  "case_id": "astra-kitchen",
+  "session": "3D / 4D Reconstruction",
+  "prompt": "Create one continuous 10-second photoreal novel-view shot of the SAME STATIC physical scene. @Image1 is a real photograph, uniformly scaled and cropped, of the STARTING camera view. It is the authority for object identity, observed construction, materials, colors, lighting, and scene details. It is NOT a character sheet, flat backdrop, or frame to repeat. @Video1 is a procedural geometric reconstruction of that SAME scene. Follow its camera translation, local arc, framing progression, relative depth and changing occlusion. Replace its simplified CG surfaces with the real photographed appearance from @Image1; do not copy low-poly shading or transform the scene into a cartoon. Scene identity: A stationary yellow brick-built tracked loader/bulldozer sits on a wooden dining table and woven mats. It has black caterpillar tracks, gray wheels/gears, a yellow cab frame, articulated-looking black linkages and a large yellow front bucket. Chairs, dense green plants, windows and red/black bags form the background. Camera route: One uninterrupted 360-degree counterclockwise orbit in ten seconds, with a constant 36 degrees of bearing travel per second. First skim toward the bucket, then crane over its far side and folded bags, descend around the rear cab, and sweep back past the dining chairs and window. Four broad dolly/crane waves keep the camera translating above furniture throughout. The room remains enclosed on every side, with furnished kitchen counters, cabinetry, oven, refrigerator, microwave, sink, chairs and an enclosed hallway. The final second is still a moving orbit, not a hold or destination frame.  KINETIC CAMERA CONTRACT: @Video1 has highest authority for continuous camera motion. @Image1 controls appearance only and must not anchor, slow, recenter or stop the camera. Camera intent: An energetic miniature fly-through around a stationary brick loader in a real-scale furnished dining kitchen: skim its scoop, rise above the bags to reveal the full counter wall, dive toward rear cab detail, and sweep past the chairs back to the window side without stopping. Travel continuously through one 360-degree counterclockwise path over all ten seconds. Screen-space travel: The camera travels from the visible caterpillar side toward the bucket nose, carries the bucket across the loader silhouette, reveals the far track and cab rear, then brings the original near track back into view. Background landmarks slide in the opposite screen direction with strong depth-dependent parallax; the subject itself never turns. There is no destination framing and no final hold: every second must contain strong world-space camera displacement, parallax and changing occlusion. Required camera beats: (1) 0-2.5s: push toward the scoop at low elevation, cross the bucket's concave mouth, then pull outward and lift so the two track belts separate against the sideboard and entry reveal. (2) 2.5-5s: crane to the high far-side overlook above the folded bags and chair backs; the complete oven, sink cabinetry and refrigerator wall appears behind the loader. (3) 5-7.5s: descend and dolly toward the rear cab so its seat, roof frame, rear hoses and far belt occlude the bucket while the right return counter and appliances slide behind. (4) 7.5-10s: widen and lift past the dining chairs, then approach the initial window quadrant; foliage and the wooden chair reappear behind the cab while the continuous 36-degree-per-second orbit remains in motion through the final frame. Required changing-occlusion evidence: (1) The source near track initially spans both grey sprockets beneath the cab; toward 2 seconds the bucket mouth masks the front hubs and separates into near and far cheeks. (2) From 3 to 5 seconds the bags and chair cross the lower foreground while the far-side belt, cab interior and rear cabin pillars emerge against the complete kitchen cabinet wall. (3) At 6 to 7 seconds the rear cab and hoses overlap the far scoop, and the two belts visibly separate before the front bucket returns on the opposite side. (4) From 8 to 10 seconds the right counter, pale chair, red bag, green foliage and wooden window frame replace one another behind the loader; the original track/bucket ordering returns without a final hold. Never settle into a hero frame, pause for the action, reverse direction, rotate the subject as a turntable, or replace physical camera travel with digital zoom/pan. Begin at the photographed source composition, then reveal a coherent local novel view with clear foreground/background parallax. Only the camera moves; keep all physical objects and materials fixed. The brick vehicle, tracks, gears, bucket and all room objects remain stationary. Preserve the yellow Technic-like construction, black tracks, gray hubs/linkages and large bucket. No operator or person appears. The real photograph and proxy share the same centered 4:3 aspect-ratio crop. Preserve that crop without stretching, zooming past it, or inventing scene content outside the photographed crop. Complete newly revealed surfaces conservatively from the observed scene; Do not add, remove, morph, duplicate, rotate or animate objects. No cuts, camera jumps, turntable object motion, still-image sliding, text labels or rendered UI.",
+  "fps": 24.0,
+  "frames": 240,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "2f6f18b043d78eac64459dd4b32ed838e9ab19dd3fc5dcb92b3e79ff81110be5",
+  "entry": "runtime/case/index.html",
+  "sources": [
+    {
+      "path": "original/case/runtime.mjs",
+      "name": "case/runtime.mjs",
+      "sha256": "160d7b6c8446b9694f654e5f0fd4a2841d65af53d6da650034c24e0fad1fe3f2",
+      "functions": [
+        {
+          "name": "seek",
+          "line": 25
+        },
+        {
+          "name": "diagnostics",
+          "line": 42
+        }
+      ]
+    },
+    {
+      "path": "original/case/scene.mjs",
+      "name": "case/scene.mjs",
+      "sha256": "5656a74cbc31fc2dc1682bcaabd0cfccabdad9a438af316531a5064ee652bab5",
+      "functions": []
+    },
+    {
+      "path": "original/case/room.mjs",
+      "name": "case/room.mjs",
+      "sha256": "f76d39af539c0b07fa68d42fe1ae8c409f51fee85b674dc8b4e1c7eabd5143e2",
+      "functions": []
+    },
+    {
+      "path": "original/case/trajectory.mjs",
+      "name": "case/trajectory.mjs",
+      "sha256": "797b8c2007638da8464182c9a4e57c24340a2d521b2e2ed0705054b2271c322f",
+      "functions": [
+        {
+          "name": "interpolate",
+          "line": 6
+        }
+      ]
+    },
+    {
+      "path": "original/presentation-crop.mjs",
+      "name": "presentation-crop.mjs",
+      "sha256": "9594b486aa587f4b4a7582c9f7c325641814259f802f91f8ff67daedd02d2e05",
+      "functions": [],
+      "generated_adapter": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "case/runtime.mjs",
+      "sha256": "160d7b6c8446b9694f654e5f0fd4a2841d65af53d6da650034c24e0fad1fe3f2"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    },
+    {
+      "path": "case/scene.mjs",
+      "sha256": "5656a74cbc31fc2dc1682bcaabd0cfccabdad9a438af316531a5064ee652bab5"
+    },
+    {
+      "path": "case/room.mjs",
+      "sha256": "f76d39af539c0b07fa68d42fe1ae8c409f51fee85b674dc8b4e1c7eabd5143e2"
+    },
+    {
+      "path": "case/trajectory.mjs",
+      "sha256": "797b8c2007638da8464182c9a4e57c24340a2d521b2e2ed0705054b2271c322f"
+    },
+    {
+      "path": "spec.json",
+      "sha256": "5e41c43b4f68a3ec0e67f9b5899ff2263e3037a2fa924242c3fde8769f1dfc4e"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/home/zhiyangliang/VideoCoder/exports/published-threejs-sources/2f6f18b043d78eac64459dd4b32ed838e9ab19dd3fc5dcb92b3e79ff81110be5",
+    "kind": "delivery-source-and-presentation-adapter",
+    "artifact_verified": false,
+    "input_video_sha256": "2f6f18b043d78eac64459dd4b32ed838e9ab19dd3fc5dcb92b3e79ff81110be5",
+    "original_proxy_sha256": "a4a6db29bc6fc2b8416e947d9ee417d34f247aeb563365de0387421dfa40e35c",
+    "colored_preview": false,
+    "package": "astra-kitchen-10s-review-v1",
+    "note": "Exact delivery source, with reviewed material edits where selected and a centered crop adapter for the displayed video.",
+    "source_snapshot_verified": true
+  }
+}

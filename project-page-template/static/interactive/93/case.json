@@ -1,0 +1,102 @@
+{
+  "case_id": "93",
+  "session": "First-Person Games",
+  "prompt": "First-person POV swinging between skyscrapers as a masked superhero in New York. My hands fire web-like lines toward buildings, pulling the camera into huge pendulum arcs above traffic. I release at the peak, free-fall between towers, twist around a glass facade and catch a falling bus with two lines before it reaches an intersection. Extreme vertical motion, realistic city scale, elastic but physically coherent movement.",
+  "fps": 24.0,
+  "frames": 192,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "1b7c6e2019da6fd236f5f2d40ab8817a344c9c13dedeba81ac4d3a7134deeb37",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "af68df8c34412aa331debb6dcdfc3307783ea09d79f8029f62c20def6167b430",
+      "functions": [
+        {
+          "name": "addBox",
+          "line": 70
+        },
+        {
+          "name": "facadeMaterial",
+          "line": 108
+        },
+        {
+          "name": "addWaterTower",
+          "line": 184
+        },
+        {
+          "name": "createBuilding",
+          "line": 204
+        },
+        {
+          "name": "createTrafficLight",
+          "line": 280
+        },
+        {
+          "name": "createCar",
+          "line": 309
+        },
+        {
+          "name": "createBus",
+          "line": 359
+        },
+        {
+          "name": "createHand",
+          "line": 413
+        },
+        {
+          "name": "createWebPair",
+          "line": 489
+        },
+        {
+          "name": "updateWeb",
+          "line": 507
+        },
+        {
+          "name": "updateTraffic",
+          "line": 539
+        },
+        {
+          "name": "updateBus",
+          "line": 553
+        },
+        {
+          "name": "updateCamera",
+          "line": 576
+        },
+        {
+          "name": "updateHands",
+          "line": 600
+        },
+        {
+          "name": "updateWebs",
+          "line": 640
+        },
+        {
+          "name": "updateScene",
+          "line": 690
+        },
+        {
+          "name": "animate",
+          "line": 707
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "af68df8c34412aa331debb6dcdfc3307783ea09d79f8029f62c20def6167b430"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/cinematic_video_prompts_1_400_threejs_h3_aligned/code/93",
+    "artifact_verified": true
+  }
+}

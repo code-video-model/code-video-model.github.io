@@ -1,0 +1,3642 @@
+[
+  {
+    "case_id": "first-person-009",
+    "name": "Hyrule Ride",
+    "session": "First-Person Games",
+    "source_rgb": [
+      147,
+      119,
+      101
+    ],
+    "source_palette": [
+      [
+        222,
+        204,
+        188
+      ],
+      [
+        55,
+        38,
+        22
+      ],
+      [
+        189,
+        144,
+        132
+      ],
+      [
+        120,
+        87,
+        57
+      ]
+    ],
+    "rgb": [
+      147,
+      119,
+      101
+    ],
+    "palette": [
+      [
+        222,
+        204,
+        188
+      ],
+      [
+        55,
+        38,
+        22
+      ],
+      [
+        189,
+        144,
+        132
+      ],
+      [
+        120,
+        87,
+        57
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/first-person-009.png",
+    "source_video": "code-video-model/first-person-games/first-person-009.mp4",
+    "source_sha256": "b69d906b9391af134db118074f42097c944fe2fd733b1202b004a0ba523e0779",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "first-person-007",
+    "name": "Tower Glide",
+    "session": "First-Person Games",
+    "source_rgb": [
+      121,
+      143,
+      152
+    ],
+    "source_palette": [
+      [
+        133,
+        166,
+        179
+      ],
+      [
+        114,
+        138,
+        150
+      ],
+      [
+        58,
+        61,
+        61
+      ],
+      [
+        177,
+        204,
+        218
+      ]
+    ],
+    "rgb": [
+      121,
+      143,
+      152
+    ],
+    "palette": [
+      [
+        133,
+        166,
+        179
+      ],
+      [
+        114,
+        138,
+        150
+      ],
+      [
+        58,
+        61,
+        61
+      ],
+      [
+        177,
+        204,
+        218
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/first-person-007.png",
+    "source_video": "code-video-model/first-person-games/first-person-007.mp4",
+    "source_sha256": "67cb38babb346426bb3d83c92e0ed1bddbf55056f413b101511120cfc4bd0e3d",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "first-person-014",
+    "name": "Balrog Bridge",
+    "session": "First-Person Games",
+    "source_rgb": [
+      50,
+      30,
+      17
+    ],
+    "source_palette": [
+      [
+        52,
+        30,
+        17
+      ],
+      [
+        3,
+        3,
+        1
+      ],
+      [
+        18,
+        10,
+        4
+      ],
+      [
+        123,
+        75,
+        43
+      ]
+    ],
+    "rgb": [
+      50,
+      30,
+      17
+    ],
+    "palette": [
+      [
+        52,
+        30,
+        17
+      ],
+      [
+        3,
+        3,
+        1
+      ],
+      [
+        18,
+        10,
+        4
+      ],
+      [
+        123,
+        75,
+        43
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/first-person-014.png",
+    "source_video": "code-video-model/first-person-games/first-person-014.mp4",
+    "source_sha256": "a35cfcbc66c0518683c34028d9d2f265746d6e7b971675ea491ae880aa1b67c2",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "first-person-030",
+    "name": "Forest Spirit",
+    "session": "First-Person Games",
+    "source_rgb": [
+      84,
+      73,
+      55
+    ],
+    "source_palette": [
+      [
+        45,
+        40,
+        26
+      ],
+      [
+        26,
+        19,
+        10
+      ],
+      [
+        85,
+        72,
+        52
+      ],
+      [
+        178,
+        157,
+        130
+      ]
+    ],
+    "rgb": [
+      84,
+      73,
+      55
+    ],
+    "palette": [
+      [
+        45,
+        40,
+        26
+      ],
+      [
+        26,
+        19,
+        10
+      ],
+      [
+        85,
+        72,
+        52
+      ],
+      [
+        178,
+        157,
+        130
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/first-person-030.png",
+    "source_video": "code-video-model/first-person-games/first-person-030.mp4",
+    "source_sha256": "0c5f036db8d244d75ea1c974f493c7ce31fab388d00424668ef3e90794944956",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "121",
+    "name": "Halo Boarding",
+    "session": "First-Person Games",
+    "source_rgb": [
+      27,
+      37,
+      52
+    ],
+    "source_palette": [
+      [
+        20,
+        32,
+        48
+      ],
+      [
+        1,
+        1,
+        9
+      ],
+      [
+        6,
+        13,
+        25
+      ],
+      [
+        78,
+        99,
+        119
+      ]
+    ],
+    "rgb": [
+      27,
+      37,
+      52
+    ],
+    "palette": [
+      [
+        20,
+        32,
+        48
+      ],
+      [
+        1,
+        1,
+        9
+      ],
+      [
+        6,
+        13,
+        25
+      ],
+      [
+        78,
+        99,
+        119
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/121.png",
+    "source_video": "code-video-model/first-person-games/case-121.mp4",
+    "source_sha256": "7609726a096fde350dfe102ca60f1c46c08198303cb6c4034e4f4923f47608fe",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "132",
+    "name": "Jurassic Encounter",
+    "session": "First-Person Games",
+    "source_rgb": [
+      27,
+      36,
+      41
+    ],
+    "source_palette": [
+      [
+        0,
+        3,
+        4
+      ],
+      [
+        30,
+        40,
+        43
+      ],
+      [
+        7,
+        14,
+        15
+      ],
+      [
+        65,
+        83,
+        97
+      ]
+    ],
+    "rgb": [
+      27,
+      36,
+      41
+    ],
+    "palette": [
+      [
+        0,
+        3,
+        4
+      ],
+      [
+        30,
+        40,
+        43
+      ],
+      [
+        7,
+        14,
+        15
+      ],
+      [
+        65,
+        83,
+        97
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/132.png",
+    "source_video": "code-video-model/first-person-games/case-132.mp4",
+    "source_sha256": "0b6aee762784635fa937200215a434d7259c86341c466ac3a187e9f4bfdaaa94",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "322",
+    "name": "Titan Swing",
+    "session": "First-Person Games",
+    "source_rgb": [
+      84,
+      67,
+      55
+    ],
+    "source_palette": [
+      [
+        97,
+        78,
+        66
+      ],
+      [
+        80,
+        57,
+        44
+      ],
+      [
+        119,
+        100,
+        84
+      ],
+      [
+        36,
+        30,
+        25
+      ]
+    ],
+    "rgb": [
+      84,
+      67,
+      55
+    ],
+    "palette": [
+      [
+        97,
+        78,
+        66
+      ],
+      [
+        80,
+        57,
+        44
+      ],
+      [
+        119,
+        100,
+        84
+      ],
+      [
+        36,
+        30,
+        25
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/322.png",
+    "source_video": "code-video-model/first-person-games/case-322.mp4",
+    "source_sha256": "31a478d7cbcd296688cbf7abc3b6053c7d581f204d7950233d2d0326b8cabc69",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "93",
+    "name": "City Webs",
+    "session": "First-Person Games",
+    "source_rgb": [
+      53,
+      48,
+      47
+    ],
+    "source_palette": [
+      [
+        44,
+        44,
+        44
+      ],
+      [
+        9,
+        12,
+        14
+      ],
+      [
+        117,
+        114,
+        107
+      ],
+      [
+        38,
+        19,
+        21
+      ]
+    ],
+    "rgb": [
+      53,
+      48,
+      47
+    ],
+    "palette": [
+      [
+        44,
+        44,
+        44
+      ],
+      [
+        9,
+        12,
+        14
+      ],
+      [
+        117,
+        114,
+        107
+      ],
+      [
+        38,
+        19,
+        21
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/93.png",
+    "source_video": "code-video-model/first-person-games/case-93.mp4",
+    "source_sha256": "b75a600fed59dabe090a588f78cbc20910ccb86f05705a4f85f2c87765b6621a",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "505",
+    "name": "Case 505",
+    "session": "Bullet Time",
+    "source_rgb": [
+      20,
+      22,
+      28
+    ],
+    "source_palette": [
+      [
+        18,
+        22,
+        27
+      ],
+      [
+        3,
+        4,
+        9
+      ],
+      [
+        14,
+        9,
+        10
+      ],
+      [
+        41,
+        49,
+        61
+      ]
+    ],
+    "rgb": [
+      20,
+      22,
+      28
+    ],
+    "palette": [
+      [
+        18,
+        22,
+        27
+      ],
+      [
+        3,
+        4,
+        9
+      ],
+      [
+        14,
+        9,
+        10
+      ],
+      [
+        41,
+        49,
+        61
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/505-selected0907-2x-1a69a681957e.png",
+    "source_video": "selected-0907-seedvr2-2x/bullet-time/case-505-1a69a681957e.mp4",
+    "source_sha256": "1a69a681957e438bcfd826616f64eed85aa2361c484ebca23f02a6b68079b661",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "508",
+    "name": "Case 508",
+    "session": "Bullet Time",
+    "source_rgb": [
+      76,
+      81,
+      88
+    ],
+    "source_palette": [
+      [
+        39,
+        43,
+        49
+      ],
+      [
+        16,
+        18,
+        24
+      ],
+      [
+        77,
+        83,
+        92
+      ],
+      [
+        170,
+        179,
+        188
+      ]
+    ],
+    "rgb": [
+      76,
+      81,
+      88
+    ],
+    "palette": [
+      [
+        39,
+        43,
+        49
+      ],
+      [
+        16,
+        18,
+        24
+      ],
+      [
+        77,
+        83,
+        92
+      ],
+      [
+        170,
+        179,
+        188
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/508-selected0907-2x-d0a8579dcd22.png",
+    "source_video": "selected-0907-seedvr2-2x/bullet-time/case-508-d0a8579dcd22.mp4",
+    "source_sha256": "d0a8579dcd22aab246f9c9108e4a4f75e70a1c75ce290600dedc42e1d10d2bf8",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "509",
+    "name": "Case 509",
+    "session": "Bullet Time",
+    "source_rgb": [
+      70,
+      60,
+      54
+    ],
+    "source_palette": [
+      [
+        76,
+        74,
+        76
+      ],
+      [
+        26,
+        23,
+        22
+      ],
+      [
+        105,
+        89,
+        75
+      ],
+      [
+        72,
+        52,
+        41
+      ]
+    ],
+    "rgb": [
+      70,
+      60,
+      54
+    ],
+    "palette": [
+      [
+        76,
+        74,
+        76
+      ],
+      [
+        26,
+        23,
+        22
+      ],
+      [
+        105,
+        89,
+        75
+      ],
+      [
+        72,
+        52,
+        41
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/509.png",
+    "source_video": "code-video-model-v2/bullet-time/case-509.mp4",
+    "source_sha256": "df6eb277db59a526bbda1b0581399f43bcdde3c8f2056b5511876b7904863bb8",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "518",
+    "name": "Case 518",
+    "session": "Bullet Time",
+    "source_rgb": [
+      98,
+      121,
+      91
+    ],
+    "source_palette": [
+      [
+        91,
+        102,
+        26
+      ],
+      [
+        138,
+        175,
+        206
+      ],
+      [
+        50,
+        66,
+        17
+      ],
+      [
+        109,
+        135,
+        105
+      ]
+    ],
+    "rgb": [
+      98,
+      121,
+      91
+    ],
+    "palette": [
+      [
+        91,
+        102,
+        26
+      ],
+      [
+        138,
+        175,
+        206
+      ],
+      [
+        50,
+        66,
+        17
+      ],
+      [
+        109,
+        135,
+        105
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/518-selected0907-2x-18be11eaaca3.png",
+    "source_video": "selected-0907-seedvr2-2x/bullet-time/case-518-18be11eaaca3.mp4",
+    "source_sha256": "18be11eaaca31149160a15357db61a792a542c8c05cfa4bb760b574b6d8462ae",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "521",
+    "name": "Case 521",
+    "session": "Bullet Time",
+    "source_rgb": [
+      61,
+      64,
+      65
+    ],
+    "source_palette": [
+      [
+        23,
+        27,
+        32
+      ],
+      [
+        157,
+        156,
+        156
+      ],
+      [
+        6,
+        9,
+        10
+      ],
+      [
+        56,
+        59,
+        60
+      ]
+    ],
+    "rgb": [
+      61,
+      64,
+      65
+    ],
+    "palette": [
+      [
+        23,
+        27,
+        32
+      ],
+      [
+        157,
+        156,
+        156
+      ],
+      [
+        6,
+        9,
+        10
+      ],
+      [
+        56,
+        59,
+        60
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/521.png",
+    "source_video": "code-video-model-v2/bullet-time/case-521.mp4",
+    "source_sha256": "4b5c53b2393ccf44111b7ae94749296b9824b7c01ce5de054ce4429244be7069",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "504",
+    "name": "Case 504",
+    "session": "Bullet Time",
+    "source_rgb": [
+      29,
+      45,
+      37
+    ],
+    "source_palette": [
+      [
+        26,
+        46,
+        34
+      ],
+      [
+        8,
+        23,
+        25
+      ],
+      [
+        0,
+        8,
+        20
+      ],
+      [
+        81,
+        100,
+        67
+      ]
+    ],
+    "rgb": [
+      29,
+      45,
+      37
+    ],
+    "palette": [
+      [
+        26,
+        46,
+        34
+      ],
+      [
+        8,
+        23,
+        25
+      ],
+      [
+        0,
+        8,
+        20
+      ],
+      [
+        81,
+        100,
+        67
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/504.png",
+    "source_video": "code-video-model/bullet-time/case-504.mp4",
+    "source_sha256": "15fd0dd0ed7de6c0340dda6e3e3b1f6c8754e280f42c8d162d6b490b0b7709ee",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "583",
+    "name": "Case 583",
+    "session": "Scene / World Editing",
+    "source_rgb": [
+      122,
+      97,
+      70
+    ],
+    "source_palette": [
+      [
+        112,
+        79,
+        43
+      ],
+      [
+        153,
+        118,
+        80
+      ],
+      [
+        35,
+        19,
+        7
+      ],
+      [
+        185,
+        173,
+        150
+      ]
+    ],
+    "rgb": [
+      122,
+      97,
+      70
+    ],
+    "palette": [
+      [
+        112,
+        79,
+        43
+      ],
+      [
+        153,
+        118,
+        80
+      ],
+      [
+        35,
+        19,
+        7
+      ],
+      [
+        185,
+        173,
+        150
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/583-db0376ec4673.png",
+    "source_video": "experiment-group23-image-group23-4-v12/scene-world-editing/case-583-db0376ec4673.mp4",
+    "source_sha256": "db0376ec4673e633f6e776b954b5de5525b7ad37c78c94b3fab186bb4b7e5376",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "663",
+    "name": "Case 663",
+    "session": "Scene / World Editing",
+    "source_rgb": [
+      115,
+      94,
+      69
+    ],
+    "source_palette": [
+      [
+        102,
+        71,
+        39
+      ],
+      [
+        146,
+        114,
+        76
+      ],
+      [
+        25,
+        14,
+        5
+      ],
+      [
+        182,
+        170,
+        149
+      ]
+    ],
+    "rgb": [
+      115,
+      94,
+      69
+    ],
+    "palette": [
+      [
+        102,
+        71,
+        39
+      ],
+      [
+        146,
+        114,
+        76
+      ],
+      [
+        25,
+        14,
+        5
+      ],
+      [
+        182,
+        170,
+        149
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/663-61895e9bf688.png",
+    "source_video": "experiment-group23-image-group23-4-v12/scene-world-editing/case-663-61895e9bf688.mp4",
+    "source_sha256": "61895e9bf688951035a89df3712fdec5f39279691027e31c67d7cc0c38bab6e3",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "586",
+    "name": "Case 586",
+    "session": "Scene / World Editing",
+    "source_rgb": [
+      74,
+      57,
+      43
+    ],
+    "source_palette": [
+      [
+        50,
+        28,
+        14
+      ],
+      [
+        77,
+        57,
+        40
+      ],
+      [
+        18,
+        10,
+        5
+      ],
+      [
+        147,
+        129,
+        110
+      ]
+    ],
+    "rgb": [
+      74,
+      57,
+      43
+    ],
+    "palette": [
+      [
+        50,
+        28,
+        14
+      ],
+      [
+        77,
+        57,
+        40
+      ],
+      [
+        18,
+        10,
+        5
+      ],
+      [
+        147,
+        129,
+        110
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/586.png",
+    "source_video": "code-video-model/scene-world-editing/case-586.mp4",
+    "source_sha256": "e28eb4d9ec045507c6051965eee3492bf2f6f4aae5e4dbab65bb15b82233f86c",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "666",
+    "name": "Case 666",
+    "session": "Scene / World Editing",
+    "source_rgb": [
+      75,
+      58,
+      42
+    ],
+    "source_palette": [
+      [
+        18,
+        10,
+        5
+      ],
+      [
+        51,
+        28,
+        13
+      ],
+      [
+        79,
+        61,
+        42
+      ],
+      [
+        150,
+        129,
+        108
+      ]
+    ],
+    "rgb": [
+      75,
+      58,
+      42
+    ],
+    "palette": [
+      [
+        18,
+        10,
+        5
+      ],
+      [
+        51,
+        28,
+        13
+      ],
+      [
+        79,
+        61,
+        42
+      ],
+      [
+        150,
+        129,
+        108
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/666.png",
+    "source_video": "code-video-model/scene-world-editing/case-666.mp4",
+    "source_sha256": "e821e4197240e4052871319f5ce0e942ef151ec2f6a012601e999d616af3628c",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "601",
+    "name": "Case 601",
+    "session": "Scene / World Editing",
+    "source_rgb": [
+      117,
+      103,
+      88
+    ],
+    "source_palette": [
+      [
+        127,
+        112,
+        97
+      ],
+      [
+        61,
+        50,
+        38
+      ],
+      [
+        160,
+        141,
+        124
+      ],
+      [
+        107,
+        94,
+        80
+      ]
+    ],
+    "rgb": [
+      117,
+      103,
+      88
+    ],
+    "palette": [
+      [
+        127,
+        112,
+        97
+      ],
+      [
+        61,
+        50,
+        38
+      ],
+      [
+        160,
+        141,
+        124
+      ],
+      [
+        107,
+        94,
+        80
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/601-5337cc70270f.png",
+    "source_video": "experiment-group23-image-group23-4-v15/scene-world-editing/case-601-5337cc70270f.mp4",
+    "source_sha256": "5337cc70270fd4ff1a7277fccd979020d0a544f0f6042e8c329a4fe0dbef2361",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "681",
+    "name": "Case 681",
+    "session": "Scene / World Editing",
+    "source_rgb": [
+      132,
+      118,
+      103
+    ],
+    "source_palette": [
+      [
+        144,
+        129,
+        114
+      ],
+      [
+        129,
+        116,
+        102
+      ],
+      [
+        168,
+        152,
+        135
+      ],
+      [
+        80,
+        68,
+        53
+      ]
+    ],
+    "rgb": [
+      132,
+      118,
+      103
+    ],
+    "palette": [
+      [
+        144,
+        129,
+        114
+      ],
+      [
+        129,
+        116,
+        102
+      ],
+      [
+        168,
+        152,
+        135
+      ],
+      [
+        80,
+        68,
+        53
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/681-6efcee80e93d.png",
+    "source_video": "experiment-group23-image-group23-4-v15/scene-world-editing/case-681-6efcee80e93d.mp4",
+    "source_sha256": "6efcee80e93deef270abbdd5bc927b44df54911af9a53396910a5537b79c406a",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "590",
+    "name": "Case 590",
+    "session": "Scene / World Editing",
+    "source_rgb": [
+      74,
+      76,
+      71
+    ],
+    "source_palette": [
+      [
+        83,
+        84,
+        79
+      ],
+      [
+        51,
+        52,
+        47
+      ],
+      [
+        20,
+        20,
+        16
+      ],
+      [
+        141,
+        143,
+        138
+      ]
+    ],
+    "rgb": [
+      74,
+      76,
+      71
+    ],
+    "palette": [
+      [
+        83,
+        84,
+        79
+      ],
+      [
+        51,
+        52,
+        47
+      ],
+      [
+        20,
+        20,
+        16
+      ],
+      [
+        141,
+        143,
+        138
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/590.png",
+    "source_video": "code-video-model-v2/scene-world-editing/case-590.mp4",
+    "source_sha256": "cecf6e5b15e3507c43beab2126198ab83b4fb1ecb21571bc230b425c9baedc9c",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "670",
+    "name": "Case 670",
+    "session": "Scene / World Editing",
+    "source_rgb": [
+      61,
+      64,
+      59
+    ],
+    "source_palette": [
+      [
+        70,
+        73,
+        70
+      ],
+      [
+        49,
+        51,
+        46
+      ],
+      [
+        19,
+        20,
+        16
+      ],
+      [
+        106,
+        109,
+        103
+      ]
+    ],
+    "rgb": [
+      61,
+      64,
+      59
+    ],
+    "palette": [
+      [
+        70,
+        73,
+        70
+      ],
+      [
+        49,
+        51,
+        46
+      ],
+      [
+        19,
+        20,
+        16
+      ],
+      [
+        106,
+        109,
+        103
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/670.png",
+    "source_video": "code-video-model-v2/scene-world-editing/case-670.mp4",
+    "source_sha256": "97a35d65b374d0dd00d3c58f8b55403907c0fb7b09d09607b2755f045a775dc2",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "595",
+    "name": "Case 595",
+    "session": "Scene / World Editing",
+    "source_rgb": [
+      69,
+      66,
+      60
+    ],
+    "source_palette": [
+      [
+        7,
+        8,
+        6
+      ],
+      [
+        84,
+        79,
+        70
+      ],
+      [
+        140,
+        136,
+        127
+      ],
+      [
+        39,
+        37,
+        31
+      ]
+    ],
+    "rgb": [
+      69,
+      66,
+      60
+    ],
+    "palette": [
+      [
+        7,
+        8,
+        6
+      ],
+      [
+        84,
+        79,
+        70
+      ],
+      [
+        140,
+        136,
+        127
+      ],
+      [
+        39,
+        37,
+        31
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/595-983c7bc50367.png",
+    "source_video": "experiment-group23-image-group23-2-v16/scene-world-editing/case-595-983c7bc50367.mp4",
+    "source_sha256": "983c7bc50367dc7a4ad64a4f575ec4067b1cbccf8c232098a372acafdaf7717c",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "675",
+    "name": "Case 675",
+    "session": "Scene / World Editing",
+    "source_rgb": [
+      68,
+      65,
+      58
+    ],
+    "source_palette": [
+      [
+        9,
+        10,
+        7
+      ],
+      [
+        82,
+        77,
+        68
+      ],
+      [
+        138,
+        132,
+        123
+      ],
+      [
+        40,
+        39,
+        32
+      ]
+    ],
+    "rgb": [
+      68,
+      65,
+      58
+    ],
+    "palette": [
+      [
+        9,
+        10,
+        7
+      ],
+      [
+        82,
+        77,
+        68
+      ],
+      [
+        138,
+        132,
+        123
+      ],
+      [
+        40,
+        39,
+        32
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/675-699c9ca824b6.png",
+    "source_video": "experiment-group23-image-group23-2-v16/scene-world-editing/case-675-699c9ca824b6.mp4",
+    "source_sha256": "699c9ca824b69421cc98fdd33b7472b7bd75412b1035b99071bea97341472511",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "591",
+    "name": "Case 591",
+    "session": "Scene / World Editing",
+    "source_rgb": [
+      73,
+      83,
+      88
+    ],
+    "source_palette": [
+      [
+        85,
+        97,
+        103
+      ],
+      [
+        61,
+        72,
+        80
+      ],
+      [
+        13,
+        18,
+        21
+      ],
+      [
+        129,
+        139,
+        144
+      ]
+    ],
+    "rgb": [
+      73,
+      83,
+      88
+    ],
+    "palette": [
+      [
+        85,
+        97,
+        103
+      ],
+      [
+        61,
+        72,
+        80
+      ],
+      [
+        13,
+        18,
+        21
+      ],
+      [
+        129,
+        139,
+        144
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/591.png",
+    "source_video": "code-video-model-v2/scene-world-editing/case-591.mp4",
+    "source_sha256": "ca9c6778f639afdbacf192310c9ce47824a17e6e539087af4af2f45ffd50f47b",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "671",
+    "name": "Case 671",
+    "session": "Scene / World Editing",
+    "source_rgb": [
+      74,
+      82,
+      87
+    ],
+    "source_palette": [
+      [
+        86,
+        97,
+        103
+      ],
+      [
+        63,
+        74,
+        80
+      ],
+      [
+        14,
+        18,
+        22
+      ],
+      [
+        130,
+        138,
+        142
+      ]
+    ],
+    "rgb": [
+      74,
+      82,
+      87
+    ],
+    "palette": [
+      [
+        86,
+        97,
+        103
+      ],
+      [
+        63,
+        74,
+        80
+      ],
+      [
+        14,
+        18,
+        22
+      ],
+      [
+        130,
+        138,
+        142
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/671.png",
+    "source_video": "code-video-model-v2/scene-world-editing/case-671.mp4",
+    "source_sha256": "57ac8db3f1654b9e97dbaebf102337addc7bc56ebe3305ad094f6208c43239dc",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "563",
+    "name": "Case 563",
+    "session": "Robotics Simulation",
+    "source_rgb": [
+      132,
+      127,
+      121
+    ],
+    "source_palette": [
+      [
+        150,
+        145,
+        138
+      ],
+      [
+        134,
+        128,
+        121
+      ],
+      [
+        173,
+        167,
+        159
+      ],
+      [
+        66,
+        64,
+        61
+      ]
+    ],
+    "rgb": [
+      132,
+      127,
+      121
+    ],
+    "palette": [
+      [
+        150,
+        145,
+        138
+      ],
+      [
+        134,
+        128,
+        121
+      ],
+      [
+        173,
+        167,
+        159
+      ],
+      [
+        66,
+        64,
+        61
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/563.png",
+    "source_video": "code-video-model-v2/robotics-simulation/case-563.mp4",
+    "source_sha256": "d4fd21d6d1119cf56e5ad4ad21248fd8bac8cb2d1de51993cd89a930311588b1",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "564",
+    "name": "Case 564",
+    "session": "Robotics Simulation",
+    "source_rgb": [
+      132,
+      127,
+      121
+    ],
+    "source_palette": [
+      [
+        149,
+        143,
+        136
+      ],
+      [
+        133,
+        126,
+        119
+      ],
+      [
+        172,
+        167,
+        161
+      ],
+      [
+        66,
+        63,
+        60
+      ]
+    ],
+    "rgb": [
+      132,
+      127,
+      121
+    ],
+    "palette": [
+      [
+        149,
+        143,
+        136
+      ],
+      [
+        133,
+        126,
+        119
+      ],
+      [
+        172,
+        167,
+        161
+      ],
+      [
+        66,
+        63,
+        60
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/564.png",
+    "source_video": "code-video-model-v2/robotics-simulation/case-564.mp4",
+    "source_sha256": "96e78b1bdfbaefce118218789a3145524130975b1d42f6842681cd25c1e64b4a",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "567",
+    "name": "Case 567",
+    "session": "Robotics Simulation",
+    "source_rgb": [
+      103,
+      98,
+      89
+    ],
+    "source_palette": [
+      [
+        110,
+        105,
+        94
+      ],
+      [
+        53,
+        48,
+        38
+      ],
+      [
+        155,
+        152,
+        145
+      ],
+      [
+        90,
+        84,
+        74
+      ]
+    ],
+    "rgb": [
+      103,
+      98,
+      89
+    ],
+    "palette": [
+      [
+        110,
+        105,
+        94
+      ],
+      [
+        53,
+        48,
+        38
+      ],
+      [
+        155,
+        152,
+        145
+      ],
+      [
+        90,
+        84,
+        74
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/567.png",
+    "source_video": "code-video-model-v2/robotics-simulation/case-567.mp4",
+    "source_sha256": "5c9bd42a7b161dff8b13e3a1b8514d97ed01fb463dc024a938564a769d1179ba",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "568",
+    "name": "Case 568",
+    "session": "Robotics Simulation",
+    "source_rgb": [
+      101,
+      96,
+      86
+    ],
+    "source_palette": [
+      [
+        108,
+        103,
+        91
+      ],
+      [
+        53,
+        47,
+        38
+      ],
+      [
+        151,
+        148,
+        141
+      ],
+      [
+        88,
+        82,
+        72
+      ]
+    ],
+    "rgb": [
+      101,
+      96,
+      86
+    ],
+    "palette": [
+      [
+        108,
+        103,
+        91
+      ],
+      [
+        53,
+        47,
+        38
+      ],
+      [
+        151,
+        148,
+        141
+      ],
+      [
+        88,
+        82,
+        72
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/568.png",
+    "source_video": "code-video-model-v2/robotics-simulation/case-568.mp4",
+    "source_sha256": "3d5e64aa24f8d159bb68cafbcc437f53c404ca19af75a1a81f281a589a5f327b",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "571",
+    "name": "Case 571",
+    "session": "Robotics Simulation",
+    "source_rgb": [
+      132,
+      120,
+      108
+    ],
+    "source_palette": [
+      [
+        180,
+        166,
+        152
+      ],
+      [
+        37,
+        31,
+        25
+      ],
+      [
+        195,
+        182,
+        167
+      ],
+      [
+        114,
+        102,
+        88
+      ]
+    ],
+    "rgb": [
+      132,
+      120,
+      108
+    ],
+    "palette": [
+      [
+        180,
+        166,
+        152
+      ],
+      [
+        37,
+        31,
+        25
+      ],
+      [
+        195,
+        182,
+        167
+      ],
+      [
+        114,
+        102,
+        88
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/571.png",
+    "source_video": "code-video-model-v2/robotics-simulation/case-571.mp4",
+    "source_sha256": "8efffb59d27ac7b9c2f9d7244cb06abdcaf0a0d62bab424b25a9414d4c0a74f1",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "572",
+    "name": "Case 572",
+    "session": "Robotics Simulation",
+    "source_rgb": [
+      154,
+      143,
+      131
+    ],
+    "source_palette": [
+      [
+        180,
+        161,
+        141
+      ],
+      [
+        166,
+        146,
+        126
+      ],
+      [
+        84,
+        73,
+        62
+      ],
+      [
+        184,
+        188,
+        189
+      ]
+    ],
+    "rgb": [
+      154,
+      143,
+      131
+    ],
+    "palette": [
+      [
+        180,
+        161,
+        141
+      ],
+      [
+        166,
+        146,
+        126
+      ],
+      [
+        84,
+        73,
+        62
+      ],
+      [
+        184,
+        188,
+        189
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/572.png",
+    "source_video": "code-video-model-v2/robotics-simulation/case-572.mp4",
+    "source_sha256": "c99aa2ace8bf95050f2cf9cd60ead2f34b71c0bd003b0e3782e35f30e3a1663d",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "577",
+    "name": "Case 577",
+    "session": "Trajectory Variation",
+    "source_rgb": [
+      107,
+      106,
+      99
+    ],
+    "source_palette": [
+      [
+        128,
+        126,
+        116
+      ],
+      [
+        32,
+        35,
+        35
+      ],
+      [
+        90,
+        89,
+        83
+      ],
+      [
+        178,
+        173,
+        161
+      ]
+    ],
+    "rgb": [
+      107,
+      106,
+      99
+    ],
+    "palette": [
+      [
+        128,
+        126,
+        116
+      ],
+      [
+        32,
+        35,
+        35
+      ],
+      [
+        90,
+        89,
+        83
+      ],
+      [
+        178,
+        173,
+        161
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/577.png",
+    "source_video": "code-video-model/trajectory-variation/case-577.mp4",
+    "source_sha256": "f62a2ed220045843569ac23e70c4ce4bfa9dbd894d86b22ae1fdc8feac690c1c",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "578",
+    "name": "Case 578",
+    "session": "Trajectory Variation",
+    "source_rgb": [
+      107,
+      106,
+      98
+    ],
+    "source_palette": [
+      [
+        128,
+        125,
+        115
+      ],
+      [
+        33,
+        36,
+        35
+      ],
+      [
+        90,
+        89,
+        83
+      ],
+      [
+        178,
+        173,
+        160
+      ]
+    ],
+    "rgb": [
+      107,
+      106,
+      98
+    ],
+    "palette": [
+      [
+        128,
+        125,
+        115
+      ],
+      [
+        33,
+        36,
+        35
+      ],
+      [
+        90,
+        89,
+        83
+      ],
+      [
+        178,
+        173,
+        160
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/578.png",
+    "source_video": "code-video-model/trajectory-variation/case-578.mp4",
+    "source_sha256": "2751d402d5c6e92ea53fe5bb6992729325c5dd5ce022f376e05b076f8694f591",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "581",
+    "name": "Case 581",
+    "session": "Trajectory Variation",
+    "source_rgb": [
+      135,
+      134,
+      128
+    ],
+    "source_palette": [
+      [
+        148,
+        147,
+        141
+      ],
+      [
+        122,
+        121,
+        115
+      ],
+      [
+        187,
+        185,
+        180
+      ],
+      [
+        81,
+        79,
+        74
+      ]
+    ],
+    "rgb": [
+      135,
+      134,
+      128
+    ],
+    "palette": [
+      [
+        148,
+        147,
+        141
+      ],
+      [
+        122,
+        121,
+        115
+      ],
+      [
+        187,
+        185,
+        180
+      ],
+      [
+        81,
+        79,
+        74
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/581.png",
+    "source_video": "code-video-model/trajectory-variation/case-581.mp4",
+    "source_sha256": "cc3e4a21fe66dd89dac244ae6dfbef826ac48d86134f43a619662300edcdfccd",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "582",
+    "name": "Case 582",
+    "session": "Trajectory Variation",
+    "source_rgb": [
+      140,
+      138,
+      132
+    ],
+    "source_palette": [
+      [
+        152,
+        151,
+        144
+      ],
+      [
+        127,
+        126,
+        118
+      ],
+      [
+        187,
+        184,
+        179
+      ],
+      [
+        90,
+        89,
+        83
+      ]
+    ],
+    "rgb": [
+      140,
+      138,
+      132
+    ],
+    "palette": [
+      [
+        152,
+        151,
+        144
+      ],
+      [
+        127,
+        126,
+        118
+      ],
+      [
+        187,
+        184,
+        179
+      ],
+      [
+        90,
+        89,
+        83
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/582.png",
+    "source_video": "code-video-model/trajectory-variation/case-582.mp4",
+    "source_sha256": "56ed83843a26a23012b086619601f7d130f2d184fc53ec676902b89761fff15d",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "490",
+    "name": "Case 490",
+    "session": "Cinematic Camera Intelligence",
+    "source_rgb": [
+      67,
+      64,
+      65
+    ],
+    "source_palette": [
+      [
+        1,
+        6,
+        14
+      ],
+      [
+        13,
+        23,
+        37
+      ],
+      [
+        76,
+        71,
+        71
+      ],
+      [
+        176,
+        153,
+        136
+      ]
+    ],
+    "rgb": [
+      67,
+      64,
+      65
+    ],
+    "palette": [
+      [
+        1,
+        6,
+        14
+      ],
+      [
+        13,
+        23,
+        37
+      ],
+      [
+        76,
+        71,
+        71
+      ],
+      [
+        176,
+        153,
+        136
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/490.png",
+    "source_video": "code-video-model-v2/cinematic-camera-intelligence/case-490.mp4",
+    "source_sha256": "3f9249669d68011b6dc0804d7fd697f5f09a14133b1a5d601eebd321adad6ff9",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "624",
+    "name": "Case 624",
+    "session": "Product Cinematography",
+    "source_rgb": [
+      36,
+      37,
+      39
+    ],
+    "source_palette": [
+      [
+        10,
+        11,
+        14
+      ],
+      [
+        2,
+        3,
+        5
+      ],
+      [
+        31,
+        33,
+        35
+      ],
+      [
+        99,
+        100,
+        101
+      ]
+    ],
+    "rgb": [
+      36,
+      37,
+      39
+    ],
+    "palette": [
+      [
+        10,
+        11,
+        14
+      ],
+      [
+        2,
+        3,
+        5
+      ],
+      [
+        31,
+        33,
+        35
+      ],
+      [
+        99,
+        100,
+        101
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/624-730d98dd2301.png",
+    "source_video": "experiment-threejs-v2-image-group19-4-v17/product-cinematography/case-624-730d98dd2301.mp4",
+    "source_sha256": "730d98dd23014052636859be60494399b33634f9173f55405fe9435ed07acad5",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "625",
+    "name": "Case 625",
+    "session": "Product Cinematography",
+    "source_rgb": [
+      171,
+      177,
+      181
+    ],
+    "source_palette": [
+      [
+        158,
+        168,
+        173
+      ],
+      [
+        207,
+        207,
+        208
+      ],
+      [
+        178,
+        183,
+        187
+      ],
+      [
+        138,
+        147,
+        153
+      ]
+    ],
+    "rgb": [
+      171,
+      177,
+      181
+    ],
+    "palette": [
+      [
+        158,
+        168,
+        173
+      ],
+      [
+        207,
+        207,
+        208
+      ],
+      [
+        178,
+        183,
+        187
+      ],
+      [
+        138,
+        147,
+        153
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/625-ffd4dd366d95.png",
+    "source_video": "experiment-threejs-v2-image-group19-4-v17/product-cinematography/case-625-ffd4dd366d95.mp4",
+    "source_sha256": "ffd4dd366d95f07b71a44fe9ea6a5553a8c8f415fa97450be5b5fd8f63d8f633",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "632",
+    "name": "Case 632",
+    "session": "Product Cinematography",
+    "source_rgb": [
+      138,
+      138,
+      138
+    ],
+    "source_palette": [
+      [
+        225,
+        225,
+        225
+      ],
+      [
+        30,
+        30,
+        30
+      ],
+      [
+        92,
+        92,
+        90
+      ],
+      [
+        204,
+        204,
+        205
+      ]
+    ],
+    "rgb": [
+      138,
+      138,
+      138
+    ],
+    "palette": [
+      [
+        225,
+        225,
+        225
+      ],
+      [
+        30,
+        30,
+        30
+      ],
+      [
+        92,
+        92,
+        90
+      ],
+      [
+        204,
+        204,
+        205
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/632.png",
+    "source_video": "code-video-model-v2/product-cinematography/case-632.mp4",
+    "source_sha256": "1339d9d26a0aa75734f6e021c7c03a4455f9912f7c8985ffa719feac2466f90d",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "636",
+    "name": "Case 636",
+    "session": "Product Cinematography",
+    "source_rgb": [
+      24,
+      26,
+      31
+    ],
+    "source_palette": [
+      [
+        12,
+        14,
+        19
+      ],
+      [
+        4,
+        7,
+        12
+      ],
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        71,
+        74,
+        83
+      ]
+    ],
+    "rgb": [
+      24,
+      26,
+      31
+    ],
+    "palette": [
+      [
+        12,
+        14,
+        19
+      ],
+      [
+        4,
+        7,
+        12
+      ],
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        71,
+        74,
+        83
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/636-d17af4bae3de.png",
+    "source_video": "experiment-threejs-v2-image-group19-4-v17/product-cinematography/case-636-d17af4bae3de.mp4",
+    "source_sha256": "d17af4bae3de18e182fc5af036cd5868d7031dc37e61cc1f8a0231d788ddf8eb",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "640",
+    "name": "Case 640",
+    "session": "Product Cinematography",
+    "source_rgb": [
+      20,
+      29,
+      36
+    ],
+    "source_palette": [
+      [
+        15,
+        27,
+        37
+      ],
+      [
+        5,
+        13,
+        21
+      ],
+      [
+        1,
+        2,
+        6
+      ],
+      [
+        56,
+        72,
+        76
+      ]
+    ],
+    "rgb": [
+      20,
+      29,
+      36
+    ],
+    "palette": [
+      [
+        15,
+        27,
+        37
+      ],
+      [
+        5,
+        13,
+        21
+      ],
+      [
+        1,
+        2,
+        6
+      ],
+      [
+        56,
+        72,
+        76
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/640.png",
+    "source_video": "code-video-model/product-cinematography/case-640.mp4",
+    "source_sha256": "fc760f0d2737e70c28f0f826a11b55fb84f22e5a6a2dc01e64531be6e443e517",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "641",
+    "name": "Case 641",
+    "session": "Product Cinematography",
+    "source_rgb": [
+      30,
+      33,
+      43
+    ],
+    "source_palette": [
+      [
+        19,
+        16,
+        24
+      ],
+      [
+        20,
+        23,
+        30
+      ],
+      [
+        68,
+        78,
+        96
+      ],
+      [
+        5,
+        8,
+        12
+      ]
+    ],
+    "rgb": [
+      30,
+      33,
+      43
+    ],
+    "palette": [
+      [
+        19,
+        16,
+        24
+      ],
+      [
+        20,
+        23,
+        30
+      ],
+      [
+        68,
+        78,
+        96
+      ],
+      [
+        5,
+        8,
+        12
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/641.png",
+    "source_video": "code-video-model/product-cinematography/case-641.mp4",
+    "source_sha256": "ac5efabad5614d08acd029c2f97765a3f54af3d27c6667557780c7257c7c0294",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "524",
+    "name": "Case 524",
+    "session": "Scientific Visualization",
+    "source_rgb": [
+      118,
+      103,
+      91
+    ],
+    "source_palette": [
+      [
+        103,
+        76,
+        56
+      ],
+      [
+        184,
+        180,
+        174
+      ],
+      [
+        130,
+        120,
+        108
+      ],
+      [
+        51,
+        33,
+        22
+      ]
+    ],
+    "rgb": [
+      118,
+      103,
+      91
+    ],
+    "palette": [
+      [
+        103,
+        76,
+        56
+      ],
+      [
+        184,
+        180,
+        174
+      ],
+      [
+        130,
+        120,
+        108
+      ],
+      [
+        51,
+        33,
+        22
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/524-91b29f372d92.png",
+    "source_video": "experiment-threejs-v2-image-group20-4-v18/scientific-visualization/case-524-91b29f372d92.mp4",
+    "source_sha256": "91b29f372d92667be411e51685a7544911472f4eecdaf8cb70c2070877b46057",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "528",
+    "name": "Case 528",
+    "session": "Scientific Visualization",
+    "source_rgb": [
+      55,
+      49,
+      37
+    ],
+    "source_palette": [
+      [
+        29,
+        25,
+        16
+      ],
+      [
+        63,
+        55,
+        42
+      ],
+      [
+        9,
+        9,
+        3
+      ],
+      [
+        117,
+        105,
+        84
+      ]
+    ],
+    "rgb": [
+      55,
+      49,
+      37
+    ],
+    "palette": [
+      [
+        29,
+        25,
+        16
+      ],
+      [
+        63,
+        55,
+        42
+      ],
+      [
+        9,
+        9,
+        3
+      ],
+      [
+        117,
+        105,
+        84
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/528.png",
+    "source_video": "code-video-model/scientific-visualization/case-528.mp4",
+    "source_sha256": "38fc643a2b5b0b9b717ecfebc76a99b94d68c80a3f00825e4ae4cafb652a4832",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "531",
+    "name": "Case 531",
+    "session": "Scientific Visualization",
+    "source_rgb": [
+      53,
+      48,
+      46
+    ],
+    "source_palette": [
+      [
+        55,
+        56,
+        58
+      ],
+      [
+        3,
+        5,
+        7
+      ],
+      [
+        22,
+        23,
+        26
+      ],
+      [
+        128,
+        107,
+        90
+      ]
+    ],
+    "rgb": [
+      53,
+      48,
+      46
+    ],
+    "palette": [
+      [
+        55,
+        56,
+        58
+      ],
+      [
+        3,
+        5,
+        7
+      ],
+      [
+        22,
+        23,
+        26
+      ],
+      [
+        128,
+        107,
+        90
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/531.png",
+    "source_video": "code-video-model-v2/scientific-visualization/case-531.mp4",
+    "source_sha256": "f437b76b0b54a3e864cb1218666970c2d705b776b49ea38727635e5b7e14ee8c",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "542",
+    "name": "Case 542",
+    "session": "Scientific Visualization",
+    "source_rgb": [
+      70,
+      65,
+      61
+    ],
+    "source_palette": [
+      [
+        48,
+        45,
+        45
+      ],
+      [
+        73,
+        68,
+        66
+      ],
+      [
+        20,
+        20,
+        19
+      ],
+      [
+        132,
+        121,
+        109
+      ]
+    ],
+    "rgb": [
+      70,
+      65,
+      61
+    ],
+    "palette": [
+      [
+        48,
+        45,
+        45
+      ],
+      [
+        73,
+        68,
+        66
+      ],
+      [
+        20,
+        20,
+        19
+      ],
+      [
+        132,
+        121,
+        109
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/542.png",
+    "source_video": "code-video-model-v2/scientific-visualization/case-542.mp4",
+    "source_sha256": "35741b42bd538dc76e1fb43af76d824430b40cb3eb6e116a17f15b754e6ba188",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "620",
+    "name": "Case 620",
+    "session": "Scientific Visualization",
+    "source_rgb": [
+      12,
+      29,
+      35
+    ],
+    "source_palette": [
+      [
+        0,
+        0,
+        6
+      ],
+      [
+        5,
+        31,
+        40
+      ],
+      [
+        43,
+        77,
+        82
+      ],
+      [
+        1,
+        7,
+        14
+      ]
+    ],
+    "rgb": [
+      12,
+      29,
+      35
+    ],
+    "palette": [
+      [
+        0,
+        0,
+        6
+      ],
+      [
+        5,
+        31,
+        40
+      ],
+      [
+        43,
+        77,
+        82
+      ],
+      [
+        1,
+        7,
+        14
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/620.png",
+    "source_video": "code-video-model/scientific-visualization/case-620.mp4",
+    "source_sha256": "cc337fff6ce8bb9901b2f4e2ee9e5b4b8f34298b99be22cf9c8b59e54d217d02",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "609",
+    "name": "Case 609",
+    "session": "Scientific Visualization",
+    "source_rgb": [
+      20,
+      31,
+      40
+    ],
+    "source_palette": [
+      [
+        10,
+        24,
+        36
+      ],
+      [
+        1,
+        10,
+        20
+      ],
+      [
+        0,
+        1,
+        7
+      ],
+      [
+        67,
+        86,
+        93
+      ]
+    ],
+    "rgb": [
+      20,
+      31,
+      40
+    ],
+    "palette": [
+      [
+        10,
+        24,
+        36
+      ],
+      [
+        1,
+        10,
+        20
+      ],
+      [
+        0,
+        1,
+        7
+      ],
+      [
+        67,
+        86,
+        93
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/609.png",
+    "source_video": "code-video-model-v2/scientific-visualization/case-609.mp4",
+    "source_sha256": "4e6120b698f2ca6a0c7f257c23a91caa31bd6741938962a50dd449d9ae0ca517",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "643",
+    "name": "Case 643",
+    "session": "Architectural Cinematics",
+    "source_rgb": [
+      126,
+      111,
+      98
+    ],
+    "source_palette": [
+      [
+        156,
+        138,
+        121
+      ],
+      [
+        31,
+        17,
+        10
+      ],
+      [
+        113,
+        93,
+        76
+      ],
+      [
+        202,
+        193,
+        183
+      ]
+    ],
+    "rgb": [
+      126,
+      111,
+      98
+    ],
+    "palette": [
+      [
+        156,
+        138,
+        121
+      ],
+      [
+        31,
+        17,
+        10
+      ],
+      [
+        113,
+        93,
+        76
+      ],
+      [
+        202,
+        193,
+        183
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/643-5bc5de70220a.png",
+    "source_video": "selected-0907-seedvr2-2x/architectural-cinematics/case-643-5bc5de70220a.mp4",
+    "source_sha256": "5bc5de70220a0c8030441da669c9ac85989847365171a5541e77b21fc2064b32",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "646",
+    "name": "Case 646",
+    "session": "Architectural Cinematics",
+    "source_rgb": [
+      151,
+      128,
+      106
+    ],
+    "source_palette": [
+      [
+        151,
+        121,
+        94
+      ],
+      [
+        170,
+        142,
+        115
+      ],
+      [
+        189,
+        177,
+        164
+      ],
+      [
+        90,
+        69,
+        45
+      ]
+    ],
+    "rgb": [
+      151,
+      128,
+      106
+    ],
+    "palette": [
+      [
+        151,
+        121,
+        94
+      ],
+      [
+        170,
+        142,
+        115
+      ],
+      [
+        189,
+        177,
+        164
+      ],
+      [
+        90,
+        69,
+        45
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/646-48fddc881c93.png",
+    "source_video": "selected-0907-video-diffusion-baseline/architectural-cinematics/case-646-48fddc881c93.mp4",
+    "source_sha256": "48fddc881c93898c2ffab0a9583f811993fd80086d8cdb5fff2a4ccb64ac7fbb",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "649",
+    "name": "Case 649",
+    "session": "Architectural Cinematics",
+    "source_rgb": [
+      135,
+      123,
+      113
+    ],
+    "source_palette": [
+      [
+        152,
+        143,
+        135
+      ],
+      [
+        129,
+        114,
+        100
+      ],
+      [
+        184,
+        173,
+        165
+      ],
+      [
+        70,
+        61,
+        50
+      ]
+    ],
+    "rgb": [
+      135,
+      123,
+      113
+    ],
+    "palette": [
+      [
+        152,
+        143,
+        135
+      ],
+      [
+        129,
+        114,
+        100
+      ],
+      [
+        184,
+        173,
+        165
+      ],
+      [
+        70,
+        61,
+        50
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/649-ae0312112795.png",
+    "source_video": "selected-0907-seedvr2-2x/architectural-cinematics/case-649-ae0312112795.mp4",
+    "source_sha256": "ae0312112795b5cbcf291cd2c4b2ee66d629bb3a3bf52e6dd75bd5e7f19a1042",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "656",
+    "name": "Case 656",
+    "session": "Architectural Cinematics",
+    "source_rgb": [
+      89,
+      81,
+      71
+    ],
+    "source_palette": [
+      [
+        104,
+        97,
+        82
+      ],
+      [
+        20,
+        16,
+        12
+      ],
+      [
+        64,
+        50,
+        39
+      ],
+      [
+        167,
+        159,
+        150
+      ]
+    ],
+    "rgb": [
+      89,
+      81,
+      71
+    ],
+    "palette": [
+      [
+        104,
+        97,
+        82
+      ],
+      [
+        20,
+        16,
+        12
+      ],
+      [
+        64,
+        50,
+        39
+      ],
+      [
+        167,
+        159,
+        150
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/656-9a2ef3b0a941.png",
+    "source_video": "selected-0907-seedvr2-2x/architectural-cinematics/case-656-9a2ef3b0a941.mp4",
+    "source_sha256": "9a2ef3b0a9416296f586d53c9d331c999ceb45c3634429de3c3e640639fa693f",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "657",
+    "name": "Case 657",
+    "session": "Architectural Cinematics",
+    "source_rgb": [
+      58,
+      57,
+      61
+    ],
+    "source_palette": [
+      [
+        40,
+        34,
+        32
+      ],
+      [
+        104,
+        108,
+        119
+      ],
+      [
+        70,
+        69,
+        74
+      ],
+      [
+        14,
+        13,
+        15
+      ]
+    ],
+    "rgb": [
+      58,
+      57,
+      61
+    ],
+    "palette": [
+      [
+        40,
+        34,
+        32
+      ],
+      [
+        104,
+        108,
+        119
+      ],
+      [
+        70,
+        69,
+        74
+      ],
+      [
+        14,
+        13,
+        15
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/657.png",
+    "source_video": "code-video-model-v2/architectural-cinematics/case-657.mp4",
+    "source_sha256": "0fa87b83f67c6f4d77d57ae8722288481062cec997e5523b78bcb11ca26ba5ba",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "659",
+    "name": "Case 659",
+    "session": "Architectural Cinematics",
+    "source_rgb": [
+      95,
+      91,
+      88
+    ],
+    "source_palette": [
+      [
+        14,
+        11,
+        12
+      ],
+      [
+        115,
+        110,
+        106
+      ],
+      [
+        186,
+        186,
+        184
+      ],
+      [
+        62,
+        55,
+        49
+      ]
+    ],
+    "rgb": [
+      95,
+      91,
+      88
+    ],
+    "palette": [
+      [
+        14,
+        11,
+        12
+      ],
+      [
+        115,
+        110,
+        106
+      ],
+      [
+        186,
+        186,
+        184
+      ],
+      [
+        62,
+        55,
+        49
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/659.png",
+    "source_video": "code-video-model-v2/architectural-cinematics/case-659.mp4",
+    "source_sha256": "c7d405b69c30e861360f6886cf1c5ffd29b3d8eca8eaadf01381c0dbbd405b0e",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "481",
+    "name": "Case 481",
+    "session": "Architectural Cinematics",
+    "source_rgb": [
+      122,
+      117,
+      112
+    ],
+    "source_palette": [
+      [
+        163,
+        156,
+        147
+      ],
+      [
+        108,
+        102,
+        93
+      ],
+      [
+        182,
+        180,
+        175
+      ],
+      [
+        31,
+        29,
+        30
+      ]
+    ],
+    "rgb": [
+      122,
+      117,
+      112
+    ],
+    "palette": [
+      [
+        163,
+        156,
+        147
+      ],
+      [
+        108,
+        102,
+        93
+      ],
+      [
+        182,
+        180,
+        175
+      ],
+      [
+        31,
+        29,
+        30
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/481-4ebee82cec97.png",
+    "source_video": "selected-0907-video-diffusion-seed202/cinematic-camera-intelligence/case-481-4ebee82cec97.mp4",
+    "source_sha256": "4ebee82cec9717dc3b3a26a838eb289c18ae805598f6c3e500bbf0510306ead9",
+    "frame": 0,
+    "alpha": 0.5
+  }
+]

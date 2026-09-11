@@ -1,0 +1,21 @@
+// Appended to each case's own Three.js module; scene content is not rewritten.
+const __BFOriginalRenderer = WebGLRenderer;
+WebGLRenderer = class extends __BFOriginalRenderer {
+  constructor(...args) {
+    super(...args);
+    const originalRender = this.render.bind(this);
+    this.render = (scene, camera) => {
+      if (scene.isScene && camera.isCamera && !this.__bfInspector
+          && (!window.__bfPreferFirstScene || !window.__bfCapture || window.__bfCapture.scene === scene)) {
+        window.__bfCapture = {
+          scene, camera, renderer: this,
+          THREE: { Scene, PerspectiveCamera, WebGLRenderer, Vector3, Quaternion,
+            Line, BufferGeometry, LineBasicMaterial, CameraHelper, GridHelper,
+            Mesh, SphereGeometry, MeshBasicMaterial, HemisphereLight, DirectionalLight,
+            Box3, Color, Plane }
+        };
+      }
+      if (!window.__bfSampling || this.__bfInspector) return originalRender(scene, camera);
+    };
+  }
+};

@@ -1,0 +1,91 @@
+{
+  "case_id": "581",
+  "session": "Trajectory Variation",
+  "prompt": "A modern gallery with four large sculpture pedestals and a quadruped robot dog moving from the entrance to the far exit. Follow a serpentine path weaving between all four sculpture pedestals. Photorealistic 5-second video.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "eb7d96f16b79db597f094664e6b2b0860ff6989debd4fb93af2958d9aab8aff8",
+  "entry": "runtime/case/index.html",
+  "sources": [
+    {
+      "path": "original/case/scene.js",
+      "name": "case/scene.js",
+      "sha256": "241a6025c6340ba7ddafbc297ed638fede79e450d699c2caa953e313c98f7ef6",
+      "functions": [
+        {
+          "name": "mat",
+          "line": 37
+        },
+        {
+          "name": "mesh",
+          "line": 46
+        },
+        {
+          "name": "addBox",
+          "line": 78
+        },
+        {
+          "name": "addPedestalPlaque",
+          "line": 160
+        },
+        {
+          "name": "addSculpture",
+          "line": 178
+        },
+        {
+          "name": "segment",
+          "line": 386
+        },
+        {
+          "name": "alignSegment",
+          "line": 390
+        },
+        {
+          "name": "clamp01",
+          "line": 428
+        },
+        {
+          "name": "smoothstep",
+          "line": 432
+        },
+        {
+          "name": "travelProgress",
+          "line": 436
+        },
+        {
+          "name": "updateRobot",
+          "line": 450
+        },
+        {
+          "name": "updateCamera",
+          "line": 503
+        },
+        {
+          "name": "renderAt",
+          "line": 522
+        },
+        {
+          "name": "animate",
+          "line": 529
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "case/scene.js",
+      "sha256": "241a6025c6340ba7ddafbc297ed638fede79e450d699c2caa953e313c98f7ef6"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/581/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

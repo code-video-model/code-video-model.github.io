@@ -1,0 +1,41 @@
+/* The page owns the category atmosphere; the preview is one edge-to-edge image assembly. */
+.application-previews {gap:64px;}
+.category-shell {border:0;border-radius:0;box-shadow:none;background:none;overflow:visible;}
+.category-overview {padding:0;}
+.category-shell .application-preview,.category-shell:nth-child(even) .application-preview {--preview-radius:28px;gap:0;align-items:stretch;border-radius:var(--preview-radius);clip-path:inset(0 round var(--preview-radius));overflow:hidden;background:#101a24;}
+.category-shell .comparison-frame {border-radius:0;box-shadow:none;}
+.category-shell .application-video-pair video {object-fit:cover;object-position:center;border-radius:0;}
+.category-shell .application-copy {position:relative;min-height:0;isolation:isolate;overflow:hidden;}
+.category-shell .application-copy h2 {position:absolute;inset:50% 28px auto;transform:translateY(-50%);z-index:3;margin:0;color:#fff;text-align:center;text-shadow:0 2px 16px #000b;pointer-events:none;}
+.category-shell .application-copy h2 a {color:#fff;pointer-events:auto;}
+.category-shell .application-copy h2 a::after {color:#ffffffd9;}
+.category-mosaic {position:absolute;inset:0;width:100%;height:100%;max-width:none;margin:0;padding:0;border:0;border-radius:0;z-index:1;background:#14202b;overflow:hidden;}
+.mosaic-frames {position:absolute;inset:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));height:auto;margin:0;gap:0;}
+.mosaic-frames[data-count="1"] {grid-template-columns:1fr;grid-template-rows:1fr;}
+.mosaic-frames[data-count="2"] {grid-template-columns:1fr;grid-template-rows:repeat(2,minmax(0,1fr));}
+.mosaic-frames[data-count="3"] img:first-child {grid-row:span 2;}
+.mosaic-frames img,.category-mosaic:hover img,.category-mosaic:focus-visible img {position:static;display:block;width:100%;height:100%;min-width:0;min-height:0;object-fit:cover;border:0;border-radius:0;box-shadow:none;opacity:1;transform:none;}
+.category-mosaic::after {content:'';position:absolute;inset:0;background:linear-gradient(135deg,#ffffff30,#102a4440);backdrop-filter:blur(7px) saturate(1.25);-webkit-backdrop-filter:blur(7px) saturate(1.25);box-shadow:inset 0 1px 0 #ffffff75;pointer-events:none;transition:background .2s;}
+.category-mosaic:hover::after,.category-mosaic:focus-visible::after {background:linear-gradient(135deg,#ffffff1a,#102a4433);}
+.category-results .fps-bubble-grid .fps-case-bubble {aspect-ratio:16/10;border:1px solid #ffffff80;box-shadow:0 8px 24px -16px #182c4455;border-radius:16px;background:#15202b;transition:transform .2s,box-shadow .2s;}
+.category-results .fps-case-bubble img {opacity:1;filter:none;}
+.category-results .fps-case-bubble::after {box-shadow:none;background:linear-gradient(0deg,#07152148,transparent 55%);}
+.category-results .fps-case-bubble:hover {transform:translateY(-4px);box-shadow:0 14px 28px -16px #182c4477;}
+.category-results .fps-case-bubble {color:white;text-shadow:0 1px 6px #0009;}
+.category-shell .application-copy .application-edit-controls {position:absolute;bottom:22px;left:22px;right:22px;z-index:4;justify-content:center;margin:0;}
+.category-shell .application-copy .application-version {color:#fff;text-shadow:0 1px 4px #000;}
+.category-shell .application-edit-controls button {background:#ffffffe6;border-color:#ffffffa6;color:#184c72;}
+.category-shell .application-edit-controls button[aria-pressed="true"] {background:#164b6ddd;color:#fff;}
+.category-shell .application-edit-controls button:disabled {opacity:.75;}
+.category-shell .category-mosaic:focus-visible {outline:3px solid #8ce7ff;outline-offset:-5px;}
+.category-results {background:none;padding:16px 0 24px;}
+@media(max-width:850px){
+ .application-previews{gap:38px;}
+ .category-shell .application-preview,.category-shell:nth-child(even) .application-preview{--preview-radius:20px;gap:0;}
+ .category-shell .application-copy{min-height:190px;}
+ .category-shell .application-copy:has(.application-edit-controls){min-height:238px;}
+ .category-shell .application-copy h2{left:22px;right:22px;}
+ .category-shell .application-copy:has(.application-edit-controls) h2{top:43%;}
+ .category-results{padding:12px 0 20px;}
+}
+@media(prefers-reduced-motion:reduce){.category-mosaic::after{transition:none;}}

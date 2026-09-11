@@ -1,0 +1,306 @@
+{
+  "count": 75,
+  "cases": [
+    {
+      "case_id": "first-person-009",
+      "session": "Gaming"
+    },
+    {
+      "case_id": "first-person-007",
+      "session": "Gaming"
+    },
+    {
+      "case_id": "first-person-014",
+      "session": "Gaming"
+    },
+    {
+      "case_id": "first-person-030",
+      "session": "Gaming"
+    },
+    {
+      "case_id": "121",
+      "session": "Gaming"
+    },
+    {
+      "case_id": "132",
+      "session": "Gaming"
+    },
+    {
+      "case_id": "322",
+      "session": "Gaming"
+    },
+    {
+      "case_id": "93",
+      "session": "Gaming"
+    },
+    {
+      "case_id": "505",
+      "session": "Bullet Time"
+    },
+    {
+      "case_id": "508",
+      "session": "Bullet Time"
+    },
+    {
+      "case_id": "509",
+      "session": "Bullet Time"
+    },
+    {
+      "case_id": "518",
+      "session": "Bullet Time"
+    },
+    {
+      "case_id": "521",
+      "session": "Bullet Time"
+    },
+    {
+      "case_id": "504",
+      "session": "Bullet Time"
+    },
+    {
+      "case_id": "583",
+      "session": "Scene / World Editing"
+    },
+    {
+      "case_id": "663",
+      "session": "Scene / World Editing"
+    },
+    {
+      "case_id": "586",
+      "session": "Scene / World Editing"
+    },
+    {
+      "case_id": "666",
+      "session": "Scene / World Editing"
+    },
+    {
+      "case_id": "601",
+      "session": "Scene / World Editing"
+    },
+    {
+      "case_id": "681",
+      "session": "Scene / World Editing"
+    },
+    {
+      "case_id": "590",
+      "session": "Scene / World Editing"
+    },
+    {
+      "case_id": "670",
+      "session": "Scene / World Editing"
+    },
+    {
+      "case_id": "595",
+      "session": "Scene / World Editing"
+    },
+    {
+      "case_id": "675",
+      "session": "Scene / World Editing"
+    },
+    {
+      "case_id": "591",
+      "session": "Scene / World Editing"
+    },
+    {
+      "case_id": "671",
+      "session": "Scene / World Editing"
+    },
+    {
+      "case_id": "563",
+      "session": "Robotics Simulation"
+    },
+    {
+      "case_id": "564",
+      "session": "Robotics Simulation"
+    },
+    {
+      "case_id": "567",
+      "session": "Robotics Simulation"
+    },
+    {
+      "case_id": "568",
+      "session": "Robotics Simulation"
+    },
+    {
+      "case_id": "571",
+      "session": "Robotics Simulation"
+    },
+    {
+      "case_id": "572",
+      "session": "Robotics Simulation"
+    },
+    {
+      "case_id": "577",
+      "session": "Trajectory Variation"
+    },
+    {
+      "case_id": "578",
+      "session": "Trajectory Variation"
+    },
+    {
+      "case_id": "581",
+      "session": "Trajectory Variation"
+    },
+    {
+      "case_id": "582",
+      "session": "Trajectory Variation"
+    },
+    {
+      "case_id": "481",
+      "session": "Architectural Cinematics"
+    },
+    {
+      "case_id": "490",
+      "session": "Cinematic Camera Intelligence"
+    },
+    {
+      "case_id": "624",
+      "session": "Product Cinematography"
+    },
+    {
+      "case_id": "625",
+      "session": "Product Cinematography"
+    },
+    {
+      "case_id": "632",
+      "session": "Product Cinematography"
+    },
+    {
+      "case_id": "636",
+      "session": "Product Cinematography"
+    },
+    {
+      "case_id": "640",
+      "session": "Product Cinematography"
+    },
+    {
+      "case_id": "641",
+      "session": "Product Cinematography"
+    },
+    {
+      "case_id": "524",
+      "session": "Scientific Visualization"
+    },
+    {
+      "case_id": "528",
+      "session": "Scientific Visualization"
+    },
+    {
+      "case_id": "531",
+      "session": "Scientific Visualization"
+    },
+    {
+      "case_id": "542",
+      "session": "Scientific Visualization"
+    },
+    {
+      "case_id": "620",
+      "session": "Scientific Visualization"
+    },
+    {
+      "case_id": "609",
+      "session": "Scientific Visualization"
+    },
+    {
+      "case_id": "643",
+      "session": "Architectural Cinematics"
+    },
+    {
+      "case_id": "646",
+      "session": "Architectural Cinematics"
+    },
+    {
+      "case_id": "649",
+      "session": "Architectural Cinematics"
+    },
+    {
+      "case_id": "656",
+      "session": "Architectural Cinematics"
+    },
+    {
+      "case_id": "657",
+      "session": "Architectural Cinematics"
+    },
+    {
+      "case_id": "659",
+      "session": "Architectural Cinematics"
+    },
+    {
+      "case_id": "442",
+      "session": "3D / 4D Reconstruction"
+    },
+    {
+      "case_id": "astra-bicycle",
+      "session": "3D / 4D Reconstruction"
+    },
+    {
+      "case_id": "astra-garden-gray",
+      "session": "3D / 4D Reconstruction"
+    },
+    {
+      "case_id": "astra-cook-spinach",
+      "session": "3D / 4D Reconstruction"
+    },
+    {
+      "case_id": "astra-bonsai",
+      "session": "3D / 4D Reconstruction"
+    },
+    {
+      "case_id": "astra-room-gray",
+      "session": "3D / 4D Reconstruction"
+    },
+    {
+      "case_id": "astra-truck",
+      "session": "3D / 4D Reconstruction"
+    },
+    {
+      "case_id": "astra-kitchen",
+      "session": "3D / 4D Reconstruction"
+    },
+    {
+      "case_id": "astra-train",
+      "session": "3D / 4D Reconstruction"
+    },
+    {
+      "case_id": "cs2-active-duel",
+      "session": "Gaming"
+    },
+    {
+      "case_id": "wyvern-siege-fpv",
+      "session": "Gaming"
+    },
+    {
+      "case_id": "black-hole-background-grade",
+      "session": "Scientific Visualization"
+    },
+    {
+      "case_id": "stable-mass-transfer-binary",
+      "session": "Scientific Visualization"
+    },
+    {
+      "case_id": "434",
+      "session": "Architectural Cinematics",
+      "gallery_visible": false
+    },
+    {
+      "case_id": "303",
+      "session": "Gaming"
+    },
+    {
+      "case_id": "physical-induction",
+      "session": "Physical Grounding"
+    },
+    {
+      "case_id": "physical-isochronous",
+      "session": "Physical Grounding"
+    },
+    {
+      "case_id": "physical-prism",
+      "session": "Physical Grounding"
+    },
+    {
+      "case_id": "physical-pendulum",
+      "session": "Physical Grounding"
+    }
+  ]
+}

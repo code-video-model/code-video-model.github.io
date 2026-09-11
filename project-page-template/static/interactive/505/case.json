@@ -1,0 +1,115 @@
+{
+  "case_id": "505",
+  "session": "Bullet Time",
+  "prompt": "A premium photorealistic 5-second bullet-time demo. Two samurai swords collide in heavy rain and sparks burst between the fighters. At the peak action moment, time freezes almost completely: bodies, debris, droplets and secondary motion remain perfectly suspended. The camera perform a fast 220-degree orbit through suspended raindrops and sparks. In the final beat, normal time snaps back and the action resolves naturally. Same-moment 4D consistency, impossible viewpoint and crisp cinematic detail.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "0e212923ff47c6a551cf4cc664f8ce0f390e813cda18d295caa94d2227dc4165",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "f110f91d072ef836549543dfa045da78517247ce3278d2974d9c1042b4fde2d6",
+      "functions": [
+        {
+          "name": "hash",
+          "line": 112
+        },
+        {
+          "name": "addBox",
+          "line": 117
+        },
+        {
+          "name": "addCylinder",
+          "line": 127
+        },
+        {
+          "name": "createEnvironment",
+          "line": 139
+        },
+        {
+          "name": "setBetween",
+          "line": 230
+        },
+        {
+          "name": "createLimb",
+          "line": 240
+        },
+        {
+          "name": "createSword",
+          "line": 247
+        },
+        {
+          "name": "createSamurai",
+          "line": 265
+        },
+        {
+          "name": "smoother",
+          "line": 411
+        },
+        {
+          "name": "actionState",
+          "line": 416
+        },
+        {
+          "name": "mixVector",
+          "line": 428
+        },
+        {
+          "name": "updateSamurai",
+          "line": 432
+        },
+        {
+          "name": "setInstance",
+          "line": 499
+        },
+        {
+          "name": "updateRain",
+          "line": 504
+        },
+        {
+          "name": "sparkDirection",
+          "line": 530
+        },
+        {
+          "name": "updateEffects",
+          "line": 540
+        },
+        {
+          "name": "updateCamera",
+          "line": 609
+        },
+        {
+          "name": "updateLighting",
+          "line": 635
+        },
+        {
+          "name": "renderAt",
+          "line": 648
+        },
+        {
+          "name": "animate",
+          "line": 661
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "f110f91d072ef836549543dfa045da78517247ce3278d2974d9c1042b4fde2d6"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/505/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

@@ -1,0 +1,172 @@
+{
+  "case_id": "663",
+  "session": "Scene / World Editing",
+  "prompt": "A photorealistic continuous shot. Use the supplied reference image for scene appearance, subject identity, colors, materials and lighting. Use the supplied video for camera viewpoint, motion, relative positions, timing and occlusion. A sunlit home office contains a desk, bookcase, window and one wooden chair. The same chair stays directly in front of the desk, facing the monitor throughout. Keep the other furniture and objects fixed; do not animate a furniture relocation. Start from a higher oblique room view, sweep across the desk and descend into a closer view of the chair and furniture details. The move combines a curved approach, forward travel and a gradual framing change. Preserve the supplied video's complete duration and continuous motion. No jump cuts, teleportation, split-screen or added text overlays. Do not add route graphics or objects that are absent from the supplied inputs.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "623298afee7cc13e32a2d5cc0a9ef7613b329223835bec05ba3859a788e09733",
+  "entry": "runtime/case/index.html",
+  "sources": [
+    {
+      "path": "original/case/main.js",
+      "name": "case/main.js",
+      "sha256": "4b196e46e896dc89e2210b29cdd7bc89c6699e7c3ef99ca4b7fda994e38d5d18",
+      "functions": [
+        {
+          "name": "updateCamera",
+          "line": 51
+        },
+        {
+          "name": "render",
+          "line": 67
+        },
+        {
+          "name": "setVariant",
+          "line": 75
+        },
+        {
+          "name": "getCameraState",
+          "line": 83
+        },
+        {
+          "name": "bufferFingerprint",
+          "line": 87
+        },
+        {
+          "name": "getInvariantState",
+          "line": 94
+        }
+      ]
+    },
+    {
+      "path": "original/case/room.js",
+      "name": "case/room.js",
+      "sha256": "cdb5f8fa11488c7ec512957e4ed0bac8b71919ec424c34b818656bd1b519e8fc",
+      "functions": [
+        {
+          "name": "tree",
+          "line": 5
+        }
+      ]
+    },
+    {
+      "path": "original/case/materials.js",
+      "name": "case/materials.js",
+      "sha256": "19d3ab94754eeda343344f751d38b666bfc88ceb954f05611a54fa27b3f812ef",
+      "functions": [
+        {
+          "name": "canvasTexture",
+          "line": 11
+        },
+        {
+          "name": "woodTexture",
+          "line": 22
+        }
+      ]
+    },
+    {
+      "path": "original/case/geometry.js",
+      "name": "case/geometry.js",
+      "sha256": "1eee0f5c3ddc8be9ff2b81b3e0256731024b2ac23a1e1239d8518069eefcda90",
+      "functions": []
+    },
+    {
+      "path": "original/case/furniture.js",
+      "name": "case/furniture.js",
+      "sha256": "03023828349efc85960ea919fd76557cd672a7b885c4c4e94dc474d5c58ba435",
+      "functions": [
+        {
+          "name": "book",
+          "line": 9
+        },
+        {
+          "name": "stack",
+          "line": 17
+        },
+        {
+          "name": "paperStack",
+          "line": 32
+        },
+        {
+          "name": "deskLamp",
+          "line": 41
+        },
+        {
+          "name": "picture",
+          "line": 136
+        }
+      ]
+    },
+    {
+      "path": "original/case/state-audit.js",
+      "name": "case/state-audit.js",
+      "sha256": "886c41151e7610785d66d4b7cc935f702ab0a75b493d2e10cf71e960206a6348",
+      "functions": [
+        {
+          "name": "fingerprint",
+          "line": 1
+        }
+      ]
+    },
+    {
+      "path": "original/case/camera-audit.js",
+      "name": "case/camera-audit.js",
+      "sha256": "687226b2ae4322ff3542bb3beaad52f5713243c33382919bd858315b17673cef",
+      "functions": []
+    },
+    {
+      "path": "original/selection-adapter.mjs",
+      "name": "selection-adapter.mjs",
+      "sha256": "9f7689dec7f54fb897529c435cfe825311ed3ea4420f226aa68b3b8c18bfeb41",
+      "functions": [],
+      "generated_adapter": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "case/main.js",
+      "sha256": "4b196e46e896dc89e2210b29cdd7bc89c6699e7c3ef99ca4b7fda994e38d5d18"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    },
+    {
+      "path": "case/room.js",
+      "sha256": "cdb5f8fa11488c7ec512957e4ed0bac8b71919ec424c34b818656bd1b519e8fc"
+    },
+    {
+      "path": "case/materials.js",
+      "sha256": "19d3ab94754eeda343344f751d38b666bfc88ceb954f05611a54fa27b3f812ef"
+    },
+    {
+      "path": "case/geometry.js",
+      "sha256": "1eee0f5c3ddc8be9ff2b81b3e0256731024b2ac23a1e1239d8518069eefcda90"
+    },
+    {
+      "path": "case/furniture.js",
+      "sha256": "03023828349efc85960ea919fd76557cd672a7b885c4c4e94dc474d5c58ba435"
+    },
+    {
+      "path": "case/state-audit.js",
+      "sha256": "886c41151e7610785d66d4b7cc935f702ab0a75b493d2e10cf71e960206a6348"
+    },
+    {
+      "path": "case/camera-audit.js",
+      "sha256": "687226b2ae4322ff3542bb3beaad52f5713243c33382919bd858315b17673cef"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/home/zhiyangliang/VideoCoder/manual-work/v12-office-camera-v2-pair/code/583",
+    "kind": "verified-paired-code-artifact",
+    "source_artifact_sha256": "a88152748bad5614803eecd4da3533d03ea0c9569189f5c9b7f69e44a38dd058",
+    "input_video_sha256": "623298afee7cc13e32a2d5cc0a9ef7613b329223835bec05ba3859a788e09733",
+    "source_pair_key": "v12-office-camera-v2-pair",
+    "source_snapshot_verified": true,
+    "artifact_verified": true,
+    "selected_variant": "663"
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

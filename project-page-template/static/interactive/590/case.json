@@ -1,0 +1,67 @@
+{
+  "case_id": "590",
+  "session": "Scene / World Editing",
+  "prompt": "A photorealistic 5-second video of an industrial warehouse interior facing a closed rolling loading door. The rolling loading door rises to a half-open position during the shot, revealing daylight and a parked truck outside. Use a smooth stable camera trajectory, coherent geometry, and consistent lighting throughout the shot.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "dde6947452f1d6f92d871e5e39b7b931f27ce3659c9ca5a8d664821bdd875a94",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "656dca688cf22f66a29a83c6cbd7f99749c37b111cefe1c45bbfb1695fa9592a",
+      "functions": [
+        {
+          "name": "box",
+          "line": 64
+        },
+        {
+          "name": "cylinder",
+          "line": 74
+        },
+        {
+          "name": "beamBetween",
+          "line": 87
+        },
+        {
+          "name": "addHazardStrip",
+          "line": 96
+        },
+        {
+          "name": "makePalletStack",
+          "line": 114
+        },
+        {
+          "name": "makeDrum",
+          "line": 144
+        },
+        {
+          "name": "smootherstep",
+          "line": 365
+        },
+        {
+          "name": "update",
+          "line": 370
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "656dca688cf22f66a29a83c6cbd7f99749c37b111cefe1c45bbfb1695fa9592a"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/590/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

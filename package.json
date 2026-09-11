@@ -1,0 +1,17 @@
+{
+  "name": "code-video-model-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone Code Video Model project website and interactive gallery",
+  "scripts": {
+    "start": "node scripts/serve.cjs",
+    "test": "node tests/smoke.cjs",
+    "test:previews": "node tests/public-version.cjs",
+    "test:gallery": "node tests/integrated-gallery.cjs && node tests/integrated-state.cjs",
+    "test:edits": "node tests/preview-edit-diff.cjs && node tests/preview-edit-errors.cjs",
+    "test:mobile": "node tests/mobile-touch-audit.cjs",
+    "test:semantic-edits": "node tests/all-semantic-edits.mjs && node tests/edited-code.mjs && node tests/semantic-edit-layout.cjs",
+    "test:loading": "node tests/lazy-posters.cjs && node tests/native-posters.cjs"
+  },
+  "devDependencies": { "playwright": "1.55.1" }
+}

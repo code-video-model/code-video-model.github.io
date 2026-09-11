@@ -1,0 +1,103 @@
+{
+  "case_id": "518",
+  "session": "Bullet Time",
+  "prompt": "subject_definitions:\n<Video 1> is the authoritative revised camera, geometry and physical-time control.\n<Picture 1> supplies realistic appearance and the unchanged opening-frame identity.\n\nsummary:\n[reference generation] A tan-and-white dog and one red frisbee freeze at a pre-catch airborne apex while a continuous low orbit reveals the same instant.\n\nretention_analysis:\n<Video 1> (applies to [Shot 1]): strong_reference - Preserve the revised opening, camera trajectory, world-relative object positions and the exact 0.75-4.70 second frozen interval. Distinguish CAMERA time from PHYSICAL time: the viewpoint continues moving while every subject and particle is held at one physical instant. No slow-motion substitute.\n<Picture 1> (applies to [Shot 1]): appearance_reference - Transfer realistic identity, materials, texture and illumination without changing object count, geometry, camera start, pose or timing. Never freeze the camera to the image.\n\ndetailed_description:\n[Shot 1] The opening camera position, viewing direction, field of view and composition are exactly the same as the supplied original sideline opening. Preserve the sunny park, grass, bench, path, tree positions and the appearance reference's tan-and-white dog with a blue collar. There is exactly one red frisbee. From 0.00 to 0.75 seconds the dog approaches and rises into its leap. At 0.75 seconds physical time stops at the apex immediately BEFORE contact: all four paws are airborne and a real gap remains between the open mouth and the frisbee. From 0.75 through 4.70 seconds hold one identical WORLD state. The dog does not translate, drift, descend, paddle its legs, wag its tail, turn its head, or advance the catch. The toy does not travel or spin, and the suspended motes do not fall. The dog-to-toy distance, pose and height above the same patch of grass stay constant. ONLY the camera moves. Follow the new supplied continuous orbit rather than the old sideline/low-view pauses: move from the sideline into a front three-quarter view, dip below the floating body through the front view, continue around the opposite side, then rise into the far rear three-quarter view by 4.65 seconds. The changing bench, trees and shadow perspectives must reveal real parallax around one frozen dog, not create an illusion of the dog running in place. Natural temporary viewpoint occlusion must not change the toy's fixed pre-contact gap. At 4.70 seconds time resumes; only in the short final beat does the dog catch the toy, descend, land and continue away. Keep the opening still's fur, color, collar and realistic park materials without replacing this camera choreography with a static shot. One continuous, temporally coherent photoreal bullet-time take.\n\noverall_soundscape:\nN/A\n\nnon_diegetic_music:\nN/A\n\nimage_appearance_reference_guidance: The provided image is an appearance reference for photorealistic identity, materials, textures, lighting, and opening-frame appearance. Transfer these appearance attributes without overriding the reference video's object count, structure, object positions, spatial layout, camera path, poses, or action timing. Preserve the motion described in the main prompt and reference video; do not freeze video motion to the image's still pose.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "c3851d31494d52bded434d43065698c00acbc641aaa203902f207af95d3e57cb",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "94e6f3e4b5c62149dae31ed1b27d366f799d3c46449d25754317a1e51e608f64",
+      "functions": [
+        {
+          "name": "shadowed",
+          "line": 88
+        },
+        {
+          "name": "mesh",
+          "line": 94
+        },
+        {
+          "name": "material",
+          "line": 98
+        },
+        {
+          "name": "smoothstep",
+          "line": 102
+        },
+        {
+          "name": "lerpVector",
+          "line": 107
+        },
+        {
+          "name": "seeded",
+          "line": 111
+        },
+        {
+          "name": "roundedLimb",
+          "line": 116
+        },
+        {
+          "name": "createTree",
+          "line": 128
+        },
+        {
+          "name": "createCloud",
+          "line": 160
+        },
+        {
+          "name": "addLeg",
+          "line": 374
+        },
+        {
+          "name": "eventTimeAt",
+          "line": 484
+        },
+        {
+          "name": "dogHeight",
+          "line": 490
+        },
+        {
+          "name": "updateWorld",
+          "line": 495
+        },
+        {
+          "name": "updateCamera",
+          "line": 554
+        },
+        {
+          "name": "renderAt",
+          "line": 585
+        },
+        {
+          "name": "animate",
+          "line": 592
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "94e6f3e4b5c62149dae31ed1b27d366f799d3c46449d25754317a1e51e608f64"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/home/zhiyangliang/VideoCoder/exports/published-threejs-sources/c3851d31494d52bded434d43065698c00acbc641aaa203902f207af95d3e57cb",
+    "kind": "verified-selected-0907-archive",
+    "archive_sha256": "1c36faed0649aed01853a4d2b723b0aba6b6532df6b97f8c5ece21f677583173",
+    "input_video_sha256": "c3851d31494d52bded434d43065698c00acbc641aaa203902f207af95d3e57cb",
+    "source_snapshot_verified": true,
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

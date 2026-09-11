@@ -1,0 +1,67 @@
+{
+  "case_id": "564",
+  "session": "Robotics Simulation",
+  "prompt": "A bright robotics laboratory with a central rectangular workbench, two stools, a charging station and a glass exit door. The agent starts at the near-left entrance, follows an S-shaped route around the workbench and stools, and reaches the glass door. Fixed side-follow camera. The moving agent is a realistic bipedal humanoid robot with natural articulated walking. Generate a photorealistic 5-second robotics-simulation video.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "efe5c2e31750622240c52cf43cf4fa784159092f0a56e260862773f808d1cfd6",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "f6f94c0dd5dda700fffe86c3c6a62829984078f7151e8c005b2652fec980c525",
+      "functions": [
+        {
+          "name": "addStroke",
+          "line": 89
+        },
+        {
+          "name": "addStrokeText",
+          "line": 98
+        },
+        {
+          "name": "buildLaboratory",
+          "line": 126
+        },
+        {
+          "name": "buildRouteGuide",
+          "line": 330
+        },
+        {
+          "name": "createHumanoidRobot",
+          "line": 354
+        },
+        {
+          "name": "travelState",
+          "line": 521
+        },
+        {
+          "name": "updateScene",
+          "line": 545
+        },
+        {
+          "name": "animate",
+          "line": 624
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "f6f94c0dd5dda700fffe86c3c6a62829984078f7151e8c005b2652fec980c525"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/564/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

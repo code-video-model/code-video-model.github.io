@@ -1,0 +1,63 @@
+{
+  "case_id": "656",
+  "session": "Architectural Cinematics",
+  "prompt": "A photorealistic 5-second architectural visualization. A contemporary courtyard house wrapped around a central tree. Camera moves from a shaded hallway into the courtyard, circles the tree and transitions into the opposite living wing, preserving indoor-outdoor continuity. Emphasize stable 3D layout, correct perspective, realistic materials, strong parallax and smooth executable camera motion.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "1f72b0bfc9f1ca9abf83028d8d96c07d9da7e464785e6104e71ec6cf1fe84b08",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.js",
+      "name": "scene.js",
+      "sha256": "828ece48894fa72818d52fbc424520ff50672fc782e1ef0bb5773e684024ce9c",
+      "functions": [
+        {
+          "name": "box",
+          "line": 73
+        },
+        {
+          "name": "cylinder",
+          "line": 83
+        },
+        {
+          "name": "beamBetween",
+          "line": 96
+        },
+        {
+          "name": "glassPanel",
+          "line": 131
+        },
+        {
+          "name": "smoothstep",
+          "line": 319
+        },
+        {
+          "name": "updateAtTime",
+          "line": 324
+        },
+        {
+          "name": "animate",
+          "line": 353
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "scene.js",
+      "sha256": "828ece48894fa72818d52fbc424520ff50672fc782e1ef0bb5773e684024ce9c"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/656/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}

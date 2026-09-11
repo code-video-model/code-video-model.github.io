@@ -1,0 +1,99 @@
+{
+  "case_id": "646",
+  "session": "Architectural Cinematics",
+  "prompt": "A photorealistic 5-second architectural visualization. A warm Scandinavian living room with pale wood, textured sofa and large window. Camera moves from a close foreground plant, passes the sofa, curves around the coffee table and ends facing the window wall. Emphasize stable 3D layout, correct perspective, realistic materials, strong parallax and smooth executable camera motion.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "904a444dda37c9ab706e3bc5e00e51322c66cb89b6c4ca2db623876ef2da7bfc",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/main.js",
+      "name": "main.js",
+      "sha256": "d5d714787c6e75226031eaacc9c83d5f88951eab01f94fb2b72f4cbf417bd44b",
+      "functions": [
+        {
+          "name": "material",
+          "line": 30
+        },
+        {
+          "name": "box",
+          "line": 51
+        },
+        {
+          "name": "cylinder",
+          "line": 61
+        },
+        {
+          "name": "roundedShape",
+          "line": 74
+        },
+        {
+          "name": "roundedPanel",
+          "line": 90
+        },
+        {
+          "name": "leafGeometry",
+          "line": 109
+        },
+        {
+          "name": "makeRoom",
+          "line": 119
+        },
+        {
+          "name": "makeSofa",
+          "line": 223
+        },
+        {
+          "name": "makeRugAndTable",
+          "line": 260
+        },
+        {
+          "name": "makeChairAndLamp",
+          "line": 306
+        },
+        {
+          "name": "makeForegroundPlant",
+          "line": 346
+        },
+        {
+          "name": "makeDecor",
+          "line": 383
+        },
+        {
+          "name": "smootherStep",
+          "line": 477
+        },
+        {
+          "name": "updateScene",
+          "line": 482
+        },
+        {
+          "name": "render",
+          "line": 501
+        },
+        {
+          "name": "animate",
+          "line": 505
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "path": "main.js",
+      "sha256": "d5d714787c6e75226031eaacc9c83d5f88951eab01f94fb2b72f4cbf417bd44b"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/data1/zhiyangliang/UltraVideo-cluster-rw/application_demo_481_662/outputs/646/code",
+    "artifact_verified": true
+  },
+  "recorded_trajectory": "recorded-camera.json"
+}
