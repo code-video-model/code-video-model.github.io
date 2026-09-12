@@ -2,8 +2,20 @@ import { createDetailEditTransition } from './detail-edit-transition.js';
 
 // Retire old shared review links/preferences without affecting case deep links.
 try{localStorage.removeItem('code-video-model-review');}catch{}
-const cleanedURL=new URL(location.href);
-if(cleanedURL.searchParams.has('review')){cleanedURL.searchParams.delete('review');history.replaceState(history.state,'',cleanedURL);}
+function cleanLegacyURL(){
+  const url=new URL(location.href);
+  let target;
+  try{target=document.getElementById(decodeURIComponent(url.hash.slice(1)));}catch{}
+  const category=target?.matches('.category-shell,.gallery-section')?target:null;
+  url.searchParams.delete('review');
+  if(category)url.hash='';
+  if(url.href!==location.href)history.replaceState(history.state,'',url);
+  // Existing bookmarked category anchors still navigate, without leaving a
+  // fragment behind or interfering with case/category query restoration.
+  if(category&&!url.searchParams.has('case')&&!url.searchParams.has('category'))category.scrollIntoView({block:'start',behavior:'instant'});
+}
+cleanLegacyURL();
+addEventListener('hashchange',cleanLegacyURL);
 
 let closeActiveWorld;
 
@@ -55,6 +67,7 @@ export function initializeBubbles(host) {
     if (selected && [selected.dataset.case, selected.dataset.caseB].includes(url.searchParams.get('case'))) {
       url.searchParams.delete('case');
       url.searchParams.delete('selection');
+      url.hash='';
       history.replaceState(history.state, '', url);
     }
     if (closeActiveWorld === close) closeActiveWorld = undefined;
@@ -187,7 +200,7 @@ export function initializeBubbles(host) {
       pageURL.searchParams.set('case', caseId);
       if (link.dataset.selection) pageURL.searchParams.set('selection', link.dataset.selection);
       else pageURL.searchParams.delete('selection');
-      pageURL.hash = host.closest('section').id;
+      pageURL.hash = '';
       history.replaceState(history.state, '', pageURL);
     }
     if (variants) {
@@ -357,7 +370,7 @@ if (pageURL.searchParams.has('case') && !integrated) {
   if (world) {
     const link = [...world.host.querySelectorAll('.fps-case-bubble')]
       .find(matches);
-    pageURL.hash = world.host.closest('section').id;
+    pageURL.hash = '';
     history.replaceState(history.state, '', pageURL);
     world.host.scrollIntoView({ block: 'start', behavior: 'instant' });
     world.open(link, link.dataset.caseB === caseId ? 'b' : 'a');

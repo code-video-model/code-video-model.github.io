@@ -45,7 +45,8 @@ function resize(record,from=record.content.getBoundingClientRect().height){
 }
 function urlFor(record){
   const url=new URL(location.href);url.searchParams.delete('case');url.searchParams.delete('selection');
-  if(record){url.searchParams.set('category',record.shell.id);url.hash=record.shell.id;}
+  url.hash='';
+  if(record){url.searchParams.set('category',record.shell.id);}
   else url.searchParams.delete('category');
   history.replaceState(history.state,'',url);
 }
