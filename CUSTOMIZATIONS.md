@@ -1,5 +1,11 @@
 # 本地定制记录
 
+## 720p Demo 替换（2026-09-12）
+
+按用户提供的新文件，将当前 Demo 替换为 static/demo/CodeVideoPromoV9Refined_720p.mp4，1280×720、30 FPS、137.966667 秒、24,789,173 bytes；原样复制，SHA256 d64f4c0154b1ca178adbf6daa82434e96ecccdfdfaa117e7850e45b4aa1ed84b。新视频时长与旧版不同，以用户新文件为准。封面继续使用第 30 帧的开头文字，并同步原像素尺寸和来源校验。
+
+旧 V9 1080p 文件移至被忽略的 .local-import/demo-backups/，从当前 Git 文件树删除；历史提交仍可恢复它，未重写 Git 历史。用户提供的两个原文件均未修改。
+
 ## 分类网址去除锚点
 
 分类展开、案例切换和返回不再向地址附加 #分类名，返回概览时同步清理残留锚点。旧分类锚点链接仍能定位并自动整理地址；case / selection / category 查询参数保留以支持刷新和分享，非分类锚点不受影响。clean-navigation-url.cjs 覆盖首页、旧锚点、案例深链接和独立 Gallery。

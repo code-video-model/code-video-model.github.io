@@ -1,14 +1,14 @@
 [
   {
-    "video": "static/demo/CodeVideoPromoV9Refined_1080p_render_x264.mp4",
-    "poster": "static/images/first-frames-native/7cf79ea18bbcc2ac6ba52bc9e95f86ffcba90a9fd4f0c02f9c6c21f4b5050604-frame000030.png",
-    "width": 1920,
-    "height": 1080,
+    "video": "static/demo/CodeVideoPromoV9Refined_720p.mp4",
+    "poster": "static/images/first-frames-native/d64f4c0154b1ca178adbf6daa82434e96ecccdfdfaa117e7850e45b4aa1ed84b-frame000030.png",
+    "width": 1280,
+    "height": 720,
     "frame_index": 30,
     "format": "PNG/rgb24",
-    "video_sha256": "7cf79ea18bbcc2ac6ba52bc9e95f86ffcba90a9fd4f0c02f9c6c21f4b5050604",
-    "poster_sha256": "8cc5f0ded4cc913a83bc1128aa505d6783ab8c201cf22ef69740475a25cd9beb",
-    "decoded_pixels_sha256": "8258980013ee97ef56a4a6f60c4e5eb6109231c30ddc73283b663168d8f03265"
+    "video_sha256": "d64f4c0154b1ca178adbf6daa82434e96ecccdfdfaa117e7850e45b4aa1ed84b",
+    "poster_sha256": "357d49aea6517d0b89dfac5ff460ceaf141e2114221b162222a6fba3ed3eb67e",
+    "decoded_pixels_sha256": "f05f8e8bbabb2713f85a07054359d26bfc177a34fdce9c4479c7476db121150e"
   },
   {
     "video": "static/project-page-cases/threejs/reconstruction-3d-4d/astra-train-c822e0aa0db4.mp4",
