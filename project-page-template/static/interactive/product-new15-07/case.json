@@ -1,0 +1,50 @@
+{
+  "case_id": "product-new15-07",
+  "session": "Product Cinematography",
+  "prompt": "A photoreal silver-gray quadcopter is revealed from a tight frontal gimbal-camera detail to a complete elevated rear three-quarter view in a large rising 165-degree camera orbit and dolly-out. Begin exactly on the approved black circular lens, silver gimbal supports, rounded central body and cropped outstretched arms. Pull backward early to reveal the full four-arm construction, then continue rising and orbiting around the stationary drone through the full camera-v2 trajectory over 5.17 seconds. All four deployed arms, motors, propellers and landing feet remain rigidly attached in the same configuration; the drone stays on the studio surface and the propellers remain stopped. Keep the approved photographic silver finish, black rubber and glass optics consistent from every angle. No unfolding, flight, assembly, people, extra rotors or cuts.",
+  "width": 960,
+  "height": 544,
+  "fps": 24,
+  "frames": 124,
+  "threejs_sha256": "dd972871beb7089c828f2213e960360ae99164e3a0d3e4cfdd945723863c8c99",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/app.js",
+      "name": "app.js",
+      "sha256": "725099f9cf70c29dbcf7648864f413dd53bd7d0c3d6620252df0e3a206f12704",
+      "functions": [
+        {
+          "name": "mesh",
+          "line": 12
+        },
+        {
+          "name": "oval",
+          "line": 13
+        },
+        {
+          "name": "cyl",
+          "line": 14
+        },
+        {
+          "name": "bar",
+          "line": 15
+        },
+        {
+          "name": "seek",
+          "line": 63
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "origin": "product-new15-four-seeds",
+    "group": "image-group23-2",
+    "seed": 42,
+    "camera_revision": "camera-v2",
+    "reference_revision": "photoreal-v2",
+    "frozen_bundle_sha256": "46e70514ea9980b3d7b1f76c2cfabe24707c986fc7ef76e13b9934c2c6f16fdd",
+    "source_program_sha256": "725099f9cf70c29dbcf7648864f413dd53bd7d0c3d6620252df0e3a206f12704",
+    "result_sha256": "9048b99067eeeef5bf5e4dd3a510d4e8efd68a6ee2aee00324dc2dad3c99777d"
+  }
+}

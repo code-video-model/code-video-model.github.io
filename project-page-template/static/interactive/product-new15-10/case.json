@@ -1,0 +1,58 @@
+{
+  "case_id": "product-new15-10",
+  "session": "Product Cinematography",
+  "prompt": "A photoreal dark teal tabletop fan is revealed in a large rising 140-degree orbit with a strong dolly-out. Begin on the approved close frontal grille detail, preserving its thin metallic concentric and radial wires, warm cream blades, teal rim and central hub. Pull back to reveal the complete circular fan, supporting yoke and round foot, then rise and arc through the thin side profile to a full elevated rear-oblique view, matching the camera-v2 reference over 5.17 seconds. The fan housing, blades, grille and stand remain stationary; do not add spinning or oscillation. Maintain the approved actual metal grille construction, painted teal body, warm blade material, realistic reflections and quiet neutral studio surface. No camera cuts, hands, deformations or added labels.",
+  "width": 960,
+  "height": 544,
+  "fps": 24,
+  "frames": 124,
+  "threejs_sha256": "550701c0d0aa840caceb02c23433ff70d89ea0bc5e29e884268930718b1cc1d5",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/app.js",
+      "name": "app.js",
+      "sha256": "2b8056e4225560e15af79e028dbd551fc01eab73fe8ffc5982278433a43ac5a1",
+      "functions": [
+        {
+          "name": "mesh",
+          "line": 15
+        },
+        {
+          "name": "cyl",
+          "line": 25
+        },
+        {
+          "name": "torus",
+          "line": 31
+        },
+        {
+          "name": "tube",
+          "line": 34
+        },
+        {
+          "name": "ring",
+          "line": 38
+        },
+        {
+          "name": "guardDepth",
+          "line": 75
+        },
+        {
+          "name": "seek",
+          "line": 115
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "origin": "product-new15-four-seeds",
+    "group": "image-group23-2",
+    "seed": 44,
+    "camera_revision": "camera-v2",
+    "reference_revision": "photoreal-v2",
+    "frozen_bundle_sha256": "46e70514ea9980b3d7b1f76c2cfabe24707c986fc7ef76e13b9934c2c6f16fdd",
+    "source_program_sha256": "2b8056e4225560e15af79e028dbd551fc01eab73fe8ffc5982278433a43ac5a1",
+    "result_sha256": "9095f1e38c3254f5c948adb75d16f3f8e98dee3260ff5fb184958de38225d752"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "case_id": "product-new15-04",
+  "session": "Product Cinematography",
+  "prompt": "A photoreal compact ivory projector is revealed in a broad descending camera arc with a strong dolly-out. Start exactly on the approved close elevated side and top detail: softly rounded ivory casing, inset top control, narrow ventilation slots and natural glossy reflections. Sweep approximately 149 degrees from this close side view across the front lens and onward to the opposite frontal three-quarter view, lowering and pulling back to reveal the complete projector, following the camera-v2 reference over 5.17 seconds. Between about 0.4 and 2.15 seconds the front lens gradually lights with a restrained cool glow and subtle projection beam, always aligned with the physical lens. Preserve the dark front panel, circular glass lens, vent construction and approved photographic material response as they become visible. Keep the casing fixed on the studio surface. No projected movie, extra hardware, large theatrical beam, cuts or text.",
+  "width": 960,
+  "height": 544,
+  "fps": 24,
+  "frames": 124,
+  "threejs_sha256": "ea62bfe4687b9857a97b82afb90a0cfcb489fcd219b0d7150ee75a71482f139d",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/app.js",
+      "name": "app.js",
+      "sha256": "99c2a1cf7bcfa1209bb89bb23f6016e45c0ef9c12264a8106b98bb0034417632",
+      "functions": [
+        {
+          "name": "mesh",
+          "line": 13
+        },
+        {
+          "name": "rounded",
+          "line": 14
+        },
+        {
+          "name": "cyl",
+          "line": 18
+        },
+        {
+          "name": "area",
+          "line": 40
+        },
+        {
+          "name": "smooth",
+          "line": 51
+        },
+        {
+          "name": "seek",
+          "line": 52
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "origin": "product-new15-four-seeds",
+    "group": "image-group23-2",
+    "seed": 42,
+    "camera_revision": "camera-v2",
+    "reference_revision": "photoreal-v2",
+    "frozen_bundle_sha256": "46e70514ea9980b3d7b1f76c2cfabe24707c986fc7ef76e13b9934c2c6f16fdd",
+    "source_program_sha256": "99c2a1cf7bcfa1209bb89bb23f6016e45c0ef9c12264a8106b98bb0034417632",
+    "result_sha256": "58a1edb7f24685e03e3ce0594b8b87ea03f6c4fdd1bc04a73c705d4b94084bd8"
+  }
+}

@@ -9,7 +9,7 @@ const {chromium}=require('playwright');const assert=require('node:assert/strict'
   assert.equal(await page.locator('.review-toolbar,.review-label,[data-review-id],.review-copy-dialog').count(),0);
   assert.equal(new URL(page.url()).searchParams.has('review'),false);
  }
- assert.equal(await page.locator('.category-shell').count(),10);assert.equal(await page.locator('.category-shell .fps-case-bubble').count(),65);
+ assert.equal(await page.locator('.category-shell').count(),10);assert.equal(await page.locator('.category-shell .fps-case-bubble').count(),73);
  await page.goto(base+'?case=577&selection=trajectory-group23-577-578-image-group23-2-v16&review=1');
  await page.waitForFunction(()=>document.querySelector('#trajectory-variation iframe')?.contentDocument?.documentElement?.dataset.workbenchState==='ready',null,{timeout:120000,polling:100});
  assert.equal(new URL(page.url()).searchParams.get('case'),'577');assert.equal(new URL(page.url()).searchParams.has('review'),false);

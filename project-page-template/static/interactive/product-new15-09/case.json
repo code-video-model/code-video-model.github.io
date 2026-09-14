@@ -1,0 +1,58 @@
+{
+  "case_id": "product-new15-09",
+  "session": "Product Cinematography",
+  "prompt": "A photoreal white-and-black VR headset is revealed in a sweeping roughly 203-degree camera journey from its exterior front face to its interior eyepieces. Begin exactly on the approved tight dark faceplate view with white shell edging and small front sensor circles. Pull far backward and rise into a wide elevated side view that reveals the fixed head straps and entire headset, then descend and move closer to finish behind it with exactly two blue-tinted interior lenses and the rear strap adjuster readable. Match the substantial out-and-up then down-and-in camera-v2 trajectory during one continuous 5.17-second shot. The headset and straps remain rigid, grounded and unchanged. Carry the selected reference's real molded housing, soft facial padding, fabric straps and glass response into newly revealed surfaces. Do not retain flat procedural shading. No wearer, opening or disassembly, extra lenses, cuts or new text.",
+  "width": 960,
+  "height": 544,
+  "fps": 24,
+  "frames": 124,
+  "threejs_sha256": "d9ccdc526efdd07073840728434d428a89e880f8d2690b6ae904582e1415143e",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/app.js",
+      "name": "app.js",
+      "sha256": "b12cb8941a30e4257953bac2acd7460adc244522083ee885d332888be20e62f3",
+      "functions": [
+        {
+          "name": "add",
+          "line": 17
+        },
+        {
+          "name": "rr",
+          "line": 18
+        },
+        {
+          "name": "slab",
+          "line": 19
+        },
+        {
+          "name": "disc",
+          "line": 20
+        },
+        {
+          "name": "rod",
+          "line": 42
+        },
+        {
+          "name": "band",
+          "line": 47
+        },
+        {
+          "name": "seek",
+          "line": 62
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "origin": "product-new15-four-seeds",
+    "group": "image-group23-2",
+    "seed": 43,
+    "camera_revision": "camera-v2",
+    "reference_revision": "photoreal-v2",
+    "frozen_bundle_sha256": "46e70514ea9980b3d7b1f76c2cfabe24707c986fc7ef76e13b9934c2c6f16fdd",
+    "source_program_sha256": "b12cb8941a30e4257953bac2acd7460adc244522083ee885d332888be20e62f3",
+    "result_sha256": "947460589f85ea4e4f60aaa5e0edc924fed3d8101ab219467ca22f8bcc9c2bad"
+  }
+}

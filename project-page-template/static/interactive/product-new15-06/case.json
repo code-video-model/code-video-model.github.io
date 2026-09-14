@@ -1,0 +1,62 @@
+{
+  "case_id": "product-new15-06",
+  "session": "Product Cinematography",
+  "prompt": "A photoreal vinyl turntable transitions from a close low record-and-tonearm detail to a high near-overhead full-product view through a dramatic rising 145-degree camera orbit. Start exactly with the approved black grooved vinyl, cream and orange center label, silver tonearm and dark turntable deck with warm wood-edged plinth. During 5.17 seconds, circle around the stationary deck while craning strongly upward, expanding the framing to reveal the rectangular plinth and all corners; match the camera-v2 reference, including its elevated final perspective and slight optical tightening. The record turns steadily at about 33 1/3 rpm while the tonearm remains fixed in its playing position. Preserve genuine reflective vinyl grooves, metal hardware and wood edge appearance without importing the Three.js rendering style. Continuous grounded studio shot; no floating tonearm, invented text, hands or cuts.",
+  "width": 960,
+  "height": 544,
+  "fps": 24,
+  "frames": 124,
+  "threejs_sha256": "36f1bedc38b34ea705b595eb4daff58b36a303023a152f0ff5d659e84b5fffbc",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/app.js",
+      "name": "app.js",
+      "sha256": "01d1e152655f14bad39a25bde17c7158269bc5680c81ae21858597885243ea5e",
+      "functions": [
+        {
+          "name": "area",
+          "line": 17
+        },
+        {
+          "name": "mesh",
+          "line": 20
+        },
+        {
+          "name": "cyl",
+          "line": 21
+        },
+        {
+          "name": "box",
+          "line": 22
+        },
+        {
+          "name": "rounded",
+          "line": 23
+        },
+        {
+          "name": "rod",
+          "line": 44
+        },
+        {
+          "name": "update",
+          "line": 59
+        },
+        {
+          "name": "tick",
+          "line": 68
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "origin": "product-new15-four-seeds",
+    "group": "image-group23-2",
+    "seed": 45,
+    "camera_revision": "camera-v2",
+    "reference_revision": "photoreal-v2",
+    "frozen_bundle_sha256": "46e70514ea9980b3d7b1f76c2cfabe24707c986fc7ef76e13b9934c2c6f16fdd",
+    "source_program_sha256": "01d1e152655f14bad39a25bde17c7158269bc5680c81ae21858597885243ea5e",
+    "result_sha256": "13459c0faa43debe99ed617dfe25b47e1053a213f18a996aa8bf42b07706b620"
+  }
+}

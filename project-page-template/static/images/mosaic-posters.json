@@ -313,5 +313,77 @@
       1920,
       1088
     ]
+  },
+  "product-cinematography|product-new15-01||": {
+    "src": "static/images/first-frames-native/6b5287aa1eeac851746dc37ca8b1534b270fc21d746ac3166927c826d478b5b5.webp",
+    "video": "static/project-page-cases/product-selected-20260912/product-new15-01/seed-42-6b5287aa1eeac851.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "product-cinematography|product-new15-02||": {
+    "src": "static/images/first-frames-native/b49701a6e68f793ee209e7afca79ce21e85bcb6c9e3bc238e1e84baeff4218e8.webp",
+    "video": "static/project-page-cases/product-selected-20260912/product-new15-02/seed-45-b49701a6e68f793e.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "product-cinematography|product-new15-04||": {
+    "src": "static/images/first-frames-native/58a1edb7f24685e03e3ce0594b8b87ea03f6c4fdd1bc04a73c705d4b94084bd8.webp",
+    "video": "static/project-page-cases/product-selected-20260912/product-new15-04/seed-42-58a1edb7f24685e0.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "product-cinematography|product-new15-05||": {
+    "src": "static/images/first-frames-native/2512884eddcf869dbeab53f87e467f5645b63487437f7b6033cddf5992067725.webp",
+    "video": "static/project-page-cases/product-selected-20260912/product-new15-05/seed-42-2512884eddcf869d.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "product-cinematography|product-new15-06||": {
+    "src": "static/images/first-frames-native/13459c0faa43debe99ed617dfe25b47e1053a213f18a996aa8bf42b07706b620.webp",
+    "video": "static/project-page-cases/product-selected-20260912/product-new15-06/seed-45-13459c0faa43debe.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "product-cinematography|product-new15-07||": {
+    "src": "static/images/first-frames-native/9048b99067eeeef5bf5e4dd3a510d4e8efd68a6ee2aee00324dc2dad3c99777d.webp",
+    "video": "static/project-page-cases/product-selected-20260912/product-new15-07/seed-42-9048b99067eeeef5.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "product-cinematography|product-new15-09||": {
+    "src": "static/images/first-frames-native/947460589f85ea4e4f60aaa5e0edc924fed3d8101ab219467ca22f8bcc9c2bad.webp",
+    "video": "static/project-page-cases/product-selected-20260912/product-new15-09/seed-43-947460589f85ea4e.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
+  },
+  "product-cinematography|product-new15-10||": {
+    "src": "static/images/first-frames-native/9095f1e38c3254f5c948adb75d16f3f8e98dee3260ff5fb184958de38225d752.webp",
+    "video": "static/project-page-cases/product-selected-20260912/product-new15-10/seed-44-9095f1e38c3254f5.mp4",
+    "frame_index": 0,
+    "dimensions": [
+      960,
+      544
+    ]
   }
 }

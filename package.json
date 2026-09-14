@@ -10,6 +10,7 @@
     "test:gallery": "node tests/integrated-gallery.cjs && node tests/integrated-state.cjs",
     "test:edits": "node tests/preview-edit-diff.cjs && node tests/preview-edit-errors.cjs",
     "test:mobile": "node tests/mobile-touch-audit.cjs",
+    "test:selected-products": "node tests/selected-products.cjs",
     "test:semantic-edits": "node tests/all-semantic-edits.mjs && node tests/edited-code.mjs && node tests/semantic-edit-layout.cjs",
     "test:loading": "node tests/lazy-posters.cjs && node tests/native-posters.cjs"
   },

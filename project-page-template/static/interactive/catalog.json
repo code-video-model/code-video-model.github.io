@@ -1,5 +1,5 @@
 {
-  "count": 75,
+  "count": 83,
   "cases": [
     {
       "case_id": "first-person-009",
@@ -301,6 +301,38 @@
     {
       "case_id": "physical-pendulum",
       "session": "Physical Grounding"
+    },
+    {
+      "case_id": "product-new15-01",
+      "session": "Product Cinematography"
+    },
+    {
+      "case_id": "product-new15-02",
+      "session": "Product Cinematography"
+    },
+    {
+      "case_id": "product-new15-04",
+      "session": "Product Cinematography"
+    },
+    {
+      "case_id": "product-new15-05",
+      "session": "Product Cinematography"
+    },
+    {
+      "case_id": "product-new15-06",
+      "session": "Product Cinematography"
+    },
+    {
+      "case_id": "product-new15-07",
+      "session": "Product Cinematography"
+    },
+    {
+      "case_id": "product-new15-09",
+      "session": "Product Cinematography"
+    },
+    {
+      "case_id": "product-new15-10",
+      "session": "Product Cinematography"
     }
   ]
 }

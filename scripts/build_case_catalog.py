@@ -18,6 +18,7 @@ class Cards(HTMLParser):
                               'title': a.get('data-title', '')})
 
 def main():
+    crlf = TARGET.exists() and b'\r\n' in TARGET.read_bytes()
     registry = json.loads(TARGET.read_text(encoding='utf-8')) if TARGET.exists() else {'schema': 1, 'nextId': 1, 'entries': {}}
     items = {str(i['case_id']): i for i in json.loads((ROOT/'static/project-page-cases/prompts.json').read_text(encoding='utf-8'))['items']}
     pairs = {p['id']:p for p in json.loads((ROOT/'static/interactive/experiment-pairs.json').read_text(encoding='utf-8'))['pairs']}
@@ -40,7 +41,8 @@ def main():
                 entry['sources'][case]={'threejsSHA':asset.get('threejs_sha256',base['threejs_sha256']),
                   'result':asset.get('video') or base.get('display_code_video_model') or base.get('code_video_model_v2') or base.get('code_video_model')}
     TARGET.parent.mkdir(parents=True,exist_ok=True)
-    TARGET.write_text(json.dumps(registry,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    text=json.dumps(registry,ensure_ascii=False,indent=2)+'\n'
+    TARGET.write_bytes(text.replace('\n','\r\n').encode('utf-8') if crlf else text.encode('utf-8'))
     print(f"Private case catalog: {sum(e['active'] for e in registry['entries'].values())} active entries")
 
 if __name__=='__main__': main()

@@ -11,7 +11,7 @@ const path=require('node:path');
   await page.goto(base+'?review=1');await page.waitForFunction(()=>window.homeGalleryReady);
   assert.equal(await page.locator('.review-toolbar,.review-label').count(),0);
   assert.equal(await page.locator('.category-shell').count(),10);assert.equal(await page.locator('.category-mosaic').count(),10);
-  assert.equal(await page.locator('.category-shell .fps-case-bubble').count(),65);
+  assert.equal(await page.locator('.category-shell .fps-case-bubble').count(),73);
   assert.equal(await page.locator('.application-preview').first().getAttribute('data-case'),'astra-train');
   assert.equal(await page.locator('#trajectory-variation .application-preview').getAttribute('data-case'),'577');
   assert.equal(await page.locator('.demo-load').textContent(),'Watch');assert.equal(media,0);

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "nextId": 67,
+  "nextId": 75,
   "entries": {
     "reconstruction-3d-4d|442||": {
       "id": "R001",
@@ -1205,6 +1205,142 @@
         "physical-pendulum": {
           "threejsSHA": "14610905e9be25e606c37881082cd40152a25c599912e85a02cdcb6b6ed3803e",
           "result": "code-video-model/physical-grounding/physical-pendulum.mp4"
+        }
+      }
+    },
+    "product-cinematography|product-new15-01||": {
+      "id": "R067",
+      "section": "product-cinematography",
+      "a": "product-new15-01",
+      "b": "",
+      "selection": "",
+      "title": "Metal Desk Lamp",
+      "active": true,
+      "sectionTitle": "Product Cinematography",
+      "version": "image-group23-2 / seed 42 / camera-v2 / photoreal-v2",
+      "sources": {
+        "product-new15-01": {
+          "threejsSHA": "f3928b19b2357b405d36f4754ab21cd5bc3cc62d18ec04d86b16d96c2906da37",
+          "result": "product-selected-20260912/product-new15-01/seed-42-6b5287aa1eeac851.mp4"
+        }
+      }
+    },
+    "product-cinematography|product-new15-02||": {
+      "id": "R068",
+      "section": "product-cinematography",
+      "a": "product-new15-02",
+      "b": "",
+      "selection": "",
+      "title": "Wireless Earbud Case",
+      "active": true,
+      "sectionTitle": "Product Cinematography",
+      "version": "image-group23-2 / seed 45 / camera-v2 / photoreal-v2",
+      "sources": {
+        "product-new15-02": {
+          "threejsSHA": "05b2399b55d417bb8d2294b2fef15d2d830e3f5f0f7e9099d0977bc9847a6f60",
+          "result": "product-selected-20260912/product-new15-02/seed-45-b49701a6e68f793e.mp4"
+        }
+      }
+    },
+    "product-cinematography|product-new15-04||": {
+      "id": "R069",
+      "section": "product-cinematography",
+      "a": "product-new15-04",
+      "b": "",
+      "selection": "",
+      "title": "Compact Projector",
+      "active": true,
+      "sectionTitle": "Product Cinematography",
+      "version": "image-group23-2 / seed 42 / camera-v2 / photoreal-v2",
+      "sources": {
+        "product-new15-04": {
+          "threejsSHA": "ea62bfe4687b9857a97b82afb90a0cfcb489fcd219b0d7150ee75a71482f139d",
+          "result": "product-selected-20260912/product-new15-04/seed-42-58a1edb7f24685e0.mp4"
+        }
+      }
+    },
+    "product-cinematography|product-new15-05||": {
+      "id": "R070",
+      "section": "product-cinematography",
+      "a": "product-new15-05",
+      "b": "",
+      "selection": "",
+      "title": "Cordless Drill",
+      "active": true,
+      "sectionTitle": "Product Cinematography",
+      "version": "image-group23-2 / seed 42 / camera-v2 / photoreal-v2",
+      "sources": {
+        "product-new15-05": {
+          "threejsSHA": "4cb78377c0c0ca106ab6c4149926077c6cafa20345e6a3f210884d8c74ea0405",
+          "result": "product-selected-20260912/product-new15-05/seed-42-2512884eddcf869d.mp4"
+        }
+      }
+    },
+    "product-cinematography|product-new15-06||": {
+      "id": "R071",
+      "section": "product-cinematography",
+      "a": "product-new15-06",
+      "b": "",
+      "selection": "",
+      "title": "Vinyl Turntable",
+      "active": true,
+      "sectionTitle": "Product Cinematography",
+      "version": "image-group23-2 / seed 45 / camera-v2 / photoreal-v2",
+      "sources": {
+        "product-new15-06": {
+          "threejsSHA": "36f1bedc38b34ea705b595eb4daff58b36a303023a152f0ff5d659e84b5fffbc",
+          "result": "product-selected-20260912/product-new15-06/seed-45-13459c0faa43debe.mp4"
+        }
+      }
+    },
+    "product-cinematography|product-new15-07||": {
+      "id": "R072",
+      "section": "product-cinematography",
+      "a": "product-new15-07",
+      "b": "",
+      "selection": "",
+      "title": "Foldable Drone",
+      "active": true,
+      "sectionTitle": "Product Cinematography",
+      "version": "image-group23-2 / seed 42 / camera-v2 / photoreal-v2",
+      "sources": {
+        "product-new15-07": {
+          "threejsSHA": "dd972871beb7089c828f2213e960360ae99164e3a0d3e4cfdd945723863c8c99",
+          "result": "product-selected-20260912/product-new15-07/seed-42-9048b99067eeeef5.mp4"
+        }
+      }
+    },
+    "product-cinematography|product-new15-09||": {
+      "id": "R073",
+      "section": "product-cinematography",
+      "a": "product-new15-09",
+      "b": "",
+      "selection": "",
+      "title": "VR Headset",
+      "active": true,
+      "sectionTitle": "Product Cinematography",
+      "version": "image-group23-2 / seed 43 / camera-v2 / photoreal-v2",
+      "sources": {
+        "product-new15-09": {
+          "threejsSHA": "d9ccdc526efdd07073840728434d428a89e880f8d2690b6ae904582e1415143e",
+          "result": "product-selected-20260912/product-new15-09/seed-43-947460589f85ea4e.mp4"
+        }
+      }
+    },
+    "product-cinematography|product-new15-10||": {
+      "id": "R074",
+      "section": "product-cinematography",
+      "a": "product-new15-10",
+      "b": "",
+      "selection": "",
+      "title": "Portable Desktop Fan",
+      "active": true,
+      "sectionTitle": "Product Cinematography",
+      "version": "image-group23-2 / seed 44 / camera-v2 / photoreal-v2",
+      "sources": {
+        "product-new15-10": {
+          "threejsSHA": "550701c0d0aa840caceb02c23433ff70d89ea0bc5e29e884268930718b1cc1d5",
+          "result": "product-selected-20260912/product-new15-10/seed-44-9095f1e38c3254f5.mp4"
         }
       }
     }
