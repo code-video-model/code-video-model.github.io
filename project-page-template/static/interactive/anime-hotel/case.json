@@ -1,0 +1,92 @@
+{
+  "case_id": "anime-hotel",
+  "session": "Anime",
+  "prompt": "Apocalypse Hotel",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 544,
+  "threejs_sha256": "b0afbeca4b711b53560bc126c5797c86f865d5c0c0989e751b221651db298521",
+  "entry": "runtime/index.html?motion=1",
+  "sources": [
+    {
+      "path": "original/case/main.js",
+      "name": "case/main.js",
+      "sha256": "bff94b72b5b18c83e7d2360a2f7fb1c458a695091d41a6e9b39632aa18a5d1ee",
+      "functions": [
+        {
+          "name": "ray",
+          "line": 24
+        },
+        {
+          "name": "plane",
+          "line": 25
+        },
+        {
+          "name": "floor",
+          "line": 26
+        },
+        {
+          "name": "mesh",
+          "line": 36
+        },
+        {
+          "name": "outline",
+          "line": 39
+        },
+        {
+          "name": "stick",
+          "line": 40
+        },
+        {
+          "name": "setStick",
+          "line": 41
+        },
+        {
+          "name": "tube",
+          "line": 42
+        },
+        {
+          "name": "robotLegs",
+          "line": 90
+        },
+        {
+          "name": "capsuleRobot",
+          "line": 102
+        },
+        {
+          "name": "localPixel",
+          "line": 155
+        },
+        {
+          "name": "art",
+          "line": 157
+        },
+        {
+          "name": "solveElbow",
+          "line": 218
+        },
+        {
+          "name": "makeArm",
+          "line": 225
+        },
+        {
+          "name": "seek",
+          "line": 249
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "package": "apocalypse-hotel-20260919",
+    "asset_manifest_sha256": "d9bd34234a359c6f81f0ada934f64fddf91d3746a4e0dfa754cd715003b8af65",
+    "source_program_sha256": "bff94b72b5b18c83e7d2360a2f7fb1c458a695091d41a6e9b39632aa18a5d1ee",
+    "result_sha256": "a21781b4e0aed258df3fe15a7db5c054745ce8b6e7920bb4c19351e48593e3bc",
+    "timeline": "Original output clock in seconds; no retiming.",
+    "runtime_parameters": {
+      "motion": 1
+    },
+    "input_fps": 24.0,
+    "output_fps": 24.0
+  }
+}

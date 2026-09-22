@@ -1,0 +1,92 @@
+{
+  "case_id": "anime-kumiko",
+  "session": "Anime",
+  "prompt": "Kumiko",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 1024,
+  "height": 512,
+  "threejs_sha256": "c6ede8bcf372ecefab965994538c3752c1745e5be85103dbe207c2dffe7fadd1",
+  "entry": "runtime/index.html?motion=1",
+  "sources": [
+    {
+      "path": "original/case/main.js",
+      "name": "case/main.js",
+      "sha256": "91d13b312f71bec3d5e8a26022722733fbcb4a3bf9557ed2392515c6ae534923",
+      "functions": [
+        {
+          "name": "random",
+          "line": 32
+        },
+        {
+          "name": "mesh",
+          "line": 55
+        },
+        {
+          "name": "bone",
+          "line": 66
+        },
+        {
+          "name": "setBone",
+          "line": 72
+        },
+        {
+          "name": "curve",
+          "line": 78
+        },
+        {
+          "name": "outline",
+          "line": 82
+        },
+        {
+          "name": "makeChair",
+          "line": 167
+        },
+        {
+          "name": "makeHorn",
+          "line": 181
+        },
+        {
+          "name": "hairStrand",
+          "line": 213
+        },
+        {
+          "name": "makeGirl",
+          "line": 227
+        },
+        {
+          "name": "updateSkirt",
+          "line": 328
+        },
+        {
+          "name": "ring",
+          "line": 329
+        },
+        {
+          "name": "solveKnee",
+          "line": 353
+        },
+        {
+          "name": "updateGirl",
+          "line": 364
+        },
+        {
+          "name": "seek",
+          "line": 389
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "package": "kumiko-20260919",
+    "asset_manifest_sha256": "d9bd34234a359c6f81f0ada934f64fddf91d3746a4e0dfa754cd715003b8af65",
+    "source_program_sha256": "91d13b312f71bec3d5e8a26022722733fbcb4a3bf9557ed2392515c6ae534923",
+    "result_sha256": "f6ff671ea777e3ccb0f3a2d3a9abf025d72a0b1149fd18cc2eba6e552b96c6d3",
+    "timeline": "Original output clock in seconds; no retiming.",
+    "runtime_parameters": {
+      "motion": 1
+    },
+    "input_fps": 24.0,
+    "output_fps": 24.0
+  }
+}

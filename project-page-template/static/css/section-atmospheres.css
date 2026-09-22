@@ -28,6 +28,7 @@
 #physical-grounding { --atmosphere-a: 205, 227, 230; --atmosphere-b: 229, 217, 191; --atmosphere-c: 213, 221, 240; }
 #architectural-cinematics { --atmosphere-a: 180, 232, 226; --atmosphere-b: 240, 235, 166; --atmosphere-c: 226, 242, 201; }
 #reconstruction-3d-4d { --atmosphere-a: 205, 216, 245; --atmosphere-b: 242, 206, 190; --atmosphere-c: 231, 223, 242; }
+#anime { --atmosphere-a: 237, 207, 224; --atmosphere-b: 183, 220, 224; --atmosphere-c: 243, 225, 205; }
 
 :is(.gallery-section, .opening-atmosphere)::before,
 :is(.gallery-section, .opening-atmosphere)::after {

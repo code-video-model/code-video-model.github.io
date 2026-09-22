@@ -31,7 +31,7 @@ const assert=require('node:assert/strict');
   const response=await fetch('http://127.0.0.1:8795/static/js/home-gallery.js');
   const etag=response.headers.get('etag');assert.ok(etag);assert.equal(response.headers.get('content-encoding'),'gzip');await response.text();
   assert.equal((await fetch('http://127.0.0.1:8795/static/js/home-gallery.js',{headers:{'If-None-Match':etag}})).status,304);
-  const range=await fetch('http://127.0.0.1:8795/static/demo/CodeVideoPromoV9Refined_1080p_render_x264.mp4',{headers:{Range:'bytes=0-99'}});
+  const range=await fetch('http://127.0.0.1:8795/static/demo/CodeVideoPromoV9Refined28_1080p_web_x264.mp4',{headers:{Range:'bytes=0-99'}});
   assert.equal(range.status,206);assert.equal((await range.arrayBuffer()).byteLength,100);
   console.log('PASS desktop/mobile lazy posters and mosaics, full-resolution frames, no eager MP4/PNG, gzip, cache revalidation and video ranges.');
  }finally{await browser.close();}

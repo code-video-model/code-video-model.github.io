@@ -1,14 +1,14 @@
 [
   {
-    "video": "static/demo/CodeVideoPromoV9Refined_1080p_render_x264.mp4",
-    "poster": "static/images/first-frames-native/7cf79ea18bbcc2ac6ba52bc9e95f86ffcba90a9fd4f0c02f9c6c21f4b5050604-frame000030.png",
+    "video": "static/demo/CodeVideoPromoV9Refined28_1080p_web_x264.mp4",
+    "poster": "static/images/first-frames-native/d3dee3434c2c935a3eebed20032188584e294791aa84139784fa4d7e231fdc9c-frame000030.png",
     "width": 1920,
     "height": 1080,
     "frame_index": 30,
     "format": "PNG/rgb24",
-    "video_sha256": "7cf79ea18bbcc2ac6ba52bc9e95f86ffcba90a9fd4f0c02f9c6c21f4b5050604",
-    "poster_sha256": "8cc5f0ded4cc913a83bc1128aa505d6783ab8c201cf22ef69740475a25cd9beb",
-    "decoded_pixels_sha256": "8258980013ee97ef56a4a6f60c4e5eb6109231c30ddc73283b663168d8f03265"
+    "video_sha256": "d3dee3434c2c935a3eebed20032188584e294791aa84139784fa4d7e231fdc9c",
+    "poster_sha256": "bf52293ebd10e94899af32d9ab5e75b8f7be171a0a5287573c64c85251fbf761",
+    "decoded_pixels_sha256": "bae12f74266d0f5bc3b27fe1f6fc4c80021961a9857c1c8176c8106034de488f"
   },
   {
     "video": "static/project-page-cases/threejs/reconstruction-3d-4d/astra-train-c822e0aa0db4.mp4",
@@ -295,5 +295,27 @@
     "video_sha256": "0b6aee762784635fa937200215a434d7259c86341c466ac3a187e9f4bfdaaa94",
     "poster_sha256": "72fe0bf7a0107f3b3628e840bd2247f3a53a1790be19fd4accdab07341226301",
     "decoded_pixels_sha256": "be34305d0f72ba1f84a2c674d687e533b740f2eb8e72189ad39890effecb456d"
+  },
+  {
+    "video": "static/project-page-cases/anime/anime-hotel/threejs-b0afbeca4b711b53.mp4",
+    "poster": "static/images/first-frames-native/b0afbeca4b711b53560bc126c5797c86f865d5c0c0989e751b221651db298521-frame000024.png",
+    "width": 960,
+    "height": 544,
+    "frame_index": 24,
+    "format": "PNG/rgb24",
+    "video_sha256": "b0afbeca4b711b53560bc126c5797c86f865d5c0c0989e751b221651db298521",
+    "poster_sha256": "6ab68c247d8a44c69a3f9633239a50ec5c5025985039f0298dd6cbd53534dee9",
+    "decoded_pixels_sha256": "515fd47ceb5242c3248a4d392c570c02a0aa420f9cfb940b5b92ff3b6f1cba51"
+  },
+  {
+    "video": "static/project-page-cases/anime/anime-hotel/output-a21781b4e0aed258.mp4",
+    "poster": "static/images/first-frames-native/a21781b4e0aed258df3fe15a7db5c054745ce8b6e7920bb4c19351e48593e3bc-frame000024.png",
+    "width": 960,
+    "height": 544,
+    "frame_index": 24,
+    "format": "PNG/rgb24",
+    "video_sha256": "a21781b4e0aed258df3fe15a7db5c054745ce8b6e7920bb4c19351e48593e3bc",
+    "poster_sha256": "e96d423cb815e13ce286c56acf85107ddf689fd2d0f1a7b09720e28deb734d55",
+    "decoded_pixels_sha256": "2b8020855f21338e6e4a3bda887eb5a0bff877f1e1e83a7403a5ee279646b51e"
   }
 ]

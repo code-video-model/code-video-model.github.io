@@ -11,6 +11,9 @@
     "test:edits": "node tests/preview-edit-diff.cjs && node tests/preview-edit-errors.cjs",
     "test:mobile": "node tests/mobile-touch-audit.cjs",
     "test:selected-products": "node tests/selected-products.cjs",
+    "test:anime": "node tests/anime-cases.cjs",
+    "test:seedance": "node tests/seedance-cases.cjs",
+    "test:fern-cook": "node tests/fern-cook.cjs",
     "test:semantic-edits": "node tests/all-semantic-edits.mjs && node tests/edited-code.mjs && node tests/semantic-edit-layout.cjs",
     "test:loading": "node tests/lazy-posters.cjs && node tests/native-posters.cjs"
   },

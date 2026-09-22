@@ -1,5 +1,5 @@
 {
-  "count": 83,
+  "count": 91,
   "cases": [
     {
       "case_id": "first-person-009",
@@ -333,6 +333,38 @@
     {
       "case_id": "product-new15-10",
       "session": "Product Cinematography"
+    },
+    {
+      "case_id": "anime-hotel",
+      "session": "Anime"
+    },
+    {
+      "case_id": "anime-nichijou",
+      "session": "Anime"
+    },
+    {
+      "case_id": "anime-kumiko",
+      "session": "Anime"
+    },
+    {
+      "case_id": "three-colossal",
+      "session": "Anime"
+    },
+    {
+      "case_id": "rally-hairpin",
+      "session": "Bullet Time"
+    },
+    {
+      "case_id": "cockatiel-flight",
+      "session": "Gaming"
+    },
+    {
+      "case_id": "fishing-lake-strike",
+      "session": "Gaming"
+    },
+    {
+      "case_id": "astra-fern-safe",
+      "session": "3D / 4D Reconstruction"
     }
   ]
 }

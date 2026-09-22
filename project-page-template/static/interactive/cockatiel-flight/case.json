@@ -1,0 +1,181 @@
+{
+  "case_id": "cockatiel-flight",
+  "session": "Gaming",
+  "prompt": "Cockatiel Flight",
+  "width": 1280,
+  "height": 720,
+  "fps": 24.0,
+  "frames": 360,
+  "entry": "runtime/index.html",
+  "threejs_sha256": "ea34cd4f106b18f005467d1c157e44d4550242bbcd4702d4cf29f996e9277d98",
+  "sources": [
+    {
+      "path": "original/scene.mjs",
+      "name": "scene.mjs",
+      "sha256": "867014e094355839738c4ba0293ac36fb286f44d0064ad94d3fa5123f16abcf8",
+      "functions": [
+        {
+          "name": "mesh",
+          "line": 36
+        },
+        {
+          "name": "rod",
+          "line": 43
+        },
+        {
+          "name": "diningChair",
+          "line": 112
+        },
+        {
+          "name": "makeBird",
+          "line": 291
+        },
+        {
+          "name": "updateSurfaces",
+          "line": 363
+        },
+        {
+          "name": "setBird",
+          "line": 388
+        },
+        {
+          "name": "line",
+          "line": 465
+        },
+        {
+          "name": "update",
+          "line": 480
+        },
+        {
+          "name": "hitReport",
+          "line": 505
+        },
+        {
+          "name": "diagnostics",
+          "line": 513
+        },
+        {
+          "name": "occupancy",
+          "line": 587
+        },
+        {
+          "name": "cameraAudit",
+          "line": 613
+        }
+      ]
+    },
+    {
+      "path": "original/motion.mjs",
+      "name": "motion.mjs",
+      "sha256": "cf3bcd0c3d709f09e9180ec16efa470b3b4ad10bbe44671b61fe802ffc9b9209",
+      "functions": [
+        {
+          "name": "position",
+          "line": 31
+        },
+        {
+          "name": "cameraState",
+          "line": 57
+        },
+        {
+          "name": "articulation",
+          "line": 70
+        }
+      ]
+    },
+    {
+      "path": "original/camera.mjs",
+      "name": "camera.mjs",
+      "sha256": "ecee570002085d1ec4205b451c705e39a0d3869277fff64c591e54bdfd735b66",
+      "functions": [
+        {
+          "name": "forcing",
+          "line": 10
+        },
+        {
+          "name": "spring",
+          "line": 27
+        },
+        {
+          "name": "aim",
+          "line": 41
+        },
+        {
+          "name": "cross",
+          "line": 44
+        },
+        {
+          "name": "intimate",
+          "line": 48
+        },
+        {
+          "name": "riderState",
+          "line": 55
+        },
+        {
+          "name": "riderJet",
+          "line": 62
+        },
+        {
+          "name": "external",
+          "line": 87
+        },
+        {
+          "name": "cameraState",
+          "line": 93
+        }
+      ]
+    },
+    {
+      "path": "original/entry-curve.mjs",
+      "name": "entry-curve.mjs",
+      "sha256": "f5f1c46f4c78dc9c7e37fcba8006e6d5bcde4605dbf68bc2f4d2fb37d354d453",
+      "functions": []
+    },
+    {
+      "path": "original/environment.mjs",
+      "name": "environment.mjs",
+      "sha256": "fc3eaff309560f34145b5cf604c584586c03d8bdceaf7814ec0b76e056d54b63",
+      "functions": [
+        {
+          "name": "furnish",
+          "line": 4
+        },
+        {
+          "name": "ring",
+          "line": 18
+        },
+        {
+          "name": "cup",
+          "line": 22
+        },
+        {
+          "name": "book",
+          "line": 30
+        },
+        {
+          "name": "planter",
+          "line": 36
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "origin": "Seedance demo deliveries",
+    "package": "cockatiel-15s-v27-exact-reroll-final-v1",
+    "asset_manifest_sha256": "cee9cb827355fdba0115a08539bd13a9a82512e6d95beb52fde0c60afa215db3",
+    "delivery_manifest_sha256": "d6c6f281076fb203edc9b98d9e88c4ff3a64a1f244ef9436c8538c59e44b2892",
+    "result_sha256": "6b10b3c7a708bc2aa06aa8617689bbae7f723f51eaffcbd831abd08362ade18a",
+    "input_fps": 30.0,
+    "output_fps": 24.0,
+    "timeline": "Full accepted output at original speed; no demo edit or retiming.",
+    "proxy_role": "Presentation recolor of v27; original generation used a neutral gray proxy.",
+    "generation_proxy_sha256": "a896d0b594b9a2e0c23f375c365be8bfe750981d1441fe51064d26b1b71f9e94",
+    "presentation_edits": [
+      "Restore authored material colors",
+      "Match feather, cage and room palette to output",
+      "Add white wing markings with static vertex colors only"
+    ],
+    "source_program_sha256": "867014e094355839738c4ba0293ac36fb286f44d0064ad94d3fa5123f16abcf8"
+  }
+}

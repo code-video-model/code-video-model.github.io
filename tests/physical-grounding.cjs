@@ -3,7 +3,7 @@ const {chromium}=require('playwright');const assert=require('node:assert/strict'
 const p=await b.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});const errors=[];
 p.on('pageerror',e=>errors.push(e.message));p.on('response',r=>{if(r.url().includes('127.0.0.1:8795')&&r.status()>=400)errors.push(`${r.status()} ${r.url()}`);});
 const base='http://127.0.0.1:8795/';await p.goto(base+'?review=1');await p.waitForFunction(()=>window.homeGalleryReady);
-const s=p.locator('#physical-grounding');assert.equal(await p.locator('.category-shell').count(),10);
+const s=p.locator('#physical-grounding');assert.equal(await p.locator('.category-shell').count(),11);
 await s.locator('.application-preview').screenshot({path:'test-results/physical-highlight.png'});
 await s.locator('.comparison-frame').hover();await s.locator('.application-play').click();
 await p.waitForFunction(()=>document.querySelector('#physical-grounding video').currentTime>.1,null,{timeout:65000});

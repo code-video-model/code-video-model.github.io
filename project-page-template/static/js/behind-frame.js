@@ -118,7 +118,7 @@ async function loadCode(){
    return {...entry,text};
   }));
   lifetime.signal.throwIfAborted();
-  sourcePresentation=codePresentation(sourceFiles,metadata.provenance?.selected_variant);
+  sourcePresentation=codePresentation(sourceFiles,metadata.provenance?.selected_variant,metadata.provenance?.runtime_parameters);
   sourceFiles=sourcePresentation.files;
   $('source-file').replaceChildren();
   sourceFiles.forEach((entry,index)=>{const option=document.createElement('option');option.value=index;option.textContent=sourcePresentation.label(entry);$('source-file').append(option);});

@@ -9,6 +9,17 @@
     "result_sha256": "785f39faf08a35165d22d6273140db8c7bc90ef7d68d7ecdd98cfbc2a1377a2e"
   },
   {
+    "section": "Anime",
+    "section_id": "anime",
+    "case_id": "anime-hotel",
+    "threejs": "anime/anime-hotel/threejs-b0afbeca4b711b53.mp4",
+    "threejs_sha256": "b0afbeca4b711b53560bc126c5797c86f865d5c0c0989e751b221651db298521",
+    "result": "anime/anime-hotel/output-a21781b4e0aed258.mp4",
+    "result_sha256": "a21781b4e0aed258df3fe15a7db5c054745ce8b6e7920bb4c19351e48593e3bc",
+    "proxy_poster": "static/images/first-frames-native/b0afbeca4b711b53560bc126c5797c86f865d5c0c0989e751b221651db298521-frame000024.webp",
+    "output_poster": "static/images/first-frames-native/a21781b4e0aed258df3fe15a7db5c054745ce8b6e7920bb4c19351e48593e3bc-frame000024.webp"
+  },
+  {
     "section": "Bullet Time",
     "section_id": "long-horizon-style",
     "case_id": "508",

@@ -21,9 +21,9 @@ const path = require('node:path');
     page.on('response', r => { if (r.url().startsWith('http://127.0.0.1:18795') && r.status() >= 400) errors.push(`${r.status()} ${r.url()}`); });
     const base = 'http://127.0.0.1:18795/';
     await page.goto(base);
-    assert.equal(await page.locator('.application-preview').count(), 10);
+    assert.equal(await page.locator('.application-preview').count(), 11);
     assert.deepEqual(await page.locator('.application-preview').evaluateAll(nodes => nodes.map(n => n.dataset.case)),
-      ['astra-train', '508', '583', '577', '656', '624', 'black-hole-background-grade', 'physical-induction', '564', '132']);
+      ['astra-train', 'anime-hotel', '508', '583', '577', '656', '624', 'black-hole-background-grade', 'physical-induction', '564', '132']);
     const urls = await page.locator('[src], [href], [poster], [data-src]').evaluateAll(nodes => nodes.flatMap(n => ['src','href','poster','data-src','data-src-a','data-src-b'].map(a => n.getAttribute(a))).filter(Boolean));
     for (const url of new Set(urls)) {
       if (/^(https?:|#|mailto:|data:)/.test(url)) continue;

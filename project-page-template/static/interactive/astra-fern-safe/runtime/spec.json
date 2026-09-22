@@ -1,0 +1,20 @@
+{
+  "target": {
+    "width": 960,
+    "height": 720,
+    "ratio": "4:3",
+    "fps": 30,
+    "frames": 300,
+    "duration": 10,
+    "codec": "h264",
+    "pixelFormat": "yuv420p"
+  },
+  "normalization": {
+    "viewport": [
+      0,
+      0,
+      960,
+      720
+    ]
+  }
+}

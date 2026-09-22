@@ -1,0 +1,65 @@
+{
+  "schema": "codevideo-director-dynamic-proxy-v1",
+  "caseId": "case-d3f38d29",
+  "revision": 11,
+  "planSha256": "7e3bdd92cf3448e537046c0edb8846a9a7c6886340157ceccb40dbfd82b679b0",
+  "parentPlanSha256": "7e3bdd92cf3448e537046c0edb8846a9a7c6886340157ceccb40dbfd82b679b0",
+  "sourceRevision": 7,
+  "structuralCorrection": {
+    "kind": "remove-roadside-markers-from-vehicle-safety-corridor",
+    "supersedesRevision": 10,
+    "removedMarkerIndices": [8, 9, 10],
+    "removedMarkerRoadDistances": [11.0, 20.5, 30.0],
+    "removedMarkerLateralOffset": 3.49,
+    "reason": "Analytic swept-envelope validation found marker 9 intersecting the procedural car body, marker 8 only 0.759 m from the exact body envelope, and marker 10 inside the photoreal generation's enlarged exit sweep. Removing the three-marker corridor prevents drift, bullet-time, and exit intersections without changing vehicle or camera motion.",
+    "nearestRemainingExitMarker": {
+      "index": 11,
+      "roadDistance": 39.5,
+      "exactBodyClearanceMeters": 1.844,
+      "conservativeEnvelopeClearanceMeters": 1.464
+    },
+    "otherMarkersChanged": false,
+    "vehicleMotionChanged": false,
+    "cameraChanged": false
+  },
+  "target": {"width": 1280, "height": 720, "fps": 30, "frames": 300, "duration": 10, "codec": "h264", "pixelFormat": "yuv420p", "audioStreams": 0},
+  "normalization": {"viewport": [0, 0, 1280, 720]},
+  "reconstruction": {"sceneMotion": "dynamic", "method": "authored analytic 4D procedural geometry"},
+  "temporalComposition": {
+    "kind": "source-time-remap",
+    "baseRevision": 7,
+    "outputWindow": [3.0, 4.0],
+    "expandedPatchWindow": [0.8, 7.0],
+    "sourceSteeringWindow": [3.0, 3.6],
+    "mapping": "expandedPatchTime = 0.8 + (outputTime - 3.0) * 6.2; sourceTime = 3.0 + max(0, expandedPatchTime - 1.0) / 10.0",
+    "resumeSourceTime": 4.0,
+    "matchingRgbSha256": "a1eaf46b30cb12f08113543ccf67797b48a5222ef47bbb3e0be62442881c2cb9"
+  },
+  "renderVerification": {
+    "renderedProxy": "case/reconstruction.mp4",
+    "renderedProxySha256": "00bbeabed2c6925a98a24766a6ead74caf253bbb933a27d01cd91d17704ee3de",
+    "captureEvidence": "review/capture.json",
+    "webglBackend": "nvidia-egl",
+    "renderDevice": "ANGLE (NVIDIA Corporation, NVIDIA RTX A6000/PCIe/SSE2, OpenGL ES 3.2)",
+    "acceptedProxyComparison": {
+      "metric": "ffmpeg-ssim",
+      "all": 0.993446,
+      "byteIdentical": false
+    }
+  },
+  "sourcePolicy": {
+    "generatedAnchor": "analysis-only visual-development evidence; not loaded by renderer or exported for conditioning",
+    "externalResources": false,
+    "textures": false,
+    "cameraSafety": "All cameras are virtual, unoccupied perspective cameras."
+  },
+  "motionTimeline": [
+    {"id": "establish", "start": 0, "end": 2},
+    {"id": "brake-pedal-hold", "start": 2, "end": 3},
+    {"id": "time-remapped-extreme-left-steering", "start": 3, "end": 4},
+    {"id": "loaded-left-steering-hold", "start": 4, "end": 4.2},
+    {"id": "drift", "start": 4.2, "end": 5.8},
+    {"id": "bullet-time", "start": 5.8, "end": 7.8},
+    {"id": "exit", "start": 7.8, "end": 10}
+  ]
+}

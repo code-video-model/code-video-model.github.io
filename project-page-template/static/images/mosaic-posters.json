@@ -385,5 +385,32 @@
       960,
       544
     ]
+  },
+  "anime|anime-hotel||": {
+    "src": "static/images/first-frames-native/a21781b4e0aed258df3fe15a7db5c054745ce8b6e7920bb4c19351e48593e3bc-frame000024.webp"
+  },
+  "anime|anime-nichijou||": {
+    "src": "static/images/first-frames-native/b813ca20ef3423a6056233420afbe51a8cb4ceb60d1bb5945085969afa05454e-frame000024.webp"
+  },
+  "anime|anime-kumiko||": {
+    "src": "static/images/first-frames-native/f6ff671ea777e3ccb0f3a2d3a9abf025d72a0b1149fd18cc2eba6e552b96c6d3-frame000024.webp"
+  },
+  "anime|three-colossal||": {
+    "src": "static/images/first-frames-native/0b755807fc2de3ea0c86cbe569f91a06f027fe7ce6a7f2207f1456287e934c49-frame000024.webp"
+  },
+  "long-horizon-style|rally-hairpin||": {
+    "src": "static/images/first-frames-native/893f68a104465081ab2decf6cca1f9de8c87f63e3fa210a0144ddbd0acc84b93-frame000024.webp"
+  },
+  "control-world-states|cockatiel-flight||": {
+    "src": "static/images/first-frames-native/6b10b3c7a708bc2aa06aa8617689bbae7f723f51eaffcbd831abd08362ade18a-frame000024.webp"
+  },
+  "control-world-states|fishing-lake-strike||": {
+    "src": "static/images/first-frames-native/fb5c8fdb1f3ce8014a47bf031ff0f83c90e3c276889b824d1a6d88700e66e332-frame000024.webp"
+  },
+  "reconstruction-3d-4d|astra-cook-spinach||": {
+    "src": "static/images/first-frames-native/3184e6259cdbb486affd7bd2e546a181c158cd3f85ffc8819815040a0e231f6d-frame000024.webp"
+  },
+  "reconstruction-3d-4d|astra-fern-safe||": {
+    "src": "static/images/first-frames-native/c2ad4733524c9a9a2554fced27b218e8cd47e30813bb197531cb20b842e1445d-frame000024.webp"
   }
 }

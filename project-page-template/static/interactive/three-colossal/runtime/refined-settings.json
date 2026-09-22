@@ -1,0 +1,38 @@
+{
+  "params": {
+    "distanceStart": 15,
+    "distanceEnd": 12,
+    "yawStart": 20,
+    "yawEnd": 0,
+    "riseStart": 4,
+    "riseEnd": 2,
+    "aimHeightStart": 32,
+    "aimHeightEnd": 40,
+    "aimWeight": 0.3,
+    "fov": 85,
+    "transitionStart": 1.1,
+    "transitionEnd": 1.8,
+    "blendStart": 1.7,
+    "earlyAimHeight": 22
+  },
+  "palette": {
+    "ruins": {
+      "wall": 12694946,
+      "roof": 8868668,
+      "wood": 5850168,
+      "rubble": 10259832
+    },
+    "main": 8666418,
+    "ordinary": [
+      11902593,
+      12626828,
+      11376251
+    ],
+    "jacket": 10189912,
+    "limbs": 12499882,
+    "cape": 3233086,
+    "gear": 4278854,
+    "blade": 14541017,
+    "ground": 9536885
+  }
+}

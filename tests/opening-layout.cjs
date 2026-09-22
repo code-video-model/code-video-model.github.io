@@ -14,7 +14,7 @@ const assert=require('node:assert/strict');
    assert.equal(await page.locator('h1').innerText(),'Code Video Model');
    assert.equal(await page.locator('.demo-heading').innerText(),'From Code to Video');
    assert.equal(await page.locator('.hero-credits .hero-affiliation,.hero-credits .authors').count(),2);
-   assert.equal(await page.locator('.category-shell').count(),10);
+   assert.equal(await page.locator('.category-shell').count(),11);
    const layout=await page.evaluate(()=>{
     const v=document.querySelector('.intro-standalone-video'),button=document.querySelector('.demo-load');
     const vb=v.getBoundingClientRect(),bb=button.getBoundingClientRect();
@@ -22,7 +22,7 @@ const assert=require('node:assert/strict');
      fits:bb.left>=vb.left&&bb.right<=vb.right&&bb.top>=vb.top&&bb.bottom<=vb.bottom};
    });
    assert.equal(layout.controls,false);assert.ok(layout.poster.endsWith('frame000030.webp'));
-   assert.equal(await page.locator('.intro-standalone-video').getAttribute('data-src'),'static/demo/CodeVideoPromoV9Refined_1080p_render_x264.mp4');
+   assert.equal(await page.locator('.intro-standalone-video').getAttribute('data-src'),'static/demo/CodeVideoPromoV9Refined28_1080p_web_x264.mp4');
    assert.equal(layout.overflow,false);assert.ok(layout.fits);assert.equal(media,0);
    await page.screenshot({path:`test-results/opening-${width}.png`});page.off('request',count);
   }
@@ -30,7 +30,7 @@ const assert=require('node:assert/strict');
   await page.waitForFunction(()=>{const v=document.querySelector('.intro-standalone-video');return v.currentTime>.1&&v.controls&&!v.paused;},null,{timeout:65000});
   assert.equal(await page.locator('.demo-load').isVisible(),false);
   const metadata=await page.locator('.intro-standalone-video').evaluate(v=>({width:v.videoWidth,height:v.videoHeight,duration:v.duration}));
-  assert.equal(metadata.width,1920);assert.equal(metadata.height,1080);assert.ok(metadata.duration>146&&metadata.duration<147);
+  assert.equal(metadata.width,1920);assert.equal(metadata.height,1080);assert.ok(metadata.duration>137&&metadata.duration<139);
   await page.locator('.intro-standalone-video').evaluate(v=>v.dispatchEvent(new Event('demo:pause')));
   assert.equal(await page.locator('.intro-standalone-video').evaluate(v=>v.paused),true);
   assert.deepEqual(errors,[]);

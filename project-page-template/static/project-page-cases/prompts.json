@@ -1,6 +1,6 @@
 {
   "schema": "project-page-case-prompts-v1",
-  "count": 83,
+  "count": 91,
   "items": [
     {
       "index": 1,
@@ -1784,7 +1784,7 @@
         "colored_proxy_preview": false,
         "presentation": "centered 16:9 crop / 24 FPS; original durations retained"
       },
-      "gallery_visible": false
+      "gallery_visible": true
     },
     {
       "index": 61,
@@ -2346,6 +2346,180 @@
         "frozen_bundle_sha256": "46e70514ea9980b3d7b1f76c2cfabe24707c986fc7ef76e13b9934c2c6f16fdd",
         "source_program_sha256": "2b8056e4225560e15af79e028dbd551fc01eab73fe8ffc5982278433a43ac5a1",
         "result_sha256": "9095f1e38c3254f5c948adb75d16f3f8e98dee3260ff5fb184958de38225d752"
+      }
+    },
+    {
+      "case_id": "anime-hotel",
+      "session": "Anime",
+      "source_prompt": "Apocalypse Hotel",
+      "threejs_video": "anime/anime-hotel/threejs-b0afbeca4b711b53.mp4",
+      "threejs_sha256": "b0afbeca4b711b53560bc126c5797c86f865d5c0c0989e751b221651db298521",
+      "code_video_model": "anime/anime-hotel/output-a21781b4e0aed258.mp4",
+      "code_video_model_sha256": "a21781b4e0aed258df3fe15a7db5c054745ce8b6e7920bb4c19351e48593e3bc",
+      "display_code_video_model": "anime/anime-hotel/output-a21781b4e0aed258.mp4",
+      "display_code_video_model_sha256": "a21781b4e0aed258df3fe15a7db5c054745ce8b6e7920bb4c19351e48593e3bc",
+      "display_code_video_model_setting": "apocalypse-hotel-20260919",
+      "interactive_source": "anime-hotel/"
+    },
+    {
+      "case_id": "anime-nichijou",
+      "session": "Anime",
+      "source_prompt": "Nichijou",
+      "threejs_video": "anime/anime-nichijou/threejs-d96224ae25d8d247.mp4",
+      "threejs_sha256": "d96224ae25d8d247bc49bcf05c09a116d364cbb1b6c13f5b0d421cd562624818",
+      "code_video_model": "anime/anime-nichijou/output-b813ca20ef3423a6.mp4",
+      "code_video_model_sha256": "b813ca20ef3423a6056233420afbe51a8cb4ceb60d1bb5945085969afa05454e",
+      "display_code_video_model": "anime/anime-nichijou/output-b813ca20ef3423a6.mp4",
+      "display_code_video_model_sha256": "b813ca20ef3423a6056233420afbe51a8cb4ceb60d1bb5945085969afa05454e",
+      "display_code_video_model_setting": "nichijou-20260919",
+      "interactive_source": "anime-nichijou/"
+    },
+    {
+      "case_id": "anime-kumiko",
+      "session": "Anime",
+      "source_prompt": "Kumiko",
+      "threejs_video": "anime/anime-kumiko/threejs-c6ede8bcf372ecef.mp4",
+      "threejs_sha256": "c6ede8bcf372ecefab965994538c3752c1745e5be85103dbe207c2dffe7fadd1",
+      "code_video_model": "anime/anime-kumiko/output-f6ff671ea777e3cc.mp4",
+      "code_video_model_sha256": "f6ff671ea777e3ccb0f3a2d3a9abf025d72a0b1149fd18cc2eba6e552b96c6d3",
+      "display_code_video_model": "anime/anime-kumiko/output-f6ff671ea777e3cc.mp4",
+      "display_code_video_model_sha256": "f6ff671ea777e3ccb0f3a2d3a9abf025d72a0b1149fd18cc2eba6e552b96c6d3",
+      "display_code_video_model_setting": "kumiko-20260919",
+      "interactive_source": "anime-kumiko/"
+    },
+    {
+      "case_id": "three-colossal",
+      "session": "Anime",
+      "source_prompt": "Attack on Titan",
+      "threejs_video": "anime/three-colossal/threejs-0190929b0fa08612.mp4",
+      "threejs_sha256": "0190929b0fa08612f6df9ce564d00b95783b543356f6482f25e37b7438f548a7",
+      "code_video_model": "anime/three-colossal/output-0b755807fc2de3ea.mp4",
+      "code_video_model_sha256": "0b755807fc2de3ea0c86cbe569f91a06f027fe7ce6a7f2207f1456287e934c49",
+      "display_code_video_model": "anime/three-colossal/output-0b755807fc2de3ea.mp4",
+      "display_code_video_model_sha256": "0b755807fc2de3ea0c86cbe569f91a06f027fe7ce6a7f2207f1456287e934c49",
+      "display_code_video_model_setting": "three-colossal-h3-6s-review-v1",
+      "interactive_source": "three-colossal/"
+    },
+    {
+      "case_id": "rally-hairpin",
+      "session": "Bullet Time",
+      "title": "Rally Hairpin",
+      "source_prompt": "Rally Hairpin",
+      "threejs_video": "seedance/rally-hairpin/threejs-de7604a279a0bc28.mp4",
+      "threejs_sha256": "de7604a279a0bc287a02a4cd69e14c60546feb6f9fcc3eab431d85f71deec6e8",
+      "code_video_model": "seedance/rally-hairpin/output-893f68a104465081.mp4",
+      "code_video_model_sha256": "893f68a104465081ab2decf6cca1f9de8c87f63e3fa210a0144ddbd0acc84b93",
+      "display_code_video_model": "seedance/rally-hairpin/output-893f68a104465081.mp4",
+      "display_code_video_model_sha256": "893f68a104465081ab2decf6cca1f9de8c87f63e3fa210a0144ddbd0acc84b93",
+      "display_code_video_model_setting": "rally-hairpin-10s-final-v2",
+      "interactive_source": "rally-hairpin/",
+      "display_code_video_model_provenance": {
+        "origin": "Seedance demo deliveries",
+        "package": "rally-hairpin-10s-final-v2",
+        "asset_manifest_sha256": "cee9cb827355fdba0115a08539bd13a9a82512e6d95beb52fde0c60afa215db3",
+        "delivery_manifest_sha256": "4fff054c58bf92e7e278ff7f3b6694a2350fe7127c8f506d456125e23e230fc6",
+        "result_sha256": "893f68a104465081ab2decf6cca1f9de8c87f63e3fa210a0144ddbd0acc84b93",
+        "input_fps": 30.0,
+        "output_fps": 24.0,
+        "timeline": "Full accepted output at original speed; no demo edit or retiming.",
+        "proxy_role": "Accepted v2 matching RGB proxy, including authored steering-time remap.",
+        "source_program_sha256": "81083cf58802103f665e378c3ad1763f676f507a67834513934668b3eaf978a0"
+      }
+    },
+    {
+      "case_id": "cockatiel-flight",
+      "session": "Gaming",
+      "title": "Cockatiel Flight",
+      "source_prompt": "Cockatiel Flight",
+      "threejs_video": "seedance/cockatiel-flight/threejs-ea34cd4f106b18f0.mp4",
+      "threejs_sha256": "ea34cd4f106b18f005467d1c157e44d4550242bbcd4702d4cf29f996e9277d98",
+      "code_video_model": "seedance/cockatiel-flight/output-6b10b3c7a708bc2a.mp4",
+      "code_video_model_sha256": "6b10b3c7a708bc2aa06aa8617689bbae7f723f51eaffcbd831abd08362ade18a",
+      "display_code_video_model": "seedance/cockatiel-flight/output-6b10b3c7a708bc2a.mp4",
+      "display_code_video_model_sha256": "6b10b3c7a708bc2aa06aa8617689bbae7f723f51eaffcbd831abd08362ade18a",
+      "display_code_video_model_setting": "cockatiel-15s-v27-exact-reroll-final-v1",
+      "interactive_source": "cockatiel-flight/",
+      "display_code_video_model_provenance": {
+        "origin": "Seedance demo deliveries",
+        "package": "cockatiel-15s-v27-exact-reroll-final-v1",
+        "asset_manifest_sha256": "cee9cb827355fdba0115a08539bd13a9a82512e6d95beb52fde0c60afa215db3",
+        "delivery_manifest_sha256": "d6c6f281076fb203edc9b98d9e88c4ff3a64a1f244ef9436c8538c59e44b2892",
+        "result_sha256": "6b10b3c7a708bc2aa06aa8617689bbae7f723f51eaffcbd831abd08362ade18a",
+        "input_fps": 30.0,
+        "output_fps": 24.0,
+        "timeline": "Full accepted output at original speed; no demo edit or retiming.",
+        "proxy_role": "Presentation recolor of v27; original generation used a neutral gray proxy.",
+        "generation_proxy_sha256": "a896d0b594b9a2e0c23f375c365be8bfe750981d1441fe51064d26b1b71f9e94",
+        "presentation_edits": [
+          "Restore authored material colors",
+          "Match feather, cage and room palette to output",
+          "Add white wing markings with static vertex colors only"
+        ],
+        "source_program_sha256": "867014e094355839738c4ba0293ac36fb286f44d0064ad94d3fa5123f16abcf8"
+      }
+    },
+    {
+      "case_id": "fishing-lake-strike",
+      "session": "Gaming",
+      "title": "Lake Fishing",
+      "source_prompt": "Lake Fishing",
+      "threejs_video": "seedance/fishing-lake-strike/threejs-9f8cadc45425e534.mp4",
+      "threejs_sha256": "9f8cadc45425e534bfa8f544ceb34508384ba48d219d7dcf34622067d0be492a",
+      "code_video_model": "seedance/fishing-lake-strike/output-fb5c8fdb1f3ce801.mp4",
+      "code_video_model_sha256": "fb5c8fdb1f3ce8014a47bf031ff0f83c90e3c276889b824d1a6d88700e66e332",
+      "display_code_video_model": "seedance/fishing-lake-strike/output-fb5c8fdb1f3ce801.mp4",
+      "display_code_video_model_sha256": "fb5c8fdb1f3ce8014a47bf031ff0f83c90e3c276889b824d1a6d88700e66e332",
+      "display_code_video_model_setting": "fishing-lake-strike-8s-final-v1",
+      "interactive_source": "fishing-lake-strike/",
+      "display_code_video_model_provenance": {
+        "origin": "Seedance demo deliveries",
+        "package": "fishing-lake-strike-8s-final-v1",
+        "asset_manifest_sha256": "cee9cb827355fdba0115a08539bd13a9a82512e6d95beb52fde0c60afa215db3",
+        "delivery_manifest_sha256": "8295ba928ff632709289cd97687824c41f34e22c7d5ec93af204739e850b0a0e",
+        "result_sha256": "fb5c8fdb1f3ce8014a47bf031ff0f83c90e3c276889b824d1a6d88700e66e332",
+        "input_fps": 30.0,
+        "output_fps": 24.0,
+        "timeline": "Full accepted output at original speed; no demo edit or retiming.",
+        "proxy_role": "Original generation input; not the post-acceptance aligned proxy.",
+        "source_program_sha256": "92d0630d0c111c76dc1e7b5eccd117505f4f8d0b0f80ba2e4ed491739a68a461"
+      }
+    },
+    {
+      "case_id": "astra-fern-safe",
+      "session": "3D / 4D Reconstruction",
+      "title": "Fern",
+      "source_prompt": "Create one continuous 10-second photoreal novel-view shot of the SAME STATIC physical scene. @Image1 is a real photograph, uniformly scaled and cropped, of the STARTING camera view. It is the authority for object identity, observed construction, materials, colors, lighting, and scene details. It is NOT a character sheet, flat backdrop, or frame to repeat. @Video1 is a procedural geometric reconstruction of that SAME scene. Follow its camera translation, local arc, framing progression, relative depth and changing occlusion. Replace its simplified CG surfaces with the real photographed appearance from @Image1; do not copy low-poly shading or transform the scene into a cartoon. Scene identity: A large cycad-like fern dominates a bright modern interior planter. Many long arching fronds with repeated narrow leaflets radiate from a textured trunk. A white concrete planter wall, tiled floor, glass, columns, curved ceiling panels, lights and distant recycling bins create layered architecture. Camera route: Continuous 360-degree counterclockwise physical orbit in ten seconds. Sweep toward the plant right flank, push beside a near frond, dip low at two seconds, climb around the rear at five seconds, then wrap the companion-stem side and accelerate continuously through the final second. Only the five- and six-second radial control points move inward, from 8.5/8.9 to 7.65/7.85 scene units, providing a comfortable atrium-side glass buffer without changing geometry, heights, targets, FOV or angular rhythm. Cubic angle interpolation preserves nonzero angular velocity at both endpoints; the last encoded sample at 9.967 seconds has already traversed more than 358 degrees.  KINETIC CAMERA CONTRACT: @Video1 has highest authority for continuous camera motion. @Image1 controls appearance only and must not anchor, slow, recenter or stop the camera. Camera intent: An adventurous botanical walkaround: pass beside the projecting right frond, skim low across the planter edge, crane above the back of the crown, and make a fast uninterrupted returning wrap. No arrival shot or final hold. Travel continuously through one 360-degree counterclockwise path over all ten seconds. Screen-space travel: The camera travels toward the right-hand fronds first. Near pinnae slide left across the trunk while distant mullions move more slowly; the rear pass exposes the far planter rim and reverses front/back frond overlap before the companion stems cross the trunk on the returning side. There is no destination framing and no final hold: every second must contain strong world-space camera displacement, parallax and changing occlusion. Required camera beats: (1) 0-1.3s: near-frond pass; dolly from 8.8 to 5.8 scene units beside a four-unit projecting frond, opening the lens to 82 degrees as its leaflets fan past the trunk and right-hand lobby. (2) 1.3-2.7s: low sweep; descend toward 1.65 units and look upward through the crown above the white planter lip. (3) 3.7-6.0s: rear crane; rise to 6.6 units while the rear leaflets and far rim separate from the trunk and the opposite atrium becomes visible. A local radius-only inward adjustment keeps the lens at least 2.6406 scene units ahead of the conservative transformed partition envelope; lens angle and the rear-crane height are unchanged. (4) 7.5-10s: fast continuation; smoothly increase orbital travel to 40 then 43 degrees per second, lowering along the companion-stem flank without pausing or easing into a held frame. Required changing-occlusion evidence: (1) Source to right flank: the right outward-arching rachis crosses the ribbed trunk; recycling bins migrate behind the crown and the right side of the planter opens in depth. (2) Right flank to rear crane: the rear radial fronds replace the long front-hanging frond in front of the trunk, and the far planter rim becomes visible around the soil bed. (3) Rear to left flank: the thin companion tree stems move from behind the plant to overlap its left leaflets; glass mullions shift against opposite-atrium columns. (4) Final continuation: the long dangling front frond moves back across the planter face while the far bins reappear to the right; the camera is still moving at the last encoded frame. Never settle into a hero frame, pause for the action, reverse direction, rotate the subject as a turntable, or replace physical camera travel with digital zoom/pan. Begin at the photographed source composition, then reveal a coherent local novel view with clear foreground/background parallax. Only the camera moves; keep all physical objects and materials fixed. The plant, fronds, planter and architecture remain stationary. Preserve the radial crown, narrow leaflet rhythm, trunk, white planter and curved interior layers. No people appear. The real photograph and proxy share the same centered 4:3 aspect-ratio crop. Preserve that crop without stretching, zooming past it, or inventing scene content outside the photographed crop. Complete newly revealed surfaces conservatively from the observed scene; Do not add, remove, morph, duplicate, rotate or animate objects. No cuts, camera jumps, turntable object motion, still-image sliding, text labels or rendered UI.",
+      "threejs_video": "fern/threejs_video-62627146a88aad1d.mp4",
+      "code_video_model": "fern/code_video_model-c2ad4733524c9a9a.mp4",
+      "reference_image": "fern/reference_image-ad8ba0940dad1e24.png",
+      "threejs_sha256": "62627146a88aad1d1ec6ad08908970319a11dc19fd59290649e6bca35a19c115",
+      "code_video_model_sha256": "c2ad4733524c9a9a2554fced27b218e8cd47e30813bb197531cb20b842e1445d",
+      "reference_image_sha256": "ad8ba0940dad1e2430e2ceca3c1ffbe89805e3fd80aaaf9d86fa8488e9021bd3",
+      "display_code_video_model": "fern/code_video_model-c2ad4733524c9a9a.mp4",
+      "display_code_video_model_sha256": "c2ad4733524c9a9a2554fced27b218e8cd47e30813bb197531cb20b842e1445d",
+      "display_code_video_model_setting": "astra-fern-safe-10s-review-v1",
+      "interactive_source": "astra-fern-safe/",
+      "gallery_visible": true,
+      "source_package_status": "candidate-passed-bypass-review",
+      "source_creative_accepted": false,
+      "display_code_video_model_provenance": {
+        "package": "astra-fern-safe-10s-review-v1",
+        "delivery_manifest_sha256": "11ad1aa4f23613ad3cecd027108685c0adbb18313bc79b0ce5cb29c4a127c9e4",
+        "source_spec_sha256": "8e85d17a1b55362b4ab106a15336b09ca09609eaeb0892fdb58cf84867ff4de5",
+        "runtime_spec_fields": [
+          "target",
+          "normalization.viewport"
+        ],
+        "source_program_sha256": "39e176e0d074a898f2bc6c3300ea7e8033bb7215eafc4510e9a233419cb9b905",
+        "result_sha256": "c2ad4733524c9a9a2554fced27b218e8cd47e30813bb197531cb20b842e1445d",
+        "input_fps": 30,
+        "output_fps": 24.0,
+        "proxy_role": "Original RGB generation input; no material override or recoloring.",
+        "timeline": "Original output clock; scene clamps to its authored 10-second duration.",
+        "publication_requested": "2026-09-22",
+        "runtime_parameters": {
+          "renderOverride": "rgb"
+        }
       }
     }
   ]

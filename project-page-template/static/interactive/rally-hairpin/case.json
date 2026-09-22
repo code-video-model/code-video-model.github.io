@@ -1,0 +1,143 @@
+{
+  "case_id": "rally-hairpin",
+  "session": "Bullet Time",
+  "prompt": "Rally Hairpin",
+  "width": 1280,
+  "height": 720,
+  "fps": 24.0,
+  "frames": 240,
+  "entry": "runtime/case/index.html",
+  "threejs_sha256": "de7604a279a0bc287a02a4cd69e14c60546feb6f9fcc3eab431d85f71deec6e8",
+  "sources": [
+    {
+      "path": "original/case/scene.mjs",
+      "name": "case/scene.mjs",
+      "sha256": "81083cf58802103f665e378c3ad1763f676f507a67834513934668b3eaf978a0",
+      "functions": [
+        {
+          "name": "sourcePresentationTime",
+          "line": 1
+        },
+        {
+          "name": "buildScene",
+          "line": 7
+        },
+        {
+          "name": "mesh",
+          "line": 29
+        },
+        {
+          "name": "box",
+          "line": 32
+        },
+        {
+          "name": "ball",
+          "line": 35
+        },
+        {
+          "name": "rod",
+          "line": 38
+        },
+        {
+          "name": "road",
+          "line": 53
+        },
+        {
+          "name": "roadMargin",
+          "line": 59
+        },
+        {
+          "name": "geometry",
+          "line": 63
+        },
+        {
+          "name": "loft",
+          "line": 196
+        },
+        {
+          "name": "quad",
+          "line": 229
+        },
+        {
+          "name": "distance",
+          "line": 335
+        },
+        {
+          "name": "physicalTime",
+          "line": 340
+        },
+        {
+          "name": "smoothDerivative",
+          "line": 341
+        },
+        {
+          "name": "distanceVelocity",
+          "line": 345
+        },
+        {
+          "name": "vehicleAt",
+          "line": 350
+        },
+        {
+          "name": "localToWorld",
+          "line": 364
+        },
+        {
+          "name": "particleAt",
+          "line": 387
+        },
+        {
+          "name": "updateRod",
+          "line": 414
+        },
+        {
+          "name": "cameraAt",
+          "line": 419
+        },
+        {
+          "name": "physicalSnapshot",
+          "line": 439
+        },
+        {
+          "name": "displayedSteer",
+          "line": 445
+        },
+        {
+          "name": "setTime",
+          "line": 448
+        }
+      ]
+    },
+    {
+      "path": "original/case/runtime.mjs",
+      "name": "case/runtime.mjs",
+      "sha256": "de0395e09bfd36e4133c8404c83f1c52975c4159245523754447292a7042ac75",
+      "functions": [
+        {
+          "name": "seek",
+          "line": 25
+        },
+        {
+          "name": "diagnostics",
+          "line": 42
+        },
+        {
+          "name": "streamFrame",
+          "line": 83
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "origin": "Seedance demo deliveries",
+    "package": "rally-hairpin-10s-final-v2",
+    "asset_manifest_sha256": "cee9cb827355fdba0115a08539bd13a9a82512e6d95beb52fde0c60afa215db3",
+    "delivery_manifest_sha256": "4fff054c58bf92e7e278ff7f3b6694a2350fe7127c8f506d456125e23e230fc6",
+    "result_sha256": "893f68a104465081ab2decf6cca1f9de8c87f63e3fa210a0144ddbd0acc84b93",
+    "input_fps": 30.0,
+    "output_fps": 24.0,
+    "timeline": "Full accepted output at original speed; no demo edit or retiming.",
+    "proxy_role": "Accepted v2 matching RGB proxy, including authored steering-time remap.",
+    "source_program_sha256": "81083cf58802103f665e378c3ad1763f676f507a67834513934668b3eaf978a0"
+  }
+}

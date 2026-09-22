@@ -1,0 +1,332 @@
+{
+  "case_id": "three-colossal",
+  "session": "Anime",
+  "prompt": "Attack on Titan",
+  "fps": 24.0,
+  "frames": 144,
+  "width": 1280,
+  "height": 720,
+  "threejs_sha256": "0190929b0fa08612f6df9ce564d00b95783b543356f6482f25e37b7438f548a7",
+  "entry": "runtime/index.html",
+  "sources": [
+    {
+      "path": "original/scene.mjs",
+      "name": "scene.mjs",
+      "sha256": "17caf8c70233072e6aafe71055dec15abef0a80fed1541c2ec5fc4c79fd7464c",
+      "functions": [
+        {
+          "name": "mesh",
+          "line": 30
+        },
+        {
+          "name": "ellipsoid",
+          "line": 31
+        },
+        {
+          "name": "setRod",
+          "line": 32
+        },
+        {
+          "name": "rod",
+          "line": 33
+        },
+        {
+          "name": "roofGeometry",
+          "line": 39
+        },
+        {
+          "name": "resetDormantTransforms",
+          "line": 83
+        },
+        {
+          "name": "hermite",
+          "line": 94
+        },
+        {
+          "name": "sample",
+          "line": 98
+        },
+        {
+          "name": "baselineSample",
+          "line": 105
+        },
+        {
+          "name": "cameraPose",
+          "line": 111
+        },
+        {
+          "name": "baselineOrientation",
+          "line": 117
+        },
+        {
+          "name": "roofHookPosition",
+          "line": 136
+        },
+        {
+          "name": "roofSlack",
+          "line": 142
+        },
+        {
+          "name": "roofCablePath",
+          "line": 153
+        },
+        {
+          "name": "orientation",
+          "line": 171
+        },
+        {
+          "name": "world",
+          "line": 187
+        },
+        {
+          "name": "addSegment",
+          "line": 188
+        },
+        {
+          "name": "napeCutTarget",
+          "line": 189
+        },
+        {
+          "name": "articulate",
+          "line": 205
+        },
+        {
+          "name": "hookPosition",
+          "line": 268
+        },
+        {
+          "name": "projected",
+          "line": 274
+        },
+        {
+          "name": "seek",
+          "line": 278
+        },
+        {
+          "name": "interpolateRing",
+          "line": 318
+        },
+        {
+          "name": "bodyField",
+          "line": 324
+        },
+        {
+          "name": "roofField",
+          "line": 335
+        },
+        {
+          "name": "bodyClear",
+          "line": 346
+        },
+        {
+          "name": "segmentDistance",
+          "line": 369
+        },
+        {
+          "name": "triangleDistance",
+          "line": 384
+        },
+        {
+          "name": "segmentBoxDistance",
+          "line": 394
+        },
+        {
+          "name": "meshSegmentDistance",
+          "line": 415
+        },
+        {
+          "name": "initializeRoofObjects",
+          "line": 438
+        },
+        {
+          "name": "pointInsideCity",
+          "line": 464
+        },
+        {
+          "name": "cityDistance",
+          "line": 472
+        },
+        {
+          "name": "auditRoofExit",
+          "line": 476
+        },
+        {
+          "name": "audit",
+          "line": 537
+        },
+        {
+          "name": "verifyMeshSegments",
+          "line": 603
+        },
+        {
+          "name": "ruinEnvelope",
+          "line": 624
+        },
+        {
+          "name": "pieceTriangles",
+          "line": 640
+        },
+        {
+          "name": "insidePiece",
+          "line": 650
+        },
+        {
+          "name": "exactRuinWire",
+          "line": 661
+        },
+        {
+          "name": "exactColossalRuinCheck",
+          "line": 681
+        },
+        {
+          "name": "auditExactCorrections",
+          "line": 724
+        },
+        {
+          "name": "auditInvasion",
+          "line": 753
+        },
+        {
+          "name": "update",
+          "line": 755
+        },
+        {
+          "name": "validationAssets",
+          "line": 814
+        },
+        {
+          "name": "validationSnapshot",
+          "line": 829
+        },
+        {
+          "name": "worldVertices",
+          "line": 897
+        },
+        {
+          "name": "supportPoints",
+          "line": 911
+        },
+        {
+          "name": "collect",
+          "line": 922
+        },
+        {
+          "name": "pose",
+          "line": 955
+        },
+        {
+          "name": "pointClear",
+          "line": 974
+        },
+        {
+          "name": "projectPoint",
+          "line": 989
+        },
+        {
+          "name": "inside",
+          "line": 998
+        },
+        {
+          "name": "evaluateFrame",
+          "line": 1001
+        },
+        {
+          "name": "evaluate",
+          "line": 1028
+        },
+        {
+          "name": "visibility",
+          "line": 1049
+        },
+        {
+          "name": "applyRefined",
+          "line": 1255
+        },
+        {
+          "name": "installPalette",
+          "line": 1263
+        },
+        {
+          "name": "actualBounds",
+          "line": 1272
+        },
+        {
+          "name": "boxDistance",
+          "line": 1282
+        },
+        {
+          "name": "primarySnapshot",
+          "line": 1285
+        },
+        {
+          "name": "measureStaging",
+          "line": 1311
+        },
+        {
+          "name": "visibilityMask",
+          "line": 1357
+        }
+      ]
+    },
+    {
+      "path": "original/invasion_world.mjs",
+      "name": "invasion_world.mjs",
+      "sha256": "2a00c1eef25c2492620913ce4922cf937c48b032ae158a9f87111a64aee8086f",
+      "functions": [
+        {
+          "name": "createInvasionWorld",
+          "line": 10
+        },
+        {
+          "name": "buildRig",
+          "line": 24
+        },
+        {
+          "name": "worldPoint",
+          "line": 99
+        },
+        {
+          "name": "addSegment",
+          "line": 100
+        },
+        {
+          "name": "updateRig",
+          "line": 103
+        },
+        {
+          "name": "update",
+          "line": 185
+        },
+        {
+          "name": "diagnostics",
+          "line": 212
+        },
+        {
+          "name": "gaitEvidence",
+          "line": 220
+        }
+      ]
+    },
+    {
+      "path": "original/clip-contract.mjs",
+      "name": "clip-contract.mjs",
+      "sha256": "42137e0667a7fa5908b00c4b6595c91a2958a19e3e3b8c337de80896c0c616c4",
+      "functions": [
+        {
+          "name": "clipTime",
+          "line": 5
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "package": "three-colossal-h3-6s-review-v1",
+    "asset_manifest_sha256": "d9bd34234a359c6f81f0ada934f64fddf91d3746a4e0dfa754cd715003b8af65",
+    "source_program_sha256": "17caf8c70233072e6aafe71055dec15abef0a80fed1541c2ec5fc4c79fd7464c",
+    "result_sha256": "0b755807fc2de3ea0c86cbe569f91a06f027fe7ce6a7f2207f1456287e934c49",
+    "timeline": "Original output clock in seconds; no retiming.",
+    "runtime_parameters": {},
+    "input_fps": 30.0,
+    "output_fps": 24.0
+  }
+}

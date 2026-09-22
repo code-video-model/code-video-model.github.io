@@ -24,6 +24,7 @@
 .publication-hero .demo-load::before {content:'▶';font-size:11px;}
 .publication-hero .demo-load:hover {background:#fff;box-shadow:0 5px 24px #0003;}
 .publication-hero .demo-load[hidden] {display:none;}
+.publication-hero .demo-status {bottom:84px;pointer-events:none;}
 @media(max-width:640px){
  .publication-hero {padding-top:30px;}
  .publication-hero>.container {width:calc(100% - 28px);}
@@ -32,4 +33,5 @@
  .hero-credits .authors {padding-left:12px;font-size:12px;}
  .publication-hero .intro-video {border-radius:15px;}
  .publication-hero .demo-load {left:14px;bottom:14px;padding:9px 14px;font-size:14px;}
+ .publication-hero .demo-status {bottom:64px;}
 }

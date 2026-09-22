@@ -1,0 +1,92 @@
+{
+  "case_id": "anime-nichijou",
+  "session": "Anime",
+  "prompt": "Nichijou",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 544,
+  "threejs_sha256": "d96224ae25d8d247bc49bcf05c09a116d364cbb1b6c13f5b0d421cd562624818",
+  "entry": "runtime/index.html?motion=1",
+  "sources": [
+    {
+      "path": "original/case/main.js",
+      "name": "case/main.js",
+      "sha256": "d7c72d692d91eb3a74d0a11df8f1b1e4179b34d171ec75d6e311b823dff428d9",
+      "functions": [
+        {
+          "name": "material",
+          "line": 25
+        },
+        {
+          "name": "layer",
+          "line": 35
+        },
+        {
+          "name": "parsePath",
+          "line": 45
+        },
+        {
+          "name": "registerGeometry",
+          "line": 61
+        },
+        {
+          "name": "strokePath",
+          "line": 64
+        },
+        {
+          "name": "path",
+          "line": 85
+        },
+        {
+          "name": "line",
+          "line": 96
+        },
+        {
+          "name": "ellipse",
+          "line": 101
+        },
+        {
+          "name": "rect",
+          "line": 113
+        },
+        {
+          "name": "groupAt",
+          "line": 116
+        },
+        {
+          "name": "repositionPaths",
+          "line": 125
+        },
+        {
+          "name": "random",
+          "line": 158
+        },
+        {
+          "name": "bellPulse",
+          "line": 346
+        },
+        {
+          "name": "applyArmDeformation",
+          "line": 351
+        },
+        {
+          "name": "seek",
+          "line": 371
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "package": "nichijou-20260919",
+    "asset_manifest_sha256": "d9bd34234a359c6f81f0ada934f64fddf91d3746a4e0dfa754cd715003b8af65",
+    "source_program_sha256": "d7c72d692d91eb3a74d0a11df8f1b1e4179b34d171ec75d6e311b823dff428d9",
+    "result_sha256": "b813ca20ef3423a6056233420afbe51a8cb4ceb60d1bb5945085969afa05454e",
+    "timeline": "Original output clock in seconds; no retiming.",
+    "runtime_parameters": {
+      "motion": 1
+    },
+    "input_fps": 24.0,
+    "output_fps": 24.0
+  }
+}

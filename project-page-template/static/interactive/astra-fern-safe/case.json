@@ -1,0 +1,121 @@
+{
+  "case_id": "astra-fern-safe",
+  "session": "3D / 4D Reconstruction",
+  "prompt": "Create one continuous 10-second photoreal novel-view shot of the SAME STATIC physical scene. @Image1 is a real photograph, uniformly scaled and cropped, of the STARTING camera view. It is the authority for object identity, observed construction, materials, colors, lighting, and scene details. It is NOT a character sheet, flat backdrop, or frame to repeat. @Video1 is a procedural geometric reconstruction of that SAME scene. Follow its camera translation, local arc, framing progression, relative depth and changing occlusion. Replace its simplified CG surfaces with the real photographed appearance from @Image1; do not copy low-poly shading or transform the scene into a cartoon. Scene identity: A large cycad-like fern dominates a bright modern interior planter. Many long arching fronds with repeated narrow leaflets radiate from a textured trunk. A white concrete planter wall, tiled floor, glass, columns, curved ceiling panels, lights and distant recycling bins create layered architecture. Camera route: Continuous 360-degree counterclockwise physical orbit in ten seconds. Sweep toward the plant right flank, push beside a near frond, dip low at two seconds, climb around the rear at five seconds, then wrap the companion-stem side and accelerate continuously through the final second. Only the five- and six-second radial control points move inward, from 8.5/8.9 to 7.65/7.85 scene units, providing a comfortable atrium-side glass buffer without changing geometry, heights, targets, FOV or angular rhythm. Cubic angle interpolation preserves nonzero angular velocity at both endpoints; the last encoded sample at 9.967 seconds has already traversed more than 358 degrees.  KINETIC CAMERA CONTRACT: @Video1 has highest authority for continuous camera motion. @Image1 controls appearance only and must not anchor, slow, recenter or stop the camera. Camera intent: An adventurous botanical walkaround: pass beside the projecting right frond, skim low across the planter edge, crane above the back of the crown, and make a fast uninterrupted returning wrap. No arrival shot or final hold. Travel continuously through one 360-degree counterclockwise path over all ten seconds. Screen-space travel: The camera travels toward the right-hand fronds first. Near pinnae slide left across the trunk while distant mullions move more slowly; the rear pass exposes the far planter rim and reverses front/back frond overlap before the companion stems cross the trunk on the returning side. There is no destination framing and no final hold: every second must contain strong world-space camera displacement, parallax and changing occlusion. Required camera beats: (1) 0-1.3s: near-frond pass; dolly from 8.8 to 5.8 scene units beside a four-unit projecting frond, opening the lens to 82 degrees as its leaflets fan past the trunk and right-hand lobby. (2) 1.3-2.7s: low sweep; descend toward 1.65 units and look upward through the crown above the white planter lip. (3) 3.7-6.0s: rear crane; rise to 6.6 units while the rear leaflets and far rim separate from the trunk and the opposite atrium becomes visible. A local radius-only inward adjustment keeps the lens at least 2.6406 scene units ahead of the conservative transformed partition envelope; lens angle and the rear-crane height are unchanged. (4) 7.5-10s: fast continuation; smoothly increase orbital travel to 40 then 43 degrees per second, lowering along the companion-stem flank without pausing or easing into a held frame. Required changing-occlusion evidence: (1) Source to right flank: the right outward-arching rachis crosses the ribbed trunk; recycling bins migrate behind the crown and the right side of the planter opens in depth. (2) Right flank to rear crane: the rear radial fronds replace the long front-hanging frond in front of the trunk, and the far planter rim becomes visible around the soil bed. (3) Rear to left flank: the thin companion tree stems move from behind the plant to overlap its left leaflets; glass mullions shift against opposite-atrium columns. (4) Final continuation: the long dangling front frond moves back across the planter face while the far bins reappear to the right; the camera is still moving at the last encoded frame. Never settle into a hero frame, pause for the action, reverse direction, rotate the subject as a turntable, or replace physical camera travel with digital zoom/pan. Begin at the photographed source composition, then reveal a coherent local novel view with clear foreground/background parallax. Only the camera moves; keep all physical objects and materials fixed. The plant, fronds, planter and architecture remain stationary. Preserve the radial crown, narrow leaflet rhythm, trunk, white planter and curved interior layers. No people appear. The real photograph and proxy share the same centered 4:3 aspect-ratio crop. Preserve that crop without stretching, zooming past it, or inventing scene content outside the photographed crop. Complete newly revealed surfaces conservatively from the observed scene; Do not add, remove, morph, duplicate, rotate or animate objects. No cuts, camera jumps, turntable object motion, still-image sliding, text labels or rendered UI.",
+  "width": 960,
+  "height": 720,
+  "fps": 24.0,
+  "frames": 241,
+  "entry": "runtime/case/index.html?renderOverride=rgb",
+  "threejs_sha256": "62627146a88aad1d1ec6ad08908970319a11dc19fd59290649e6bca35a19c115",
+  "sources": [
+    {
+      "path": "original/case/scene.mjs",
+      "name": "case/scene.mjs",
+      "sha256": "39e176e0d074a898f2bc6c3300ea7e8033bb7215eafc4510e9a233419cb9b905",
+      "functions": [
+        {
+          "name": "buildScene",
+          "line": 3
+        },
+        {
+          "name": "mesh",
+          "line": 12
+        },
+        {
+          "name": "box",
+          "line": 20
+        },
+        {
+          "name": "tube",
+          "line": 31
+        },
+        {
+          "name": "beam",
+          "line": 35
+        },
+        {
+          "name": "noiseTexture",
+          "line": 46
+        },
+        {
+          "name": "panel",
+          "line": 109
+        },
+        {
+          "name": "downlight",
+          "line": 185
+        },
+        {
+          "name": "triangle",
+          "line": 232
+        },
+        {
+          "name": "blade",
+          "line": 235
+        },
+        {
+          "name": "frond",
+          "line": 254
+        },
+        {
+          "name": "setTime",
+          "line": 395
+        }
+      ]
+    },
+    {
+      "path": "original/case/runtime.mjs",
+      "name": "case/runtime.mjs",
+      "sha256": "ba05221cb5ca6fcdaaef37edb3c872f4b23674797396735d6e1e45e10f9fe708",
+      "functions": [
+        {
+          "name": "seek",
+          "line": 37
+        },
+        {
+          "name": "diagnostics",
+          "line": 54
+        },
+        {
+          "name": "streamFrame",
+          "line": 96
+        }
+      ]
+    },
+    {
+      "path": "original/case/camera-path.mjs",
+      "name": "case/camera-path.mjs",
+      "sha256": "672e7748af9e8c495321c369fe6aa4d0ec880b832b78fd4bf456984d2c2de97c",
+      "functions": [
+        {
+          "name": "interpolate",
+          "line": 7
+        },
+        {
+          "name": "cameraPose",
+          "line": 16
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "package": "astra-fern-safe-10s-review-v1",
+    "delivery_manifest_sha256": "11ad1aa4f23613ad3cecd027108685c0adbb18313bc79b0ce5cb29c4a127c9e4",
+    "source_spec_sha256": "8e85d17a1b55362b4ab106a15336b09ca09609eaeb0892fdb58cf84867ff4de5",
+    "runtime_spec_fields": [
+      "target",
+      "normalization.viewport"
+    ],
+    "source_program_sha256": "39e176e0d074a898f2bc6c3300ea7e8033bb7215eafc4510e9a233419cb9b905",
+    "result_sha256": "c2ad4733524c9a9a2554fced27b218e8cd47e30813bb197531cb20b842e1445d",
+    "input_fps": 30,
+    "output_fps": 24.0,
+    "proxy_role": "Original RGB generation input; no material override or recoloring.",
+    "timeline": "Original output clock; scene clamps to its authored 10-second duration.",
+    "publication_requested": "2026-09-22",
+    "runtime_parameters": {
+      "renderOverride": "rgb"
+    }
+  }
+}

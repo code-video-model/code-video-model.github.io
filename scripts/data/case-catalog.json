@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "nextId": 75,
+  "nextId": 84,
   "entries": {
     "reconstruction-3d-4d|442||": {
       "id": "R001",
@@ -1341,6 +1341,159 @@
         "product-new15-10": {
           "threejsSHA": "550701c0d0aa840caceb02c23433ff70d89ea0bc5e29e884268930718b1cc1d5",
           "result": "product-selected-20260912/product-new15-10/seed-44-9095f1e38c3254f5.mp4"
+        }
+      }
+    },
+    "anime|anime-hotel||": {
+      "id": "R075",
+      "section": "anime",
+      "a": "anime-hotel",
+      "b": "",
+      "selection": "",
+      "title": "Apocalypse Hotel",
+      "active": true,
+      "sectionTitle": "Anime",
+      "version": "apocalypse-hotel-20260919",
+      "sources": {
+        "anime-hotel": {
+          "threejsSHA": "b0afbeca4b711b53560bc126c5797c86f865d5c0c0989e751b221651db298521",
+          "result": "anime/anime-hotel/output-a21781b4e0aed258.mp4"
+        }
+      }
+    },
+    "anime|anime-nichijou||": {
+      "id": "R076",
+      "section": "anime",
+      "a": "anime-nichijou",
+      "b": "",
+      "selection": "",
+      "title": "Nichijou",
+      "active": true,
+      "sectionTitle": "Anime",
+      "version": "nichijou-20260919",
+      "sources": {
+        "anime-nichijou": {
+          "threejsSHA": "d96224ae25d8d247bc49bcf05c09a116d364cbb1b6c13f5b0d421cd562624818",
+          "result": "anime/anime-nichijou/output-b813ca20ef3423a6.mp4"
+        }
+      }
+    },
+    "anime|anime-kumiko||": {
+      "id": "R077",
+      "section": "anime",
+      "a": "anime-kumiko",
+      "b": "",
+      "selection": "",
+      "title": "Kumiko",
+      "active": true,
+      "sectionTitle": "Anime",
+      "version": "kumiko-20260919",
+      "sources": {
+        "anime-kumiko": {
+          "threejsSHA": "c6ede8bcf372ecefab965994538c3752c1745e5be85103dbe207c2dffe7fadd1",
+          "result": "anime/anime-kumiko/output-f6ff671ea777e3cc.mp4"
+        }
+      }
+    },
+    "anime|three-colossal||": {
+      "id": "R078",
+      "section": "anime",
+      "a": "three-colossal",
+      "b": "",
+      "selection": "",
+      "title": "Attack on Titan",
+      "active": true,
+      "sectionTitle": "Anime",
+      "version": "three-colossal-h3-6s-review-v1",
+      "sources": {
+        "three-colossal": {
+          "threejsSHA": "0190929b0fa08612f6df9ce564d00b95783b543356f6482f25e37b7438f548a7",
+          "result": "anime/three-colossal/output-0b755807fc2de3ea.mp4"
+        }
+      }
+    },
+    "long-horizon-style|rally-hairpin||": {
+      "id": "R079",
+      "section": "long-horizon-style",
+      "a": "rally-hairpin",
+      "b": "",
+      "selection": "",
+      "title": "Rally Hairpin",
+      "active": true,
+      "sectionTitle": "Bullet Time",
+      "version": "rally-hairpin-10s-final-v2",
+      "sources": {
+        "rally-hairpin": {
+          "threejsSHA": "de7604a279a0bc287a02a4cd69e14c60546feb6f9fcc3eab431d85f71deec6e8",
+          "result": "seedance/rally-hairpin/output-893f68a104465081.mp4"
+        }
+      }
+    },
+    "control-world-states|cockatiel-flight||": {
+      "id": "R080",
+      "section": "control-world-states",
+      "a": "cockatiel-flight",
+      "b": "",
+      "selection": "",
+      "title": "Cockatiel Flight",
+      "active": true,
+      "sectionTitle": "Gaming",
+      "version": "cockatiel-15s-v27-exact-reroll-final-v1",
+      "sources": {
+        "cockatiel-flight": {
+          "threejsSHA": "ea34cd4f106b18f005467d1c157e44d4550242bbcd4702d4cf29f996e9277d98",
+          "result": "seedance/cockatiel-flight/output-6b10b3c7a708bc2a.mp4"
+        }
+      }
+    },
+    "control-world-states|fishing-lake-strike||": {
+      "id": "R081",
+      "section": "control-world-states",
+      "a": "fishing-lake-strike",
+      "b": "",
+      "selection": "",
+      "title": "Lake Fishing",
+      "active": true,
+      "sectionTitle": "Gaming",
+      "version": "fishing-lake-strike-8s-final-v1",
+      "sources": {
+        "fishing-lake-strike": {
+          "threejsSHA": "9f8cadc45425e534bfa8f544ceb34508384ba48d219d7dcf34622067d0be492a",
+          "result": "seedance/fishing-lake-strike/output-fb5c8fdb1f3ce801.mp4"
+        }
+      }
+    },
+    "reconstruction-3d-4d|astra-cook-spinach||": {
+      "id": "R082",
+      "section": "reconstruction-3d-4d",
+      "a": "astra-cook-spinach",
+      "b": "",
+      "selection": "",
+      "title": "Cook Spinach",
+      "active": true,
+      "sectionTitle": "3D / 4D Reconstruction",
+      "version": "Code Video delivery / astra-cook-spinach-10s-review-v1 / centered 960x540 24FPS",
+      "sources": {
+        "astra-cook-spinach": {
+          "threejsSHA": "4e8b217375ad0a3efa39163f70b577207f1f461b2ce09e19d3b990cab240cfd5",
+          "result": "code-video-model/reconstruction-3d-4d/astra-cook-spinach-3184e6259cdb.mp4"
+        }
+      }
+    },
+    "reconstruction-3d-4d|astra-fern-safe||": {
+      "id": "R083",
+      "section": "reconstruction-3d-4d",
+      "a": "astra-fern-safe",
+      "b": "",
+      "selection": "",
+      "title": "Fern",
+      "active": true,
+      "sectionTitle": "3D / 4D Reconstruction",
+      "version": "astra-fern-safe-10s-review-v1",
+      "sources": {
+        "astra-fern-safe": {
+          "threejsSHA": "62627146a88aad1d1ec6ad08908970319a11dc19fd59290649e6bca35a19c115",
+          "result": "fern/code_video_model-c2ad4733524c9a9a.mp4"
         }
       }
     }

@@ -1,0 +1,26 @@
+{
+  "schema": "three-colossal-staging-cast-v1",
+  "mainPolicy": "Copy main-colossal configuration without numerical changes.",
+  "backgrounds": [
+    {
+      "id": "background-colossal-left",
+      "role": "background",
+      "origin": [-125, 0, 5],
+      "velocity": [0, 0, -0.38],
+      "period": 7.4,
+      "phase": 0.13
+    },
+    {
+      "id": "background-colossal-right",
+      "role": "background",
+      "origin": [-25, 0, -128],
+      "velocity": [0, 0, -0.46],
+      "period": 8.2,
+      "phase": 0.46
+    }
+  ],
+  "heightM": 60,
+  "anatomy": "Exact main Colossal mesh, skinning weights and anatomical envelopes; primary-only hook/protected arm behavior excluded by stable actor ID.",
+  "backgroundSteam": false,
+  "ruinChanges": []
+}

@@ -1,8 +1,59 @@
 # 本地定制记录
 
+## 恢复炒菠菜并加入 Fern（2026-09-22）
+
+按用户选择，将 `astra-cook-spinach` 的 `gallery_visible` 恢复为 true，并恢复分类卡片；原有网页视频、源码、10 秒时间线及中心裁切适配保持原样。新增 `astra-fern-safe`（Fern），两者均放在 3D / 4D Reconstruction，分类现在共 10 个入口，全页共 82 个入口。其余 8 个隐藏案例保留原有选择，未加入动漫吐司少女。
+
+Fern 来自 `astra-fern-safe-10s-review-v1`，逐一核验交付清单中的视频、参考图和源码 SHA256。保留原始 1112×834、24 FPS、241 帧输出及 960×720、30 FPS、10 秒彩色生成粗模；不转码、不裁剪、不变速。实时场景以原始相机路径运行，显式采用 `renderOverride=rgb`，按输出秒数同步，超过 10 秒的最后一个输出采样沿用场景自身的末端限制。View Code 展示原程序，运行副本仅增加工作台捕获接口；运行 spec 仅保留所需字段，未发布交付包内的本地照片路径或请求记录。交付包原审阅状态留作来源记录，新增本次发布请求日期。
+
+复现：`python3 scripts/import_fern_and_restore_cook.py --bundle ../code_videooutput/deliverables/astra-fern-safe-10s-review-v1`。验收：`npm run test:fern-cook`，支持 `DEMO_URL` 与 `BROWSER_EXECUTABLE`；验证固定素材哈希、其余隐藏状态、卡片/深链接、实时相机轨迹、播放暂停/拖动、View Code、返回、Range 和手机窄屏。
+
+本地 8795 和当前 Cloudflare 公网地址均已通过上述验收，无 HTTP/脚本错误；已检查桌面与 390px 窄屏截图，手机测试为浏览器模拟。原有记录除炒菠菜可见性外均保持不变。
+
+## Seedance 案例补充（2026-09-22）
+
+核对视频制作会话和 `VideoDemo/public/assets/v9/manifest.json` 后，补入之前未上站的三个案例：Bullet Time 下的 Rally Hairpin（`rally-hairpin`），Gaming 下的 Cockatiel Flight（`cockatiel-flight`）和 Lake Fishing（`fishing-lake-strike`）。保留全部原有分类、首页主展示、Anime 和产品案例，现为 11 类、80 个案例入口。
+
+赛车使用最终 v2 的成片、匹配 RGB proxy 和带转向时间映射的源程序；鹦鹉使用 v27 完整 15 秒成片及 refined15 彩色展示源码/proxy，来源记录明确该配色为生成后的展示处理，原始生成输入为灰模；钓鱼使用原始 generation proxy 和相应源码，未混用交付包中的后期 aligned proxy。所有视频原样复制并验证 SHA256，未采用宣传片剪辑、变速或重新编码。封面取原视频 1 秒时刻，保留原尺寸无损 WebP，视频按需加载。
+
+运行副本仅加入工作台捕获接口；View Code 展示对应版本的原始程序，原文件哈希记录在 `case.json`。仅引入运行需要的源码、Three.js 及许可证，不发布制作会话、请求记录或研究脚本。
+
+复现：`python3 scripts/import_seedance_cases.py --public-root ../VideoDemo/public --deliveries ../code_videooutput/deliverables`。验收：`npm run test:seedance`，支持 `DEMO_URL` 和 `BROWSER_EXECUTABLE`，检查媒体/源码固定哈希、完整时长、分类入口、直接链接、实时场景、同步拖动、播放暂停、View Code、返回、Range/206、手机窄屏和脚本/HTTP 错误。
+
+以上验收已在本地 8795 和当前 Cloudflare 公网地址通过；390px 手机视口为浏览器模拟，未做手机实机测试。重复导入的页面/注册表内容一致，原有 87 条素材及交互记录保持不变。
+
+## Anime 分类（2026-09-20）
+
+新增 Anime 分类（位于 3D / 4D Reconstruction 后），包含 Apocalypse Hotel、Nichijou、Kumiko、Attack on Titan。首页以 Apocalypse Hotel 为斜线拖动对比，其余三个案例组成延迟加载拼贴；点击分类原位展开四个案例，支持原有 iframe 工作台、同步播放/时间轴、View Code、返回及 case/category 深链接。保留现有十个分类和远端 eabbc32 新增的产品案例，共 11 类、77 个案例入口。
+
+素材按 `VideoDemo/out/v9-refined30/anime-assets.json` 的 SHA256 逐一核验后原样复制；不转码、不重定时。三个新场景的运行入口显式使用 `?motion=1`，View Code 展示未改动的真实源程序，并注明启用的运行参数。进击巨人使用 refined11 中原始 scene.mjs 及其 JSON/模块依赖，按输出 24 FPS 时钟在原 6 秒时间线上采样；其 proxy 仍为原始 30 FPS 文件。封面取对应视频 1 秒时刻，保留原像素尺寸的无损 WebP，网格使用小尺寸缩略图。
+
+导入脚本：`python3 scripts/import_anime_cases.py --public-root ../VideoDemo/public --manifest ../VideoDemo/out/v9-refined30/anime-assets.json`。仅 runtime 增加工作台捕获接口和采样时跳过渲染的适配；原始程序和媒体保留 SHA256。
+
+验收脚本：`npm run test:anime`，可通过 `DEMO_URL` 显式指定公网地址、通过 `BROWSER_EXECUTABLE` 指定浏览器。覆盖新旧案例数量、按需媒体加载、四个场景动画与同步播放/拖动、当前源码/运行参数、返回、独立 Gallery、桌面及 390px 手机布局，并检查脚本和 HTTP 错误。
+
+
 ## 分类网址去除锚点
 
 分类展开、案例切换和返回不再向地址附加 #分类名，返回概览时同步清理残留锚点。旧分类锚点链接仍能定位并自动整理地址；case / selection / category 查询参数保留以支持刷新和分享，非分类锚点不受影响。clean-navigation-url.cjs 覆盖首页、旧锚点、案例深链接和独立 Gallery。
+
+## Demo 渐进播放修复（2026-09-12）
+
+原播放器通过 `fetch` 在 20 秒内下载完整的 67.6 MB 为 Blob，再调用播放；慢网可能连续超时。现改为点击 Watch 时直接设置视频 URL 并在用户手势内调用 `play()`，由浏览器通过 Range / 206 按需加载。保留当前 1080p 视频及原音轨，进入首页不会提前请求 Demo。
+
+增加加载取消、原生媒体错误提示、45 秒起播或缓冲等待上限，以及失败后在原播放位置重试；取消时清除待播放资源，旧播放 Promise 不会覆盖新的状态。保留原生暂停/拖动、Gallery 互斥暂停和离开页面取消。加载提示与按钮分开排布，脚本和 CSS 查询版本更新为 v2。
+
+`tests/demo-progressive.cjs` 接受 `DEMO_URL` 和 `BROWSER_EXECUTABLE`，检查真实媒体请求、慢网部分下载起播、音频解码、跳播、Gallery 暂停、取消、HTTP 503、播放中断后恢复位置，以及连接挂起后的超时提示。公网地址上 4 Mbps / 150 ms 延迟模拟测试约 1 秒起播，起播仅下载约 381 KB；该模拟结果不代表合作者实际地理位置和网络。
+
+## V9 Refined28 Demo 网页压制版（2026-09-12）
+
+按用户要求，首页改用 `VideoDemo/out/v9-refined28/CodeVideoPromoV9Refined_1080p_render.mp4` 的网页压制版 `static/demo/CodeVideoPromoV9Refined28_1080p_web_x264.mp4`。源文件 210,677,681 bytes；成品 67,644,248 bytes，减少约 68%。保留 1920×1080、30 FPS、4,139 帧、137.966667 秒和原 AAC 立体声音轨，音频数据 SHA256 校验一致。
+
+FFmpeg 参数：`-vf scale=in_range=full:out_range=limited:out_color_matrix=bt709,format=yuv420p -c:v libx264 -preset slow -crf 25 -threads 8 -profile:v high -level:v 4.0 -colorspace bt709 -color_range tv -g 90 -c:a copy -movflags +faststart`。从源文件压制，未裁剪或缩放；采用新文件名避免旧视频缓存。成品 SHA256：`d3dee3434c2c935a3eebed20032188584e294791aa84139784fa4d7e231fdc9c`。
+
+封面仍取成品第 30 帧（1 秒）的完整开场标题，保留 1920×1080 无损 PNG / WebP，并同步选帧配置和素材清单。播放从头开始，现有加载、取消、重试、暂停和拖动逻辑保持。旧 Demo 和旧封面保留以便回退；用户原视频未改动。
+
+验证：通过当前 Cloudflare 公网 URL 检查首页和新封面、MP4 HEAD / Range 206、完整文件 SHA256；Chrome 自动化通过 1440px / 390px 布局、按需加载、从头播放、音轨解码、拖动到 60 秒、续播和暂停，未发现页面脚本错误或请求失败。本机经公网隧道实测点击至起播约 1.03 秒，不代表其他地区或手机实机网络。另通过原生封面清单测试及 FFmpeg 全片解码检查。
 
 ## V9 Demo 视频（2026-09-12）
 

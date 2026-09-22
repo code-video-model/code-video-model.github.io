@@ -1,5 +1,5 @@
 {
-  "static/demo/CodeVideoPromoV9Refined_1080p_render_x264.mp4": {
+  "static/demo/CodeVideoPromoV9Refined28_1080p_web_x264.mp4": {
     "frame_index": 30,
     "note": "1 second at 30 FPS: complete opening title, What if a video started as code?, selected at the user's request."
   },
@@ -30,5 +30,69 @@
   },
   "static/project-page-cases/code-video-model/physical-grounding/physical-pendulum.mp4": {
     "frame_index": 24
+  },
+  "static/project-page-cases/anime/anime-hotel/threejs-b0afbeca4b711b53.mp4": {
+    "frame_index": 24,
+    "note": "One second; proxy/output use the same time."
+  },
+  "static/project-page-cases/anime/anime-hotel/output-a21781b4e0aed258.mp4": {
+    "frame_index": 24,
+    "note": "One second; proxy/output use the same time."
+  },
+  "static/project-page-cases/anime/anime-nichijou/threejs-d96224ae25d8d247.mp4": {
+    "frame_index": 24,
+    "note": "One second; proxy/output use the same time."
+  },
+  "static/project-page-cases/anime/anime-nichijou/output-b813ca20ef3423a6.mp4": {
+    "frame_index": 24,
+    "note": "One second; proxy/output use the same time."
+  },
+  "static/project-page-cases/anime/anime-kumiko/threejs-c6ede8bcf372ecef.mp4": {
+    "frame_index": 24,
+    "note": "One second; proxy/output use the same time."
+  },
+  "static/project-page-cases/anime/anime-kumiko/output-f6ff671ea777e3cc.mp4": {
+    "frame_index": 24,
+    "note": "One second; proxy/output use the same time."
+  },
+  "static/project-page-cases/anime/three-colossal/threejs-0190929b0fa08612.mp4": {
+    "frame_index": 30,
+    "note": "One second; proxy/output use the same time."
+  },
+  "static/project-page-cases/anime/three-colossal/output-0b755807fc2de3ea.mp4": {
+    "frame_index": 24,
+    "note": "One second; proxy/output use the same time."
+  },
+  "static/project-page-cases/seedance/rally-hairpin/threejs-de7604a279a0bc28.mp4": {
+    "frame_index": 30,
+    "note": "One second on the original media clock; no retiming."
+  },
+  "static/project-page-cases/seedance/rally-hairpin/output-893f68a104465081.mp4": {
+    "frame_index": 24,
+    "note": "One second on the original media clock; no retiming."
+  },
+  "static/project-page-cases/seedance/cockatiel-flight/threejs-ea34cd4f106b18f0.mp4": {
+    "frame_index": 30,
+    "note": "One second on the original media clock; no retiming."
+  },
+  "static/project-page-cases/seedance/cockatiel-flight/output-6b10b3c7a708bc2a.mp4": {
+    "frame_index": 24,
+    "note": "One second on the original media clock; no retiming."
+  },
+  "static/project-page-cases/seedance/fishing-lake-strike/threejs-9f8cadc45425e534.mp4": {
+    "frame_index": 30,
+    "note": "One second on the original media clock; no retiming."
+  },
+  "static/project-page-cases/seedance/fishing-lake-strike/output-fb5c8fdb1f3ce801.mp4": {
+    "frame_index": 24,
+    "note": "One second on the original media clock; no retiming."
+  },
+  "static/project-page-cases/code-video-model/reconstruction-3d-4d/astra-cook-spinach-3184e6259cdb.mp4": {
+    "frame_index": 24,
+    "note": "Original one-second output frame."
+  },
+  "static/project-page-cases/fern/code_video_model-c2ad4733524c9a9a.mp4": {
+    "frame_index": 24,
+    "note": "Original one-second output frame."
   }
 }
