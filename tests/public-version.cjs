@@ -16,7 +16,7 @@ const base = process.env.DEMO_URL || 'http://127.0.0.1:8795/';
     await page.screenshot({path: path.join(output, process.env.REFERENCE_ONLY ? 'reference-home.png':'local-home.png'), fullPage:true});
     if (process.env.REFERENCE_ONLY) return;
     const mapping = await page.evaluate(() => fetch('static/images/application-previews/manifest.json').then(r=>r.json()));
-    assert.equal(mapping.length,10);
+    assert.equal(mapping.length,9);
     const cards = page.locator('.application-preview');
     for (let i=0;i<mapping.length;i++) {
       assert.equal(await cards.nth(i).getAttribute('data-case'), String(mapping[i].case_id));

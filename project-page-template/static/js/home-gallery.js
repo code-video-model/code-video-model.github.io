@@ -156,13 +156,18 @@ async function initialize(){
   announceReady();
   function restoreURL(){
     const url=new URL(location.href),caseId=url.searchParams.get('case'),selection=url.searchParams.get('selection')||'';
+    const requestedCategory=url.searchParams.get('category');
+    const categoryAliases={'trajectory-variation':'robotics-simulation','scientific-visualization':'physical-grounding'};
+    const category=categoryAliases[requestedCategory]||requestedCategory;
     if(caseId){
-      for(const record of records.values()){
+      const preferred=records.get(category);
+      const candidates=preferred?[preferred,...[...records.values()].filter(record=>record!==preferred)]:records.values();
+      for(const record of candidates){
         const link=[...record.host.querySelectorAll('.fps-case-bubble')].find(n=>(n.dataset.case===caseId||n.dataset.caseB===caseId)&&(n.dataset.selection||'')===selection);
         if(link){open(record,{navigate:false});pin(record.shell);record.world.open(link,link.dataset.caseB===caseId?'b':'a');return;}
       }
       const notice=document.createElement('p');notice.className='integrated-gallery-error';notice.setAttribute('role','alert');notice.textContent=`This result is unavailable. Choose a category below.`;document.querySelector('.gallery-intro').append(notice);
-    }else if(records.has(url.searchParams.get('category'))){const record=records.get(url.searchParams.get('category'));open(record,{navigate:false});pin(record.shell);}
+    }else if(records.has(category)){const record=records.get(category);open(record,{navigate:false});pin(record.shell);}
     else if(active)collapse(active,{navigate:false});
   }
   restoreURL();addEventListener('popstate',restoreURL);

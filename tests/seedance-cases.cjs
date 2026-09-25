@@ -32,10 +32,10 @@ assert.match(cases[2].meta.provenance.proxy_role,/Original generation input/);
   page.on('response',r=>{if(r.url().startsWith(base)&&r.status()>=400)errors.push(`${r.status()} ${r.url()}`);});
   page.on('request',r=>{if(r.url().includes('.mp4'))media.push(r.url());});
   await page.goto(base,{waitUntil:'networkidle'});await page.waitForFunction(()=>window.homeGalleryReady);
-  assert.equal(await page.locator('.category-shell').count(),11);
-  assert.equal(await page.locator('.category-shell .fps-case-bubble').count(),82);
+  assert.equal(await page.locator('.category-shell').count(),9);
+  assert.equal(await page.locator('.category-shell .fps-case-bubble').count(),62);
   assert.equal(await page.locator('#anime .fps-case-bubble').count(),4);
-  assert.equal(await page.locator('#product-cinematography .fps-case-bubble').count(),12);
+  assert.equal(await page.locator('#product-cinematography .fps-case-bubble').count(),8);
   assert.equal(media.length,0,'No eager video downloads');
   for(const c of cases){
    const range=await page.request.get(base+'static/project-page-cases/'+c.record.code_video_model,{headers:{Range:'bytes=0-99'}});
@@ -90,6 +90,6 @@ assert.match(cases[2].meta.provenance.proxy_role,/Original generation input/);
   await page.goto(base+'gallery.html');
   for(const c of cases)assert.equal(await page.locator(`#${c.section} .fps-case-bubble[data-case="${c.id}"]`).count(),1);
   assert.deepEqual(errors,[]);
-  console.log('PASS 82 cards, existing Anime/products retained, mobile viewport, standalone gallery, no HTTP/script errors:',base);
+  console.log('PASS 62 cards, existing Anime/products retained, mobile viewport, standalone gallery, no HTTP/script errors:',base);
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

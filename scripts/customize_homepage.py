@@ -8,7 +8,7 @@ from build_native_posters import ensure_poster, main as refresh_native_posters
 
 ROOT=Path(__file__).resolve().parents[1]/'project-page-template'
 ORDER=['reconstruction-3d-4d','long-horizon-style','gallery','architectural-cinematics','product-cinematography','scientific-visualization','robotics-simulation','trajectory-variation','control-world-states']
-CHOICES={'reconstruction-3d-4d':'R003','long-horizon-style':'R011','architectural-cinematics':'R050','control-world-states':'R024'}
+CHOICES={'reconstruction-3d-4d':'R003','long-horizon-style':'R011','architectural-cinematics':'R050','control-world-states':'R022'}
 
 def main():
     if 'data-integrated-gallery' in (ROOT/'index.html').read_text(encoding='utf-8'):

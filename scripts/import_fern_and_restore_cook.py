@@ -100,14 +100,14 @@ def publish(bundle):
               'reference_image_sha256': expected['references/reference-frame.png'],
               'display_code_video_model': paths['code_video_model'], 'display_code_video_model_sha256': output_sha,
               'display_code_video_model_setting': bundle.name, 'interactive_source': case + '/',
-              'gallery_visible': True, 'source_package_status': manifest['status'],
+              'gallery_visible': False, 'source_package_status': manifest['status'],
               'source_creative_accepted': manifest['creativeAccepted'], 'display_code_video_model_provenance': provenance}
     prompts['items'] = [r for r in prompts['items'] if r['case_id'] != case] + [record]
     catalog['cases'] = [r for r in catalog['cases'] if r['case_id'] != case] + [{'case_id': case, 'session': record['session']}]
     cook = next(r for r in prompts['items'] if r['case_id'] == 'astra-cook-spinach')
     cook['gallery_visible'] = True
     cards = []
-    for item, title in [(cook, 'Cook Spinach'), (record, 'Fern')]:
+    for item, title in [(cook, 'Cook Spinach')]:
         cid = item['case_id']
         video = SITE / 'static/project-page-cases' / item['display_code_video_model']
         digest = item['display_code_video_model_sha256']

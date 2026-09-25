@@ -1,33 +1,40 @@
 {
-  "count": 91,
+  "count": 93,
   "cases": [
     {
       "case_id": "first-person-009",
-      "session": "Gaming"
+      "session": "Gaming",
+      "display_name": "Gaming_01"
     },
     {
       "case_id": "first-person-007",
-      "session": "Gaming"
+      "session": "Gaming",
+      "display_name": "Gaming_02"
     },
     {
       "case_id": "first-person-014",
-      "session": "Gaming"
+      "session": "Gaming",
+      "display_name": "Gaming_03"
     },
     {
       "case_id": "first-person-030",
-      "session": "Gaming"
+      "session": "Gaming",
+      "display_name": "Gaming_04"
     },
     {
       "case_id": "121",
-      "session": "Gaming"
+      "session": "Gaming",
+      "display_name": "Gaming_05"
     },
     {
       "case_id": "132",
-      "session": "Gaming"
+      "session": "Gaming",
+      "display_name": "Gaming_06"
     },
     {
       "case_id": "322",
-      "session": "Gaming"
+      "session": "Gaming",
+      "display_name": "Gaming_07"
     },
     {
       "case_id": "93",
@@ -35,11 +42,13 @@
     },
     {
       "case_id": "505",
-      "session": "Bullet Time"
+      "session": "Bullet Time",
+      "display_name": "Bullet_Time_01"
     },
     {
       "case_id": "508",
-      "session": "Bullet Time"
+      "session": "Bullet Time",
+      "display_name": "Bullet_Time_02"
     },
     {
       "case_id": "509",
@@ -47,7 +56,8 @@
     },
     {
       "case_id": "518",
-      "session": "Bullet Time"
+      "session": "Bullet Time",
+      "display_name": "Bullet_Time_03"
     },
     {
       "case_id": "521",
@@ -59,35 +69,43 @@
     },
     {
       "case_id": "583",
-      "session": "Scene / World Editing"
+      "session": "Scene / World Editing",
+      "display_name": "Scene_World_Editing_01"
     },
     {
       "case_id": "663",
-      "session": "Scene / World Editing"
+      "session": "Scene / World Editing",
+      "display_name": "Scene_World_Editing_01"
     },
     {
       "case_id": "586",
-      "session": "Scene / World Editing"
+      "session": "Scene / World Editing",
+      "display_name": "Scene_World_Editing_02"
     },
     {
       "case_id": "666",
-      "session": "Scene / World Editing"
+      "session": "Scene / World Editing",
+      "display_name": "Scene_World_Editing_02"
     },
     {
       "case_id": "601",
-      "session": "Scene / World Editing"
+      "session": "Scene / World Editing",
+      "display_name": "Scene_World_Editing_03"
     },
     {
       "case_id": "681",
-      "session": "Scene / World Editing"
+      "session": "Scene / World Editing",
+      "display_name": "Scene_World_Editing_03"
     },
     {
       "case_id": "590",
-      "session": "Scene / World Editing"
+      "session": "Scene / World Editing",
+      "display_name": "Scene_World_Editing_04"
     },
     {
       "case_id": "670",
-      "session": "Scene / World Editing"
+      "session": "Scene / World Editing",
+      "display_name": "Scene_World_Editing_04"
     },
     {
       "case_id": "595",
@@ -99,19 +117,23 @@
     },
     {
       "case_id": "591",
-      "session": "Scene / World Editing"
+      "session": "Scene / World Editing",
+      "display_name": "Scene_World_Editing_06"
     },
     {
       "case_id": "671",
-      "session": "Scene / World Editing"
+      "session": "Scene / World Editing",
+      "display_name": "Scene_World_Editing_06"
     },
     {
       "case_id": "563",
-      "session": "Robotics Simulation"
+      "session": "Robotics Simulation",
+      "display_name": "Robotics_Trajectory_Control_01"
     },
     {
       "case_id": "564",
-      "session": "Robotics Simulation"
+      "session": "Robotics Simulation",
+      "display_name": "Robotics_Trajectory_Control_01"
     },
     {
       "case_id": "567",
@@ -123,11 +145,13 @@
     },
     {
       "case_id": "571",
-      "session": "Robotics Simulation"
+      "session": "Robotics Simulation",
+      "display_name": "Robotics_Trajectory_Control_05"
     },
     {
       "case_id": "572",
-      "session": "Robotics Simulation"
+      "session": "Robotics Simulation",
+      "display_name": "Robotics_Trajectory_Control_05"
     },
     {
       "case_id": "577",
@@ -147,7 +171,8 @@
     },
     {
       "case_id": "481",
-      "session": "Architectural Cinematics"
+      "session": "Architectural Cinematics",
+      "display_name": "Architectural_Cinematics_06"
     },
     {
       "case_id": "490",
@@ -155,11 +180,13 @@
     },
     {
       "case_id": "624",
-      "session": "Product Cinematography"
+      "session": "Product Cinematography",
+      "display_name": "Product_Cinematography_01"
     },
     {
       "case_id": "625",
-      "session": "Product Cinematography"
+      "session": "Product Cinematography",
+      "display_name": "Product_Cinematography_02"
     },
     {
       "case_id": "632",
@@ -167,11 +194,13 @@
     },
     {
       "case_id": "636",
-      "session": "Product Cinematography"
+      "session": "Product Cinematography",
+      "display_name": "Product_Cinematography_03"
     },
     {
       "case_id": "640",
-      "session": "Product Cinematography"
+      "session": "Product Cinematography",
+      "display_name": "Product_Cinematography_04"
     },
     {
       "case_id": "641",
@@ -203,23 +232,28 @@
     },
     {
       "case_id": "643",
-      "session": "Architectural Cinematics"
+      "session": "Architectural Cinematics",
+      "display_name": "Architectural_Cinematics_01"
     },
     {
       "case_id": "646",
-      "session": "Architectural Cinematics"
+      "session": "Architectural Cinematics",
+      "display_name": "Architectural_Cinematics_05"
     },
     {
       "case_id": "649",
-      "session": "Architectural Cinematics"
+      "session": "Architectural Cinematics",
+      "display_name": "Architectural_Cinematics_04"
     },
     {
       "case_id": "656",
-      "session": "Architectural Cinematics"
+      "session": "Architectural Cinematics",
+      "display_name": "Architectural_Cinematics_02"
     },
     {
       "case_id": "657",
-      "session": "Architectural Cinematics"
+      "session": "Architectural Cinematics",
+      "display_name": "Architectural_Cinematics_03"
     },
     {
       "case_id": "659",
@@ -227,27 +261,33 @@
     },
     {
       "case_id": "442",
-      "session": "3D / 4D Reconstruction"
+      "session": "3D / 4D Reconstruction",
+      "display_name": "3D_4D_Reconstruction_03"
     },
     {
       "case_id": "astra-bicycle",
-      "session": "3D / 4D Reconstruction"
+      "session": "3D / 4D Reconstruction",
+      "display_name": "3D_4D_Reconstruction_01"
     },
     {
       "case_id": "astra-garden-gray",
-      "session": "3D / 4D Reconstruction"
+      "session": "3D / 4D Reconstruction",
+      "display_name": "3D_4D_Reconstruction_02"
     },
     {
       "case_id": "astra-cook-spinach",
-      "session": "3D / 4D Reconstruction"
+      "session": "3D / 4D Reconstruction",
+      "display_name": "3D_4D_Reconstruction_06"
     },
     {
       "case_id": "astra-bonsai",
-      "session": "3D / 4D Reconstruction"
+      "session": "3D / 4D Reconstruction",
+      "display_name": "3D_4D_Reconstruction_05"
     },
     {
       "case_id": "astra-room-gray",
-      "session": "3D / 4D Reconstruction"
+      "session": "3D / 4D Reconstruction",
+      "display_name": "3D_4D_Reconstruction_04"
     },
     {
       "case_id": "astra-truck",
@@ -255,27 +295,33 @@
     },
     {
       "case_id": "astra-kitchen",
-      "session": "3D / 4D Reconstruction"
+      "session": "3D / 4D Reconstruction",
+      "display_name": "3D_4D_Reconstruction_07"
     },
     {
       "case_id": "astra-train",
-      "session": "3D / 4D Reconstruction"
+      "session": "3D / 4D Reconstruction",
+      "display_name": "3D_4D_Reconstruction_08"
     },
     {
       "case_id": "cs2-active-duel",
-      "session": "Gaming"
+      "session": "Gaming",
+      "display_name": "Gaming_08"
     },
     {
       "case_id": "wyvern-siege-fpv",
-      "session": "Gaming"
+      "session": "Gaming",
+      "display_name": "Gaming_09"
     },
     {
       "case_id": "black-hole-background-grade",
-      "session": "Scientific Visualization"
+      "session": "Scientific Visualization",
+      "display_name": "Physical_Grounding_05"
     },
     {
       "case_id": "stable-mass-transfer-binary",
-      "session": "Scientific Visualization"
+      "session": "Scientific Visualization",
+      "display_name": "Physical_Grounding_06"
     },
     {
       "case_id": "434",
@@ -284,23 +330,28 @@
     },
     {
       "case_id": "303",
-      "session": "Gaming"
+      "session": "Gaming",
+      "display_name": "Gaming_10"
     },
     {
       "case_id": "physical-induction",
-      "session": "Physical Grounding"
+      "session": "Physical Grounding",
+      "display_name": "Physical_Grounding_03"
     },
     {
       "case_id": "physical-isochronous",
-      "session": "Physical Grounding"
+      "session": "Physical Grounding",
+      "display_name": "Physical_Grounding_01"
     },
     {
       "case_id": "physical-prism",
-      "session": "Physical Grounding"
+      "session": "Physical Grounding",
+      "display_name": "Physical_Grounding_04"
     },
     {
       "case_id": "physical-pendulum",
-      "session": "Physical Grounding"
+      "session": "Physical Grounding",
+      "display_name": "Physical_Grounding_02"
     },
     {
       "case_id": "product-new15-01",
@@ -312,7 +363,8 @@
     },
     {
       "case_id": "product-new15-04",
-      "session": "Product Cinematography"
+      "session": "Product Cinematography",
+      "display_name": "Product_Cinematography_08"
     },
     {
       "case_id": "product-new15-05",
@@ -320,15 +372,18 @@
     },
     {
       "case_id": "product-new15-06",
-      "session": "Product Cinematography"
+      "session": "Product Cinematography",
+      "display_name": "Product_Cinematography_07"
     },
     {
       "case_id": "product-new15-07",
-      "session": "Product Cinematography"
+      "session": "Product Cinematography",
+      "display_name": "Product_Cinematography_05"
     },
     {
       "case_id": "product-new15-09",
-      "session": "Product Cinematography"
+      "session": "Product Cinematography",
+      "display_name": "Product_Cinematography_06"
     },
     {
       "case_id": "product-new15-10",
@@ -336,35 +391,52 @@
     },
     {
       "case_id": "anime-hotel",
-      "session": "Anime"
+      "session": "Anime",
+      "display_name": "Anime_01"
     },
     {
       "case_id": "anime-nichijou",
-      "session": "Anime"
+      "session": "Anime",
+      "display_name": "Anime_03"
     },
     {
       "case_id": "anime-kumiko",
-      "session": "Anime"
+      "session": "Anime",
+      "display_name": "Anime_02"
     },
     {
       "case_id": "three-colossal",
-      "session": "Anime"
+      "session": "Anime",
+      "display_name": "Anime_04"
     },
     {
       "case_id": "rally-hairpin",
-      "session": "Bullet Time"
+      "session": "Bullet Time",
+      "display_name": "Bullet_Time_04"
     },
     {
       "case_id": "cockatiel-flight",
-      "session": "Gaming"
+      "session": "Gaming",
+      "display_name": "Gaming_11"
     },
     {
       "case_id": "fishing-lake-strike",
-      "session": "Gaming"
+      "session": "Gaming",
+      "display_name": "Gaming_12"
     },
     {
       "case_id": "astra-fern-safe",
       "session": "3D / 4D Reconstruction"
+    },
+    {
+      "case_id": "rolling-inertia",
+      "session": "Physical Grounding",
+      "display_name": "Physical_Grounding_07"
+    },
+    {
+      "case_id": "newtons-cradle",
+      "session": "Physical Grounding",
+      "display_name": "Physical_Grounding_08"
     }
   ]
 }

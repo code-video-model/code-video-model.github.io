@@ -1,6 +1,7 @@
 import { setupComparison } from './diagonal-comparison.js';
 import { createPreviewEditDiff } from './preview-edit-diff.js';
 import { hydratePoster } from './lazy-posters.js';
+import { editVariantLabels } from './code-display-names.mjs';
 
 let activePair;
 const previews = [];
@@ -15,6 +16,11 @@ for (const card of document.querySelectorAll('.application-preview')) {
   const status = card.querySelector('.application-status');
   let group = card.querySelector('.application-edit-controls');
   let toggle = card.querySelector('.application-variant-toggle');
+  const bubble=[...card.closest('.category-shell')?.querySelectorAll('.fps-case-bubble')||[]].find(link=>
+    link.dataset.case===card.dataset.case
+    && (link.dataset.caseB||'')===(card.dataset.caseB||'')
+    && (link.dataset.selection||'')===(card.dataset.selection||''));
+  const caseLabels=editVariantLabels(card.dataset.displayName||bubble?.dataset.title,card.dataset.case,card.dataset.caseB);
   if(!toggle&&card.dataset.caseB){
     const label=group?.querySelector('.application-edit')?.textContent||card.dataset.editLabel||'Apply edit';
     if(!group){group=document.createElement('div');group.className='application-edit-controls';}
@@ -217,7 +223,7 @@ for (const card of document.querySelectorAll('.application-preview')) {
     updateEditControls();
     editController=new AbortController();
     const operation=editController;
-    const visual=createPreviewEditDiff(card,variant==='a'?card.dataset.case:card.dataset.caseB,target==='a'?card.dataset.case:card.dataset.caseB,card.dataset.selection||'',operation.signal,target==='a');
+    const visual=createPreviewEditDiff(card,variant==='a'?card.dataset.case:card.dataset.caseB,target==='a'?card.dataset.case:card.dataset.caseB,card.dataset.selection||'',operation.signal,target==='a',{caseLabels});
     editTransition=visual;
     try {
       await visual.freeze();

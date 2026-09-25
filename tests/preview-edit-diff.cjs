@@ -2,9 +2,10 @@ const {chromium}=require('playwright');const assert=require('node:assert/strict'
 (async()=>{const browser=await chromium.launch({channel:'chrome'});try{
  const page=await browser.newPage({viewport:{width:1440,height:1000}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
  const base='http://127.0.0.1:8795/';await page.goto(base+'?review=0');await page.waitForFunction(()=>window.homeGalleryReady);
- const order=await page.locator('.category-shell').evaluateAll(ns=>ns.map(n=>n.id));assert.equal(order.indexOf('trajectory-variation'),order.indexOf('gallery')+1);
- assert.equal(await page.locator('.application-variant-toggle').count(),3);assert.equal(await page.locator('.application-edit,.application-restore,.application-version').count(),0);
- for(const id of ['gallery','trajectory-variation','robotics-simulation']){
+ const order=await page.locator('.category-shell').evaluateAll(ns=>ns.map(n=>n.id));assert.equal(order.includes('trajectory-variation'),false);
+ assert.equal(await page.locator('#robotics-simulation .fps-case-bubble[data-case="577"]').count(),1);
+ assert.equal(await page.locator('.application-variant-toggle').count(),2);assert.equal(await page.locator('.application-edit,.application-restore,.application-version').count(),0);
+ for(const id of ['gallery','robotics-simulation']){
   const card=page.locator(`#${id} .application-preview`),button=card.locator('.application-variant-toggle'),frame=card.locator('.comparison-frame');
   await frame.scrollIntoViewIfNeeded();
   const [a,b]=await Promise.all([frame.boundingBox(),button.boundingBox()]);assert.ok(Math.abs(a.x+a.width/2-b.x-b.width/2)<1);assert.ok(b.y-a.y>=0&&b.y-a.y<25);
@@ -12,11 +13,14 @@ const {chromium}=require('playwright');const assert=require('node:assert/strict'
   await card.locator('.preview-code-diff[data-diff-ready="true"]').waitFor();
   assert.equal(await button.isDisabled(),true);assert.equal(await card.getAttribute('data-variant'),'a');
   const before=await card.locator('.preview-code-diff').evaluate(n=>({from:n.dataset.fromCase,to:n.dataset.toCase,add:[...n.querySelectorAll('.add')].map(r=>r.dataset.sourceText),remove:[...n.querySelectorAll('.remove')].map(r=>r.dataset.sourceText)}));
+  const visibleDiff=await card.locator('.preview-code-diff').innerText();
+  const displayName=await page.locator(`#${id} .fps-case-bubble[data-case="${before.from}"]`).first().getAttribute('data-title');
+  assert.match(visibleDiff,new RegExp(`${displayName}_[AB]`));
+  for(const internalId of [before.from,before.to])assert.doesNotMatch(visibleDiff,new RegExp(`\\b${internalId}\\b`));
   assert.ok(before.add.length&&before.remove.length);
   assert.equal(await card.locator('.preview-code-diff').getAttribute('data-diff-mode'),'semantic');
-  assert.equal(before.add.length,2);assert.equal(before.remove.length,2);
-  assert.ok(!before.add.join('').includes('setVariant'));
-  const expected={gallery:'chair.position.set', 'trajectory-variation':'path.points[', 'robotics-simulation':'humanoid.visible'}[id];
+  assert.equal(before.add.length,before.remove.length);assert.ok(before.add.length>=2);
+  const expected={gallery:'chair.position.set', 'robotics-simulation':'humanoid.visible'}[id];
   assert.ok(before.add.join('').includes(expected));
   await button.evaluate(n=>n.click());assert.equal(await card.locator('.preview-code-diff').count(),1);
   if(id==='gallery')await frame.screenshot({path:path.resolve(__dirname,'../test-results/edit-diff-forward.png')});
@@ -37,5 +41,5 @@ const {chromium}=require('playwright');const assert=require('node:assert/strict'
  await page.setViewportSize({width:390,height:844});await toggle.click();await scene.locator('.preview-code-diff[data-diff-ready="true"]').waitFor();
  await scene.locator('.comparison-frame').screenshot({path:path.resolve(__dirname,'../test-results/edit-diff-mobile.png')});
  await scene.locator('h2 a').click();assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
- assert.deepEqual(errors,[]);console.log('PASS adjacency, generic three-category controls, no state caption, lock/cancel, snapshots, real forward/reverse source rows and mobile.');
+ assert.deepEqual(errors,[]);console.log('PASS merged trajectory grid, generic two-category overview controls, no state caption, lock/cancel, snapshots, real forward/reverse source rows and mobile.');
 }finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

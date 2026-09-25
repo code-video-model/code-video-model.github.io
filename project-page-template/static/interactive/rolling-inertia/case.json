@@ -1,0 +1,213 @@
+{
+  "case_id": "rolling-inertia",
+  "session": "Physical Grounding",
+  "prompt": "A photorealistic physics demonstration with coherent rigid geometry, stable apparatus and no titles or overlays. A slow-motion laboratory demonstration in one continuous shot. An opaque solid brass sphere and a translucent thin-walled blue hollow sphere of equal radius are released together from the same height on two identical perfectly smooth, frictionless inclined tracks. They SLIDE without spinning, with the same gravitational acceleration, the same speed and the same height at every moment. Their painted markings retain their orientation. Neither reaches the bottom before the end of the shot. Use a fixed level near-orthographic view so their equal heights are visually clear. Do not make the solid ball lead and do not animate rolling. Use the supplied reference image as the opening-frame appearance, composition, material, lighting and scene-continuity reference. Use the supplied Three.js video for the subsequent motion, event timing, relative spatial layout, occlusion and camera behavior, not its simplified rendering style. Preserve the complete 124-frame, 24-FPS timeline. Do not add unrelated objects, cuts, labels or overlays.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "ccbaf7b20b2341d9ab4dea828f97f50cf134dee956d6526c36aa3ce7264784da",
+  "entry": "runtime/threejs/case/index.html?case=rolling-inertia",
+  "sources": [
+    {
+      "path": "original/threejs/case/scene.mjs",
+      "name": "threejs/case/scene.mjs",
+      "sha256": "de5b62e15d3ae1be4dd9229478391605a573dcb2296aea2fc2a5e471b7901801",
+      "functions": [
+        {
+          "name": "json",
+          "line": 3
+        },
+        {
+          "name": "mesh",
+          "line": 66
+        },
+        {
+          "name": "box",
+          "line": 74
+        },
+        {
+          "name": "ball",
+          "line": 77
+        },
+        {
+          "name": "paintedSphereTexture",
+          "line": 80
+        },
+        {
+          "name": "wheelFace",
+          "line": 102
+        },
+        {
+          "name": "markedWeightMaterial",
+          "line": 114
+        },
+        {
+          "name": "segmentEndpoint",
+          "line": 122
+        },
+        {
+          "name": "setCable",
+          "line": 125
+        },
+        {
+          "name": "segment",
+          "line": 151
+        },
+        {
+          "name": "setSegment",
+          "line": 156
+        },
+        {
+          "name": "spring",
+          "line": 165
+        },
+        {
+          "name": "setSpring",
+          "line": 174
+        },
+        {
+          "name": "setCompressionSpring",
+          "line": 192
+        },
+        {
+          "name": "coilChecks",
+          "line": 207
+        },
+        {
+          "name": "stand",
+          "line": 215
+        },
+        {
+          "name": "ground",
+          "line": 222
+        },
+        {
+          "name": "platform",
+          "line": 225
+        },
+        {
+          "name": "rollingScene",
+          "line": 240
+        },
+        {
+          "name": "cradleScene",
+          "line": 295
+        },
+        {
+          "name": "recoilScene",
+          "line": 369
+        },
+        {
+          "name": "coupledScene",
+          "line": 431
+        },
+        {
+          "name": "resonanceScene",
+          "line": 453
+        },
+        {
+          "name": "waveScene",
+          "line": 524
+        },
+        {
+          "name": "beamMaterial",
+          "line": 547
+        },
+        {
+          "name": "sourceBody",
+          "line": 550
+        },
+        {
+          "name": "mirrorScene",
+          "line": 559
+        },
+        {
+          "name": "tirScene",
+          "line": 603
+        },
+        {
+          "name": "interpolate",
+          "line": 654
+        },
+        {
+          "name": "geometryChecks",
+          "line": 663
+        },
+        {
+          "name": "seek",
+          "line": 680
+        }
+      ]
+    },
+    {
+      "path": "original/physics/physics.py",
+      "name": "physics/physics.py",
+      "sha256": "1ce9335bd4027019c83992794135b83a961a308142ae25a943e82375993349ee",
+      "functions": [
+        {
+          "name": "ode",
+          "line": 19
+        },
+        {
+          "name": "rolling",
+          "line": 27
+        },
+        {
+          "name": "cradle_elastic",
+          "line": 61
+        },
+        {
+          "name": "cradle",
+          "line": 155
+        },
+        {
+          "name": "recoil",
+          "line": 225
+        },
+        {
+          "name": "coupled",
+          "line": 286
+        },
+        {
+          "name": "resonance",
+          "line": 324
+        },
+        {
+          "name": "wave",
+          "line": 357
+        },
+        {
+          "name": "mirror",
+          "line": 382
+        },
+        {
+          "name": "tir",
+          "line": 409
+        },
+        {
+          "name": "main",
+          "line": 446
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "source_package": "physical-grounding-benchmark8-20260922",
+    "physics_revision": "frictionless-ideal-feedback-20260923",
+    "model": "Frictionless sliding of nonspinning spheres on identical inclines",
+    "assumptions": [
+      "Perfectly smooth identical inclines; friction coefficient zero and no air drag",
+      "2.5x slow-motion presentation; physical gravity remains 9.81 m/s^2",
+      "Both spheres start without spin; normal force and gravity exert no torque about their centers",
+      "Tracking marks are surface color only, with no protruding geometry or added inertia",
+      "Simultaneous release at the first frame; no invisible hold during the video"
+    ],
+    "selected_output": {
+      "model": "MiniMax-H3",
+      "seed": 46,
+      "result_sha256": "5610f7afbc83f62ab0b2bbfd806c3eadf35e4a7c34a07e7ceef58a8aae7e3650"
+    },
+    "timeline": "Native 124-frame, 24-FPS physics trajectory; no temporal padding."
+  }
+}

@@ -21,9 +21,9 @@ const {chromium}=require('playwright');const assert=require('node:assert/strict'
  await page.waitForFunction(()=>[...document.querySelectorAll('iframe')].some(f=>{try{return f.contentWindow.behindFrame?.getState().caseId==='577';}catch{return false;}}),null,{timeout:90000});
  const current=()=>page.evaluate(()=>[...document.querySelectorAll('iframe')].find(f=>f.contentWindow.behindFrame)?.contentWindow.behindFrame.getState());
  let state=await current();assert.equal(state.selectionId,selection);assert.equal(state.threejsSHA,'7120de68c82dfb598f995ba280cecf19bcc945b59280269ba18d60c937215053');
- await page.locator('#trajectory-variation .fps-variant[data-variant="b"]').click();
- await page.waitForFunction(()=>{const f=document.querySelector('#trajectory-variation iframe:not(.is-staged)');return f?.contentWindow.behindFrame?.getState().caseId==='578';},null,{timeout:90000});
+ await page.locator('#robotics-simulation .fps-variant[data-variant="b"]').click();
+ await page.waitForFunction(()=>{const f=document.querySelector('#robotics-simulation iframe:not(.is-staged)');return f?.contentWindow.behindFrame?.getState().caseId==='578';},null,{timeout:90000});
  state=await current();assert.equal(state.selectionId,selection);assert.equal(state.threejsSHA,'2da6f461b2637565543a354f1f5f723c0a78b96fcc3255b623ed7c6e5de15322');
- await page.locator('#trajectory-variation .category-collapse').first().click();assert.equal(await page.locator('iframe').count(),0);assert.equal(new URL(page.url()).searchParams.has('case'),false);
+ await page.locator('#robotics-simulation .category-collapse').first().click();assert.equal(await page.locator('iframe').count(),0);assert.equal(new URL(page.url()).searchParams.has('case'),false);
  assert.deepEqual(errors,[]);console.log('PASS overview pause/time/reveal preservation, rapid toggles, R044 deep link/source revisions/A-B transition and iframe disposal.');
 }finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

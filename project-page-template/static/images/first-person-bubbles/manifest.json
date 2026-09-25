@@ -1,7 +1,7 @@
 [
   {
     "case_id": "first-person-009",
-    "name": "Hyrule Ride",
+    "name": "Gaming_01",
     "session": "First-Person Games",
     "source_rgb": [
       147,
@@ -66,7 +66,7 @@
   },
   {
     "case_id": "first-person-007",
-    "name": "Tower Glide",
+    "name": "Gaming_02",
     "session": "First-Person Games",
     "source_rgb": [
       121,
@@ -131,7 +131,7 @@
   },
   {
     "case_id": "first-person-014",
-    "name": "Balrog Bridge",
+    "name": "Gaming_03",
     "session": "First-Person Games",
     "source_rgb": [
       50,
@@ -196,7 +196,7 @@
   },
   {
     "case_id": "first-person-030",
-    "name": "Forest Spirit",
+    "name": "Gaming_04",
     "session": "First-Person Games",
     "source_rgb": [
       84,
@@ -261,7 +261,7 @@
   },
   {
     "case_id": "121",
-    "name": "Halo Boarding",
+    "name": "Gaming_05",
     "session": "First-Person Games",
     "source_rgb": [
       27,
@@ -326,7 +326,7 @@
   },
   {
     "case_id": "132",
-    "name": "Jurassic Encounter",
+    "name": "Gaming_06",
     "session": "First-Person Games",
     "source_rgb": [
       27,
@@ -391,7 +391,7 @@
   },
   {
     "case_id": "322",
-    "name": "Titan Swing",
+    "name": "Gaming_07",
     "session": "First-Person Games",
     "source_rgb": [
       84,
@@ -455,73 +455,8 @@
     "alpha": 0.5
   },
   {
-    "case_id": "93",
-    "name": "City Webs",
-    "session": "First-Person Games",
-    "source_rgb": [
-      53,
-      48,
-      47
-    ],
-    "source_palette": [
-      [
-        44,
-        44,
-        44
-      ],
-      [
-        9,
-        12,
-        14
-      ],
-      [
-        117,
-        114,
-        107
-      ],
-      [
-        38,
-        19,
-        21
-      ]
-    ],
-    "rgb": [
-      53,
-      48,
-      47
-    ],
-    "palette": [
-      [
-        44,
-        44,
-        44
-      ],
-      [
-        9,
-        12,
-        14
-      ],
-      [
-        117,
-        114,
-        107
-      ],
-      [
-        38,
-        19,
-        21
-      ]
-    ],
-    "source_kind": "displayed-code-video-model",
-    "first_frame": "static/images/first-person-bubbles/93.png",
-    "source_video": "code-video-model/first-person-games/case-93.mp4",
-    "source_sha256": "b75a600fed59dabe090a588f78cbc20910ccb86f05705a4f85f2c87765b6621a",
-    "frame": 0,
-    "alpha": 0.5
-  },
-  {
     "case_id": "505",
-    "name": "Case 505",
+    "name": "Bullet_Time_01",
     "session": "Bullet Time",
     "source_rgb": [
       20,
@@ -586,7 +521,7 @@
   },
   {
     "case_id": "508",
-    "name": "Case 508",
+    "name": "Bullet_Time_02",
     "session": "Bullet Time",
     "source_rgb": [
       76,
@@ -716,7 +651,7 @@
   },
   {
     "case_id": "518",
-    "name": "Case 518",
+    "name": "Bullet_Time_03",
     "session": "Bullet Time",
     "source_rgb": [
       98,
@@ -845,73 +780,8 @@
     "alpha": 0.5
   },
   {
-    "case_id": "504",
-    "name": "Case 504",
-    "session": "Bullet Time",
-    "source_rgb": [
-      29,
-      45,
-      37
-    ],
-    "source_palette": [
-      [
-        26,
-        46,
-        34
-      ],
-      [
-        8,
-        23,
-        25
-      ],
-      [
-        0,
-        8,
-        20
-      ],
-      [
-        81,
-        100,
-        67
-      ]
-    ],
-    "rgb": [
-      29,
-      45,
-      37
-    ],
-    "palette": [
-      [
-        26,
-        46,
-        34
-      ],
-      [
-        8,
-        23,
-        25
-      ],
-      [
-        0,
-        8,
-        20
-      ],
-      [
-        81,
-        100,
-        67
-      ]
-    ],
-    "source_kind": "displayed-code-video-model",
-    "first_frame": "static/images/first-person-bubbles/504.png",
-    "source_video": "code-video-model/bullet-time/case-504.mp4",
-    "source_sha256": "15fd0dd0ed7de6c0340dda6e3e3b1f6c8754e280f42c8d162d6b490b0b7709ee",
-    "frame": 0,
-    "alpha": 0.5
-  },
-  {
     "case_id": "583",
-    "name": "Case 583",
+    "name": "Scene_World_Editing_01",
     "session": "Scene / World Editing",
     "source_rgb": [
       122,
@@ -976,7 +846,7 @@
   },
   {
     "case_id": "663",
-    "name": "Case 663",
+    "name": "Scene_World_Editing_01",
     "session": "Scene / World Editing",
     "source_rgb": [
       115,
@@ -1041,7 +911,7 @@
   },
   {
     "case_id": "586",
-    "name": "Case 586",
+    "name": "Scene_World_Editing_02",
     "session": "Scene / World Editing",
     "source_rgb": [
       74,
@@ -1106,7 +976,7 @@
   },
   {
     "case_id": "666",
-    "name": "Case 666",
+    "name": "Scene_World_Editing_02",
     "session": "Scene / World Editing",
     "source_rgb": [
       75,
@@ -1171,7 +1041,7 @@
   },
   {
     "case_id": "601",
-    "name": "Case 601",
+    "name": "Scene_World_Editing_03",
     "session": "Scene / World Editing",
     "source_rgb": [
       117,
@@ -1236,7 +1106,7 @@
   },
   {
     "case_id": "681",
-    "name": "Case 681",
+    "name": "Scene_World_Editing_03",
     "session": "Scene / World Editing",
     "source_rgb": [
       132,
@@ -1301,7 +1171,7 @@
   },
   {
     "case_id": "590",
-    "name": "Case 590",
+    "name": "Scene_World_Editing_04",
     "session": "Scene / World Editing",
     "source_rgb": [
       74,
@@ -1366,7 +1236,7 @@
   },
   {
     "case_id": "670",
-    "name": "Case 670",
+    "name": "Scene_World_Editing_04",
     "session": "Scene / World Editing",
     "source_rgb": [
       61,
@@ -1561,7 +1431,7 @@
   },
   {
     "case_id": "591",
-    "name": "Case 591",
+    "name": "Scene_World_Editing_06",
     "session": "Scene / World Editing",
     "source_rgb": [
       73,
@@ -1626,7 +1496,7 @@
   },
   {
     "case_id": "671",
-    "name": "Case 671",
+    "name": "Scene_World_Editing_06",
     "session": "Scene / World Editing",
     "source_rgb": [
       74,
@@ -1691,7 +1561,7 @@
   },
   {
     "case_id": "563",
-    "name": "Case 563",
+    "name": "Robotics_Trajectory_Control_01",
     "session": "Robotics Simulation",
     "source_rgb": [
       132,
@@ -1756,7 +1626,7 @@
   },
   {
     "case_id": "564",
-    "name": "Case 564",
+    "name": "Robotics_Trajectory_Control_01",
     "session": "Robotics Simulation",
     "source_rgb": [
       132,
@@ -1820,138 +1690,8 @@
     "alpha": 0.5
   },
   {
-    "case_id": "567",
-    "name": "Case 567",
-    "session": "Robotics Simulation",
-    "source_rgb": [
-      103,
-      98,
-      89
-    ],
-    "source_palette": [
-      [
-        110,
-        105,
-        94
-      ],
-      [
-        53,
-        48,
-        38
-      ],
-      [
-        155,
-        152,
-        145
-      ],
-      [
-        90,
-        84,
-        74
-      ]
-    ],
-    "rgb": [
-      103,
-      98,
-      89
-    ],
-    "palette": [
-      [
-        110,
-        105,
-        94
-      ],
-      [
-        53,
-        48,
-        38
-      ],
-      [
-        155,
-        152,
-        145
-      ],
-      [
-        90,
-        84,
-        74
-      ]
-    ],
-    "source_kind": "displayed-code-video-model",
-    "first_frame": "static/images/first-person-bubbles/567.png",
-    "source_video": "code-video-model-v2/robotics-simulation/case-567.mp4",
-    "source_sha256": "5c9bd42a7b161dff8b13e3a1b8514d97ed01fb463dc024a938564a769d1179ba",
-    "frame": 0,
-    "alpha": 0.5
-  },
-  {
-    "case_id": "568",
-    "name": "Case 568",
-    "session": "Robotics Simulation",
-    "source_rgb": [
-      101,
-      96,
-      86
-    ],
-    "source_palette": [
-      [
-        108,
-        103,
-        91
-      ],
-      [
-        53,
-        47,
-        38
-      ],
-      [
-        151,
-        148,
-        141
-      ],
-      [
-        88,
-        82,
-        72
-      ]
-    ],
-    "rgb": [
-      101,
-      96,
-      86
-    ],
-    "palette": [
-      [
-        108,
-        103,
-        91
-      ],
-      [
-        53,
-        47,
-        38
-      ],
-      [
-        151,
-        148,
-        141
-      ],
-      [
-        88,
-        82,
-        72
-      ]
-    ],
-    "source_kind": "displayed-code-video-model",
-    "first_frame": "static/images/first-person-bubbles/568.png",
-    "source_video": "code-video-model-v2/robotics-simulation/case-568.mp4",
-    "source_sha256": "3d5e64aa24f8d159bb68cafbcc437f53c404ca19af75a1a81f281a589a5f327b",
-    "frame": 0,
-    "alpha": 0.5
-  },
-  {
     "case_id": "571",
-    "name": "Case 571",
+    "name": "Robotics_Trajectory_Control_05",
     "session": "Robotics Simulation",
     "source_rgb": [
       132,
@@ -2011,71 +1751,6 @@
     "first_frame": "static/images/first-person-bubbles/571.png",
     "source_video": "code-video-model-v2/robotics-simulation/case-571.mp4",
     "source_sha256": "8efffb59d27ac7b9c2f9d7244cb06abdcaf0a0d62bab424b25a9414d4c0a74f1",
-    "frame": 0,
-    "alpha": 0.5
-  },
-  {
-    "case_id": "572",
-    "name": "Case 572",
-    "session": "Robotics Simulation",
-    "source_rgb": [
-      154,
-      143,
-      131
-    ],
-    "source_palette": [
-      [
-        180,
-        161,
-        141
-      ],
-      [
-        166,
-        146,
-        126
-      ],
-      [
-        84,
-        73,
-        62
-      ],
-      [
-        184,
-        188,
-        189
-      ]
-    ],
-    "rgb": [
-      154,
-      143,
-      131
-    ],
-    "palette": [
-      [
-        180,
-        161,
-        141
-      ],
-      [
-        166,
-        146,
-        126
-      ],
-      [
-        84,
-        73,
-        62
-      ],
-      [
-        184,
-        188,
-        189
-      ]
-    ],
-    "source_kind": "displayed-code-video-model",
-    "first_frame": "static/images/first-person-bubbles/572.png",
-    "source_video": "code-video-model-v2/robotics-simulation/case-572.mp4",
-    "source_sha256": "c99aa2ace8bf95050f2cf9cd60ead2f34b71c0bd003b0e3782e35f30e3a1663d",
     "frame": 0,
     "alpha": 0.5
   },
@@ -2206,71 +1881,6 @@
     "first_frame": "static/images/first-person-bubbles/578.png",
     "source_video": "code-video-model/trajectory-variation/case-578.mp4",
     "source_sha256": "2751d402d5c6e92ea53fe5bb6992729325c5dd5ce022f376e05b076f8694f591",
-    "frame": 0,
-    "alpha": 0.5
-  },
-  {
-    "case_id": "581",
-    "name": "Case 581",
-    "session": "Trajectory Variation",
-    "source_rgb": [
-      135,
-      134,
-      128
-    ],
-    "source_palette": [
-      [
-        148,
-        147,
-        141
-      ],
-      [
-        122,
-        121,
-        115
-      ],
-      [
-        187,
-        185,
-        180
-      ],
-      [
-        81,
-        79,
-        74
-      ]
-    ],
-    "rgb": [
-      135,
-      134,
-      128
-    ],
-    "palette": [
-      [
-        148,
-        147,
-        141
-      ],
-      [
-        122,
-        121,
-        115
-      ],
-      [
-        187,
-        185,
-        180
-      ],
-      [
-        81,
-        79,
-        74
-      ]
-    ],
-    "source_kind": "displayed-code-video-model",
-    "first_frame": "static/images/first-person-bubbles/581.png",
-    "source_video": "code-video-model/trajectory-variation/case-581.mp4",
-    "source_sha256": "cc3e4a21fe66dd89dac244ae6dfbef826ac48d86134f43a619662300edcdfccd",
     "frame": 0,
     "alpha": 0.5
   },
@@ -2406,7 +2016,7 @@
   },
   {
     "case_id": "624",
-    "name": "Case 624",
+    "name": "Product_Cinematography_01",
     "session": "Product Cinematography",
     "source_rgb": [
       36,
@@ -2471,7 +2081,7 @@
   },
   {
     "case_id": "625",
-    "name": "Case 625",
+    "name": "Product_Cinematography_02",
     "session": "Product Cinematography",
     "source_rgb": [
       171,
@@ -2601,7 +2211,7 @@
   },
   {
     "case_id": "636",
-    "name": "Case 636",
+    "name": "Product_Cinematography_03",
     "session": "Product Cinematography",
     "source_rgb": [
       24,
@@ -2666,7 +2276,7 @@
   },
   {
     "case_id": "640",
-    "name": "Case 640",
+    "name": "Product_Cinematography_04",
     "session": "Product Cinematography",
     "source_rgb": [
       20,
@@ -2860,71 +2470,6 @@
     "alpha": 0.5
   },
   {
-    "case_id": "528",
-    "name": "Case 528",
-    "session": "Scientific Visualization",
-    "source_rgb": [
-      55,
-      49,
-      37
-    ],
-    "source_palette": [
-      [
-        29,
-        25,
-        16
-      ],
-      [
-        63,
-        55,
-        42
-      ],
-      [
-        9,
-        9,
-        3
-      ],
-      [
-        117,
-        105,
-        84
-      ]
-    ],
-    "rgb": [
-      55,
-      49,
-      37
-    ],
-    "palette": [
-      [
-        29,
-        25,
-        16
-      ],
-      [
-        63,
-        55,
-        42
-      ],
-      [
-        9,
-        9,
-        3
-      ],
-      [
-        117,
-        105,
-        84
-      ]
-    ],
-    "source_kind": "displayed-code-video-model",
-    "first_frame": "static/images/first-person-bubbles/528.png",
-    "source_video": "code-video-model/scientific-visualization/case-528.mp4",
-    "source_sha256": "38fc643a2b5b0b9b717ecfebc76a99b94d68c80a3f00825e4ae4cafb652a4832",
-    "frame": 0,
-    "alpha": 0.5
-  },
-  {
     "case_id": "531",
     "name": "Case 531",
     "session": "Scientific Visualization",
@@ -3055,71 +2600,6 @@
     "alpha": 0.5
   },
   {
-    "case_id": "620",
-    "name": "Case 620",
-    "session": "Scientific Visualization",
-    "source_rgb": [
-      12,
-      29,
-      35
-    ],
-    "source_palette": [
-      [
-        0,
-        0,
-        6
-      ],
-      [
-        5,
-        31,
-        40
-      ],
-      [
-        43,
-        77,
-        82
-      ],
-      [
-        1,
-        7,
-        14
-      ]
-    ],
-    "rgb": [
-      12,
-      29,
-      35
-    ],
-    "palette": [
-      [
-        0,
-        0,
-        6
-      ],
-      [
-        5,
-        31,
-        40
-      ],
-      [
-        43,
-        77,
-        82
-      ],
-      [
-        1,
-        7,
-        14
-      ]
-    ],
-    "source_kind": "displayed-code-video-model",
-    "first_frame": "static/images/first-person-bubbles/620.png",
-    "source_video": "code-video-model/scientific-visualization/case-620.mp4",
-    "source_sha256": "cc337fff6ce8bb9901b2f4e2ee9e5b4b8f34298b99be22cf9c8b59e54d217d02",
-    "frame": 0,
-    "alpha": 0.5
-  },
-  {
     "case_id": "609",
     "name": "Case 609",
     "session": "Scientific Visualization",
@@ -3186,7 +2666,7 @@
   },
   {
     "case_id": "643",
-    "name": "Case 643",
+    "name": "Architectural_Cinematics_01",
     "session": "Architectural Cinematics",
     "source_rgb": [
       126,
@@ -3251,7 +2731,7 @@
   },
   {
     "case_id": "646",
-    "name": "Case 646",
+    "name": "Architectural_Cinematics_05",
     "session": "Architectural Cinematics",
     "source_rgb": [
       151,
@@ -3316,7 +2796,7 @@
   },
   {
     "case_id": "649",
-    "name": "Case 649",
+    "name": "Architectural_Cinematics_04",
     "session": "Architectural Cinematics",
     "source_rgb": [
       135,
@@ -3381,7 +2861,7 @@
   },
   {
     "case_id": "656",
-    "name": "Case 656",
+    "name": "Architectural_Cinematics_02",
     "session": "Architectural Cinematics",
     "source_rgb": [
       89,
@@ -3446,7 +2926,7 @@
   },
   {
     "case_id": "657",
-    "name": "Case 657",
+    "name": "Architectural_Cinematics_03",
     "session": "Architectural Cinematics",
     "source_rgb": [
       58,
@@ -3510,73 +2990,8 @@
     "alpha": 0.5
   },
   {
-    "case_id": "659",
-    "name": "Case 659",
-    "session": "Architectural Cinematics",
-    "source_rgb": [
-      95,
-      91,
-      88
-    ],
-    "source_palette": [
-      [
-        14,
-        11,
-        12
-      ],
-      [
-        115,
-        110,
-        106
-      ],
-      [
-        186,
-        186,
-        184
-      ],
-      [
-        62,
-        55,
-        49
-      ]
-    ],
-    "rgb": [
-      95,
-      91,
-      88
-    ],
-    "palette": [
-      [
-        14,
-        11,
-        12
-      ],
-      [
-        115,
-        110,
-        106
-      ],
-      [
-        186,
-        186,
-        184
-      ],
-      [
-        62,
-        55,
-        49
-      ]
-    ],
-    "source_kind": "displayed-code-video-model",
-    "first_frame": "static/images/first-person-bubbles/659.png",
-    "source_video": "code-video-model-v2/architectural-cinematics/case-659.mp4",
-    "source_sha256": "c7d405b69c30e861360f6886cf1c5ffd29b3d8eca8eaadf01381c0dbbd405b0e",
-    "frame": 0,
-    "alpha": 0.5
-  },
-  {
     "case_id": "481",
-    "name": "Case 481",
+    "name": "Architectural_Cinematics_06",
     "session": "Architectural Cinematics",
     "source_rgb": [
       122,
@@ -3636,6 +3051,136 @@
     "first_frame": "static/images/first-person-bubbles/481-4ebee82cec97.png",
     "source_video": "selected-0907-video-diffusion-seed202/cinematic-camera-intelligence/case-481-4ebee82cec97.mp4",
     "source_sha256": "4ebee82cec9717dc3b3a26a838eb289c18ae805598f6c3e500bbf0510306ead9",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "rolling-inertia",
+    "name": "Physical_Grounding_07",
+    "session": "Physical Grounding",
+    "source_rgb": [
+      196,
+      196,
+      198
+    ],
+    "source_palette": [
+      [
+        214,
+        214,
+        216
+      ],
+      [
+        221,
+        221,
+        223
+      ],
+      [
+        229,
+        229,
+        231
+      ],
+      [
+        115,
+        116,
+        119
+      ]
+    ],
+    "rgb": [
+      196,
+      196,
+      198
+    ],
+    "palette": [
+      [
+        214,
+        214,
+        216
+      ],
+      [
+        221,
+        221,
+        223
+      ],
+      [
+        229,
+        229,
+        231
+      ],
+      [
+        115,
+        116,
+        119
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/rolling-inertia-5610f7afbc83.png",
+    "source_video": "code-video-model/physical-grounding/rolling-inertia-seed46-5610f7afbc83.mp4",
+    "source_sha256": "5610f7afbc83f62ab0b2bbfd806c3eadf35e4a7c34a07e7ceef58a8aae7e3650",
+    "frame": 0,
+    "alpha": 0.5
+  },
+  {
+    "case_id": "newtons-cradle",
+    "name": "Physical_Grounding_08",
+    "session": "Physical Grounding",
+    "source_rgb": [
+      197,
+      196,
+      195
+    ],
+    "source_palette": [
+      [
+        202,
+        199,
+        198
+      ],
+      [
+        209,
+        208,
+        209
+      ],
+      [
+        216,
+        216,
+        216
+      ],
+      [
+        157,
+        154,
+        154
+      ]
+    ],
+    "rgb": [
+      197,
+      196,
+      195
+    ],
+    "palette": [
+      [
+        202,
+        199,
+        198
+      ],
+      [
+        209,
+        208,
+        209
+      ],
+      [
+        216,
+        216,
+        216
+      ],
+      [
+        157,
+        154,
+        154
+      ]
+    ],
+    "source_kind": "displayed-code-video-model",
+    "first_frame": "static/images/first-person-bubbles/newtons-cradle-a62f53aaf37f.png",
+    "source_video": "code-video-model/physical-grounding/newtons-cradle-seed48-a62f53aaf37f.mp4",
+    "source_sha256": "a62f53aaf37f20bc95e17404e967445a03d93f4d5699df80bdcf5fc982fcd2b1",
     "frame": 0,
     "alpha": 0.5
   }

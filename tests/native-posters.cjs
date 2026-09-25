@@ -23,7 +23,7 @@ const path=require('node:path');
    })));
    return {mismatches,sizes};
   });
-  assert.deepEqual(report.mismatches,[]);assert.ok(report.sizes.length>=25);
+  assert.deepEqual(report.mismatches,[]);assert.ok(report.sizes.length>=23);
   for(const row of report.sizes){assert.deepEqual(row.actual,row.expected);assert.ok(row.frame>=0);assert.ok(row.actual[0]>=960);}
   assert.equal(media,0,'Native posters must not eagerly download videos');
   await page.locator('.application-preview').first().screenshot({path:path.resolve(__dirname,'../test-results/native-poster-row.png')});

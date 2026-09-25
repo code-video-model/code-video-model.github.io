@@ -8,10 +8,10 @@ const {chromium}=require('playwright');const assert=require('node:assert/strict'
  assert.equal(new URL(p.url()).hash,'');assert.equal(new URL(p.url()).searchParams.get('category'),'reconstruction-3d-4d');
  await section.locator('.category-collapse').click();assert.equal(new URL(p.url()).search,'');assert.equal(new URL(p.url()).hash,'');
  await p.goto(base+'?case=577&selection=trajectory-group23-577-578-image-group23-2-v16#trajectory-variation');
- await p.waitForFunction(()=>document.querySelector('#trajectory-variation iframe')?.contentDocument?.documentElement?.dataset.workbenchState==='ready',null,{timeout:90000});
+ await p.waitForFunction(()=>document.querySelector('#robotics-simulation iframe')?.contentDocument?.documentElement?.dataset.workbenchState==='ready',null,{timeout:90000});
  assert.equal(new URL(p.url()).hash,'');assert.equal(new URL(p.url()).searchParams.get('case'),'577');
- await p.locator('#trajectory-variation .fps-back').click();assert.equal(new URL(p.url()).hash,'');
- await p.locator('#trajectory-variation .category-collapse').click();assert.equal(new URL(p.url()).search,'');
+ await p.locator('#robotics-simulation .fps-back').click();assert.equal(new URL(p.url()).hash,'');
+ await p.locator('#robotics-simulation .category-collapse').click();assert.equal(new URL(p.url()).search,'');
  await p.goto(base+'gallery.html#long-horizon-style');
  await p.waitForFunction(()=>!location.hash);
  await p.evaluate(()=>location.hash='reconstruction-3d-4d');await p.waitForFunction(()=>!location.hash);

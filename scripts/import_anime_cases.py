@@ -12,8 +12,8 @@ from import_selected_products import copy_exact, read, sha, write
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'project-page-template'
-TITLES = {'anime-hotel': 'Apocalypse Hotel', 'anime-nichijou': 'Nichijou',
-          'anime-kumiko': 'Kumiko', 'three-colossal': 'Attack on Titan'}
+TITLES = {'anime-hotel': 'Apocalypse Hotel', 'anime-kumiko': 'Kumiko',
+          'anime-nichijou': 'Nichijou', 'three-colossal': 'Attack on Titan'}
 VENDOR_SHA = '76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495'
 
 

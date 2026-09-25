@@ -1,0 +1,50 @@
+{
+  "count": 1,
+  "cases": [
+    {
+      "id": "rolling-inertia",
+      "title": "Solid sphere vs hollow sphere / frictionless sliding",
+      "model": "Frictionless sliding of nonspinning spheres on identical inclines",
+      "assumptions": [
+        "Perfectly smooth identical inclines; friction coefficient zero and no air drag",
+        "2.5x slow-motion presentation; physical gravity remains 9.81 m/s^2",
+        "Both spheres start without spin; normal force and gravity exert no torque about their centers",
+        "Tracking marks are surface color only, with no protruding geometry or added inertia",
+        "Simultaneous release at the first frame; no invisible hold during the video"
+      ],
+      "parameters": {
+        "incline": 0.28,
+        "radius": 0.22,
+        "time_scale": 2.5,
+        "accelerations": [
+          2.7110489124139563,
+          2.7110489124139563
+        ],
+        "release": 0.0,
+        "static_friction": 0.0
+      },
+      "checks": {
+        "acceleration_ratio": 1.0,
+        "expected_ratio": 1.0,
+        "maximum_distance": 5.789595566288472,
+        "maximum_height_difference": 0.0
+      },
+      "observables": [
+        "Both spheres slide at identical speed and remain at exactly the same height",
+        "Surface markings do not rotate: this is frictionless sliding, not rolling",
+        "Neither sphere reaches the end of its track before the final frame"
+      ],
+      "prompt": "A photorealistic physics demonstration with coherent rigid geometry, stable apparatus and no titles or overlays. A slow-motion laboratory demonstration in one continuous shot. An opaque solid brass sphere and a translucent thin-walled blue hollow sphere of equal radius are released together from the same height on two identical perfectly smooth, frictionless inclined tracks. They SLIDE without spinning, with the same gravitational acceleration, the same speed and the same height at every moment. Their painted markings retain their orientation. Neither reaches the bottom before the end of the shot. Use a fixed level near-orthographic view so their equal heights are visually clear. Do not make the solid ball lead and do not animate rolling.",
+      "video": {
+        "width": 960,
+        "height": 540,
+        "fps": 24,
+        "frames": 124,
+        "simulation_fps": 240,
+        "supersampling": 2
+      },
+      "duration": 5.166666666666667,
+      "trajectory": "trajectories/rolling-inertia.json"
+    }
+  ]
+}

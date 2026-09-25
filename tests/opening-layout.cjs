@@ -14,7 +14,7 @@ const assert=require('node:assert/strict');
    assert.equal(await page.locator('h1').innerText(),'Code Video Model');
    assert.equal(await page.locator('.demo-heading').innerText(),'From Code to Video');
    assert.equal(await page.locator('.hero-credits .hero-affiliation,.hero-credits .authors').count(),2);
-   assert.equal(await page.locator('.category-shell').count(),11);
+   assert.equal(await page.locator('.category-shell').count(),9);
    const layout=await page.evaluate(()=>{
     const v=document.querySelector('.intro-standalone-video'),button=document.querySelector('.demo-load');
     const vb=v.getBoundingClientRect(),bb=button.getBoundingClientRect();

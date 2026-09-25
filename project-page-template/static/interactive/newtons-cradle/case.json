@@ -1,0 +1,212 @@
+{
+  "case_id": "newtons-cradle",
+  "session": "Physical Grounding",
+  "prompt": "A photorealistic physics demonstration with coherent rigid geometry, stable apparatus and no titles or overlays. A fixed close laboratory shot of an IDEAL five-ball Newton's cradle. Five equal-size, equal-mass spheres touch in a straight row on identical suspension lengths. The leftmost ball begins displaced to the left and is released. Under perfectly elastic instantaneous contact, it stops at the row while the rightmost ball takes its motion. The rightmost swings out and back, then transfers motion to the leftmost. The MIDDLE THREE SPHERES remain completely stationary at all times; only the two outer balls swing. Preserve the frame, five balls and all suspension connections. This shot intentionally depicts the ideal collision limit, without finite-contact vibration of the middle balls. Use the supplied reference image as the opening-frame appearance, composition, material, lighting and scene-continuity reference. Use the supplied Three.js video for the subsequent motion, event timing, relative spatial layout, occlusion and camera behavior, not its simplified rendering style. Preserve the complete 124-frame, 24-FPS timeline. Do not add unrelated objects, cuts, labels or overlays.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "91eecbf34f34d87adc4f7d369e3d6581efb482efa04424a53c675b1489d75533",
+  "entry": "runtime/threejs/case/index.html?case=newtons-cradle",
+  "sources": [
+    {
+      "path": "original/threejs/case/scene.mjs",
+      "name": "threejs/case/scene.mjs",
+      "sha256": "de5b62e15d3ae1be4dd9229478391605a573dcb2296aea2fc2a5e471b7901801",
+      "functions": [
+        {
+          "name": "json",
+          "line": 3
+        },
+        {
+          "name": "mesh",
+          "line": 66
+        },
+        {
+          "name": "box",
+          "line": 74
+        },
+        {
+          "name": "ball",
+          "line": 77
+        },
+        {
+          "name": "paintedSphereTexture",
+          "line": 80
+        },
+        {
+          "name": "wheelFace",
+          "line": 102
+        },
+        {
+          "name": "markedWeightMaterial",
+          "line": 114
+        },
+        {
+          "name": "segmentEndpoint",
+          "line": 122
+        },
+        {
+          "name": "setCable",
+          "line": 125
+        },
+        {
+          "name": "segment",
+          "line": 151
+        },
+        {
+          "name": "setSegment",
+          "line": 156
+        },
+        {
+          "name": "spring",
+          "line": 165
+        },
+        {
+          "name": "setSpring",
+          "line": 174
+        },
+        {
+          "name": "setCompressionSpring",
+          "line": 192
+        },
+        {
+          "name": "coilChecks",
+          "line": 207
+        },
+        {
+          "name": "stand",
+          "line": 215
+        },
+        {
+          "name": "ground",
+          "line": 222
+        },
+        {
+          "name": "platform",
+          "line": 225
+        },
+        {
+          "name": "rollingScene",
+          "line": 240
+        },
+        {
+          "name": "cradleScene",
+          "line": 295
+        },
+        {
+          "name": "recoilScene",
+          "line": 369
+        },
+        {
+          "name": "coupledScene",
+          "line": 431
+        },
+        {
+          "name": "resonanceScene",
+          "line": 453
+        },
+        {
+          "name": "waveScene",
+          "line": 524
+        },
+        {
+          "name": "beamMaterial",
+          "line": 547
+        },
+        {
+          "name": "sourceBody",
+          "line": 550
+        },
+        {
+          "name": "mirrorScene",
+          "line": 559
+        },
+        {
+          "name": "tirScene",
+          "line": 603
+        },
+        {
+          "name": "interpolate",
+          "line": 654
+        },
+        {
+          "name": "geometryChecks",
+          "line": 663
+        },
+        {
+          "name": "seek",
+          "line": 680
+        }
+      ]
+    },
+    {
+      "path": "original/physics/physics.py",
+      "name": "physics/physics.py",
+      "sha256": "1ce9335bd4027019c83992794135b83a961a308142ae25a943e82375993349ee",
+      "functions": [
+        {
+          "name": "ode",
+          "line": 19
+        },
+        {
+          "name": "rolling",
+          "line": 27
+        },
+        {
+          "name": "cradle_elastic",
+          "line": 61
+        },
+        {
+          "name": "cradle",
+          "line": 155
+        },
+        {
+          "name": "recoil",
+          "line": 225
+        },
+        {
+          "name": "coupled",
+          "line": 286
+        },
+        {
+          "name": "resonance",
+          "line": 324
+        },
+        {
+          "name": "wave",
+          "line": 357
+        },
+        {
+          "name": "mirror",
+          "line": 382
+        },
+        {
+          "name": "tir",
+          "line": 409
+        },
+        {
+          "name": "main",
+          "line": 446
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "source_package": "physical-grounding-benchmark8-20260922",
+    "physics_revision": "frictionless-ideal-feedback-20260923",
+    "model": "Ideal instantaneous elastic impulse transfer with exact nonlinear outer-pendulum arcs",
+    "assumptions": [
+      "Five equal masses, perfectly elastic zero-duration contact and inextensible massless suspension",
+      "The impulse is transmitted through all contacting interfaces; equal incoming/outgoing impulses leave each middle mass at rest",
+      "This is an explicitly idealized limit, not the previous finite-duration Hertz/elastic-cable model",
+      "Momentum conservation alone is insufficient; the selected ideal solution also conserves kinetic energy"
+    ],
+    "selected_output": {
+      "model": "MiniMax-H3",
+      "seed": 48,
+      "result_sha256": "a62f53aaf37f20bc95e17404e967445a03d93f4d5699df80bdcf5fc982fcd2b1"
+    },
+    "timeline": "Native 124-frame, 24-FPS physics trajectory; no temporal padding."
+  }
+}

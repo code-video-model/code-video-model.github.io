@@ -1,6 +1,6 @@
 import {createPreviewEditDiff} from './preview-edit-diff.js';
 
-export function createDetailEditTransition(from,to,selection,oldFrame,restoring){
+export function createDetailEditTransition(from,to,selection,oldFrame,restoring,caseLabels){
  const controller=new AbortController(),layer=document.createElement('div');
  layer.className='fps-edit-transition';layer.dataset.fromCase=from;layer.dataset.toCase=to;
  const card=document.createElement('div');card.className='detail-edit-preview';
@@ -16,7 +16,7 @@ export function createDetailEditTransition(from,to,selection,oldFrame,restoring)
    if(w&&h){const scale=Math.min(1280/w,720/h);ctx.drawImage(source,(1280-w*scale)/2,(720-h*scale)/2,w*scale,h*scale);}}
   return canvas;
  });
- const preview=createPreviewEditDiff(card,from,to,selection,controller.signal,restoring,{sources,maxRows:8});
+ const preview=createPreviewEditDiff(card,from,to,selection,controller.signal,restoring,{sources,maxRows:8,caseLabels});
  return {layer,
   async prepare(){await preview.freeze();await preview.present();layer.dataset.diffReady='true';},
   async reveal(){await preview.reveal();},

@@ -1,4 +1,4 @@
-"""Import eight explicitly selected product results without changing existing cases."""
+"""Import four explicitly selected product results without changing existing cases."""
 import argparse
 import ast
 import hashlib
@@ -16,14 +16,10 @@ from build_native_posters import ensure_poster
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "project-page-template"
 SELECTIONS = {
-    "product-new15-01": 42,
-    "product-new15-02": 45,
-    "product-new15-04": 42,
-    "product-new15-05": 42,
-    "product-new15-06": 45,
     "product-new15-07": 42,
     "product-new15-09": 43,
-    "product-new15-10": 44,
+    "product-new15-06": 45,
+    "product-new15-04": 42,
 }
 
 

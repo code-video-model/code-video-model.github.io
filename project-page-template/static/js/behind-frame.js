@@ -1,9 +1,10 @@
-import { INSPECTOR_HORIZONTAL_FOV, perspectiveIntrinsics, verticalFov } from './camera-intrinsics.mjs';
+import { cameraIntrinsics, INSPECTOR_HORIZONTAL_FOV, perspectiveIntrinsics, verticalFov } from './camera-intrinsics.mjs';
 import { resolvePublishedScene } from './published-scenes.mjs?v=1';
 import {setupComparison} from './diagonal-comparison.js';
 import {paintGlass} from './liquid-glass.js?v=1';
 import {readResource} from './resource-fetch.mjs';
 import {codePresentation} from './code-presentation.mjs';
+import {editVariantLabels} from './code-display-names.mjs';
 
 const $ = (id) => document.getElementById(id);
 const video = $('result-video');
@@ -34,11 +35,17 @@ let sourceFiles;
 let sourcePresentation;
 let sceneAPI;
 let sourceBase;
+let displayName = 'Selected_Result';
 let trace = new Set();
 let currentTime = 0;
 const caseId = new URLSearchParams(location.search).get('case') || '505';
 const selectionId = new URLSearchParams(location.search).get('selection') || '';
 const embedded = new URLSearchParams(location.search).get('embed') === 'bubbles';
+const displayVariantNames=editVariantLabels(
+  new URLSearchParams(location.search).get('display_name'),
+  new URLSearchParams(location.search).get('case_a'),
+  new URLSearchParams(location.search).get('case_b'),
+);
 let embedObserver;
 let disposed = false;
 const lifetime = new AbortController();
@@ -118,7 +125,7 @@ async function loadCode(){
    return {...entry,text};
   }));
   lifetime.signal.throwIfAborted();
-  sourcePresentation=codePresentation(sourceFiles,metadata.provenance?.selected_variant,metadata.provenance?.runtime_parameters);
+  sourcePresentation=codePresentation(sourceFiles,metadata.provenance?.selected_variant,metadata.provenance?.runtime_parameters,displayVariantNames);
   sourceFiles=sourcePresentation.files;
   $('source-file').replaceChildren();
   sourceFiles.forEach((entry,index)=>{const option=document.createElement('option');option.value=index;option.textContent=sourcePresentation.label(entry);$('source-file').append(option);});
@@ -243,16 +250,21 @@ function draw(time) {
   if (!seeking) slider.value = currentFrame;
   if(stateDetails.open){
   const cameraState = getCameraState();
+  const intrinsics = cameraState.intrinsics;
+  const orthographic = intrinsics.projection === 'orthographic';
   $('state-phase').textContent = phaseNames[phase(time)];
   $('state-camera').textContent = cameraState.position.map((v) => v.toFixed(2)).join(', ');
-  $('state-fov').textContent = `${cameraState.intrinsics.verticalFov.toFixed(2)}°`;
-  const intrinsics = cameraState.intrinsics;
-  $('filming-hfov').textContent = `${intrinsics.horizontalFov.toFixed(2)}°`;
+  $('state-fov').textContent = orthographic
+    ? `Orthographic · ${intrinsics.viewHeight.toFixed(2)} units high`
+    : `${intrinsics.verticalFov.toFixed(2)}°`;
+  $('filming-hfov').textContent = orthographic
+    ? `Orthographic · ${intrinsics.viewWidth.toFixed(2)} units wide`
+    : `${intrinsics.horizontalFov.toFixed(2)}°`;
   $('filming-aspect').textContent = intrinsics.aspect.toFixed(4);
   $('filming-zoom').textContent = intrinsics.zoom.toFixed(3);
   $('filming-clip').textContent = `${intrinsics.near.toFixed(3)} / ${intrinsics.far.toFixed(2)}`;
   $('filming-size').textContent = `${intrinsics.width} × ${intrinsics.height}`;
-  $('filming-focal').textContent = `${intrinsics.fx.toFixed(2)} / ${intrinsics.fy.toFixed(2)} px`;
+  $('filming-focal').textContent = `${intrinsics.fx.toFixed(2)} / ${intrinsics.fy.toFixed(2)} ${orthographic ? 'px per unit' : 'px'}`;
   $('filming-center').textContent = `${intrinsics.cx.toFixed(2)} / ${intrinsics.cy.toFixed(2)} px`;
   $('state-world').textContent = `${time.toFixed(3)} s`;
   $('state-rotation').textContent = cameraState.quaternion.map((v) => v.toFixed(2)).join(', ');
@@ -272,7 +284,7 @@ function getCameraState() {
   camera.updateWorldMatrix(true, false);
   return { position: camera.getWorldPosition(new THREE.Vector3()).toArray(),
     quaternion: camera.getWorldQuaternion(new THREE.Quaternion()).toArray(), fov: camera.fov,
-    intrinsics: perspectiveIntrinsics(camera, canvas.width, canvas.height) };
+    intrinsics: cameraIntrinsics(camera, canvas.width, canvas.height) };
 }
 
 function cancelClock() {
@@ -552,14 +564,28 @@ async function init() {
   ]);
   lifetime.signal.throwIfAborted();
   if (!catalog.cases.some((entry) => entry.case_id === caseId)) throw new Error('Unknown case');
-  for (const entry of catalog.cases) {
+  const { item, selection, asset: experimentAsset, expectedSHA } = publishedScene;
+  displayName = selection?.display_name || item.display_name || 'Selected_Result';
+  const choices = new Map();
+  for (const entry of catalog.cases.filter(entry => entry.display_name)) {
+    const choice = entry.case_id === caseId
+      ? {...entry, display_name: displayName}
+      : entry;
+    if (!choices.has(choice.display_name) || choice.case_id === caseId) {
+      choices.set(choice.display_name, choice);
+    }
+  }
+  const currentEntry = catalog.cases.find(entry => entry.case_id === caseId);
+  if (currentEntry && !choices.has(displayName)) {
+    choices.set(displayName, {...currentEntry, display_name: displayName});
+  }
+  for (const entry of choices.values()) {
     const option = document.createElement('option');
     option.value = entry.case_id;
-    option.textContent = `${entry.case_id} / ${entry.session}`;
+    option.textContent = entry.display_name;
     option.selected = entry.case_id === caseId;
     $('case-picker').append(option);
   }
-  const { item, selection, asset: experimentAsset, expectedSHA } = publishedScene;
   sourceBase = publishedScene.base;
   metadata = await json(sourceBase + 'case.json');
   lifetime.signal.throwIfAborted();
@@ -591,9 +617,9 @@ async function init() {
     if (!experimentAsset.video.startsWith('experiment-pairs/') || experimentAsset.video.includes('..')) {
       throw new Error('Invalid experiment media path');
     }
-    video.setAttribute('aria-label', `Case ${caseId} / ${selection.label} / ${experimentAsset.origin}`);
+    video.setAttribute('aria-label', `${displayName} / ${selection.label} / ${experimentAsset.origin}`);
   }
-  $('case-heading').textContent = `CODE VIDEO MODEL / ${item.session.toUpperCase()} / CASE ${caseId}`;
+  $('case-heading').textContent = `CODE VIDEO MODEL / ${displayName}`;
   $('cutaway').checked = ['Architectural Cinematics', 'Scene / World Editing'].includes(item.session);
   $('source-file').addEventListener('change', () => {
     selectedSource = sourceFiles[+$('source-file').value];
@@ -603,7 +629,7 @@ async function init() {
   if(codeDetails.open)loadCode().catch(error=>{$('code-note').textContent=error.message;});
   const prepareMedia=async()=>{
   const mediaPath = 'static/project-page-cases/' + (experimentAsset?.video || item.display_code_video_model || item.code_video_model_v2 || item.code_video_model);
-  const mediaBlob = await readResource(mediaPath,{signal:lifetime.signal,type:'blob',label:`Case ${caseId} result video`,timeoutMs:20000});
+  const mediaBlob = await readResource(mediaPath,{signal:lifetime.signal,type:'blob',label:`${displayName} result video`,timeoutMs:20000});
   lifetime.signal.throwIfAborted();
   videoObjectURL = URL.createObjectURL(mediaBlob);
   video.dataset.source = mediaPath;
@@ -641,7 +667,7 @@ async function init() {
   ready = true;
   for (const id of ['timeline', 'play', 'previous', 'next', 'sound']) $(id).disabled = false;
   if(inspectorDetails.open)prepareInspector().catch(error=>{$('frustum-info').textContent=error.message;});
-  status.textContent = `Case ${caseId} · ${item.session} · ${FPS} FPS · ${metadata.frames} frames · Original Three.js source`;
+  status.textContent = `${displayName} · ${FPS} FPS · ${metadata.frames} frames · Original Three.js source`;
   // Expose deterministic controls for browser regression checks.
   window.behindFrame = {
     seek: requestSeek,
@@ -650,7 +676,7 @@ async function init() {
     getState: () => ({
       frame: currentFrame, seeking, paused: stopped,
       videoTime: video.currentTime,
-      caseId, selectionId, sourceBase, threejsSHA: metadata.threejs_sha256,
+      caseId, selectionId, displayName, sourceBase, threejsSHA: metadata.threejs_sha256,
       camera: getCameraState(), inspector: inspector?.getState() || null, trace: [...trace],
       world: { time: currentTime }
     })
@@ -669,7 +695,7 @@ async function init() {
 async function loadScene() {
   frameHost = document.createElement('iframe');
   frameHost.className = 'scene-host';
-  frameHost.title = `Case ${caseId} isolated original scene`;
+  frameHost.title = `${displayName} isolated original scene`;
   frameHost.setAttribute('aria-hidden', 'true');
   frameHost.tabIndex = -1;
   frameHost.width = metadata.width;

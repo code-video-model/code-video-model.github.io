@@ -1,0 +1,178 @@
+{
+  "case_id": "601",
+  "session": "Scene / World Editing",
+  "prompt": "A photorealistic continuous shot. Use the supplied reference image for scene appearance, subject identity, colors, materials and lighting. Use the supplied video for camera viewpoint, motion, relative positions, timing and occlusion. Two connected art-gallery rooms are separated by a broad rounded arch. All exhibits, furniture and any people shown in the reference remain fixed. The rear room remains present and is revealed only through the opening; do not animate wall construction or remove occluded subjects. Follow the supplied video's camera trajectory exactly from its first frame to its last, including viewpoint, framing, field of view, direction, height changes, speed and occlusion. The reference image guides appearance, not the camera's opening viewpoint. Preserve the supplied video's complete duration and continuous motion. No jump cuts, teleportation, split-screen or added text overlays. Do not add route graphics or objects that are absent from the supplied inputs.",
+  "fps": 24.0,
+  "frames": 124,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "3e1d04a1a522c5ff4ed80b0a6bca27557072614c63b8530d4ba62a02d59de5c2",
+  "entry": "runtime/case/index.html",
+  "sources": [
+    {
+      "path": "original/case/main.js",
+      "name": "main.js",
+      "sha256": "40aaad86aab72245ad9a0363de618020b0147d8e3cf1c260e1020b93f11308f0",
+      "functions": [
+        {
+          "name": "box",
+          "line": 34
+        },
+        {
+          "name": "horizontalMouldings",
+          "line": 40
+        },
+        {
+          "name": "wallWithOpening",
+          "line": 51
+        },
+        {
+          "name": "archTrim",
+          "line": 89
+        },
+        {
+          "name": "artwork",
+          "line": 141
+        },
+        {
+          "name": "label",
+          "line": 154
+        },
+        {
+          "name": "ceilingFill",
+          "line": 204
+        },
+        {
+          "name": "track",
+          "line": 218
+        },
+        {
+          "name": "spotlight",
+          "line": 226
+        },
+        {
+          "name": "cameraTravel",
+          "line": 248
+        },
+        {
+          "name": "seek",
+          "line": 256
+        },
+        {
+          "name": "setVariant",
+          "line": 268
+        },
+        {
+          "name": "getCameraState",
+          "line": 275
+        },
+        {
+          "name": "serialize",
+          "line": 278
+        }
+      ]
+    },
+    {
+      "path": "original/case/camera-path.mjs",
+      "name": "camera-path.mjs",
+      "sha256": "9adacaa06f2b128811d1fe03c85bb0337c4221d42e8c19e23a9046df768ec71a",
+      "functions": [
+        {
+          "name": "cameraAt",
+          "line": 2
+        }
+      ]
+    },
+    {
+      "path": "original/case/textures.js",
+      "name": "textures.js",
+      "sha256": "9341127a1853139a062c3dd2d293721920c6b1632c85b62682e0aadd298a72d2",
+      "functions": [
+        {
+          "name": "rng",
+          "line": 3
+        },
+        {
+          "name": "generatedTexture",
+          "line": 13
+        },
+        {
+          "name": "oakTexture",
+          "line": 25
+        },
+        {
+          "name": "plasterTexture",
+          "line": 50
+        },
+        {
+          "name": "plaidTexture",
+          "line": 61
+        },
+        {
+          "name": "arch",
+          "line": 80
+        },
+        {
+          "name": "architectureTexture",
+          "line": 89
+        },
+        {
+          "name": "abstractTexture",
+          "line": 180
+        }
+      ]
+    },
+    {
+      "path": "original/case/people.js",
+      "name": "people.js",
+      "sha256": "18c76f1a0245be501c99159c62fae7c24354b9a58e7483b7374ed50b6bea441f",
+      "functions": [
+        {
+          "name": "ellipsoid",
+          "line": 14
+        },
+        {
+          "name": "bone",
+          "line": 21
+        },
+        {
+          "name": "curve",
+          "line": 32
+        },
+        {
+          "name": "jacket",
+          "line": 37
+        },
+        {
+          "name": "head",
+          "line": 48
+        },
+        {
+          "name": "person",
+          "line": 77
+        }
+      ]
+    },
+    {
+      "path": "original/selection-adapter.mjs",
+      "name": "selection-adapter.mjs",
+      "sha256": "35b24b822c9c1f1296ea420155d07d4312d8e1cf753fe984eb95ac54f27f37b1",
+      "functions": [],
+      "generated_adapter": true
+    }
+  ],
+  "provenance": {
+    "source_package": "paired-expansion-20260908/camera-v13-601-681-take2",
+    "selected_variant": "601",
+    "runtime_parameters": {
+      "variant": "601"
+    },
+    "pair_id": "camera-v13-601-681-take2",
+    "take": 2,
+    "reference_version": "v13",
+    "result_model": "MiniMax-H3",
+    "result_seed": 44,
+    "result_sha256": "840ac9b1d601ea520e7854768b7e5ac8eb981f128c265217dfc4b5d78e6861f7",
+    "timeline": "Native 124-frame, 24-FPS reviewed camera trajectory."
+  }
+}

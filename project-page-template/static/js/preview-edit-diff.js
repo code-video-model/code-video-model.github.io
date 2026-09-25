@@ -2,13 +2,15 @@ import {loadSources} from './source-transition.mjs';
 import {diffSources,diffHunks} from './source-diff.mjs';
 import {semanticEditDiff} from './semantic-edit-diff.mjs';
 import {editDiffSegments} from './edit-diff-segments.mjs';
+import {normalizeDisplayIdentifiers} from './code-display-names.mjs';
 
 export function createPreviewEditDiff(card,from,to,selection,signal,restoring,options={}){
  const frame=card.querySelector('.comparison-frame'),controller=new AbortController(),reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
+ const labels=options.caseLabels||{},display=id=>labels[id]||id;
  const abort=()=>controller.abort(signal.reason);signal.addEventListener('abort',abort,{once:true});
  const local=controller.signal;
  const layer=document.createElement('section');layer.className='preview-code-diff';layer.dataset.fromCase=from;layer.dataset.toCase=to;
- layer.setAttribute('aria-label',`Scene changes from case ${from} to ${to}`);
+ layer.setAttribute('aria-label',`Scene changes from ${display(from)} to ${display(to)}`);
  const heading=document.createElement('strong');heading.className='preview-diff-heading';heading.textContent=restoring?'Restoring original':'Applying scene edit';
  const code=document.createElement('pre');code.className='preview-diff-code';code.textContent='Reading scene parameters…';
  const note=document.createElement('span');note.className='preview-diff-note';note.textContent='Source-derived excerpt · pre-rendered video';
@@ -30,6 +32,7 @@ export function createPreviewEditDiff(card,from,to,selection,signal,restoring,op
   });
  }
  function line(text,kind='',number='',container=code){
+  text=normalizeDisplayIdentifiers(text,labels);
   const row=document.createElement('span');row.className=`preview-diff-row ${kind}`;
   row.dataset.kind=kind;row.dataset.sourceText=text;
   const marker=document.createElement('span');marker.className='preview-diff-marker';marker.textContent=kind==='add'?'+':kind==='remove'?'−':' ';

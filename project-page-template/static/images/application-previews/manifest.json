@@ -1,12 +1,12 @@
 [
   {
-    "section": "3D / 4D Reconstruction",
-    "section_id": "reconstruction-3d-4d",
-    "case_id": "astra-train",
-    "threejs": "threejs/reconstruction-3d-4d/astra-train-c822e0aa0db4.mp4",
-    "threejs_sha256": "c822e0aa0db4fdce71290667b6bddefa9f33df3876ed2edcae80795dc988fccd",
-    "result": "code-video-model/reconstruction-3d-4d/astra-train-785f39faf08a.mp4",
-    "result_sha256": "785f39faf08a35165d22d6273140db8c7bc90ef7d68d7ecdd98cfbc2a1377a2e"
+    "section": "Gaming",
+    "section_id": "control-world-states",
+    "case_id": "first-person-030",
+    "threejs": "threejs/first-person-games/first-person-030.mp4",
+    "threejs_sha256": "1c03ca919eefbf4392d6c4fe8d9b940c398b6facade3c3b0b0d0eaa853939120",
+    "result": "code-video-model/first-person-games/first-person-030.mp4",
+    "result_sha256": "0c5f036db8d244d75ea1c974f493c7ce31fab388d00424668ef3e90794944956"
   },
   {
     "section": "Anime",
@@ -46,64 +46,7 @@
     }
   },
   {
-    "section": "Trajectory Variation",
-    "section_id": "trajectory-variation",
-    "case_id": "577",
-    "selection_id": "trajectory-group23-577-578-image-group23-2-v16",
-    "threejs": "experiment-inputs/7120de68c82dfb598f995ba280cecf19bcc945b59280269ba18d60c937215053/threejs.mp4",
-    "threejs_sha256": "7120de68c82dfb598f995ba280cecf19bcc945b59280269ba18d60c937215053",
-    "result": "experiment-pairs/trajectory-group23-577-578-image-group23-2-v16/case-577-00f9b4ff3594.mp4",
-    "result_sha256": "00f9b4ff3594e24b728931fdbdfd19119fbedfdf34444a159fddc5bbc9868eab",
-    "edited": {
-      "case_id": "578",
-      "label": "Take Right Route",
-      "threejs": "experiment-inputs/2da6f461b2637565543a354f1f5f723c0a78b96fcc3255b623ed7c6e5de15322/threejs.mp4",
-      "threejs_sha256": "2da6f461b2637565543a354f1f5f723c0a78b96fcc3255b623ed7c6e5de15322",
-      "result": "experiment-pairs/trajectory-group23-577-578-image-group23-2-v16/case-578-78ca34159d0f.mp4",
-      "result_sha256": "78ca34159d0fe9fb93b78205efa8a2d4034b88fdd25724fb25cee5eff0af5765"
-    },
-    "selection": "trajectory-group23-577-578-image-group23-2-v16"
-  },
-  {
-    "section": "Architectural Cinematics",
-    "section_id": "architectural-cinematics",
-    "case_id": "656",
-    "threejs": "threejs/architectural-cinematics/case-656.mp4",
-    "threejs_sha256": "1f72b0bfc9f1ca9abf83028d8d96c07d9da7e464785e6104e71ec6cf1fe84b08",
-    "result": "selected-0907-seedvr2-2x/architectural-cinematics/case-656-9a2ef3b0a941.mp4",
-    "result_sha256": "9a2ef3b0a9416296f586d53c9d331c999ceb45c3634429de3c3e640639fa693f"
-  },
-  {
-    "section": "Product Cinematography",
-    "section_id": "product-cinematography",
-    "case_id": "624",
-    "threejs": "experiment-inputs/0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b/threejs.mp4",
-    "threejs_sha256": "0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b",
-    "result": "experiment-threejs-v2-image-group19-4-v17/product-cinematography/case-624-730d98dd2301.mp4",
-    "result_sha256": "730d98dd23014052636859be60494399b33634f9173f55405fe9435ed07acad5"
-  },
-  {
-    "section": "Scientific Visualization",
-    "section_id": "scientific-visualization",
-    "case_id": "black-hole-background-grade",
-    "threejs": "threejs/scientific-visualization/black-hole-background-grade-4c7072fb117f.mp4",
-    "threejs_sha256": "4c7072fb117f9b74c704bac8edaed6d6206a224811840ed93131f152a9227887",
-    "result": "code-video-model/scientific-visualization/black-hole-background-grade-f31cf2c446e5.mp4",
-    "result_sha256": "f31cf2c446e52c43e92043cbcb469005b7f1608b8d33506e193ee377683ac23e"
-  },
-  {
-    "section": "Physical Grounding",
-    "section_id": "physical-grounding",
-    "case_id": "physical-induction",
-    "threejs": "threejs/physical-grounding/physical-induction.mp4",
-    "threejs_sha256": "1666ca5176859f4422caaacce90b2ed5fb1a1a18042203d35bbffc420aa7089d",
-    "result": "code-video-model/physical-grounding/physical-induction.mp4",
-    "result_sha256": "a7d30e093cc311eb014e577d16da086f1b6edbb5f84883c888446712c5a1f616",
-    "proxy_poster": "static/images/first-frames-native/1666ca5176859f4422caaacce90b2ed5fb1a1a18042203d35bbffc420aa7089d-frame000030.png",
-    "output_poster": "static/images/first-frames-native/a7d30e093cc311eb014e577d16da086f1b6edbb5f84883c888446712c5a1f616-frame000024.png"
-  },
-  {
-    "section": "Robotics Simulation",
+    "section": "Robotics & Trajectory Control",
     "section_id": "robotics-simulation",
     "case_id": "564",
     "selection_id": "robotics-group23-564-563-image-group23-2-v13",
@@ -121,12 +64,43 @@
     }
   },
   {
-    "section": "Gaming",
-    "section_id": "control-world-states",
-    "case_id": "132",
-    "threejs": "threejs/first-person-games/case-132.mp4",
-    "threejs_sha256": "35de95026515a7c20b3067439683656def07b5cc1fe2845f0828cdce37389a34",
-    "result": "code-video-model/first-person-games/case-132.mp4",
-    "result_sha256": "0b6aee762784635fa937200215a434d7259c86341c466ac3a187e9f4bfdaaa94"
+    "section": "Architectural Cinematics",
+    "section_id": "architectural-cinematics",
+    "case_id": "643",
+    "threejs": "threejs/architectural-cinematics/case-643.mp4",
+    "threejs_sha256": "2a282ae58fdab6a9cbae26cc486361404f9961582c1ab77a09f7d163085838c1",
+    "result": "selected-0907-seedvr2-2x/architectural-cinematics/case-643-5bc5de70220a.mp4",
+    "result_sha256": "5bc5de70220a0c8030441da669c9ac85989847365171a5541e77b21fc2064b32",
+    "proxy_poster": "static/images/first-frames-native/2a282ae58fdab6a9cbae26cc486361404f9961582c1ab77a09f7d163085838c1.webp",
+    "output_poster": "static/images/first-frames-native/5bc5de70220a0c8030441da669c9ac85989847365171a5541e77b21fc2064b32.webp"
+  },
+  {
+    "section": "Product Cinematography",
+    "section_id": "product-cinematography",
+    "case_id": "624",
+    "threejs": "experiment-inputs/0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b/threejs.mp4",
+    "threejs_sha256": "0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b",
+    "result": "experiment-threejs-v2-image-group19-4-v17/product-cinematography/case-624-730d98dd2301.mp4",
+    "result_sha256": "730d98dd23014052636859be60494399b33634f9173f55405fe9435ed07acad5"
+  },
+  {
+    "section": "Physical Grounding",
+    "section_id": "physical-grounding",
+    "case_id": "physical-isochronous",
+    "threejs": "threejs/physical-grounding/physical-isochronous.mp4",
+    "threejs_sha256": "802dcff5b06015d934fe59ea1c7275141a3d370b2e7925b22c96850fc4612840",
+    "result": "code-video-model/physical-grounding/physical-isochronous.mp4",
+    "result_sha256": "21eb15899b0e6050292bd0ac32cd09405c13e77dd018033df486922d94a073a8",
+    "proxy_poster": "static/images/first-frames-native/802dcff5b06015d934fe59ea1c7275141a3d370b2e7925b22c96850fc4612840-frame000024.webp",
+    "output_poster": "static/images/first-frames-native/21eb15899b0e6050292bd0ac32cd09405c13e77dd018033df486922d94a073a8-frame000024.webp"
+  },
+  {
+    "section": "3D / 4D Reconstruction",
+    "section_id": "reconstruction-3d-4d",
+    "case_id": "astra-train",
+    "threejs": "threejs/reconstruction-3d-4d/astra-train-c822e0aa0db4.mp4",
+    "threejs_sha256": "c822e0aa0db4fdce71290667b6bddefa9f33df3876ed2edcae80795dc988fccd",
+    "result": "code-video-model/reconstruction-3d-4d/astra-train-785f39faf08a.mp4",
+    "result_sha256": "785f39faf08a35165d22d6273140db8c7bc90ef7d68d7ecdd98cfbc2a1377a2e"
   }
 ]

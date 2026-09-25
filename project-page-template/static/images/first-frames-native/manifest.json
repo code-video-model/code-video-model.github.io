@@ -11,26 +11,48 @@
     "decoded_pixels_sha256": "bae12f74266d0f5bc3b27fe1f6fc4c80021961a9857c1c8176c8106034de488f"
   },
   {
-    "video": "static/project-page-cases/threejs/reconstruction-3d-4d/astra-train-c822e0aa0db4.mp4",
-    "poster": "static/images/first-frames-native/c822e0aa0db4fdce71290667b6bddefa9f33df3876ed2edcae80795dc988fccd.png",
+    "video": "static/project-page-cases/threejs/first-person-games/first-person-030.mp4",
+    "poster": "static/images/first-frames-native/1c03ca919eefbf4392d6c4fe8d9b940c398b6facade3c3b0b0d0eaa853939120.png",
     "width": 960,
     "height": 540,
     "frame_index": 0,
     "format": "PNG/rgb24",
-    "video_sha256": "c822e0aa0db4fdce71290667b6bddefa9f33df3876ed2edcae80795dc988fccd",
-    "poster_sha256": "000abd79166e25d4443c4180f37927f81deec69a093e532c0052c888058bf264",
-    "decoded_pixels_sha256": "6fe363da7e274647ab16c73a86cecb347bccdbbcc5213cafebd10a927209b520"
+    "video_sha256": "1c03ca919eefbf4392d6c4fe8d9b940c398b6facade3c3b0b0d0eaa853939120",
+    "poster_sha256": "1bc6c0ff73ee9c9feb8cc71c210d5c083147c90155b4b7e3ffcf68d99409861d",
+    "decoded_pixels_sha256": "e3c5c55fc3600c419751f8298cec17d0dd441acc557e58a7aeae5f11ae94f000"
   },
   {
-    "video": "static/project-page-cases/code-video-model/reconstruction-3d-4d/astra-train-785f39faf08a.mp4",
-    "poster": "static/images/first-frames-native/785f39faf08a35165d22d6273140db8c7bc90ef7d68d7ecdd98cfbc2a1377a2e.png",
-    "width": 960,
-    "height": 540,
+    "video": "static/project-page-cases/code-video-model/first-person-games/first-person-030.mp4",
+    "poster": "static/images/first-frames-native/0c5f036db8d244d75ea1c974f493c7ce31fab388d00424668ef3e90794944956.png",
+    "width": 1920,
+    "height": 1088,
     "frame_index": 0,
     "format": "PNG/rgb24",
-    "video_sha256": "785f39faf08a35165d22d6273140db8c7bc90ef7d68d7ecdd98cfbc2a1377a2e",
-    "poster_sha256": "a9dc9e32f26aa43b8ba9169251b62dde617c0e6376c8064b5601b723b5e6a690",
-    "decoded_pixels_sha256": "117a910a56a7487aa5320ed80e631cf09515706f756ea8e74c467479563cdf47"
+    "video_sha256": "0c5f036db8d244d75ea1c974f493c7ce31fab388d00424668ef3e90794944956",
+    "poster_sha256": "3bdb0d04f367a86e7f81596cb8ec17520bd76da386f31ef054257df88e6b526a",
+    "decoded_pixels_sha256": "4bdbd156887ab992eb72f00bb24aec54c7c324f4c0d3786c040889da1536fac5"
+  },
+  {
+    "video": "static/project-page-cases/anime/anime-hotel/threejs-b0afbeca4b711b53.mp4",
+    "poster": "static/images/first-frames-native/b0afbeca4b711b53560bc126c5797c86f865d5c0c0989e751b221651db298521-frame000024.png",
+    "width": 960,
+    "height": 544,
+    "frame_index": 24,
+    "format": "PNG/rgb24",
+    "video_sha256": "b0afbeca4b711b53560bc126c5797c86f865d5c0c0989e751b221651db298521",
+    "poster_sha256": "6ab68c247d8a44c69a3f9633239a50ec5c5025985039f0298dd6cbd53534dee9",
+    "decoded_pixels_sha256": "515fd47ceb5242c3248a4d392c570c02a0aa420f9cfb940b5b92ff3b6f1cba51"
+  },
+  {
+    "video": "static/project-page-cases/anime/anime-hotel/output-a21781b4e0aed258.mp4",
+    "poster": "static/images/first-frames-native/a21781b4e0aed258df3fe15a7db5c054745ce8b6e7920bb4c19351e48593e3bc-frame000024.png",
+    "width": 960,
+    "height": 544,
+    "frame_index": 24,
+    "format": "PNG/rgb24",
+    "video_sha256": "a21781b4e0aed258df3fe15a7db5c054745ce8b6e7920bb4c19351e48593e3bc",
+    "poster_sha256": "e96d423cb815e13ce286c56acf85107ddf689fd2d0f1a7b09720e28deb734d55",
+    "decoded_pixels_sha256": "2b8020855f21338e6e4a3bda887eb5a0bff877f1e1e83a7403a5ee279646b51e"
   },
   {
     "video": "static/project-page-cases/experiment-inputs/2e39cbc22a4325da26c3ce79bfa6939aafb839776d288c49802c7a5064ca76e3/threejs.mp4",
@@ -99,138 +121,6 @@
     "decoded_pixels_sha256": "3dfec76a1ace3465f085b1df3e3c35e09ed1edd5c2608fd200ab7bfa2faa959b"
   },
   {
-    "video": "static/project-page-cases/experiment-inputs/7120de68c82dfb598f995ba280cecf19bcc945b59280269ba18d60c937215053/threejs.mp4",
-    "poster": "static/images/first-frames-native/7120de68c82dfb598f995ba280cecf19bcc945b59280269ba18d60c937215053.png",
-    "width": 960,
-    "height": 540,
-    "frame_index": 0,
-    "format": "PNG/rgb24",
-    "video_sha256": "7120de68c82dfb598f995ba280cecf19bcc945b59280269ba18d60c937215053",
-    "poster_sha256": "5143327476e2cfef0a4f011f8bdc35e11a90d85e38e31555649a90f445eecee0",
-    "decoded_pixels_sha256": "e3903244c85d339c754039c9e9f26db105ecf50f8759e53bada419fc17072d98"
-  },
-  {
-    "video": "static/project-page-cases/experiment-inputs/2da6f461b2637565543a354f1f5f723c0a78b96fcc3255b623ed7c6e5de15322/threejs.mp4",
-    "poster": "static/images/first-frames-native/2da6f461b2637565543a354f1f5f723c0a78b96fcc3255b623ed7c6e5de15322.png",
-    "width": 960,
-    "height": 540,
-    "frame_index": 0,
-    "format": "PNG/rgb24",
-    "video_sha256": "2da6f461b2637565543a354f1f5f723c0a78b96fcc3255b623ed7c6e5de15322",
-    "poster_sha256": "493aecc7e12a8cecf9f3943e10fc0a6fe3ee959a3559d56305382c01b3cb8b93",
-    "decoded_pixels_sha256": "bd9bb4138a3fe23838aa219d99661a66f31eaa8fa41466d48a902cde68dfa65f"
-  },
-  {
-    "video": "static/project-page-cases/experiment-pairs/trajectory-group23-577-578-image-group23-2-v16/case-577-00f9b4ff3594.mp4",
-    "poster": "static/images/first-frames-native/00f9b4ff3594e24b728931fdbdfd19119fbedfdf34444a159fddc5bbc9868eab.png",
-    "width": 960,
-    "height": 544,
-    "frame_index": 0,
-    "format": "PNG/rgb24",
-    "video_sha256": "00f9b4ff3594e24b728931fdbdfd19119fbedfdf34444a159fddc5bbc9868eab",
-    "poster_sha256": "ae49d2a5059e03b115a464b3adb6bc3bbfbc094c428ea566a79b6847c2eb7e91",
-    "decoded_pixels_sha256": "fe1927142ffb8573a1ed5524d430cdbe2e003d292b81a87459cd72c17acd4c88"
-  },
-  {
-    "video": "static/project-page-cases/experiment-pairs/trajectory-group23-577-578-image-group23-2-v16/case-578-78ca34159d0f.mp4",
-    "poster": "static/images/first-frames-native/78ca34159d0fe9fb93b78205efa8a2d4034b88fdd25724fb25cee5eff0af5765.png",
-    "width": 960,
-    "height": 544,
-    "frame_index": 0,
-    "format": "PNG/rgb24",
-    "video_sha256": "78ca34159d0fe9fb93b78205efa8a2d4034b88fdd25724fb25cee5eff0af5765",
-    "poster_sha256": "eea10dbee3d02cf43de27301261277cdd03fabcd00bdb43133519f3e36b7c113",
-    "decoded_pixels_sha256": "4a6c94e166d3df9077f262aaa00209ad7d7d4207784177b2d564be5c260b8834"
-  },
-  {
-    "video": "static/project-page-cases/threejs/architectural-cinematics/case-656.mp4",
-    "poster": "static/images/first-frames-native/1f72b0bfc9f1ca9abf83028d8d96c07d9da7e464785e6104e71ec6cf1fe84b08.png",
-    "width": 960,
-    "height": 540,
-    "frame_index": 0,
-    "format": "PNG/rgb24",
-    "video_sha256": "1f72b0bfc9f1ca9abf83028d8d96c07d9da7e464785e6104e71ec6cf1fe84b08",
-    "poster_sha256": "18b1241cebb49d56f1ad7b683865c2b799955cc44f5cc9efb22498f647a15721",
-    "decoded_pixels_sha256": "b289b2121a422f4128d494da130d38247fa20381d7d7dc390910e8cab60f2d0e"
-  },
-  {
-    "video": "static/project-page-cases/selected-0907-seedvr2-2x/architectural-cinematics/case-656-9a2ef3b0a941.mp4",
-    "poster": "static/images/first-frames-native/9a2ef3b0a9416296f586d53c9d331c999ceb45c3634429de3c3e640639fa693f.png",
-    "width": 1920,
-    "height": 1088,
-    "frame_index": 0,
-    "format": "PNG/rgb24",
-    "video_sha256": "9a2ef3b0a9416296f586d53c9d331c999ceb45c3634429de3c3e640639fa693f",
-    "poster_sha256": "ba60d51fa63a2c7389eb6a49b6b70a9ae679abd5d38f4a9b6e0f9af3e577d130",
-    "decoded_pixels_sha256": "2c3a10750d63e1aa32b7a345d04bc758680dcd79f8575da61f83182162531399"
-  },
-  {
-    "video": "static/project-page-cases/experiment-inputs/0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b/threejs.mp4",
-    "poster": "static/images/first-frames-native/0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b.png",
-    "width": 960,
-    "height": 540,
-    "frame_index": 0,
-    "format": "PNG/rgb24",
-    "video_sha256": "0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b",
-    "poster_sha256": "93516785c3e06cffdc95685066a078b352a505c0023d239e6989532bff4c1bcc",
-    "decoded_pixels_sha256": "e5ad92692140f919a8fa1a4db20ed86982cea37f948cc188bc7f0d7a41fb44b5"
-  },
-  {
-    "video": "static/project-page-cases/experiment-threejs-v2-image-group19-4-v17/product-cinematography/case-624-730d98dd2301.mp4",
-    "poster": "static/images/first-frames-native/730d98dd23014052636859be60494399b33634f9173f55405fe9435ed07acad5.png",
-    "width": 960,
-    "height": 544,
-    "frame_index": 0,
-    "format": "PNG/rgb24",
-    "video_sha256": "730d98dd23014052636859be60494399b33634f9173f55405fe9435ed07acad5",
-    "poster_sha256": "94e9f805106343e47c9ba94cd915dc91206f4249a496034ce61ac8cb27306cf7",
-    "decoded_pixels_sha256": "51ae0f627fc79699f1ac3ce7cb1eb6e7eaad831abbc918dac9c65a7f44ff2a78"
-  },
-  {
-    "video": "static/project-page-cases/threejs/scientific-visualization/black-hole-background-grade-4c7072fb117f.mp4",
-    "poster": "static/images/first-frames-native/4c7072fb117f9b74c704bac8edaed6d6206a224811840ed93131f152a9227887.png",
-    "width": 960,
-    "height": 540,
-    "frame_index": 0,
-    "format": "PNG/rgb24",
-    "video_sha256": "4c7072fb117f9b74c704bac8edaed6d6206a224811840ed93131f152a9227887",
-    "poster_sha256": "41907dadf30bd627cfc6afed1d5fcb3e0b606907089172f5000d8fa19d5df9f7",
-    "decoded_pixels_sha256": "324fcd2a5d91406970c46cb3b0b256cad4bae4ba96e202fe1e59b7e514741851"
-  },
-  {
-    "video": "static/project-page-cases/code-video-model/scientific-visualization/black-hole-background-grade-f31cf2c446e5.mp4",
-    "poster": "static/images/first-frames-native/f31cf2c446e52c43e92043cbcb469005b7f1608b8d33506e193ee377683ac23e.png",
-    "width": 960,
-    "height": 540,
-    "frame_index": 0,
-    "format": "PNG/rgb24",
-    "video_sha256": "f31cf2c446e52c43e92043cbcb469005b7f1608b8d33506e193ee377683ac23e",
-    "poster_sha256": "4f683ffe2619188943122866174a527ff0f2281f48ef2f6c66eab7e7a3b0b5a1",
-    "decoded_pixels_sha256": "daf0a33ec6c75355f18341536238baa80be7ea4927f6549a9e26d936828f9a74"
-  },
-  {
-    "video": "static/project-page-cases/threejs/physical-grounding/physical-induction.mp4",
-    "poster": "static/images/first-frames-native/1666ca5176859f4422caaacce90b2ed5fb1a1a18042203d35bbffc420aa7089d-frame000030.png",
-    "width": 1920,
-    "height": 1080,
-    "frame_index": 30,
-    "format": "PNG/rgb24",
-    "video_sha256": "1666ca5176859f4422caaacce90b2ed5fb1a1a18042203d35bbffc420aa7089d",
-    "poster_sha256": "b41316fafad8afb54f3e9a56c6de1291cc59c1737ed0f3bc8c24736ede431673",
-    "decoded_pixels_sha256": "bb5f7fce812bd6cead361e0fd76d63274c7ffc7745360ae4950b5acf3d09d775"
-  },
-  {
-    "video": "static/project-page-cases/code-video-model/physical-grounding/physical-induction.mp4",
-    "poster": "static/images/first-frames-native/a7d30e093cc311eb014e577d16da086f1b6edbb5f84883c888446712c5a1f616-frame000024.png",
-    "width": 1920,
-    "height": 1080,
-    "frame_index": 24,
-    "format": "PNG/rgb24",
-    "video_sha256": "a7d30e093cc311eb014e577d16da086f1b6edbb5f84883c888446712c5a1f616",
-    "poster_sha256": "30a4a2ae02fa482ba9209ccae398694ddf064b0957232f9fdb73dd49209221a4",
-    "decoded_pixels_sha256": "ae0828259ad4e3bd23430e723a9e806c59f9d955092a3908fa2ab1e438309e30"
-  },
-  {
     "video": "static/project-page-cases/experiment-inputs/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834/threejs.mp4",
     "poster": "static/images/first-frames-native/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834.png",
     "width": 960,
@@ -275,47 +165,91 @@
     "decoded_pixels_sha256": "06cab7bed2bc3d3f5978142f75ccf321361563a9bfce2cd7162cc7b2c0720859"
   },
   {
-    "video": "static/project-page-cases/threejs/first-person-games/case-132.mp4",
-    "poster": "static/images/first-frames-native/35de95026515a7c20b3067439683656def07b5cc1fe2845f0828cdce37389a34.png",
+    "video": "static/project-page-cases/threejs/architectural-cinematics/case-643.mp4",
+    "poster": "static/images/first-frames-native/2a282ae58fdab6a9cbae26cc486361404f9961582c1ab77a09f7d163085838c1.png",
     "width": 960,
     "height": 540,
     "frame_index": 0,
     "format": "PNG/rgb24",
-    "video_sha256": "35de95026515a7c20b3067439683656def07b5cc1fe2845f0828cdce37389a34",
-    "poster_sha256": "9afb108adc7a6370e43808bcd14cb3cd41051e35ea6aea2273df4ca2be3a1f9e",
-    "decoded_pixels_sha256": "6aa1ed07285428f630525901e0aec25ccb61e3b66e7e9fbdab4a4abf7859bb68"
+    "video_sha256": "2a282ae58fdab6a9cbae26cc486361404f9961582c1ab77a09f7d163085838c1",
+    "poster_sha256": "645eb870ee2d830e8c5bea8db1d6bb8890508a7af53fc1ac78bc39d4b189a353",
+    "decoded_pixels_sha256": "349f625881a1637976aeac55432bf75916e6f5cc3ca127ca28cb9bebf6d28d26"
   },
   {
-    "video": "static/project-page-cases/code-video-model/first-person-games/case-132.mp4",
-    "poster": "static/images/first-frames-native/0b6aee762784635fa937200215a434d7259c86341c466ac3a187e9f4bfdaaa94.png",
+    "video": "static/project-page-cases/selected-0907-seedvr2-2x/architectural-cinematics/case-643-5bc5de70220a.mp4",
+    "poster": "static/images/first-frames-native/5bc5de70220a0c8030441da669c9ac85989847365171a5541e77b21fc2064b32.png",
     "width": 1920,
     "height": 1088,
     "frame_index": 0,
     "format": "PNG/rgb24",
-    "video_sha256": "0b6aee762784635fa937200215a434d7259c86341c466ac3a187e9f4bfdaaa94",
-    "poster_sha256": "72fe0bf7a0107f3b3628e840bd2247f3a53a1790be19fd4accdab07341226301",
-    "decoded_pixels_sha256": "be34305d0f72ba1f84a2c674d687e533b740f2eb8e72189ad39890effecb456d"
+    "video_sha256": "5bc5de70220a0c8030441da669c9ac85989847365171a5541e77b21fc2064b32",
+    "poster_sha256": "742162ddc0063c482b7c6083dfb9612c47706929e13c26b78616d5904758d739",
+    "decoded_pixels_sha256": "85b9abf4ffe5ed1c20c73d6146e893c3d157fe49ae41665b7f3372f13eee8030"
   },
   {
-    "video": "static/project-page-cases/anime/anime-hotel/threejs-b0afbeca4b711b53.mp4",
-    "poster": "static/images/first-frames-native/b0afbeca4b711b53560bc126c5797c86f865d5c0c0989e751b221651db298521-frame000024.png",
+    "video": "static/project-page-cases/experiment-inputs/0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b/threejs.mp4",
+    "poster": "static/images/first-frames-native/0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b.png",
     "width": 960,
-    "height": 544,
-    "frame_index": 24,
+    "height": 540,
+    "frame_index": 0,
     "format": "PNG/rgb24",
-    "video_sha256": "b0afbeca4b711b53560bc126c5797c86f865d5c0c0989e751b221651db298521",
-    "poster_sha256": "6ab68c247d8a44c69a3f9633239a50ec5c5025985039f0298dd6cbd53534dee9",
-    "decoded_pixels_sha256": "515fd47ceb5242c3248a4d392c570c02a0aa420f9cfb940b5b92ff3b6f1cba51"
+    "video_sha256": "0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b",
+    "poster_sha256": "93516785c3e06cffdc95685066a078b352a505c0023d239e6989532bff4c1bcc",
+    "decoded_pixels_sha256": "e5ad92692140f919a8fa1a4db20ed86982cea37f948cc188bc7f0d7a41fb44b5"
   },
   {
-    "video": "static/project-page-cases/anime/anime-hotel/output-a21781b4e0aed258.mp4",
-    "poster": "static/images/first-frames-native/a21781b4e0aed258df3fe15a7db5c054745ce8b6e7920bb4c19351e48593e3bc-frame000024.png",
+    "video": "static/project-page-cases/experiment-threejs-v2-image-group19-4-v17/product-cinematography/case-624-730d98dd2301.mp4",
+    "poster": "static/images/first-frames-native/730d98dd23014052636859be60494399b33634f9173f55405fe9435ed07acad5.png",
     "width": 960,
     "height": 544,
+    "frame_index": 0,
+    "format": "PNG/rgb24",
+    "video_sha256": "730d98dd23014052636859be60494399b33634f9173f55405fe9435ed07acad5",
+    "poster_sha256": "94e9f805106343e47c9ba94cd915dc91206f4249a496034ce61ac8cb27306cf7",
+    "decoded_pixels_sha256": "51ae0f627fc79699f1ac3ce7cb1eb6e7eaad831abbc918dac9c65a7f44ff2a78"
+  },
+  {
+    "video": "static/project-page-cases/threejs/physical-grounding/physical-isochronous.mp4",
+    "poster": "static/images/first-frames-native/802dcff5b06015d934fe59ea1c7275141a3d370b2e7925b22c96850fc4612840-frame000024.png",
+    "width": 1280,
+    "height": 720,
     "frame_index": 24,
     "format": "PNG/rgb24",
-    "video_sha256": "a21781b4e0aed258df3fe15a7db5c054745ce8b6e7920bb4c19351e48593e3bc",
-    "poster_sha256": "e96d423cb815e13ce286c56acf85107ddf689fd2d0f1a7b09720e28deb734d55",
-    "decoded_pixels_sha256": "2b8020855f21338e6e4a3bda887eb5a0bff877f1e1e83a7403a5ee279646b51e"
+    "video_sha256": "802dcff5b06015d934fe59ea1c7275141a3d370b2e7925b22c96850fc4612840",
+    "poster_sha256": "d14ede89ddbc228080bf12f717798bba16b4cc2acf12a93a63b388520f196f3a",
+    "decoded_pixels_sha256": "e0cae87e72d21ce16820bdd5ddf7eec68d6765f06182977c072bd502e86b4024"
+  },
+  {
+    "video": "static/project-page-cases/code-video-model/physical-grounding/physical-isochronous.mp4",
+    "poster": "static/images/first-frames-native/21eb15899b0e6050292bd0ac32cd09405c13e77dd018033df486922d94a073a8-frame000024.png",
+    "width": 1280,
+    "height": 720,
+    "frame_index": 24,
+    "format": "PNG/rgb24",
+    "video_sha256": "21eb15899b0e6050292bd0ac32cd09405c13e77dd018033df486922d94a073a8",
+    "poster_sha256": "66044f10d7982736680fbaadc0af791d3722f1af1f7b530772628858a2f84a34",
+    "decoded_pixels_sha256": "97ae6002e5fcff418fd7724fb0d375f7d1a23da52381cd627812469daa8f13cd"
+  },
+  {
+    "video": "static/project-page-cases/threejs/reconstruction-3d-4d/astra-train-c822e0aa0db4.mp4",
+    "poster": "static/images/first-frames-native/c822e0aa0db4fdce71290667b6bddefa9f33df3876ed2edcae80795dc988fccd.png",
+    "width": 960,
+    "height": 540,
+    "frame_index": 0,
+    "format": "PNG/rgb24",
+    "video_sha256": "c822e0aa0db4fdce71290667b6bddefa9f33df3876ed2edcae80795dc988fccd",
+    "poster_sha256": "000abd79166e25d4443c4180f37927f81deec69a093e532c0052c888058bf264",
+    "decoded_pixels_sha256": "6fe363da7e274647ab16c73a86cecb347bccdbbcc5213cafebd10a927209b520"
+  },
+  {
+    "video": "static/project-page-cases/code-video-model/reconstruction-3d-4d/astra-train-785f39faf08a.mp4",
+    "poster": "static/images/first-frames-native/785f39faf08a35165d22d6273140db8c7bc90ef7d68d7ecdd98cfbc2a1377a2e.png",
+    "width": 960,
+    "height": 540,
+    "frame_index": 0,
+    "format": "PNG/rgb24",
+    "video_sha256": "785f39faf08a35165d22d6273140db8c7bc90ef7d68d7ecdd98cfbc2a1377a2e",
+    "poster_sha256": "a9dc9e32f26aa43b8ba9169251b62dde617c0e6376c8064b5601b723b5e6a690",
+    "decoded_pixels_sha256": "117a910a56a7487aa5320ed80e631cf09515706f756ea8e74c467479563cdf47"
   }
 ]

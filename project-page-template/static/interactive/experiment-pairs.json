@@ -913,7 +913,7 @@
       },
       "cover": {
         "case_id": "564",
-        "name": "Case 564",
+        "name": "Robotics_Trajectory_Control_03",
         "session": "Robotics Simulation",
         "source_rgb": [
           113,
@@ -975,7 +975,8 @@
         "source_sha256": "2bdfbe4b1b132f43b80f6e8e31334b610d562e6c7f8f8883af5a4e4de156223b",
         "frame": 0,
         "alpha": 0.5
-      }
+      },
+      "display_name": "Robotics_Trajectory_Control_03"
     },
     {
       "id": "robotics-group23-564-563-image-group23-4-v15",
@@ -1040,7 +1041,7 @@
       },
       "cover": {
         "case_id": "564",
-        "name": "Case 564",
+        "name": "Robotics_Trajectory_Control_04",
         "session": "Robotics Simulation",
         "source_rgb": [
           78,
@@ -1102,7 +1103,8 @@
         "source_sha256": "026f839ca680b6b8c2b7127fae6c1b67e414ad16537bc7a3827b98934dc4fda8",
         "frame": 0,
         "alpha": 0.5
-      }
+      },
+      "display_name": "Robotics_Trajectory_Control_04"
     },
     {
       "id": "robotics-group23-564-563-image-group23-2-v20",
@@ -1929,7 +1931,7 @@
       },
       "cover": {
         "case_id": "577",
-        "name": "Case 577",
+        "name": "Robotics_Trajectory_Control_06",
         "session": "Trajectory Variation",
         "source_rgb": [
           107,
@@ -1991,7 +1993,8 @@
         "source_sha256": "00f9b4ff3594e24b728931fdbdfd19119fbedfdf34444a159fddc5bbc9868eab",
         "frame": 0,
         "alpha": 0.5
-      }
+      },
+      "display_name": "Robotics_Trajectory_Control_06"
     },
     {
       "id": "trajectory-group23-581-582-image-group23-4-v12",
@@ -2056,7 +2059,7 @@
       },
       "cover": {
         "case_id": "581",
-        "name": "Case 581",
+        "name": "Robotics_Trajectory_Control_02",
         "session": "Trajectory Variation",
         "source_rgb": [
           128,
@@ -2118,10 +2121,145 @@
         "source_sha256": "6febd6c6ab2935a79d67f7a39ad763534ffaa6240dd53e92c7aee723a9bb827c",
         "frame": 0,
         "alpha": 0.5
-      }
+      },
+      "display_name": "Robotics_Trajectory_Control_02"
+    },
+    {
+      "id": "gallery-v13-601-681-take2-seed44",
+      "section_id": "gallery",
+      "section": "Scene / World Editing",
+      "a": "601",
+      "b": "681",
+      "batch": "editing-h3",
+      "group": "image-group23-2",
+      "version": "v13-take2-seed44",
+      "label": "v13 / Take 2 / Seed 44",
+      "edit_label": "Replace Arch with Doorway",
+      "assets": {
+        "601": {
+          "video": "experiment-pairs/gallery-v13-601-681-take2-seed44/case-601-840ac9b1d601.mp4",
+          "sha256": "840ac9b1d601ea520e7854768b7e5ac8eb981f128c265217dfc4b5d78e6861f7",
+          "threejs_video": "experiment-inputs/3e1d04a1a522c5ff4ed80b0a6bca27557072614c63b8530d4ba62a02d59de5c2/threejs.mp4",
+          "threejs_sha256": "3e1d04a1a522c5ff4ed80b0a6bca27557072614c63b8530d4ba62a02d59de5c2",
+          "interactive_source": "revisions/3e1d04a1a522c5ff4ed80b0a6bca27557072614c63b8530d4ba62a02d59de5c2/601/",
+          "reference_image": "experiment-inputs/3e1d04a1a522c5ff4ed80b0a6bca27557072614c63b8530d4ba62a02d59de5c2/reference-5d7d25d44ed1.png",
+          "reference_sha256": "5d7d25d44ed19ffebcec695985daa29af6704e727c175934d416a1ff4d826fba",
+          "source_case_id": "v13-601-take2",
+          "origin": "editing-h3",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "pair_id": "camera-v13-601-681-take2",
+            "role": "anchor",
+            "group": "image-group23-2",
+            "version": "v13",
+            "take": 2,
+            "seed": 44,
+            "source_page": "perception-respond-chemical-remix.trycloudflare.com",
+            "result_sha256": "840ac9b1d601ea520e7854768b7e5ac8eb981f128c265217dfc4b5d78e6861f7",
+            "threejs_sha256": "3e1d04a1a522c5ff4ed80b0a6bca27557072614c63b8530d4ba62a02d59de5c2",
+            "reference_sha256": "5d7d25d44ed19ffebcec695985daa29af6704e727c175934d416a1ff4d826fba"
+          }
+        },
+        "681": {
+          "video": "experiment-pairs/gallery-v13-601-681-take2-seed44/case-681-6ad541cfacb6.mp4",
+          "sha256": "6ad541cfacb6f7295e4ef8c2a378fe91a76eb544011916297d79bf808e2a84c6",
+          "threejs_video": "experiment-inputs/170a535925ffead3920b7631f567cd8504fd9bb76794ed4df839ad5c84af269d/threejs.mp4",
+          "threejs_sha256": "170a535925ffead3920b7631f567cd8504fd9bb76794ed4df839ad5c84af269d",
+          "interactive_source": "revisions/170a535925ffead3920b7631f567cd8504fd9bb76794ed4df839ad5c84af269d/681/",
+          "reference_image": "experiment-inputs/170a535925ffead3920b7631f567cd8504fd9bb76794ed4df839ad5c84af269d/reference-5f53afc9d897.png",
+          "reference_sha256": "5f53afc9d8977a76b971fec315772fc62ae850b79cb4765e0b65df419f4c9c7f",
+          "source_case_id": "v13-681-take2",
+          "origin": "editing-h3",
+          "width": 960,
+          "height": 544,
+          "frames": 124,
+          "fps": 24,
+          "provenance": {
+            "pair_id": "camera-v13-601-681-take2",
+            "role": "variant",
+            "group": "image-group23-2",
+            "version": "v13",
+            "take": 2,
+            "seed": 44,
+            "source_page": "perception-respond-chemical-remix.trycloudflare.com",
+            "result_sha256": "6ad541cfacb6f7295e4ef8c2a378fe91a76eb544011916297d79bf808e2a84c6",
+            "threejs_sha256": "170a535925ffead3920b7631f567cd8504fd9bb76794ed4df839ad5c84af269d",
+            "reference_sha256": "5f53afc9d8977a76b971fec315772fc62ae850b79cb4765e0b65df419f4c9c7f"
+          }
+        }
+      },
+      "cover": {
+        "case_id": "601",
+        "name": "Scene_World_Editing_05",
+        "session": "Scene / World Editing",
+        "source_rgb": [
+          94,
+          84,
+          74
+        ],
+        "source_palette": [
+          [
+            106,
+            89,
+            74
+          ],
+          [
+            77,
+            65,
+            54
+          ],
+          [
+            32,
+            28,
+            23
+          ],
+          [
+            159,
+            149,
+            141
+          ]
+        ],
+        "rgb": [
+          94,
+          84,
+          74
+        ],
+        "palette": [
+          [
+            106,
+            89,
+            74
+          ],
+          [
+            77,
+            65,
+            54
+          ],
+          [
+            32,
+            28,
+            23
+          ],
+          [
+            159,
+            149,
+            141
+          ]
+        ],
+        "source_kind": "displayed-code-video-model",
+        "first_frame": "static/images/first-person-bubbles/601-840ac9b1d601.png",
+        "source_video": "experiment-pairs/gallery-v13-601-681-take2-seed44/case-601-840ac9b1d601.mp4",
+        "source_sha256": "840ac9b1d601ea520e7854768b7e5ac8eb981f128c265217dfc4b5d78e6861f7",
+        "frame": 0,
+        "alpha": 0.5
+      },
+      "display_name": "Scene_World_Editing_05"
     }
   ],
-  "count": 17,
+  "count": 18,
   "hidden_default_cases": {
     "trajectory-variation": [
       "577"

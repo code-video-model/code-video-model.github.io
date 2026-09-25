@@ -1,0 +1,132 @@
+{
+  "count": 1,
+  "cases": [
+    {
+      "id": "newtons-cradle",
+      "title": "Newton's cradle / ideal one in, one out",
+      "model": "Ideal instantaneous elastic impulse transfer with exact nonlinear outer-pendulum arcs",
+      "model_type": "ideal-instant-contact",
+      "assumptions": [
+        "Five equal masses, perfectly elastic zero-duration contact and inextensible massless suspension",
+        "The impulse is transmitted through all contacting interfaces; equal incoming/outgoing impulses leave each middle mass at rest",
+        "This is an explicitly idealized limit, not the previous finite-duration Hertz/elastic-cable model",
+        "Momentum conservation alone is insufficient; the selected ideal solution also conserves kinetic energy"
+      ],
+      "parameters": {
+        "length": 1.35,
+        "radius": 0.18,
+        "mass": 1.0,
+        "amplitude": 0.55,
+        "pivots_x": [
+          -0.72,
+          -0.36,
+          0.0,
+          0.36,
+          0.72
+        ],
+        "quarter_period": 0.5939213706692411
+      },
+      "cable_parameters": {
+        "radius": 0.003,
+        "rest_length": 1.3562448156582942,
+        "anchor_depth": 0.13,
+        "kind": "ideal-inextensible"
+      },
+      "checks": {
+        "maximum_middle_displacement": 0.0,
+        "maximum_energy_residual": 1.7763568394002505e-15,
+        "event_count": 4
+      },
+      "events": [
+        {
+          "time": 0.5939213706692411,
+          "before_velocities": [
+            1.9764065837296416,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "after_velocities": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.9764065837296416
+          ],
+          "interface_impulse_magnitude": 1.9764065837296416
+        },
+        {
+          "time": 1.7817641120077234,
+          "before_velocities": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.9764065837296416
+          ],
+          "after_velocities": [
+            -1.9764065837296416,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interface_impulse_magnitude": 1.9764065837296416
+        },
+        {
+          "time": 2.9696068533462054,
+          "before_velocities": [
+            1.9764065837296416,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "after_velocities": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.9764065837296416
+          ],
+          "interface_impulse_magnitude": 1.9764065837296416
+        },
+        {
+          "time": 4.157449594684688,
+          "before_velocities": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.9764065837296416
+          ],
+          "after_velocities": [
+            -1.9764065837296416,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "interface_impulse_magnitude": 1.9764065837296416
+        }
+      ],
+      "observables": [
+        "The middle three spheres remain stationary throughout",
+        "Only the first and last sphere exchange motion at contact",
+        "Each ideal impact conserves horizontal momentum and kinetic energy"
+      ],
+      "prompt": "A photorealistic physics demonstration with coherent rigid geometry, stable apparatus and no titles or overlays. A fixed close laboratory shot of an IDEAL five-ball Newton's cradle. Five equal-size, equal-mass spheres touch in a straight row on identical suspension lengths. The leftmost ball begins displaced to the left and is released. Under perfectly elastic instantaneous contact, it stops at the row while the rightmost ball takes its motion. The rightmost swings out and back, then transfers motion to the leftmost. The MIDDLE THREE SPHERES remain completely stationary at all times; only the two outer balls swing. Preserve the frame, five balls and all suspension connections. This shot intentionally depicts the ideal collision limit, without finite-contact vibration of the middle balls.",
+      "video": {
+        "width": 960,
+        "height": 540,
+        "fps": 24,
+        "frames": 124,
+        "simulation_fps": 240,
+        "supersampling": 2
+      },
+      "duration": 5.166666666666667,
+      "trajectory": "trajectories/newtons-cradle.json"
+    }
+  ]
+}

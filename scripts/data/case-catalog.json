@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "nextId": 84,
+  "nextId": 88,
   "entries": {
     "reconstruction-3d-4d|442||": {
       "id": "R001",
@@ -8,7 +8,7 @@
       "a": "442",
       "b": "",
       "selection": "",
-      "title": "River Gallop",
+      "title": "3D_4D_Reconstruction_03",
       "active": true,
       "sectionTitle": "3D / 4D Reconstruction",
       "version": "World Model Hero 431–480 / Direct Output",
@@ -17,7 +17,8 @@
           "threejsSHA": "5087841c9063eeb5ccf58e213de3a61c41fd17eb1c10e755a73352969d0ab7d7",
           "result": "code-video-model/reconstruction-3d-4d/case-442-direct.mp4"
         }
-      }
+      },
+      "displayName": "3D_4D_Reconstruction_03"
     },
     "reconstruction-3d-4d|astra-bicycle||": {
       "id": "R002",
@@ -25,7 +26,7 @@
       "a": "astra-bicycle",
       "b": "",
       "selection": "",
-      "title": "Bicycle",
+      "title": "3D_4D_Reconstruction_01",
       "active": true,
       "sectionTitle": "3D / 4D Reconstruction",
       "version": "Code Video delivery / astra-bicycle-10s-review-v1 / centered 960x540 24FPS",
@@ -34,7 +35,8 @@
           "threejsSHA": "b450e38540fd8e872fc1883e1bd15ffb731ea67b84a859b3761fed8b61d8954b",
           "result": "code-video-model/reconstruction-3d-4d/astra-bicycle-25800f414cad.mp4"
         }
-      }
+      },
+      "displayName": "3D_4D_Reconstruction_01"
     },
     "reconstruction-3d-4d|astra-garden-gray||": {
       "id": "R003",
@@ -42,7 +44,7 @@
       "a": "astra-garden-gray",
       "b": "",
       "selection": "",
-      "title": "Garden",
+      "title": "3D_4D_Reconstruction_02",
       "active": true,
       "sectionTitle": "3D / 4D Reconstruction",
       "version": "Code Video delivery / astra-garden-gray-10s-review-v1 / centered 960x540 24FPS",
@@ -51,7 +53,8 @@
           "threejsSHA": "74d43d872b685470749da7154c34c5ee110db948b8f8845fb2027a5d40e24171",
           "result": "code-video-model/reconstruction-3d-4d/astra-garden-gray-37c8fe98a2c2.mp4"
         }
-      }
+      },
+      "displayName": "3D_4D_Reconstruction_02"
     },
     "reconstruction-3d-4d|astra-bonsai||": {
       "id": "R004",
@@ -59,7 +62,7 @@
       "a": "astra-bonsai",
       "b": "",
       "selection": "",
-      "title": "Bonsai",
+      "title": "3D_4D_Reconstruction_05",
       "active": true,
       "sectionTitle": "3D / 4D Reconstruction",
       "version": "Code Video delivery / astra-bonsai-10s-review-v1 / centered 960x540 24FPS",
@@ -68,7 +71,8 @@
           "threejsSHA": "2a68faac10b722603a4f81bd11877c3cf42bf24ee25b262a5d9d7e7e73801312",
           "result": "code-video-model/reconstruction-3d-4d/astra-bonsai-97aaf49bfd21.mp4"
         }
-      }
+      },
+      "displayName": "3D_4D_Reconstruction_05"
     },
     "reconstruction-3d-4d|astra-room-gray||": {
       "id": "R005",
@@ -76,7 +80,7 @@
       "a": "astra-room-gray",
       "b": "",
       "selection": "",
-      "title": "Room",
+      "title": "3D_4D_Reconstruction_04",
       "active": true,
       "sectionTitle": "3D / 4D Reconstruction",
       "version": "Code Video delivery / astra-room-gray-10s-review-v1 / centered 960x540 24FPS",
@@ -85,7 +89,8 @@
           "threejsSHA": "9f71da94fbcf0ad1aedcf911d710734bab34ad496ac67253b271bcdb60e6708a",
           "result": "code-video-model/reconstruction-3d-4d/astra-room-gray-ad27b1433ae4.mp4"
         }
-      }
+      },
+      "displayName": "3D_4D_Reconstruction_04"
     },
     "reconstruction-3d-4d|astra-truck||": {
       "id": "R006",
@@ -94,7 +99,7 @@
       "b": "",
       "selection": "",
       "title": "Truck",
-      "active": true,
+      "active": false,
       "sectionTitle": "3D / 4D Reconstruction",
       "version": "Code Video delivery / astra-truck-10s-review-v1 / centered 960x540 24FPS",
       "sources": {
@@ -110,7 +115,7 @@
       "a": "astra-kitchen",
       "b": "",
       "selection": "",
-      "title": "Kitchen",
+      "title": "3D_4D_Reconstruction_07",
       "active": true,
       "sectionTitle": "3D / 4D Reconstruction",
       "version": "Code Video delivery / astra-kitchen-10s-review-v1 / centered 960x540 24FPS",
@@ -119,7 +124,8 @@
           "threejsSHA": "2f6f18b043d78eac64459dd4b32ed838e9ab19dd3fc5dcb92b3e79ff81110be5",
           "result": "code-video-model/reconstruction-3d-4d/astra-kitchen-9389e1e2cba5.mp4"
         }
-      }
+      },
+      "displayName": "3D_4D_Reconstruction_07"
     },
     "reconstruction-3d-4d|astra-train||": {
       "id": "R008",
@@ -127,7 +133,7 @@
       "a": "astra-train",
       "b": "",
       "selection": "",
-      "title": "Train",
+      "title": "3D_4D_Reconstruction_08",
       "active": true,
       "sectionTitle": "3D / 4D Reconstruction",
       "version": "Code Video delivery / astra-train-10s-review-v1 / centered 960x540 24FPS",
@@ -136,7 +142,8 @@
           "threejsSHA": "c822e0aa0db4fdce71290667b6bddefa9f33df3876ed2edcae80795dc988fccd",
           "result": "code-video-model/reconstruction-3d-4d/astra-train-785f39faf08a.mp4"
         }
-      }
+      },
+      "displayName": "3D_4D_Reconstruction_08"
     },
     "long-horizon-style|505||": {
       "id": "R009",
@@ -144,7 +151,7 @@
       "a": "505",
       "b": "",
       "selection": "",
-      "title": "Case 505",
+      "title": "Bullet_Time_01",
       "active": true,
       "sectionTitle": "Bullet Time",
       "version": "selected-0907 / visual_aligned_v2 / seedvr2-2x",
@@ -153,7 +160,8 @@
           "threejsSHA": "0e212923ff47c6a551cf4cc664f8ce0f390e813cda18d295caa94d2227dc4165",
           "result": "selected-0907-seedvr2-2x/bullet-time/case-505-1a69a681957e.mp4"
         }
-      }
+      },
+      "displayName": "Bullet_Time_01"
     },
     "long-horizon-style|508||": {
       "id": "R010",
@@ -161,7 +169,7 @@
       "a": "508",
       "b": "",
       "selection": "",
-      "title": "Case 508",
+      "title": "Bullet_Time_02",
       "active": true,
       "sectionTitle": "Bullet Time",
       "version": "selected-0907 / fine_particles_707 / seedvr2-2x",
@@ -170,7 +178,8 @@
           "threejsSHA": "2e39cbc22a4325da26c3ce79bfa6939aafb839776d288c49802c7a5064ca76e3",
           "result": "selected-0907-seedvr2-2x/bullet-time/case-508-d0a8579dcd22.mp4"
         }
-      }
+      },
+      "displayName": "Bullet_Time_02"
     },
     "long-horizon-style|518||": {
       "id": "R011",
@@ -178,7 +187,7 @@
       "a": "518",
       "b": "",
       "selection": "",
-      "title": "Case 518",
+      "title": "Bullet_Time_03",
       "active": true,
       "sectionTitle": "Bullet Time",
       "version": "selected-0907 / hold_q20v8_seed606 / seedvr2-2x",
@@ -187,7 +196,8 @@
           "threejsSHA": "c3851d31494d52bded434d43065698c00acbc641aaa203902f207af95d3e57cb",
           "result": "selected-0907-seedvr2-2x/bullet-time/case-518-18be11eaaca3.mp4"
         }
-      }
+      },
+      "displayName": "Bullet_Time_03"
     },
     "long-horizon-style|504||": {
       "id": "R012",
@@ -196,7 +206,7 @@
       "b": "",
       "selection": "",
       "title": "Case 504",
-      "active": true,
+      "active": false,
       "sectionTitle": "Bullet Time",
       "version": "original",
       "sources": {
@@ -212,7 +222,7 @@
       "a": "583",
       "b": "663",
       "selection": "",
-      "title": "Case 583",
+      "title": "Scene_World_Editing_01",
       "active": true,
       "sectionTitle": "Scene / World Editing",
       "version": "group23 / Image-Group23-4 / v12",
@@ -225,7 +235,8 @@
           "threejsSHA": "623298afee7cc13e32a2d5cc0a9ef7613b329223835bec05ba3859a788e09733",
           "result": "experiment-group23-image-group23-4-v12/scene-world-editing/case-663-61895e9bf688.mp4"
         }
-      }
+      },
+      "displayName": "Scene_World_Editing_01"
     },
     "gallery|586|666|": {
       "id": "R014",
@@ -233,7 +244,7 @@
       "a": "586",
       "b": "666",
       "selection": "",
-      "title": "Case 586",
+      "title": "Scene_World_Editing_02",
       "active": true,
       "sectionTitle": "Scene / World Editing",
       "version": "reference-updates / Image-Group18-4 / v16",
@@ -246,7 +257,8 @@
           "threejsSHA": "b7ae4c1515b11a4358b9fb2871406d9eefb9b500dc2685c64853354a25d5cfb8",
           "result": "experiment-reference-updates-image-group18-4-v16/scene-world-editing/case-666-50bb22530358.mp4"
         }
-      }
+      },
+      "displayName": "Scene_World_Editing_02"
     },
     "gallery|601|681|": {
       "id": "R015",
@@ -254,7 +266,7 @@
       "a": "601",
       "b": "681",
       "selection": "",
-      "title": "Case 601",
+      "title": "Scene_World_Editing_03",
       "active": true,
       "sectionTitle": "Scene / World Editing",
       "version": "group23 / Image-Group23-4 / v15",
@@ -267,7 +279,8 @@
           "threejsSHA": "d7214e64d64fe2bf0322bb08bf850f2de840c483164f642a76091e0eb0039d15",
           "result": "experiment-group23-image-group23-4-v15/scene-world-editing/case-681-6efcee80e93d.mp4"
         }
-      }
+      },
+      "displayName": "Scene_World_Editing_03"
     },
     "gallery|590|670|": {
       "id": "R016",
@@ -275,7 +288,7 @@
       "a": "590",
       "b": "670",
       "selection": "",
-      "title": "Case 590",
+      "title": "Scene_World_Editing_04",
       "active": true,
       "sectionTitle": "Scene / World Editing",
       "version": "image-group10-2",
@@ -288,7 +301,8 @@
           "threejsSHA": "3b4064e8bb85b60bb1d51440fe29f08ad6568104e331e724c491e3cd5733f074",
           "result": "code-video-model-v2/scene-world-editing/case-670.mp4"
         }
-      }
+      },
+      "displayName": "Scene_World_Editing_04"
     },
     "gallery|595|675|": {
       "id": "R017",
@@ -297,7 +311,7 @@
       "b": "675",
       "selection": "",
       "title": "Case 595",
-      "active": true,
+      "active": false,
       "sectionTitle": "Scene / World Editing",
       "version": "group23 / Image-Group23-2 / v16",
       "sources": {
@@ -317,7 +331,7 @@
       "a": "591",
       "b": "671",
       "selection": "",
-      "title": "Case 591",
+      "title": "Scene_World_Editing_06",
       "active": true,
       "sectionTitle": "Scene / World Editing",
       "version": "reference-updates / Image-Group18-4 / v16",
@@ -330,7 +344,8 @@
           "threejsSHA": "5c47d716f64f589437c2516b2a6e63cd31da86e5385dadd7f2ced931e41bbf04",
           "result": "experiment-reference-updates-image-group18-4-v16/scene-world-editing/case-671-8b9dfbc475c8.mp4"
         }
-      }
+      },
+      "displayName": "Scene_World_Editing_06"
     },
     "control-world-states|first-person-009||": {
       "id": "R019",
@@ -338,7 +353,7 @@
       "a": "first-person-009",
       "b": "",
       "selection": "",
-      "title": "Hyrule Ride",
+      "title": "Gaming_01",
       "active": true,
       "sectionTitle": "Gaming",
       "version": "original",
@@ -347,7 +362,8 @@
           "threejsSHA": "15c86002055c541ae038b6ef250c87123749dde71fc0ade341e024bb32077a66",
           "result": "code-video-model/first-person-games/first-person-009.mp4"
         }
-      }
+      },
+      "displayName": "Gaming_01"
     },
     "control-world-states|first-person-007||": {
       "id": "R020",
@@ -355,7 +371,7 @@
       "a": "first-person-007",
       "b": "",
       "selection": "",
-      "title": "Tower Glide",
+      "title": "Gaming_02",
       "active": true,
       "sectionTitle": "Gaming",
       "version": "original",
@@ -364,7 +380,8 @@
           "threejsSHA": "9222805101cb34d620046b59c5badf7eb259de790f48113253fcaa362f569196",
           "result": "code-video-model/first-person-games/first-person-007.mp4"
         }
-      }
+      },
+      "displayName": "Gaming_02"
     },
     "control-world-states|first-person-014||": {
       "id": "R021",
@@ -372,7 +389,7 @@
       "a": "first-person-014",
       "b": "",
       "selection": "",
-      "title": "Balrog Bridge",
+      "title": "Gaming_03",
       "active": true,
       "sectionTitle": "Gaming",
       "version": "original",
@@ -381,7 +398,8 @@
           "threejsSHA": "4b50a8a8f0f1aa81d7949a2b3680bbad3e1058e98981856ccf45b649dfa8cd42",
           "result": "code-video-model/first-person-games/first-person-014.mp4"
         }
-      }
+      },
+      "displayName": "Gaming_03"
     },
     "control-world-states|first-person-030||": {
       "id": "R022",
@@ -389,7 +407,7 @@
       "a": "first-person-030",
       "b": "",
       "selection": "",
-      "title": "Forest Spirit",
+      "title": "Gaming_04",
       "active": true,
       "sectionTitle": "Gaming",
       "version": "original",
@@ -398,7 +416,8 @@
           "threejsSHA": "1c03ca919eefbf4392d6c4fe8d9b940c398b6facade3c3b0b0d0eaa853939120",
           "result": "code-video-model/first-person-games/first-person-030.mp4"
         }
-      }
+      },
+      "displayName": "Gaming_04"
     },
     "control-world-states|121||": {
       "id": "R023",
@@ -406,7 +425,7 @@
       "a": "121",
       "b": "",
       "selection": "",
-      "title": "Halo Boarding",
+      "title": "Gaming_05",
       "active": true,
       "sectionTitle": "Gaming",
       "version": "original",
@@ -415,7 +434,8 @@
           "threejsSHA": "cfd7f8a0c8bbd056b8b6f4c60bdffafafd14871cd9f254725eac05227ae8ab7a",
           "result": "code-video-model/first-person-games/case-121.mp4"
         }
-      }
+      },
+      "displayName": "Gaming_05"
     },
     "control-world-states|132||": {
       "id": "R024",
@@ -423,7 +443,7 @@
       "a": "132",
       "b": "",
       "selection": "",
-      "title": "Jurassic Encounter",
+      "title": "Gaming_06",
       "active": true,
       "sectionTitle": "Gaming",
       "version": "original",
@@ -432,7 +452,8 @@
           "threejsSHA": "35de95026515a7c20b3067439683656def07b5cc1fe2845f0828cdce37389a34",
           "result": "code-video-model/first-person-games/case-132.mp4"
         }
-      }
+      },
+      "displayName": "Gaming_06"
     },
     "control-world-states|322||": {
       "id": "R025",
@@ -440,7 +461,7 @@
       "a": "322",
       "b": "",
       "selection": "",
-      "title": "Titan Swing",
+      "title": "Gaming_07",
       "active": true,
       "sectionTitle": "Gaming",
       "version": "image-group3-4",
@@ -449,7 +470,8 @@
           "threejsSHA": "574b265f28a42dcaa1b58f8828d762522b1e44b2ba00ccb2cd190d44a340ff30",
           "result": "code-video-model/first-person-games/case-322.mp4"
         }
-      }
+      },
+      "displayName": "Gaming_07"
     },
     "control-world-states|93||": {
       "id": "R026",
@@ -458,7 +480,7 @@
       "b": "",
       "selection": "",
       "title": "City Webs",
-      "active": true,
+      "active": false,
       "sectionTitle": "Gaming",
       "version": "image-group3-4",
       "sources": {
@@ -474,7 +496,7 @@
       "a": "cs2-active-duel",
       "b": "",
       "selection": "",
-      "title": "CS2 Active Duel",
+      "title": "Gaming_08",
       "active": true,
       "sectionTitle": "Gaming",
       "version": "Code Video delivery / cs2-active-duel-5s-review-v1 / centered 960x540 24FPS",
@@ -483,7 +505,8 @@
           "threejsSHA": "876cbbbc6ff37cd76cd3f4fbcbaf5a91ead4d45de67cb2d4412579f2c98694ba",
           "result": "code-video-model/control-world-states/cs2-active-duel-c0b0b9a780cb.mp4"
         }
-      }
+      },
+      "displayName": "Gaming_08"
     },
     "control-world-states|wyvern-siege-fpv||": {
       "id": "R028",
@@ -491,7 +514,7 @@
       "a": "wyvern-siege-fpv",
       "b": "",
       "selection": "",
-      "title": "Wyvern Siege FPV",
+      "title": "Gaming_09",
       "active": true,
       "sectionTitle": "Gaming",
       "version": "Code Video delivery / wyvern-siege-fpv-10s-rev3 / centered 960x540 24FPS",
@@ -500,7 +523,8 @@
           "threejsSHA": "8248e495191fbff636fafe683f504378354733b9607201bb889dc6c4b2a92715",
           "result": "code-video-model/control-world-states/wyvern-siege-fpv-55c7a2538efb.mp4"
         }
-      }
+      },
+      "displayName": "Gaming_09"
     },
     "control-world-states|303||": {
       "id": "R029",
@@ -508,7 +532,7 @@
       "a": "303",
       "b": "",
       "selection": "",
-      "title": "Cliffside Flight",
+      "title": "Gaming_10",
       "active": true,
       "sectionTitle": "Gaming",
       "version": "Cinematic400 / Direct Output / SeedVR2 2x",
@@ -517,7 +541,8 @@
           "threejsSHA": "f4fe2b13609bcbafc33c17745886d68a0dd8bd3fe432ed561ca9d44e58877285",
           "result": "seedvr2-current50/first-person-games/case-303-76fe4ae628f3.mp4"
         }
-      }
+      },
+      "displayName": "Gaming_10"
     },
     "robotics-simulation|563|564|": {
       "id": "R030",
@@ -525,9 +550,9 @@
       "a": "563",
       "b": "564",
       "selection": "",
-      "title": "Case 563",
+      "title": "Robotics_Trajectory_Control_01",
       "active": true,
-      "sectionTitle": "Robotics Simulation",
+      "sectionTitle": "Robotics & Trajectory Control",
       "version": "image-group11-2",
       "sources": {
         "563": {
@@ -538,7 +563,8 @@
           "threejsSHA": "efe5c2e31750622240c52cf43cf4fa784159092f0a56e260862773f808d1cfd6",
           "result": "code-video-model-v2/robotics-simulation/case-564.mp4"
         }
-      }
+      },
+      "displayName": "Robotics_Trajectory_Control_01"
     },
     "robotics-simulation|567|568|": {
       "id": "R031",
@@ -547,8 +573,8 @@
       "b": "568",
       "selection": "",
       "title": "Case 567",
-      "active": true,
-      "sectionTitle": "Robotics Simulation",
+      "active": false,
+      "sectionTitle": "Robotics & Trajectory Control",
       "version": "image-group11-2",
       "sources": {
         "567": {
@@ -567,9 +593,9 @@
       "a": "571",
       "b": "572",
       "selection": "",
-      "title": "Case 571",
+      "title": "Robotics_Trajectory_Control_05",
       "active": true,
-      "sectionTitle": "Robotics Simulation",
+      "sectionTitle": "Robotics & Trajectory Control",
       "version": "image-group12-4",
       "sources": {
         "571": {
@@ -580,7 +606,8 @@
           "threejsSHA": "3cf36794fbe7cd42e5e446b5803cf712fe3cdc6b77d133dd284e68e504261829",
           "result": "code-video-model-v2/robotics-simulation/case-572.mp4"
         }
-      }
+      },
+      "displayName": "Robotics_Trajectory_Control_05"
     },
     "robotics-simulation|564|563|robotics-group23-564-563-image-group23-4-v12": {
       "id": "R033",
@@ -589,8 +616,8 @@
       "b": "563",
       "selection": "robotics-group23-564-563-image-group23-4-v12",
       "title": "Cases 564 and 563 / Image-Group23-4 / v12",
-      "active": true,
-      "sectionTitle": "Robotics Simulation",
+      "active": false,
+      "sectionTitle": "Robotics & Trajectory Control",
       "version": "Image-Group23-4 / v12",
       "sources": {
         "564": {
@@ -609,9 +636,9 @@
       "a": "564",
       "b": "563",
       "selection": "robotics-group23-564-563-image-group23-2-v13",
-      "title": "Cases 564 and 563 / Image-Group23-2 / v13",
+      "title": "Robotics_Trajectory_Control_03",
       "active": true,
-      "sectionTitle": "Robotics Simulation",
+      "sectionTitle": "Robotics & Trajectory Control",
       "version": "Image-Group23-2 / v13",
       "sources": {
         "564": {
@@ -622,7 +649,8 @@
           "threejsSHA": "254888291a343e47b34f855af274a89850641ef2aeb01e65f742e73f9fbedf3a",
           "result": "experiment-pairs/robotics-group23-564-563-image-group23-2-v13/case-563-b8a23ca6efc4.mp4"
         }
-      }
+      },
+      "displayName": "Robotics_Trajectory_Control_03"
     },
     "robotics-simulation|564|563|robotics-group23-564-563-image-group23-4-v15": {
       "id": "R035",
@@ -630,9 +658,9 @@
       "a": "564",
       "b": "563",
       "selection": "robotics-group23-564-563-image-group23-4-v15",
-      "title": "Cases 564 and 563 / Image-Group23-4 / v15",
+      "title": "Robotics_Trajectory_Control_04",
       "active": true,
-      "sectionTitle": "Robotics Simulation",
+      "sectionTitle": "Robotics & Trajectory Control",
       "version": "Image-Group23-4 / v15",
       "sources": {
         "564": {
@@ -643,7 +671,8 @@
           "threejsSHA": "d2e835d8a7099ac34a06c1c95cd3ff21ea763d4a561bac516f1e26baa3c5229d",
           "result": "experiment-pairs/robotics-group23-564-563-image-group23-4-v15/case-563-92bae22b754e.mp4"
         }
-      }
+      },
+      "displayName": "Robotics_Trajectory_Control_04"
     },
     "robotics-simulation|564|563|robotics-group23-564-563-image-group23-2-v20": {
       "id": "R036",
@@ -652,8 +681,8 @@
       "b": "563",
       "selection": "robotics-group23-564-563-image-group23-2-v20",
       "title": "Cases 564 and 563 / Image-Group23-2 / v20",
-      "active": true,
-      "sectionTitle": "Robotics Simulation",
+      "active": false,
+      "sectionTitle": "Robotics & Trajectory Control",
       "version": "Image-Group23-2 / v20",
       "sources": {
         "564": {
@@ -673,8 +702,8 @@
       "b": "567",
       "selection": "robotics-group23-568-567-image-group23-2-v12",
       "title": "Cases 568 and 567 / Image-Group23-2 / v12",
-      "active": true,
-      "sectionTitle": "Robotics Simulation",
+      "active": false,
+      "sectionTitle": "Robotics & Trajectory Control",
       "version": "Image-Group23-2 / v12",
       "sources": {
         "568": {
@@ -694,8 +723,8 @@
       "b": "567",
       "selection": "robotics-group23-568-567-image-group23-2-v13",
       "title": "Cases 568 and 567 / Image-Group23-2 / v13",
-      "active": true,
-      "sectionTitle": "Robotics Simulation",
+      "active": false,
+      "sectionTitle": "Robotics & Trajectory Control",
       "version": "Image-Group23-2 / v13",
       "sources": {
         "568": {
@@ -715,8 +744,8 @@
       "b": "567",
       "selection": "robotics-group23-568-567-image-group23-2-v15",
       "title": "Cases 568 and 567 / Image-Group23-2 / v15",
-      "active": true,
-      "sectionTitle": "Robotics Simulation",
+      "active": false,
+      "sectionTitle": "Robotics & Trajectory Control",
       "version": "Image-Group23-2 / v15",
       "sources": {
         "568": {
@@ -736,8 +765,8 @@
       "b": "571",
       "selection": "robotics-group23-572-571-image-group23-4-v12",
       "title": "Cases 572 and 571 / Image-Group23-4 / v12",
-      "active": true,
-      "sectionTitle": "Robotics Simulation",
+      "active": false,
+      "sectionTitle": "Robotics & Trajectory Control",
       "version": "Image-Group23-4 / v12",
       "sources": {
         "572": {
@@ -757,8 +786,8 @@
       "b": "571",
       "selection": "robotics-group23-572-571-image-group23-2-v13",
       "title": "Cases 572 and 571 / Image-Group23-2 / v13",
-      "active": true,
-      "sectionTitle": "Robotics Simulation",
+      "active": false,
+      "sectionTitle": "Robotics & Trajectory Control",
       "version": "Image-Group23-2 / v13",
       "sources": {
         "572": {
@@ -771,15 +800,15 @@
         }
       }
     },
-    "trajectory-variation|581|582|trajectory-group23-581-582-image-group23-4-v12": {
+    "robotics-simulation|581|582|trajectory-group23-581-582-image-group23-4-v12": {
       "id": "R042",
-      "section": "trajectory-variation",
+      "section": "robotics-simulation",
       "a": "581",
       "b": "582",
       "selection": "trajectory-group23-581-582-image-group23-4-v12",
-      "title": "Cases 581 and 582 / Image-Group23-4 / v12",
+      "title": "Robotics_Trajectory_Control_02",
       "active": true,
-      "sectionTitle": "Trajectory Variation",
+      "sectionTitle": "Robotics & Trajectory Control",
       "version": "Image-Group23-4 / v12",
       "sources": {
         "581": {
@@ -790,17 +819,18 @@
           "threejsSHA": "bf824224a5e3a876c575997c3dd48f794e6d98848f86d21c634fd1de2bd4a99b",
           "result": "experiment-pairs/trajectory-group23-581-582-image-group23-4-v12/case-582-48104471a323.mp4"
         }
-      }
+      },
+      "displayName": "Robotics_Trajectory_Control_02"
     },
-    "trajectory-variation|581|582|": {
+    "robotics-simulation|581|582|": {
       "id": "R043",
-      "section": "trajectory-variation",
+      "section": "robotics-simulation",
       "a": "581",
       "b": "582",
       "selection": "",
       "title": "Case 581",
-      "active": true,
-      "sectionTitle": "Trajectory Variation",
+      "active": false,
+      "sectionTitle": "Robotics & Trajectory Control",
       "version": "original",
       "sources": {
         "581": {
@@ -813,15 +843,15 @@
         }
       }
     },
-    "trajectory-variation|577|578|trajectory-group23-577-578-image-group23-2-v16": {
+    "robotics-simulation|577|578|trajectory-group23-577-578-image-group23-2-v16": {
       "id": "R044",
-      "section": "trajectory-variation",
+      "section": "robotics-simulation",
       "a": "577",
       "b": "578",
       "selection": "trajectory-group23-577-578-image-group23-2-v16",
-      "title": "Cases 577 and 578 / Image-Group23-2 / v16",
+      "title": "Robotics_Trajectory_Control_06",
       "active": true,
-      "sectionTitle": "Trajectory Variation",
+      "sectionTitle": "Robotics & Trajectory Control",
       "version": "Image-Group23-2 / v16",
       "sources": {
         "577": {
@@ -832,7 +862,8 @@
           "threejsSHA": "2da6f461b2637565543a354f1f5f723c0a78b96fcc3255b623ed7c6e5de15322",
           "result": "experiment-pairs/trajectory-group23-577-578-image-group23-2-v16/case-578-78ca34159d0f.mp4"
         }
-      }
+      },
+      "displayName": "Robotics_Trajectory_Control_06"
     },
     "product-cinematography|624||": {
       "id": "R045",
@@ -840,7 +871,7 @@
       "a": "624",
       "b": "",
       "selection": "",
-      "title": "Case 624",
+      "title": "Product_Cinematography_01",
       "active": true,
       "sectionTitle": "Product Cinematography",
       "version": "threejs-v2 / Image-Group19-4 / v17",
@@ -849,7 +880,8 @@
           "threejsSHA": "0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b",
           "result": "experiment-threejs-v2-image-group19-4-v17/product-cinematography/case-624-730d98dd2301.mp4"
         }
-      }
+      },
+      "displayName": "Product_Cinematography_01"
     },
     "product-cinematography|625||": {
       "id": "R046",
@@ -857,7 +889,7 @@
       "a": "625",
       "b": "",
       "selection": "",
-      "title": "Case 625",
+      "title": "Product_Cinematography_02",
       "active": true,
       "sectionTitle": "Product Cinematography",
       "version": "threejs-v2 / Image-Group19-4 / v17",
@@ -866,7 +898,8 @@
           "threejsSHA": "4ac4b8aea2fe15f11bbfcf7042ebb7a125bbcd118a842cfa2c41bd59425a448a",
           "result": "experiment-threejs-v2-image-group19-4-v17/product-cinematography/case-625-ffd4dd366d95.mp4"
         }
-      }
+      },
+      "displayName": "Product_Cinematography_02"
     },
     "product-cinematography|636||": {
       "id": "R047",
@@ -874,7 +907,7 @@
       "a": "636",
       "b": "",
       "selection": "",
-      "title": "Case 636",
+      "title": "Product_Cinematography_03",
       "active": true,
       "sectionTitle": "Product Cinematography",
       "version": "threejs-v2 / Image-Group19-4 / v17",
@@ -883,7 +916,8 @@
           "threejsSHA": "71b43ebba4e404afb2c6840905d96a49fd8f5901c25168a5dae42b3ea257037a",
           "result": "experiment-threejs-v2-image-group19-4-v17/product-cinematography/case-636-d17af4bae3de.mp4"
         }
-      }
+      },
+      "displayName": "Product_Cinematography_03"
     },
     "product-cinematography|640||": {
       "id": "R048",
@@ -891,7 +925,7 @@
       "a": "640",
       "b": "",
       "selection": "",
-      "title": "Case 640",
+      "title": "Product_Cinematography_04",
       "active": true,
       "sectionTitle": "Product Cinematography",
       "version": "original",
@@ -900,7 +934,8 @@
           "threejsSHA": "f2c95da5f4f3f0a5d657d77959f62c7aaa2d4c810c81a621dc6df6ddd4229dda",
           "result": "code-video-model/product-cinematography/case-640.mp4"
         }
-      }
+      },
+      "displayName": "Product_Cinematography_04"
     },
     "architectural-cinematics|643||": {
       "id": "R049",
@@ -908,7 +943,7 @@
       "a": "643",
       "b": "",
       "selection": "",
-      "title": "Case 643",
+      "title": "Architectural_Cinematics_01",
       "active": true,
       "sectionTitle": "Architectural Cinematics",
       "version": "selected-0907 / baseline / seedvr2-2x",
@@ -917,7 +952,8 @@
           "threejsSHA": "2a282ae58fdab6a9cbae26cc486361404f9961582c1ab77a09f7d163085838c1",
           "result": "selected-0907-seedvr2-2x/architectural-cinematics/case-643-5bc5de70220a.mp4"
         }
-      }
+      },
+      "displayName": "Architectural_Cinematics_01"
     },
     "architectural-cinematics|656||": {
       "id": "R050",
@@ -925,7 +961,7 @@
       "a": "656",
       "b": "",
       "selection": "",
-      "title": "Case 656",
+      "title": "Architectural_Cinematics_02",
       "active": true,
       "sectionTitle": "Architectural Cinematics",
       "version": "selected-0907 / baseline / seedvr2-2x",
@@ -934,7 +970,8 @@
           "threejsSHA": "1f72b0bfc9f1ca9abf83028d8d96c07d9da7e464785e6104e71ec6cf1fe84b08",
           "result": "selected-0907-seedvr2-2x/architectural-cinematics/case-656-9a2ef3b0a941.mp4"
         }
-      }
+      },
+      "displayName": "Architectural_Cinematics_02"
     },
     "architectural-cinematics|657||": {
       "id": "R051",
@@ -942,7 +979,7 @@
       "a": "657",
       "b": "",
       "selection": "",
-      "title": "Case 657",
+      "title": "Architectural_Cinematics_03",
       "active": true,
       "sectionTitle": "Architectural Cinematics",
       "version": "image-group12-4",
@@ -951,7 +988,8 @@
           "threejsSHA": "3f59d9d72456f9bd44520d9b9ab96be4b14bbe66e45f665b546fb2b79141d34f",
           "result": "code-video-model-v2/architectural-cinematics/case-657.mp4"
         }
-      }
+      },
+      "displayName": "Architectural_Cinematics_03"
     },
     "architectural-cinematics|649||": {
       "id": "R052",
@@ -959,7 +997,7 @@
       "a": "649",
       "b": "",
       "selection": "",
-      "title": "Case 649",
+      "title": "Architectural_Cinematics_04",
       "active": true,
       "sectionTitle": "Architectural Cinematics",
       "version": "selected-0907 / visual_aligned_v2 / seedvr2-2x",
@@ -968,7 +1006,8 @@
           "threejsSHA": "f0b1a8e47e9a00f6dae282f9ff56bca0318d6e4a540b7baed8ba43f631807004",
           "result": "selected-0907-seedvr2-2x/architectural-cinematics/case-649-ae0312112795.mp4"
         }
-      }
+      },
+      "displayName": "Architectural_Cinematics_04"
     },
     "architectural-cinematics|646||": {
       "id": "R053",
@@ -976,7 +1015,7 @@
       "a": "646",
       "b": "",
       "selection": "",
-      "title": "Case 646",
+      "title": "Architectural_Cinematics_05",
       "active": true,
       "sectionTitle": "Architectural Cinematics",
       "version": "selected-0907 / baseline / video-diffusion-baseline",
@@ -985,7 +1024,8 @@
           "threejsSHA": "904a444dda37c9ab706e3bc5e00e51322c66cb89b6c4ca2db623876ef2da7bfc",
           "result": "selected-0907-video-diffusion-baseline/architectural-cinematics/case-646-48fddc881c93.mp4"
         }
-      }
+      },
+      "displayName": "Architectural_Cinematics_05"
     },
     "architectural-cinematics|481||": {
       "id": "R054",
@@ -993,7 +1033,7 @@
       "a": "481",
       "b": "",
       "selection": "",
-      "title": "Case 481",
+      "title": "Architectural_Cinematics_06",
       "active": true,
       "sectionTitle": "Architectural Cinematics",
       "version": "selected-0907 / seed202 / video-diffusion-seed202",
@@ -1002,7 +1042,8 @@
           "threejsSHA": "ee266c47f0bb8587cd6c095d3ad4fa53f64e99b0d16f6037ac9fae581cd57ffb",
           "result": "selected-0907-video-diffusion-seed202/cinematic-camera-intelligence/case-481-4ebee82cec97.mp4"
         }
-      }
+      },
+      "displayName": "Architectural_Cinematics_06"
     },
     "architectural-cinematics|659||": {
       "id": "R055",
@@ -1011,7 +1052,7 @@
       "b": "",
       "selection": "",
       "title": "Case 659",
-      "active": true,
+      "active": false,
       "sectionTitle": "Architectural Cinematics",
       "version": "image-group9-2",
       "sources": {
@@ -1038,49 +1079,51 @@
         }
       }
     },
-    "scientific-visualization|black-hole-background-grade||": {
+    "physical-grounding|black-hole-background-grade||": {
       "id": "R057",
-      "section": "scientific-visualization",
+      "section": "physical-grounding",
       "a": "black-hole-background-grade",
       "b": "",
       "selection": "",
-      "title": "Black Hole",
+      "title": "Physical_Grounding_05",
       "active": true,
-      "sectionTitle": "Scientific Visualization",
+      "sectionTitle": "Physical Grounding",
       "version": "Code Video delivery / black-hole-kerr-like-8s-background-grade-review-v1 / centered 960x540 24FPS",
       "sources": {
         "black-hole-background-grade": {
           "threejsSHA": "4c7072fb117f9b74c704bac8edaed6d6206a224811840ed93131f152a9227887",
           "result": "code-video-model/scientific-visualization/black-hole-background-grade-f31cf2c446e5.mp4"
         }
-      }
+      },
+      "displayName": "Physical_Grounding_05"
     },
-    "scientific-visualization|stable-mass-transfer-binary||": {
+    "physical-grounding|stable-mass-transfer-binary||": {
       "id": "R058",
-      "section": "scientific-visualization",
+      "section": "physical-grounding",
       "a": "stable-mass-transfer-binary",
       "b": "",
       "selection": "",
-      "title": "Binary Mass Transfer",
+      "title": "Physical_Grounding_06",
       "active": true,
-      "sectionTitle": "Scientific Visualization",
+      "sectionTitle": "Physical Grounding",
       "version": "Code Video delivery / stable-mass-transfer-binary-8s-review-v4 / centered 960x540 24FPS",
       "sources": {
         "stable-mass-transfer-binary": {
           "threejsSHA": "bee26e7a042e2942b4d9f1915736c710446b0e5fceaac7e1133bf3fefb7318e5",
           "result": "code-video-model/scientific-visualization/stable-mass-transfer-binary-6a32d4681560.mp4"
         }
-      }
+      },
+      "displayName": "Physical_Grounding_06"
     },
-    "scientific-visualization|524||": {
+    "physical-grounding|524||": {
       "id": "R059",
-      "section": "scientific-visualization",
+      "section": "physical-grounding",
       "a": "524",
       "b": "",
       "selection": "",
       "title": "Case 524",
-      "active": true,
-      "sectionTitle": "Scientific Visualization",
+      "active": false,
+      "sectionTitle": "Physical Grounding",
       "version": "threejs-v2 / Image-Group20-4 / v18",
       "sources": {
         "524": {
@@ -1089,15 +1132,15 @@
         }
       }
     },
-    "scientific-visualization|528||": {
+    "physical-grounding|528||": {
       "id": "R060",
-      "section": "scientific-visualization",
+      "section": "physical-grounding",
       "a": "528",
       "b": "",
       "selection": "",
       "title": "Case 528",
-      "active": true,
-      "sectionTitle": "Scientific Visualization",
+      "active": false,
+      "sectionTitle": "Physical Grounding",
       "version": "original",
       "sources": {
         "528": {
@@ -1106,15 +1149,15 @@
         }
       }
     },
-    "scientific-visualization|531||": {
+    "physical-grounding|531||": {
       "id": "R061",
-      "section": "scientific-visualization",
+      "section": "physical-grounding",
       "a": "531",
       "b": "",
       "selection": "",
       "title": "Case 531",
-      "active": true,
-      "sectionTitle": "Scientific Visualization",
+      "active": false,
+      "sectionTitle": "Physical Grounding",
       "version": "image-group7-2",
       "sources": {
         "531": {
@@ -1123,15 +1166,15 @@
         }
       }
     },
-    "scientific-visualization|620||": {
+    "physical-grounding|620||": {
       "id": "R062",
-      "section": "scientific-visualization",
+      "section": "physical-grounding",
       "a": "620",
       "b": "",
       "selection": "",
       "title": "Case 620",
-      "active": true,
-      "sectionTitle": "Scientific Visualization",
+      "active": false,
+      "sectionTitle": "Physical Grounding",
       "version": "original",
       "sources": {
         "620": {
@@ -1146,7 +1189,7 @@
       "a": "physical-induction",
       "b": "",
       "selection": "",
-      "title": "Electromagnetic Induction",
+      "title": "Physical_Grounding_03",
       "active": true,
       "sectionTitle": "Physical Grounding",
       "version": "electromagnetic-induction-classroom-5s-review-v1",
@@ -1155,7 +1198,8 @@
           "threejsSHA": "1666ca5176859f4422caaacce90b2ed5fb1a1a18042203d35bbffc420aa7089d",
           "result": "code-video-model/physical-grounding/physical-induction.mp4"
         }
-      }
+      },
+      "displayName": "Physical_Grounding_03"
     },
     "physical-grounding|physical-isochronous||": {
       "id": "R064",
@@ -1163,7 +1207,7 @@
       "a": "physical-isochronous",
       "b": "",
       "selection": "",
-      "title": "Isochronous Circle",
+      "title": "Physical_Grounding_01",
       "active": true,
       "sectionTitle": "Physical Grounding",
       "version": "isochronous-circle-metal-5s-final-v1",
@@ -1172,7 +1216,8 @@
           "threejsSHA": "802dcff5b06015d934fe59ea1c7275141a3d370b2e7925b22c96850fc4612840",
           "result": "code-video-model/physical-grounding/physical-isochronous.mp4"
         }
-      }
+      },
+      "displayName": "Physical_Grounding_01"
     },
     "physical-grounding|physical-prism||": {
       "id": "R065",
@@ -1180,7 +1225,7 @@
       "a": "physical-prism",
       "b": "",
       "selection": "",
-      "title": "Prism Dispersion",
+      "title": "Physical_Grounding_04",
       "active": true,
       "sectionTitle": "Physical Grounding",
       "version": "prism-dispersion-classroom-5s-final-v1",
@@ -1189,7 +1234,8 @@
           "threejsSHA": "861c8227272399aa1cbfbf6dba8e64391d0d88ad1437bc59a4d7c34f9d99b86d",
           "result": "code-video-model/physical-grounding/physical-prism.mp4"
         }
-      }
+      },
+      "displayName": "Physical_Grounding_04"
     },
     "physical-grounding|physical-pendulum||": {
       "id": "R066",
@@ -1197,7 +1243,7 @@
       "a": "physical-pendulum",
       "b": "",
       "selection": "",
-      "title": "Double Pendulum",
+      "title": "Physical_Grounding_02",
       "active": true,
       "sectionTitle": "Physical Grounding",
       "version": "double-pendulum-classroom-5s-final-v1",
@@ -1206,7 +1252,8 @@
           "threejsSHA": "14610905e9be25e606c37881082cd40152a25c599912e85a02cdcb6b6ed3803e",
           "result": "code-video-model/physical-grounding/physical-pendulum.mp4"
         }
-      }
+      },
+      "displayName": "Physical_Grounding_02"
     },
     "product-cinematography|product-new15-01||": {
       "id": "R067",
@@ -1215,7 +1262,7 @@
       "b": "",
       "selection": "",
       "title": "Metal Desk Lamp",
-      "active": true,
+      "active": false,
       "sectionTitle": "Product Cinematography",
       "version": "image-group23-2 / seed 42 / camera-v2 / photoreal-v2",
       "sources": {
@@ -1232,7 +1279,7 @@
       "b": "",
       "selection": "",
       "title": "Wireless Earbud Case",
-      "active": true,
+      "active": false,
       "sectionTitle": "Product Cinematography",
       "version": "image-group23-2 / seed 45 / camera-v2 / photoreal-v2",
       "sources": {
@@ -1248,7 +1295,7 @@
       "a": "product-new15-04",
       "b": "",
       "selection": "",
-      "title": "Compact Projector",
+      "title": "Product_Cinematography_08",
       "active": true,
       "sectionTitle": "Product Cinematography",
       "version": "image-group23-2 / seed 42 / camera-v2 / photoreal-v2",
@@ -1257,7 +1304,8 @@
           "threejsSHA": "ea62bfe4687b9857a97b82afb90a0cfcb489fcd219b0d7150ee75a71482f139d",
           "result": "product-selected-20260912/product-new15-04/seed-42-58a1edb7f24685e0.mp4"
         }
-      }
+      },
+      "displayName": "Product_Cinematography_08"
     },
     "product-cinematography|product-new15-05||": {
       "id": "R070",
@@ -1266,7 +1314,7 @@
       "b": "",
       "selection": "",
       "title": "Cordless Drill",
-      "active": true,
+      "active": false,
       "sectionTitle": "Product Cinematography",
       "version": "image-group23-2 / seed 42 / camera-v2 / photoreal-v2",
       "sources": {
@@ -1282,7 +1330,7 @@
       "a": "product-new15-06",
       "b": "",
       "selection": "",
-      "title": "Vinyl Turntable",
+      "title": "Product_Cinematography_07",
       "active": true,
       "sectionTitle": "Product Cinematography",
       "version": "image-group23-2 / seed 45 / camera-v2 / photoreal-v2",
@@ -1291,7 +1339,8 @@
           "threejsSHA": "36f1bedc38b34ea705b595eb4daff58b36a303023a152f0ff5d659e84b5fffbc",
           "result": "product-selected-20260912/product-new15-06/seed-45-13459c0faa43debe.mp4"
         }
-      }
+      },
+      "displayName": "Product_Cinematography_07"
     },
     "product-cinematography|product-new15-07||": {
       "id": "R072",
@@ -1299,7 +1348,7 @@
       "a": "product-new15-07",
       "b": "",
       "selection": "",
-      "title": "Foldable Drone",
+      "title": "Product_Cinematography_05",
       "active": true,
       "sectionTitle": "Product Cinematography",
       "version": "image-group23-2 / seed 42 / camera-v2 / photoreal-v2",
@@ -1308,7 +1357,8 @@
           "threejsSHA": "dd972871beb7089c828f2213e960360ae99164e3a0d3e4cfdd945723863c8c99",
           "result": "product-selected-20260912/product-new15-07/seed-42-9048b99067eeeef5.mp4"
         }
-      }
+      },
+      "displayName": "Product_Cinematography_05"
     },
     "product-cinematography|product-new15-09||": {
       "id": "R073",
@@ -1316,7 +1366,7 @@
       "a": "product-new15-09",
       "b": "",
       "selection": "",
-      "title": "VR Headset",
+      "title": "Product_Cinematography_06",
       "active": true,
       "sectionTitle": "Product Cinematography",
       "version": "image-group23-2 / seed 43 / camera-v2 / photoreal-v2",
@@ -1325,7 +1375,8 @@
           "threejsSHA": "d9ccdc526efdd07073840728434d428a89e880f8d2690b6ae904582e1415143e",
           "result": "product-selected-20260912/product-new15-09/seed-43-947460589f85ea4e.mp4"
         }
-      }
+      },
+      "displayName": "Product_Cinematography_06"
     },
     "product-cinematography|product-new15-10||": {
       "id": "R074",
@@ -1334,7 +1385,7 @@
       "b": "",
       "selection": "",
       "title": "Portable Desktop Fan",
-      "active": true,
+      "active": false,
       "sectionTitle": "Product Cinematography",
       "version": "image-group23-2 / seed 44 / camera-v2 / photoreal-v2",
       "sources": {
@@ -1350,7 +1401,7 @@
       "a": "anime-hotel",
       "b": "",
       "selection": "",
-      "title": "Apocalypse Hotel",
+      "title": "Anime_01",
       "active": true,
       "sectionTitle": "Anime",
       "version": "apocalypse-hotel-20260919",
@@ -1359,7 +1410,8 @@
           "threejsSHA": "b0afbeca4b711b53560bc126c5797c86f865d5c0c0989e751b221651db298521",
           "result": "anime/anime-hotel/output-a21781b4e0aed258.mp4"
         }
-      }
+      },
+      "displayName": "Anime_01"
     },
     "anime|anime-nichijou||": {
       "id": "R076",
@@ -1367,7 +1419,7 @@
       "a": "anime-nichijou",
       "b": "",
       "selection": "",
-      "title": "Nichijou",
+      "title": "Anime_03",
       "active": true,
       "sectionTitle": "Anime",
       "version": "nichijou-20260919",
@@ -1376,7 +1428,8 @@
           "threejsSHA": "d96224ae25d8d247bc49bcf05c09a116d364cbb1b6c13f5b0d421cd562624818",
           "result": "anime/anime-nichijou/output-b813ca20ef3423a6.mp4"
         }
-      }
+      },
+      "displayName": "Anime_03"
     },
     "anime|anime-kumiko||": {
       "id": "R077",
@@ -1384,7 +1437,7 @@
       "a": "anime-kumiko",
       "b": "",
       "selection": "",
-      "title": "Kumiko",
+      "title": "Anime_02",
       "active": true,
       "sectionTitle": "Anime",
       "version": "kumiko-20260919",
@@ -1393,7 +1446,8 @@
           "threejsSHA": "c6ede8bcf372ecefab965994538c3752c1745e5be85103dbe207c2dffe7fadd1",
           "result": "anime/anime-kumiko/output-f6ff671ea777e3cc.mp4"
         }
-      }
+      },
+      "displayName": "Anime_02"
     },
     "anime|three-colossal||": {
       "id": "R078",
@@ -1401,7 +1455,7 @@
       "a": "three-colossal",
       "b": "",
       "selection": "",
-      "title": "Attack on Titan",
+      "title": "Anime_04",
       "active": true,
       "sectionTitle": "Anime",
       "version": "three-colossal-h3-6s-review-v1",
@@ -1410,7 +1464,8 @@
           "threejsSHA": "0190929b0fa08612f6df9ce564d00b95783b543356f6482f25e37b7438f548a7",
           "result": "anime/three-colossal/output-0b755807fc2de3ea.mp4"
         }
-      }
+      },
+      "displayName": "Anime_04"
     },
     "long-horizon-style|rally-hairpin||": {
       "id": "R079",
@@ -1418,7 +1473,7 @@
       "a": "rally-hairpin",
       "b": "",
       "selection": "",
-      "title": "Rally Hairpin",
+      "title": "Bullet_Time_04",
       "active": true,
       "sectionTitle": "Bullet Time",
       "version": "rally-hairpin-10s-final-v2",
@@ -1427,7 +1482,8 @@
           "threejsSHA": "de7604a279a0bc287a02a4cd69e14c60546feb6f9fcc3eab431d85f71deec6e8",
           "result": "seedance/rally-hairpin/output-893f68a104465081.mp4"
         }
-      }
+      },
+      "displayName": "Bullet_Time_04"
     },
     "control-world-states|cockatiel-flight||": {
       "id": "R080",
@@ -1435,7 +1491,7 @@
       "a": "cockatiel-flight",
       "b": "",
       "selection": "",
-      "title": "Cockatiel Flight",
+      "title": "Gaming_11",
       "active": true,
       "sectionTitle": "Gaming",
       "version": "cockatiel-15s-v27-exact-reroll-final-v1",
@@ -1444,7 +1500,8 @@
           "threejsSHA": "ea34cd4f106b18f005467d1c157e44d4550242bbcd4702d4cf29f996e9277d98",
           "result": "seedance/cockatiel-flight/output-6b10b3c7a708bc2a.mp4"
         }
-      }
+      },
+      "displayName": "Gaming_11"
     },
     "control-world-states|fishing-lake-strike||": {
       "id": "R081",
@@ -1452,7 +1509,7 @@
       "a": "fishing-lake-strike",
       "b": "",
       "selection": "",
-      "title": "Lake Fishing",
+      "title": "Gaming_12",
       "active": true,
       "sectionTitle": "Gaming",
       "version": "fishing-lake-strike-8s-final-v1",
@@ -1461,7 +1518,8 @@
           "threejsSHA": "9f8cadc45425e534bfa8f544ceb34508384ba48d219d7dcf34622067d0be492a",
           "result": "seedance/fishing-lake-strike/output-fb5c8fdb1f3ce801.mp4"
         }
-      }
+      },
+      "displayName": "Gaming_12"
     },
     "reconstruction-3d-4d|astra-cook-spinach||": {
       "id": "R082",
@@ -1469,7 +1527,7 @@
       "a": "astra-cook-spinach",
       "b": "",
       "selection": "",
-      "title": "Cook Spinach",
+      "title": "3D_4D_Reconstruction_06",
       "active": true,
       "sectionTitle": "3D / 4D Reconstruction",
       "version": "Code Video delivery / astra-cook-spinach-10s-review-v1 / centered 960x540 24FPS",
@@ -1478,7 +1536,8 @@
           "threejsSHA": "4e8b217375ad0a3efa39163f70b577207f1f461b2ce09e19d3b990cab240cfd5",
           "result": "code-video-model/reconstruction-3d-4d/astra-cook-spinach-3184e6259cdb.mp4"
         }
-      }
+      },
+      "displayName": "3D_4D_Reconstruction_06"
     },
     "reconstruction-3d-4d|astra-fern-safe||": {
       "id": "R083",
@@ -1487,7 +1546,7 @@
       "b": "",
       "selection": "",
       "title": "Fern",
-      "active": true,
+      "active": false,
       "sectionTitle": "3D / 4D Reconstruction",
       "version": "astra-fern-safe-10s-review-v1",
       "sources": {
@@ -1496,6 +1555,81 @@
           "result": "fern/code_video_model-c2ad4733524c9a9a.mp4"
         }
       }
+    },
+    "physical-grounding|rolling-inertia||": {
+      "id": "R084",
+      "section": "physical-grounding",
+      "a": "rolling-inertia",
+      "b": "",
+      "selection": "",
+      "title": "Physical_Grounding_07",
+      "active": true,
+      "sectionTitle": "Physical Grounding",
+      "version": "MiniMax-H3 / seed 46",
+      "sources": {
+        "rolling-inertia": {
+          "threejsSHA": "ccbaf7b20b2341d9ab4dea828f97f50cf134dee956d6526c36aa3ce7264784da",
+          "result": "code-video-model/physical-grounding/rolling-inertia-seed46-5610f7afbc83.mp4"
+        }
+      },
+      "displayName": "Physical_Grounding_07"
+    },
+    "physical-grounding|newtons-cradle||": {
+      "id": "R085",
+      "section": "physical-grounding",
+      "a": "newtons-cradle",
+      "b": "",
+      "selection": "",
+      "title": "Physical_Grounding_08",
+      "active": true,
+      "sectionTitle": "Physical Grounding",
+      "version": "MiniMax-H3 / seed 48",
+      "sources": {
+        "newtons-cradle": {
+          "threejsSHA": "91eecbf34f34d87adc4f7d369e3d6581efb482efa04424a53c675b1489d75533",
+          "result": "code-video-model/physical-grounding/newtons-cradle-seed48-a62f53aaf37f.mp4"
+        }
+      },
+      "displayName": "Physical_Grounding_08"
+    },
+    "gallery|rolling-inertia||": {
+      "id": "R086",
+      "section": "gallery",
+      "a": "rolling-inertia",
+      "b": "",
+      "selection": "",
+      "title": "Solid sphere vs hollow sphere / frictionless sliding",
+      "active": false,
+      "sectionTitle": "Scene / World Editing",
+      "version": "MiniMax-H3 / seed 46",
+      "sources": {
+        "rolling-inertia": {
+          "threejsSHA": "ccbaf7b20b2341d9ab4dea828f97f50cf134dee956d6526c36aa3ce7264784da",
+          "result": "code-video-model/physical-grounding/rolling-inertia-seed46-5610f7afbc83.mp4"
+        }
+      }
+    },
+    "gallery|601|681|gallery-v13-601-681-take2-seed44": {
+      "id": "R087",
+      "section": "gallery",
+      "a": "601",
+      "b": "681",
+      "selection": "gallery-v13-601-681-take2-seed44",
+      "title": "Scene_World_Editing_05",
+      "active": true,
+      "sectionTitle": "Scene / World Editing",
+      "version": "v13 / Take 2 / MiniMax-H3 Seed 44",
+      "sources": {
+        "601": {
+          "threejsSHA": "3e1d04a1a522c5ff4ed80b0a6bca27557072614c63b8530d4ba62a02d59de5c2",
+          "result": "experiment-pairs/gallery-v13-601-681-take2-seed44/case-601-840ac9b1d601.mp4"
+        },
+        "681": {
+          "threejsSHA": "170a535925ffead3920b7631f567cd8504fd9bb76794ed4df839ad5c84af269d",
+          "result": "experiment-pairs/gallery-v13-601-681-take2-seed44/case-681-6ad541cfacb6.mp4"
+        }
+      },
+      "displayName": "Scene_World_Editing_05"
     }
   }
 }

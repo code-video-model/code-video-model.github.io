@@ -52,7 +52,6 @@ NAMES = {
     "121": "Halo Boarding",
     "132": "Jurassic Encounter",
     "322": "Titan Swing",
-    "93": "City Webs",
 }
 
 MIN_COLOR_DISTANCE = 0.03

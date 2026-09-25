@@ -25,7 +25,7 @@ function selectedVisibility(snapshot){
  const text=source(snapshot),variant=String(snapshot.variant||'');if(!/^\d+$/.test(variant))return null;
  const fields={};let selected=false;
  for(const m of text.matchAll(/([A-Za-z_$][\w$]*(?:\.[A-Za-z_$][\w$]*)*)\.visible\s*=\s*(variant|activeVariant|id)\s*===\s*['"](\d+)['"]/g)){
-  if(!['humanoid','quadruped','human','dog','archState','rectangularState'].some(name=>m[1]===name||m[1].startsWith(name+'.')))continue;
+  if(!['humanoid','quadruped','human','dog','archState','doorState','rectangularState'].some(name=>m[1]===name||m[1].startsWith(name+'.')))continue;
   fields[m[1]]=field(snapshot,`${m[1]}.visible = ${variant===m[3]};`,m[0]);
   selected ||= variant===m[3];
  }

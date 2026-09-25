@@ -22,3 +22,30 @@ export function perspectiveIntrinsics(camera, width, height) {
     cy: (1 + matrix[9]) * height / 2,
   };
 }
+
+export function cameraIntrinsics(camera, width, height) {
+  if (camera.isPerspectiveCamera) {
+    return {...perspectiveIntrinsics(camera, width, height), projection: 'perspective'};
+  }
+  if (!camera.isOrthographicCamera) throw new TypeError('Unsupported filming camera');
+  const matrix = camera.projectionMatrix.elements;
+  const viewWidth = (camera.right - camera.left) / camera.zoom;
+  const viewHeight = (camera.top - camera.bottom) / camera.zoom;
+  return {
+    projection: 'orthographic',
+    verticalFov: 0,
+    horizontalFov: 0,
+    viewWidth,
+    viewHeight,
+    aspect: viewWidth / viewHeight,
+    zoom: camera.zoom,
+    near: camera.near,
+    far: camera.far,
+    width,
+    height,
+    fx: matrix[0] * width / 2,
+    fy: matrix[5] * height / 2,
+    cx: (1 - matrix[12]) * width / 2,
+    cy: (1 + matrix[13]) * height / 2,
+  };
+}

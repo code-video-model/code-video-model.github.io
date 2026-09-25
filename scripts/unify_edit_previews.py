@@ -3,7 +3,7 @@ import html,json,re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]/'project-page-template'
 path=ROOT/'index.html';text=path.read_text(encoding='utf-8')
-order=['reconstruction-3d-4d','long-horizon-style','gallery','trajectory-variation','architectural-cinematics','product-cinematography','scientific-visualization','robotics-simulation','control-world-states']
+order=['control-world-states','anime','long-horizon-style','gallery','robotics-simulation','architectural-cinematics','product-cinematography','physical-grounding','reconstruction-3d-4d']
 blocks={re.search(r'\bid="([^"]+)"',m)[1]:m for m in re.findall(r'<section class="category-shell".*?</section>',text,re.S)}
 for key,block in blocks.items():
     old=re.search(r'<div class="application-edit-controls".*?</div>',block,re.S)

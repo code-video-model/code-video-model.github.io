@@ -2,20 +2,25 @@ const {chromium}=require('playwright');const assert=require('node:assert/strict'
 (async()=>{const b=await chromium.launch({channel:'chrome'});try{
 const p=await b.newPage({viewport:{width:1440,height:1000}});const errors=[];p.on('pageerror',e=>errors.push(e.message));
 const base='http://127.0.0.1:8795/';
-const {loadLocalSource}=await import('../scripts/audit_edit_sources.mjs');
+const {editPairs,loadLocalSource}=await import('../scripts/audit_edit_sources.mjs');
+const {editVariantLabels,normalizeDisplayIdentifiers}=await import('../project-page-template/static/js/code-display-names.mjs');
 async function checkCode(id,selection,alreadyOpen=false){
  const workbench=p.frames().find(f=>f.url().includes('workbench.html'));
  if(!alreadyOpen)await workbench.locator('.code-disclosure>summary').click();
  assert.equal(await workbench.locator('.code-disclosure').getAttribute('open'),'');
  await workbench.waitForFunction(()=>document.querySelectorAll('.code-line').length>0);
  const source=loadLocalSource(id,selection),expected=source.files.find(f=>f.generatedAdapter)||source.files[0];
+ const pair=editPairs.find(pair=>pair.selection===selection&&(pair.a===id||pair.b===id))||editPairs.find(pair=>!selection&&(pair.a===id||pair.b===id));
+ const labels=pair?editVariantLabels(pair.title,pair.a,pair.b):{};
  assert.equal(await workbench.locator('#source-code').getAttribute('data-case-id'),id);
  assert.equal(await workbench.locator('#source-code').getAttribute('data-source-path'),expected.path);
  const text=await workbench.locator('#source-code').evaluate(n=>[...n.children].map(line=>{const clone=line.cloneNode(true);clone.querySelector('.line-number').remove();return clone.textContent;}).join('\n'));
- assert.equal(text,expected.text);
- if(source.variant)assert.ok((await workbench.locator('#code-note').textContent()).includes(`Active variant ${source.variant}`));
+ assert.equal(text,normalizeDisplayIdentifiers(expected.text,labels));
+ const visible=text+'\n'+await workbench.locator('#code-note').textContent();
+ for(const internalId of Object.keys(labels))assert.doesNotMatch(visible,new RegExp(`\\b${internalId}\\b`));
+ if(source.variant)assert.ok((await workbench.locator('#code-note').textContent()).includes(labels[source.variant]||source.variant));
 }
-for(const [id,target,category,selection] of [['583','663','gallery',''],['577','578','trajectory-variation','trajectory-group23-577-578-image-group23-2-v16'],['564','563','robotics-simulation','robotics-group23-564-563-image-group23-2-v13'],['586','666','gallery','']]){
+for(const [id,target,category,selection] of [['583','663','gallery',''],['577','578','robotics-simulation','trajectory-group23-577-578-image-group23-2-v16'],['564','563','robotics-simulation','robotics-group23-564-563-image-group23-2-v13'],['601','681','gallery','gallery-v13-601-681-take2-seed44'],['586','666','gallery','']]){
  await p.goto(base+'?case='+id+'&selection='+selection+'&review=0');await p.waitForFunction(()=>window.homeGalleryReady);
  const section=p.locator('#'+category),toggle=section.locator('.fps-edit-toggle');
  await p.waitForFunction(c=>document.querySelector('#'+c+' iframe')?.contentWindow.behindFrame,category,{timeout:120000});

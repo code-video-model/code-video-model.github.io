@@ -1,4 +1,5 @@
 import { createDetailEditTransition } from './detail-edit-transition.js';
+import { editVariantLabels } from './code-display-names.mjs';
 
 // Retire old shared review links/preferences without affecting case deep links.
 try{localStorage.removeItem('code-video-model-review');}catch{}
@@ -153,7 +154,7 @@ export function initializeBubbles(host) {
     status.textContent = message;
     retry.hidden=false;
     diagnostic.hidden=!resource;
-    diagnosticText.textContent=resource?`Case ${currentCase} · ${attempts} attempt(s)\n${resource}`:'';
+    diagnosticText.textContent=resource?`${selected?.dataset.title||'Selected_Result'} · ${attempts} attempt(s)\n${resource}`:'';
   }
 
   async function revealTransition(state) {
@@ -189,7 +190,8 @@ export function initializeBubbles(host) {
     const reveal=frame?.contentDocument?.querySelector('.comparison-frame')?.dataset.reveal||'50';
     const codeOpen=Boolean(frame?.contentDocument?.querySelector('.code-disclosure')?.open);
     const changing=from&&from!==caseId&&frame&&!status.classList.contains('error');
-    const view=changing?createDetailEditTransition(from,caseId,link.dataset.selection||'',frame,variant==='a'):null;
+    const caseLabels=editVariantLabels(link.dataset.title,link.dataset.case,link.dataset.caseB);
+    const view=changing?createDetailEditTransition(from,caseId,link.dataset.selection||'',frame,variant==='a',caseLabels):null;
     const previousHeight = frame?.getBoundingClientRect().height || 0;
     const version = ++generation;
     cancelTransition();
@@ -251,6 +253,11 @@ export function initializeBubbles(host) {
     const url = new URL('static/interactive/workbench.html', document.baseURI);
     url.searchParams.set('case', caseId);
     if (link.dataset.selection) url.searchParams.set('selection', link.dataset.selection);
+    if(link.dataset.caseB){
+      url.searchParams.set('display_name',link.dataset.title);
+      url.searchParams.set('case_a',link.dataset.case);
+      url.searchParams.set('case_b',link.dataset.caseB);
+    }
     url.searchParams.set('embed', 'bubbles');
     if(codeOpen)url.searchParams.set('code','1');
     if(link.dataset.caseB){url.searchParams.set('editing','1');url.searchParams.set('reveal',reveal);}
@@ -378,7 +385,7 @@ if (pageURL.searchParams.has('case') && !integrated) {
     const notice = document.createElement('p');
     notice.className = 'fps-load-status error';
     notice.setAttribute('role', 'alert');
-    notice.textContent = `Case ${caseId}${selectionId ? ` / ${selectionId}` : ''} is unavailable. Choose a world below.`;
+    notice.textContent = 'This result is unavailable. Choose a world below.';
     document.querySelector('main').prepend(notice);
   }
 }

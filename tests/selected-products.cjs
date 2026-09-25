@@ -4,8 +4,7 @@ const fs=require('node:fs');
 const path=require('node:path');
 const base=process.env.DEMO_URL||'http://127.0.0.1:8795/';
 const selected={
- 'product-new15-01':42,'product-new15-02':45,'product-new15-04':42,'product-new15-05':42,
- 'product-new15-06':45,'product-new15-07':42,'product-new15-09':43,'product-new15-10':44,
+ 'product-new15-07':42,'product-new15-09':43,'product-new15-06':45,'product-new15-04':42,
 };
 const site=path.resolve(__dirname,'../project-page-template');
 const records=JSON.parse(fs.readFileSync(path.join(site,'static/project-page-cases/prompts.json'),'utf8')).items;
@@ -56,11 +55,11 @@ fs.mkdirSync(output,{recursive:true});
    await frame.locator('.inspector-disclosure > summary').click();
    await frame.waitForFunction(()=>document.querySelector('#world-stage canvas')&&!document.getElementById('inspector-width').disabled);
    assert.equal(await frame.locator('#world-stage canvas').count(),1);
-   if(caseId==='product-new15-01')await page.screenshot({path:path.join(output,'desk-lamp-detail.png'),fullPage:true});
+   if(caseId==='product-new15-04')await page.screenshot({path:path.join(output,'projector-detail.png'),fullPage:true});
    console.log(`PASS ${caseId} / seed ${seed}: exact result, source revision and live seek`);
   }
   await page.goto(base+'gallery.html#product-cinematography');
-  assert.equal(await page.locator('#product-cinematography .fps-case-bubble').count(),12);
+  assert.equal(await page.locator('#product-cinematography .fps-case-bubble').count(),8);
   await page.goto(base+'?review=0&category=product-cinematography');
   await page.waitForFunction(()=>window.homeGalleryReady);
   await page.setViewportSize({width:390,height:844});
