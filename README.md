@@ -19,3 +19,8 @@ npm start
 - `tests/`：页面与交互测试。
 
 静态托管时，以 `project-page-template/` 为网站根目录，无需构建。
+
+## Demo 视频
+
+正式主页使用 `project-page-template/static/demo/Demo_CodeVideoModel_New.mp4`：
+1600×900、30 FPS、约 138 秒，保留 Microsoft 片尾。文件从提供的新版视频原样复制，未裁剪或重新编码；首页封面取第 30 帧。

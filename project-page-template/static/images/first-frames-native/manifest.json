@@ -1,14 +1,14 @@
 [
   {
-    "video": "static/demo/CodeVideoPromoV9Refined28_1080p_web_x264.mp4",
-    "poster": "static/images/first-frames-native/d3dee3434c2c935a3eebed20032188584e294791aa84139784fa4d7e231fdc9c-frame000030.png",
-    "width": 1920,
-    "height": 1080,
+    "video": "static/demo/Demo_CodeVideoModel_New.mp4",
+    "poster": "static/images/first-frames-native/89fa688c0bc8ab2ccf99aa59614eb72caba8fe5a56e5549487e0c52c2eff9ba3-frame000030.png",
+    "width": 1600,
+    "height": 900,
     "frame_index": 30,
     "format": "PNG/rgb24",
-    "video_sha256": "d3dee3434c2c935a3eebed20032188584e294791aa84139784fa4d7e231fdc9c",
-    "poster_sha256": "bf52293ebd10e94899af32d9ab5e75b8f7be171a0a5287573c64c85251fbf761",
-    "decoded_pixels_sha256": "bae12f74266d0f5bc3b27fe1f6fc4c80021961a9857c1c8176c8106034de488f"
+    "video_sha256": "89fa688c0bc8ab2ccf99aa59614eb72caba8fe5a56e5549487e0c52c2eff9ba3",
+    "poster_sha256": "a28ad84c73f37681f540830b6297465a516ca4e3e4a4fdd54db456e96b23a721",
+    "decoded_pixels_sha256": "861ce45e07c6cd48d6f23754ad7502fdba1c37be8b5967bc44050db4cfaf0e02"
   },
   {
     "video": "static/project-page-cases/threejs/first-person-games/first-person-030.mp4",

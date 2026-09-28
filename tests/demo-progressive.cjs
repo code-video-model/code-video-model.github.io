@@ -1,7 +1,7 @@
 const {chromium}=require('playwright');
 const assert=require('node:assert/strict');
 const base=(process.env.DEMO_URL||'http://127.0.0.1:8795').replace(/\/$/,'');
-const videoPattern='**/static/demo/CodeVideoPromoV9Refined28_1080p_web_x264.mp4';
+const videoPattern='**/static/demo/Demo_CodeVideoModel_New.mp4';
 const video='.intro-standalone-video';
 const launch=process.env.BROWSER_EXECUTABLE?{executablePath:process.env.BROWSER_EXECUTABLE}:{channel:'chrome'};
 (async()=>{
@@ -23,11 +23,11 @@ const launch=process.env.BROWSER_EXECUTABLE?{executablePath:process.env.BROWSER_
   const start=Date.now();await page.locator('.demo-load').click();
   await page.waitForFunction(()=>{const v=document.querySelector('.intro-standalone-video');return v.currentTime>.2&&!v.paused&&v.controls;},null,{timeout:30000});
   const startupMs=Date.now()-start,bytesAtStart=transferred;
-  assert.ok(bytesAtStart<67644248/4,'Playback must not wait for the complete video');
+  assert.ok(bytesAtStart<83055056/4,'Playback must not wait for the complete video');
   assert.ok(requests.length>0&&requests.every(r=>r.type==='media'),'Use browser media requests instead of fetch/Blob');
   assert.ok(requests.some(r=>r.range),'Browser should issue Range requests');
   const state=await page.locator(video).evaluate(v=>({width:v.videoWidth,height:v.videoHeight,audio:v.webkitAudioDecodedByteCount,src:v.currentSrc}));
-  assert.equal(state.width,1920);assert.equal(state.height,1080);assert.ok(state.audio>0);assert.ok(!state.src.startsWith('blob:'));
+  assert.equal(state.width,1600);assert.equal(state.height,900);assert.ok(state.audio>0);assert.ok(!state.src.startsWith('blob:'));
   await cdp.send('Network.emulateNetworkConditions',{offline:false,latency:0,downloadThroughput:-1,uploadThroughput:-1});
   await page.locator(video).evaluate(v=>{v.pause();v.currentTime=100;});
   await page.waitForFunction(()=>{const v=document.querySelector('.intro-standalone-video');return !v.seeking&&Math.abs(v.currentTime-100)<.2;});
