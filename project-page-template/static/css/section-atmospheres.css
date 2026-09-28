@@ -62,6 +62,7 @@
 
 .opening-atmosphere > .publication-hero,
 .opening-atmosphere > #control-world-states { background: transparent; }
+.opening-atmosphere > .abstract-section { background: transparent; border-top: 0; }
 .opening-atmosphere > .publication-hero::before,
 .opening-atmosphere > .publication-hero::after,
 .opening-atmosphere > #control-world-states::before,

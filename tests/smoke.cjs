@@ -27,9 +27,16 @@ const path = require('node:path');
       "TL;DR: We turn prompts into code-driven video previews, then use early-step conditioning to generate videos that follow their structure and the reference image's appearance—without additional training.");
     assert.equal(await page.locator('.demo-summary + .intro-video').count(), 1);
     assert.equal(await page.getByRole('region', {name:'Abstract', exact:true}).count(), 1);
-    assert.equal(await page.locator('.abstract-section + .gallery-intro').count(), 1);
+    assert.equal(await page.locator('.opening-atmosphere + .gallery-intro').count(), 1);
+    assert.ok(await page.locator('.abstract-section').evaluate(node=>{
+      const style=getComputedStyle(node);
+      return node.parentElement===document.querySelector('.publication-hero').parentElement
+        && style.backgroundColor==='rgba(0, 0, 0, 0)' && style.borderTopWidth==='0px'
+        && document.querySelector('main').classList.contains('has-page-atmosphere');
+    }));
     assert.equal(await page.locator('.abstract-section p').count(), 3);
     assert.ok((await page.locator('.abstract-section').innerText()).includes('85.2, 82.1, and 85.8'));
+    await page.locator('.abstract-section').screenshot({path: path.join(__dirname, '../test-results/home-abstract-desktop.png')});
     assert.deepEqual(await page.locator('.publication-links a').allTextContents().then(labels=>labels.map(label=>label.trim())),
       ['Paper', 'Code', 'Hugging Face']);
     const codeLink = page.getByRole('link', {name:'Code', exact:true});
@@ -73,7 +80,7 @@ const path = require('node:path');
       return summary.left>=0 && summary.right<=innerWidth && summary.bottom<=video.top;
     }));
     await page.screenshot({path: path.join(__dirname, '../test-results/home-summary-mobile.png')});
-    await page.locator('#abstract-heading').scrollIntoViewIfNeeded();
+    await page.locator('#abstract-heading').evaluate(node=>node.scrollIntoView({block:'start'}));
     assert.ok(await page.locator('.abstract-section .container').evaluate(node=>{
       const rect=node.getBoundingClientRect();
       return rect.left>=0 && rect.right<=innerWidth;
