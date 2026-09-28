@@ -21,6 +21,11 @@ const path = require('node:path');
     page.on('response', r => { if (r.url().startsWith('http://127.0.0.1:18795') && r.status() >= 400) errors.push(`${r.status()} ${r.url()}`); });
     const base = 'http://127.0.0.1:18795/';
     await page.goto(base);
+    assert.deepEqual(await page.locator('.publication-links a').allTextContents().then(labels=>labels.map(label=>label.trim())),
+      ['Paper', 'Code', 'Hugging Face']);
+    const datasetLink = page.getByRole('link', {name:'Hugging Face', exact:true});
+    assert.equal(await datasetLink.getAttribute('href'),'https://huggingface.co/datasets/code-video-model/CodeVideoBench');
+    assert.ok(await datasetLink.locator('img').evaluate(image=>image.complete && image.naturalWidth > 0));
     assert.equal(await page.locator('.application-preview').count(), 9);
     assert.deepEqual(await page.locator('.application-preview').evaluateAll(nodes => nodes.map(n => n.dataset.case)),
       ['anime-hotel', '508', 'first-person-030', '583', '564', '643', '624', 'physical-isochronous', 'astra-train']);
