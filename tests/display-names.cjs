@@ -26,8 +26,10 @@ const expected={
       sectionNames.forEach((name,index)=>assert.equal(name,`${prefix}_${String(index+1).padStart(2,'0')}`));
       names.push(...sectionNames);
     }
-    assert.equal(names.length,62);
-    assert.equal(new Set(names).size,62);
+    assert.equal(names.length,58);
+    assert.equal(new Set(names).size,58);
+    assert.deepEqual(await page.locator('#control-world-states .fps-case-bubble').evaluateAll(nodes=>nodes.map(node=>node.dataset.case)),
+      ['first-person-009','first-person-007','first-person-014','first-person-030','121','132','cs2-active-duel','wyvern-siege-fpv']);
     assert.equal((await page.locator('#product-cinematography .fps-case-bubble').nth(2).getAttribute('data-title')),'Product_Cinematography_03');
     assert.deepEqual(await page.locator('#product-cinematography .fps-case-bubble').evaluateAll(ns=>ns.map(n=>n.dataset.case)),
       ['624','625','636','640','product-new15-07','product-new15-09','product-new15-06','product-new15-04']);
@@ -56,6 +58,7 @@ const expected={
     assert(options.length>0);
     assert(options.every(value=>/^[A-Za-z0-9_]+_\d{2}$/.test(value)));
     assert(!options.some(value=>/\b(?:524|531|636)\b/.test(value)));
-    console.log('PASS 62 position-based display names, Product order, and normalized workbench labels.');
+    assert.equal(options.filter(value=>value.startsWith('Gaming_')).length,8);
+    console.log('PASS 58 position-based display names, Product order, and normalized workbench labels.');
   }finally{await browser.close();}
 })().catch(error=>{console.error(error);process.exitCode=1;});

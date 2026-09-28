@@ -293,12 +293,6 @@
   "long-horizon-style|rally-hairpin||": {
     "src": "static/images/first-frames-native/893f68a104465081ab2decf6cca1f9de8c87f63e3fa210a0144ddbd0acc84b93-frame000024.webp"
   },
-  "control-world-states|cockatiel-flight||": {
-    "src": "static/images/first-frames-native/6b10b3c7a708bc2aa06aa8617689bbae7f723f51eaffcbd831abd08362ade18a-frame000024.webp"
-  },
-  "control-world-states|fishing-lake-strike||": {
-    "src": "static/images/first-frames-native/fb5c8fdb1f3ce8014a47bf031ff0f83c90e3c276889b824d1a6d88700e66e332-frame000024.webp"
-  },
   "reconstruction-3d-4d|astra-cook-spinach||": {
     "src": "static/images/first-frames-native/3184e6259cdbb486affd7bd2e546a181c158cd3f85ffc8819815040a0e231f6d-frame000024.webp"
   },

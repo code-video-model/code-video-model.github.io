@@ -31,7 +31,7 @@ for(const id of hidden)assert.equal(records.some(r=>r.case_id===id),false);
   page.on('response',r=>{if(r.url().startsWith(base)&&r.status()>=400)errors.push(`${r.status()} ${r.url()}`);});
   page.on('request',r=>{if(r.url().includes('.mp4'))media.push(r.url());});
   await page.goto(base,{waitUntil:'networkidle'});await page.waitForFunction(()=>window.homeGalleryReady);
-  assert.equal(await page.locator('.category-shell .fps-case-bubble').count(),62);
+  assert.equal(await page.locator('.category-shell .fps-case-bubble').count(),58);
   assert.equal(await page.locator(section+' .fps-case-bubble').count(),8);
   assert.equal(await page.locator('#anime .fps-case-bubble').count(),4);
   for(const id of hidden)assert.equal(await page.locator(`.fps-case-bubble[data-case="${id}"]`).count(),0);
@@ -78,6 +78,6 @@ for(const id of hidden)assert.equal(records.some(r=>r.case_id===id),false);
   await page.locator(section).screenshot({path:path.join(out,'grid-mobile.png')});
   await page.goto(base+'gallery.html');
   for(const c of cases)assert.equal(await page.locator(`${section} .fps-case-bubble[data-case="${c.id}"]`).count(),1);
-  assert.deepEqual(errors,[]);console.log('PASS 62 cards; unused Fern/Truck entries excluded; desktop/mobile and no HTTP/script errors:',base);
+  assert.deepEqual(errors,[]);console.log('PASS 58 cards; unused Fern/Truck entries excluded; desktop/mobile and no HTTP/script errors:',base);
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

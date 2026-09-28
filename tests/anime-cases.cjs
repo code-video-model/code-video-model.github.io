@@ -25,7 +25,7 @@ for(const id of cases){
   page.on('request',r=>{if(r.url().includes('.mp4'))media.push(r.url());});
   await page.goto(base,{waitUntil:'networkidle'});await page.waitForFunction(()=>window.homeGalleryReady);
   assert.equal(await page.locator('.category-shell').count(),9);
-  assert.equal(await page.locator('.category-shell .fps-case-bubble').count(),62);
+  assert.equal(await page.locator('.category-shell .fps-case-bubble').count(),58);
   assert.equal(await page.locator('#product-cinematography .fps-case-bubble').count(),8,'Keep selected product additions');
   assert.equal(await page.locator('#anime .category-mosaic img').count(),3);
   assert.equal(media.length,0,'Homepage must not eagerly fetch videos');

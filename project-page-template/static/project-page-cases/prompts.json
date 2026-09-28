@@ -1,6 +1,6 @@
 {
   "schema": "project-page-case-prompts-v1",
-  "count": 68,
+  "count": 64,
   "items": [
     {
       "session": "Gaming",
@@ -55,15 +55,6 @@
       "threejs_sha256": "35de95026515a7c20b3067439683656def07b5cc1fe2845f0828cdce37389a34",
       "display_code_video_model": "code-video-model/first-person-games/case-132.mp4",
       "display_code_video_model_sha256": "0b6aee762784635fa937200215a434d7259c86341c466ac3a187e9f4bfdaaa94"
-    },
-    {
-      "session": "Gaming",
-      "case_id": "322",
-      "display_name": "Gaming_07",
-      "source_prompt": "Third-person aerial shot in an Attack on Titan-inspired city. A soldier swings in a sharp arc around a Titan's neck while steam erupts and rooftops blur below. Fast but readable ODM motion.",
-      "threejs_sha256": "574b265f28a42dcaa1b58f8828d762522b1e44b2ba00ccb2cd190d44a340ff30",
-      "display_code_video_model": "code-video-model/first-person-games/case-322.mp4",
-      "display_code_video_model_sha256": "31a478d7cbcd296688cbf7abc3b6053c7d581f204d7950233d2d0326b8cabc69"
     },
     {
       "session": "Bullet Time",
@@ -423,7 +414,7 @@
     },
     {
       "case_id": "cs2-active-duel",
-      "display_name": "Gaming_08",
+      "display_name": "Gaming_07",
       "session": "Gaming",
       "source_prompt": "Perform a surgical character-anatomy edit of the FIRST supplied image. Preserve every pixel-level scene decision outside the single distant counter-terror opponent as closely as possible: identical first-person camera, crop, perspective, walls, arch, cable, windows, paving, crates, lighting, shadows, AK-pattern viewmodel, hands and empty-space layout. The SECOND supplied proxy frame confirms the opponent's exact world position and active counter-strafe pose. Do not move, enlarge toward the camera or replace the opponent with a different character.\n\nCorrect only the single opponent so they have believable Counter-Strike-style in-game human proportions rather than a short toy-like tactical figure. Use an adult athletic human body approximately 7.5 heads tall. Make the helmeted head visibly smaller relative to the body; lengthen the neck slightly; give the torso a natural ribcage-to-pelvis length; use moderately broad shoulders with a narrower waist and hips; place elbows near the lower ribcage; make forearms and upper arms anatomically matched; make thighs and lower legs longer and correctly jointed; place knees at natural height; keep boots proportional rather than oversized. Both feet remain planted in a compact lateral counter-strafe stance with flexed knees and balanced weight.\n\nThe equipment must follow the corrected anatomy instead of creating bulk everywhere: fitted dark navy/blue-gray combat uniform, realistically sized plate carrier, compact pouches, knee pads aligned over the actual knees, gloves, normal-sized boots, helmet and restrained visor/goggles. Keep a shouldered compact rifle with the stock seated at the shoulder, cheek near the stock, support hand on the fore-end, firing hand on the grip and muzzle aimed toward the player. Arms must not merge into the chest or float away from the weapon. The pose should resemble an alert competitive FPS player actively trying to counter-strafe back into crate cover.\n\nMaintain the current high-end real-time PC game rendering and exact material realism. The character must remain clearly computer-game rendered, not live-action photography, cosplay, a movie actor, promotional key art, a superhero, a bulky sci-fi soldier or a stylized toy. No proprietary logos or copied character skin.\n\nNo changes to the AK viewmodel or player's hands. No HUD, crosshair, minimap, text, digits, muzzle flash, blood, smoke, extra enemy, extra limbs, duplicated weapon, depth of field or motion blur.\n",
       "threejs_sha256": "876cbbbc6ff37cd76cd3f4fbcbaf5a91ead4d45de67cb2d4412579f2c98694ba",
@@ -432,7 +423,7 @@
     },
     {
       "case_id": "wyvern-siege-fpv",
-      "display_name": "Gaming_09",
+      "display_name": "Gaming_08",
       "session": "Gaming",
       "source_prompt": "Prompt text was not included in the supplied delivery package.",
       "threejs_sha256": "8248e495191fbff636fafe683f504378354733b9607201bb889dc6c4b2a92715",
@@ -456,15 +447,6 @@
       "threejs_sha256": "bee26e7a042e2942b4d9f1915736c710446b0e5fceaac7e1133bf3fefb7318e5",
       "display_code_video_model": "code-video-model/scientific-visualization/stable-mass-transfer-binary-6a32d4681560.mp4",
       "display_code_video_model_sha256": "6a32d4681560c00654bf65436b57552f1d68e4f3a7114d996deb31dfd2dce0a0"
-    },
-    {
-      "case_id": "303",
-      "display_name": "Gaming_10",
-      "session": "Gaming",
-      "source_prompt": "Wide adventure shot in a Zelda-inspired cliffside. A hero leaps from a tower and opens a paraglider over a bright valley, with the castle visible beyond rivers and forests. Clean iconic open-world reveal.",
-      "threejs_sha256": "f4fe2b13609bcbafc33c17745886d68a0dd8bd3fe432ed561ca9d44e58877285",
-      "display_code_video_model": "seedvr2-current50/first-person-games/case-303-76fe4ae628f3.mp4",
-      "display_code_video_model_sha256": "76fe4ae628f3195c1c3040d09dccea5699010e85c7bb0fcc4017a33721617524"
     },
     {
       "case_id": "physical-induction",
@@ -595,26 +577,6 @@
       "display_code_video_model": "seedance/rally-hairpin/output-893f68a104465081.mp4",
       "display_code_video_model_sha256": "893f68a104465081ab2decf6cca1f9de8c87f63e3fa210a0144ddbd0acc84b93",
       "interactive_source": "rally-hairpin/"
-    },
-    {
-      "case_id": "cockatiel-flight",
-      "display_name": "Gaming_11",
-      "session": "Gaming",
-      "source_prompt": "Cockatiel Flight",
-      "threejs_sha256": "ea34cd4f106b18f005467d1c157e44d4550242bbcd4702d4cf29f996e9277d98",
-      "display_code_video_model": "seedance/cockatiel-flight/output-6b10b3c7a708bc2a.mp4",
-      "display_code_video_model_sha256": "6b10b3c7a708bc2aa06aa8617689bbae7f723f51eaffcbd831abd08362ade18a",
-      "interactive_source": "cockatiel-flight/"
-    },
-    {
-      "case_id": "fishing-lake-strike",
-      "display_name": "Gaming_12",
-      "session": "Gaming",
-      "source_prompt": "Lake Fishing",
-      "threejs_sha256": "9f8cadc45425e534bfa8f544ceb34508384ba48d219d7dcf34622067d0be492a",
-      "display_code_video_model": "seedance/fishing-lake-strike/output-fb5c8fdb1f3ce801.mp4",
-      "display_code_video_model_sha256": "fb5c8fdb1f3ce8014a47bf031ff0f83c90e3c276889b824d1a6d88700e66e332",
-      "interactive_source": "fishing-lake-strike/"
     },
     {
       "case_id": "rolling-inertia",

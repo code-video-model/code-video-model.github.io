@@ -11,7 +11,7 @@ const path=require('node:path');
   await page.goto(base+'?review=1');await page.waitForFunction(()=>window.homeGalleryReady);
   assert.equal(await page.locator('.review-toolbar,.review-label').count(),0);
   assert.equal(await page.locator('.category-shell').count(),9);assert.equal(await page.locator('.category-mosaic').count(),9);
-  assert.equal(await page.locator('.category-shell .fps-case-bubble').count(),62);
+  assert.equal(await page.locator('.category-shell .fps-case-bubble').count(),58);
   const sectionOrder=await page.locator('.category-shell').evaluateAll(ns=>ns.map(n=>n.id));
   const expectedSectionOrder=['control-world-states','anime','long-horizon-style','gallery','robotics-simulation','architectural-cinematics','product-cinematography','physical-grounding','reconstruction-3d-4d'];
   assert.deepEqual(sectionOrder,expectedSectionOrder);

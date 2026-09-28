@@ -1,5 +1,5 @@
 {
-  "count": 68,
+  "count": 64,
   "cases": [
     {
       "case_id": "first-person-009",
@@ -30,11 +30,6 @@
       "case_id": "132",
       "session": "Gaming",
       "display_name": "Gaming_06"
-    },
-    {
-      "case_id": "322",
-      "session": "Gaming",
-      "display_name": "Gaming_07"
     },
     {
       "case_id": "505",
@@ -230,12 +225,12 @@
     {
       "case_id": "cs2-active-duel",
       "session": "Gaming",
-      "display_name": "Gaming_08"
+      "display_name": "Gaming_07"
     },
     {
       "case_id": "wyvern-siege-fpv",
       "session": "Gaming",
-      "display_name": "Gaming_09"
+      "display_name": "Gaming_08"
     },
     {
       "case_id": "black-hole-background-grade",
@@ -246,11 +241,6 @@
       "case_id": "stable-mass-transfer-binary",
       "session": "Scientific Visualization",
       "display_name": "Physical_Grounding_06"
-    },
-    {
-      "case_id": "303",
-      "session": "Gaming",
-      "display_name": "Gaming_10"
     },
     {
       "case_id": "physical-induction",
@@ -316,16 +306,6 @@
       "case_id": "rally-hairpin",
       "session": "Bullet Time",
       "display_name": "Bullet_Time_04"
-    },
-    {
-      "case_id": "cockatiel-flight",
-      "session": "Gaming",
-      "display_name": "Gaming_11"
-    },
-    {
-      "case_id": "fishing-lake-strike",
-      "session": "Gaming",
-      "display_name": "Gaming_12"
     },
     {
       "case_id": "rolling-inertia",
