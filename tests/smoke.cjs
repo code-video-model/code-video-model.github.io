@@ -23,6 +23,9 @@ const path = require('node:path');
     await page.goto(base);
     assert.equal(await page.getByRole('contentinfo').innerText(), 'Code Video Model @ 2026');
     assert.equal(await page.getByRole('contentinfo').evaluate(node=>getComputedStyle(node).textAlign), 'center');
+    assert.equal(await page.locator('.demo-heading + .demo-summary').innerText(),
+      "TL;DR: We turn prompts into code-driven video previews, then use early-step conditioning to generate videos that follow their structure and the reference image's appearance—without additional training.");
+    assert.equal(await page.locator('.demo-summary + .intro-video').count(), 1);
     assert.deepEqual(await page.locator('.publication-links a').allTextContents().then(labels=>labels.map(label=>label.trim())),
       ['Paper', 'Code', 'Hugging Face']);
     const codeLink = page.getByRole('link', {name:'Code', exact:true});
@@ -59,6 +62,13 @@ const path = require('node:path');
     await page.goto(base);
     await page.screenshot({path: path.join(__dirname, '../test-results/home.png'), fullPage: true});
     await page.setViewportSize({width:390,height:844});
+    await page.locator('.demo-summary').scrollIntoViewIfNeeded();
+    assert.ok(await page.locator('.demo-summary').evaluate(node=>{
+      const summary=node.getBoundingClientRect();
+      const video=node.nextElementSibling.getBoundingClientRect();
+      return summary.left>=0 && summary.right<=innerWidth && summary.bottom<=video.top;
+    }));
+    await page.screenshot({path: path.join(__dirname, '../test-results/home-summary-mobile.png')});
     await page.getByRole('contentinfo').scrollIntoViewIfNeeded();
     assert.ok(await page.getByRole('contentinfo').isVisible());
     assert.ok(await page.getByRole('contentinfo').evaluate(node=>{
