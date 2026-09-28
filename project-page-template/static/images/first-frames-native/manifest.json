@@ -11,7 +11,7 @@
     "decoded_pixels_sha256": "861ce45e07c6cd48d6f23754ad7502fdba1c37be8b5967bc44050db4cfaf0e02"
   },
   {
-    "video": "static/project-page-cases/threejs/first-person-games/first-person-030.mp4",
+    "video": "static/project-page-cases/threejs/first-person-games/Gaming_04.mp4",
     "poster": "static/images/first-frames-native/1c03ca919eefbf4392d6c4fe8d9b940c398b6facade3c3b0b0d0eaa853939120.png",
     "width": 960,
     "height": 540,
@@ -22,7 +22,7 @@
     "decoded_pixels_sha256": "e3c5c55fc3600c419751f8298cec17d0dd441acc557e58a7aeae5f11ae94f000"
   },
   {
-    "video": "static/project-page-cases/code-video-model/first-person-games/first-person-030.mp4",
+    "video": "static/project-page-cases/code-video-model/first-person-games/Gaming_04.mp4",
     "poster": "static/images/first-frames-native/0c5f036db8d244d75ea1c974f493c7ce31fab388d00424668ef3e90794944956.png",
     "width": 1920,
     "height": 1088,
@@ -44,7 +44,7 @@
     "decoded_pixels_sha256": "515fd47ceb5242c3248a4d392c570c02a0aa420f9cfb940b5b92ff3b6f1cba51"
   },
   {
-    "video": "static/project-page-cases/anime/anime-hotel/output-a21781b4e0aed258.mp4",
+    "video": "static/project-page-cases/anime/anime-hotel/Anime_01.mp4",
     "poster": "static/images/first-frames-native/a21781b4e0aed258df3fe15a7db5c054745ce8b6e7920bb4c19351e48593e3bc-frame000024.png",
     "width": 960,
     "height": 544,
@@ -66,7 +66,7 @@
     "decoded_pixels_sha256": "4e824548a257c9e033ddedff25946b915c92ce9fbb6527d093ed6dcf27f6abfc"
   },
   {
-    "video": "static/project-page-cases/selected-0907-seedvr2-2x/bullet-time/case-508-d0a8579dcd22.mp4",
+    "video": "static/project-page-cases/selected-0907-seedvr2-2x/bullet-time/Bullet_Time_02.mp4",
     "poster": "static/images/first-frames-native/d0a8579dcd22aab246f9c9108e4a4f75e70a1c75ce290600dedc42e1d10d2bf8.png",
     "width": 1920,
     "height": 1088,
@@ -99,7 +99,7 @@
     "decoded_pixels_sha256": "f4a5bc6f9f3904d47fab2604323d820c63e70d0f1c14cda388cdd9daa8766f19"
   },
   {
-    "video": "static/project-page-cases/experiment-group23-image-group23-4-v12/scene-world-editing/case-583-db0376ec4673.mp4",
+    "video": "static/project-page-cases/experiment-group23-image-group23-4-v12/scene-world-editing/Scene_World_Editing_01_A.mp4",
     "poster": "static/images/first-frames-native/db0376ec4673e633f6e776b954b5de5525b7ad37c78c94b3fab186bb4b7e5376.png",
     "width": 960,
     "height": 544,
@@ -110,7 +110,7 @@
     "decoded_pixels_sha256": "d6b526dd9d4c286e399db5095f9d3719519f18f48b3a9dedfb9fa6ff70636887"
   },
   {
-    "video": "static/project-page-cases/experiment-group23-image-group23-4-v12/scene-world-editing/case-663-61895e9bf688.mp4",
+    "video": "static/project-page-cases/experiment-group23-image-group23-4-v12/scene-world-editing/Scene_World_Editing_01_B.mp4",
     "poster": "static/images/first-frames-native/61895e9bf688951035a89df3712fdec5f39279691027e31c67d7cc0c38bab6e3.png",
     "width": 960,
     "height": 544,
@@ -143,7 +143,7 @@
     "decoded_pixels_sha256": "1dafb72f27932befe0346b64653374029570e537020acdcd8ca76261fccb269e"
   },
   {
-    "video": "static/project-page-cases/experiment-pairs/robotics-group23-564-563-image-group23-2-v13/case-564-2bdfbe4b1b13.mp4",
+    "video": "static/project-page-cases/experiment-pairs/Robotics_Trajectory_Control_03/Robotics_Trajectory_Control_03_A.mp4",
     "poster": "static/images/first-frames-native/2bdfbe4b1b132f43b80f6e8e31334b610d562e6c7f8f8883af5a4e4de156223b.png",
     "width": 960,
     "height": 544,
@@ -154,7 +154,7 @@
     "decoded_pixels_sha256": "bf1f2399a4601ca0d63a616e528be95f1cadaa5a2fa4e0cb3a196ff60d4b2927"
   },
   {
-    "video": "static/project-page-cases/experiment-pairs/robotics-group23-564-563-image-group23-2-v13/case-563-b8a23ca6efc4.mp4",
+    "video": "static/project-page-cases/experiment-pairs/Robotics_Trajectory_Control_03/Robotics_Trajectory_Control_03_B.mp4",
     "poster": "static/images/first-frames-native/b8a23ca6efc40aba5df94e9a9601af1897044f2edb1a1d8edd76383d053d8d76.png",
     "width": 960,
     "height": 544,
@@ -165,7 +165,7 @@
     "decoded_pixels_sha256": "06cab7bed2bc3d3f5978142f75ccf321361563a9bfce2cd7162cc7b2c0720859"
   },
   {
-    "video": "static/project-page-cases/threejs/architectural-cinematics/case-643.mp4",
+    "video": "static/project-page-cases/threejs/architectural-cinematics/Architectural_Cinematics_01.mp4",
     "poster": "static/images/first-frames-native/2a282ae58fdab6a9cbae26cc486361404f9961582c1ab77a09f7d163085838c1.png",
     "width": 960,
     "height": 540,
@@ -176,7 +176,7 @@
     "decoded_pixels_sha256": "349f625881a1637976aeac55432bf75916e6f5cc3ca127ca28cb9bebf6d28d26"
   },
   {
-    "video": "static/project-page-cases/selected-0907-seedvr2-2x/architectural-cinematics/case-643-5bc5de70220a.mp4",
+    "video": "static/project-page-cases/selected-0907-seedvr2-2x/architectural-cinematics/Architectural_Cinematics_01.mp4",
     "poster": "static/images/first-frames-native/5bc5de70220a0c8030441da669c9ac85989847365171a5541e77b21fc2064b32.png",
     "width": 1920,
     "height": 1088,
@@ -198,7 +198,7 @@
     "decoded_pixels_sha256": "e5ad92692140f919a8fa1a4db20ed86982cea37f948cc188bc7f0d7a41fb44b5"
   },
   {
-    "video": "static/project-page-cases/experiment-threejs-v2-image-group19-4-v17/product-cinematography/case-624-730d98dd2301.mp4",
+    "video": "static/project-page-cases/experiment-threejs-v2-image-group19-4-v17/product-cinematography/Product_Cinematography_01.mp4",
     "poster": "static/images/first-frames-native/730d98dd23014052636859be60494399b33634f9173f55405fe9435ed07acad5.png",
     "width": 960,
     "height": 544,
@@ -209,7 +209,7 @@
     "decoded_pixels_sha256": "51ae0f627fc79699f1ac3ce7cb1eb6e7eaad831abbc918dac9c65a7f44ff2a78"
   },
   {
-    "video": "static/project-page-cases/threejs/physical-grounding/physical-isochronous.mp4",
+    "video": "static/project-page-cases/threejs/physical-grounding/Physical_Grounding_01.mp4",
     "poster": "static/images/first-frames-native/802dcff5b06015d934fe59ea1c7275141a3d370b2e7925b22c96850fc4612840-frame000024.png",
     "width": 1280,
     "height": 720,
@@ -220,8 +220,8 @@
     "decoded_pixels_sha256": "e0cae87e72d21ce16820bdd5ddf7eec68d6765f06182977c072bd502e86b4024"
   },
   {
-    "video": "static/project-page-cases/code-video-model/physical-grounding/physical-isochronous.mp4",
-    "poster": "static/images/first-frames-native/21eb15899b0e6050292bd0ac32cd09405c13e77dd018033df486922d94a073a8-frame000024.png",
+    "video": "static/project-page-cases/code-video-model/physical-grounding/Physical_Grounding_01.mp4",
+    "poster": "static/images/first-frames-native/Physical_Grounding_01.png",
     "width": 1280,
     "height": 720,
     "frame_index": 24,
@@ -242,7 +242,7 @@
     "decoded_pixels_sha256": "6fe363da7e274647ab16c73a86cecb347bccdbbcc5213cafebd10a927209b520"
   },
   {
-    "video": "static/project-page-cases/code-video-model/reconstruction-3d-4d/astra-train-785f39faf08a.mp4",
+    "video": "static/project-page-cases/code-video-model/reconstruction-3d-4d/3D_4D_Reconstruction_08.mp4",
     "poster": "static/images/first-frames-native/785f39faf08a35165d22d6273140db8c7bc90ef7d68d7ecdd98cfbc2a1377a2e.png",
     "width": 960,
     "height": 540,

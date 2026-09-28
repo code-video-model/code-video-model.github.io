@@ -13,13 +13,13 @@ const records=JSON.parse(fs.readFileSync(path.join(site,'static/project-page-cas
 const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 for(const c of cases){
  c.record=records.find(r=>r.case_id===c.id);
- c.meta=JSON.parse(fs.readFileSync(path.join(site,'static/interactive',c.id,'case.json')));
+ c.meta=JSON.parse(fs.readFileSync(path.join(site,'static/interactive',c.record.interactive_source,'case.json')));
  assert.equal(c.meta.threejs_sha256,c.proxy);
  assert.equal(c.record.threejs_sha256,c.proxy);
  assert.equal(hash(path.join(site,'static/project-page-cases',c.record.display_code_video_model)),c.output);
  assert.equal(c.meta.sources[0].sha256,c.source);
  assert.equal(c.meta.frames/c.meta.fps,c.duration);
- for(const s of c.meta.sources)assert.equal(hash(path.join(site,'static/interactive',c.id,s.path)),s.sha256);
+ for(const s of c.meta.sources)assert.equal(hash(path.join(site,'static/interactive',c.record.interactive_source,s.path)),s.sha256);
 }
 (async()=>{
  const browser=await chromium.launch({headless:true,...(process.env.BROWSER_EXECUTABLE?{executablePath:process.env.BROWSER_EXECUTABLE}:{channel:'chrome'})});

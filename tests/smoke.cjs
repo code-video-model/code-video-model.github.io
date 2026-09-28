@@ -23,7 +23,7 @@ const path = require('node:path');
     await page.goto(base);
     assert.equal(await page.locator('.application-preview').count(), 9);
     assert.deepEqual(await page.locator('.application-preview').evaluateAll(nodes => nodes.map(n => n.dataset.case)),
-      ['first-person-030', 'anime-hotel', '508', '583', '564', '643', '624', 'physical-isochronous', 'astra-train']);
+      ['anime-hotel', '508', 'first-person-030', '583', '564', '643', '624', 'physical-isochronous', 'astra-train']);
     const urls = await page.locator('[src], [href], [poster], [data-src]').evaluateAll(nodes => nodes.flatMap(n => ['src','href','poster','data-src','data-src-a','data-src-b'].map(a => n.getAttribute(a))).filter(Boolean));
     for (const url of new Set(urls)) {
       if (/^(https?:|#|mailto:|data:)/.test(url)) continue;

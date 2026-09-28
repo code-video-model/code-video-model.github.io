@@ -14,32 +14,32 @@
   "static/project-page-cases/threejs/physical-grounding/physical-induction.mp4": {
     "frame_index": 30
   },
-  "static/project-page-cases/code-video-model/physical-grounding/physical-induction.mp4": {
+  "static/project-page-cases/code-video-model/physical-grounding/Physical_Grounding_03.mp4": {
     "frame_index": 24
   },
-  "static/project-page-cases/threejs/physical-grounding/physical-isochronous.mp4": {
+  "static/project-page-cases/threejs/physical-grounding/Physical_Grounding_01.mp4": {
     "frame_index": 24
   },
-  "static/project-page-cases/code-video-model/physical-grounding/physical-isochronous.mp4": {
+  "static/project-page-cases/code-video-model/physical-grounding/Physical_Grounding_01.mp4": {
     "frame_index": 24
   },
   "static/project-page-cases/threejs/physical-grounding/physical-prism.mp4": {
     "frame_index": 90
   },
-  "static/project-page-cases/code-video-model/physical-grounding/physical-prism.mp4": {
+  "static/project-page-cases/code-video-model/physical-grounding/Physical_Grounding_04.mp4": {
     "frame_index": 72
   },
   "static/project-page-cases/threejs/physical-grounding/physical-pendulum.mp4": {
     "frame_index": 30
   },
-  "static/project-page-cases/code-video-model/physical-grounding/physical-pendulum.mp4": {
+  "static/project-page-cases/code-video-model/physical-grounding/Physical_Grounding_02.mp4": {
     "frame_index": 24
   },
   "static/project-page-cases/anime/anime-hotel/threejs-b0afbeca4b711b53.mp4": {
     "frame_index": 24,
     "note": "One second; proxy/output use the same time."
   },
-  "static/project-page-cases/anime/anime-hotel/output-a21781b4e0aed258.mp4": {
+  "static/project-page-cases/anime/anime-hotel/Anime_01.mp4": {
     "frame_index": 24,
     "note": "One second; proxy/output use the same time."
   },
@@ -47,7 +47,7 @@
     "frame_index": 24,
     "note": "One second; proxy/output use the same time."
   },
-  "static/project-page-cases/anime/anime-nichijou/output-b813ca20ef3423a6.mp4": {
+  "static/project-page-cases/anime/anime-nichijou/Anime_03.mp4": {
     "frame_index": 24,
     "note": "One second; proxy/output use the same time."
   },
@@ -55,7 +55,7 @@
     "frame_index": 24,
     "note": "One second; proxy/output use the same time."
   },
-  "static/project-page-cases/anime/anime-kumiko/output-f6ff671ea777e3cc.mp4": {
+  "static/project-page-cases/anime/anime-kumiko/Anime_02.mp4": {
     "frame_index": 24,
     "note": "One second; proxy/output use the same time."
   },
@@ -63,7 +63,7 @@
     "frame_index": 30,
     "note": "One second; proxy/output use the same time."
   },
-  "static/project-page-cases/anime/three-colossal/output-0b755807fc2de3ea.mp4": {
+  "static/project-page-cases/anime/three-colossal/Anime_04.mp4": {
     "frame_index": 24,
     "note": "One second; proxy/output use the same time."
   },
@@ -71,7 +71,7 @@
     "frame_index": 30,
     "note": "One second on the original media clock; no retiming."
   },
-  "static/project-page-cases/seedance/rally-hairpin/output-893f68a104465081.mp4": {
+  "static/project-page-cases/seedance/rally-hairpin/Bullet_Time_04.mp4": {
     "frame_index": 24,
     "note": "One second on the original media clock; no retiming."
   },
@@ -91,7 +91,7 @@
     "frame_index": 24,
     "note": "One second on the original media clock; no retiming."
   },
-  "static/project-page-cases/code-video-model/reconstruction-3d-4d/astra-cook-spinach-3184e6259cdb.mp4": {
+  "static/project-page-cases/code-video-model/reconstruction-3d-4d/3D_4D_Reconstruction_06.mp4": {
     "frame_index": 24,
     "note": "Original one-second output frame."
   },

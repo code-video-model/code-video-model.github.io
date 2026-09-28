@@ -7,10 +7,10 @@
       "label": "Image-Group23-2 / v13",
       "assets": {
         "564": {
-          "video": "experiment-pairs/robotics-group23-564-563-image-group23-2-v13/case-564-2bdfbe4b1b13.mp4",
+          "video": "experiment-pairs/Robotics_Trajectory_Control_03/Robotics_Trajectory_Control_03_A.mp4",
           "sha256": "2bdfbe4b1b132f43b80f6e8e31334b610d562e6c7f8f8883af5a4e4de156223b",
           "threejs_sha256": "a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834",
-          "interactive_source": "revisions/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834/564/",
+          "interactive_source": "revisions/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834/Robotics_Trajectory_Control_03_A/",
           "origin": "group23",
           "width": 960,
           "height": 544,
@@ -18,10 +18,10 @@
           "fps": 24
         },
         "563": {
-          "video": "experiment-pairs/robotics-group23-564-563-image-group23-2-v13/case-563-b8a23ca6efc4.mp4",
+          "video": "experiment-pairs/Robotics_Trajectory_Control_03/Robotics_Trajectory_Control_03_B.mp4",
           "sha256": "b8a23ca6efc40aba5df94e9a9601af1897044f2edb1a1d8edd76383d053d8d76",
           "threejs_sha256": "254888291a343e47b34f855af274a89850641ef2aeb01e65f742e73f9fbedf3a",
-          "interactive_source": "revisions/254888291a343e47b34f855af274a89850641ef2aeb01e65f742e73f9fbedf3a/563/",
+          "interactive_source": "revisions/254888291a343e47b34f855af274a89850641ef2aeb01e65f742e73f9fbedf3a/Robotics_Trajectory_Control_03_B/",
           "origin": "group23",
           "width": 960,
           "height": 544,
@@ -38,10 +38,10 @@
       "label": "Image-Group23-4 / v15",
       "assets": {
         "564": {
-          "video": "experiment-pairs/robotics-group23-564-563-image-group23-4-v15/case-564-026f839ca680.mp4",
+          "video": "experiment-pairs/Robotics_Trajectory_Control_04/Robotics_Trajectory_Control_04_A.mp4",
           "sha256": "026f839ca680b6b8c2b7127fae6c1b67e414ad16537bc7a3827b98934dc4fda8",
           "threejs_sha256": "91213a937c33a618f4db842215170e326c1c7d15606fe5626a6fb3c4863712bb",
-          "interactive_source": "revisions/91213a937c33a618f4db842215170e326c1c7d15606fe5626a6fb3c4863712bb/564/",
+          "interactive_source": "revisions/91213a937c33a618f4db842215170e326c1c7d15606fe5626a6fb3c4863712bb/Robotics_Trajectory_Control_04_A/",
           "origin": "group23",
           "width": 960,
           "height": 544,
@@ -49,10 +49,10 @@
           "fps": 24
         },
         "563": {
-          "video": "experiment-pairs/robotics-group23-564-563-image-group23-4-v15/case-563-92bae22b754e.mp4",
+          "video": "experiment-pairs/Robotics_Trajectory_Control_04/Robotics_Trajectory_Control_04_B.mp4",
           "sha256": "92bae22b754e29042b62f54aeead8a1ce9a4d7a30249a73336499c21a0395269",
           "threejs_sha256": "d2e835d8a7099ac34a06c1c95cd3ff21ea763d4a561bac516f1e26baa3c5229d",
-          "interactive_source": "revisions/d2e835d8a7099ac34a06c1c95cd3ff21ea763d4a561bac516f1e26baa3c5229d/563/",
+          "interactive_source": "revisions/d2e835d8a7099ac34a06c1c95cd3ff21ea763d4a561bac516f1e26baa3c5229d/Robotics_Trajectory_Control_04_B/",
           "origin": "group23",
           "width": 960,
           "height": 544,
@@ -69,10 +69,10 @@
       "label": "Image-Group23-2 / v16",
       "assets": {
         "577": {
-          "video": "experiment-pairs/trajectory-group23-577-578-image-group23-2-v16/case-577-00f9b4ff3594.mp4",
+          "video": "experiment-pairs/Robotics_Trajectory_Control_06/Robotics_Trajectory_Control_06_A.mp4",
           "sha256": "00f9b4ff3594e24b728931fdbdfd19119fbedfdf34444a159fddc5bbc9868eab",
           "threejs_sha256": "7120de68c82dfb598f995ba280cecf19bcc945b59280269ba18d60c937215053",
-          "interactive_source": "revisions/7120de68c82dfb598f995ba280cecf19bcc945b59280269ba18d60c937215053/577/",
+          "interactive_source": "revisions/7120de68c82dfb598f995ba280cecf19bcc945b59280269ba18d60c937215053/Robotics_Trajectory_Control_06_A/",
           "origin": "group23",
           "width": 960,
           "height": 544,
@@ -80,10 +80,10 @@
           "fps": 24
         },
         "578": {
-          "video": "experiment-pairs/trajectory-group23-577-578-image-group23-2-v16/case-578-78ca34159d0f.mp4",
+          "video": "experiment-pairs/Robotics_Trajectory_Control_06/Robotics_Trajectory_Control_06_B.mp4",
           "sha256": "78ca34159d0fe9fb93b78205efa8a2d4034b88fdd25724fb25cee5eff0af5765",
           "threejs_sha256": "2da6f461b2637565543a354f1f5f723c0a78b96fcc3255b623ed7c6e5de15322",
-          "interactive_source": "revisions/2da6f461b2637565543a354f1f5f723c0a78b96fcc3255b623ed7c6e5de15322/578/",
+          "interactive_source": "revisions/2da6f461b2637565543a354f1f5f723c0a78b96fcc3255b623ed7c6e5de15322/Robotics_Trajectory_Control_06_B/",
           "origin": "group23",
           "width": 960,
           "height": 544,
@@ -100,10 +100,10 @@
       "label": "Image-Group23-4 / v12",
       "assets": {
         "581": {
-          "video": "experiment-pairs/trajectory-group23-581-582-image-group23-4-v12/case-581-6febd6c6ab29.mp4",
+          "video": "experiment-pairs/Robotics_Trajectory_Control_02/Robotics_Trajectory_Control_02_A.mp4",
           "sha256": "6febd6c6ab2935a79d67f7a39ad763534ffaa6240dd53e92c7aee723a9bb827c",
           "threejs_sha256": "aca55a19e47438786ce263cca4a09f3f8e19886f9cd687327b559a0f531c9181",
-          "interactive_source": "revisions/aca55a19e47438786ce263cca4a09f3f8e19886f9cd687327b559a0f531c9181/581/",
+          "interactive_source": "revisions/aca55a19e47438786ce263cca4a09f3f8e19886f9cd687327b559a0f531c9181/Robotics_Trajectory_Control_02_A/",
           "origin": "group23",
           "width": 960,
           "height": 544,
@@ -111,10 +111,10 @@
           "fps": 24
         },
         "582": {
-          "video": "experiment-pairs/trajectory-group23-581-582-image-group23-4-v12/case-582-48104471a323.mp4",
+          "video": "experiment-pairs/Robotics_Trajectory_Control_02/Robotics_Trajectory_Control_02_B.mp4",
           "sha256": "48104471a323ca6cf6de4a4a7f4343c40cdb5af9d2d2d133f7f48d5b6cc6c122",
           "threejs_sha256": "bf824224a5e3a876c575997c3dd48f794e6d98848f86d21c634fd1de2bd4a99b",
-          "interactive_source": "revisions/bf824224a5e3a876c575997c3dd48f794e6d98848f86d21c634fd1de2bd4a99b/582/",
+          "interactive_source": "revisions/bf824224a5e3a876c575997c3dd48f794e6d98848f86d21c634fd1de2bd4a99b/Robotics_Trajectory_Control_02_B/",
           "origin": "group23",
           "width": 960,
           "height": 544,
@@ -131,10 +131,10 @@
       "label": "v13 / Take 2 / Seed 44",
       "assets": {
         "601": {
-          "video": "experiment-pairs/gallery-v13-601-681-take2-seed44/case-601-840ac9b1d601.mp4",
+          "video": "experiment-pairs/Scene_World_Editing_05/Scene_World_Editing_05_A.mp4",
           "sha256": "840ac9b1d601ea520e7854768b7e5ac8eb981f128c265217dfc4b5d78e6861f7",
           "threejs_sha256": "3e1d04a1a522c5ff4ed80b0a6bca27557072614c63b8530d4ba62a02d59de5c2",
-          "interactive_source": "revisions/3e1d04a1a522c5ff4ed80b0a6bca27557072614c63b8530d4ba62a02d59de5c2/601/",
+          "interactive_source": "revisions/3e1d04a1a522c5ff4ed80b0a6bca27557072614c63b8530d4ba62a02d59de5c2/Scene_World_Editing_05_A/",
           "origin": "editing-h3",
           "width": 960,
           "height": 544,
@@ -142,10 +142,10 @@
           "fps": 24
         },
         "681": {
-          "video": "experiment-pairs/gallery-v13-601-681-take2-seed44/case-681-6ad541cfacb6.mp4",
+          "video": "experiment-pairs/Scene_World_Editing_05/Scene_World_Editing_05_B.mp4",
           "sha256": "6ad541cfacb6f7295e4ef8c2a378fe91a76eb544011916297d79bf808e2a84c6",
           "threejs_sha256": "170a535925ffead3920b7631f567cd8504fd9bb76794ed4df839ad5c84af269d",
-          "interactive_source": "revisions/170a535925ffead3920b7631f567cd8504fd9bb76794ed4df839ad5c84af269d/681/",
+          "interactive_source": "revisions/170a535925ffead3920b7631f567cd8504fd9bb76794ed4df839ad5c84af269d/Scene_World_Editing_05_B/",
           "origin": "editing-h3",
           "width": 960,
           "height": 544,

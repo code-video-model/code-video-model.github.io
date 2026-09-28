@@ -1,0 +1,88 @@
+{
+  "case_id": "stable-mass-transfer-binary",
+  "session": "Scientific Visualization",
+  "prompt": "请制作一段 8 秒、16:9 横屏、具有科学可视化质感与电影美感的天体视频，展示一个正在发生稳定物质转移的近距离双星系统：一颗体积较大的普通供体恒星，与一颗质量相近、体积远小于它的白矮星，绕共同质心运行。供体恒星接近充满自身的洛希瓣，外层气体通过两星之间的内拉格朗日点 L1 附近流出，形成一条连续、优美的弯曲气流，注入白矮星周围的旋转吸积盘。核心关系是“供体恒星 → L1 附近 → 弯曲物质流 → 吸积盘 → 白矮星”，不表现成白矮星从远处任意吸走整颗恒星。\n场景采用黑色深空背景和少量克制星点，没有浓密彩色星云。供体恒星呈温暖的金橙色，表面有缓慢变化的颗粒与亮度纹理，朝向 L1 的一侧受到潮汐拉伸，略呈泪滴状，但主体保持稳定，不像液体气球一样剧烈变形。白矮星位于吸积盘中心，是一个很小、明亮的蓝白色球体，不是黑洞，不出现黑色事件视界、引力透镜光环或喷流。\n吸积盘与双星轨道面大致共面，呈有厚度但较薄的气体盘，不是坚硬的土星环。盘外侧颜色较暖、较暗，向内逐渐变得明亮，内侧偏蓝白，但辉光不能淹没盘的结构。可以适度增强色彩和流动纹理的对比以帮助观看，不将其声称为肉眼实拍。\n0–2 秒：从轨道面上方约 30 度的斜视角，完整展示供体恒星、两星之间的气流和白矮星吸积盘。整个系统从第一帧就处于稳定运行状态，物质流与吸积盘已经存在，不要在几秒内凭空生成整片盘。两颗星都围绕共同质心运动，白矮星不能固定不动而只有大恒星绕它公转。双星轨道近圆，位置连续，短片内只移动一小段轨道，不在 8 秒内疯狂绕行数圈。\n2–6 秒：相机以平滑、缓慢的短弧线绕系统移动约 20–30 度，并略微靠近，让气流与盘面的连接更清楚，同时保留两颗星的完整关系。供体表面物质从朝向伴星的一小片区域汇聚，经过 L1 附近的狭窄通道后，形成受轨道运动影响的弯曲流束。气流必须在空间中连续，不能是连接两颗星的笔直激光，也不能先绕出装饰性大螺旋再突然进入盘中。\n用沿气流向前推进的细微亮度结构和少量示踪粒子，让观众看清物质从供体流向吸积盘，而不是仅有一条静止发光曲线。流束接触吸积盘外缘时，出现一个局部明亮、范围有限的撞击区域，随后沿盘的旋转方向展开并融入盘中，不穿过整个盘直接撞向白矮星。\n吸积盘具有明显的差异旋转：靠近中心的气体转得更快，外侧转得更慢，不能让整个盘像唱片一样刚性旋转。通过细腻的弧状纹理表现气体环绕运动；径向向内漂移应比环绕运动缓慢得多，不把所有物质画成一秒内从外缘冲到中心的排水漩涡。供体恒星的潮汐拉伸方向始终与伴星位置保持一致，不因相机绕行而改变物理朝向。\n6–8 秒：相机逐渐放缓，在能够同时看清供体、弯曲物质流、盘外缘亮区和盘中心白矮星的位置停留。系统继续稳定运转，气流持续注入，盘内纹理继续旋转。以正在发生的天体过程结束，不加入超新星爆炸、恒星被瞬间吞噬、盘突然坍缩或额外天体。\n全程一镜到底，重点体现双体轨道、潮汐形变、物质输运、差异旋转和相机视差之间一致的空间关系。相机绕行与天体自身运动要分别成立，不能只旋转一张背景图制造轨道错觉。保持恒星大小、轨道间距、盘半径和气流接入位置稳定，不因镜头变化而伸缩跳动。允许时间压缩与适度的视觉尺度增强，但不要求用 8 秒真实物理时间展示可观测的完整公转或吸积过程。\n如果使用 Three.js 实现，轨道与流场应采用连续一致的参数化模型或自定义轨道动力学，不需要用刚体碰撞引擎模拟气体。气流粒子沿连续路径输运，进入盘后随局部流动运动或平滑淡出，不突然在画面中心重生；盘的旋转纹理不能明显重复或闪烁。视觉目标是一个可信、稳定、美丽的动态科学示意，而不是声称完成了完整流体力学模拟。\n科学关系参考：https://www.esa.int/Science_Exploration/Space_Science/L1_the_first_Lagrangian_Point ，以及 https://imagine.gsfc.nasa.gov/science/objects/binary_stars1.html 。这些来源用于理解物质转移机制，不要求复制页面构图。不要添加 L1 标记、轨道线、箭头、公式、文字标签、HUD 或上下文菜单。无旁白，无宇宙风声；可使用极轻的氛围音乐，也可以无声。整体应像在安静观察一个真实运转的宇宙系统。\n",
+  "fps": 24.0,
+  "frames": 192,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "bee26e7a042e2942b4d9f1915736c710446b0e5fceaac7e1133bf3fefb7318e5",
+  "entry": "runtime/case/index.html",
+  "sources": [
+    {
+      "path": "original/case/main.js",
+      "name": "case/main.js",
+      "sha256": "32d91efa26e49daa3ac179a6f47dfb4b44d656e0e59b0f394ca2eda5ad0bce1c",
+      "functions": [
+        {
+          "name": "donorShape",
+          "line": 74
+        },
+        {
+          "name": "glowTexture",
+          "line": 112
+        },
+        {
+          "name": "glow",
+          "line": 125
+        },
+        {
+          "name": "diskGeometry",
+          "line": 164
+        },
+        {
+          "name": "tubeGeometry",
+          "line": 248
+        },
+        {
+          "name": "diskOmega",
+          "line": 362
+        },
+        {
+          "name": "random",
+          "line": 367
+        },
+        {
+          "name": "seek",
+          "line": 434
+        },
+        {
+          "name": "diagnostics",
+          "line": 484
+        },
+        {
+          "name": "animate",
+          "line": 542
+        }
+      ]
+    },
+    {
+      "path": "original/presentation-crop.mjs",
+      "name": "presentation-crop.mjs",
+      "sha256": "6abc58ed232bf8b46416a5c126647c486edfd7f720467b3e07483cb3f1d33a72",
+      "functions": [],
+      "generated_adapter": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "case/main.js",
+      "sha256": "32d91efa26e49daa3ac179a6f47dfb4b44d656e0e59b0f394ca2eda5ad0bce1c"
+    },
+    {
+      "path": "case/vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/home/zhiyangliang/VideoCoder/exports/published-threejs-sources/bee26e7a042e2942b4d9f1915736c710446b0e5fceaac7e1133bf3fefb7318e5",
+    "kind": "delivery-source-and-presentation-adapter",
+    "artifact_verified": false,
+    "input_video_sha256": "bee26e7a042e2942b4d9f1915736c710446b0e5fceaac7e1133bf3fefb7318e5",
+    "original_proxy_sha256": "f6b8ff9aa16cc6a94da454093e85da3d51aaff81a4b9afbb1caf008cbf927e0b",
+    "colored_preview": false,
+    "package": "stable-mass-transfer-binary-8s-review-v4",
+    "note": "Verified delivery source with explicit presentation adaptation; original generation inputs retained separately.",
+    "source_snapshot_verified": true
+  }
+}

@@ -13,9 +13,9 @@ from build_native_posters import ensure_poster, main as rebuild_native_posters
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "project-page-template"
 SECTIONS = (
-    ("control-world-states", "Gaming"),
     ("anime", "Anime"),
     ("long-horizon-style", "Bullet_Time"),
+    ("control-world-states", "Gaming"),
     ("gallery", "Scene_World_Editing"),
     ("robotics-simulation", "Robotics_Trajectory_Control"),
     ("architectural-cinematics", "Architectural_Cinematics"),

@@ -1,0 +1,85 @@
+{
+  "case_id": "astra-cook-spinach",
+  "session": "3D / 4D Reconstruction",
+  "prompt": "Create one continuous 10-second photoreal novel-view shot of the SAME evolving physical scene. @Image1 is a real photograph, uniformly scaled and cropped, of a representative action moment and the source camera view. It is the authority for object identity, observed construction, materials, colors, lighting, and scene details. It is NOT a character sheet, flat backdrop, or frame to repeat. @Video1 is a procedural geometric reconstruction of that SAME scene. Follow its camera translation, local arc, framing progression, relative depth and changing occlusion. Replace its simplified CG surfaces with the real photographed appearance from @Image1; do not copy low-poly shading or transform the scene into a cartoon. Scene identity: A cook wearing glasses, dark shirt and apron stands behind a kitchen counter and stirs green spinach in a black pan with metal tongs. Window blinds, bottles, shelf, dog, dishes and countertop objects form the background. Camera route: A continuously moving 360-degree world-space orbit across the entire ten seconds: cumulative progress at 0..10s is 0,38,76,112,148,184,220,254,288,324,360 degrees. Every second travels 34-38 degrees. Push and crane early toward a high rear crossing around the spinach lift, then pass the unseen left side while descending and widening into continued frontal travel. Radius ranges 7 to 2.4 to 5.7; camera height 4.3 to 8.7 to 4.6; the look target moves from the broad source composition toward the pan. The early high crane clears the active grip as it crosses behind the head. Nonzero angular endpoint derivatives preserve strong motion through 10s. No held pose, destination framing, cuts or actor turntable.  KINETIC CAMERA CONTRACT: @Video1 has highest authority for continuous camera motion. @Image1 controls appearance only and must not anchor, slow, recenter or stop the camera. Camera intent: Energetic continuous cooking coverage, not arrival at a hero pose. Leave the source immediately, expose the pan through a rising right-side sweep, look over the cook during the lift, descend around his other side for the return stir, and keep orbiting strongly across the last frame. Protect both hands, tong grip, leaf contact and the fixed pan throughout. Travel continuously through one 360-degree counterclockwise path over all ten seconds. Screen-space travel: Begin by translating toward world-right around the cook, continue behind him, then around world-left and onward through the frontal bearing. Use the contract counterclockwise cumulative-bearing convention. Bottles and the stationary shelf/window reverse screen order at the rear crossing and restore their ordering only as the camera continues through the other side. The physical action never mirrors or rotates to follow the camera. There is no destination framing and no final hold: every second must contain strong world-space camera displacement, parallax and changing occlusion. Required camera beats: (1) 0-2s — immediate departure and push: 38 degrees per second, radius 7 to 5.7, crane 4.3 to 5.8 and lower the target from the blinds toward hands/pan. (2) 2-5s — rising side-to-back crossing: three 36-degree seconds, inward dolly to radius2.4 and an early crane to8.7 at4s, then8.4 at5s, to see the active grip and lifted spinach over the cook’s head; pass the back without stopping. (3) 5-8s — opposing-side descent: travel 104 more degrees, widen radius2.5 to4.5 and descend8.4 to5.9 as the leaf cluster returns and the left-side countertop occlusions change. (4) 8-10s — sustained moving coverage: 36 degrees every second, continuing lateral translation and widening radius4.5 to5.7 while descending5.9 to4.6. Angular speed remains36 degrees/second at10; there is no destination composition or final hold. Required changing-occlusion evidence: (1) 0-2s: oil bottle, torch and red-capped bottle slide across distant blinds and shelf as the right-side push/crane opens the pan interior and leaves the front view. (2) 2-5s: pass the side toward the back; the shelf presents its side/back and the cook’s face naturally leaves view, revealing crossed rear apron straps. The high camera sees the lifted spinach above the rim without a pasted frontal face. (3) 5-8s: continue beyond the back around the left side. The dog/seat and oil-bottle group change overlap while the front apron gradually reappears from the opposite side; the cooking action stays fixed in kitchen coordinates. (4) 8-10s: foreground-left/right object ordering returns during another strong 72 degrees of orbit. Window mullions and pan rim continue changing perspective; neither the camera nor the scene freezes or settles. Never settle into a hero frame, pause for the action, reverse direction, rotate the subject as a turntable, or replace physical camera travel with digital zoom/pan. Begin at the photographed source composition, then reveal a coherent local novel view with clear foreground/background parallax. @Video1 is also authoritative for the complete articulated/deforming action timing. 0.0-3.3s: The cook lowers tongs into the pan and stirs the green spinach toward screen-left. 3.3-6.7s: The tongs lift and turn part of the spinach while the other hand steadies near the pan. 6.7-10.0s: The cook returns the spinach to the pan and completes another stir toward screen-right. Preserve contacts, occlusion, deformation and action continuity; do not freeze, loop, reverse, duplicate or replace the moving subject. Background objects not named as moving stay fixed. One cook performs the repeated pan-and-tongs action; background and countertop remain fixed. Preserve glasses, dark apron, black pan, metal tongs, green spinach, blinds and shelf. No flames are required in this scene. The real photograph and proxy share the same centered 4:3 aspect-ratio crop. Preserve that crop without stretching, zooming past it, or inventing scene content outside the photographed crop. Complete newly revealed surfaces conservatively from the observed scene; Do not add, remove, duplicate or animate unrelated objects; animate only the authored action with continuous contacts and deformation. No cuts, camera jumps, turntable object motion, still-image sliding, text labels or rendered UI.",
+  "fps": 24.0,
+  "frames": 240,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "4e8b217375ad0a3efa39163f70b577207f1f461b2ce09e19d3b990cab240cfd5",
+  "entry": "runtime/case/index.html",
+  "sources": [
+    {
+      "path": "original/case/runtime.mjs",
+      "name": "case/runtime.mjs",
+      "sha256": "160d7b6c8446b9694f654e5f0fd4a2841d65af53d6da650034c24e0fad1fe3f2",
+      "functions": [
+        {
+          "name": "seek",
+          "line": 25
+        },
+        {
+          "name": "diagnostics",
+          "line": 42
+        }
+      ]
+    },
+    {
+      "path": "original/case/scene.mjs",
+      "name": "case/scene.mjs",
+      "sha256": "24f9bdffb2395aa64d10c5b80bd6ad107801068353e502df8e9eb6275321db25",
+      "functions": []
+    },
+    {
+      "path": "original/case/camera-trajectory.mjs",
+      "name": "case/camera-trajectory.mjs",
+      "sha256": "e0e0e2f64b78d7f10927b4187ce2564cf5d02defe4ca813106ba69aa48b939fe",
+      "functions": [
+        {
+          "name": "interpolate",
+          "line": 15
+        }
+      ]
+    },
+    {
+      "path": "original/presentation-crop.mjs",
+      "name": "presentation-crop.mjs",
+      "sha256": "9594b486aa587f4b4a7582c9f7c325641814259f802f91f8ff67daedd02d2e05",
+      "functions": [],
+      "generated_adapter": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "case/runtime.mjs",
+      "sha256": "160d7b6c8446b9694f654e5f0fd4a2841d65af53d6da650034c24e0fad1fe3f2"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    },
+    {
+      "path": "case/scene.mjs",
+      "sha256": "24f9bdffb2395aa64d10c5b80bd6ad107801068353e502df8e9eb6275321db25"
+    },
+    {
+      "path": "case/camera-trajectory.mjs",
+      "sha256": "e0e0e2f64b78d7f10927b4187ce2564cf5d02defe4ca813106ba69aa48b939fe"
+    },
+    {
+      "path": "spec.json",
+      "sha256": "2978adda55332244cc8da7e9d9c89a0ae420cd9215f4dc778acf1ed802b452d1"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/home/zhiyangliang/VideoCoder/exports/published-threejs-sources/4e8b217375ad0a3efa39163f70b577207f1f461b2ce09e19d3b990cab240cfd5",
+    "kind": "delivery-source-and-presentation-adapter",
+    "artifact_verified": false,
+    "input_video_sha256": "4e8b217375ad0a3efa39163f70b577207f1f461b2ce09e19d3b990cab240cfd5",
+    "original_proxy_sha256": "b962f0b5ab74fe1f59e18e04cd1a4198a4a1e3329e4c785f137b01dfb1497c7a",
+    "colored_preview": false,
+    "package": "astra-cook-spinach-10s-review-v1",
+    "note": "Exact delivery source, with reviewed material edits where selected and a centered crop adapter for the displayed video.",
+    "source_snapshot_verified": true
+  }
+}

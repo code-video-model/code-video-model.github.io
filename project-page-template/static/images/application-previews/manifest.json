@@ -1,20 +1,11 @@
 [
   {
-    "section": "Gaming",
-    "section_id": "control-world-states",
-    "case_id": "first-person-030",
-    "threejs": "threejs/first-person-games/first-person-030.mp4",
-    "threejs_sha256": "1c03ca919eefbf4392d6c4fe8d9b940c398b6facade3c3b0b0d0eaa853939120",
-    "result": "code-video-model/first-person-games/first-person-030.mp4",
-    "result_sha256": "0c5f036db8d244d75ea1c974f493c7ce31fab388d00424668ef3e90794944956"
-  },
-  {
     "section": "Anime",
     "section_id": "anime",
     "case_id": "anime-hotel",
     "threejs": "anime/anime-hotel/threejs-b0afbeca4b711b53.mp4",
     "threejs_sha256": "b0afbeca4b711b53560bc126c5797c86f865d5c0c0989e751b221651db298521",
-    "result": "anime/anime-hotel/output-a21781b4e0aed258.mp4",
+    "result": "anime/anime-hotel/Anime_01.mp4",
     "result_sha256": "a21781b4e0aed258df3fe15a7db5c054745ce8b6e7920bb4c19351e48593e3bc",
     "proxy_poster": "static/images/first-frames-native/b0afbeca4b711b53560bc126c5797c86f865d5c0c0989e751b221651db298521-frame000024.webp",
     "output_poster": "static/images/first-frames-native/a21781b4e0aed258df3fe15a7db5c054745ce8b6e7920bb4c19351e48593e3bc-frame000024.webp"
@@ -25,8 +16,17 @@
     "case_id": "508",
     "threejs": "experiment-inputs/2e39cbc22a4325da26c3ce79bfa6939aafb839776d288c49802c7a5064ca76e3/threejs.mp4",
     "threejs_sha256": "2e39cbc22a4325da26c3ce79bfa6939aafb839776d288c49802c7a5064ca76e3",
-    "result": "selected-0907-seedvr2-2x/bullet-time/case-508-d0a8579dcd22.mp4",
+    "result": "selected-0907-seedvr2-2x/bullet-time/Bullet_Time_02.mp4",
     "result_sha256": "d0a8579dcd22aab246f9c9108e4a4f75e70a1c75ce290600dedc42e1d10d2bf8"
+  },
+  {
+    "section": "Gaming",
+    "section_id": "control-world-states",
+    "case_id": "first-person-030",
+    "threejs": "threejs/first-person-games/Gaming_04.mp4",
+    "threejs_sha256": "1c03ca919eefbf4392d6c4fe8d9b940c398b6facade3c3b0b0d0eaa853939120",
+    "result": "code-video-model/first-person-games/Gaming_04.mp4",
+    "result_sha256": "0c5f036db8d244d75ea1c974f493c7ce31fab388d00424668ef3e90794944956"
   },
   {
     "section": "Scene / World Editing",
@@ -34,14 +34,14 @@
     "case_id": "583",
     "threejs": "experiment-inputs/6d4990f6cba4131a62288fa72657478665377779fa92b3684e060f3f0224f2d3/threejs.mp4",
     "threejs_sha256": "6d4990f6cba4131a62288fa72657478665377779fa92b3684e060f3f0224f2d3",
-    "result": "experiment-group23-image-group23-4-v12/scene-world-editing/case-583-db0376ec4673.mp4",
+    "result": "experiment-group23-image-group23-4-v12/scene-world-editing/Scene_World_Editing_01_A.mp4",
     "result_sha256": "db0376ec4673e633f6e776b954b5de5525b7ad37c78c94b3fab186bb4b7e5376",
     "edited": {
       "case_id": "663",
       "label": "Move Chair to Desk",
       "threejs": "experiment-inputs/623298afee7cc13e32a2d5cc0a9ef7613b329223835bec05ba3859a788e09733/threejs.mp4",
       "threejs_sha256": "623298afee7cc13e32a2d5cc0a9ef7613b329223835bec05ba3859a788e09733",
-      "result": "experiment-group23-image-group23-4-v12/scene-world-editing/case-663-61895e9bf688.mp4",
+      "result": "experiment-group23-image-group23-4-v12/scene-world-editing/Scene_World_Editing_01_B.mp4",
       "result_sha256": "61895e9bf688951035a89df3712fdec5f39279691027e31c67d7cc0c38bab6e3"
     }
   },
@@ -52,14 +52,14 @@
     "selection_id": "robotics-group23-564-563-image-group23-2-v13",
     "threejs": "experiment-inputs/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834/threejs.mp4",
     "threejs_sha256": "a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834",
-    "result": "experiment-pairs/robotics-group23-564-563-image-group23-2-v13/case-564-2bdfbe4b1b13.mp4",
+    "result": "experiment-pairs/Robotics_Trajectory_Control_03/Robotics_Trajectory_Control_03_A.mp4",
     "result_sha256": "2bdfbe4b1b132f43b80f6e8e31334b610d562e6c7f8f8883af5a4e4de156223b",
     "edited": {
       "case_id": "563",
       "label": "Use Quadruped Robot",
       "threejs": "experiment-inputs/254888291a343e47b34f855af274a89850641ef2aeb01e65f742e73f9fbedf3a/threejs.mp4",
       "threejs_sha256": "254888291a343e47b34f855af274a89850641ef2aeb01e65f742e73f9fbedf3a",
-      "result": "experiment-pairs/robotics-group23-564-563-image-group23-2-v13/case-563-b8a23ca6efc4.mp4",
+      "result": "experiment-pairs/Robotics_Trajectory_Control_03/Robotics_Trajectory_Control_03_B.mp4",
       "result_sha256": "b8a23ca6efc40aba5df94e9a9601af1897044f2edb1a1d8edd76383d053d8d76"
     }
   },
@@ -67,9 +67,9 @@
     "section": "Architectural Cinematics",
     "section_id": "architectural-cinematics",
     "case_id": "643",
-    "threejs": "threejs/architectural-cinematics/case-643.mp4",
+    "threejs": "threejs/architectural-cinematics/Architectural_Cinematics_01.mp4",
     "threejs_sha256": "2a282ae58fdab6a9cbae26cc486361404f9961582c1ab77a09f7d163085838c1",
-    "result": "selected-0907-seedvr2-2x/architectural-cinematics/case-643-5bc5de70220a.mp4",
+    "result": "selected-0907-seedvr2-2x/architectural-cinematics/Architectural_Cinematics_01.mp4",
     "result_sha256": "5bc5de70220a0c8030441da669c9ac85989847365171a5541e77b21fc2064b32",
     "proxy_poster": "static/images/first-frames-native/2a282ae58fdab6a9cbae26cc486361404f9961582c1ab77a09f7d163085838c1.webp",
     "output_poster": "static/images/first-frames-native/5bc5de70220a0c8030441da669c9ac85989847365171a5541e77b21fc2064b32.webp"
@@ -80,19 +80,19 @@
     "case_id": "624",
     "threejs": "experiment-inputs/0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b/threejs.mp4",
     "threejs_sha256": "0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b",
-    "result": "experiment-threejs-v2-image-group19-4-v17/product-cinematography/case-624-730d98dd2301.mp4",
+    "result": "experiment-threejs-v2-image-group19-4-v17/product-cinematography/Product_Cinematography_01.mp4",
     "result_sha256": "730d98dd23014052636859be60494399b33634f9173f55405fe9435ed07acad5"
   },
   {
     "section": "Physical Grounding",
     "section_id": "physical-grounding",
     "case_id": "physical-isochronous",
-    "threejs": "threejs/physical-grounding/physical-isochronous.mp4",
+    "threejs": "threejs/physical-grounding/Physical_Grounding_01.mp4",
     "threejs_sha256": "802dcff5b06015d934fe59ea1c7275141a3d370b2e7925b22c96850fc4612840",
-    "result": "code-video-model/physical-grounding/physical-isochronous.mp4",
+    "result": "code-video-model/physical-grounding/Physical_Grounding_01.mp4",
     "result_sha256": "21eb15899b0e6050292bd0ac32cd09405c13e77dd018033df486922d94a073a8",
     "proxy_poster": "static/images/first-frames-native/802dcff5b06015d934fe59ea1c7275141a3d370b2e7925b22c96850fc4612840-frame000024.webp",
-    "output_poster": "static/images/first-frames-native/21eb15899b0e6050292bd0ac32cd09405c13e77dd018033df486922d94a073a8-frame000024.webp"
+    "output_poster": "static/images/first-frames-native/Physical_Grounding_01.webp"
   },
   {
     "section": "3D / 4D Reconstruction",
@@ -100,7 +100,7 @@
     "case_id": "astra-train",
     "threejs": "threejs/reconstruction-3d-4d/astra-train-c822e0aa0db4.mp4",
     "threejs_sha256": "c822e0aa0db4fdce71290667b6bddefa9f33df3876ed2edcae80795dc988fccd",
-    "result": "code-video-model/reconstruction-3d-4d/astra-train-785f39faf08a.mp4",
+    "result": "code-video-model/reconstruction-3d-4d/3D_4D_Reconstruction_08.mp4",
     "result_sha256": "785f39faf08a35165d22d6273140db8c7bc90ef7d68d7ecdd98cfbc2a1377a2e"
   }
 ]

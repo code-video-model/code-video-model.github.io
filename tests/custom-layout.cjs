@@ -10,7 +10,7 @@ const path=require('node:path');
   const base='http://127.0.0.1:8795/';
   await page.goto(base);await page.waitForFunction(()=>window.homeGalleryReady);
   const sections=await page.locator('.category-shell').evaluateAll(ns=>ns.map(n=>n.id));
-  assert.deepEqual(sections,['control-world-states','anime','long-horizon-style','gallery','robotics-simulation','architectural-cinematics','product-cinematography','physical-grounding','reconstruction-3d-4d']);
+  assert.deepEqual(sections,['anime','long-horizon-style','control-world-states','gallery','robotics-simulation','architectural-cinematics','product-cinematography','physical-grounding','reconstruction-3d-4d']);
   const ids=await page.locator('.application-preview').evaluateAll(ns=>ns.map(n=>n.dataset.case));
   assert.equal(ids[0],'first-person-030');assert.equal(ids[1],'anime-hotel');assert.equal(ids[2],'508');assert.equal(ids[4],'564');assert.equal(ids[5],'643');assert.equal(ids.at(-1),'astra-train');
   const rows=await page.locator('.application-preview').evaluateAll(ns=>ns.map(n=>n.getBoundingClientRect().top));

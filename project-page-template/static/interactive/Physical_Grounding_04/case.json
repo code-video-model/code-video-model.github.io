@@ -1,0 +1,76 @@
+{
+  "case_id": "physical-prism",
+  "session": "Physical Grounding",
+  "prompt": "Prism Dispersion",
+  "fps": 24.0,
+  "frames": 121,
+  "width": 1280,
+  "height": 720,
+  "threejs_sha256": "861c8227272399aa1cbfbf6dba8e64391d0d88ad1437bc59a4d7c34f9d99b86d",
+  "entry": "runtime/threejs/index.html",
+  "sources": [
+    {
+      "path": "original/threejs/scene-v3.mjs",
+      "name": "threejs/scene-v3.mjs",
+      "sha256": "a22035cb1e8a13f4fcfe6740df7a629edacd5e0e31cca1d9cbd2656a541f9486",
+      "functions": [
+        {
+          "name": "box",
+          "line": 34
+        },
+        {
+          "name": "cylinder",
+          "line": 43
+        },
+        {
+          "name": "segment",
+          "line": 51
+        },
+        {
+          "name": "meshTriangles",
+          "line": 59
+        },
+        {
+          "name": "glassTri",
+          "line": 129
+        },
+        {
+          "name": "spectralColor",
+          "line": 163
+        },
+        {
+          "name": "spectralSurface",
+          "line": 173
+        },
+        {
+          "name": "seek",
+          "line": 243
+        },
+        {
+          "name": "diagnostics",
+          "line": 250
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "archive": "prism-dispersion-classroom-5s-final-v1.tar.gz",
+    "delivery_status": "accepted-final",
+    "result_sha256": "2dd849216f31f3bfcd930cf4dfee3af99d41f4ef6de2be8319ddbb5c21291285",
+    "input_metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "30/1",
+      "duration": "5.000000",
+      "nb_frames": "150"
+    },
+    "output_metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "5.041667",
+      "nb_frames": "121"
+    },
+    "timeline": "Output frame clock in seconds; source files and media are unchanged."
+  }
+}

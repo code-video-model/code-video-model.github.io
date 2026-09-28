@@ -1,0 +1,64 @@
+{
+  "case_id": "physical-isochronous",
+  "session": "Physical Grounding",
+  "prompt": "Isochronous Circle",
+  "fps": 24.0,
+  "frames": 120,
+  "width": 1280,
+  "height": 720,
+  "threejs_sha256": "802dcff5b06015d934fe59ea1c7275141a3d370b2e7925b22c96850fc4612840",
+  "entry": "runtime/threejs/index.html",
+  "sources": [
+    {
+      "path": "original/threejs/case.js",
+      "name": "threejs/case.js",
+      "sha256": "5fd054d6284e8470327c334ec6ad6d673b23ea4a6ce0c29a48304af185b41384",
+      "functions": [
+        {
+          "name": "cylinderBetween",
+          "line": 62
+        },
+        {
+          "name": "box",
+          "line": 73
+        },
+        {
+          "name": "torusAroundDirection",
+          "line": 81
+        },
+        {
+          "name": "moduleGeometry",
+          "line": 90
+        },
+        {
+          "name": "carriageState",
+          "line": 168
+        },
+        {
+          "name": "setTime",
+          "line": 176
+        }
+      ]
+    }
+  ],
+  "provenance": {
+    "archive": "isochronous-circle-metal-5s-final-v1.tar.gz",
+    "delivery_status": "accepted",
+    "result_sha256": "21eb15899b0e6050292bd0ac32cd09405c13e77dd018033df486922d94a073a8",
+    "input_metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "5.000000",
+      "nb_frames": "120"
+    },
+    "output_metadata": {
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "duration": "5.000000",
+      "nb_frames": "120"
+    },
+    "timeline": "Output frame clock in seconds; source files and media are unchanged."
+  }
+}

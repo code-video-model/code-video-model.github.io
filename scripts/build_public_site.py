@@ -181,6 +181,10 @@ def build(source, output):
                     add(candidate)
                     break
 
+    # Include the redistribution licenses alongside locally served fonts.
+    for license_path in (source / "static/fonts").glob("*-OFL.txt"):
+        add(license_path)
+
     output.mkdir(parents=True, exist_ok=True)
     for rel in sorted(files):
         target = output / rel

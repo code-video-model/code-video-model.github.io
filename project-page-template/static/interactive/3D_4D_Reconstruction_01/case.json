@@ -1,0 +1,80 @@
+{
+  "case_id": "astra-bicycle",
+  "session": "3D / 4D Reconstruction",
+  "prompt": "Create one continuous 10-second photoreal novel-view shot of the SAME STATIC physical scene. @Image1 is a real photograph, uniformly scaled and cropped, of the STARTING camera view. It is the authority for object identity, observed construction, materials, colors, lighting, and scene details. It is NOT a character sheet, flat backdrop, or frame to repeat. @Video1 is a procedural geometric reconstruction of that SAME scene. Follow its camera translation, local arc, framing progression, relative depth and changing occlusion. Replace its simplified CG surfaces with the real photographed appearance from @Image1; do not copy low-poly shading or transform the scene into a cartoon. Scene identity: A stationary white bicycle with two spoked wheels, black tires, a white diamond frame, black saddle and handlebar grips, leaning by a black slatted bench. Grass and a path occupy the foreground; dense shrubs, trees and distant buildings establish layered depth. Camera route: A continuous 359-degree clockwise translated orbit over all ten seconds, starting toward the left/front-wheel end, passing the bench backside, then the right/rear-wheel end and back toward broadside without settling. Two broad speed pulses maintain 25–50 degrees each second. Dolly outward 16 percent through the rear half and crane upward to reveal bench seat depth and the far-side drivetrain before descending while still circling.  KINETIC CAMERA CONTRACT: @Video1 has highest authority for continuous camera motion. @Image1 controls appearance only and must not anchor, slow, recenter or stop the camera. Camera intent: Inspect a coherent static bicycle, bench and park as a kinetic orbit: accelerate away from the source, rise around the front end, sweep behind the bench with depth reveal, then descend around the rear axle into the returning broadside while continuing motion to the final frame. Travel continuously through one 359-degree clockwise path over all ten seconds. Screen-space travel: The camera first travels left toward the front wheel: front wheel and fork grow into overlap with the diamond while the bench slides right. Beyond edge-on, the bench becomes the foreground object and its rear supports cross the bicycle. Continuing in the same direction, the rear wheel separates again and the broadside white frame returns from the opposite end. No reversal or screen-space pan substitute. There is no destination framing and no final hold: every second must contain strong world-space camera displacement, parallax and changing occlusion. Required camera beats: (1) 0–2.5s: immediate lateral departure toward the front-wheel end; the near grip and fork overlap the rear triangle as the wide bench foreshortens. (2) 2.5–5s: sustained orbit with an outward dolly and rising crane; reveal actual bench seat boards, back-upright thickness and the far-side sprocket through changing slat occlusions. (3) 5–7.5s: cross behind the bench without stopping; the rear wheel and saddle shift past the bench end, opening the opposite diamond-frame face and saddle underside. (4) 7.5–10s: descend and move inward while passing the rear-wheel end, recovering two separated wheel silhouettes but maintaining 25–50 degrees per second through the last frame. Required changing-occlusion evidence: (1) The left front wheel initially stands apart from the right rear wheel; front-end passage makes the two wheel planes overlap and then exchange screen order. (2) The white down tube initially occludes black bench slats; in the rear half, real bench slats and their rear uprights occlude portions of the white diamond and rims. (3) The source-side pedal begins in front of the chainwheel; orbiting reveals the chain, perforated chainwheel plate, far pedal and axle depth on the other face. (4) Bench seat boards are almost hidden at source but form a visible receding surface under the elevated rear passage; right-leg weeds shift across the bench leg rather than sticking to it. (5) The bench slides against shrubs and distant roof fragments, while the opposite park perimeter appears in rear views; no background follows the camera. Never settle into a hero frame, pause for the action, reverse direction, rotate the subject as a turntable, or replace physical camera travel with digital zoom/pan. Begin at the photographed source composition, then reveal a coherent local novel view with clear foreground/background parallax. Only the camera moves; keep all physical objects and materials fixed. The bicycle and both wheels remain completely still. Preserve the white frame topology, two wheels, handlebars, saddle, and black bench. No rider or other people appear. The real photograph and proxy share the same centered 4:3 aspect-ratio crop. Preserve that crop without stretching, zooming past it, or inventing scene content outside the photographed crop. Complete newly revealed surfaces conservatively from the observed scene; Do not add, remove, morph, duplicate, rotate or animate objects. No cuts, camera jumps, turntable object motion, still-image sliding, text labels or rendered UI.",
+  "fps": 24.0,
+  "frames": 240,
+  "width": 960,
+  "height": 540,
+  "threejs_sha256": "b450e38540fd8e872fc1883e1bd15ffb731ea67b84a859b3761fed8b61d8954b",
+  "entry": "runtime/case/index.html",
+  "sources": [
+    {
+      "path": "original/case/runtime.mjs",
+      "name": "case/runtime.mjs",
+      "sha256": "160d7b6c8446b9694f654e5f0fd4a2841d65af53d6da650034c24e0fad1fe3f2",
+      "functions": [
+        {
+          "name": "seek",
+          "line": 25
+        },
+        {
+          "name": "diagnostics",
+          "line": 42
+        }
+      ]
+    },
+    {
+      "path": "original/case/scene.mjs",
+      "name": "case/scene.mjs",
+      "sha256": "d97cfe13e526c97d009a8b0bed8ab9494494d1b7e51e4ee48074746fbbba8d1e",
+      "functions": []
+    },
+    {
+      "path": "original/case/camera-motion.mjs",
+      "name": "case/camera-motion.mjs",
+      "sha256": "3ada73942ed5c3cd048e7a47859e83f99afed8cab3bead2269db6063745367e9",
+      "functions": []
+    },
+    {
+      "path": "original/presentation-crop.mjs",
+      "name": "presentation-crop.mjs",
+      "sha256": "9594b486aa587f4b4a7582c9f7c325641814259f802f91f8ff67daedd02d2e05",
+      "functions": [],
+      "generated_adapter": true
+    }
+  ],
+  "assets": [
+    {
+      "path": "case/runtime.mjs",
+      "sha256": "160d7b6c8446b9694f654e5f0fd4a2841d65af53d6da650034c24e0fad1fe3f2"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495"
+    },
+    {
+      "path": "case/scene.mjs",
+      "sha256": "d97cfe13e526c97d009a8b0bed8ab9494494d1b7e51e4ee48074746fbbba8d1e"
+    },
+    {
+      "path": "case/camera-motion.mjs",
+      "sha256": "3ada73942ed5c3cd048e7a47859e83f99afed8cab3bead2269db6063745367e9"
+    },
+    {
+      "path": "spec.json",
+      "sha256": "531e7a0cea27376a7839308cf92b35dc88a71e641c9a6e2775f30c3e5e15b3bf"
+    }
+  ],
+  "provenance": {
+    "source_directory": "/home/zhiyangliang/VideoCoder/exports/published-threejs-sources/b450e38540fd8e872fc1883e1bd15ffb731ea67b84a859b3761fed8b61d8954b",
+    "kind": "delivery-source-and-presentation-adapter",
+    "artifact_verified": false,
+    "input_video_sha256": "b450e38540fd8e872fc1883e1bd15ffb731ea67b84a859b3761fed8b61d8954b",
+    "original_proxy_sha256": "54e47e40e92e22458fa3062c1a21d468700765f0abc6b3e0112df2b2ac207921",
+    "colored_preview": false,
+    "package": "astra-bicycle-10s-review-v1",
+    "note": "Exact delivery source, with reviewed material edits where selected and a centered crop adapter for the displayed video.",
+    "source_snapshot_verified": true
+  }
+}
