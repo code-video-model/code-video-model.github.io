@@ -11,8 +11,8 @@ const output=path.resolve(__dirname,'../test-results/anime');fs.mkdirSync(output
 const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 for(const id of cases){
  const item=records.find(r=>r.case_id===id),meta=JSON.parse(fs.readFileSync(path.join(site,'static/interactive',id,'case.json')));
- assert.equal(hash(path.join(site,'static/project-page-cases',item.threejs_video)),item.threejs_sha256);
- assert.equal(hash(path.join(site,'static/project-page-cases',item.code_video_model)),item.code_video_model_sha256);
+ assert.equal(meta.threejs_sha256,item.threejs_sha256);
+ assert.equal(hash(path.join(site,'static/project-page-cases',item.display_code_video_model)),item.display_code_video_model_sha256);
  for(const source of meta.sources)assert.equal(hash(path.join(site,'static/interactive',id,source.path)),source.sha256);
  assert.equal(meta.sources[0].sha256,meta.provenance.source_program_sha256);
 }

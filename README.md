@@ -20,6 +20,20 @@ npm start
 
 静态托管时，以 `project-page-template/` 为网站根目录，无需构建。
 
+## 发布
+
+GitHub Pages 使用 `.github/workflows/pages.yml` 发布当前主页及 Gallery 的依赖，
+不再对整个仓库运行 Jekyll。发布目录的 `index.html` 直接对应站点根地址。
+
+```sh
+python scripts/build_public_site.py --output _site
+python -m unittest discover -s tests -p 'test_build_public_site.py'
+```
+
+`_site` 必须是不存在或为空的目录。打包保留可见案例、编辑变体、代码和 3D
+交互依赖，不复制历史实验页、未启用模板或未选中的旧媒体。原始封面 PNG 和
+封面维护清单可留在开发目录，但不随页面发布。Git 历史不会因清理当前文件而缩小。
+
 ## Demo 视频
 
 正式主页使用 `project-page-template/static/demo/Demo_CodeVideoModel_New.mp4`：

@@ -44,14 +44,10 @@ const path = require('node:path');
     await page.waitForFunction(()=>window.homeGallery?.getState().state==='detail');
     await page.waitForTimeout(5000);
     await page.screenshot({path: path.join(__dirname, '../test-results/gallery.png')});
-    for (const route of ['group23-pairs.html', 'seedvr-comparison.html']) {
-      await page.goto(base + route);
-      await page.waitForTimeout(1000);
-    }
     assert.deepEqual(errors, []);
     await page.goto(base);
     await page.screenshot({path: path.join(__dirname, '../test-results/home.png'), fullPage: true});
-    console.log('PASS: homepage assets, video playback, gallery, case deep link, comparison pages; no page errors or local HTTP errors.');
+    console.log('PASS: homepage assets, video playback, gallery and case deep link; no page errors or local HTTP errors.');
   } finally {
     if (browser) await browser.close();
     server.kill();

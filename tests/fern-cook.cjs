@@ -13,15 +13,16 @@ const cases=[
 const records=JSON.parse(fs.readFileSync(path.join(site,'static/project-page-cases/prompts.json'))).items;
 const hash=p=>crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 for(const c of cases){
- c.record=records.find(r=>r.case_id===c.id);assert.equal(c.record.gallery_visible,true);
+ c.record=records.find(r=>r.case_id===c.id);assert.ok(c.record);
  c.meta=JSON.parse(fs.readFileSync(path.join(site,'static/interactive',c.id,'case.json')));
- assert.equal(hash(path.join(site,'static/project-page-cases',c.record.threejs_video)),c.proxy);
- assert.equal(hash(path.join(site,'static/project-page-cases',c.record.code_video_model)),c.output);
+ assert.equal(c.meta.threejs_sha256,c.proxy);
+ assert.equal(c.record.threejs_sha256,c.proxy);
+ assert.equal(hash(path.join(site,'static/project-page-cases',c.record.display_code_video_model)),c.output);
  assert.equal(c.meta.frames,c.frames);
  for(const s of c.meta.sources)assert.equal(hash(path.join(site,'static/interactive',c.id,s.path)),s.sha256);
 }
 const hidden=['509','521','490','632','641','542','609','434','astra-fern-safe','astra-truck'];
-for(const id of hidden)assert.equal(records.find(r=>r.case_id===id).gallery_visible,false);
+for(const id of hidden)assert.equal(records.some(r=>r.case_id===id),false);
 (async()=>{
  const browser=await chromium.launch({headless:true,...(process.env.BROWSER_EXECUTABLE?{executablePath:process.env.BROWSER_EXECUTABLE}:{channel:'chrome'})});
  try{
@@ -36,7 +37,7 @@ for(const id of hidden)assert.equal(records.find(r=>r.case_id===id).gallery_visi
   for(const id of hidden)assert.equal(await page.locator(`.fps-case-bubble[data-case="${id}"]`).count(),0);
   assert.equal(media.length,0,'No eager video requests');
   for(const c of cases){
-   const range=await page.request.get(base+'static/project-page-cases/'+c.record.code_video_model,{headers:{Range:'bytes=0-99'}});
+   const range=await page.request.get(base+'static/project-page-cases/'+c.record.display_code_video_model,{headers:{Range:'bytes=0-99'}});
    assert.equal(range.status(),206);assert.equal((await range.body()).length,100);
    await page.goto(base+'?category=reconstruction-3d-4d');await page.waitForFunction(()=>window.homeGalleryReady);
    await page.locator(`${section} .fps-case-bubble[data-case="${c.id}"]`).click();
@@ -77,6 +78,6 @@ for(const id of hidden)assert.equal(records.find(r=>r.case_id===id).gallery_visi
   await page.locator(section).screenshot({path:path.join(out,'grid-mobile.png')});
   await page.goto(base+'gallery.html');
   for(const c of cases)assert.equal(await page.locator(`${section} .fps-case-bubble[data-case="${c.id}"]`).count(),1);
-  assert.deepEqual(errors,[]);console.log('PASS 62 cards; hidden Fern/Truck assets retained; desktop/mobile and no HTTP/script errors:',base);
+  assert.deepEqual(errors,[]);console.log('PASS 62 cards; unused Fern/Truck entries excluded; desktop/mobile and no HTTP/script errors:',base);
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

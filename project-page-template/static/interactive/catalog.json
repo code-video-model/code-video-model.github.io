@@ -1,5 +1,5 @@
 {
-  "count": 93,
+  "count": 68,
   "cases": [
     {
       "case_id": "first-person-009",
@@ -37,10 +37,6 @@
       "display_name": "Gaming_07"
     },
     {
-      "case_id": "93",
-      "session": "Gaming"
-    },
-    {
       "case_id": "505",
       "session": "Bullet Time",
       "display_name": "Bullet_Time_01"
@@ -51,21 +47,9 @@
       "display_name": "Bullet_Time_02"
     },
     {
-      "case_id": "509",
-      "session": "Bullet Time"
-    },
-    {
       "case_id": "518",
       "session": "Bullet Time",
       "display_name": "Bullet_Time_03"
-    },
-    {
-      "case_id": "521",
-      "session": "Bullet Time"
-    },
-    {
-      "case_id": "504",
-      "session": "Bullet Time"
     },
     {
       "case_id": "583",
@@ -108,14 +92,6 @@
       "display_name": "Scene_World_Editing_04"
     },
     {
-      "case_id": "595",
-      "session": "Scene / World Editing"
-    },
-    {
-      "case_id": "675",
-      "session": "Scene / World Editing"
-    },
-    {
       "case_id": "591",
       "session": "Scene / World Editing",
       "display_name": "Scene_World_Editing_06"
@@ -134,14 +110,6 @@
       "case_id": "564",
       "session": "Robotics Simulation",
       "display_name": "Robotics_Trajectory_Control_01"
-    },
-    {
-      "case_id": "567",
-      "session": "Robotics Simulation"
-    },
-    {
-      "case_id": "568",
-      "session": "Robotics Simulation"
     },
     {
       "case_id": "571",
@@ -175,10 +143,6 @@
       "display_name": "Architectural_Cinematics_06"
     },
     {
-      "case_id": "490",
-      "session": "Cinematic Camera Intelligence"
-    },
-    {
       "case_id": "624",
       "session": "Product Cinematography",
       "display_name": "Product_Cinematography_01"
@@ -189,10 +153,6 @@
       "display_name": "Product_Cinematography_02"
     },
     {
-      "case_id": "632",
-      "session": "Product Cinematography"
-    },
-    {
       "case_id": "636",
       "session": "Product Cinematography",
       "display_name": "Product_Cinematography_03"
@@ -201,34 +161,6 @@
       "case_id": "640",
       "session": "Product Cinematography",
       "display_name": "Product_Cinematography_04"
-    },
-    {
-      "case_id": "641",
-      "session": "Product Cinematography"
-    },
-    {
-      "case_id": "524",
-      "session": "Scientific Visualization"
-    },
-    {
-      "case_id": "528",
-      "session": "Scientific Visualization"
-    },
-    {
-      "case_id": "531",
-      "session": "Scientific Visualization"
-    },
-    {
-      "case_id": "542",
-      "session": "Scientific Visualization"
-    },
-    {
-      "case_id": "620",
-      "session": "Scientific Visualization"
-    },
-    {
-      "case_id": "609",
-      "session": "Scientific Visualization"
     },
     {
       "case_id": "643",
@@ -254,10 +186,6 @@
       "case_id": "657",
       "session": "Architectural Cinematics",
       "display_name": "Architectural_Cinematics_03"
-    },
-    {
-      "case_id": "659",
-      "session": "Architectural Cinematics"
     },
     {
       "case_id": "442",
@@ -290,10 +218,6 @@
       "display_name": "3D_4D_Reconstruction_04"
     },
     {
-      "case_id": "astra-truck",
-      "session": "3D / 4D Reconstruction"
-    },
-    {
       "case_id": "astra-kitchen",
       "session": "3D / 4D Reconstruction",
       "display_name": "3D_4D_Reconstruction_07"
@@ -324,11 +248,6 @@
       "display_name": "Physical_Grounding_06"
     },
     {
-      "case_id": "434",
-      "session": "Architectural Cinematics",
-      "gallery_visible": false
-    },
-    {
       "case_id": "303",
       "session": "Gaming",
       "display_name": "Gaming_10"
@@ -354,21 +273,9 @@
       "display_name": "Physical_Grounding_02"
     },
     {
-      "case_id": "product-new15-01",
-      "session": "Product Cinematography"
-    },
-    {
-      "case_id": "product-new15-02",
-      "session": "Product Cinematography"
-    },
-    {
       "case_id": "product-new15-04",
       "session": "Product Cinematography",
       "display_name": "Product_Cinematography_08"
-    },
-    {
-      "case_id": "product-new15-05",
-      "session": "Product Cinematography"
     },
     {
       "case_id": "product-new15-06",
@@ -384,10 +291,6 @@
       "case_id": "product-new15-09",
       "session": "Product Cinematography",
       "display_name": "Product_Cinematography_06"
-    },
-    {
-      "case_id": "product-new15-10",
-      "session": "Product Cinematography"
     },
     {
       "case_id": "anime-hotel",
@@ -423,10 +326,6 @@
       "case_id": "fishing-lake-strike",
       "session": "Gaming",
       "display_name": "Gaming_12"
-    },
-    {
-      "case_id": "astra-fern-safe",
-      "session": "3D / 4D Reconstruction"
     },
     {
       "case_id": "rolling-inertia",
