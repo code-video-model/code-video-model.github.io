@@ -34,7 +34,7 @@ const path = require('node:path');
         && style.backgroundColor==='rgba(0, 0, 0, 0)' && style.borderTopWidth==='0px'
         && document.querySelector('main').classList.contains('has-page-atmosphere');
     }));
-    assert.equal(await page.locator('.abstract-section p').count(), 3);
+    assert.equal(await page.locator('.abstract-section p').count(), 1);
     assert.ok((await page.locator('.abstract-section').innerText()).includes('85.2, 82.1, and 85.8'));
     await page.locator('.abstract-section').screenshot({path: path.join(__dirname, '../test-results/home-abstract-desktop.png')});
     assert.deepEqual(await page.locator('.publication-links a').allTextContents().then(labels=>labels.map(label=>label.trim())),
