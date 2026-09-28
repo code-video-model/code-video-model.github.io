@@ -2,6 +2,8 @@
 .hero-affiliation img { display:block; width:100%; height:auto; mix-blend-mode:multiply; }
 .demo-heading { margin:32px auto 20px; text-align:center; text-wrap:balance; }
 .demo-heading + .intro-video { margin-top:0; }
+.project-footer {padding:28px 24px;border-top:1px solid var(--line);color:var(--mute);text-align:center;font:14px/1.6 var(--sans);}
+.project-footer p {margin:0;}
 @media(max-width:480px) { .demo-heading {margin-top:28px;margin-bottom:16px;max-width:26ch;} }
 .fps-bubble-grid.balanced-gallery { display:grid; grid-template-columns:repeat(var(--gallery-rails),minmax(0,1fr)); width:100%; max-width:var(--gallery-max-width); box-sizing:border-box; margin:0 auto; gap:36px 32px; }
 .balanced-gallery > .fps-bubble-float { width:100%; max-width:none; min-width:0; }

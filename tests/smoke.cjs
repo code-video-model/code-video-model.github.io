@@ -21,8 +21,14 @@ const path = require('node:path');
     page.on('response', r => { if (r.url().startsWith('http://127.0.0.1:18795') && r.status() >= 400) errors.push(`${r.status()} ${r.url()}`); });
     const base = 'http://127.0.0.1:18795/';
     await page.goto(base);
+    assert.equal(await page.getByRole('contentinfo').innerText(), 'Code Video Model @ 2026');
+    assert.equal(await page.getByRole('contentinfo').evaluate(node=>getComputedStyle(node).textAlign), 'center');
     assert.deepEqual(await page.locator('.publication-links a').allTextContents().then(labels=>labels.map(label=>label.trim())),
       ['Paper', 'Code', 'Hugging Face']);
+    const codeLink = page.getByRole('link', {name:'Code', exact:true});
+    assert.equal(await codeLink.getAttribute('href'),'https://github.com/code-video-model/CodeVideoModel');
+    assert.equal(await codeLink.locator('img').getAttribute('src'),'static/images/github.svg');
+    assert.ok(await codeLink.locator('img').evaluate(image=>image.complete && image.naturalWidth > 0));
     const datasetLink = page.getByRole('link', {name:'Hugging Face', exact:true});
     assert.equal(await datasetLink.getAttribute('href'),'https://huggingface.co/datasets/code-video-model/CodeVideoBench');
     assert.ok(await datasetLink.locator('img').evaluate(image=>image.complete && image.naturalWidth > 0));
@@ -52,6 +58,14 @@ const path = require('node:path');
     assert.deepEqual(errors, []);
     await page.goto(base);
     await page.screenshot({path: path.join(__dirname, '../test-results/home.png'), fullPage: true});
+    await page.setViewportSize({width:390,height:844});
+    await page.getByRole('contentinfo').scrollIntoViewIfNeeded();
+    assert.ok(await page.getByRole('contentinfo').isVisible());
+    assert.ok(await page.getByRole('contentinfo').evaluate(node=>{
+      const rect=node.getBoundingClientRect();
+      return rect.left>=0 && rect.right<=innerWidth;
+    }));
+    await page.screenshot({path: path.join(__dirname, '../test-results/home-footer-mobile.png')});
     console.log('PASS: homepage assets, video playback, gallery and case deep link; no page errors or local HTTP errors.');
   } finally {
     if (browser) await browser.close();
