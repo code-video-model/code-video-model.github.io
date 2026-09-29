@@ -23,6 +23,11 @@ const path = require('node:path');
     await page.goto(base);
     assert.equal(await page.getByRole('contentinfo').innerText(), 'Code Video Model @ 2026');
     assert.equal(await page.getByRole('contentinfo').evaluate(node=>getComputedStyle(node).textAlign), 'center');
+    assert.ok(await page.getByRole('contentinfo').evaluate(node=>{
+      const style=getComputedStyle(node);
+      return node.closest('main.has-page-atmosphere')!==null
+        && style.backgroundColor==='rgba(0, 0, 0, 0)' && style.borderTopWidth==='0px';
+    }));
     assert.equal(await page.locator('.demo-heading + .demo-summary').innerText(),
       "TL;DR: We turn prompts into code-driven video previews, then use early-step conditioning to generate videos that follow their structure and the reference image's appearance—without additional training.");
     assert.equal(await page.locator('.demo-summary + .intro-video').count(), 1);
