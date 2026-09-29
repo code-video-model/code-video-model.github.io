@@ -17,7 +17,7 @@
 <link href="static/css/style.css?v=gallery-button-row-5" rel="stylesheet"/>
 <link href="static/css/section-atmospheres.css?v=abstract-1" rel="stylesheet"/>
 <link href="static/css/comparison-previews.css?v=1" rel="stylesheet"/>
-<link href="static/css/custom-layout.css?v=5" rel="stylesheet"/>
+<link href="static/css/custom-layout.css?v=6" rel="stylesheet"/>
 <link href="static/css/first-person-bubbles.css?v=group23-pairs-27" rel="stylesheet"/>
 <link href="static/css/integrated-gallery.css?v=1" rel="stylesheet"/>
 <link href="static/css/seamless-gallery.css?v=2" rel="stylesheet"/>
@@ -39,13 +39,20 @@
 <img alt="Microsoft" height="771" src="assets/logo.png" width="2096"/>
 </div>
 <div aria-label="Authors" class="authors">
-<span class="author-name">Code Video Model Team</span>
+<button aria-controls="team-members" aria-expanded="false" class="author-name team-toggle" id="team-toggle" type="button">Code Video Model Team</button>
 </div>
 </div>
+<ul aria-label="Team GitHub profiles" class="team-members" hidden="" id="team-members">
+<li><a aria-label="ZhiyangLiang on GitHub" href="https://github.com/ZhiyangLiang" rel="noopener noreferrer" target="_blank" title="ZhiyangLiang"><img alt="ZhiyangLiang's GitHub avatar" height="160" src="static/images/team/ZhiyangLiang.png" width="160"/></a></li>
+<li><a aria-label="zjwfufu on GitHub" href="https://github.com/zjwfufu" rel="noopener noreferrer" target="_blank" title="zjwfufu"><img alt="zjwfufu's GitHub avatar" height="160" src="static/images/team/zjwfufu.png" width="160"/></a></li>
+<li><a aria-label="guochengqian on GitHub" href="https://github.com/guochengqian" rel="noopener noreferrer" target="_blank" title="guochengqian"><img alt="guochengqian's GitHub avatar" height="160" src="static/images/team/guochengqian.png" width="160"/></a></li>
+<li><a aria-label="cddlyf on GitHub" href="https://github.com/cddlyf" rel="noopener noreferrer" target="_blank" title="cddlyf"><img alt="cddlyf's GitHub avatar" height="160" src="static/images/team/cddlyf.png" width="160"/></a></li>
+<li><a aria-label="raywzy on GitHub" href="https://github.com/raywzy" rel="noopener noreferrer" target="_blank" title="raywzy"><img alt="raywzy's GitHub avatar" height="160" src="static/images/team/raywzy.png" width="160"/></a></li>
+</ul>
 <nav aria-label="Publication links" class="publication-links">
 <a>
 <img alt="" aria-hidden="true" class="publication-link-icon" src="static/images/paper-badge-icon.svg"/>
-<span>Paper</span>
+<span>Tech Report</span>
 </a>
 <a href="https://github.com/code-video-model/CodeVideoModel">
 <img alt="" aria-hidden="true" class="publication-link-icon" src="static/images/github.svg"/>
@@ -228,6 +235,7 @@ We introduce CodeVideoBench to evaluate controllable video generation across div
 </footer>
 <script src="static/js/section-atmospheres.js?v=section-order-4" type="module"></script>
 <script src="static/js/demo-video.js?v=2" type="module"></script>
+<script src="static/js/team-members.js?v=1" type="module"></script>
 <script src="static/js/application-previews.js?v=3" type="module"></script>
 <script src="static/js/home-gallery.js?v=2" type="module"></script>
 </body>

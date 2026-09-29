@@ -3,7 +3,7 @@ const {chromium}=require('playwright');const assert=require('node:assert/strict'
  const p=await b.newPage({viewport:{width:1440,height:1000},reducedMotion:'reduce'});const errors=[];
  p.on('pageerror',e=>errors.push(e.message));
  const base='http://127.0.0.1:8795/';await p.goto(base+'?review=0');await p.waitForFunction(()=>window.homeGalleryReady);
- assert.deepEqual(await p.locator('.publication-links a').allTextContents().then(ns=>ns.map(t=>t.trim())),['Paper','Code']);
+ assert.deepEqual(await p.locator('.publication-links a').allTextContents().then(ns=>ns.map(t=>t.trim())),['Tech Report','Code','Hugging Face']);
  const colors=[];
  for(const [id,category] of [['583','gallery'],['physical-induction','physical-grounding']]){
   await p.goto(base+'?case='+id+'&review=0');await p.waitForFunction(()=>window.homeGalleryReady);

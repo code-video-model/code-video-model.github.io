@@ -38,7 +38,29 @@ const path = require('node:path');
     assert.ok((await page.locator('.abstract-section').innerText()).includes('85.2, 82.1, and 85.8'));
     await page.locator('.abstract-section').screenshot({path: path.join(__dirname, '../test-results/home-abstract-desktop.png')});
     assert.deepEqual(await page.locator('.publication-links a').allTextContents().then(labels=>labels.map(label=>label.trim())),
-      ['Paper', 'Code', 'Hugging Face']);
+      ['Tech Report', 'Code', 'Hugging Face']);
+    const teamToggle = page.getByRole('button', {name:'Code Video Model Team', exact:true});
+    const teamMembers = page.locator('#team-members');
+    const teamAccounts = ['ZhiyangLiang', 'zjwfufu', 'guochengqian', 'cddlyf', 'raywzy'];
+    assert.equal(await teamToggle.getAttribute('aria-expanded'), 'false');
+    assert.equal(await teamMembers.isVisible(), false);
+    await teamToggle.click();
+    assert.equal(await teamToggle.getAttribute('aria-expanded'), 'true');
+    assert.ok(await teamMembers.isVisible());
+    assert.deepEqual(await teamMembers.locator('a').evaluateAll(links=>links.map(link=>link.href)),
+      teamAccounts.map(account=>`https://github.com/${account}`));
+    await page.waitForFunction(()=>[...document.querySelectorAll('#team-members img')].every(image=>image.complete && image.naturalWidth>0));
+    assert.ok(await teamMembers.locator('img').evaluateAll(images=>images.length===5 && images.every(image=>{
+      const rect=image.getBoundingClientRect();
+      return rect.width===rect.height && getComputedStyle(image).borderRadius==='50%';
+    })));
+    await page.screenshot({path: path.join(__dirname, '../test-results/home-team-desktop.png')});
+    await teamToggle.focus();
+    await page.keyboard.press('Space');
+    assert.equal(await teamMembers.isVisible(), false);
+    await page.keyboard.press('Enter');
+    assert.ok(await teamMembers.isVisible());
+    await teamToggle.click();
     const codeLink = page.getByRole('link', {name:'Code', exact:true});
     assert.equal(await codeLink.getAttribute('href'),'https://github.com/code-video-model/CodeVideoModel');
     assert.equal(await codeLink.locator('img').getAttribute('src'),'static/images/github.svg');
@@ -72,6 +94,23 @@ const path = require('node:path');
     assert.deepEqual(errors, []);
     await page.goto(base);
     await page.screenshot({path: path.join(__dirname, '../test-results/home.png'), fullPage: true});
+    for (const width of [390,320]) {
+      await page.setViewportSize({width,height:844});
+      await teamToggle.click();
+      assert.ok(await teamMembers.isVisible());
+      assert.ok(await teamMembers.evaluate(node=>{
+        const rect=node.getBoundingClientRect();
+        return rect.left>=0 && rect.right<=innerWidth
+          && [...node.querySelectorAll('img')].every(image=>{
+            const bounds=image.getBoundingClientRect();
+            return bounds.left>=0 && bounds.right<=innerWidth;
+          });
+      }));
+      assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+      await page.screenshot({path: path.join(__dirname, `../test-results/home-team-${width}.png`)});
+      await teamToggle.click();
+      assert.equal(await teamMembers.isVisible(),false);
+    }
     await page.setViewportSize({width:390,height:844});
     await page.locator('.demo-summary').scrollIntoViewIfNeeded();
     assert.ok(await page.locator('.demo-summary').evaluate(node=>{
