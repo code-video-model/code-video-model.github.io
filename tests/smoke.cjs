@@ -42,9 +42,19 @@ const path = require('node:path');
     const teamToggle = page.getByRole('button', {name:'Code Video Model Team', exact:true});
     const teamMembers = page.locator('#team-members');
     const teamAccounts = ['ZhiyangLiang', 'zjwfufu', 'guochengqian', 'cddlyf', 'raywzy'];
+    const teamTypography = () => teamToggle.evaluate(node=>({
+      fontSize:getComputedStyle(node).fontSize,
+      decoration:getComputedStyle(node).textDecorationLine,
+      after:getComputedStyle(node,'::after').content
+    }));
+    const desktopTeamTypography = {fontSize:'16px',decoration:'none',after:'none'};
+    assert.deepEqual(await teamTypography(),desktopTeamTypography);
     assert.equal(await teamToggle.getAttribute('aria-expanded'), 'false');
     assert.equal(await teamMembers.isVisible(), false);
+    await teamToggle.hover();
+    assert.deepEqual(await teamTypography(),desktopTeamTypography);
     await teamToggle.click();
+    assert.deepEqual(await teamTypography(),desktopTeamTypography);
     assert.equal(await teamToggle.getAttribute('aria-expanded'), 'true');
     assert.ok(await teamMembers.isVisible());
     assert.deepEqual(await teamMembers.locator('a').evaluateAll(links=>links.map(link=>link.href)),
@@ -98,6 +108,7 @@ const path = require('node:path');
       await page.setViewportSize({width,height:844});
       await teamToggle.click();
       assert.ok(await teamMembers.isVisible());
+      assert.deepEqual(await teamTypography(),{fontSize:'14px',decoration:'none',after:'none'});
       assert.ok(await teamMembers.evaluate(node=>{
         const rect=node.getBoundingClientRect();
         return rect.left>=0 && rect.right<=innerWidth
