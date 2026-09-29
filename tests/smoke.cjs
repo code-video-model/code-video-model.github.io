@@ -46,7 +46,8 @@ const path = require('node:path');
       ['Tech Report', 'Code', 'Hugging Face']);
     const teamToggle = page.getByRole('button', {name:'Code Video Model Team', exact:true});
     const teamMembers = page.locator('#team-members');
-    const teamAccounts = ['ZhiyangLiang', 'zjwfufu', 'guochengqian', 'cddlyf', 'raywzy'];
+    const teamWebsites = ['https://zhiyangliang.github.io', 'https://zjwsite.github.io',
+      'https://guochengqian.github.io', 'https://www.dongdongchen.bid', 'http://raywzy.com'];
     const teamTypography = () => teamToggle.evaluate(node=>({
       fontSize:getComputedStyle(node).fontSize,
       decoration:getComputedStyle(node).textDecorationLine,
@@ -62,8 +63,8 @@ const path = require('node:path');
     assert.deepEqual(await teamTypography(),desktopTeamTypography);
     assert.equal(await teamToggle.getAttribute('aria-expanded'), 'true');
     assert.ok(await teamMembers.isVisible());
-    assert.deepEqual(await teamMembers.locator('a').evaluateAll(links=>links.map(link=>link.href)),
-      teamAccounts.map(account=>`https://github.com/${account}`));
+    assert.deepEqual(await teamMembers.locator('a').evaluateAll(links=>links.map(link=>link.getAttribute('href'))),
+      teamWebsites);
     await page.waitForFunction(()=>[...document.querySelectorAll('#team-members img')].every(image=>image.complete && image.naturalWidth>0));
     assert.ok(await teamMembers.locator('img').evaluateAll(images=>images.length===5 && images.every(image=>{
       const rect=image.getBoundingClientRect();
