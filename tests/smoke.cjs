@@ -31,6 +31,10 @@ const path = require('node:path');
     assert.equal(await page.locator('.demo-heading + .demo-summary').innerText(),
       "TL;DR: We turn prompts into code-driven video previews, then use early-step conditioning to generate videos that follow their structure and the reference image's appearance—without additional training.");
     assert.equal(await page.locator('.demo-summary + .intro-video').count(), 1);
+    assert.equal(await page.locator('.intro-standalone-video').getAttribute('data-src'),
+      'static/demo/Demo_CodeVideoModel_New.mp4?v=f3259741b723aa48');
+    assert.ok((await page.locator('.intro-standalone-video').getAttribute('poster'))
+      .endsWith('f3259741b723aa48ea56dfe6dee81a9673e6bcab06b64b840e48a396d2ff528f-frame000030.webp'));
     assert.equal(await page.getByRole('region', {name:'Abstract', exact:true}).count(), 1);
     assert.equal(await page.locator('.opening-atmosphere + .gallery-intro').count(), 1);
     assert.ok(await page.locator('.abstract-section').evaluate(node=>{

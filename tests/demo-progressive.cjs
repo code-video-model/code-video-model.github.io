@@ -1,7 +1,7 @@
 const {chromium}=require('playwright');
 const assert=require('node:assert/strict');
 const base=(process.env.DEMO_URL||'http://127.0.0.1:8795').replace(/\/$/,'');
-const videoPattern='**/static/demo/Demo_CodeVideoModel_New.mp4';
+const videoPattern='**/static/demo/Demo_CodeVideoModel_New.mp4*';
 const video='.intro-standalone-video';
 const launch=process.env.BROWSER_EXECUTABLE?{executablePath:process.env.BROWSER_EXECUTABLE}:{channel:'chrome'};
 (async()=>{
@@ -12,6 +12,11 @@ const launch=process.env.BROWSER_EXECUTABLE?{executablePath:process.env.BROWSER_
   page.on('request',r=>{if(r.url().includes('/static/demo/')&&r.url().includes('.mp4'))requests.push({type:r.resourceType(),range:r.headers().range});});
   await page.goto(base,{waitUntil:'networkidle'});
   assert.deepEqual(requests,[],'Do not request the demo before Watch');
+  const demoPath=await page.locator(video).getAttribute('data-src');
+  const metadataResponse=await page.request.head(new URL(demoPath,base+'/').href);
+  assert.ok(metadataResponse.ok());
+  const demoBytes=Number(metadataResponse.headers()['content-length']);
+  assert.ok(Number.isFinite(demoBytes)&&demoBytes>0);
   const cdp=await page.context().newCDPSession(page);
   await cdp.send('Network.enable');
   await cdp.send('Network.setCacheDisabled',{cacheDisabled:true});
@@ -23,7 +28,7 @@ const launch=process.env.BROWSER_EXECUTABLE?{executablePath:process.env.BROWSER_
   const start=Date.now();await page.locator('.demo-load').click();
   await page.waitForFunction(()=>{const v=document.querySelector('.intro-standalone-video');return v.currentTime>.2&&!v.paused&&v.controls;},null,{timeout:30000});
   const startupMs=Date.now()-start,bytesAtStart=transferred;
-  assert.ok(bytesAtStart<83055056/4,'Playback must not wait for the complete video');
+  assert.ok(bytesAtStart<demoBytes/4,'Playback must not wait for the complete video');
   assert.ok(requests.length>0&&requests.every(r=>r.type==='media'),'Use browser media requests instead of fetch/Blob');
   assert.ok(requests.some(r=>r.range),'Browser should issue Range requests');
   const state=await page.locator(video).evaluate(v=>({width:v.videoWidth,height:v.videoHeight,audio:v.webkitAudioDecodedByteCount,src:v.currentSrc}));

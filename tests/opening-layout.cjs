@@ -12,7 +12,7 @@ const assert=require('node:assert/strict');
    await page.waitForFunction(()=>window.homeGalleryReady);
    await page.locator('.intro-standalone-video').evaluate(async v=>{const image=new Image();image.src=v.poster;await image.decode();});
    assert.equal(await page.locator('h1').innerText(),'Code Video Model');
-   assert.equal(await page.locator('.demo-heading').innerText(),'From Code to Video');
+   assert.equal(await page.locator('.demo-heading').innerText(),'Demo Video');
    assert.equal(await page.locator('.hero-credits .hero-affiliation,.hero-credits .authors').count(),2);
    assert.equal(await page.locator('.category-shell').count(),9);
    const layout=await page.evaluate(()=>{
@@ -22,7 +22,7 @@ const assert=require('node:assert/strict');
      fits:bb.left>=vb.left&&bb.right<=vb.right&&bb.top>=vb.top&&bb.bottom<=vb.bottom};
    });
    assert.equal(layout.controls,false);assert.ok(layout.poster.endsWith('frame000030.webp'));
-   assert.equal(await page.locator('.intro-standalone-video').getAttribute('data-src'),'static/demo/Demo_CodeVideoModel_New.mp4');
+   assert.equal(await page.locator('.intro-standalone-video').getAttribute('data-src'),'static/demo/Demo_CodeVideoModel_New.mp4?v=f3259741b723aa48');
    assert.equal(layout.overflow,false);assert.ok(layout.fits);assert.equal(media,0);
    await page.screenshot({path:`test-results/opening-${width}.png`});page.off('request',count);
   }
