@@ -77,13 +77,14 @@ def build(source, output):
         add(rel)
 
     documents = []
-    for name in ["index.html", "gallery.html"]:
+    for name in ["index.html", "gallery.html", "promotional_article.html"]:
         text = (source / name).read_text()
         # Inert legacy templates are not used by the current runtime.
         text = re.sub(r"<template\b[^>]*>.*?</template\s*>", "", text, flags=re.S | re.I)
         transforms[name] = text
         documents.append(Document(text))
         add(name)
+    add("promotional_article.md")
     case_ids = set().union(*(doc.cases for doc in documents))
     selection_ids = set().union(*(doc.selections for doc in documents))
     catalog = json.loads((source / "static/interactive/catalog.json").read_text())
