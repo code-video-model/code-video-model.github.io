@@ -1,6 +1,6 @@
 {
-  "source_markdown_sha256": "2c0b1f43490ab7a4eb98468cf52f1f21cbe1b87e397c90755cf90dbb4060d131",
-  "source_html_sha256": "86748dd12e280ecf3fa2ba5273bc8852e248b36cb1d656a42cde3c940ef952d7",
+  "source_markdown_sha256": "db04c6d0a1769f734170e81507277597ec4ee221aade3ea4fc5bd077249fb757",
+  "source_html_sha256": "0c4dd6a992b415a6ca722d44ec1dc226cade0044ca8db06fab8d7d636faf982c",
   "resources": {
     "assets/Demo_CodeVideoModel_New.mp4": "static/demo/Demo_CodeVideoModel_New.mp4?v=f3259741b723aa48",
     "assets/application-anime-threejs.jpg": "static/promotional-article/assets/application-anime-threejs.jpg",
@@ -52,6 +52,7 @@
     "assets/figure-02-program-control.png": "static/promotional-article/assets/figure-02-program-control.png",
     "assets/figure-03-pipeline.png": "static/promotional-article/assets/figure-03-pipeline.png",
     "assets/figure-04-conditioning-analysis.png": "static/promotional-article/assets/figure-04-conditioning-analysis.png",
+    "assets/figure-06-pathways.png": "static/promotional-article/assets/figure-06-pathways.png",
     "assets/figure-08-physics.png": "static/promotional-article/assets/figure-08-physics.png",
     "assets/figure-11-visual-conditions.png": "static/promotional-article/assets/figure-11-visual-conditions.png",
     "comparison-player.js": "static/promotional-article/comparison-player.js?v=ff8d1fbc31c5e9b0",

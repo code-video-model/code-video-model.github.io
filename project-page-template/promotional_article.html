@@ -30,20 +30,22 @@
 <p>同一表示还支持物体增删、尺度调整、场景替换和动作时序编辑。独立控制物体运动与相机的时间进程，可以实现动作冻结、相机继续环绕的“子弹时间”镜头。对于具有数学描述的物理过程，程序可通过方程计算运动。双摆、弹簧回弹和牛顿摆等案例，以计算得到的动态预演为视频生成提供物理引导。</p>
 <p><a href="static/promotional-article/assets/figure-08-physics.png"><img alt="弹簧回弹与牛顿摆的程序预演及生成结果" src="static/promotional-article/assets/figure-08-physics.png"/></a></p>
 <p><em>Figure 3｜弹簧回弹与牛顿摆：程序化物理预演及其生成引导效果。</em></p>
-<p>这种精确性首先体现在程序与预演中。最终视频尚不能保证逐像素对应，但场景约束已可直接定义、修改和验证，不再完全依赖模型对文字的推断。</p>
 <h2 id="section-2">02 从条件机制研究到免训练生成范式</h2>
 <p>程序预演能为参考驱动的视频模型（R2V）提供结构约束，但其简化的几何与材质也可能被模型保留，影响目标外观。为厘清二者的关系，研究在保持 MiniMax-H3 参数冻结的条件下，系统考察条件组成、介入阶段、持续时长及原生通路，并结合内部特征分析，追踪结构与外观信息如何影响生成。</p>
 <p>时间条件分析（Temporal Conditioning）发现，预演在早期介入不足时，结构跟随较弱。持续施加预演虽能加强结构约束，却会使结果保留更多合成外观。保持条件时长不变、仅将其移至后期，也难以获得同等的结构控制效果。加噪实验则表明，削弱预演外观的同时可能损伤几何与运动信息。</p>
-<p>通路对照实验表明，Qwen-VL 编码器与 VAE 通路具有互补作用：前者对外观的影响更为显著，后者对运动与结构约束的贡献更突出，移除任一通路均会降低综合表现。为分析这种作用随去噪过程的变化，研究在固定去噪状态下逐一移除条件组，以模型预测的相对变化评估敏感性。结果显示，预演通过 VAE 通路产生的影响在早期最强，随后逐步衰减，而编码器通路的响应则更快减弱。</p>
+<p>通路对照实验表明，Qwen-VL 编码器与 VAE 通路具有互补作用：前者对外观的影响更为显著，后者对运动与结构约束的贡献更突出。Figure 4 展示了不同通路配置的生成差异，双通路能够更好地保持预演结构。配套的定量消融也显示，移除任一通路均会降低综合表现。</p>
+<p><a href="static/promotional-article/assets/figure-06-pathways.png"><img alt="Qwen-VL-only、VAE-only 与 Dual-path 的生成效果对照" src="static/promotional-article/assets/figure-06-pathways.png"/></a></p>
+<p><em>Figure 4｜不同条件通路的生成对照，依次为预演、Qwen-VL-only、VAE-only 和 Dual-path。</em></p>
+<p>为分析各通路的作用如何随去噪过程变化，研究在固定去噪状态下逐一移除条件组，以模型预测的相对变化评估敏感性。结果显示，预演通过 VAE 通路产生的影响在早期最强，随后逐步衰减，而编码器通路的响应则更快减弱。</p>
 <p><a href="static/promotional-article/assets/figure-04-conditioning-analysis.png"><img alt="逐步条件敏感性，以及不同预演调度下的 Query 特征和输出" src="static/promotional-article/assets/figure-04-conditioning-analysis.png"/></a></p>
-<p><em>Figure 4｜条件敏感性分析，以及不同调度下的 Query 特征与生成结果对照。</em></p>
+<p><em>Figure 5｜条件敏感性分析，以及不同调度下的 Query 特征与生成结果对照。</em></p>
 <p>注意力模块中的 Query 特征提供了进一步证据。研究比较不同条件调度下的内部表征，发现预演撤去后，早期引导造成的特征差异仍然存在。对应输出也显示，短时介入的结构跟随不足，而全程介入更容易保留合成外观。这些观察说明，早期引导的影响能够延续到后续生成。</p>
 <p>为分析多路条件的交互，研究交叉组合金毛犬与人形机器人的参考图和预演，并交换两条通路的预演输入，配合蓝色重绘与夜景参考，观察条件冲突下的生成结果。夜景参考能够改变画面亮度，但蓝色重绘未被稳定保留。当主体拓扑不一致时，预演中的几何也会干扰参考图中的主体特征。这表明结构与外观条件并非独立生效，模型先验也会影响最终结果。</p>
 <p><a href="static/promotional-article/assets/figure-11-visual-conditions.png"><img alt="交叉组合参考图与预演，以及交换通路和改变参考外观的实验" src="static/promotional-article/assets/figure-11-visual-conditions.png"/></a></p>
-<p><em>Figure 5｜主体交叉组合、通路交换与外观干预下的视觉条件交互。</em></p>
+<p><em>Figure 6｜主体交叉组合、通路交换与外观干预下的视觉条件交互。</em></p>
 <p>这些实验表明，早期预演引导有利于建立结构，其影响能够持续保留，而长期施加预演会增加外观干扰。两条原生通路的互补作用也应保留。基于这些实验洞察，<strong>Code Video Model</strong> 提出 Training-Free 的阶段化条件调度。方法在去噪早期通过原生双通路引入预演的时空约束，随后撤去预演，让模型在文本与参考图的持续引导下细化外观。</p>
 <p><a href="static/promotional-article/assets/figure-03-pipeline.png"><img alt="Code Video Model 流程与阶段化条件调度" src="static/promotional-article/assets/figure-03-pipeline.png"/></a></p>
-<p><em>Figure 6｜阶段化条件调度：早期引入预演约束，后期由文本与参考图引导外观细化。</em></p>
+<p><em>Figure 7｜阶段化条件调度：早期引入预演约束，后期由文本与参考图引导外观细化。</em></p>
 <p>该方法调整条件的作用时段，不改变预演内容或模型原生接口，也无需更新参数或训练额外控制模块，从而兼顾结构跟随与目标外观。</p>
 <h2 id="section-3">03 跨场景应用：从程序约束到多样化视觉生成</h2>
 <p>可执行表示为不同任务提供了统一的控制接口。程序定义场景与动态过程，参考图指定视觉风格，同一方法因而可以用于不同类型的镜头。我们的算法支持丰富的业务场景，包括 Anime、Bullet Time、Gaming、Scene Editing、Robotics &amp; Trajectory Control、Architectural Cinematics、Product Cinematography、Physical Grounding 和 3D / 4D Reconstruction。每组左侧为 Three.js 预演，右侧为生成视频，可同步播放并拖动分界线进行对照。</p>

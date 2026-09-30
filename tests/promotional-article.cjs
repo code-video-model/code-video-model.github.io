@@ -42,7 +42,7 @@ const fs = require('node:fs');
         .every(image => image.complete && image.naturalWidth > 0));
       assert.deepEqual(mediaRequests, []);
       assert.equal(await page.locator('header,footer,nav,.sidebar,.reading-tools').count(), 0);
-      assert.equal(await page.locator('.article-body img').count(), 6);
+      assert.equal(await page.locator('.article-body img').count(), 7);
       assert.equal(await page.locator('video').count(), 19);
       assert.deepEqual(await page.locator('.application-card h3').allTextContents(), [
         'Anime', 'Bullet Time', 'Gaming', 'Scene Editing', 'Robotics & Trajectory Control',
