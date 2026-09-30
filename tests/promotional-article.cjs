@@ -49,6 +49,7 @@ const fs = require('node:fs');
         'Architectural Cinematics', 'Product Cinematography', 'Physical Grounding', '3D / 4D Reconstruction',
       ]);
       assert.equal(await page.locator('.pair-edit-toggle').count(), 2);
+      assert.equal(await page.locator('.application-card').nth(3).getAttribute('data-case'), '601');
       const image = page.locator('.article-body a:has(img)').first();
       await image.click();
       assert.ok(await page.locator('.image-viewer').evaluate(element => element.open));
@@ -75,7 +76,7 @@ const fs = require('node:fs');
         if (await card.locator('.pair-edit-toggle').count()) {
           const toggle = card.locator('.pair-edit-toggle');
           const label = await toggle.innerText();
-          assert.ok(['Move Chair to Desk', 'Use Quadruped Robot'].includes(label));
+          assert.ok(['Replace Arch with Doorway', 'Use Quadruped Robot'].includes(label));
           await toggle.click();
           await page.waitForFunction(index => {
             const card = document.querySelectorAll('.application-card')[index];

@@ -62,7 +62,7 @@ def main():
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(original, target)
         published = quote(target.relative_to(SITE).as_posix(), safe="/")
-        if target.suffix in {".mp4", ".js", ".css"}:
+        if target.suffix in {".mp4", ".js", ".css", ".png", ".jpg", ".webp"}:
             published += "?v=" + digest(target)[:16]
         mapping[url] = published
     pattern = re.compile(r'''(\b(?:data-src-a|data-src-b|data-poster-a|data-poster-b|src|href|poster)=["'])([^"']+)(["'])''')

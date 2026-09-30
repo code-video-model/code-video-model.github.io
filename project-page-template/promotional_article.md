@@ -4,14 +4,14 @@
 
 **Code Video Model** 用可执行程序描述场景与镜头，将结构设计与视觉合成分开处理。Coding Agent 将 Prompt 转化为代码，渲染出可编辑的场景预演，再由预训练视频模型结合预演与外观参考生成画面。研究通过系统实验分析视觉条件在去噪过程中的作用，据此提出免训练的阶段化条件调度，在保留程序结构约束的同时，减少预演外观对最终画面的干扰。
 
-<video controls playsinline preload="none" poster="static/promotional-article/assets/demo-poster.jpg" src="static/demo/Demo_CodeVideoModel_New.mp4?v=f3259741b723aa48" aria-label="Code Video Model 完整演示视频">
+<video controls playsinline preload="none" poster="static/promotional-article/assets/demo-poster.jpg?v=dacb2619eb4cd55d" src="static/demo/Demo_CodeVideoModel_New.mp4?v=f3259741b723aa48" aria-label="Code Video Model 完整演示视频">
 </video>
 
 ## 01 可执行场景表示：统一描述、预演与编辑
 
 **Code Video Model** 借鉴影视预演，由 Coding Agent 根据提示词编写 Three.js 程序，统一定义几何布局、物体运动、相机轨迹和事件时序。程序渲染出的预演视频（proxy video）提供时空约束，参考图指定目标外观。生成模型在此基础上补充几何细节、材质与光照，无需将预演本身制作成精细的三维动画。
 
-[![参考图、程序预演与最终生成视频的对应关系](static/promotional-article/assets/figure-01-overview.png)](static/promotional-article/assets/figure-01-overview.png)
+[![参考图、程序预演与最终生成视频的对应关系](static/promotional-article/assets/figure-01-overview.png?v=a5205bc236486179)](static/promotional-article/assets/figure-01-overview.png?v=a5205bc236486179)
 
 *Figure 1｜外观参考、程序预演与生成结果的对应关系。*
 
@@ -19,13 +19,13 @@
 
 Figure 2 中，修改路径点即可重新规划四足机器人的路线，同时保留其余场景设定。更新后的预演再引导视频生成相应的轨迹变化。
 
-[![编辑路径点改变机器人路线，以及有无早期条件调度的生成结果对比](static/promotional-article/assets/figure-02-program-control.png)](static/promotional-article/assets/figure-02-program-control.png)
+[![编辑路径点改变机器人路线，以及有无早期条件调度的生成结果对比](static/promotional-article/assets/figure-02-program-control.png?v=bf0aef91ef62e429)](static/promotional-article/assets/figure-02-program-control.png?v=bf0aef91ef62e429)
 
 *Figure 2｜程序化轨迹编辑，以及有无早期条件调度的生成对照。*
 
 同一表示还支持物体增删、尺度调整、场景替换和动作时序编辑。独立控制物体运动与相机的时间进程，可以实现动作冻结、相机继续环绕的“子弹时间”镜头。对于具有数学描述的物理过程，程序可通过方程计算运动。双摆、弹簧回弹和牛顿摆等案例，以计算得到的动态预演为视频生成提供物理引导。
 
-[![弹簧回弹与牛顿摆的程序预演及生成结果](static/promotional-article/assets/figure-08-physics.png)](static/promotional-article/assets/figure-08-physics.png)
+[![弹簧回弹与牛顿摆的程序预演及生成结果](static/promotional-article/assets/figure-08-physics.png?v=5cfe97e6e18c7eef)](static/promotional-article/assets/figure-08-physics.png?v=5cfe97e6e18c7eef)
 
 *Figure 3｜弹簧回弹与牛顿摆：程序化物理预演及其生成引导效果。*
 
@@ -37,13 +37,13 @@ Figure 2 中，修改路径点即可重新规划四足机器人的路线，同�
 
 通路对照实验表明，Qwen-VL 编码器与 VAE 通路具有互补作用：前者对外观的影响更为显著，后者对运动与结构约束的贡献更突出。Figure 4 展示了不同通路配置的生成差异，双通路能够更好地保持预演结构。配套的定量消融也显示，移除任一通路均会降低综合表现。
 
-[![Qwen-VL-only、VAE-only 与 Dual-path 的生成效果对照](static/promotional-article/assets/figure-06-pathways.png)](static/promotional-article/assets/figure-06-pathways.png)
+[![Qwen-VL-only、VAE-only 与 Dual-path 的生成效果对照](static/promotional-article/assets/figure-06-pathways.png?v=f77a23cc81dd2d6d)](static/promotional-article/assets/figure-06-pathways.png?v=f77a23cc81dd2d6d)
 
 *Figure 4｜不同条件通路的生成对照，依次为预演、Qwen-VL-only、VAE-only 和 Dual-path。*
 
 为分析各通路的作用如何随去噪过程变化，研究在固定去噪状态下逐一移除条件组，以模型预测的相对变化评估敏感性。结果显示，预演通过 VAE 通路产生的影响在早期最强，随后逐步衰减，而编码器通路的响应则更快减弱。
 
-[![逐步条件敏感性，以及不同预演调度下的 Query 特征和输出](static/promotional-article/assets/figure-04-conditioning-analysis.png)](static/promotional-article/assets/figure-04-conditioning-analysis.png)
+[![逐步条件敏感性，以及不同预演调度下的 Query 特征和输出](static/promotional-article/assets/figure-04-conditioning-analysis.png?v=69351c12c7b37dd0)](static/promotional-article/assets/figure-04-conditioning-analysis.png?v=69351c12c7b37dd0)
 
 *Figure 5｜条件敏感性分析，以及不同调度下的 Query 特征与生成结果对照。*
 
@@ -51,13 +51,13 @@ Figure 2 中，修改路径点即可重新规划四足机器人的路线，同�
 
 为分析多路条件的交互，研究交叉组合金毛犬与人形机器人的参考图和预演，并交换两条通路的预演输入，配合蓝色重绘与夜景参考，观察条件冲突下的生成结果。夜景参考能够改变画面亮度，但蓝色重绘未被稳定保留。当主体拓扑不一致时，预演中的几何也会干扰参考图中的主体特征。这表明结构与外观条件并非独立生效，模型先验也会影响最终结果。
 
-[![交叉组合参考图与预演，以及交换通路和改变参考外观的实验](static/promotional-article/assets/figure-11-visual-conditions.png)](static/promotional-article/assets/figure-11-visual-conditions.png)
+[![交叉组合参考图与预演，以及交换通路和改变参考外观的实验](static/promotional-article/assets/figure-11-visual-conditions.png?v=fe41dc9bfafe62d5)](static/promotional-article/assets/figure-11-visual-conditions.png?v=fe41dc9bfafe62d5)
 
 *Figure 6｜主体交叉组合、通路交换与外观干预下的视觉条件交互。*
 
 这些实验表明，早期预演引导有利于建立结构，其影响能够持续保留，而长期施加预演会增加外观干扰。两条原生通路的互补作用也应保留。基于这些实验洞察，**Code Video Model** 提出 Training-Free 的阶段化条件调度。方法在去噪早期通过原生双通路引入预演的时空约束，随后撤去预演，让模型在文本与参考图的持续引导下细化外观。
 
-[![Code Video Model 流程与阶段化条件调度](static/promotional-article/assets/figure-03-pipeline.png)](static/promotional-article/assets/figure-03-pipeline.png)
+[![Code Video Model 流程与阶段化条件调度](static/promotional-article/assets/figure-03-pipeline.png?v=343dbb51a3b48c6b)](static/promotional-article/assets/figure-03-pipeline.png?v=343dbb51a3b48c6b)
 
 *Figure 7｜阶段化条件调度：早期引入预演约束，后期由文本与参考图引导外观细化。*
 
@@ -71,66 +71,66 @@ Figure 2 中，修改路径点即可重新规划四足机器人的路线，同�
 <figure class="application-card">
 <h3>Anime</h3>
 <div class="comparison-frame"><div class="application-video-pair">
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-anime-threejs.jpg" src="static/project-page-cases/anime/anime-hotel/threejs-b0afbeca4b711b53.mp4?v=b0afbeca4b711b53" aria-label="动画 Three.js 预演"></video></figure>
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-anime.jpg" src="static/project-page-cases/anime/anime-hotel/Anime_01.mp4?v=a21781b4e0aed258" aria-label="动画应用：酒店大厅角色动作"></video></figure>
+<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-anime-threejs.jpg?v=7699af087ce92142" src="static/project-page-cases/anime/anime-hotel/threejs-b0afbeca4b711b53.mp4?v=b0afbeca4b711b53" aria-label="动画 Three.js 预演"></video></figure>
+<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-anime.jpg?v=18d25a94c8cc4219" src="static/project-page-cases/anime/anime-hotel/Anime_01.mp4?v=a21781b4e0aed258" aria-label="动画应用：酒店大厅角色动作"></video></figure>
 </div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div>
 </figure>
 <figure class="application-card">
 <h3>Bullet Time</h3>
 <div class="comparison-frame"><div class="application-video-pair">
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-bullet-time-threejs.jpg" src="static/project-page-cases/experiment-inputs/2e39cbc22a4325da26c3ce79bfa6939aafb839776d288c49802c7a5064ca76e3/threejs.mp4?v=2e39cbc22a4325da" aria-label="子弹时间 Three.js 预演"></video></figure>
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-bullet-time.jpg" src="static/project-page-cases/selected-0907-seedvr2-2x/bullet-time/Bullet_Time_02.mp4?v=d0a8579dcd22aab2" aria-label="子弹时间应用：摩托车镜头"></video></figure>
+<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-bullet-time-threejs.jpg?v=1499541ef4530938" src="static/project-page-cases/experiment-inputs/2e39cbc22a4325da26c3ce79bfa6939aafb839776d288c49802c7a5064ca76e3/threejs.mp4?v=2e39cbc22a4325da" aria-label="子弹时间 Three.js 预演"></video></figure>
+<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-bullet-time.jpg?v=da0c6af4413de690" src="static/project-page-cases/selected-0907-seedvr2-2x/bullet-time/Bullet_Time_02.mp4?v=d0a8579dcd22aab2" aria-label="子弹时间应用：摩托车镜头"></video></figure>
 </div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div>
 </figure>
 <figure class="application-card">
 <h3>Gaming</h3>
 <div class="comparison-frame"><div class="application-video-pair">
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-gaming-threejs.jpg" src="static/project-page-cases/threejs/first-person-games/Gaming_04.mp4?v=1c03ca919eefbf43" aria-label="第一人称游戏 Three.js 预演"></video></figure>
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-gaming.jpg" src="static/project-page-cases/code-video-model/first-person-games/Gaming_04.mp4?v=0c5f036db8d244d7" aria-label="游戏应用：第一人称森林行进"></video></figure>
+<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-gaming-threejs.jpg?v=9db26f8958acac1c" src="static/project-page-cases/threejs/first-person-games/Gaming_04.mp4?v=1c03ca919eefbf43" aria-label="第一人称游戏 Three.js 预演"></video></figure>
+<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-gaming.jpg?v=282d30569ba4e4be" src="static/project-page-cases/code-video-model/first-person-games/Gaming_04.mp4?v=0c5f036db8d244d7" aria-label="游戏应用：第一人称森林行进"></video></figure>
 </div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div>
 </figure>
 <figure class="application-card">
 <h3>Scene Editing</h3>
-<div class="pair-variants" role="group" aria-label="Scene Editing"><button type="button" class="pair-edit-toggle" data-edit-label="Move Chair to Desk" aria-pressed="false">Move Chair to Desk</button></div>
+<div class="pair-variants" role="group" aria-label="Scene Editing"><button type="button" class="pair-edit-toggle" data-edit-label="Replace Arch with Doorway" aria-pressed="false">Replace Arch with Doorway</button></div>
 <div class="comparison-frame"><div class="application-video-pair">
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-scene-editing-threejs.jpg" src="static/project-page-cases/experiment-inputs/6d4990f6cba4131a62288fa72657478665377779fa92b3684e060f3f0224f2d3/threejs.mp4?v=6d4990f6cba4131a" data-src-a="static/project-page-cases/experiment-inputs/6d4990f6cba4131a62288fa72657478665377779fa92b3684e060f3f0224f2d3/threejs.mp4?v=6d4990f6cba4131a" data-src-b="static/project-page-cases/experiment-inputs/623298afee7cc13e32a2d5cc0a9ef7613b329223835bec05ba3859a788e09733/threejs.mp4?v=623298afee7cc13e" data-poster-a="static/promotional-article/assets/application-scene-editing-threejs.jpg" data-poster-b="static/promotional-article/assets/application-scene-editing-after-threejs.jpg" aria-label="场景与环境编辑 Three.js 预演"></video></figure>
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-scene-editing.jpg" src="static/project-page-cases/experiment-group23-image-group23-4-v12/scene-world-editing/Scene_World_Editing_01_A.mp4?v=db0376ec4673e633" data-src-a="static/project-page-cases/experiment-group23-image-group23-4-v12/scene-world-editing/Scene_World_Editing_01_A.mp4?v=db0376ec4673e633" data-src-b="static/project-page-cases/experiment-group23-image-group23-4-v12/scene-world-editing/Scene_World_Editing_01_B.mp4?v=61895e9bf6889510" data-poster-a="static/promotional-article/assets/application-scene-editing.jpg" data-poster-b="static/promotional-article/assets/application-scene-editing-after-generated.jpg" aria-label="场景与环境编辑应用"></video></figure>
+<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-scene-editing-threejs.jpg?v=bdb45d82f78f8bee" src="static/project-page-cases/experiment-inputs/143a3af92bb9dfb4b4dec3f10bfe7e7b9ad960b3fcc6be40b7f01bdb386ffc26/threejs.mp4?v=143a3af92bb9dfb4" data-src-a="static/project-page-cases/experiment-inputs/143a3af92bb9dfb4b4dec3f10bfe7e7b9ad960b3fcc6be40b7f01bdb386ffc26/threejs.mp4?v=143a3af92bb9dfb4" data-src-b="static/project-page-cases/experiment-inputs/d7214e64d64fe2bf0322bb08bf850f2de840c483164f642a76091e0eb0039d15/threejs.mp4?v=d7214e64d64fe2bf" data-poster-a="static/promotional-article/assets/application-scene-editing-threejs.jpg?v=bdb45d82f78f8bee" data-poster-b="static/promotional-article/assets/application-scene-editing-after-threejs.jpg?v=3766b1b314388b47" aria-label="场景与环境编辑 Three.js 预演"></video></figure>
+<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-scene-editing.jpg?v=ab8c5effeae0de7c" src="static/project-page-cases/experiment-group23-image-group23-4-v15/scene-world-editing/Scene_World_Editing_03_A.mp4?v=5337cc70270fd4ff" data-src-a="static/project-page-cases/experiment-group23-image-group23-4-v15/scene-world-editing/Scene_World_Editing_03_A.mp4?v=5337cc70270fd4ff" data-src-b="static/project-page-cases/experiment-group23-image-group23-4-v15/scene-world-editing/Scene_World_Editing_03_B.mp4?v=6efcee80e93deef2" data-poster-a="static/promotional-article/assets/application-scene-editing.jpg?v=ab8c5effeae0de7c" data-poster-b="static/promotional-article/assets/application-scene-editing-after-generated.jpg?v=6c31d52fb90ddd41" aria-label="场景与环境编辑应用"></video></figure>
 </div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div>
 </figure>
 <figure class="application-card">
 <h3>Robotics & Trajectory Control</h3>
 <div class="pair-variants" role="group" aria-label="Robotics & Trajectory Control"><button type="button" class="pair-edit-toggle" data-edit-label="Use Quadruped Robot" aria-pressed="false">Use Quadruped Robot</button></div>
 <div class="comparison-frame"><div class="application-video-pair">
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-robotics-threejs.jpg" src="static/project-page-cases/experiment-inputs/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834/threejs.mp4?v=a1d128ed64f19e89" data-src-a="static/project-page-cases/experiment-inputs/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834/threejs.mp4?v=a1d128ed64f19e89" data-src-b="static/project-page-cases/experiment-inputs/254888291a343e47b34f855af274a89850641ef2aeb01e65f742e73f9fbedf3a/threejs.mp4?v=254888291a343e47" data-poster-a="static/promotional-article/assets/application-robotics-threejs.jpg" data-poster-b="static/promotional-article/assets/application-robotics-after-threejs.jpg" aria-label="机器人与轨迹控制 Three.js 预演"></video></figure>
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-robotics.jpg" src="static/project-page-cases/experiment-pairs/Robotics_Trajectory_Control_03/Robotics_Trajectory_Control_03_A.mp4?v=2bdfbe4b1b132f43" data-src-a="static/project-page-cases/experiment-pairs/Robotics_Trajectory_Control_03/Robotics_Trajectory_Control_03_A.mp4?v=2bdfbe4b1b132f43" data-src-b="static/project-page-cases/experiment-pairs/Robotics_Trajectory_Control_03/Robotics_Trajectory_Control_03_B.mp4?v=b8a23ca6efc40aba" data-poster-a="static/promotional-article/assets/application-robotics.jpg" data-poster-b="static/promotional-article/assets/application-robotics-after-generated.jpg" aria-label="机器人与轨迹控制应用"></video></figure>
+<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-robotics-threejs.jpg?v=e7d91b70e7b412fc" src="static/project-page-cases/experiment-inputs/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834/threejs.mp4?v=a1d128ed64f19e89" data-src-a="static/project-page-cases/experiment-inputs/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834/threejs.mp4?v=a1d128ed64f19e89" data-src-b="static/project-page-cases/experiment-inputs/254888291a343e47b34f855af274a89850641ef2aeb01e65f742e73f9fbedf3a/threejs.mp4?v=254888291a343e47" data-poster-a="static/promotional-article/assets/application-robotics-threejs.jpg?v=e7d91b70e7b412fc" data-poster-b="static/promotional-article/assets/application-robotics-after-threejs.jpg?v=90ac692a6f796b48" aria-label="机器人与轨迹控制 Three.js 预演"></video></figure>
+<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-robotics.jpg?v=0ce3e93b9dc916f2" src="static/project-page-cases/experiment-pairs/Robotics_Trajectory_Control_03/Robotics_Trajectory_Control_03_A.mp4?v=2bdfbe4b1b132f43" data-src-a="static/project-page-cases/experiment-pairs/Robotics_Trajectory_Control_03/Robotics_Trajectory_Control_03_A.mp4?v=2bdfbe4b1b132f43" data-src-b="static/project-page-cases/experiment-pairs/Robotics_Trajectory_Control_03/Robotics_Trajectory_Control_03_B.mp4?v=b8a23ca6efc40aba" data-poster-a="static/promotional-article/assets/application-robotics.jpg?v=0ce3e93b9dc916f2" data-poster-b="static/promotional-article/assets/application-robotics-after-generated.jpg?v=0488c98ffd7c84c3" aria-label="机器人与轨迹控制应用"></video></figure>
 </div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div>
 </figure>
 <figure class="application-card">
 <h3>Architectural Cinematics</h3>
 <div class="comparison-frame"><div class="application-video-pair">
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-architecture-threejs.jpg" src="static/project-page-cases/threejs/architectural-cinematics/Architectural_Cinematics_01.mp4?v=2a282ae58fdab6a9" aria-label="建筑运镜 Three.js 预演"></video></figure>
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-architecture.jpg" src="static/project-page-cases/selected-0907-seedvr2-2x/architectural-cinematics/Architectural_Cinematics_01.mp4?v=5bc5de70220a0c80" aria-label="建筑应用：室内空间运镜"></video></figure>
+<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-architecture-threejs.jpg?v=8ff24a5510803f9d" src="static/project-page-cases/threejs/architectural-cinematics/Architectural_Cinematics_01.mp4?v=2a282ae58fdab6a9" aria-label="建筑运镜 Three.js 预演"></video></figure>
+<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-architecture.jpg?v=e6e2175c482be304" src="static/project-page-cases/selected-0907-seedvr2-2x/architectural-cinematics/Architectural_Cinematics_01.mp4?v=5bc5de70220a0c80" aria-label="建筑应用：室内空间运镜"></video></figure>
 </div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div>
 </figure>
 <figure class="application-card">
 <h3>Product Cinematography</h3>
 <div class="comparison-frame"><div class="application-video-pair">
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-product-threejs.jpg" src="static/project-page-cases/experiment-inputs/0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b/threejs.mp4?v=0a61f67c5cbaffe3" aria-label="产品运镜 Three.js 预演"></video></figure>
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-product.jpg" src="static/project-page-cases/experiment-threejs-v2-image-group19-4-v17/product-cinematography/Product_Cinematography_01.mp4?v=730d98dd23014052" aria-label="产品运镜应用"></video></figure>
+<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-product-threejs.jpg?v=9efb24bacce99dfb" src="static/project-page-cases/experiment-inputs/0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b/threejs.mp4?v=0a61f67c5cbaffe3" aria-label="产品运镜 Three.js 预演"></video></figure>
+<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-product.jpg?v=8a7b09b4ee2d76ed" src="static/project-page-cases/experiment-threejs-v2-image-group19-4-v17/product-cinematography/Product_Cinematography_01.mp4?v=730d98dd23014052" aria-label="产品运镜应用"></video></figure>
 </div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div>
 </figure>
 <figure class="application-card">
 <h3>Physical Grounding</h3>
 <div class="comparison-frame"><div class="application-video-pair">
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-physics-threejs.jpg" src="static/project-page-cases/threejs/physical-grounding/Physical_Grounding_01.mp4?v=802dcff5b06015d9" aria-label="物理过程引导 Three.js 预演"></video></figure>
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-physics.jpg" src="static/project-page-cases/code-video-model/physical-grounding/Physical_Grounding_01.mp4?v=21eb15899b0e6050" aria-label="物理过程引导应用"></video></figure>
+<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-physics-threejs.jpg?v=9522fc743dbacbab" src="static/project-page-cases/threejs/physical-grounding/Physical_Grounding_01.mp4?v=802dcff5b06015d9" aria-label="物理过程引导 Three.js 预演"></video></figure>
+<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-physics.jpg?v=8add2cd8d476e36f" src="static/project-page-cases/code-video-model/physical-grounding/Physical_Grounding_01.mp4?v=21eb15899b0e6050" aria-label="物理过程引导应用"></video></figure>
 </div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div>
 </figure>
 <figure class="application-card">
 <h3>3D / 4D Reconstruction</h3>
 <div class="comparison-frame"><div class="application-video-pair">
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-reconstruction-threejs.jpg" src="static/project-page-cases/threejs/reconstruction-3d-4d/astra-train-c822e0aa0db4.mp4?v=c822e0aa0db4fdce" aria-label="3D 与 4D 重建 Three.js 预演"></video></figure>
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-reconstruction.jpg" src="static/project-page-cases/code-video-model/reconstruction-3d-4d/3D_4D_Reconstruction_08.mp4?v=785f39faf08a3516" aria-label="3D 与 4D 重建应用"></video></figure>
+<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-reconstruction-threejs.jpg?v=50ee44f1fac53ed7" src="static/project-page-cases/threejs/reconstruction-3d-4d/astra-train-c822e0aa0db4.mp4?v=c822e0aa0db4fdce" aria-label="3D 与 4D 重建 Three.js 预演"></video></figure>
+<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-reconstruction.jpg?v=c87d5cee2ff314f7" src="static/project-page-cases/code-video-model/reconstruction-3d-4d/3D_4D_Reconstruction_08.mp4?v=785f39faf08a3516" aria-label="3D 与 4D 重建应用"></video></figure>
 </div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div>
 </figure>
 </div>
