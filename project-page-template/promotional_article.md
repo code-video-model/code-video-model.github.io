@@ -51,7 +51,7 @@ Figure 2 中，修改路径点即可重新规划四足机器人的路线，同�
 
 *Figure 5｜主体交叉组合、通路交换与外观干预下的视觉条件交互。*
 
-这些实验表明，早期预演引导有利于建立结构，其影响能够持续保留，而长期施加预演会增加外观干扰。两条原生通路的互补作用也应保留。基于这些实验洞察，**Code Video Model** 提出 Training-Free 的阶段化条件调度——early-step conditioning。方法在去噪早期通过原生双通路引入预演的时空约束，随后撤去预演，让模型在文本与参考图的持续引导下细化外观。
+这些实验表明，早期预演引导有利于建立结构，其影响能够持续保留，而长期施加预演会增加外观干扰。两条原生通路的互补作用也应保留。基于这些实验洞察，**Code Video Model** 提出 Training-Free 的阶段化条件调度。方法在去噪早期通过原生双通路引入预演的时空约束，随后撤去预演，让模型在文本与参考图的持续引导下细化外观。
 
 [![Code Video Model 流程与阶段化条件调度](static/promotional-article/assets/figure-03-pipeline.png)](static/promotional-article/assets/figure-03-pipeline.png)
 

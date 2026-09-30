@@ -41,7 +41,7 @@
 <p>为分析多路条件的交互，研究交叉组合金毛犬与人形机器人的参考图和预演，并交换两条通路的预演输入，配合蓝色重绘与夜景参考，观察条件冲突下的生成结果。夜景参考能够改变画面亮度，但蓝色重绘未被稳定保留。当主体拓扑不一致时，预演中的几何也会干扰参考图中的主体特征。这表明结构与外观条件并非独立生效，模型先验也会影响最终结果。</p>
 <p><a href="static/promotional-article/assets/figure-11-visual-conditions.png"><img alt="交叉组合参考图与预演，以及交换通路和改变参考外观的实验" src="static/promotional-article/assets/figure-11-visual-conditions.png"/></a></p>
 <p><em>Figure 5｜主体交叉组合、通路交换与外观干预下的视觉条件交互。</em></p>
-<p>这些实验表明，早期预演引导有利于建立结构，其影响能够持续保留，而长期施加预演会增加外观干扰。两条原生通路的互补作用也应保留。基于这些实验洞察，<strong>Code Video Model</strong> 提出 Training-Free 的阶段化条件调度——early-step conditioning。方法在去噪早期通过原生双通路引入预演的时空约束，随后撤去预演，让模型在文本与参考图的持续引导下细化外观。</p>
+<p>这些实验表明，早期预演引导有利于建立结构，其影响能够持续保留，而长期施加预演会增加外观干扰。两条原生通路的互补作用也应保留。基于这些实验洞察，<strong>Code Video Model</strong> 提出 Training-Free 的阶段化条件调度。方法在去噪早期通过原生双通路引入预演的时空约束，随后撤去预演，让模型在文本与参考图的持续引导下细化外观。</p>
 <p><a href="static/promotional-article/assets/figure-03-pipeline.png"><img alt="Code Video Model 流程与阶段化条件调度" src="static/promotional-article/assets/figure-03-pipeline.png"/></a></p>
 <p><em>Figure 6｜阶段化条件调度：早期引入预演约束，后期由文本与参考图引导外观细化。</em></p>
 <p>该方法调整条件的作用时段，不改变预演内容或模型原生接口，也无需更新参数或训练额外控制模块，从而兼顾结构跟随与目标外观。</p>
