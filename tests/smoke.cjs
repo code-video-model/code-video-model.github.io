@@ -21,6 +21,7 @@ const path = require('node:path');
     page.on('response', r => { if (r.url().startsWith('http://127.0.0.1:18795') && r.status() >= 400) errors.push(`${r.status()} ${r.url()}`); });
     const base = 'http://127.0.0.1:18795/';
     await page.goto(base);
+    assert.equal(await page.locator('#gallery .application-copy h2').innerText(), 'Scene Editing');
     assert.equal(await page.getByRole('contentinfo').innerText(), 'Code Video Model @ 2026');
     assert.equal(await page.getByRole('contentinfo').evaluate(node=>getComputedStyle(node).textAlign), 'center');
     assert.ok(await page.getByRole('contentinfo').evaluate(node=>{
@@ -106,6 +107,7 @@ const path = require('node:path');
       throw error;
     }
     await page.goto(base + 'gallery.html');
+    assert.ok(await page.getByRole('heading', {name:'Scene Editing', exact:true}).count() > 0);
     assert.ok(await page.locator('.fps-case-bubble').count() > 40);
     await page.goto(base + '?case=505');
     await page.waitForFunction(()=>window.homeGallery?.getState().state==='detail');
