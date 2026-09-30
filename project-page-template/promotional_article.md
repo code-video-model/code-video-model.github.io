@@ -61,7 +61,7 @@ Figure 2 中，修改路径点即可重新规划四足机器人的路线，同�
 
 ## 03 跨场景应用：从程序约束到多样化视觉生成
 
-可执行表示为不同任务提供了统一的控制接口。程序定义场景与动态过程，参考图指定视觉风格，同一方法因而可以用于不同类型的镜头。以下按项目主页的展示顺序，呈现九类应用各自的首页代表案例。每组左侧为 Three.js 预演，右侧为生成视频，可同步播放并拖动分界线进行对照。
+可执行表示为不同任务提供了统一的控制接口。程序定义场景与动态过程，参考图指定视觉风格，同一方法因而可以用于不同类型的镜头。我们的算法支持丰富的业务场景，包括 Anime、Bullet Time、Gaming、Scene Editing、Robotics & Trajectory Control、Architectural Cinematics、Product Cinematography、Physical Grounding 和 3D / 4D Reconstruction。每组左侧为 Three.js 预演，右侧为生成视频，可同步播放并拖动分界线进行对照。
 
 <div class="application-grid">
 <figure class="application-card">
@@ -131,6 +131,4 @@ Figure 2 中，修改路径点即可重新规划四足机器人的路线，同�
 </figure>
 </div>
 
-**Code Video Model** 以可执行程序组织镜头设计，通过时序条件调度引导视觉生成，让结构编辑与外观合成能够在同一流程中协同完成。
-
-应用案例及对照结果详见[项目主页](https://code-video-model.github.io/)。
+**Code Video Model** 以可执行程序组织镜头设计，通过时序条件调度引导视觉生成，让结构编辑与外观合成能够在同一流程中协同完成。更多可视化结果详见[项目主页](https://code-video-model.github.io/)。

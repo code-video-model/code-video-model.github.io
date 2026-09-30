@@ -46,7 +46,7 @@
 <p><em>Figure 6｜阶段化条件调度：早期引入预演约束，后期由文本与参考图引导外观细化。</em></p>
 <p>该方法调整条件的作用时段，不改变预演内容或模型原生接口，也无需更新参数或训练额外控制模块，从而兼顾结构跟随与目标外观。</p>
 <h2 id="section-3">03 跨场景应用：从程序约束到多样化视觉生成</h2>
-<p>可执行表示为不同任务提供了统一的控制接口。程序定义场景与动态过程，参考图指定视觉风格，同一方法因而可以用于不同类型的镜头。以下按项目主页的展示顺序，呈现九类应用各自的首页代表案例。每组左侧为 Three.js 预演，右侧为生成视频，可同步播放并拖动分界线进行对照。</p>
+<p>可执行表示为不同任务提供了统一的控制接口。程序定义场景与动态过程，参考图指定视觉风格，同一方法因而可以用于不同类型的镜头。我们的算法支持丰富的业务场景，包括 Anime、Bullet Time、Gaming、Scene Editing、Robotics &amp; Trajectory Control、Architectural Cinematics、Product Cinematography、Physical Grounding 和 3D / 4D Reconstruction。每组左侧为 Three.js 预演，右侧为生成视频，可同步播放并拖动分界线进行对照。</p>
 <div class="application-grid">
 <figure class="application-card" data-case="anime-hotel">
 <h3>Anime</h3>
@@ -114,8 +114,7 @@
 </div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div><div class="pair-controls"><button aria-label="播放对照视频" class="pair-play" type="button">▶</button><input aria-label="视频对照进度" class="pair-seek" disabled="" max="1000" min="0" type="range" value="0"/></div><p class="pair-status" role="status"></p>
 </figure>
 </div>
-<p><strong>Code Video Model</strong> 以可执行程序组织镜头设计，通过时序条件调度引导视觉生成，让结构编辑与外观合成能够在同一流程中协同完成。</p>
-<p>应用案例及对照结果详见<a href="https://code-video-model.github.io/">项目主页</a>。</p></div>
+<p><strong>Code Video Model</strong> 以可执行程序组织镜头设计，通过时序条件调度引导视觉生成，让结构编辑与外观合成能够在同一流程中协同完成。更多可视化结果详见<a href="https://code-video-model.github.io/">项目主页</a>。</p></div>
     </article>
   </main>
   <dialog class="image-viewer" aria-label="查看大图">
