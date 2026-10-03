@@ -40,6 +40,7 @@ export function initializeBubbles(host) {
   let currentCase;
   let committedCase;
   let transition;
+  let openingAnimations = [];
   let generation = 0;
   let timeout;
   let busy = false;
@@ -73,6 +74,7 @@ export function initializeBubbles(host) {
     }
     if (closeActiveWorld === close) closeActiveWorld = undefined;
     generation++;
+    cancelOpeningAnimations();
     cancelTransition();
     releaseFrame();
     slot.replaceChildren();
@@ -85,7 +87,6 @@ export function initializeBubbles(host) {
     grid.inert = false;
     grid.classList.remove('is-selecting');
     grid.querySelectorAll('a').forEach((link) => {
-      link.getAnimations().forEach((animation) => animation.cancel());
       link.style.opacity = '';
       link.removeAttribute('aria-current');
       link.setAttribute('aria-expanded', 'false');
@@ -107,6 +108,11 @@ export function initializeBubbles(host) {
   }
 
   function clearBoot(){slot.querySelector('.fps-opening-placeholder')?.remove();}
+  function cancelOpeningAnimations(){
+    const animations=openingAnimations;
+    openingAnimations=[];
+    for(const animation of animations){try{animation.cancel();}catch{}}
+  }
   function showBoot(editable){
     clearBoot();
     const placeholder=document.createElement('div');placeholder.className='fps-opening-placeholder';placeholder.dataset.editable=String(editable);placeholder.setAttribute('role','status');
@@ -292,12 +298,15 @@ export function initializeBubbles(host) {
     grid.classList.add('is-selecting');
     const origin = link.getBoundingClientRect();
     grid.inert = true;
+    cancelOpeningAnimations();
     const fades = [...grid.querySelectorAll('.fps-case-bubble')].map((bubble) => {
-      if (reducedMotion.matches) return Promise.resolve();
-      return bubble.animate([
+      if (reducedMotion.matches || typeof bubble.animate !== 'function') return Promise.resolve();
+      const animation=bubble.animate([
         { opacity: 1, transform: 'scale(1)' },
         { opacity: bubble === link ? 1 : 0, transform: `scale(${bubble === link ? 1.06 : .8})` },
-      ], { duration: 260, fill: 'forwards', easing: 'ease-out' }).finished;
+      ], { duration: 260, fill: 'forwards', easing: 'ease-out' });
+      openingAnimations.push(animation);
+      return animation.finished;
     });
     await Promise.all(fades);
     if (version !== generation) return;
@@ -361,7 +370,7 @@ export function initializeBubbles(host) {
       status.textContent=event.data.message;
     } else if (event.data.type === 'bf-close') close();
   });
-  return { host, close, dispose: () => {generation++;cancelTransition();releaseFrame();if(closeActiveWorld===close)closeActiveWorld=undefined;}, open: (link, variant) => open(link, variant).catch(handleOpenError) };
+  return { host, close, dispose: () => {generation++;cancelOpeningAnimations();cancelTransition();releaseFrame();if(closeActiveWorld===close)closeActiveWorld=undefined;}, open: (link, variant) => open(link, variant).catch(handleOpenError) };
 }
 
 const integrated = document.documentElement.hasAttribute('data-integrated-gallery');

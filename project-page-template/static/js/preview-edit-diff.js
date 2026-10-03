@@ -4,6 +4,12 @@ import {semanticEditDiff} from './semantic-edit-diff.mjs';
 import {editDiffSegments} from './edit-diff-segments.mjs';
 import {normalizeDisplayIdentifiers} from './code-display-names.mjs';
 
+function cancelAnimations(element,options){
+ if(!element||typeof element.getAnimations!=='function')return;
+ let animations=[];try{animations=element.getAnimations(options);}catch{return;}
+ for(const animation of animations){try{animation.cancel();}catch{}}
+}
+
 export function createPreviewEditDiff(card,from,to,selection,signal,restoring,options={}){
  const frame=card.querySelector('.comparison-frame'),controller=new AbortController(),reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
  const labels=options.caseLabels||{},display=id=>labels[id]||id;
@@ -124,6 +130,6 @@ export function createPreviewEditDiff(card,from,to,selection,signal,restoring,op
     freeze.animate([{opacity:1},{opacity:0}],{duration:360,fill:'forwards'});await wait(370);
    }
   },
-  dispose(){controller.abort();signal.removeEventListener('abort',abort);layer.getAnimations({subtree:true}).forEach(a=>a.cancel());freeze?.getAnimations().forEach(a=>a.cancel());layer.remove();freeze?.remove();}
+  dispose(){controller.abort();signal.removeEventListener('abort',abort);cancelAnimations(layer,{subtree:true});cancelAnimations(freeze);layer.remove();freeze?.remove();}
  };
 }

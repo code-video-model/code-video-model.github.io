@@ -179,7 +179,13 @@ export function createSourceTransition(from, to, reducedMotion, selectionId = ''
     dispose() {
       controller.abort();
       timers.forEach(clearTimeout);
-      layer.getAnimations({ subtree: true }).forEach((animation) => animation.cancel());
+      if (typeof layer.getAnimations === 'function') {
+        try {
+          for (const animation of layer.getAnimations({ subtree: true })) {
+            try { animation.cancel(); } catch {}
+          }
+        } catch {}
+      }
     },
     fail(message) {
       layer.classList.add('has-error');
