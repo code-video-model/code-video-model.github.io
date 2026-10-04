@@ -59,7 +59,7 @@ Figure 2 中，修改路径点即可重新规划四足机器人的路线，同�
 
 注意力模块中的 Query 特征分析（图 b）则考察了条件撤去后的影响。不同早期调度形成的表征差异，在预演不再参与生成时仍可观察到，并与输出中的结构差异相对应。这为阶段化使用预演提供了表征层面的依据：<span class="brush-highlight brush-highlight-wrap">结构引导的作用能够延续，并不完全依赖条件的持续输入</span>。此外，生成对照还显示，若预演条件撤去过晚，甚至全程保留（图中最下方的 Full 一行），生成视频的外观容易被预演视频（proxy video）的低多边形（low-poly）、简化材质的合成渲染风格主导；若撤去过早，生成结果则难以保持预演所定义的场景结构与运动轨迹。
 
-条件交互实验进一步检验了参考图与预演之间的分工。研究交叉组合不同主体的参考图和预演，交换通路输入，并对参考外观进行干预。结果中，夜景参考能够改变亮度，蓝色重绘却未被稳定保留，主体拓扑差异也可能引入几何干扰。<span class="brush-highlight brush-highlight-wrap">这表明结构与外观条件仍然耦合，不能将双通路简单视为互不影响的独立控制器。</span>
+条件交互实验进一步验证了 reference image 与 proxy video 的功能分工。研究通过交叉组合不同主体的参考图与预演、交换条件通路，并对参考图的外观属性进行干预，观察两类条件分别如何影响生成结果。实验整体呈现出清晰趋势：夜景参考会相应改变生成视频的亮度与视觉风格，说明 reference image 主要提供 appearance；而主体的空间布局、几何形态与运动关系更多随经 VAE 编码的预演条件（Proxy-VAE）变化，说明 Proxy-VAE 主要传递 structure。尽管蓝色重绘等细粒度外观编辑尚未被完整保留，主体拓扑差异也会增加生成难度，<span class="brush-highlight brush-highlight-wrap">总体结果仍支持二者的互补分工：reference image 主要控制 appearance，Proxy-VAE 主要约束 structure。</span>
 
 [![交叉组合参考图与预演，以及交换通路和改变参考外观的实验](static/promotional-article/assets/figure-11-visual-conditions.png?v=fe41dc9bfafe62d5)](static/promotional-article/assets/figure-11-visual-conditions.png?v=fe41dc9bfafe62d5)
 
