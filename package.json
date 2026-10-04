@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node scripts/serve.cjs",
     "test": "node tests/smoke.cjs",
-    "test:article": "node tests/promotional-article.cjs",
+    "test:article": "node tests/promotional-article.cjs && node tests/promotional-article-routes.cjs",
     "test:previews": "node tests/public-version.cjs",
     "test:gallery": "node tests/integrated-gallery.cjs && node tests/integrated-state.cjs && node tests/return-animation-compat.cjs",
     "test:edits": "node tests/preview-edit-diff.cjs && node tests/preview-edit-errors.cjs",

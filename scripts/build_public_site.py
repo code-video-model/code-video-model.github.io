@@ -77,27 +77,29 @@ def build(source, output):
         add(rel)
 
     documents = []
-    for name in ["index.html", "gallery.html", "promotional_article.html"]:
-        text = (source / name).read_text()
+    for name in ["index.html", "gallery.html", "promotional_article.html",
+                 "promotional_article_new.html"]:
+        text = (source / name).read_text(encoding="utf-8")
         # Inert legacy templates are not used by the current runtime.
         text = re.sub(r"<template\b[^>]*>.*?</template\s*>", "", text, flags=re.S | re.I)
         transforms[name] = text
         documents.append(Document(text))
         add(name)
     add("promotional_article.md")
+    add("promotional_article_new.md")
     case_ids = set().union(*(doc.cases for doc in documents))
     selection_ids = set().union(*(doc.selections for doc in documents))
-    catalog = json.loads((source / "static/interactive/catalog.json").read_text())
+    catalog = json.loads((source / "static/interactive/catalog.json").read_text(encoding="utf-8"))
     case_ids.update(str(item["case_id"]) for item in catalog["cases"] if item.get("display_name"))
     catalog["cases"] = [item for item in catalog["cases"] if str(item["case_id"]) in case_ids]
     catalog["count"] = len(catalog["cases"])
     manifest("static/interactive/catalog.json", catalog)
 
-    data = json.loads((source / "static/project-page-cases/prompts.json").read_text())
+    data = json.loads((source / "static/project-page-cases/prompts.json").read_text(encoding="utf-8"))
     items = {str(item["case_id"]): item for item in data["items"] if str(item["case_id"]) in case_ids}
     if set(items) != case_ids:
         raise ValueError(f"Missing published cases: {case_ids - set(items)}")
-    registry = json.loads((source / "static/interactive/experiment-pairs.json").read_text())
+    registry = json.loads((source / "static/interactive/experiment-pairs.json").read_text(encoding="utf-8"))
     pairs = [pair for pair in registry["pairs"] if pair["id"] in selection_ids]
     if {pair["id"] for pair in pairs} != selection_ids:
         raise ValueError("Missing selected experiment")
@@ -151,7 +153,7 @@ def build(source, output):
         path = source / rel
         if path.suffix not in TEXT_SUFFIXES:
             continue
-        text = transforms.get(rel, path.read_text())
+        text = transforms.get(rel, path.read_text(encoding="utf-8"))
         if rel == "static/interactive/cs2-active-duel/runtime/case/index.html":
             # Only the standalone controls used this absent audio track. The
             # embedded inspector gets sound from its generated result video.
@@ -191,7 +193,7 @@ def build(source, output):
         target = output / rel
         target.parent.mkdir(parents=True, exist_ok=True)
         if rel in transforms:
-            target.write_text(transforms[rel])
+            target.write_text(transforms[rel], encoding="utf-8")
         else:
             shutil.copyfile(source / rel, target)
     (output / ".nojekyll").touch()
@@ -216,6 +218,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
     report = build(args.source, args.output)
     if args.report:
-        args.report.write_text(json.dumps(report, indent=2) + "\n")
+        args.report.write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({key: len(value) if key in {"files", "case_ids", "selections", "source_packages"} else value
                       for key, value in report.items()}, indent=2))

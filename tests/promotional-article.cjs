@@ -25,7 +25,10 @@ const fs = require('node:fs');
     }
     const mapping = JSON.parse(fs.readFileSync(path.join(__dirname,
       '../project-page-template/static/promotional-article/media-map.json'), 'utf8')).resources;
-    browser = await chromium.launch({ headless: true });
+    browser = await chromium.launch({
+      headless: true,
+      ...(process.env.BROWSER_CHANNEL ? { channel: process.env.BROWSER_CHANNEL } : {}),
+    });
     for (const width of [1440, 390]) {
       const page = await browser.newPage({ viewport: { width, height: 900 }, reducedMotion: 'reduce' });
       const errors = [], mediaRequests = [];
