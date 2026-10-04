@@ -78,6 +78,8 @@ h1 { margin: 0 0 32px; font-size: 30px; line-height: 1.5; font-weight: 650; lett
 .article-body a { color: #188e89; text-decoration: underline; text-underline-offset: 4px; text-decoration-color: #b7d9d6; }
 .article-body a:has(img) { display: block; cursor: zoom-in; }
 .article-body img { display: block; max-width: 100%; height: auto; margin: 26px auto 0; border: 1px solid #f0f1f1; }
+.visual-conditions-crop { display: block; width: 100%; aspect-ratio: 1268/633; overflow: hidden; margin: 26px auto 0; border: 1px solid #f0f1f1; }
+.article-body .visual-conditions-crop img { width: 143.533123%; max-width: none; margin: 0; border: 0; transform: translate(-15.054945%,-50.972222%); transform-origin: top left; }
 .article-body p:has(> em:only-child) { margin: -8px 0 25px; font-size: 13px; line-height: 1.75; color: #747c7c; }
 .article-body em { font-style: normal; }
 .article-body video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #111; margin: 24px 0 18px; }
