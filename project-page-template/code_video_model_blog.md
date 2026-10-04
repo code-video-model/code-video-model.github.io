@@ -6,7 +6,7 @@
 
 微软团队提出 **Code Video Model**，<span class="brush-highlight">以可执行代码作为视频的控制表示</span>，使镜头设计能够在生成前被检查、修改和验证。研究通过系统实验分析视觉条件的作用机制，据此提出免训练的阶段化条件调度，将程序的结构约束与预训练模型的视觉生成能力结合起来。Code Video Model <span class="brush-highlight">视频 demo</span> 如下：
 
-<video controls playsinline preload="none" poster="static/code-video-model-blog/assets/demo-poster.jpg?v=dacb2619eb4cd55d" src="static/demo/Demo_CodeVideoModel_New.mp4?v=f3259741b723aa48" aria-label="Code Video Model 完整演示视频">
+<video controls playsinline preload="none" poster="static/code-video-model-blog/assets/demo-poster.jpg?v=dacb2619eb4cd55d" src="static/code-video-model-blog/demo/Demo_CodeVideoModel_New.mp4?v=7801287252794806" aria-label="Code Video Model 完整演示视频">
 </video>
 
 ## 01 可执行场景表示：统一描述、预演与编辑

@@ -46,6 +46,8 @@ const { chromium } = require('playwright');
     assert.equal(await page.locator('.article-footer').count(), 1);
     assert.ok((await page.locator('script[src]').evaluateAll(scripts =>
       scripts.every(script => script.getAttribute('src').startsWith('static/code-video-model-blog/')))));
+    assert.equal(await page.locator('#demo').getAttribute('src'),
+      'static/code-video-model-blog/demo/Demo_CodeVideoModel_New.mp4?v=7801287252794806');
     const blogArticle = await page.locator('#article').innerHTML();
 
     response = await page.goto(`http://127.0.0.1:${port}/promotional_article.html`);
@@ -62,8 +64,14 @@ const { chromium } = require('playwright');
       'static/promotional-article/news_new.css?v=88dc03e1cdfbdf75');
     assert.ok((await page.locator('script[src]').evaluateAll(scripts =>
       scripts.every(script => script.getAttribute('src').startsWith('static/promotional-article/')))));
+    assert.equal(await page.locator('#demo').getAttribute('src'),
+      'static/demo/Demo_CodeVideoModel_New.mp4?v=f3259741b723aa48');
     const newArticle = await page.locator('#article').innerHTML();
-    assert.equal(blogArticle.replaceAll('static/code-video-model-blog/', 'static/promotional-article/'), newArticle);
+    const normalizedBlogArticle = blogArticle
+      .replaceAll('static/code-video-model-blog/', 'static/promotional-article/')
+      .replace('static/promotional-article/demo/Demo_CodeVideoModel_New.mp4?v=7801287252794806',
+        'static/demo/Demo_CodeVideoModel_New.mp4?v=f3259741b723aa48');
+    assert.equal(normalizedBlogArticle, newArticle);
     assert.ok(await page.locator('.brush-highlight').count() > 0);
     assert.ok(await page.locator('.article-placeholder').count() > 0);
     assert.equal(await page.locator('.article-footer').count(), 1);
