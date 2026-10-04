@@ -51,7 +51,7 @@ Figure 2 中，修改路径点即可重新规划四足机器人的路线，同�
 
 *Figure 4｜不同条件通路的生成对照，依次为预演、Qwen-VL-only、VAE-only 和 Dual-path。*
 
-基于条件干预的逐步敏感性分析进一步显示，预演通过 VAE 通路产生的影响在去噪早期最强，随后逐步衰减，编码器通路的响应则更快减弱。两类通路的作用<span class="brush-highlight">均具有明显的时序差异</span>，为确定预演的介入阶段提供了依据。两类通路的条件介入均在去噪过程的前<span class="brush-highlight brush-highlight-wrap">约 20% 阶段对生成产生更大影响。</span>
+基于条件干预的逐步敏感性分析进一步显示，预演通过 VAE 通路产生的影响在去噪早期最强，随后逐步衰减，编码器通路的响应则更快减弱。两类通路的作用<span class="brush-highlight">均具有明显的时序差异</span>，为确定预演的介入阶段提供了依据。两类通路的条件介入均在去噪过程的前<span class="brush-highlight brush-highlight-wrap">约 25% 阶段对生成产生更大影响。</span>
 
 [![逐步条件敏感性，以及不同预演调度下的 Query 特征和输出](static/promotional-article/assets/figure-04-conditioning-analysis.png?v=69351c12c7b37dd0)](static/promotional-article/assets/figure-04-conditioning-analysis.png?v=69351c12c7b37dd0)
 
@@ -59,11 +59,11 @@ Figure 2 中，修改路径点即可重新规划四足机器人的路线，同�
 
 注意力模块中的 Query 特征分析（图 b）则考察了条件撤去后的影响。不同早期调度形成的表征差异，在预演不再参与生成时仍可观察到，并与输出中的结构差异相对应。这为阶段化使用预演提供了表征层面的依据：<span class="brush-highlight brush-highlight-wrap">结构引导的作用能够延续，并不完全依赖条件的持续输入</span>。此外，生成对照还显示，若预演条件撤去过晚，甚至全程保留（图中最下方的 Full 一行），生成视频的外观容易被预演视频（proxy video）的低多边形（low-poly）、简化材质的合成渲染风格主导；若撤去过早，生成结果则难以保持预演所定义的场景结构与运动轨迹。
 
-条件交互实验进一步验证了 reference image 与 proxy video 的功能分工。研究通过交叉组合不同主体的参考图与预演、交换条件通路，并对参考图的外观属性进行干预，观察两类条件分别如何影响生成结果。实验整体呈现出清晰趋势：夜景参考会相应改变生成视频的亮度与视觉风格，说明 reference image 主要提供 appearance；而主体的空间布局、几何形态与运动关系更多随经 VAE 编码的预演条件（Proxy-VAE）变化，说明 Proxy-VAE 主要传递 structure。尽管蓝色重绘等细粒度外观编辑尚未被完整保留，主体拓扑差异也会增加生成难度，<span class="brush-highlight brush-highlight-wrap">总体结果仍支持二者的互补分工：reference image 主要控制 appearance，Proxy-VAE 主要约束 structure。</span>
+条件交互实验进一步验证了 reference image 与 proxy video 在不同通路中的功能分工。研究交换两份 proxy 在 Qwen-VL 与 VAE 通路中的输入，并分别搭配日间、蓝色与夜间的 reference image，观察外观和结构随哪一类条件变化。结果显示，生成视频的亮度与整体视觉风格主要随 reference image 变化；场景布局、视角和几何结构则主要跟随经 VAE 编码的预演条件（Proxy-VAE）。其中，夜景参考能够稳定改变亮度，蓝色重绘等细粒度外观编辑尚未被完整保留。<span class="brush-highlight brush-highlight-wrap">总体结果支持二者的互补分工：reference image 主要控制 appearance，Proxy-VAE 主要约束 structure。</span>
 
-[![交叉组合参考图与预演，以及交换通路和改变参考外观的实验](static/promotional-article/assets/figure-11-visual-conditions.png?v=fe41dc9bfafe62d5)](static/promotional-article/assets/figure-11-visual-conditions.png?v=fe41dc9bfafe62d5)
+[![交换 Proxy 通路并改变参考外观的实验](static/promotional-article/assets/figure-11-visual-conditions-b.svg)](static/promotional-article/assets/figure-11-visual-conditions-b.svg)
 
-*Figure 6｜主体交叉组合、通路交换与外观干预下的视觉条件交互。*
+*Figure 6｜Proxy 通路交换与参考外观干预下的视觉条件分工。*
 
 基于这些实验洞察，**Code Video Model** 提出 <span class="brush-highlight brush-highlight-wrap">Training-Free 的阶段化条件调度</span>：保留完整的预演信息与原生双通路，根据去噪过程中的作用差异协调条件介入。在结构建立阶段，预演提供显式时空约束，随后撤去这一条件，由持续有效的文本、参考图与模型先验引导外观细化。方法利用<span class="brush-highlight">早期引导的持续影响</span>，同时减少合成外观在后续生成中的干扰。
 
