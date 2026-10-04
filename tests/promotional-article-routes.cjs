@@ -47,7 +47,7 @@ const { chromium } = require('playwright');
       waitUntil: 'domcontentloaded',
     });
     assert.equal(response.status(), 200);
-    assert.equal(await page.title(), '视频生成也能代码驱动了! Code Video Model 他来了!');
+    assert.equal(await page.title(), '视频生成也能代码驱动了! Code Video Model 它来了!');
     assert.equal(await page.locator('link[rel="stylesheet"]').getAttribute('href'),
       'static/promotional-article/news_new.css?v=51e4f0a24d4797ab');
     assert.ok(await page.locator('.brush-highlight').count() > 0);

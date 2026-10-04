@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Code Video Model：可执行场景表示、免训练条件调度与应用展示。">
   <meta name="robots" content="noindex, nofollow">
-  <title>视频生成也能代码驱动了! Code Video Model 他来了!</title>
+  <title>视频生成也能代码驱动了! Code Video Model 它来了!</title>
   <link rel="stylesheet" href="static/promotional-article/news_new.css?v=51e4f0a24d4797ab">
   <script src="static/promotional-article/news.js?v=ae284b98b696e6c1" defer></script>
   <script src="static/promotional-article/diagonal-comparison.js?v=f0b9f19268b35f82" defer></script>
@@ -14,7 +14,7 @@
 <body>
   <main class="page-layout">
     <article id="article">
-      <h1>视频生成也能代码驱动了! Code Video Model 他来了!</h1>
+      <h1>视频生成也能代码驱动了! Code Video Model 它来了!</h1>
       <div class="article-body"><p>视频生成模型的视觉质量不断提升，但当前主流视频扩散模型仍面临两项根本局限。第一是<span class="brush-highlight">物理规律约束不足</span>：模型从像素中学习世界的视觉表象，却缺少物理方程的显式约束，画面看似合理，实际却不符合物理规律。例如，<strong>抛出的球可能悬浮、摆动可能偏离应有周期、碰撞可能看似合理却不符合物理规律</strong>。第二是<span class="brush-highlight">精确控制的不足</span>：文本提示或 ControlNet 等控制模块可以引导生成，但仍难以像拍电影一样，<strong>直接调整每个演员的站位与姿态、物件的大小与颜色、场景的布局，以及运动轨迹和相机时序</strong>。这些要求的具体实现仍主要由模型隐式决定，只能在生成后检查，镜头迭代因此往往依赖反复修改提示词、调整控制条件和重新采样。如何显式表达物理与时空约束，并在生成前检查和修改，是实现可控视频生成的重要问题。</p>
 <p><a href="static/promotional-article/assets/code-video-model-team.png?v=75d751dd8796b397"><img alt="微软 Code Video Model 团队及项目资源" width="2408" height="514" src="static/promotional-article/assets/code-video-model-team.png?v=75d751dd8796b397"/></a></p>
 <p>微软团队提出 <strong>Code Video Model</strong>，<span class="brush-highlight">以可执行代码作为视频的控制表示</span>，使镜头设计能够在生成前被检查、修改和验证。研究通过系统实验分析视觉条件的作用机制，据此提出免训练的阶段化条件调度，将程序的结构约束与预训练模型的视觉生成能力结合起来。Code Video Model <span class="brush-highlight">视频 demo</span> 如下：</p>
