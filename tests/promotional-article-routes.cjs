@@ -38,15 +38,20 @@ const { chromium } = require('playwright');
       waitUntil: 'domcontentloaded',
     });
     assert.equal(response.status(), 200);
-    assert.equal(await page.title(), 'Code Video Model：以可执行场景表示驱动可控视频生成');
+    assert.equal(await page.title(), '视频生成也能代码驱动了! Code Video Model 它来了!');
     assert.equal(await page.locator('link[rel="stylesheet"]').getAttribute('href'),
-      'static/promotional-article/news.css?v=d072b8be1fd129cf');
-    assert.equal(await page.locator('.brush-highlight,.article-placeholder,.article-footer').count(), 0);
+      'static/code-video-model-blog/news.css?v=88dc03e1cdfbdf75');
+    assert.ok(await page.locator('.brush-highlight').count() > 0);
+    assert.ok(await page.locator('.article-placeholder').count() > 0);
+    assert.equal(await page.locator('.article-footer').count(), 1);
+    assert.ok((await page.locator('script[src]').evaluateAll(scripts =>
+      scripts.every(script => script.getAttribute('src').startsWith('static/code-video-model-blog/')))));
+    const blogArticle = await page.locator('#article').innerHTML();
 
     response = await page.goto(`http://127.0.0.1:${port}/promotional_article.html`);
     assert.equal(response.status(), 200);
     await page.waitForURL(`http://127.0.0.1:${port}/code_video_model_blog.html`);
-    assert.equal(await page.title(), 'Code Video Model：以可执行场景表示驱动可控视频生成');
+    assert.equal(await page.title(), '视频生成也能代码驱动了! Code Video Model 它来了!');
 
     response = await page.goto(`http://127.0.0.1:${port}/promotional_article_new.html`, {
       waitUntil: 'domcontentloaded',
@@ -55,6 +60,10 @@ const { chromium } = require('playwright');
     assert.equal(await page.title(), '视频生成也能代码驱动了! Code Video Model 它来了!');
     assert.equal(await page.locator('link[rel="stylesheet"]').getAttribute('href'),
       'static/promotional-article/news_new.css?v=88dc03e1cdfbdf75');
+    assert.ok((await page.locator('script[src]').evaluateAll(scripts =>
+      scripts.every(script => script.getAttribute('src').startsWith('static/promotional-article/')))));
+    const newArticle = await page.locator('#article').innerHTML();
+    assert.equal(blogArticle.replaceAll('static/code-video-model-blog/', 'static/promotional-article/'), newArticle);
     assert.ok(await page.locator('.brush-highlight').count() > 0);
     assert.ok(await page.locator('.article-placeholder').count() > 0);
     assert.equal(await page.locator('.article-footer').count(), 1);

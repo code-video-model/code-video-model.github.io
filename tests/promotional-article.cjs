@@ -24,7 +24,7 @@ const fs = require('node:fs');
       url = `http://127.0.0.1:${port}/code_video_model_blog.html`;
     }
     const mapping = JSON.parse(fs.readFileSync(path.join(__dirname,
-      '../project-page-template/static/promotional-article/media-map.json'), 'utf8')).resources;
+      '../project-page-template/static/code-video-model-blog/media-map.json'), 'utf8')).resources;
     browser = await chromium.launch({
       headless: true,
       ...(process.env.BROWSER_CHANNEL ? { channel: process.env.BROWSER_CHANNEL } : {}),
@@ -44,8 +44,9 @@ const fs = require('node:fs');
       await page.waitForFunction(() => [...document.querySelectorAll('.article-body img')]
         .every(image => image.complete && image.naturalWidth > 0));
       assert.deepEqual(mediaRequests, []);
-      assert.equal(await page.locator('header,footer,nav,.sidebar,.reading-tools').count(), 0);
-      assert.equal(await page.locator('.article-body img').count(), 7);
+      assert.equal(await page.locator('header,nav,.sidebar,.reading-tools').count(), 0);
+      assert.equal(await page.locator('.article-footer').count(), 1);
+      assert.equal(await page.locator('.article-body img').count(), 8);
       assert.equal(await page.locator('video').count(), 19);
       assert.deepEqual(await page.locator('.application-card h3').allTextContents(), [
         'Anime', 'Bullet Time', 'Gaming', 'Scene Editing', 'Robotics & Trajectory Control',

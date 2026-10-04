@@ -14,7 +14,7 @@ from urllib.parse import quote, unquote, urlsplit
 
 
 SITE = Path(__file__).resolve().parents[1] / "project-page-template"
-DEST = SITE / "static/promotional-article"
+DEST = SITE / "static/code-video-model-blog"
 ATTRIBUTES = {"src", "href", "poster", "data-src-a", "data-src-b", "data-poster-a", "data-poster-b"}
 
 
