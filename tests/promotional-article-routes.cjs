@@ -34,7 +34,7 @@ const { chromium } = require('playwright');
       }
     });
 
-    let response = await page.goto(`http://127.0.0.1:${port}/promotional_article.html`, {
+    let response = await page.goto(`http://127.0.0.1:${port}/code_video_model_blog.html`, {
       waitUntil: 'domcontentloaded',
     });
     assert.equal(response.status(), 200);
@@ -42,6 +42,11 @@ const { chromium } = require('playwright');
     assert.equal(await page.locator('link[rel="stylesheet"]').getAttribute('href'),
       'static/promotional-article/news.css?v=d072b8be1fd129cf');
     assert.equal(await page.locator('.brush-highlight,.article-placeholder,.article-footer').count(), 0);
+
+    response = await page.goto(`http://127.0.0.1:${port}/promotional_article.html`);
+    assert.equal(response.status(), 200);
+    await page.waitForURL(`http://127.0.0.1:${port}/code_video_model_blog.html`);
+    assert.equal(await page.title(), 'Code Video Model：以可执行场景表示驱动可控视频生成');
 
     response = await page.goto(`http://127.0.0.1:${port}/promotional_article_new.html`, {
       waitUntil: 'domcontentloaded',

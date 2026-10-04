@@ -71,10 +71,16 @@ def main():
         return match[1] + mapping.get(match[2], match[2]) + match[3]
 
     published_html = pattern.sub(replace_attribute, html)
+    if 'rel="canonical"' not in published_html:
+        published_html = published_html.replace(
+            "</head>",
+            '  <link rel="canonical" href="https://code-video-model.github.io/code_video_model_blog.html">\n</head>',
+            1,
+        )
     published_markdown = pattern.sub(replace_attribute, markdown)
     published_markdown = re.sub(r"\]\(([^)]+)\)", lambda match: "](" + mapping.get(match[1], match[1]) + ")", published_markdown)
-    (SITE / "promotional_article.html").write_text(published_html)
-    (SITE / "promotional_article.md").write_text(published_markdown)
+    (SITE / "code_video_model_blog.html").write_text(published_html)
+    (SITE / "code_video_model_blog.md").write_text(published_markdown)
     (DEST / "media-map.json").write_text(json.dumps({
         "source_markdown_sha256": digest(source / "Code-Video-Model-报道.md"),
         "source_html_sha256": digest(source / "preview.html"),

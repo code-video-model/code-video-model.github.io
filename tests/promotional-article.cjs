@@ -21,7 +21,7 @@ const fs = require('node:fs');
         server.on('error', reject);
         server.on('exit', code => reject(new Error(`Article server exited: ${code}`)));
       });
-      url = `http://127.0.0.1:${port}/promotional_article.html`;
+      url = `http://127.0.0.1:${port}/code_video_model_blog.html`;
     }
     const mapping = JSON.parse(fs.readFileSync(path.join(__dirname,
       '../project-page-template/static/promotional-article/media-map.json'), 'utf8')).resources;
