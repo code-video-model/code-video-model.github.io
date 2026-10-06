@@ -22,7 +22,7 @@ const path = require('node:path');
     const base = 'http://127.0.0.1:18795/';
     await page.goto(base);
     assert.equal(await page.locator('#gallery .application-copy h2').innerText(), 'Scene Editing');
-    assert.equal(await page.getByRole('contentinfo').innerText(), 'Code Video Model @ 2026');
+    assert.equal(await page.getByRole('contentinfo').innerText(), 'Code Video Model © 2026');
     assert.equal(await page.getByRole('contentinfo').evaluate(node=>getComputedStyle(node).textAlign), 'center');
     assert.ok(await page.getByRole('contentinfo').evaluate(node=>{
       const style=getComputedStyle(node);
