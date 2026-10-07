@@ -149,4 +149,4 @@ Figure 2 中，修改路径点即可重新规划四足机器人的路线，同�
 
 **Code Video Model** 以可执行程序组织镜头设计，通过时序条件调度引导视觉生成，让结构编辑与外观合成能够在同一流程中协同完成。更多可视化结果详见[项目主页](https://code-video-model.github.io/)。
 
-<footer class="article-footer">Code Video Model @ 2026</footer>
+<footer class="article-footer">Code Video Model © 2026</footer>
