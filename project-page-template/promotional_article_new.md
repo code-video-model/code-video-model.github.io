@@ -69,15 +69,15 @@ Figure 2 中，修改路径点即可重新规划四足机器人的路线，同�
 <div class="figure-three-gif-grid" aria-label="Figure 3 程序化物理预演案例">
 <section class="figure-three-case">
 <h3>Newton's Cradle</h3>
-<figure class="figure-three-gif"><figcaption>Proxy Video</figcaption><div aria-label="牛顿摆的程序预演" class="figure-three-sync-gif figure-three-panel-proxy" role="img" style="--figure-three-sync:url('figure-03/cradle-sync.gif?v=b6a16684724e9bd6')"></div></figure>
-<figure class="figure-three-gif"><figcaption>w/o Proxy</figcaption><div aria-label="未使用程序预演引导的牛顿摆生成结果" class="figure-three-sync-gif figure-three-panel-without" role="img" style="--figure-three-sync:url('figure-03/cradle-sync.gif?v=b6a16684724e9bd6')"></div></figure>
-<figure class="figure-three-gif"><figcaption>w Proxy</figcaption><div aria-label="使用程序预演引导的牛顿摆生成结果" class="figure-three-sync-gif figure-three-panel-with" role="img" style="--figure-three-sync:url('figure-03/cradle-sync.gif?v=b6a16684724e9bd6')"></div></figure>
+<figure class="figure-three-gif"><figcaption>Proxy Video</figcaption><div aria-label="牛顿摆的程序预演" class="figure-three-sync-gif figure-three-panel-proxy" role="img" style="background-image:url('static/promotional-article/figure-03/cradle-sync.gif?v=b6a16684724e9bd6')"></div></figure>
+<figure class="figure-three-gif"><figcaption>w/o Proxy</figcaption><div aria-label="未使用程序预演引导的牛顿摆生成结果" class="figure-three-sync-gif figure-three-panel-without" role="img" style="background-image:url('static/promotional-article/figure-03/cradle-sync.gif?v=b6a16684724e9bd6')"></div></figure>
+<figure class="figure-three-gif"><figcaption>w Proxy</figcaption><div aria-label="使用程序预演引导的牛顿摆生成结果" class="figure-three-sync-gif figure-three-panel-with" role="img" style="background-image:url('static/promotional-article/figure-03/cradle-sync.gif?v=b6a16684724e9bd6')"></div></figure>
 </section>
 <section class="figure-three-case">
 <h3>Spring Recoil</h3>
-<figure class="figure-three-gif"><figcaption>Proxy Video</figcaption><div aria-label="弹簧回弹的程序预演" class="figure-three-sync-gif figure-three-panel-proxy" role="img" style="--figure-three-sync:url('figure-03/spring-sync.gif?v=9d36b530f564b5ac')"></div></figure>
-<figure class="figure-three-gif"><figcaption>w/o Proxy</figcaption><div aria-label="未使用程序预演引导的弹簧回弹生成结果" class="figure-three-sync-gif figure-three-panel-without" role="img" style="--figure-three-sync:url('figure-03/spring-sync.gif?v=9d36b530f564b5ac')"></div></figure>
-<figure class="figure-three-gif"><figcaption>w Proxy</figcaption><div aria-label="使用程序预演引导的弹簧回弹生成结果" class="figure-three-sync-gif figure-three-panel-with" role="img" style="--figure-three-sync:url('figure-03/spring-sync.gif?v=9d36b530f564b5ac')"></div></figure>
+<figure class="figure-three-gif"><figcaption>Proxy Video</figcaption><div aria-label="弹簧回弹的程序预演" class="figure-three-sync-gif figure-three-panel-proxy" role="img" style="background-image:url('static/promotional-article/figure-03/spring-sync.gif?v=9d36b530f564b5ac')"></div></figure>
+<figure class="figure-three-gif"><figcaption>w/o Proxy</figcaption><div aria-label="未使用程序预演引导的弹簧回弹生成结果" class="figure-three-sync-gif figure-three-panel-without" role="img" style="background-image:url('static/promotional-article/figure-03/spring-sync.gif?v=9d36b530f564b5ac')"></div></figure>
+<figure class="figure-three-gif"><figcaption>w Proxy</figcaption><div aria-label="使用程序预演引导的弹簧回弹生成结果" class="figure-three-sync-gif figure-three-panel-with" role="img" style="background-image:url('static/promotional-article/figure-03/spring-sync.gif?v=9d36b530f564b5ac')"></div></figure>
 </section>
 </div>
 

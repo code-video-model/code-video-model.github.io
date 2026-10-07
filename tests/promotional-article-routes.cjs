@@ -102,13 +102,13 @@ const { chromium } = require('playwright');
       "Newton's Cradle", 'Spring Recoil',
     ]);
     assert.deepEqual(await page.locator('.figure-three-sync-gif').evaluateAll(panels =>
-      panels.map(panel => panel.style.getPropertyValue('--figure-three-sync'))), [
-      "url('figure-03/cradle-sync.gif?v=b6a16684724e9bd6')",
-      "url('figure-03/cradle-sync.gif?v=b6a16684724e9bd6')",
-      "url('figure-03/cradle-sync.gif?v=b6a16684724e9bd6')",
-      "url('figure-03/spring-sync.gif?v=9d36b530f564b5ac')",
-      "url('figure-03/spring-sync.gif?v=9d36b530f564b5ac')",
-      "url('figure-03/spring-sync.gif?v=9d36b530f564b5ac')",
+      panels.map(panel => panel.style.backgroundImage)), [
+      "url(\"static/promotional-article/figure-03/cradle-sync.gif?v=b6a16684724e9bd6\")",
+      "url(\"static/promotional-article/figure-03/cradle-sync.gif?v=b6a16684724e9bd6\")",
+      "url(\"static/promotional-article/figure-03/cradle-sync.gif?v=b6a16684724e9bd6\")",
+      "url(\"static/promotional-article/figure-03/spring-sync.gif?v=9d36b530f564b5ac\")",
+      "url(\"static/promotional-article/figure-03/spring-sync.gif?v=9d36b530f564b5ac\")",
+      "url(\"static/promotional-article/figure-03/spring-sync.gif?v=9d36b530f564b5ac\")",
     ]);
     assert.ok(!newArticle.includes('figure-08-physics.png'));
     assert.equal(await page.locator('.ablation-video-panel').count(), 2);
