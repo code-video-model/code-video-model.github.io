@@ -13,26 +13,10 @@
 
 **Code Video Model** 借鉴<span class="brush-highlight">影视预演</span>，由 Coding Agent 将 Prompt 转化为 Three.js 程序，把几何布局、物体运动、相机轨迹和事件时序统一为可执行场景表示。代码不仅描述场景，也定义场景如何随时间演化，使不同控制要求能够在同一表示中协同编辑。程序渲染出的<span class="brush-highlight">预演视频（proxy video）</span>提供时空参考，参考图指定目标外观，视频模型据此补充几何细节、材质与光照。
 
-<div class="figure-one-video-grid" aria-label="Figure 1 视频案例">
-<figure class="application-card figure-one-card" data-case="figure-01-121">
-<div class="comparison-frame"><div class="application-video-pair">
-<figure><video aria-label="案例一 Three.js 程序预演" muted playsinline preload="metadata" src="static/promotional-article/figure-01/row1-threejs.mp4?v=cfd7f8a0c8bbd056"></video></figure>
-<figure><video aria-label="案例一 Code Video Model 生成结果" muted playsinline preload="metadata" src="static/promotional-article/figure-01/row1-generated.mp4?v=54595ff6ac15fa6a"></video></figure>
-</div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div><div class="pair-controls"><button aria-label="播放对照视频" class="pair-play" type="button">▶</button><input aria-label="视频对照进度" class="pair-seek" disabled max="1000" min="0" type="range" value="0"></div><p class="pair-status" role="status"></p>
+<figure class="composite-video-panel figure-one-composite" aria-label="Figure 1 三组同步视频案例">
+<div class="composite-heading-row"><span></span><div class="composite-column-labels composite-column-labels-two"><span>Three.js</span><span>Code Video Model</span></div></div>
+<div class="composite-row-layout"><div class="composite-row-labels composite-row-labels-three"><span>Tank Assault</span><span>Titan Attack</span><span>Double Pendulum</span></div><video aria-label="三组程序预演与生成结果同步对照" autoplay controls loop muted playsinline preload="metadata" src="static/promotional-article/composites/figure-01-grid.mp4?v=601477fb551bc5a1"></video></div>
 </figure>
-<figure class="application-card figure-one-card" data-case="figure-01-322">
-<div class="comparison-frame"><div class="application-video-pair">
-<figure><video aria-label="案例二 Three.js 程序预演" muted playsinline preload="metadata" src="static/promotional-article/figure-01/row2-threejs.mp4?v=574b265f28a42dca"></video></figure>
-<figure><video aria-label="案例二 Code Video Model 生成结果" muted playsinline preload="metadata" src="static/promotional-article/figure-01/row2-generated.mp4?v=31a478d7cbcd2966"></video></figure>
-</div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div><div class="pair-controls"><button aria-label="播放对照视频" class="pair-play" type="button">▶</button><input aria-label="视频对照进度" class="pair-seek" disabled max="1000" min="0" type="range" value="0"></div><p class="pair-status" role="status"></p>
-</figure>
-<figure class="application-card figure-one-card" data-case="figure-01-physical-pendulum">
-<div class="comparison-frame"><div class="application-video-pair">
-<figure><video aria-label="案例三 Three.js 程序预演" muted playsinline preload="metadata" src="static/promotional-article/figure-01/row3-threejs.mp4?v=14610905e9be25e6"></video></figure>
-<figure><video aria-label="案例三 Code Video Model 生成结果" muted playsinline preload="metadata" src="static/promotional-article/figure-01/row3-generated.mp4?v=4c0bc875cd2b7de5"></video></figure>
-</div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div><div class="pair-controls"><button aria-label="播放对照视频" class="pair-play" type="button">▶</button><input aria-label="视频对照进度" class="pair-seek" disabled max="1000" min="0" type="range" value="0"></div><p class="pair-status" role="status"></p>
-</figure>
-</div>
 
 *Figure 1｜程序预演与生成结果的对应关系。*
 
@@ -40,46 +24,30 @@
 
 Figure 2 中，修改路径点即可重新规划四足机器人的路线，同时保留其余场景设定。更新后的预演再引导视频生成相应的轨迹变化。
 
-<div class="figure-two-gif-grid" aria-label="Figure 2 程序化轨迹编辑案例">
+<div class="figure-two-unified" aria-label="Figure 2 程序化轨迹编辑案例">
 <div class="figure-two-headers"><div>Program (edited lines)</div><div>Proxy Video</div><div>Code Video Model</div></div>
-<div class="figure-two-case">
+<div class="figure-two-unified-body"><div class="figure-two-program-stack">
 <div class="figure-two-program"><pre><code>route=[v(-.75,6.75),
   v(-.75,4.6), v(-3.2,1.2),
   v(-2.9,-0.7), v(-2.4,-2.15),
   v(-0.4,-3.25), v(1.45,-3.9),
   v(2.65,-4.58), v(2.7,-5.06)];</code></pre></div>
-<figure aria-label="案例一 Proxy Video" class="figure-two-gif"><img alt="案例一的程序预演" decoding="async" loading="lazy" src="static/promotional-article/figure-02/row1-threejs.gif?v=86af6e25a46dec35"></figure>
-<figure aria-label="案例一 Code Video Model" class="figure-two-gif"><img alt="案例一 Code Video Model 生成结果" decoding="async" loading="lazy" src="static/promotional-article/figure-02/row1-generated.gif?v=6ac21841f2a639ed"></figure>
-</div>
-<div class="figure-two-case">
 <div class="figure-two-program"><pre><code>route=[v(-.75,6.75),v(-.75,4.6),
   v(0.4,3.3), v(2.5,3.0),
   v(4.3,2.3), v(5.35,0.4),
   v(5.05,-2.0), v(3.95,-3.9),
   v(2.75,-4.58), v(2.7,-5.06)];</code></pre></div>
-<figure aria-label="案例二 Proxy Video" class="figure-two-gif"><img alt="案例二的程序预演" decoding="async" loading="lazy" src="static/promotional-article/figure-02/row2-threejs.gif?v=9b4076461358ab83"></figure>
-<figure aria-label="案例二 Code Video Model" class="figure-two-gif"><img alt="案例二 Code Video Model 生成结果" decoding="async" loading="lazy" src="static/promotional-article/figure-02/row2-generated.gif?v=c123764de17b3d10"></figure>
-</div>
+</div><video aria-label="两组程序预演与 Code Video Model 结果同步对照" autoplay controls loop muted playsinline preload="metadata" src="static/promotional-article/composites/figure-02-grid.mp4?v=10fddf429af5acef"></video></div>
 </div>
 
 *Figure 2｜程序化轨迹编辑：程序代码、预演与 Code Video Model 生成结果。*
 
 同一表示还支持物体增删、尺度调整、场景替换和动作时序编辑。独立控制物体运动与相机的时间进程，可以实现动作冻结、相机继续环绕的“子弹时间”镜头。对于具有数学描述的物理过程，<span class="brush-highlight">程序可通过方程计算运动</span>。双摆、弹簧回弹和牛顿摆等案例，以计算得到的动态预演为视频生成提供物理引导。
 
-<div class="figure-three-gif-grid" aria-label="Figure 3 程序化物理预演案例">
-<section class="figure-three-case">
-<h3>Newton's Cradle</h3>
-<figure class="figure-three-gif"><figcaption>Proxy Video</figcaption><div aria-label="牛顿摆的程序预演" class="figure-three-sync-gif figure-three-panel-proxy" role="img" style="background-image:url('static/promotional-article/figure-03/cradle-sync.gif?v=b6a16684724e9bd6')"></div></figure>
-<figure class="figure-three-gif"><figcaption>w/o Proxy</figcaption><div aria-label="未使用程序预演引导的牛顿摆生成结果" class="figure-three-sync-gif figure-three-panel-without" role="img" style="background-image:url('static/promotional-article/figure-03/cradle-sync.gif?v=b6a16684724e9bd6')"></div></figure>
-<figure class="figure-three-gif"><figcaption>w Proxy</figcaption><div aria-label="使用程序预演引导的牛顿摆生成结果" class="figure-three-sync-gif figure-three-panel-with" role="img" style="background-image:url('static/promotional-article/figure-03/cradle-sync.gif?v=b6a16684724e9bd6')"></div></figure>
-</section>
-<section class="figure-three-case">
-<h3>Spring Recoil</h3>
-<figure class="figure-three-gif"><figcaption>Proxy Video</figcaption><div aria-label="弹簧回弹的程序预演" class="figure-three-sync-gif figure-three-panel-proxy" role="img" style="background-image:url('static/promotional-article/figure-03/spring-sync.gif?v=9d36b530f564b5ac')"></div></figure>
-<figure class="figure-three-gif"><figcaption>w/o Proxy</figcaption><div aria-label="未使用程序预演引导的弹簧回弹生成结果" class="figure-three-sync-gif figure-three-panel-without" role="img" style="background-image:url('static/promotional-article/figure-03/spring-sync.gif?v=9d36b530f564b5ac')"></div></figure>
-<figure class="figure-three-gif"><figcaption>w Proxy</figcaption><div aria-label="使用程序预演引导的弹簧回弹生成结果" class="figure-three-sync-gif figure-three-panel-with" role="img" style="background-image:url('static/promotional-article/figure-03/spring-sync.gif?v=9d36b530f564b5ac')"></div></figure>
-</section>
-</div>
+<figure class="composite-video-panel figure-three-composite" aria-label="Figure 3 程序化物理预演案例">
+<div class="composite-heading-row"><span></span><div class="composite-column-labels composite-column-labels-three"><span>Proxy Video</span><span>w/o Proxy</span><span>w Proxy</span></div></div>
+<div class="composite-row-layout"><div class="composite-row-labels composite-row-labels-two"><span>Newton's Cradle</span><span>Spring Recoil</span></div><video aria-label="牛顿摆与弹簧回弹的六组同步结果" autoplay controls loop muted playsinline preload="metadata" src="static/promotional-article/composites/figure-03-grid.mp4?v=11c2dc9d098c1f5f"></video></div>
+</figure>
 
 *Figure 3｜牛顿摆与弹簧回弹：程序预演及有无预演引导的生成结果。*
 
@@ -88,10 +56,9 @@ Figure 2 中，修改路径点即可重新规划四足机器人的路线，同�
 参考驱动的视频模型（R2V）可以将程序预演（proxy video）转化为具有真实感的视频，但面临一个关键难点：<span class="brush-highlight brush-highlight-wrap">程序预演的低多边形风格约束过强，容易使生成视频也呈现低多边形外观，从而失去真实感。</span>为厘清结构约束与外观生成之间的关系，研究在保持 MiniMax-H3 参数冻结的条件下，系统考察条件组成、介入阶段、持续时长及原生通路，并结合内部特征分析，追踪结构与外观信息如何影响生成。
 
 <div class="ablation-video-panel" aria-label="Figure 4 Proxy Video 与 Direct R2V 对照">
-<div class="ablation-media-grid ablation-media-grid-two">
-<figure><figcaption>Proxy Video</figcaption><video aria-label="Proxy Video" muted playsinline preload="metadata" src="static/promotional-article/r2v-ablation/row2-proxy.mp4?v=6d4990f6cba4131a"></video></figure>
-<figure><figcaption>Direct R2V</figcaption><video aria-label="Direct R2V 生成结果" muted playsinline preload="metadata" src="static/promotional-article/r2v-ablation/row2-direct-r2v.mp4?v=972b1de699407340"></video></figure>
-</div><div class="ablation-controls"><button aria-label="播放消融对照视频" class="ablation-play" type="button">▶</button><input aria-label="消融对照视频进度" class="ablation-seek" disabled max="1000" min="0" type="range" value="0"></div><p class="ablation-status" role="status"></p>
+<div class="ablation-composite-labels ablation-composite-labels-two"><span>Proxy Video</span><span>Direct R2V</span></div>
+<div class="ablation-media-composite ablation-media-composite-two"><video aria-label="Proxy Video 与 Direct R2V 合成结果" muted playsinline preload="metadata" src="static/promotional-article/r2v-ablation/row2-comparison.mp4?v=16b8d55673616da4"></video></div>
+<div class="ablation-controls"><button aria-label="播放消融对照视频" class="ablation-play" type="button">▶</button><input aria-label="消融对照视频进度" class="ablation-seek" disabled max="1000" min="0" type="range" value="0"></div><p class="ablation-status" role="status"></p>
 </div>
 
 *Figure 4｜Proxy Video 与 Direct R2V 的生成结果对照。*
@@ -127,85 +94,31 @@ Figure 2 中，修改路径点即可重新规划四足机器人的路线，同�
 与扰动输入或裁减通路不同，这一范式以条件的作用时序协调结构与外观。视频模型保持冻结，无需额外训练控制模块。
 
 <div class="ablation-video-panel" aria-label="Figure 9 Proxy Video、Direct R2V 与 Code Video Model 消融对照">
-<div class="ablation-media-grid ablation-media-grid-three">
-<figure><figcaption>Proxy Video</figcaption><video aria-label="消融实验 Proxy Video" muted playsinline preload="metadata" src="static/promotional-article/r2v-ablation/row1-proxy.mp4?v=a1d128ed64f19e89"></video></figure>
-<figure><figcaption>Direct R2V</figcaption><video aria-label="消融实验 Direct R2V 结果" muted playsinline preload="metadata" src="static/promotional-article/r2v-ablation/row1-direct-r2v.mp4?v=e85c04f4c3b330e6"></video></figure>
-<figure><figcaption>Code Video Model</figcaption><video aria-label="消融实验 Code Video Model 结果" muted playsinline preload="metadata" src="static/promotional-article/r2v-ablation/row1-code-video-model.mp4?v=2bdfbe4b1b132f43"></video></figure>
-</div><div class="ablation-controls"><button aria-label="播放消融对照视频" class="ablation-play" type="button">▶</button><input aria-label="消融对照视频进度" class="ablation-seek" disabled max="1000" min="0" type="range" value="0"></div><p class="ablation-status" role="status"></p>
+<div class="ablation-composite-labels ablation-composite-labels-three"><span>Proxy Video</span><span>Direct R2V</span><span>Code Video Model</span></div>
+<div class="ablation-media-composite ablation-media-composite-three"><video aria-label="Proxy Video、Direct R2V 与 Code Video Model 合成结果" muted playsinline preload="metadata" src="static/promotional-article/r2v-ablation/row1-comparison.mp4?v=fe4682bf65990b82"></video></div>
+<div class="ablation-controls"><button aria-label="播放消融对照视频" class="ablation-play" type="button">▶</button><input aria-label="消融对照视频进度" class="ablation-seek" disabled max="1000" min="0" type="range" value="0"></div><p class="ablation-status" role="status"></p>
 </div>
 
 *Figure 9｜Proxy Video、Direct R2V 与 Code Video Model 的生成结果对照。*
 
 ## 03 跨场景应用：从程序约束到多样化视觉生成
 
-我们的算法支持丰富的业务场景，包括 Anime、Bullet Time、Gaming、Scene Editing、Robotics & Trajectory Control、Architectural Cinematics、Product Cinematography、Physical Grounding 和 3D / 4D Reconstruction。这些案例覆盖动作与相机的独立时序、场景结构编辑、主体与轨迹变化，以及物理过程表达，展示同一方法在不同控制需求与视觉风格下的表现。每组左侧为 Three.js 预演，右侧为生成视频，可同步播放并拖动分界线进行对照。
+我们的算法支持丰富的业务场景，包括 Anime、Bullet Time、Gaming、Scene Editing、Robotics & Trajectory Control、Architectural Cinematics、Product Cinematography、Physical Grounding 和 3D / 4D Reconstruction。这些案例覆盖动作与相机的独立时序、场景结构编辑、主体与轨迹变化，以及物理过程表达，展示同一方法在不同控制需求与视觉风格下的表现。常规应用逐行展示 Three.js 预演与 Code Video Model 生成结果；Scene Editing 和 Robotics & Trajectory Control 则同时展示编辑前后的预演与生成结果。
 
-<div class="application-grid">
-<figure class="application-card">
-<h3>Anime</h3>
-<div class="comparison-frame"><div class="application-video-pair">
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-anime-threejs.jpg?v=7699af087ce92142" src="static/project-page-cases/anime/anime-hotel/threejs-b0afbeca4b711b53.mp4?v=b0afbeca4b711b53" aria-label="动画 Three.js 预演"></video></figure>
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-anime.jpg?v=18d25a94c8cc4219" src="static/project-page-cases/anime/anime-hotel/Anime_01.mp4?v=a21781b4e0aed258" aria-label="动画应用：酒店大厅角色动作"></video></figure>
-</div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div>
+<div class="application-composite-grid">
+<figure class="composite-video-panel application-composite application-overview-composite" aria-label="七类应用的同步对照">
+<div class="composite-heading-row"><span></span><div class="composite-column-labels composite-column-labels-two"><span>Three.js</span><span>Code Video Model</span></div></div>
+<div class="composite-row-layout"><div class="composite-row-labels composite-row-labels-seven"><span>Anime</span><span>Bullet Time</span><span>Gaming</span><span>Architectural<br>Cinematics</span><span>Product<br>Cinematography</span><span>Physical<br>Grounding</span><span>3D / 4D<br>Reconstruction</span></div><video aria-label="七类应用的程序预演与生成结果逐行同步对照视频" autoplay controls loop muted playsinline preload="metadata" src="static/promotional-article/composites/applications-overview.mp4?v=6dce9e4734c390c8"></video></div>
 </figure>
-<figure class="application-card">
-<h3>Bullet Time</h3>
-<div class="comparison-frame"><div class="application-video-pair">
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-bullet-time-threejs.jpg?v=1499541ef4530938" src="static/project-page-cases/experiment-inputs/2e39cbc22a4325da26c3ce79bfa6939aafb839776d288c49802c7a5064ca76e3/threejs.mp4?v=2e39cbc22a4325da" aria-label="子弹时间 Three.js 预演"></video></figure>
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-bullet-time.jpg?v=da0c6af4413de690" src="static/project-page-cases/selected-0907-seedvr2-2x/bullet-time/Bullet_Time_02.mp4?v=d0a8579dcd22aab2" aria-label="子弹时间应用：摩托车镜头"></video></figure>
-</div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div>
+
+*Figure 10｜多场景应用中的程序预演与 Code Video Model 生成结果对照。*
+
+<figure class="composite-video-panel application-composite application-composite-edits" aria-label="Scene Editing 与 Robotics 同步对照">
+<div class="composite-heading-row"><span></span><div class="composite-column-labels composite-column-labels-four"><span>Original Three.js</span><span>Original Result</span><span>Edited Three.js</span><span>Edited Result</span></div></div>
+<div class="composite-row-layout"><div class="composite-row-labels composite-row-labels-two"><span>Scene Editing</span><span>Robotics &amp;<br>Trajectory Control</span></div><video aria-label="场景编辑与机器人轨迹控制的原始及编辑结果同步对照视频" autoplay controls loop muted playsinline preload="metadata" src="static/promotional-article/composites/applications-edits.mp4?v=baeb15ca5b83ea62"></video></div>
 </figure>
-<figure class="application-card">
-<h3>Gaming</h3>
-<div class="comparison-frame"><div class="application-video-pair">
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-gaming-threejs.jpg?v=9db26f8958acac1c" src="static/project-page-cases/threejs/first-person-games/Gaming_04.mp4?v=1c03ca919eefbf43" aria-label="第一人称游戏 Three.js 预演"></video></figure>
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-gaming.jpg?v=282d30569ba4e4be" src="static/project-page-cases/code-video-model/first-person-games/Gaming_04.mp4?v=0c5f036db8d244d7" aria-label="游戏应用：第一人称森林行进"></video></figure>
-</div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div>
-</figure>
-<figure class="application-card">
-<h3>Scene Editing</h3>
-<div class="pair-variants" role="group" aria-label="Scene Editing"><button type="button" class="pair-edit-toggle" data-edit-label="Replace Arch with Doorway" aria-pressed="false">Replace Arch with Doorway</button></div>
-<div class="comparison-frame"><div class="application-video-pair">
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-scene-editing-threejs.jpg?v=bdb45d82f78f8bee" src="static/project-page-cases/experiment-inputs/143a3af92bb9dfb4b4dec3f10bfe7e7b9ad960b3fcc6be40b7f01bdb386ffc26/threejs.mp4?v=143a3af92bb9dfb4" data-src-a="static/project-page-cases/experiment-inputs/143a3af92bb9dfb4b4dec3f10bfe7e7b9ad960b3fcc6be40b7f01bdb386ffc26/threejs.mp4?v=143a3af92bb9dfb4" data-src-b="static/project-page-cases/experiment-inputs/d7214e64d64fe2bf0322bb08bf850f2de840c483164f642a76091e0eb0039d15/threejs.mp4?v=d7214e64d64fe2bf" data-poster-a="static/promotional-article/assets/application-scene-editing-threejs.jpg?v=bdb45d82f78f8bee" data-poster-b="static/promotional-article/assets/application-scene-editing-after-threejs.jpg?v=3766b1b314388b47" aria-label="场景与环境编辑 Three.js 预演"></video></figure>
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-scene-editing.jpg?v=ab8c5effeae0de7c" src="static/project-page-cases/experiment-group23-image-group23-4-v15/scene-world-editing/Scene_World_Editing_03_A.mp4?v=5337cc70270fd4ff" data-src-a="static/project-page-cases/experiment-group23-image-group23-4-v15/scene-world-editing/Scene_World_Editing_03_A.mp4?v=5337cc70270fd4ff" data-src-b="static/project-page-cases/experiment-group23-image-group23-4-v15/scene-world-editing/Scene_World_Editing_03_B.mp4?v=6efcee80e93deef2" data-poster-a="static/promotional-article/assets/application-scene-editing.jpg?v=ab8c5effeae0de7c" data-poster-b="static/promotional-article/assets/application-scene-editing-after-generated.jpg?v=6c31d52fb90ddd41" aria-label="场景与环境编辑应用"></video></figure>
-</div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div>
-</figure>
-<figure class="application-card">
-<h3>Robotics & Trajectory Control</h3>
-<div class="pair-variants" role="group" aria-label="Robotics & Trajectory Control"><button type="button" class="pair-edit-toggle" data-edit-label="Use Quadruped Robot" aria-pressed="false">Use Quadruped Robot</button></div>
-<div class="comparison-frame"><div class="application-video-pair">
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-robotics-threejs.jpg?v=e7d91b70e7b412fc" src="static/project-page-cases/experiment-inputs/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834/threejs.mp4?v=a1d128ed64f19e89" data-src-a="static/project-page-cases/experiment-inputs/a1d128ed64f19e89a83f7c788ac3abc26b6b78f9951f4984d63d19854695d834/threejs.mp4?v=a1d128ed64f19e89" data-src-b="static/project-page-cases/experiment-inputs/254888291a343e47b34f855af274a89850641ef2aeb01e65f742e73f9fbedf3a/threejs.mp4?v=254888291a343e47" data-poster-a="static/promotional-article/assets/application-robotics-threejs.jpg?v=e7d91b70e7b412fc" data-poster-b="static/promotional-article/assets/application-robotics-after-threejs.jpg?v=90ac692a6f796b48" aria-label="机器人与轨迹控制 Three.js 预演"></video></figure>
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-robotics.jpg?v=0ce3e93b9dc916f2" src="static/project-page-cases/experiment-pairs/Robotics_Trajectory_Control_03/Robotics_Trajectory_Control_03_A.mp4?v=2bdfbe4b1b132f43" data-src-a="static/project-page-cases/experiment-pairs/Robotics_Trajectory_Control_03/Robotics_Trajectory_Control_03_A.mp4?v=2bdfbe4b1b132f43" data-src-b="static/project-page-cases/experiment-pairs/Robotics_Trajectory_Control_03/Robotics_Trajectory_Control_03_B.mp4?v=b8a23ca6efc40aba" data-poster-a="static/promotional-article/assets/application-robotics.jpg?v=0ce3e93b9dc916f2" data-poster-b="static/promotional-article/assets/application-robotics-after-generated.jpg?v=0488c98ffd7c84c3" aria-label="机器人与轨迹控制应用"></video></figure>
-</div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div>
-</figure>
-<figure class="application-card">
-<h3>Architectural Cinematics</h3>
-<div class="comparison-frame"><div class="application-video-pair">
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-architecture-threejs.jpg?v=8ff24a5510803f9d" src="static/project-page-cases/threejs/architectural-cinematics/Architectural_Cinematics_01.mp4?v=2a282ae58fdab6a9" aria-label="建筑运镜 Three.js 预演"></video></figure>
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-architecture.jpg?v=e6e2175c482be304" src="static/project-page-cases/selected-0907-seedvr2-2x/architectural-cinematics/Architectural_Cinematics_01.mp4?v=5bc5de70220a0c80" aria-label="建筑应用：室内空间运镜"></video></figure>
-</div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div>
-</figure>
-<figure class="application-card">
-<h3>Product Cinematography</h3>
-<div class="comparison-frame"><div class="application-video-pair">
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-product-threejs.jpg?v=9efb24bacce99dfb" src="static/project-page-cases/experiment-inputs/0a61f67c5cbaffe36ab3e673bd22f2728ba9968f3cc0fad8738f02e5b13af29b/threejs.mp4?v=0a61f67c5cbaffe3" aria-label="产品运镜 Three.js 预演"></video></figure>
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-product.jpg?v=8a7b09b4ee2d76ed" src="static/project-page-cases/experiment-threejs-v2-image-group19-4-v17/product-cinematography/Product_Cinematography_01.mp4?v=730d98dd23014052" aria-label="产品运镜应用"></video></figure>
-</div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div>
-</figure>
-<figure class="application-card">
-<h3>Physical Grounding</h3>
-<div class="comparison-frame"><div class="application-video-pair">
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-physics-threejs.jpg?v=9522fc743dbacbab" src="static/project-page-cases/threejs/physical-grounding/Physical_Grounding_01.mp4?v=802dcff5b06015d9" aria-label="物理过程引导 Three.js 预演"></video></figure>
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-physics.jpg?v=8add2cd8d476e36f" src="static/project-page-cases/code-video-model/physical-grounding/Physical_Grounding_01.mp4?v=21eb15899b0e6050" aria-label="物理过程引导应用"></video></figure>
-</div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div>
-</figure>
-<figure class="application-card">
-<h3>3D / 4D Reconstruction</h3>
-<div class="comparison-frame"><div class="application-video-pair">
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-reconstruction-threejs.jpg?v=50ee44f1fac53ed7" src="static/project-page-cases/threejs/reconstruction-3d-4d/astra-train-c822e0aa0db4.mp4?v=c822e0aa0db4fdce" aria-label="3D 与 4D 重建 Three.js 预演"></video></figure>
-<figure><video controls muted playsinline preload="none" poster="static/promotional-article/assets/application-reconstruction.jpg?v=c87d5cee2ff314f7" src="static/project-page-cases/code-video-model/reconstruction-3d-4d/3D_4D_Reconstruction_08.mp4?v=785f39faf08a3516" aria-label="3D 与 4D 重建应用"></video></figure>
-</div><div class="pair-labels"><span>Three.js</span><span>Code Video Model</span></div></div>
-</figure>
+
+*Figure 11｜Scene Editing 与 Robotics &amp; Trajectory Control 的原始及编辑结果对照。*
 </div>
 
 **Code Video Model** 以可执行程序组织镜头设计，通过时序条件调度引导视觉生成，让结构编辑与外观合成能够在同一流程中协同完成。更多可视化结果详见[项目主页](https://code-video-model.github.io/)。
