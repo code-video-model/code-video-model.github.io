@@ -6,9 +6,8 @@
   <meta name="description" content="Code Video Model：可执行场景表示、免训练条件调度与应用展示。">
   <meta name="robots" content="noindex, nofollow">
   <title>视频生成也能代码驱动了! Code Video Model 它来了!</title>
-  <link rel="stylesheet" href="static/promotional-article/news_new.css?v=52d4d54f81acbbe0">
+  <link rel="stylesheet" href="static/promotional-article/news_new.css?v=7a300b9acd9dcb3c">
   <script src="static/promotional-article/news.js?v=ae284b98b696e6c1" defer></script>
-  <script src="static/promotional-article/ablation-player.js?v=7670f10f4ceb7a1a" defer></script>
 </head>
 <body>
   <main class="page-layout">
@@ -54,8 +53,7 @@
 <p>参考驱动的视频模型（R2V）可以将程序预演（proxy video）转化为具有真实感的视频，但面临一个关键难点：<span class="brush-highlight brush-highlight-wrap">程序预演的低多边形风格约束过强，容易使生成视频也呈现低多边形外观，从而失去真实感。</span>为厘清结构约束与外观生成之间的关系，研究在保持 MiniMax-H3 参数冻结的条件下，系统考察条件组成、介入阶段、持续时长及原生通路，并结合内部特征分析，追踪结构与外观信息如何影响生成。</p>
 <div class="ablation-video-panel" aria-label="Figure 4 Proxy Video 与 Direct R2V 对照">
 <div class="ablation-composite-labels ablation-composite-labels-two"><span>Proxy Video</span><span>Direct R2V</span></div>
-<div class="ablation-media-composite ablation-media-composite-two"><video aria-label="Proxy Video 与 Direct R2V 合成结果" muted="" playsinline="" preload="metadata" src="static/promotional-article/r2v-ablation/row2-comparison.mp4?v=16b8d55673616da4"></video></div>
-<div class="ablation-controls"><button aria-label="播放消融对照视频" class="ablation-play" type="button">▶</button><input aria-label="消融对照视频进度" class="ablation-seek" disabled="" max="1000" min="0" type="range" value="0"/></div><p class="ablation-status" role="status"></p>
+<div class="ablation-media-composite ablation-media-composite-two"><video aria-label="Proxy Video 与 Direct R2V 合成结果" autoplay="" controls="" loop="" muted="" playsinline="" preload="metadata" src="static/promotional-article/r2v-ablation/row2-comparison.mp4?v=16b8d55673616da4"></video></div>
 </div>
 <p><em>Figure 4｜Proxy Video 与 Direct R2V 的生成结果对照。</em></p>
 <p>时间条件分析（Temporal Conditioning）表明，预演的控制效果不仅取决于是否提供条件，还取决于其参与生成的阶段。早期介入不足会削弱结构跟随，等时长的后期引导也难以弥补，而持续施加预演又会增加合成外观的保留。加噪对照则显示，抑制预演外观可能同时损伤几何与运动信息，说明单纯削弱输入难以解决结构保持与外观生成之间的矛盾。</p>
@@ -75,8 +73,7 @@
 <p>与扰动输入或裁减通路不同，这一范式以条件的作用时序协调结构与外观。视频模型保持冻结，无需额外训练控制模块。</p>
 <div class="ablation-video-panel" aria-label="Figure 9 Proxy Video、Direct R2V 与 Code Video Model 消融对照">
 <div class="ablation-composite-labels ablation-composite-labels-three"><span>Proxy Video</span><span>Direct R2V</span><span>Code Video Model</span></div>
-<div class="ablation-media-composite ablation-media-composite-three"><video aria-label="Proxy Video、Direct R2V 与 Code Video Model 合成结果" muted="" playsinline="" preload="metadata" src="static/promotional-article/r2v-ablation/row1-comparison.mp4?v=fe4682bf65990b82"></video></div>
-<div class="ablation-controls"><button aria-label="播放消融对照视频" class="ablation-play" type="button">▶</button><input aria-label="消融对照视频进度" class="ablation-seek" disabled="" max="1000" min="0" type="range" value="0"/></div><p class="ablation-status" role="status"></p>
+<div class="ablation-media-composite ablation-media-composite-three"><video aria-label="Proxy Video、Direct R2V 与 Code Video Model 合成结果" autoplay="" controls="" loop="" muted="" playsinline="" preload="metadata" src="static/promotional-article/r2v-ablation/row1-comparison.mp4?v=fe4682bf65990b82"></video></div>
 </div>
 <p><em>Figure 9｜Proxy Video、Direct R2V 与 Code Video Model 的生成结果对照。</em></p>
 <h2 id="section-3">03 跨场景应用：从程序约束到多样化视觉生成</h2>

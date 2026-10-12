@@ -128,15 +128,9 @@ h1 { margin: 0 0 32px; font-size: 30px; line-height: 1.5; font-weight: 650; lett
 .ablation-composite-labels-three { grid-template-columns: repeat(3,minmax(0,1fr)); }
 .ablation-composite-labels span { min-height: 30px; padding: 0 4px 7px; color: #31383d; font: 600 12px/1.25 Georgia, "Times New Roman", serif; text-align: center; }
 .ablation-media-composite { margin: 0; }
-.article-body .ablation-media-composite video { width: 100%; object-fit: cover; margin: 0; border: 1px solid #e0e4e5; background: #081019; pointer-events: none; }
+.article-body .ablation-media-composite video { width: 100%; object-fit: cover; margin: 0; border: 1px solid #e0e4e5; background: #081019; }
 .article-body .ablation-media-composite-two video { aspect-ratio: 32/9; }
 .article-body .ablation-media-composite-three video { aspect-ratio: 16/3; }
-.ablation-controls { display: flex; align-items: center; gap: 12px; padding: 12px 0; }
-.ablation-play { flex-shrink: 0; width: 40px; height: 34px; padding: 0; border: 1px solid #d3dedd; border-radius: 4px; background: white; font: 16px/1 system-ui,sans-serif; }
-.ablation-play:disabled { opacity: .6; cursor: wait; }
-.ablation-seek { min-width: 0; flex: 1; accent-color: #258e87; cursor: pointer; }
-.article-body .ablation-status { margin: 0 0 10px; color: #a03636; font-size: 13px; line-height: 1.7; }
-.ablation-status:empty { display: none; }
 .image-viewer { width: min(1500px,96vw); max-width: 96vw; max-height: 94vh; padding: 0; border: 0; color: #222629; background: white; border-radius: 3px; }
 .image-viewer::backdrop { background: #121918d9; }
 .viewer-toolbar { display: flex; justify-content: flex-end; gap: 12px; align-items: center; padding: 13px 20px; font-size: 13px; border-bottom: 1px solid #eceeee; }
@@ -179,7 +173,6 @@ body:has(dialog[open]) { overflow: hidden; }
   .ablation-media-grid figcaption { min-height: 28px; padding-inline: 1px; font-size: 9px; }
   .ablation-composite-labels { gap: 5px; }
   .ablation-composite-labels span { min-height: 28px; padding-inline: 1px; font-size: 9px; }
-  .ablation-controls { gap: 8px; }
   .viewer-image { padding: 8px; }
   .viewer-caption { padding: 0 14px 14px; display: block; }
 }
